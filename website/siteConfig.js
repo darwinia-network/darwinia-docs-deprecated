@@ -5,9 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// See https://docusaurus.io/docs/site-config for all the possible
-// site configuration options.
-
 // List of projects/orgs using your project for the users page.
 const users = [{
   caption: 'User1',
@@ -21,15 +18,13 @@ const users = [{
 const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
   tagline: 'Darwinia Documentation',
-  url: 'https://alexchien.git', // Your website URL
-  baseUrl: '/docusaorus/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  url: 'https://alexchien.github.io/docusaorus', // https://docs.darwinia.network
+  baseUrl: '/docusaorus/', // Base URL for your project, /
+  editUrl: 'https://github.com/AlexChien/docusaorus/edit/master/docs/', //https://github.com/darwinia/docs/edit/master/docs/
 
   // Used for publishing and more
-  projectName: 'docusaorus',
-  organizationName: 'AlexChien',
+  projectName: 'docusaorus', //docs
+  organizationName: 'AlexChien', //darwinia
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -42,18 +37,21 @@ const siteConfig = {
     { blog: true, label: 'Blog' },
   ],
 
+  disableHeaderTitle: true,
+  disableTitleTagline: false,
+
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/logo.png',
+  footerIcon: 'img/logo.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#5a66a3',
-    secondaryColor: '#3e4772',
+    primaryColor: '#3a30dd', //'#5a66a3',
+    secondaryColor: '#fe3876', //'#3e4772',
   },
 
   /* Custom fonts for website */
@@ -71,7 +69,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Darwinia Network`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -85,10 +83,26 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+  scrollToTop: true,
+  scrollToTopOptions: {
+    zIndex: 100,
+  },
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
+  twitter: true,
+  twitterUsername: "DarwiniaNetwork",
   twitterImage: 'img/undraw_tweetstorm.svg',
+
+  fonts: {
+    myFont: [
+      'Rajdhani', 'Rajdhani-Regular', 'Rajdhani-SemiBold',
+      "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif"
+      // 'Rajdhani', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'
+    ]
+  },
+
+
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
@@ -98,7 +112,9 @@ const siteConfig = {
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
+
+  gaTrackingId: 'UA-',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

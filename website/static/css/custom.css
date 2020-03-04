@@ -4,20 +4,146 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
+
 /* your custom css */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+
+/**
+ * Minified by jsDelivr using clean-css v4.2.1.
+ * Original file: /npm/typeface-rajdhani@0.0.72/index.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+
+@font-face {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: local('Rajdhani Light '), local('Rajdhani-Light'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-300.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-300.woff) format('woff')
 }
 
-@media only screen and (min-width: 1024px) {
+@font-face {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Rajdhani Regular '), local('Rajdhani-Regular'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-400.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-400.woff) format('woff')
 }
 
-@media only screen and (max-width: 1023px) {
+@font-face {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local('Rajdhani Medium '), local('Rajdhani-Medium'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-500.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-500.woff) format('woff')
 }
 
-@media only screen and (min-width: 1400px) {
+@font-face {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('Rajdhani SemiBold '), local('Rajdhani-SemiBold'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-600.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-600.woff) format('woff')
 }
 
-@media only screen and (min-width: 1500px) {
+@font-face {
+  font-family: Rajdhani;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local('Rajdhani Bold '), local('Rajdhani-Bold'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-700.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/typeface-rajdhani@0.0.72/files/rajdhani-latin-700.woff) format('woff')
 }
+
+
+/*# sourceMappingURL=/sm/fefd717b316ecaba52606d3a77447ccd80a0e8ea1b6a7c85dd3ba897202fc99f.map */
+
+.fixedHeaderContainer {
+  background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
+  padding: .5rem 0px;
+}
+
+.fixedHeaderContainer header {
+  font-family: $myFont;
+  font-size: 20px;
+}
+
+.fixedHeaderContainer header img {
+  height: auto;
+  width: 242px;
+}
+
+.wrapper {
+  padding: 0.5rem 40px;
+}
+
+.navigationSlider .slidingNav ul li>a:focus,
+.navigationSlider .slidingNav ul li a {
+  font-weight: 500;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
+}
+
+.navigationSlider .slidingNav ul li.siteNavItemActive>a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive>a {
+  font-weight: 500;
+  margin-bottom: 0;
+  background: #fff;
+  border-radius: 18px;
+  color: #3d30dd;
+  padding: 3px 20px;
+}
+
+.navigationSlider .slidingNav ul li>a:hover {
+  color: #ddd;
+  background: none;
+}
+
+.nav-footer {
+  background: #201550;
+}
+
+.nav-footer .sitemap h5 {
+  height: 45px;
+}
+
+.nav-footer .sitemap .nav-home {
+  width: auto;
+  height: 45px;
+  opacity: 1;
+  height: 45px;
+  display: block;
+  padding: inherit;
+  margin: 0 0 10px;
+}
+
+.nav-footer .sitemap .share-links a {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-footer .sitemap .share-links img {
+  width: 25px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#back-to-top {
+  background: #fe3876;
+}
+
+.button:hover {
+  background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 1500px) {}
