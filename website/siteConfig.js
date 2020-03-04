@@ -22,7 +22,7 @@ const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
   tagline: 'Darwinia Documentation',
   url: 'https://alexchien.git', // Your website URL
-  baseUrl: '/docusaorus', // Base URL for your project */
+  baseUrl: '/docusaorus/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
