@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: Latin-ish Updated 2
+title: Latin-ish Updated 3
 sidebar_label: Example Page Update
 ---
 
