@@ -1,6 +1,6 @@
 {
   "homepage": "https://docs.darwinia.network",
-  "license": "GNU General Public License v3.0",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
