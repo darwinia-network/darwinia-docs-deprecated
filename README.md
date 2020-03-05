@@ -1,4 +1,5 @@
-![Travis Build Status]([https://link](https://travis-ci.com/AlexChien/docusaorus.svg?branch=master))
+![Travis Build Status](https://travis-ci.com/AlexChien/docusaorus.svg?branch=master)
+
 
 
 # Darwinia Documentation
