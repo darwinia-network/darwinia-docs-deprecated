@@ -21,10 +21,13 @@ const siteConfig = {
   url: 'https://alexchien.github.io/docusaorus', // https://docs.darwinia.network
   baseUrl: '/docusaorus/', // Base URL for your project, /
   editUrl: 'https://github.com/AlexChien/docusaorus/edit/master/docs/', //https://github.com/darwinia/docs/edit/master/docs/
+  repoUrl: 'https://github.com/darwinia-network/darwinia',
 
   // Used for publishing and more
   projectName: 'docusaorus', //docs
   organizationName: 'AlexChien', //darwinia
+  // cname: 'docs.darwinia.network',
+
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -35,6 +38,7 @@ const siteConfig = {
     { doc: 'doc4', label: 'API' },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' },
+    { languages: true },
   ],
 
   disableHeaderTitle: true,
