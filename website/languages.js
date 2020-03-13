@@ -5,8 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const languages = [
-  {
+const languages = [{
     enabled: true,
     name: 'English',
     tag: 'en',
@@ -172,10 +171,10 @@ const languages = [
     tag: 'vi',
   },
   {
-    enabled: false,
+    enabled: true,
     name: '中文',
     tag: 'zh-CN',
   },
-  {enabled: false, name: '繁體中文', tag: 'zh-TW'},
+  { enabled: false, name: '繁體中文', tag: 'zh-TW' },
 ];
 module.exports = languages;
