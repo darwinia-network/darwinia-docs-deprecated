@@ -58,7 +58,7 @@
     padding: .5rem 0px;
   }
   
-  .fixedHeaderContainer header {
+  .languages-icon {
     font-family: $myFont;
     font-size: 20px;
   }
