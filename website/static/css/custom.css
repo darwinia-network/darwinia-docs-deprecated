@@ -166,6 +166,14 @@
     background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
   }
   
+  article p img {
+    width: 100%;
+  }
+  
+  .onPageNav:empty {
+    display: none;
+  }
+  
   @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
   
   @media only screen and (min-width: 1024px) {
@@ -174,6 +182,9 @@
       max-width: 1100px;
       padding: 0.5rem 40px
     } */
+    .blog .wrapper {
+      max-width: 1400px;
+    }
   }
   
   @media only screen and (max-width: 1023px) {}

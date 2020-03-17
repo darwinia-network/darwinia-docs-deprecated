@@ -4,7 +4,7 @@ author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
-![](assets/doc15-1.jpeg)1
+![](assets/doc15-1.jpeg)
 
 Web3 Foundation announced a new list of W3F Grants for its funding plan. The project Scale submitted by the Darwinia development team Itering([*www.itering.io*](http://www.itering.io/)), who has received the investment support of Web3 Foundation and has become the officially recognized project of the Web3 ecosystem and Polkadot.
 
