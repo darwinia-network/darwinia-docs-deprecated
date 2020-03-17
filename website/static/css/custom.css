@@ -80,6 +80,11 @@
     margin: 0 1rem;
   }
   
+  .navigationSlider .slidingNav ul li>a:focus {
+    background: #fff;
+    color: #3d30dd;
+  }
+  
   .navigationSlider .slidingNav ul li.siteNavItemActive>a,
   .navigationSlider .slidingNav ul li.siteNavGroupActive>a {
     font-weight: 500;
