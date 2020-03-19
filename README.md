@@ -8,6 +8,8 @@ The Darwinia Documentation is a wiki style central source of documents for Darwi
 
 The Wiki is a community-focused initiative and we will review all pull-requests and issues created in this repository. If you notice typos or grammatical errors, please feel free to directly create pull requests with these corrections. Larger contributions may start as issues to test the waters on the subject with the maintainers. It is generally preferable to create a pull request over an issue to propose a change to the wiki content.
 
+To get detailed guide on how to contribute, please see (detailed guide[content/README.md]) in content folder. 
+
 # Style Guide
 
 - Break lines at 120 characters.
@@ -20,10 +22,7 @@ The wiki is automatically deployed to GitHub Pages via the Travis job on each ne
 
 # Internationalization
 
-We are using Crowdin to manage all different translations. You can go to the project page and select the language you would like to translate to start.
-All translated content through Crowdin will regularly submit a pull request to this repository.
-
-If you do not see the language you would like to translate, please let us know via Riot.
+Translated articles are stored in `content` folder under language folder.  If you are intereted in helping translating articles, you can submit pull request when you are done.
 
 License
 The Darwinia Network is licensed under the GPL-3.0 free software license.
