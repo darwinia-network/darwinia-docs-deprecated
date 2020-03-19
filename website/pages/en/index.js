@@ -13,6 +13,8 @@ const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
+const translate = require('../../server/translate.js').translate;
+
 class HomeSplash extends React.Component {
     render() {
         const { siteConfig, language = '' } = this.props;
@@ -20,6 +22,7 @@ class HomeSplash extends React.Component {
         const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const blogUrl = `${baseUrl}blog`;
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -37,8 +40,9 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = props => (
       <h2 className="projectTitle">
-        {props.title}
-        <small>{props.tagline}</small>
+        <translate desc="">home_title</translate>
+        <small><translate desc="">home_tagline</translate></small>
+        <small><translate desc="">darwin-intro-text</translate></small>
       </h2>
     );
 
@@ -64,9 +68,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1')}>Example Link</Button>
-            <Button href={docUrl('doc2')}>Example Link 2</Button>
+            <Button href={blogUrl}><translate desc="">latest_update</translate></Button>
+            <Button href={docUrl('wiki-home')}><translate desc="">knowledge_base</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -82,9 +85,10 @@ class Index extends React.Component {
 
     const Block = props => (
       <Container
-        padding={['bottom', 'top']}
+        padding={['bottom']}
         id={props.id}
-        background={props.background}>
+        background={props.background}
+        className={props.className}>
         <GridBlock
           align="center"
           contents={props.children}
@@ -93,6 +97,7 @@ class Index extends React.Component {
       </Container>
     );
 
+    /*
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
@@ -145,26 +150,88 @@ class Index extends React.Component {
         ]}
       </Block>
     );
+    //*/
 
     const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
+      <div
+        className="featuresSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h1><translate desc="">feat_title</translate></h1>
+        <Block layout="threeColumn" className="featuresContainer">
+          {[
+            {
+              content: <translate desc="">feat1_desc</translate>,
+              image: `${baseUrl}img/feature-1.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat_1</translate>,
+            },
+            {
+              content: <translate desc="">feat2_desc</translate>,
+              image: `${baseUrl}img/feature-2.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat2</translate>,
+            },
+            {
+              content: <translate desc="">feat3_desc</translate>,
+              image: `${baseUrl}img/feature-3.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat3</translate>,
+            },
+            {
+              content: <translate desc="">feat4_desc</translate>,
+              image: `${baseUrl}img/feature-4.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat4</translate>,
+            },
+            {
+              content: <translate desc="">feat5_desc</translate>,
+              image: `${baseUrl}img/feature-5.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat5</translate>,
+            },
+            {
+              content: <translate desc="">feat6_desc</translate>,
+              image: `${baseUrl}img/feature-6.png`,
+              imageAlign: 'top',
+              title: <translate desc="">feat6</translate>,
+            },
+          ]}
+        </Block>
+      </div>
     );
 
+    const Economics = () => (
+      <div
+        className="economicsSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h1><translate desc="">eco_title</translate></h1>
+      
+        <Block layout="threeColumn" className="economicsContrainer">
+          {[
+            {
+              content: <translate desc="">eco1_desc</translate>,
+              image: `${baseUrl}img/eco-1.png`,
+              imageAlign: 'top',
+              title: <translate desc="">eco1</translate>
+            },
+            {
+              content: <translate desc="">eco2_desc</translate>,
+              image: `${baseUrl}img/eco-2.png`,
+              imageAlign: 'top',
+              title: <translate desc="">eco2</translate>
+            },
+            {
+              content: <translate desc="">eco3_desc</translate>,
+              image: `${baseUrl}img/eco-3.png`,
+              imageAlign: 'top',
+              title: <translate desc="">eco3</translate>
+            }
+          ]}
+        </Block>
+      </div>
+    );
+
+    /*
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -193,17 +260,19 @@ class Index extends React.Component {
         </div>
       );
     };
+    //*/
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <Economics />
+          {/* <FeatureCallout /> */}
+          {/* <LearnHow /> */}
+          {/* <TryOut /> */}
+          {/* <Description /> */}
+          {/* <Showcase /> */}
         </div>
       </div>
     );

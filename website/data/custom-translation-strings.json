@@ -1,0 +1,31 @@
+{
+  "localized-strings": {},
+  "pages-strings": {
+    "home_title|": "Darwinia Documentation",
+    "home_tagline|": "Cross-chain App Hub and Internet of Tokens",
+    "darwin-intro-text|": "As an open application cross-chain protocol based on Substrate, Darwinia focuses on the construction of future Internet of Tokens, including the cross-chain of game tokens, NFT, Stablecoins, and Appchain",
+    "latest_update|": "Latest Updates",
+    "knowledge_base|": "Knowledge Base",
+    "feat_title|": "Darwinia Features",
+    "feat1_desc|": "Seamless Integrations To Polkadot",
+    "feat1|": "Polkadot Ecosystem",
+    "feat2_desc|": "Heterogeneous Blockchain Bridge",
+    "feat2|": "Bridge",
+    "feat3_desc|": "Gaming appchain for Developers",
+    "feat3|": "Appchain",
+    "feat4_desc|": "Cross-chain interoperation solution",
+    "feat4|": "Cross Chain",
+    "feat5_desc|": "Unleash the power of NFT",
+    "feat5|": "NFT Identifiability",
+    "feat6_desc|": "Onchain RNG solution",
+    "feat6|": "Onchain RNG",
+    "eco_title|": "Darwinia Economics",
+    "eco1_desc|": "The native tokens for Darwinia Network is RING, RING can be used as gas for transactions. Gas include transaction fees, contract execution fees, network bandwidth charges, storage fees, and more.",
+    "eco1|": "RING",
+    "eco2_desc|": "To encourage users to make long term commitments and pledge, users can choose to lock RING for 3 - 36 months in the process of Staking, and the system will offer a KTON token as reward for users participating in Staking.",
+    "eco2|": "KTON",
+    "eco3_desc|": "The Darwinia Network will distribute RING as an incentive to the participants of Staking. The process of Staking can also be understood as the POS mining process, where the miner obtains Staking energy by pledging tokens for POS mining.",
+    "eco3|": "Staking",
+    "partner_title|": "Partners"
+  }
+}

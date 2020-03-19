@@ -63,6 +63,15 @@
     font-size: 20px;
   }
   
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $myFont;
+  }
+  
   .fixedHeaderContainer header img.logo {
     height: auto;
     width: 242px;
@@ -127,6 +136,33 @@
   #languages-dropdown-items a {
     color: #3a30dd;
   }
+  /* home page */
+  
+  .economicsContrainer .blockImage {
+    max-width: 50%;
+  }
+  
+  .featuresContainer .blockImage {
+    max-width: 100%;
+  }
+  
+  .featuresSection h1,
+  .economicsSection h1 {
+    font-family: $myFont;
+    font-weight: 700;
+    color: #080c20;
+    display: inline-block;
+    line-height: 51px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(135deg, #fe3876, #7c30dd 71%, #3a30dd);
+    background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* footer */
   
   .nav-footer {
     background: #201550;

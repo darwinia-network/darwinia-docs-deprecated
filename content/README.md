@@ -1,6 +1,6 @@
 # How to contribute
 
-Wiki content are written in markdown syntax, you can visit here to view [syntax reference](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax]).  You need some basic `git` skills to submit your contribution.
+Wiki content are written in GitHub Flavored Markdown (GFM), you can visit here to view [syntax reference](https://guides.github.com/features/mastering-markdown/).  You need some basic `git` skills to submit your contribution.
 
 For light weight editing, you can use github's interface to edit existing article or create new article.  If you need more control over assets or write multiple articles and submit changes in bulk, you probably need to fork this repo and submit your contribution as PR (Pull Request).
 
@@ -91,4 +91,8 @@ Static assets should be placed in `content/blog/assets`, when referencing assets
 
 ## Article
 
+TODO
+
 # How to translate
+
+TODO

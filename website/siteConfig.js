@@ -6,6 +6,7 @@
  */
 
 // List of projects/orgs using your project for the users page.
+/* 
 const users = [{
   caption: 'User1',
   // You will need to prepend the image path with your baseUrl
@@ -13,14 +14,15 @@ const users = [{
   image: '/img/undraw_open_source.svg',
   infoLink: 'https://www.facebook.com',
   pinned: true,
-}, ];
+}, ]; 
+*/
 
 const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
-  tagline: 'Darwinia Documentation',
+  tagline: 'Cross-chain App Hub and Internet of Tokens',
   url: 'https://alexchien.github.io/docusaorus', // https://docs.darwinia.network
   baseUrl: '/docusaorus/', // Base URL for your project, /
-  editUrl: 'https://github.com/AlexChien/docusaorus/edit/master/docs/', //https://github.com/darwinia/docs/edit/master/docs/
+  editUrl: 'https://github.com/AlexChien/docusaorus/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
   repoUrl: 'https://github.com/darwinia-network/darwinia',
 
   // Used for publishing and more
@@ -47,7 +49,7 @@ const siteConfig = {
   disableTitleTagline: false,
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
   headerIcon: 'img/logo.png',
@@ -73,6 +75,10 @@ const siteConfig = {
     ]
   },
   */
+
+  // Blogs
+  blogSidebarCount: '10',
+  blogSidebarTitle: { default: 'Recent posts', all: 'All blog posts' },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Darwinia Network`,

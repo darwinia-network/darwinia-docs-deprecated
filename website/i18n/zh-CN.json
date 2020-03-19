@@ -2,19 +2,24 @@
   "localized-strings": {
     "next": "下一篇",
     "previous": "上一篇",
-    "tagline": "Darwinia Documentation",
+    "title": "达尔文网络 知识库",
+    "tagline": "跨链应用枢纽与资产互联网络",
     "docs": {
       "crab-home": {
-        "title": "Crab 网络"
+        "title": "Crab 网络",
+        "sidebar_label": "Crab 网络"
       },
       "dev-home": {
-        "title": "开发者资源"
+        "title": "开发者资源",
+        "sidebar_label": "开发者资源"
       },
       "dev-rust": {
-        "title": "Rust"
+        "title": "Rust",
+        "sidebar_label": "Rust"
       },
       "dev-substrate": {
-        "title": "Substrate"
+        "title": "Substrate",
+        "sidebar_label": "Substrate"
       },
       "wiki-home": {
         "title": "知识库",
@@ -100,6 +105,34 @@
     "Stay up to date|no description given": "保持最新资讯",
     "Need help?|no description given": "需要帮助?",
     "This project is maintained by a dedicated group of people.|statement made to reader": "本项目有一组成员更新维护。",
+
+    "home_title|": "达尔文网络 知识库",
+    "home_tagline|": "跨链应用枢纽与资产互联网络",
+    "darwin-intro-text|": "达尔文网络是基于Substrate开发的开放应用跨链协议，专注于建设未来资产互联网络，包括游戏资产和非标资产的跨链，稳定币的跨链，应用链跨链等领域",
+    "latest_update|": "最新动态",
+    "knowledge_base|": "探索知识库",
+    "feat_title|": "达尔文网络特性",
+    "feat1_desc|": "无缝对接波卡生态",
+    "feat1|": "波卡生态成员",
+    "feat2_desc|": "异构链跨链转接桥",
+    "feat2|": "公链桥接",
+    "feat3_desc|": "为开发者提供应用链服务",
+    "feat3|": "应用链",
+    "feat4_desc|": "跨链交互解决方案",
+    "feat4|": "跨链互操作",
+    "feat5_desc|": "释放非标资产NFT的潜力",
+    "feat5|": "NFT 可识别性",
+    "feat6_desc|": "安全可信链上随机数解决方案",
+    "feat6|": "链上随机数",
+    "eco_title|": "达尔文经济模型",
+    "eco1_desc|": "RING是达尔文网络的原生资产，RING可以作为交易的燃料费。燃料费包括交易费用，合约执行费用，网络带宽费用，存储费用等等。",
+    "eco1|": "RING",
+    "eco2_desc|": "为了鼓励用户进行长期锁定和承诺投入，用户在Staking RING的过程中，可以承诺锁定RING 3 - 36个月，系统会给参与Staking的用户一个氪石的通证进行奖励。",
+    "eco2|": "KTON",
+    "eco3_desc|": "达尔文网络将会把主要收入作为激励分发给Staking的参与者。Staking的过程也可以理解为POS挖矿过程，挖矿者通过质押资产来获得Staking能量来进行POS挖矿。",
+    "eco3|": "Staking",
+    "partner_title|": "合作伙伴",
+
     "Help Translate|recruit community translators for your project": "帮助翻译",
     "Edit this Doc|recruitment message asking to edit the doc source": "编辑",
     "Translate this Doc|recruitment message asking to translate the docs": "翻译"
