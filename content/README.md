@@ -4,11 +4,13 @@ Wiki content are written in markdown syntax, you can visit here to view (syntax 
 
 For light weight editing, you can use github's interface to edit existing article or create new article.  If you need more control over assets or write multiple articles and submit changes in bulk, you probably need to fork this repo and submit your contribution as PR (Pull Request).
 
-To fork this repo  
+To fork this repo and submit pull requests, please follow this detailed (guide)[https://guides.github.com/activities/forking/].
 
-`git clone https://github.com/AlexChien/docusaorus`
+Once you have forked this wiki and created a forked repo of your own, you can pull content from here
 
-This will create a folder `docusaorus/` in your local directory.
+`git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME_YOU_CHOOSE`
+
+This will create a folder `[REPO_NAME_YOU_CHOOSE]/` in your local directory.
 
 Aricles and blogs are stored in `content/` folder.  Blog does not provide multi-lingual feature yet.  Articles supplort multi language and they are stored in each language folder.  
 
