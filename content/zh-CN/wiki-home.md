@@ -1,12 +1,14 @@
 ---
-id: doc1
-title: 中文doc1
-sidebar_label: 中文Doc1标题
+id: wiki-home
+title: Wiki Home
+sidebar_label: 首页
 ---
+
+中文文档首页
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## 中文文章Lorem 4
+## Lorem 4
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
 

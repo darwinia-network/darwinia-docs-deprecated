@@ -1,10 +1,64 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Wiki": [
+      "wiki-home",
+      "wiki-intro",
+      {
+        "type": "subcategory",
+        "label": "Whitepaper",
+        "ids": [
+
+        ]
+      },
+      "wiki-roadmap",
+      {
+        "type": "subcategory",
+        "label": "Tutorials",
+        "ids": [
+          "wiki-tut-index"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "RFCs",
+        "ids": [
+          "wiki-rfc-index"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Tools",
+        "ids": [
+          "wiki-tool-index", "wiki-tool-wallets", "wiki-tool-explorer", "wiki-tool-faucet"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Miscellaneous",
+        "ids": [
+          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "wiki-misc-bounty"
+        ]
+      }
+    ],
+    "Developers": ["dev-index", "dev-substrate", "dev-rust"]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "crab": {
+    "Crab Network": [
+      "crab-home",
+      {
+        "type": "subcategory",
+        "label": "Get Started",
+        "ids": [
+          "crab-gs-faucet", "crab-gs-faucet"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Guides",
+        "ids": [
+          "crab-tut-validators", "crab-tut-nominators", "crab-tut-relayers", "crab-tut-governance", "crab-account"
+        ]
+      }
+    ]
   }
 }

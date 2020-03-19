@@ -5,33 +5,81 @@
     "previous": "Previous",
     "tagline": "Darwinia Documentation",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish Updated 4",
-        "sidebar_label": "Example Page Update"
+      "crab-home": {
+        "title": "Darwinia Crab Network"
       },
-      "doc2": {
-        "title": "document number 2.2"
+      "dev-home": {
+        "title": "Developer Portal"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "dev-rust": {
+        "title": "Rust"
       },
-      "doc4": {
-        "title": "Other Document"
+      "dev-substrate": {
+        "title": "Substrate"
       },
-      "doc5": {
-        "title": "Fifth Document"
+      "wiki-home": {
+        "title": "Wiki Home",
+        "sidebar_label": "Home"
+      },
+      "wiki-intro": {
+        "title": "What is Darwinia Network",
+        "sidebar_label": "Introduction"
+      },
+      "wiki-misc-bounty": {
+        "title": "Bounty Program",
+        "sidebar_label": "Bounty Program"
+      },
+      "wiki-misc-faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
+      },
+      "wiki-misc-glossary": {
+        "title": "Glossary",
+        "sidebar_label": "Glossary"
+      },
+      "wiki-misc-links": {
+        "title": "Links",
+        "sidebar_label": "Links"
+      },
+      "wiki-rfc-index": {
+        "title": "Request for Comments",
+        "sidebar_label": "RFCs"
+      },
+      "wiki-roadmap": {
+        "title": "Roadmap",
+        "sidebar_label": "Roadmap"
+      },
+      "wiki-tool-explorer": {
+        "title": "Explorer",
+        "sidebar_label": "Explorer"
+      },
+      "wiki-tool-faucet": {
+        "title": "Faucet",
+        "sidebar_label": "Faucet"
+      },
+      "wiki-tool-index": {
+        "title": "Tools Index",
+        "sidebar_label": "Tools Index"
+      },
+      "wiki-tool-wallets": {
+        "title": "Wallets",
+        "sidebar_label": "Wallets"
+      },
+      "wiki-tut-index": {
+        "title": "Tutorials List",
+        "sidebar_label": "Tutorials List"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Blog": "Blog",
+      "Wiki": "Wiki",
+      "Crab Network": "Crab Network",
+      "Developers": "Developers"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Wiki": "Wiki",
+      "Developers": "Developers",
+      "Crab Network": "Crab Network"
     }
   },
   "pages-strings": {

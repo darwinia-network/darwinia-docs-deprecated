@@ -14,10 +14,10 @@ const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
-  render() {
-    const { siteConfig, language = '' } = this.props;
-    const { baseUrl, docsUrl } = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    render() {
+        const { siteConfig, language = '' } = this.props;
+        const { baseUrl, docsUrl } = siteConfig;
+        const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
@@ -78,7 +78,7 @@ class Index extends React.Component {
   render() {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
-    console.log(this.props);
+    // console.log(this.props);
 
     const Block = props => (
       <Container
