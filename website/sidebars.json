@@ -56,7 +56,16 @@
         "type": "subcategory",
         "label": "Guides",
         "ids": [
-          "crab-tut-validators", "crab-tut-nominators", "crab-tut-relayers", "crab-tut-governance", "crab-account"
+          "crab-tut-index",
+          "crab-tut-account",
+          "crab-tut-get-free-cring",
+          "crab-tut-claim-cring",
+          "crab-tut-staking",
+          "crab-tut-nominator",
+          "crab-tut-node",
+          "crab-tut-validator",
+          "crab-tut-relayer",
+          "crab-tut-governance"
         ]
       }
     ]

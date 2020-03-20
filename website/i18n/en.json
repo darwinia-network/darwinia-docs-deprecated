@@ -9,6 +9,46 @@
         "title": "Darwinia Crab Network",
         "sidebar_label": "Crab Network"
       },
+      "crab-tut-account": {
+        "title": "How to create an account",
+        "sidebar_label": "Create Account"
+      },
+      "crab-tut-claim-cring": {
+        "title": "How to claim free cRing",
+        "sidebar_label": "Claim cRing"
+      },
+      "crab-tut-get-free-cring": {
+        "title": "How to get free cRing through faucet",
+        "sidebar_label": "Get free cRing"
+      },
+      "crab-tut-governance": {
+        "title": "How to participate in governance",
+        "sidebar_label": "Participate in governance"
+      },
+      "crab-tut-index": {
+        "title": "Tutorials List",
+        "sidebar_label": "Tutorials List"
+      },
+      "crab-tut-node": {
+        "title": "How to run a node",
+        "sidebar_label": "Running a node"
+      },
+      "crab-tut-nominator": {
+        "title": "How to become a nominator",
+        "sidebar_label": "Become a nominator"
+      },
+      "crab-tut-relayer": {
+        "title": "How to become a relayer",
+        "sidebar_label": "Become a relayer"
+      },
+      "crab-tut-staking": {
+        "title": "How to participate in staking",
+        "sidebar_label": "Participate in Staking"
+      },
+      "crab-tut-validators": {
+        "title": "How to become a validator",
+        "sidebar_label": "Become a validator"
+      },
       "dev-home": {
         "title": "Developer Portal",
         "sidebar_label": "Developers"
@@ -98,7 +138,7 @@
     "home_title|": "Darwinia Documentation",
     "home_tagline|": "Cross-chain App Hub and Internet of Tokens",
     "darwin-intro-text|": "As an open application cross-chain protocol based on Substrate, Darwinia focuses on the construction of future Internet of Tokens, including the cross-chain of game tokens, NFT, Stablecoins, and Appchain",
-    "latest_update|": "Latest Update",
+    "latest_update|": "Latest Updates",
     "knowledge_base|": "Knowledge Base",
     "feat_title|": "Darwinia Features",
     "feat1_desc|": "Seamless Integrations To Polkadot",

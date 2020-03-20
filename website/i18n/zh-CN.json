@@ -9,6 +9,46 @@
         "title": "Crab 网络",
         "sidebar_label": "Crab 网络"
       },
+      "crab-tut-account": {
+        "title": "如何创建一个账户",
+        "sidebar_label": "创建账户"
+      },
+      "crab-tut-claim-cring": {
+        "title": "如何领取空投的cRing",
+        "sidebar_label": "领取空投的cRing"
+      },
+      "crab-tut-get-free-cring": {
+        "title": "如何通过水龙头获得免费的cRing",
+        "sidebar_label": "从水龙头获取免费cRing"
+      },
+      "crab-tut-governance": {
+        "title": "如何参与网络治理",
+        "sidebar_label": "参与治理"
+      },
+      "crab-tut-index": {
+        "title": "教程清单",
+        "sidebar_label": "教程清单"
+      },
+      "crab-tut-node": {
+        "title": "如何运行一个节点",
+        "sidebar_label": "运行节点"
+      },
+      "crab-tut-nominator": {
+        "title": "如何成为一个投票人",
+        "sidebar_label": "成为投票人"
+      },
+      "crab-tut-relayer": {
+        "title": "如何成为Relayer",
+        "sidebar_label": "成为Relayer"
+      },
+      "crab-tut-staking": {
+        "title": "如何参与Staking",
+        "sidebar_label": "参与Staking"
+      },
+      "crab-tut-validators": {
+        "title": "如何成为验证人",
+        "sidebar_label": "成为验证人"
+      },
       "dev-home": {
         "title": "开发者资源",
         "sidebar_label": "开发者资源"
