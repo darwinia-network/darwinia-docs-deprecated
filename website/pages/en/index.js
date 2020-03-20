@@ -15,6 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 const translate = require('../../server/translate.js').translate;
 
+const RecentBlogs = require(`${process.cwd()}/core/RecentBlogs.js`);
+
 class HomeSplash extends React.Component {
     render() {
         const { siteConfig, language = '' } = this.props;
@@ -231,6 +233,16 @@ class Index extends React.Component {
       </div>
     );
 
+    const BlogsSection = () => (
+      <div
+        className="economicsSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h1>{this.props.config.blogSidebarTitle.default }</h1>
+
+        <RecentBlogs config={siteConfig} language={language} />
+      </div>
+    );
+
     /*
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
@@ -268,6 +280,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <Economics />
+          <BlogsSection />
           {/* <FeatureCallout /> */}
           {/* <LearnHow /> */}
           {/* <TryOut /> */}

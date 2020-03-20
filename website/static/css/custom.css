@@ -138,6 +138,20 @@
   }
   /* home page */
   
+  .homeRecentBlogContrainer .posts .post {
+    max-width: 100%;
+  }
+  
+  .homeRecentBlogContrainer .posts .post h1.postHeaderTitle {
+    font-size: 24px;
+    background: transparent;
+    color: black;
+    -webkit-text-fill-color: initial;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+  }
+  
   .economicsContrainer .blockImage {
     max-width: 50%;
   }
