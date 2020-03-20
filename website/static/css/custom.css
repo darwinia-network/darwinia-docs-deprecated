@@ -82,16 +82,16 @@
     padding: 0.5rem 40px;
   }
   
-  .navigationSlider .slidingNav ul li>a:focus,
   .navigationSlider .slidingNav ul li a {
     font-weight: 500;
     padding: 0.5rem 0;
     margin: 0 1rem;
   }
   
-  .navigationSlider .slidingNav ul li>a:focus {
-    background: #fff;
-    color: #3d30dd;
+  .navigationSlider .nav-site.nav-site-internal li>a:focus,
+  .navigationSlider .nav-site.nav-site-internal li>a:active {
+    color: white;
+    background: transparent;
   }
   
   .navigationSlider .slidingNav ul li.siteNavItemActive>a,
