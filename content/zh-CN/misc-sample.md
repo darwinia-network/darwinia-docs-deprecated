@@ -5,3 +5,5 @@ sidebar_label: Sample Article
 ---
 
 Only Enlgish version is available, [go there](../en/misc-sample).
+
+![Darwinia Logo](assets/darwinia-logo-cn.png)
