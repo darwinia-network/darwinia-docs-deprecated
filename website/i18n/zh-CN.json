@@ -141,7 +141,7 @@
     }
   },
   "pages-strings": {
-    "Learn more using the [documentation on this site.](/docs/en/wiki-home.html)|no description given": "了解更多 [documentation on this site.](/docs/en/wiki-home.html)",
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "了解更多 [documentation on this site.](/docs/en/wiki-home.html)",
     "Browse Docs|no description given": "浏览文档",
     "Ask questions about the documentation and project|no description given": "提问关于项目以及文档",
     "Join the community|no description given": "加入社区",
