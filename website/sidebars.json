@@ -36,7 +36,7 @@
         "type": "subcategory",
         "label": "Miscellaneous",
         "ids": [
-          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "wiki-misc-bounty"
+          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "wiki-misc-bounty", "misc-sample"
         ]
       }
     ],

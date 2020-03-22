@@ -61,6 +61,10 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "misc-sample": {
+        "title": "Sample Article",
+        "sidebar_label": "Sample Article"
+      },
       "wiki-home": {
         "title": "Wiki Home",
         "sidebar_label": "Home"

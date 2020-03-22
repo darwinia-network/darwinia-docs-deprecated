@@ -61,6 +61,10 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "misc-sample": {
+        "title": "示例文章",
+        "sidebar_label": "示例文章"
+      },
       "wiki-home": {
         "title": "知识库",
         "sidebar_label": "首页"
