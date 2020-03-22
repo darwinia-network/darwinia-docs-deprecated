@@ -146,7 +146,7 @@
     "knowledge_base|": "Knowledge Base",
     "feat_title|": "Darwinia Features",
     "feat1_desc|": "Seamless Integrations To Polkadot",
-    "feat_1|": "feat_1",
+    "feat1|": "Polkadot Ecosystem",
     "feat2_desc|": "Heterogeneous Blockchain Bridge",
     "feat2|": "Bridge",
     "feat3_desc|": "Gaming appchain for Developers",
@@ -168,7 +168,6 @@
     "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
     "Translate this Doc|recruitment message asking to translate the docs": "Translate",
-    "feat1|": "Polkadot Ecosystem",
     "partner_title|": "Partners"
   }
 }
