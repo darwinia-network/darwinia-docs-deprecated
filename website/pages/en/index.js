@@ -165,7 +165,7 @@ class Index extends React.Component {
               content: <translate desc="">feat1_desc</translate>,
               image: `${baseUrl}img/feature-1.png`,
               imageAlign: 'top',
-              title: <translate desc="">feat_1</translate>,
+              title: <translate desc="">feat1</translate>,
             },
             {
               content: <translate desc="">feat2_desc</translate>,
