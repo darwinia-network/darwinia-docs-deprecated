@@ -1,5 +1,5 @@
 ---
-id: crab-tut-validators
+id: crab-tut-validator
 title: 如何成为验证人
 sidebar_label: 成为验证人
 ---

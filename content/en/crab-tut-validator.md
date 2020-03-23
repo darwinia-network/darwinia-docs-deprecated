@@ -1,5 +1,5 @@
 ---
-id: crab-tut-validators
+id: crab-tut-validator
 title: How to become a validator
 sidebar_label: Become a validator
 ---
