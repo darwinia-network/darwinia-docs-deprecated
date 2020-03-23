@@ -25,7 +25,7 @@ const siteConfig = {
   editUrl: 'https://github.com/darwinia-network/docs/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
   repoUrl: 'https://github.com/darwinia-network/darwinia',
 
-  // customDocsPath: 'content/en',
+  customDocsPath: 'content/en',
 
   // Used for publishing and more
   projectName: 'docs', //docs
