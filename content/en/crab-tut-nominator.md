@@ -4,8 +4,6 @@ title: How to become a nominator
 sidebar_label: Become a nominator
 ---
 
-How to become a nominator
-
 **#I Add Account / Restore JSON**
 
  - Pay Attention
