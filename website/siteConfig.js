@@ -20,15 +20,15 @@ const users = [{
 const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
   tagline: 'Cross-chain App Hub and Internet of Tokens',
-  url: 'https://alexchien.github.io/docusaorus', // https://docs.darwinia.network
-  baseUrl: '/docusaorus/', // Base URL for your project, /
-  editUrl: 'https://github.com/AlexChien/docusaorus/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
+  url: 'https://docs.darwinia.network',
+  baseUrl: '/', // Base URL for your project, /
+  editUrl: 'https://github.com/darwinia-network/docs/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
   repoUrl: 'https://github.com/darwinia-network/darwinia',
 
   // Used for publishing and more
-  projectName: 'docusaorus', //docs
-  organizationName: 'AlexChien', //darwinia
-  // cname: 'docs.darwinia.network',
+  projectName: 'docs', //docs
+  organizationName: 'darwinia-network', //darwinia
+  cname: 'docs.darwinia.network',
 
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
