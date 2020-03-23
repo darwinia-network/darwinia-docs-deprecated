@@ -49,6 +49,10 @@
         "title": "如何成为验证人",
         "sidebar_label": "成为验证人"
       },
+      "dev-bounty": {
+        "title": "开发者赏金计划",
+        "sidebar_label": "赏金计划"
+      },
       "dev-home": {
         "title": "开发者资源",
         "sidebar_label": "开发者资源"
@@ -61,6 +65,10 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "dev-workshop-index": {
+        "title": "Workshop 清单",
+        "sidebar_label": "Workshop 清单"
+      },
       "misc-sample": {
         "title": "示例文章",
         "sidebar_label": "示例文章"
@@ -72,10 +80,6 @@
       "wiki-intro": {
         "title": "达尔文网络是什么",
         "sidebar_label": "达尔文网络介绍"
-      },
-      "wiki-misc-bounty": {
-        "title": "开发者赏金计划",
-        "sidebar_label": "赏金计划"
       },
       "wiki-misc-faq": {
         "title": "常见问题",
@@ -124,7 +128,7 @@
       "Help": "帮助",
       "Blog": "动态",
       "Wiki": "知识库",
-      "Crab Network": "Crab Network",
+      "Crab Network": "Crab 网络",
       "Developers": "开发者"
     },
     "categories": {
@@ -137,7 +141,8 @@
       "Whitepaper": "白皮书",
       "Tutorials": "教程列表",
       "Get Started": "立即开始",
-      "Guides": "指南"
+      "Guides": "指南",
+      "Workshops": "Workshops"
     }
   },
   "pages-strings": {

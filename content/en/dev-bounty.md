@@ -1,7 +1,7 @@
 ---
-id: wiki-misc-bounty
+id: dev-bounty
 title: Bounty Program
 sidebar_label: Bounty Program
 ---
 
-Wiki Bounty Program
+Developer Bounty Program

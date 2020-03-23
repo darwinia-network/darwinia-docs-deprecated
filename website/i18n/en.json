@@ -49,6 +49,10 @@
         "title": "How to become a validator",
         "sidebar_label": "Become a validator"
       },
+      "dev-bounty": {
+        "title": "Bounty Program",
+        "sidebar_label": "Bounty Program"
+      },
       "dev-home": {
         "title": "Developer Portal",
         "sidebar_label": "Developers"
@@ -61,6 +65,10 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "dev-workshop-index": {
+        "title": "Workshop Index",
+        "sidebar_label": "Workshop Index"
+      },
       "misc-sample": {
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
@@ -72,10 +80,6 @@
       "wiki-intro": {
         "title": "What is Darwinia Network",
         "sidebar_label": "Introduction"
-      },
-      "wiki-misc-bounty": {
-        "title": "Bounty Program",
-        "sidebar_label": "Bounty Program"
       },
       "wiki-misc-faq": {
         "title": "FAQ",
@@ -126,8 +130,8 @@
     },
     "categories": {
       "Wiki": "Wiki",
-      "Developers": "Developers",
-      "Crab Network": "Crab Network"
+      "Crab Network": "Crab Network",
+      "Developers": "Developers"
     }
   },
   "pages-strings": {
