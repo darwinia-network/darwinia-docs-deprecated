@@ -4,7 +4,6 @@ title: Darwinia Crab Network
 sidebar_label: Crab Network
 ---
 
-This is a link to 
 Darwinia Crab Testnet (Crab for short) is a Canary Network for Darwinia, The positioning of Crab is similar to Polkadot's Kusama Network. Expect Chaos is a reasonable expectation.
 
 Crab Network is not just a testnet, it will be a long-term network, but it cannot be ruled out that it will stop running due to unexpected conditions or failures.
