@@ -2,6 +2,7 @@
 id: crab-home
 title: Darwinia Crab Network
 sidebar_label: Crab 网络
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-home.md
 ---
 
 Darwinia Crab Network（简称：Crab 网络）对于 Darwinia 来说是一个金丝雀网络，定位类似于 Kusama 网络之于 Polkadot，Expect Chaos 是一个合理的预期。

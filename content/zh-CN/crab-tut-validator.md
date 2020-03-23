@@ -2,6 +2,7 @@
 id: crab-tut-validator
 title: 如何成为验证人
 sidebar_label: 成为验证人
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-validator.md
 ---
 
 ## 检查地址
