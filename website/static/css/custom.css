@@ -104,6 +104,23 @@
     padding: 3px 20px;
   }
   
+  .toc .toggleNav ul {
+    padding: 0px;
+    padding-right: 8px;
+  }
+  
+  .toc .toggleNav .navGroup ul {
+    padding-left: 8px;
+  }
+  
+  .toc .toggleNav .navGroup .navListItem {
+    padding-left: 8px;
+  }
+  
+  .navListItemActive {
+    background-color: #eee;
+  }
+  
   #languages-menu:focus {
     background: transparent;
   }
