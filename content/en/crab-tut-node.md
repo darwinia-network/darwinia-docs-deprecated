@@ -6,26 +6,26 @@ sidebar_label: Running a node
 
 ## Initial Set-up
 
-**Compile from source**
+Compile from source
 
-Compiler environment configuration. Refer to sections 4.1 to 4.1.3 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia  
-Start command  
-Enter the darwinia root directory  
-cargo build --release  
-The compiled executable file darwinia (.exe) can be found under darwinia / target / release
+> Compiler environment configuration. Refer to sections 4.1 to 4.1.3 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia  
+> Start command  
+> Enter the darwinia root directory  
+> cargo build --release  
+> The compiled executable file darwinia (.exe) can be found under darwinia / target / release
 
-**Download the compiled executable file**
+Download the compiled executable file
 
-macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz  
-macOS Mojave: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz  
-ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz  
-Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz  
-CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz  
-Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
+> macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz  
+> macOS Mojave: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz  
+> ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz  
+> Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz  
+> CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz  
+> Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
 
 ## Execution
 
-Read the configuration and start from the file (if not in the same folder, it is best to fill in the absolute path)
+Read the configuration and start from the file (If not in the same folder, it is best to fill in the absolute path.)
 
 ```
 darwinia --conf=example.json
@@ -104,7 +104,7 @@ Start your node
 curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "params":[],"id":1 }' http://localhost:23332
 ```
 
-23332 is rpc-port specified when you started the node.
+> 23332 is rpc-port specified when you started the node.
 
 After the startup is successful, the console log as follows:
 
