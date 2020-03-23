@@ -21,11 +21,11 @@ const siteConfig = {
   title: 'Darwinia Documentation', // Title for your website.
   tagline: 'Cross-chain App Hub and Internet of Tokens',
   url: 'https://docs.darwinia.network',
-  baseUrl: '/docs/', // Base URL for your project, /
+  baseUrl: '/', // Base URL for your project, /
   editUrl: 'https://github.com/darwinia-network/docs/edit/master/content/en/', //https://github.com/darwinia/docs/edit/master/docs/
   repoUrl: 'https://github.com/darwinia-network/darwinia',
 
-  customDocsPath: 'content/en',
+  customDocsPath: 'content/en/',
 
   // Used for publishing and more
   projectName: 'docs', //docs
