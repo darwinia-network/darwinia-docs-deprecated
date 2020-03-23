@@ -2,6 +2,7 @@
 id: crab-tut-nominator
 title: 如何成为一个投票人
 sidebar_label: 成为投票人
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-nominator.md
 ---
 
 ## 获得/管理Power

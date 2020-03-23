@@ -2,6 +2,7 @@
 id: crab-tut-node
 title: 如何运行一个节点
 sidebar_label: 运行节点
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-node.md
 ---
 
 ## 环境准备

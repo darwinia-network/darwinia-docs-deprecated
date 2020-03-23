@@ -2,6 +2,7 @@
 id: crab-tut-account
 title: 如何创建一个账户
 sidebar_label: 创建账户
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-account.md
 ---
 
 ## 新建账号

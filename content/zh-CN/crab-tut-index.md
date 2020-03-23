@@ -2,6 +2,7 @@
 id: crab-tut-index
 title: 教程清单
 sidebar_label: 教程清单
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-index.md
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
