@@ -4,7 +4,7 @@ author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
-![](asset/2020-03-23-crab-airdrop-snapshot-1.png)
+![](assets/2020-03-23-crab-airdrop-snapshot-1.png)
 
 Crab 网络初始供应量中一部分 cRING 将分发给 RING & DOT 的持有者，RING & DOT 的持有者可以免费获得 cRING 空投。
 
