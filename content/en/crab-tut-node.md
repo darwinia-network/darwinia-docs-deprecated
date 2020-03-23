@@ -4,16 +4,14 @@ title: How to run a node
 sidebar_label: Running a node
 ---
 
-## Run a Node
-
-### Initial Set-up
+## Initial Set-up
 
 **Compile from source**
 
-Compiler environment configuration. Refer to sections 4.1 to 4.1.3 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
-Start command
-Enter the darwinia root directory
-cargo build --release
+Compiler environment configuration. Refer to sections 4.1 to 4.1.3 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia  
+Start command  
+Enter the darwinia root directory  
+cargo build --release  
 The compiled executable file darwinia (.exe) can be found under darwinia / target / release
 
 **Download the compiled executable file**
@@ -25,7 +23,7 @@ Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ub
 CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz  
 Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
 
-### Execution
+## Execution
 
 Read the configuration and start from the file (if not in the same folder, it is best to fill in the absolute path)
 
@@ -98,7 +96,7 @@ To avoid some seed nodes being fully connected, the following alternatives are p
 /ip4/121.199.60.87/tcp/20222/p2p/QmW26ydfXEALbj7Mm67czs4DxgKjyyMDW4ng9xGphSP1zu
 ```
 
-### Generate session key
+## Generate session key
 
 Start your node
 
