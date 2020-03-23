@@ -95,6 +95,8 @@ This markdown will automatically get converted into a [link to wiki index page](
 
 This can help when you want to navigate through docs on GitHub since the links there will be functional links to other documents (still on GitHub), but the documents will have the correct HTML links when they get rendered.
 
+[Link to blog](../../blog)
+
 ### Linking to Images and Other Assets
 
 Static assets can be linked to in the same way that documents are, using relative URLs. Static assets used in documents of different language should go into `assets` folder under that same folder when your content resides, respectively. The markdown will get converted into correct link paths so that these paths will work for documents of all languages and versions.  Note: all language articles are sharing the same directory to store static assets such as images, make sure your image doesn't conflict with others' name.
