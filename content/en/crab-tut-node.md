@@ -4,38 +4,28 @@ title: How to run a node
 sidebar_label: Running a node
 ---
 
-**#1 Create Account**
+## Run a Node
 
-- Pay Attention
-<br>`Set up a validator node, you need 2 available addresses, which are used as the [Stash Account] and [Controller Account].`
-- Darwinia Web Wallet：
-- Darwinia Block Explorer：
-- Polkadot Telemetry：
-
-**#2 Request RING**
-
-- Faucet:
-
-**#3 Run your validator**
-
-**##3-1 Initial Set-up**
+### 1 Initial Set-up
 
 - Compile from source
-<br>`Compiler environment configuration. Refer to sections 4.1 to 4.1.3` https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
-<br>`Start command`
-<br>`Enter the darwinia root directory`
-<br>`cargo build --release`
-<br>`The compiled executable file darwinia (.exe) can be found under darwinia / target / release`
+
+`Compiler environment configuration. Refer to sections 4.1 to 4.1.3` https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
+`Start command`
+`Enter the darwinia root directory`
+`cargo build --release`
+`The compiled executable file darwinia (.exe) can be found under darwinia / target / release`
 
 - Download the compiled executable file
-<br>`macOS Catalina:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz
-<br>`macOS Mojave:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz
-<br>`ArchLinux:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz
-<br>`Ubuntu:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz
-<br>`CentOS:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz
-<br>`Docker:` `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
 
-**##3-2 Execution**
+`macOS Catalina:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz
+`macOS Mojave:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz
+`ArchLinux:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz
+`Ubuntu:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz
+`CentOS:` https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz
+`Docker:` `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
+
+### 2 Execution
 
 - Read the configuration and start from the file (if not in the same folder, it is best to fill in the absolute path)
 
@@ -108,7 +98,7 @@ bootnodes: connected nodes (/ip4/35.234.35.49/tcp/6666/p2p/QmbKSNfeBGYiUiWAcpoei
 /ip4/121.199.60.87/tcp/20222/p2p/QmW26ydfXEALbj7Mm67czs4DxgKjyyMDW4ng9xGphSP1zu
 ```
 
-**##3-3 Generate session key**
+### 3 Generate session key
 
 - Start your node
 
@@ -167,44 +157,3 @@ curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"au
 ```
 That means the node is already synchronizing data.
 ```
-
-**#4 Validate**
-
-**##4-1 Check your address**
-
-- Enter Darwinia Web Wallet and make sure you already have 2 available addresses, including the Session Key above. 
-- Change the current account to the Stash Account of the custody asset.
-
-**##4-2 Staking**
-
-- [Node] on the left menu bar and click [Staking Now]
-<br>`Validator please select [Node], Nominator please select [Nomination], "Nominator" and "Validator" are two mutually exclusive identities.`
-
-- [Bond Funds] window pops up, you can bond RING / KTON, set bond parameters.
-<br>`[Controller Account]: It is used to manage verification, voting and other activities, and cannot be reused.`
-<br>`[Payment Destination]: The address used to earn rewards.`
-<br>`[Value Bonded]: Enter the Value to be bonded (accuracy is 9) and Fund Type(RING / KTON).`
-<br>`[Lock Limit]: The bonding limit can be set from 3 to 36 months. After bonding, you will get extra KTON rewards.`
-<br>`[You Will Get]: Power/KTON estimates based on the Value and Limit of bonded funds you set.`
-
-**##4.3 Bond More / Unbond**
-
-- In the [Power Manager] of the [Nomination] page on the left menu bar, click [Bond] to add more bonded funds, and click "Unbond" to unbond funds.
-<br>`1) [Unbonding] funds have a 14-day unbonding period. After the unbonding period, they will be automatically released to the account [Available].`
-<br>`2) RING with Lock Limit, please go to the [Assets] on the left menu bar and go to the [Bond History] to unbond the time limit. Then return to this page and use the Unbond fund.`
-<br>`3) Unbonding a RING with Lock Limit in advance requires paying a 3x penalty for KTON rewards.`
-
-**##4.4 Set Session Key**
-
-- After Bonded funds, it will enter the set session key process. 
-- Fill in the generated Session Key here. For the generation method, reference [Starting a node] - [Generate Session Key].
-<br>`1) You can skip it temporarily and set it up after ensuring that the node runs stably. `
-<br>`2) Be sure to bind the real Session Key, and make sure that the node is running before participating in the verification, otherwise you may be penalized for missing blocks.`
-
-**##4.5 Validate**
-
-- Set Validator preferences and participate in node elections. Be sure that the node is running before participating in verification.
-<br>`[Node Name]: Node name`
-<br>`[Reward Commission]: the proportion of the node's retained revenue (this part will not be shared with the voter and will be exclusively owned by the node)`
-
-**Now you can go to [Explorer] to check your validator nodes. Election information is updated every 1000 blocks / era, so thedata may be delayed, which is normal.**
