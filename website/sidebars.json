@@ -41,6 +41,18 @@
       }
     ]
   },
+  "dev": {
+    "Developers": [
+      "dev-home", "dev-bounty", "dev-substrate", "dev-rust",
+      {
+        "type": "subcategory",
+        "label": "Workshops",
+        "ids": [
+          "dev-workshop-index"
+        ]
+      }
+    ]
+  },
   "crab": {
     "Crab Network": [
       "crab-home",
@@ -67,20 +79,6 @@
           "crab-tut-governance"
         ]
       }
-    ]
-  },
-  "dev": {
-    "Developers": [
-      [
-        "dev-home", "dev-bounty", "dev-substrate", "dev-rust",
-        {
-          "type": "subcategory",
-          "label": "Workshops",
-          "ids": [
-            "dev-workshop-index"
-          ]
-        }
-      ]
     ]
   }
 }
