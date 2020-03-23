@@ -6,7 +6,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 ![](assets/doc19-1.png)
 
-Darwinia Crab Testnet（PoC-4）即将发布！**
+Darwinia Crab Testnet（PoC-4）即将发布！
 
 Darwinia Crab Testnet（简称 Crab网络）是Darwinia主网上线前的最后一版测试网络，是一个金丝雀网络，为Darwinia的升级和应用部署提供模拟和测试环境，测试环境不仅包含测试所需要的软件运行环境和网络环境，还包括测试经济博弈的经济环境。
 
