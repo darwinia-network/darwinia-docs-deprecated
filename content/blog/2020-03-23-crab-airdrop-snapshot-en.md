@@ -1,5 +1,5 @@
 ---
-title: Darwinia will Airdrop the DOTers
+title: Darwinia will Airdrop the DOT holders
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
@@ -16,7 +16,7 @@ DOT airdrop ratio: 1 DOT = 50 cRING, RING airdrop ratio: 1 RING = 1 cRING.
 
 The snapshot contains the RING of ERC-20 and TRC-20, including the deposit certificate part in Gringotts. KTON is not in the scope of this snapshot.
 
-## About Darwinia Crab Network
+**About Darwinia Crab Network**
 
 Darwinia Crab Testnet (Crab for short) is a Canary Network for Darwinia, The positioning of Crab is similar to Polkadot's Kusama Network. Expect Chaos is a reasonable expectation.
 
