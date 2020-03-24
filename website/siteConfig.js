@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { blog: true, label: 'Blog' },
-    { doc: 'wiki-home', label: 'Wiki' },
+    { doc: 'wiki-intro', label: 'Wiki' },
     { doc: 'crab-home', label: 'Crab Network' },
     { doc: 'dev-home', label: 'Developers' },
     // { doc: 'doc4', label: 'API' },
