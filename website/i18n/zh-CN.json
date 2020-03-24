@@ -62,8 +62,8 @@
         "sidebar_label": "赏金计划"
       },
       "dev-community": {
-        "title": "Developer Community",
-        "sidebar_label": "Community"
+        "title": "开发者社区",
+        "sidebar_label": "开发者社区"
       },
       "dev-home": {
         "title": "开发者资源",
@@ -78,8 +78,8 @@
         "sidebar_label": "Substrate"
       },
       "dev-workshop-index": {
-        "title": "Workshop 清单",
-        "sidebar_label": "Workshop 清单"
+        "title": "往期研讨会一览",
+        "sidebar_label": "往期研讨会一览"
       },
       "misc-sample": {
         "title": "示例文章",
