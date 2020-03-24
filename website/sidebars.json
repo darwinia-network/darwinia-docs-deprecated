@@ -36,11 +36,10 @@
         "type": "subcategory",
         "label": "Miscellaneous",
         "ids": [
-          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "wiki-misc-bounty", "misc-sample"
+          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "misc-sample"
         ]
       }
-    ],
-    "Developers": ["dev-index", "dev-substrate", "dev-rust"]
+    ]
   },
   "crab": {
     "Crab Network": [
@@ -68,6 +67,20 @@
           "crab-tut-governance"
         ]
       }
+    ]
+  },
+  "dev": {
+    "Developers": [
+      [
+        "dev-home", "dev-bounty", "dev-substrate", "dev-rust",
+        {
+          "type": "subcategory",
+          "label": "Workshops",
+          "ids": [
+            "dev-workshop-index"
+          ]
+        }
+      ]
     ]
   }
 }
