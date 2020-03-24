@@ -7,26 +7,28 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 环境准备
 
-从源码编译
+### 从源码编译
 
-> 编译环境配置，参考从 4.1 到 4.1.3 小节之前 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia  
-> 启动命令行  
-> 进入 darwinia 根目录  
-> cargo build --release  
-> 可以在 darwinia/target/release 下面找到编译好的可执行文件 darwinia(.exe)
+- 编译环境配置，参考从 4.1 到 4.1.3 小节之前 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
+- 启动命令行
+- 进入 darwinia 根目录
+- cargo build --release
+- 可以在 darwinia/target/release 下面找到编译好的可执行文件 darwinia(.exe)
 
-下载可执行文件
+### 下载可执行文件
 
-> macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz  
-> macOS Mojave: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz  
-> ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz  
-> Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz  
-> CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz  
-> Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
+- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz
+- macOS Mojave: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz
+- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz
+- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz
+- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz
+- Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
 
 ## 执行
 
-从文件读取配置启动（如不在同一文件夹下最好填写绝对路径）
+### 从文件读取配置启动
+
+如不在同一文件夹下最好填写绝对路径
 
 ```
 darwinia --conf=example.json
@@ -55,7 +57,7 @@ darwinia --conf=example.json
 }
 ```
 
-从命令行读取配置启动
+### 从命令行读取配置启动
 
 ```
 ./darwinia \
@@ -99,13 +101,13 @@ bootnodes: 连接的节点(/ip4/35.234.35.49/tcp/6666/p2p/QmbKSNfeBGYiUiWAcpoeiM
 
 ## 生成Session Key
 
-启动节点
+### 启动节点
 
 ```
 curl -H "Content-Type: application/json" --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "params":[],"id":1 }' http://localhost:23332
 ```
 
-> 23332 为你启动节点时指定的 rpc-port
+23332 为你启动节点时指定的 rpc-port
 
 启动成功后控制台日志如下:
 
