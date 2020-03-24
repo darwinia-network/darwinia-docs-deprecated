@@ -113,7 +113,8 @@
     padding-left: 8px;
   }
   
-  .toc .toggleNav .navGroup .navListItem {
+  .toc .toggleNav .navGroup .navListItem,
+  .subNavGroup {
     padding-left: 8px;
   }
   

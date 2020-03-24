@@ -1,5 +1,5 @@
 ---
-id: wiki-misc-faq
+id: wiki-faq
 title: FAQ
 sidebar_label: FAQ
 ---

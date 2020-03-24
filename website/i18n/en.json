@@ -5,9 +5,17 @@
     "previous": "Previous",
     "tagline": "Cross-chain App Hub and Internet of Tokens",
     "docs": {
+      "crab-airdrop": {
+        "title": "Crab Network Airdrop",
+        "sidebar_label": "Airdrop"
+      },
       "crab-home": {
         "title": "Darwinia Crab Network",
         "sidebar_label": "Crab Network"
+      },
+      "crab-tool-index": {
+        "title": "Crab Network Tools",
+        "sidebar_label": "Tools"
       },
       "crab-tut-account": {
         "title": "How to create an account",
@@ -27,7 +35,7 @@
       },
       "crab-tut-index": {
         "title": "Tutorials List",
-        "sidebar_label": "Tutorials List"
+        "sidebar_label": "Tutorials"
       },
       "crab-tut-node": {
         "title": "How to run a node",
@@ -53,6 +61,10 @@
         "title": "Bounty Program",
         "sidebar_label": "Bounty Program"
       },
+      "dev-community": {
+        "title": "Developer Community",
+        "sidebar_label": "Community"
+      },
       "dev-home": {
         "title": "Developer Portal",
         "sidebar_label": "Developers"
@@ -73,6 +85,22 @@
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
       },
+      "wiki-community": {
+        "title": "Community",
+        "sidebar_label": "Community"
+      },
+      "wiki-contribute": {
+        "title": "How to contribute",
+        "sidebar_label": "How to contribute"
+      },
+      "wiki-faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
+      },
+      "wiki-glossary": {
+        "title": "Glossary",
+        "sidebar_label": "Glossary"
+      },
       "wiki-home": {
         "title": "Wiki Home",
         "sidebar_label": "Home"
@@ -80,14 +108,6 @@
       "wiki-intro": {
         "title": "What is Darwinia Network",
         "sidebar_label": "Introduction"
-      },
-      "wiki-misc-faq": {
-        "title": "FAQ",
-        "sidebar_label": "FAQ"
-      },
-      "wiki-misc-glossary": {
-        "title": "Glossary",
-        "sidebar_label": "Glossary"
       },
       "wiki-misc-links": {
         "title": "Links",
@@ -111,7 +131,7 @@
       },
       "wiki-tool-index": {
         "title": "Tools Index",
-        "sidebar_label": "Tools Index"
+        "sidebar_label": "Tools"
       },
       "wiki-tool-wallets": {
         "title": "Wallets",
@@ -119,7 +139,15 @@
       },
       "wiki-tut-index": {
         "title": "Tutorials List",
-        "sidebar_label": "Tutorials List"
+        "sidebar_label": "Tutorials"
+      },
+      "wiki-tut-p1": {
+        "title": "Tutorials P1",
+        "sidebar_label": "P1"
+      },
+      "wp-home": {
+        "title": "Understading Darwinia",
+        "sidebar_label": "Overview"
       }
     },
     "links": {
@@ -129,7 +157,9 @@
       "Developers": "Developers"
     },
     "categories": {
-      "Wiki": "Wiki",
+      "Get Started": "Get Started",
+      "Understanding Darwinia": "Understanding Darwinia",
+      "Tutorials": "Tutorials",
       "Developers": "Developers",
       "Crab Network": "Crab Network"
     }
@@ -144,7 +174,7 @@
     "Need help?|no description given": "Need help?",
     "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
     "home_title|": "Darwinia Documentation",
-    "home_tagline|": "Cross-chain App Hub and Internet of Tokens",
+    "home_tagline|": "INTERNET OF TOKENS, CONNECTED!",
     "darwin-intro-text|": "As an open application cross-chain protocol based on Substrate, Darwinia focuses on the construction of future Internet of Tokens, including the cross-chain of game tokens, NFT, Stablecoins, and Appchain",
     "latest_update|": "Latest Updates",
     "knowledge_base|": "Knowledge Base",

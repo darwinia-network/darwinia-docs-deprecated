@@ -1,23 +1,18 @@
 {
   "docs": {
-    "Wiki": [
+    "Get Started": [
       "wiki-home",
       "wiki-intro",
-      {
-        "type": "subcategory",
-        "label": "Whitepaper",
-        "ids": [
-
-        ]
-      },
+      "wiki-faq",
+      "wiki-community",
       "wiki-roadmap",
-      {
-        "type": "subcategory",
-        "label": "Tutorials",
-        "ids": [
-          "wiki-tut-index"
-        ]
-      },
+      "wiki-tut-index",
+      "wiki-tool-index",
+      "misc-sample",
+      "wiki-contribute"
+    ],
+    "Understanding Darwinia": [
+      "wp-home",
       {
         "type": "subcategory",
         "label": "RFCs",
@@ -25,60 +20,48 @@
           "wiki-rfc-index"
         ]
       },
-      {
-        "type": "subcategory",
-        "label": "Tools",
-        "ids": [
-          "wiki-tool-index", "wiki-tool-wallets", "wiki-tool-explorer", "wiki-tool-faucet"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Miscellaneous",
-        "ids": [
-          "wiki-misc-glossary", "wiki-misc-links", "wiki-misc-faq", "misc-sample"
-        ]
-      }
+      "wiki-glossary"
+    ],
+    "Tutorials": [
+      "wiki-tut-p1"
     ]
   },
   "dev": {
     "Developers": [
-      "dev-home", "dev-bounty", "dev-substrate", "dev-rust",
+      "dev-home", "dev-bounty",
       {
         "type": "subcategory",
         "label": "Workshops",
         "ids": [
           "dev-workshop-index"
         ]
-      }
+      },
+      "dev-community", "dev-substrate", "dev-rust"
     ]
   },
   "crab": {
     "Crab Network": [
       "crab-home",
+      "crab-tut-index",
+      "crab-tool-index",
+      "crab-airdrop",
       {
         "type": "subcategory",
         "label": "Get Started",
         "ids": [
           "crab-gs-faucet", "crab-gs-faucet"
         ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Guides",
-        "ids": [
-          "crab-tut-index",
-          "crab-tut-account",
-          "crab-tut-get-free-cring",
-          "crab-tut-claim-cring",
-          "crab-tut-staking",
-          "crab-tut-nominator",
-          "crab-tut-node",
-          "crab-tut-validator",
-          "crab-tut-relayer",
-          "crab-tut-governance"
-        ]
       }
+    ],
+    "Tutorials": [
+      "crab-tut-get-free-cring",
+      "crab-tut-claim-cring",
+      "crab-tut-staking",
+      "crab-tut-nominator",
+      "crab-tut-node",
+      "crab-tut-validator",
+      "crab-tut-relayer",
+      "crab-tut-governance"
     ]
   }
 }

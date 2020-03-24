@@ -5,9 +5,17 @@
     "title": "达尔文网络 知识库",
     "tagline": "跨链应用枢纽与资产互联网络",
     "docs": {
+      "crab-airdrop": {
+        "title": "Crab 网络空投",
+        "sidebar_label": "空投"
+      },
       "crab-home": {
         "title": "Crab 网络",
         "sidebar_label": "Crab 网络"
+      },
+      "crab-tool-index": {
+        "title": "Crab Network 工具集",
+        "sidebar_label": "工具集"
       },
       "crab-tut-account": {
         "title": "如何创建一个账户",
@@ -53,6 +61,10 @@
         "title": "开发者赏金计划",
         "sidebar_label": "赏金计划"
       },
+      "dev-community": {
+        "title": "Developer Community",
+        "sidebar_label": "Community"
+      },
       "dev-home": {
         "title": "开发者资源",
         "sidebar_label": "开发者资源"
@@ -72,6 +84,22 @@
       "misc-sample": {
         "title": "示例文章",
         "sidebar_label": "示例文章"
+      },
+      "wiki-community": {
+        "title": "社区",
+        "sidebar_label": "社区"
+      },
+      "wiki-contribute": {
+        "title": "参与内容贡献",
+        "sidebar_label": "参与内容贡献"
+      },
+      "wiki-faq": {
+        "title": "常见问题",
+        "sidebar_label": "常见问题"
+      },
+      "wiki-glossary": {
+        "title": "术语表",
+        "sidebar_label": "术语表"
       },
       "wiki-home": {
         "title": "知识库",
@@ -120,6 +148,14 @@
       "wiki-tut-index": {
         "title": "教程列表",
         "sidebar_label": "教程"
+      },
+      "wiki-tut-p1": {
+        "title": "教程1",
+        "sidebar_label": "教程1"
+      },
+      "wp-home": {
+        "title": "深入理解达尔文网络",
+        "sidebar_label": "概述"
       }
     },
     "links": {
@@ -140,9 +176,10 @@
       "RFCs": "RFC",
       "Whitepaper": "白皮书",
       "Tutorials": "教程列表",
-      "Get Started": "立即开始",
+      "Get Started": "概述",
+      "Understanding Darwinia": "深入理解达尔文网络",
       "Guides": "指南",
-      "Workshops": "Workshops"
+      "Workshops": "专题讨论会"
     }
   },
   "pages-strings": {
@@ -156,7 +193,7 @@
     "This project is maintained by a dedicated group of people.|statement made to reader": "本项目有一组成员更新维护。",
 
     "home_title|": "达尔文网络 知识库",
-    "home_tagline|": "跨链应用枢纽与资产互联网络",
+    "home_tagline|": "资产互联网络，已接通！",
     "darwin-intro-text|": "达尔文网络是基于Substrate开发的开放应用跨链协议，专注于建设未来资产互联网络，包括游戏资产和非标资产的跨链，稳定币的跨链，应用链跨链等领域",
     "latest_update|": "最新动态",
     "knowledge_base|": "探索知识库",
