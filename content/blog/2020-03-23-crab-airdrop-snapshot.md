@@ -16,7 +16,7 @@ Darwinia 官方已于 2020年3月20日，对 RING & DOT 的持有者进行了快
 
 快照包含 ERC-20 和 TRC-20 的 RING，包括古灵阁中存单部分，KTON 不在此次快照范围。
 
-## 关于 Crab 网络：
+**关于 Crab 网络**
 
 Darwinia Crab Network（简称：Crab 网络）对于 Darwinia 来说是一个金丝雀网络，定位类似于 Kusama 网络之于 Polkadot，Expect Chaos 是一个合理的预期。
 
