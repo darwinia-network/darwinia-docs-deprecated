@@ -7,9 +7,9 @@ sidebar_label: 社区
 ## 国内
 
 - 微信公众号：DarwiniaNetwork
+- 微信小助手：darwinia-network
 - 币乎：https://bihu.com/people/1100617
 - 微博：https://weibo.com/DarwiniaNetwork
-- 微信小助手：darwinia-network
 
 ## 国外
 
@@ -20,3 +20,4 @@ sidebar_label: 社区
 - Medium: https://medium.com/@DarwiniaNetwork
 - Reddit: https://www.reddit.com/r/DarwiniaFans/
 - Riot：https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
+
