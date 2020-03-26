@@ -81,7 +81,9 @@ Once completed (October 2019), .NET API will be provided complete with documenta
 ## Developer SmartContract
 
 ### ink! Playground
+
 #### ￼ink! playground is the browser IDE for Substrate's smart contract (srml-contract） [- Website](https://ink-playground.com/) [- Github](https://github.com/staketechnologies/ink-playground)
+
 This will be similar to Remix, the smart contract IDE of Ethereum. Currently, if developers want to run ink! smart contract, they have to install substrate and ink into local environment. But this takes many steps, and also it is not easy to run stably because of version compatibility issues or so. By using ink! playground, Substrate developers can test contracts easily just by writing main code on browser. It doesn't require installing Substrate or running Substrate node. This is very useful for Substrate smart contract developers. For the future works, ink! playground also provides high level security audits. This is for developer who wants to make high secured smart contracts like for enterprise use.
 
 ### ink! Remix Plugin
