@@ -13,12 +13,12 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 即使达尔文网络被投票退出 Polkadot 的平行链集合，达尔文网络仍将作为"Solo Chain"工作，将会自己负责自己的安全。
 
-### 什么是RING和KTON?
+### 什么是 RING 和 KTON ?
 
-RING 是Darwinia Network的Native Token，初始供应量为20亿。KTON是Darwinia Network的治理Token，初始供应量为零，只能通过锁定RING生成。
+RING 是 Darwinia Network 的 Native Token，初始供应量为 20亿。KTON 是 Darwinia Network 的治理 Token，初始供应量为零，只能通过锁定 RING 生成。
 
-目前已经有部分RING 和KTON以ERC-20和TRC-20形式存在于Ethereum网络和Tron网络，这些TOKEN将可以在Darwinia主网上线后通过跨链转换的方式1:1转移至Darwinia主网。
+目前已经有部分 RING 和 KTON 以 ERC-20 和 TRC-20 形式存在于 Ethereum 网络和 Tron 网络，这些 TOKEN 将可以在 Darwinia 主网上线后通过跨链转换的方式 1:1 转移至 Darwinia 主网。
 
-### 目前Evolution Land中的RING/KTON是什么?
+### 目前 Evolution Land 中的 RING / KTON 是什么?
 
-Evolution Land中的RING 和 KTON就是ERC-20/TRC-20形式的TOKEN，进化星球游戏决定采用Darwinia Network的RING通证作为游戏内的支付通证。
+Evolution Land 中的 RING 和 KTON 就是 ERC-20 / TRC-20 形式的 TOKEN，进化星球游戏决定采用 Darwinia Network 的 RING 通证作为游戏内的支付通证。
