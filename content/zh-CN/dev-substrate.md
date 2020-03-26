@@ -50,7 +50,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - Substrate 应用 - 抛硬币游戏(一)：https://zhuanlan.zhihu.com/p/76815437
 - Substrate 应用 - 抛硬币游戏(二：编写测试和UI)：https://zhuanlan.zhihu.com/p/85070687
 
-## 知乎专栏：
+## 知乎专栏
 - Substrate区块链开发：https://zhuanlan.zhihu.com/substrate
 - 深入浅出substrate：https://zhuanlan.zhihu.com/HeadFirstSubstrat
 

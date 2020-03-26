@@ -13,3 +13,4 @@ https://github.com/darwinia-network/collaboration/tree/master/bounty
 https://gitcoin.co/issue/darwinia-network/darwinia/42/3508
 
 同时 Darwinia 将发起 Darwinia Grant 计划，为帮助完善 Darwinia 生态的开发者提供资金支持。
+
