@@ -4,9 +4,9 @@ title: Crab 网络工具集
 sidebar_label: 工具集
 ---
 
-- Wallet：
+- 钱包：
 
-- Explorer：
-- Polkadot Telemetry：[https://telemetry.polkadot.io/#list/Darwinia%20IceFrog%20Testnet](https://telemetry.polkadot.io/#list/Darwinia IceFrog Testnet)
+- 浏览器：
+- Telemetry：
 - Networks：
 

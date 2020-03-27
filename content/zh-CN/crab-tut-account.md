@@ -13,6 +13,5 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 如创建过账号，且有json文件，可直接选择导入账号。
 
-> 注意：  
 > 为了节约存储空间，少于1cRING的账号会被视为尘埃地址，无法进行任何操作。因此，您需要为的地址充值一定数量的cRING，进行操作时请预留一定数量的cRING作为手续费。
 
