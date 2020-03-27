@@ -76,6 +76,34 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "dev-workshop-0001": {
+        "title": "链式反应研讨会 第1期",
+        "sidebar_label": "第1期"
+      },
+      "dev-workshop-0002": {
+        "title": "链式反应研讨会 第2期",
+        "sidebar_label": "第2期"
+      },
+      "dev-workshop-0003": {
+        "title": "链式反应研讨会 第3期",
+        "sidebar_label": "第3期"
+      },
+      "dev-workshop-0004": {
+        "title": "链式反应研讨会 第4期",
+        "sidebar_label": "第4期"
+      },
+      "dev-workshop-0005": {
+        "title": "链式反应研讨会 第5期",
+        "sidebar_label": "第5期"
+      },
+      "dev-workshop-0006": {
+        "title": "链式反应研讨会 第6期",
+        "sidebar_label": "第6期"
+      },
+      "dev-workshop-0007": {
+        "title": "链式反应研讨会 第7期",
+        "sidebar_label": "第7期"
+      },
       "dev-workshop-index": {
         "title": "往期研讨会一览",
         "sidebar_label": "往期研讨会一览"

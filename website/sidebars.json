@@ -40,7 +40,14 @@
         "type": "subcategory",
         "label": "Workshops",
         "ids": [
-          "dev-workshop-index"
+          "dev-workshop-index",
+          "dev-workshop-0007",
+          "dev-workshop-0006",
+          "dev-workshop-0005",
+          "dev-workshop-0004",
+          "dev-workshop-0003",
+          "dev-workshop-0002",
+          "dev-workshop-0001"
         ]
       },
       "dev-community", "dev-substrate", "dev-rust"

@@ -77,6 +77,34 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "dev-workshop-0001": {
+        "title": "Chain Reaction Workshop Vol 1",
+        "sidebar_label": "Vol 1"
+      },
+      "dev-workshop-0002": {
+        "title": "Chain Reaction Workshop Vol 2",
+        "sidebar_label": "Vol 2"
+      },
+      "dev-workshop-0003": {
+        "title": "Chain Reaction Workshop Vol 3",
+        "sidebar_label": "Vol 3"
+      },
+      "dev-workshop-0004": {
+        "title": "Chain Reaction Workshop Vol 4",
+        "sidebar_label": "Vol 4"
+      },
+      "dev-workshop-0005": {
+        "title": "Chain Reaction Workshop Vol 5",
+        "sidebar_label": "Vol 5"
+      },
+      "dev-workshop-0006": {
+        "title": "Chain Reaction Workshop Vol 6",
+        "sidebar_label": "Vol 6"
+      },
+      "dev-workshop-0007": {
+        "title": "Chain Reaction Workshop Vol 7",
+        "sidebar_label": "Vol 7"
+      },
       "dev-workshop-index": {
         "title": "Workshop Index",
         "sidebar_label": "Workshop Index"
