@@ -2,7 +2,7 @@
 id: rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains
 title: 0012 Darwinia Bridge Core Interoperation In Chainrelay Enabled Blockchains
 sidebar_label: 0012 Darwinia Bridge Core Interoperation In Chainrelay Enabled Blockchains
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains.md
 ---
 
 - rfc: 12

@@ -2,7 +2,7 @@
 id: rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals
 title: 0011 Using Harberger Tax To Find Price For Xclaim Vault Collaterals
 sidebar_label: 0011 Using Harberger Tax To Find Price For Xclaim Vault Collaterals
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/zh_CN/0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals.md
 ---
 
 - rfc: 11

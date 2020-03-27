@@ -2,7 +2,7 @@
 id: rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol
 title: 0014 Darwinia Token Migration By Cross Chain Redeem Protocol
 sidebar_label: 0014 Darwinia Token Migration By Cross Chain Redeem Protocol
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0014-darwinia-token-migration-by-cross-chain-redeem-protocol.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0014-darwinia-token-migration-by-cross-chain-redeem-protocol.md
 ---
 
 - rfc: 14

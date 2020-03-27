@@ -107,7 +107,7 @@ def sync_locale(src, target)
 id: #{id}
 title: #{title}
 sidebar_label: #{title}
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/#{f}
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/#{src}/#{f}
 ---
 
 }

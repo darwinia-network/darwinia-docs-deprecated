@@ -2,7 +2,7 @@
 id: rfc-0007-dawinia-token-staking-model
 title: 0007 Dawinia Token Staking Model
 sidebar_label: 0007 Dawinia Token Staking Model
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0007-dawinia-token-staking-model.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/zh_CN/0007-dawinia-token-staking-model.md
 ---
 
 - 功能描述: 达尔文通证和Staking模型(Darwinia AppChain)

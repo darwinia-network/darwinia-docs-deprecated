@@ -2,7 +2,7 @@
 id: rfc-0010-darwinia-cross-chain-nft-bridge-protocol
 title: 0010 Darwinia Cross Chain Nft Bridge Protocol
 sidebar_label: 0010 Darwinia Cross Chain Nft Bridge Protocol
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0010-darwinia-cross-chain-nft-bridge-protocol.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0010-darwinia-cross-chain-nft-bridge-protocol.md
 ---
 
 - rfc: 10

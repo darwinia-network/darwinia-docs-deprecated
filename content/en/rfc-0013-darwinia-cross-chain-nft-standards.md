@@ -2,7 +2,7 @@
 id: rfc-0013-darwinia-cross-chain-nft-standards
 title: 0013 Darwinia Cross Chain Nft Standards
 sidebar_label: 0013 Darwinia Cross Chain Nft Standards
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0013-darwinia-cross-chain-nft-standards.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0013-darwinia-cross-chain-nft-standards.md
 ---
 
 - rfc: 13

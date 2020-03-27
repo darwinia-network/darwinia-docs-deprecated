@@ -2,7 +2,7 @@
 id: rfc-0009-dawinia-liquid-kton-reward
 title: 0009 Dawinia Liquid Kton Reward
 sidebar_label: 0009 Dawinia Liquid Kton Reward
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0009-dawinia-liquid-kton-reward.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0009-dawinia-liquid-kton-reward.md
 ---
 
 - rfc: 9

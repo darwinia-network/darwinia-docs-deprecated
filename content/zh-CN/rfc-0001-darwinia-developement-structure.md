@@ -2,7 +2,7 @@
 id: rfc-0001-darwinia-developement-structure
 title: 0001 Darwinia Developement Structure
 sidebar_label: 0001 Darwinia Developement Structure
-custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/0001-darwinia-developement-structure.md
+custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/zh_CN/0001-darwinia-developement-structure.md
 ---
 
 - 功能描述: 达尔文网络的开发架构描述
