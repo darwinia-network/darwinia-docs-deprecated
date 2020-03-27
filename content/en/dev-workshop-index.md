@@ -18,6 +18,8 @@ sidebar_label: Workshop Index
 
 - Video：
 
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/fSZspxvvIFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   https://youtu.be/fSZspxvvIFI
 
 ### 6th
@@ -32,5 +34,7 @@ sidebar_label: Workshop Index
 
 - Video：
 
-https://youtu.be/-zgIFFWQnso
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/-zgIFFWQnso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  https://youtu.be/-zgIFFWQnso
 
