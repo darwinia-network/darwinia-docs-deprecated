@@ -85,6 +85,38 @@
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
       },
+      "rfc-0001-darwinia-developement-structure": {
+        "title": "0001 Darwinia Developement Structure",
+        "sidebar_label": "0001 Darwinia Developement Structure"
+      },
+      "rfc-0007-dawinia-token-staking-model": {
+        "title": "0007 Dawinia Token Staking Model",
+        "sidebar_label": "0007 Dawinia Token Staking Model"
+      },
+      "rfc-0009-dawinia-liquid-kton-reward": {
+        "title": "0009 Dawinia Liquid Kton Reward",
+        "sidebar_label": "0009 Dawinia Liquid Kton Reward"
+      },
+      "rfc-0010-darwinia-cross-chain-nft-bridge-protocol": {
+        "title": "0010 Darwinia Cross Chain Nft Bridge Protocol",
+        "sidebar_label": "0010 Darwinia Cross Chain Nft Bridge Protocol"
+      },
+      "rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals": {
+        "title": "0011 Using Harberger Tax To Find Price For Xclaim Vault Collaterals",
+        "sidebar_label": "0011 Using Harberger Tax To Find Price For Xclaim Vault Collaterals"
+      },
+      "rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains": {
+        "title": "0012 Darwinia Bridge Core Interoperation In Chainrelay Enabled Blockchains",
+        "sidebar_label": "0012 Darwinia Bridge Core Interoperation In Chainrelay Enabled Blockchains"
+      },
+      "rfc-0013-darwinia-cross-chain-nft-standards": {
+        "title": "0013 Darwinia Cross Chain Nft Standards",
+        "sidebar_label": "0013 Darwinia Cross Chain Nft Standards"
+      },
+      "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol": {
+        "title": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol",
+        "sidebar_label": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol"
+      },
       "wiki-community": {
         "title": "Community",
         "sidebar_label": "Community"
