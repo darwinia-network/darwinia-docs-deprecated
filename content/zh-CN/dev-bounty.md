@@ -1,7 +1,7 @@
 ---
 id: dev-bounty
-title: Bounty Program
-sidebar_label: Bounty Program
+title: 开发者赏金计划
+sidebar_label: 赏金计划
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/dev-bounty.md
 ---
 

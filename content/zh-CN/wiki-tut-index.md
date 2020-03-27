@@ -1,8 +1,8 @@
 ---
 id: wiki-tut-index
-title: Tutorials List
-sidebar_label: Tutorials List
+title: 教程列表
+sidebar_label: 教程
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-tut-index.md
 ---
 
-Wiki Tutorials List
+教程列表

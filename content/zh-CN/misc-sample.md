@@ -1,7 +1,7 @@
 ---
 id: misc-sample
-title: Sample Article
-sidebar_label: Sample Article
+title: 示例文章
+sidebar_label: 示例文章
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/misc-sample.md
 ---
 

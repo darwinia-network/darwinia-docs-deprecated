@@ -1,7 +1,7 @@
 ---
 id: dev-workshop-index
-title: Workshop 清单
-sidebar_label: Workshop 清单
+title: 往期研讨会一览
+sidebar_label: 往期研讨会一览
 ---
 
 ## 链式反应 Meetup 回顾

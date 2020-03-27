@@ -1,7 +1,7 @@
 ---
 id: wiki-intro
-title: What is Darwinia Network
-sidebar_label: Introduction
+title: 达尔文网络是什么
+sidebar_label: 达尔文网络介绍
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-intro.md
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: wiki-glossary
-title: Glossary
-sidebar_label: Glossary
+title: 术语表
+sidebar_label: 术语表
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-misc-glossary.md
 ---
 
-Wiki Glossary
+术语表
