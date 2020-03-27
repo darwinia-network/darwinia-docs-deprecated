@@ -9,4 +9,5 @@ lib/core/MetadataBlog.js
 website/build/
 website/yarn.lock
 website/node_modules
+website/tools
 # website/i18n/*
