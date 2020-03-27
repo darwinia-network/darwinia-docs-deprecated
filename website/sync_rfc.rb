@@ -2,6 +2,9 @@ require 'json'
 require 'net/http'
 require 'pry-nav'
 
+# This script will sync remote rfc repo to local articles in rfc section
+# remote rfc repo is pulled through submodule and stored in ./content/.remote_rfc 
+
 @rfc_meta_file = "./.rfc_version"
 @rfc_check_api = "https://api.github.com/repos/darwinia-network/rfcs/commits?path=RFC"
 @remote_rfc_path = "../content/.remote_rfc"
