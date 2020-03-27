@@ -21,11 +21,25 @@ Chain Reaction Meetup aims to discuss cutting-edge technologies with developers,
 - Maggie Parity - Substrate and smart contract
 - Antonio - Darwinia cross-chain token bridge
 
-## Chain Reaction Meetup No.5 [Video Review](https://www.yizhibo.com/l/Q2xiK2cfo-mkwO4U.html)
-- Yaoqi - Web3.0 blockchain application: the scalability and interoperability of blockchain
-- Maggie Parity - Substrate and Alliance Chain
-- Bro Tiaozi - Chainlink empowerment smart contract
-- Denny Wang - Ethereum cross-chain token bridge
+- Video：
+
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/fSZspxvvIFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  https://youtu.be/fSZspxvvIFI
+
+### 6th
+
+- Summary：
+
+  1、Aki - Substrate 中的编码：SCALE  
+  2、王大锤 - Substrate 与智能合约  
+  3、Antonio - Darwinia 跨链转接桥
+
+- Video：
+
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/-zgIFFWQnso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  https://youtu.be/-zgIFFWQnso
 
 ## Chain Reaction Meetup No.4 [Video Review](https://www.yizhibo.com/l/Ms6TQKJERiNuT2oZ.html)
 - Liu Chang - Implementing MMR data structure by Rust
