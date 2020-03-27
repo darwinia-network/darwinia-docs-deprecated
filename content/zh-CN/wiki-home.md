@@ -1,6 +1,6 @@
 ---
 id: wiki-home
-title: Wiki Home
+title: 知识库
 sidebar_label: 首页
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-home.md
 ---

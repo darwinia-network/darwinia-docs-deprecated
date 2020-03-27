@@ -1,7 +1,7 @@
 ---
 id: wiki-tool-explorer
-title: Explorer
-sidebar_label: Explorer
+title: 区块数据浏览器
+sidebar_label: 区块数据浏览器
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-tool-explorer.md
 ---
 

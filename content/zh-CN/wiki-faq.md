@@ -1,7 +1,7 @@
 ---
 id: wiki-faq
-title: FAQ
-sidebar_label: FAQ
+title: 常见问题
+sidebar_label: 常见问题
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-misc-faq.md
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: crab-home
-title: Darwinia Crab Network
+title: Crab 网络
 sidebar_label: Crab 网络
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-home.md
 ---
