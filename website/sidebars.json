@@ -10,27 +10,57 @@
       "misc-sample",
       "wiki-contribute"
     ],
-    "Understanding Darwinia": [
+    "Understand Darwinia": [
       "wp-home",
       {
         "type": "subcategory",
-        "label": "RFCs",
+        "label": "Architecture",
         "ids": [
-          "wiki-rfc-index",
-          "rfc-0001-darwinia-developement-structure",
-          "rfc-0007-dawinia-token-staking-model",
-          "rfc-0009-dawinia-liquid-kton-reward",
-          "rfc-0010-darwinia-cross-chain-nft-bridge-protocol",
-          "rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals",
-          "rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains",
-          "rfc-0013-darwinia-cross-chain-nft-standards",
-          "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol"
+          "wiki-us-architecture",
+          "wiki-us-bridgechain",
+          "wiki-us-solo",
+          "wiki-us-parachain"
         ]
       },
+      "wiki-us-appchain-sdk",
+      "wiki-us-nft",
+      {
+        "type": "subcategory",
+        "label": "Economics",
+        "ids": [
+          "wiki-us-tokens",
+          "wiki-us-distribution",
+          "wiki-us-txfee"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Staking",
+        "ids": [
+          "wiki-us-staking-basic",
+          "wiki-us-staking-advanced",
+          "wiki-us-staking-power",
+          "wiki-us-staking-slash"
+        ]
+      },
+      "wiki-us-bc-how",
+      "wiki-us-cryptography",
+      "wiki-us-governance",
       "wiki-glossary"
     ],
     "Tutorials": [
       "wiki-tut-p1"
+    ],
+    "RFCs": [
+      "wiki-rfc-index",
+      "rfc-0001-darwinia-developement-structure",
+      "rfc-0007-dawinia-token-staking-model",
+      "rfc-0009-dawinia-liquid-kton-reward",
+      "rfc-0010-darwinia-cross-chain-nft-bridge-protocol",
+      "rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals",
+      "rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains",
+      "rfc-0013-darwinia-cross-chain-nft-standards",
+      "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol"
     ]
   },
   "dev": {
@@ -56,16 +86,17 @@
   "crab": {
     "Crab Network": [
       "crab-home",
-      "crab-tut-index",
       "crab-tool-index",
       "crab-airdrop",
+      "crab-parameters",
       {
         "type": "subcategory",
         "label": "Get Started",
         "ids": [
           "crab-gs-faucet", "crab-gs-faucet"
         ]
-      }
+      },
+      "crab-tut-index"
     ],
     "Tutorials": [
       "crab-tut-get-free-cring",

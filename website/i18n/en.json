@@ -13,6 +13,10 @@
         "title": "Darwinia Crab Network",
         "sidebar_label": "Crab Network"
       },
+      "crab-parameters": {
+        "title": "Crab Network Parameters",
+        "sidebar_label": "Parameters"
+      },
       "crab-tool-index": {
         "title": "Crab Network Tools",
         "sidebar_label": "Tools"
@@ -107,7 +111,7 @@
       },
       "dev-workshop-index": {
         "title": "Workshop Index",
-        "sidebar_label": "Workshop Index"
+        "sidebar_label": "Workshops"
       },
       "misc-sample": {
         "title": "Sample Article",
@@ -205,6 +209,74 @@
         "title": "Tutorials P1",
         "sidebar_label": "P1"
       },
+      "wiki-us-appchain-sdk": {
+        "title": "Appchain SDK",
+        "sidebar_label": "Appchain SDK"
+      },
+      "wiki-us-architecture": {
+        "title": "Architecture",
+        "sidebar_label": "Architecture"
+      },
+      "wiki-us-bc-how": {
+        "title": "How does Darwinia Bridge Chain work",
+        "sidebar_label": "Bridge Chain Mechanism"
+      },
+      "wiki-us-bridgechain": {
+        "title": "Bridge Chain",
+        "sidebar_label": "Bridge Chain"
+      },
+      "wiki-us-cryptography": {
+        "title": "Cryptography",
+        "sidebar_label": "Cryptography"
+      },
+      "wiki-us-distribution": {
+        "title": "Distribution",
+        "sidebar_label": "Distribution"
+      },
+      "wiki-us-governance": {
+        "title": "Governance",
+        "sidebar_label": "Governance"
+      },
+      "wiki-us-nft": {
+        "title": "Non-fungible Token Identifiability",
+        "sidebar_label": "NFT Identifiability"
+      },
+      "wiki-us-parachain": {
+        "title": "Parachain Mode",
+        "sidebar_label": "Parachain Mode"
+      },
+      "wiki-us-parameters": {
+        "title": "Parameters",
+        "sidebar_label": "Parameters"
+      },
+      "wiki-us-solo": {
+        "title": "Solo Mode",
+        "sidebar_label": "Solo Mode"
+      },
+      "wiki-us-staking-advanced": {
+        "title": "Advanced Staking",
+        "sidebar_label": "Advanced Staking"
+      },
+      "wiki-us-staking-basic": {
+        "title": "Basic Staking",
+        "sidebar_label": "Basic Staking"
+      },
+      "wiki-us-staking-power": {
+        "title": "Staking Power",
+        "sidebar_label": "Staking Power"
+      },
+      "wiki-us-staking-slash": {
+        "title": "Slash Algorithm",
+        "sidebar_label": "Slash Algorithm"
+      },
+      "wiki-us-tokens": {
+        "title": "Native Tokens",
+        "sidebar_label": "Native Tokens"
+      },
+      "wiki-us-txfee": {
+        "title": "Transaction Fees",
+        "sidebar_label": "Transaction Fees"
+      },
       "wp-home": {
         "title": "Understading Darwinia",
         "sidebar_label": "Overview"
@@ -218,8 +290,9 @@
     },
     "categories": {
       "Get Started": "Get Started",
-      "Understanding Darwinia": "Understanding Darwinia",
+      "Understand Darwinia": "Understand Darwinia",
       "Tutorials": "Tutorials",
+      "RFCs": "RFCs",
       "Developers": "Developers",
       "Crab Network": "Crab Network"
     }
