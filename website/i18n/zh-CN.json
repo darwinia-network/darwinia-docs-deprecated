@@ -12,6 +12,10 @@
         "title": "Crab 网络",
         "sidebar_label": "Crab 网络"
       },
+      "crab-parameters": {
+        "title": "Crab网络参数 ",
+        "sidebar_label": "Crab 网络参数"
+      },
       "crab-tool-index": {
         "title": "Crab 网络工具集",
         "sidebar_label": "工具集"
@@ -204,6 +208,74 @@
         "title": "教程1",
         "sidebar_label": "教程1"
       },
+      "wiki-us-appchain-sdk": {
+        "title": "应用链开发工具",
+        "sidebar_label": "应用链开发工具"
+      },
+      "wiki-us-architecture": {
+        "title": "系统架构",
+        "sidebar_label": "系统架构"
+      },
+      "wiki-us-bc-how": {
+        "title": "理解达尔文转接桥工作机制",
+        "sidebar_label": "转接桥工作机制"
+      },
+      "wiki-us-bridgechain": {
+        "title": "跨链转接桥网络",
+        "sidebar_label": "跨链转接桥网络"
+      },
+      "wiki-us-cryptography": {
+        "title": "密码学",
+        "sidebar_label": "密码学"
+      },
+      "wiki-us-distribution": {
+        "title": "奖励分配 ",
+        "sidebar_label": "奖励分配 "
+      },
+      "wiki-us-governance": {
+        "title": "治理",
+        "sidebar_label": "治理"
+      },
+      "wiki-us-nft": {
+        "title": "NFT非标资产跨链可识别性",
+        "sidebar_label": "NFT可识别性"
+      },
+      "wiki-us-parachain": {
+        "title": "平行链模式",
+        "sidebar_label": "平行链模式"
+      },
+      "wiki-us-parameters": {
+        "title": "网络参数",
+        "sidebar_label": "网络参数"
+      },
+      "wiki-us-solo": {
+        "title": "独立模式 ",
+        "sidebar_label": "独立模式"
+      },
+      "wiki-us-staking-advanced": {
+        "title": "进阶版版权益质押",
+        "sidebar_label": "进阶版权益质押"
+      },
+      "wiki-us-staking-basic": {
+        "title": "基础版权益质押",
+        "sidebar_label": "基础版权益质押"
+      },
+      "wiki-us-staking-power": {
+        "title": "质押权益能量",
+        "sidebar_label": "质押权益能量 "
+      },
+      "wiki-us-staking-slash": {
+        "title": "Slash 惩罚算法",
+        "sidebar_label": "Slash 惩罚算法"
+      },
+      "wiki-us-tokens": {
+        "title": "网络原生代币",
+        "sidebar_label": "网络原生代币"
+      },
+      "wiki-us-txfee": {
+        "title": "交易手续费 ",
+        "sidebar_label": "交易手续费"
+      },
       "wp-home": {
         "title": "深入理解达尔文网络",
         "sidebar_label": "概述"
@@ -220,14 +292,14 @@
     },
     "categories": {
       "Get Started": "概述",
-      "Understanding Darwinia": "深入了解",
+      "Understand Darwinia": "深入了解",
       "Tutorials": "教程列表",
+      "RFCs": "RFC",
       "Developers": "开发者",
       "Crab Network": "Crab 网络",
       "Wiki": "知识库",
       "Miscellaneous": "其他资源",
       "Tools": "工具集",
-      "RFCs": "RFC",
       "Whitepaper": "白皮书",
       "Guides": "指南",
       "Workshops": "专题讨论会"
