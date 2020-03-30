@@ -62,14 +62,32 @@
     font-family: $myFont;
     font-size: 20px;
   }
-  
-  h1,
+  /* h1,
   h2,
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  p,
+  a {
     font-family: $myFont;
+  } */
+  
+  body {
+    font-family: $myFont;
+    font-size: 1.2em;
+  }
+  
+  .toc .toggleNav .navGroup .navGroupSubcategoryTitle {
+    font-size: 100%;
+  }
+  
+  .toc .toggleNav .navGroup .navGroupCategoryTitle {
+    font-size: 100%;
+  }
+  
+  .navItem {
+    font-size: 140%;
   }
   
   .fixedHeaderContainer header img.logo {
@@ -107,6 +125,10 @@
   .toc .toggleNav ul {
     padding: 0px;
     padding-right: 8px;
+  }
+  
+  .toc .toggleNav ul li a {
+    font-size: 90%;
   }
   
   .toc .toggleNav .navGroup ul {
