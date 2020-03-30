@@ -10,4 +10,4 @@ The current design of many existing ERC721 blockchain applications is mainly for
 
 To solve this issue, we designed an Interstellar Product Coding Standard, that enable different public chain and different products to have a single ID in the Darwinia Network, to allow easy cross-chain transfer for NFT products.
 
-TODO: image
+![NFT Identifiability](assets/nft-identifiability.png)

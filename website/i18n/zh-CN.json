@@ -302,7 +302,10 @@
       "Tools": "工具集",
       "Whitepaper": "白皮书",
       "Guides": "指南",
-      "Workshops": "专题讨论会"
+      "Workshops": "专题讨论会",
+      "Architecture": "架构",
+      "Economics": "经济系统",
+      "Staking": "质押权益 Staking"
     },
     "title": "达尔文网络 知识库"
   },
