@@ -7,7 +7,7 @@ sidebar_label: 社区
 ## 国内
 
 - 微信公众号：DarwiniaNetwork
-- 微信小助手：darwinia-network
+- 微信小助手：Darwinia_Network
 - 币乎：https://bihu.com/people/1100617
 - 微博：https://weibo.com/DarwiniaNetwork
 

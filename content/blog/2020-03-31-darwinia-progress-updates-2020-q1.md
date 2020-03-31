@@ -1,107 +1,102 @@
 ---
-title: Darwinia Network Progress Updates 2020 Q1
+title: Darwinia 项目进展 2020 Q1
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
 ![](assets/darwinia-banner.png)
 
-The recent coronavirus outbreak has a huge impact worldwide and it also caused difficulties and uncertainties to the crypto world.
+最近新冠病毒爆发，在全球范围内产生了巨大影响，也给加密世界带来了困难和不确定性。
 
 <!--truncate-->
 
-Darwinia Foundation and Darwinia Network core project team have been embracing open source vision and decentralized practices of development all along the way. We are trying to minimize the risk of the situation and the result so far has been satisfactory. I am sharing with you our recent progress updates:
+达尔文基金会和达尔文网络核心项目团队通过分布式办公，一直在努力将这种情况的风险降到最低，到目前为止，结果令人满意。很开心能够跟你分享我们最近的进度更新：
 
-## Development Progress
-
+## 开发进展
 ### Crab Network
+从最近的一版测试网“ Icefrog”，我们收集了社区用户，节点运营商和验证者的反馈修复了Bug并进行改进。我们正准备发布下一个测试网“ Crab Network”的，它将成为永久性的金丝雀网络。其功能将类似于Polkadot的Kusama网络。新功能将首先部署在Crab Network上，其状态和数据将不会被重置或删除。为了使该网络对参与者更具经济重要性，达尔文基金会将把RING初始供应的2％分配给Crab Network。我们已经快照了以太坊和Tron上RING的数据。 Crab Network的cRING将根据快照按比例分配。我们还将对DOT持有者进行空投，让更多Polkadot社区的用户参与进来。 Crab Network计划于4月中旬推出。区块链浏览器，钱包，代币领取工具，文档和指南之类的支持工具分别完成了90–95％。
 
-From the latest testnet “Icefrog” we have collected feedback from community users, node operators, and validators. We are able to fix bugs and make improvements. We are preparing to launch a canary version of the next testnet “Crab Network” which will be a permanent network. Its function will be similar to Kusama. New features will be deployed on Crab Network first and its state and data will not be reset or erased. To make the network more economically serious to participants, Darwinia Foundation will allocate 2% of RING’s initial supply to Crab Network. We will take a snapshot of Ring allocation state on Ethereum and Tron late this month. Native test coin cRING of Crab Network will be distributed based on the snapshot proportionally. We will also do an airdrop to Polkadot DOT holders to attract traffic and awareness. Crab Network is targeted to launch at the end of March or early April. Supporting tools such as blockchain explorer, wallets, token claiming tools, documentation, and guides are 90–95% done respectively.
+### Scale Codec荣获Web3 Foundation Grant
+Scale是用Ruby语言实现的基础json-rpc api客户端和库。这个实现包含substrate的基础数据格式，并且支持metadata。
 
-### Scale Codec receives Web3 Foundation Grant
-
-Developed by our team, Scale codec is a low-level library tool implemented using Ruby language to support Darwinia Network. With its open-source and public good nature, which will benefit any projects using the substrate framework, Scale received a grant from the Web3 foundation.
+这项工作是我们后续一系列项目的前提。我们希望通过Ruby来快速与Polkadot及Substrate连接，并利用我们现有的Ruby经验快速开发基于Polkadot或Substrate的应用程序。我们打算开发一些以Substrtate为基础的网路游戏。其中后端应用打算采用Ruby，并且通过rpc与节点交互以及同步数据。
 
 ### Substrate Builders Program
+我们很高兴地宣布，Darwinia加入了Substrate Builders Program。
 
-After several rounds of interviews with Parity coordinator and developers, we were selected to enter the Substrate Builders Program. We have got better access to support resources of development tools, closer collaborations with other project teams, dev team from Parity as well as capital resources.
+Substrate Builders Program项目是Parity（Polkadot开发团队）主导的，专门为Substrate使用者创建的一个“家园”。在这个家园中，使用者们可以通过线上、电话会议等方式，分享使用Substrate开发过程中踩过的坑和解决经验。同时，Substrate Builders Program还提供商业发展的帮助、技术和社区支持。
+
+加入Builder Program后，Darwinia将和各路优秀的开发者一起探讨区块链世界，进行思想碰撞，在Parity的指导下，Darwinia会充分吸收百家之长来促进自身更好的发展。
 
 ### Subscan, a better explorer
+Subscan（https://subscan.io/）是 Substrate & Polkadot 生态中最便捷易用的多链浏览器，现已支持 Kusama、Edgeware、Darwinia，未来还将支持更多网络，例如Polkadot，Acala，Plasm等等。
 
-As a supporting side project, subscan.io is a blockchain explorer and dApp, which targets substrate-based networks. It has been open-sourced and the beta version has been released. It supports Kusama, Edgeware, and Darwinia Icefrog testnet for now and it will support more coming networks including but not limited to Darwinia Crab network, Darwinia Mainnet, Polkadot, Acala Network, etc.
+Subscan为基于Substrate框架开发的链提供了方便的查询服务，用户可以使用Subscan查看交易所/钱包的充值、提现、转账、Staking等交易信息。
 
 ### Ethereum-Darwinia Bridge Demo
+我们已经使用Darwinia Relay / Bridge技术实现了以太坊和Darwinia Testnet之间的分散式桥梁的PoC模块。
 
-We have implemented a PoC module of a decentralized bridge between Ethereum and Darwinia Testnet with Darwinia Relay/Bridge technology.
-
-### DAI Token Bridge
-
-We have reached out to the MakerDAO foundation and proposed to build a decentralized bridge for DAI token to cross Ethereum to Polkadot. The proposal is under review.
+### DAI跨链转接桥
+我们已经与MakerDAO基金会联系，并提议为DAI建立一个去中心化转接桥，使得DAI可以从以太坊跨链到Polkadot。该提案正在审查中。
 
 ### Polkadot Venture Netwok
-
-Polkadot is about to start an initiative known as Polkadot Venture Network and Darwinia has been added as a featured project.
+Polkadot即将启动一项名为Polkadot Venture Network的计划，并且已将Darwinia添加为特色项目。
 
 ### Website Revamped
+我们最新版的网站已经发布，请查看官网：https://darwinia.network，了解更多详细信息
 
-Check out our revamped website [https://darwinia.network](https://darwinia.network/) for more details
+## 重新定义达尔文
+由于我们在去中心化跨异构区块链网络进行价值转移方面取得了技术突破，因此我们将该技术称为Darwinia Relay / Bridge。目前，达尔文网络不再局限于“游戏平行链”。它将作为关键基础设施，支持使用智能合约的区块链网络之间的跨链价值转移。跨链NFT市场或“ Evolution Land”之类的跨链游戏仍将部署在Darwinia Network上，但它们将充当协议从单链升级到跨链版本的展示。包括DEX，流动性，DeFi和其他协议在内的协议可以利用Darwinia Network来实现跨链互操作性。我们正在更新项目资料，以向社区传达此信息。
 
-## Re-positioning
+## 市场与社区
+参与了一系列高质量的社区活动来与社区用户进行互动，主要事件如下：
 
-As we have made a technical breakthrough regarding value transfer across heterogeneous blockchain networks in a truly decentralized manner, we have branded this technology as Darwinia Relay/Bridge. Darwinia Network is no longer limited as a “Gaming Parachain with NFT features” as perceived by the market at the moment. It will serve as critical infrastructure, supporting cross-chain value transfer across smart contract enabled blockchain networks. Cross-chain NFT markets or cross-chain games such as “Evolution Land” will still be deployed on Darwinia Network, but they will serve as showcases for protocol upgrade from a single chain to a cross-chain version. Protocols including DEX, liquidity, DeFi, and others can leverage Darwinia Network to achieve cross-chain interoperability. We are updating our website and other marketing materials to deliver this message to the community.
+### 推出赏金计划
+我们推出了赏金计划，以奖励代码贡献者，错误报告者，安全审核员，因为他们的贡献已被认可并接受了相应数量的代币。
 
-## Marketing and Community
+### Zoom在线研讨会“链式反应”
+“链式反应”是针对技术专业人员以及普通大众的研讨会/聚会。 3月24日，我们为开发人员举办了一个在线研讨会。自去年7月推出以来，这是面向开发人员的第7次研讨会。通常这是一个线下研讨会，但是这次我们是通过Zoom在线完成的。主题包括“Codec in Substrate”、“Substrate and Smart Contract”、“Darwinia Cross-chain Bridge”.
 
-Various marketing engagements and efforts have been deployed to interact with community users and increase participation and awareness. Major events are listed below:
-
-### Bounty Program Introduced
-
-A bounty program is announced to reward code contributors, bug reporters, security auditors as their contributions are recognized and accepted with the respective amount of tokens.
-
-### Zoom Online Workshop and Meetup “Chain Reaction”
-
-“Chain Reaction” is a workshop/meetup targeting technical professionals as well as the general public. On 20th, Feb, we hosted a zoom-based online workshop for developers. This is the 6th workshop for developers since its introduction last July. Normally it’s an offline and onsite workshop, but this time we did it online via Zoom. Topics included “Codec in Substrate”, “Substrate and Smart Contract”, and “Darwinia Cross-chain Bridge”.
-
-### Polkabase AMA “How to build internet of tokens”
-
-In cooperation with Polkabase, co-founder Denny talked about “How to build internet of tokens” on Wechat channels interacting with more than 500 audiences.
+### Polkabase AMA“如何打造资产互联网”
+在与Polkabase的合作中，联合创始人Denny在微信群与500多个听众分享了“如何打造资产互联网“。
 
 ### Web3 BGU2020 / ETHCC
+在Web3基金会的邀请下，达尔文团队参加了在法国举行的2020区块链游戏大会，我们在此讨论了有关区块链游戏，NFT许多主题。之后，我们参加了ETHCC。
 
-Invited by the Web3 Foundation, Darwinia Team attended the Blockchain Gaming Conference 2020 in France, where we discussed many topics about blockchain games, non-fungible tokens. Afterward, we attended ETHCC.
+### 参与BIKI举办的Polkadot生态系统研讨会
+由BIKI，ChainX，Darwinia，Edgeware，Phala和Acala的创始人组织的联合在线研讨会，Darwinia介绍了项目愿景，并讨论了区块链下一个趋势，Polkadot生态系统等在内的主题。
 
-### Polkadot Ecosystem seminar hosted by BIKI
+## 新伙伴
+Darwinia Network（达尔文网络）宣布与 MathWallet（麦子钱包）正式达成战略合作伙伴关系。
 
-A joint online seminar organized by BIKI, founders from ChainX, Darwinia, Edgeware, Phala and Acala introduced project visions and discussed topics including, the next trend, Polkadot ecosystem, and more.
+合作将从Polkadot生态推广、技术支持、活动举办、社群互动等多角度进行，共同助力Polkadot、DARWINIA生态建设。未来，双方还将在行业研究、技术开发、资产安全、社区服务等领域继续展开深度合作，共同推进Polkadot、DARWINIA、Staking生态良性持续发展。
 
-## New partners
+## 开发者
+核心开发人员主要位于南京，一些合作者和贡献者位于上海，台湾和其他国家/地区。中国春节过后不久，团队开始复工。由于我们习惯于远程协作，因此这种做法效果很好，并且我们有效地保持了完整的开发速度。幸运的是，没有人被冠状病毒感染。
 
-Darwinia is pleased to announce a formal strategic partnership with MathWallet.
+## 主网启动
+Crab Network即将启动，我们将测试此测试网至少1个月，以确定它是否准备好启动Mainnet。如果一切顺利，我们将在第二季度发布主网。
 
-The cooperation will be carried out from multiple perspectives such as Polkadot ecosystem promotion, technical support, meetups, community interaction, etc. Jointly help Polkadot and Darwinia ecosystem construction.
+## 关注Darwinia
 
-Math wallet is also our long term ally to carry out in-depth cooperation in the fields of industry research, technology development, asset security and community service, jointly promote sustainable and resilient development of Darwinia and Polkadot.
+### 国内
 
-## Developers
+- 微信公众号：DarwiniaNetwork
+- 微信小助手：Darwinia_Network
+- 币乎：https://bihu.com/people/1100617
+- 微博：https://weibo.com/DarwiniaNetwork
 
-Core developers are mainly based in Nanjing, some collaborators and contributors are based in Shanghai, Taiwan, and other countries. Shortly after the Chinese Spring Festival, the team has started working. As we are used to collaborating remotely, this practice has worked well and we have retained full development speed efficiently. No one is infected by the coronavirus, fortunately.
+### 国外
 
-## Mainnet Launch
+- Forum: https://talk.darwinia.network/
+- Twitter: https://twitter.com/DarwiniaNetwork
+- Telegram: https://t.me/DarwiniaNetwork
+- Medium: https://medium.com/@DarwiniaNetwork
+- Reddit: https://www.reddit.com/r/DarwiniaFans/
+- Riot：https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
 
-Crab Network is launching soon, we will watch and monitor this testnet for at least 1 month to decide if it’s ready to launch the Mainnet. If things go well, we are happy to see the Mainnet live in Q2.
+虽然前路困难重重，但是我们每天都在坚持、进步。 感谢您一直以来的支持，也很高兴我们拥有相同的愿景。
 
-## Stay Updated with Darwinia
 
-Twitter: https://twitter.com/DarwiniaNetwork
-Telegram: https://t.me/DarwiniaNetwork
-Medium: https://medium.com/@DarwiniaNetwork
-Reddit: https://www.reddit.com/r/DarwiniaFans/
-Riot：https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
 
-## About Darwinia
 
-As an open cross-chain bridge protocol based on Substrate, Darwinia focuses on the construction of future Internet of Tokens, including decentralized tokens swap, exchange and market.
-
-The mountain is high, but we climb a step every day. We hope you, your family and your business are doing well during this extreme situation. We appreciate your continuous support and glad that we share the same vision.
-
-Thanks and best regards.
