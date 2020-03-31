@@ -14,9 +14,9 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 ## 开发进展
 ### Crab Network
-从最近的一版测试网“ Icefrog”，我们收集了社区用户，节点运营商和验证者的反馈修复了Bug并进行改进。我们正准备发布下一个测试网“ Crab Network”的，它将成为永久性的金丝雀网络。其功能将类似于Polkadot的Kusama网络。新功能将首先部署在Crab Network上，其状态和数据将不会被重置或删除。为了使该网络对参与者更具经济重要性，达尔文基金会将把RING初始供应的2％分配给Crab Network。我们已经快照了以太坊和Tron上RING的数据。 Crab Network的cRING将根据快照按比例分配。我们还将对DOT持有者进行空投，让更多Polkadot社区的用户参与进来。 Crab Network计划于4月中旬推出。区块链浏览器，钱包，代币领取工具，文档和指南之类的支持工具分别完成了90–95％。
+从最近的一版测试网“ Icefrog”开始，我们收集了社区用户，节点运营商和验证者的反馈，修复了Bug并进行改进。我们正准备发布下一个测试网“ Crab Network”，它将成为长久运行的金丝雀网络。其功能类似于Polkadot的Kusama网络。新功能将首先部署在Crab Network上，其状态和数据将不会被重置或删除。为了使该网络对参与者更具经济重要性，达尔文基金会将把RING初始供应的2％分配给Crab Network。我们已经快照了以太坊和Tron上RING的数据。 Crab Network的cRING将根据快照按比例分配。我们还将对DOT持有者进行空投，让更多Polkadot社区的用户参与进来。 Crab Network计划于4月中旬推出。区块链浏览器，钱包，代币领取工具，文档和指南之类的支持工具分别完成了90–95％。
 
-### Scale Codec荣获Web3 Foundation Grant
+### Scale荣获Web3 Foundation Grant
 Scale是用Ruby语言实现的基础json-rpc api客户端和库。这个实现包含substrate的基础数据格式，并且支持metadata。
 
 这项工作是我们后续一系列项目的前提。我们希望通过Ruby来快速与Polkadot及Substrate连接，并利用我们现有的Ruby经验快速开发基于Polkadot或Substrate的应用程序。我们打算开发一些以Substrtate为基础的网路游戏。其中后端应用打算采用Ruby，并且通过rpc与节点交互以及同步数据。
