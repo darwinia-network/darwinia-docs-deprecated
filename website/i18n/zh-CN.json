@@ -148,6 +148,29 @@
         "title": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol",
         "sidebar_label": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol"
       },
+      "wiki-acct-balance-check": {
+        "title": "检查账户余额",
+        "sidebar_label": "检查账户余额"
+      },
+      "wiki-acct-balancetypes": {
+        "title": "余额类型说明",
+        "sidebar_label": "余额类型说明"
+      },
+      "wiki-acct-create": {
+        "title": "创建账户",
+        "sidebar_label": "创建账户"
+      },
+      "wiki-acct-keys": {
+        "title": "账户秘钥",
+        "sidebar_label": "账户秘钥"
+      },
+      "wiki-acct-send-tx": {
+        "title": "wiki-acct-send-tx"
+      },
+      "wiki-acct-ss58address": {
+        "title": "账户地址",
+        "sidebar_label": "账户地址"
+      },
       "wiki-community": {
         "title": "社区",
         "sidebar_label": "社区"

@@ -26,6 +26,17 @@
       "wiki-us-nft",
       {
         "type": "subcategory",
+        "label": "Accounts",
+        "ids": [
+          "wiki-acct-keys",
+          "wiki-acct-create",
+          "wiki-acct-ss58address",
+          "wiki-acct-balance-check",
+          "wiki-acct-balancetypes"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Economics",
         "ids": [
           "wiki-us-tokens",
@@ -99,6 +110,7 @@
       "crab-tut-index"
     ],
     "Tutorials": [
+      "crab-tut-create-account",
       "crab-tut-get-free-cring",
       "crab-tut-claim-cring",
       "crab-tut-staking",

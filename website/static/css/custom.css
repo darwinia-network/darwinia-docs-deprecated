@@ -176,6 +176,16 @@
   #languages-dropdown-items a {
     color: #3a30dd;
   }
+  
+  .tab-pane>div {
+    padding: 1em 10px;
+    background-color: #eeeeee40;
+  }
+  
+  code,
+  pre {
+    font-size: 80%;
+  }
   /* home page */
   
   .homeRecentBlogContrainer .posts .post {

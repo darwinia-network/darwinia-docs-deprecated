@@ -29,6 +29,10 @@
         "title": "How to claim free cRing",
         "sidebar_label": "Claim cRing"
       },
+      "crab-tut-create-account": {
+        "title": "Create an Account",
+        "sidebar_label": "Create an Account"
+      },
       "crab-tut-get-free-cring": {
         "title": "How to get free cRing through faucet",
         "sidebar_label": "Get free cRing"
@@ -148,6 +152,26 @@
       "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol": {
         "title": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol",
         "sidebar_label": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol"
+      },
+      "wiki-acct-balance-check": {
+        "title": "Check Account Balance",
+        "sidebar_label": "Check Balance"
+      },
+      "wiki-acct-balancetypes": {
+        "title": "Balance Types",
+        "sidebar_label": "Balance Types"
+      },
+      "wiki-acct-create": {
+        "title": "Account Generation",
+        "sidebar_label": "Account Generation"
+      },
+      "wiki-acct-keys": {
+        "title": "Account Keys",
+        "sidebar_label": "Account Keys"
+      },
+      "wiki-acct-ss58address": {
+        "title": "Account Address",
+        "sidebar_label": "Account Address"
       },
       "wiki-community": {
         "title": "Community",
