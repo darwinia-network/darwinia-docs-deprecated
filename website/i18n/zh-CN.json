@@ -28,6 +28,10 @@
         "title": "如何领取空投的cRing",
         "sidebar_label": "领取空投的cRing"
       },
+      "crab-tut-create-account": {
+        "title": "创建账户",
+        "sidebar_label": "创建账户"
+      },
       "crab-tut-get-free-cring": {
         "title": "如何通过水龙头获得免费的cRing",
         "sidebar_label": "从水龙头获取免费cRing"
@@ -109,8 +113,8 @@
         "sidebar_label": "第7期"
       },
       "dev-workshop-index": {
-        "title": "往期研讨会一览",
-        "sidebar_label": "往期研讨会一览"
+        "title": "链式反应",
+        "sidebar_label": "链式反应"
       },
       "misc-sample": {
         "title": "示例文章",
@@ -163,9 +167,6 @@
       "wiki-acct-keys": {
         "title": "账户秘钥",
         "sidebar_label": "账户秘钥"
-      },
-      "wiki-acct-send-tx": {
-        "title": "wiki-acct-send-tx"
       },
       "wiki-acct-ss58address": {
         "title": "账户地址",
