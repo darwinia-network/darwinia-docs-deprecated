@@ -77,6 +77,12 @@ sidebar_label: Parameters
 | Proposal Bond               | 5% and minumum 1000 cRING | The amount required to bond in order to propose a treasury spend. If approved, it is returned, if the proposal fails, it is burnt. |
 | Burn unspent treasury funds | Off                       | This deactivates a burn of all  unspent treasury funds at the end of a budgeting period.                                           |
 
+## SS58 Address Format
+| Network Alias | Network ID | Network Type     |
+| ------------- | ---------- | ---------------- |
+| darwinia      | 18         | Darwinia Mainnet |
+| crab          | 42         | Crab Network     |
+
 ## Seed Nodes
 
 | Seed Nodes | 
