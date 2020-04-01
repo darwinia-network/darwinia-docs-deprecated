@@ -10,7 +10,7 @@ sidebar_label: 工具集
 
 ## 浏览器：
 
-- [Subscan](https://crab.subscan.io/){:target="_blank"}
+- [Subscan](https://crab.subscan.io/)
 
 ## 网络：
 
