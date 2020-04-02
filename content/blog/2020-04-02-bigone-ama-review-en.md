@@ -1,9 +1,10 @@
 ---
-title: BigONE AMA | Dan Reecer From Web3 Foundation
+title: BigONE AMA | Web3 Foundation VP Dan Reecer
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
-![](assets/2020-04-02-bigone-ama-en.png)
+
+![](assets/2020-04-02-bigone-ama-en.jpeg)
 
 Polkadot is the project that hasn’t lost any attention and popularity from the public since Dr. Gavin founded it in 2017. There’s been claims among the community that Polkadot is launching its mainnet. Today, we are inviting everyone to join the session with Dan Reecer, VP at Web3 Foundation, Global Managing Director for Community and Growth.
 

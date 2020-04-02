@@ -1,5 +1,5 @@
 ---
-title: BigONE AMA 回顾 - Darwinia
+title: BigONE AMA | Darwinia Co-Founder Alex Chien
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
