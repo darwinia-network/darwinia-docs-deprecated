@@ -9,8 +9,8 @@ Darwinia 发起社区开发者赏金计划，社区开发者可以帮助 Darwini
 
 开发者可在 Darwinia Github 代码库和 Gitcoin 网站了解赏金计划详情。
 
-https://github.com/darwinia-network/collaboration/tree/master/bounty  
-https://gitcoin.co/issue/darwinia-network/darwinia/42/3508
+- https://github.com/darwinia-network/collaboration/tree/master/bounty
+- https://gitcoin.co/issue/darwinia-network/darwinia/42/3508
 
 同时 Darwinia 将发起 Darwinia Grant 计划，为帮助完善 Darwinia 生态的开发者提供资金支持。
 
