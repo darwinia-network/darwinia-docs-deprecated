@@ -8,10 +8,10 @@
 const React = require('react');
 
 class Footer extends React.Component {
-  docUrl(doc, language) {
-    const baseUrl = this.props.config.baseUrl;
-    const docsUrl = this.props.config.docsUrl;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    docUrl(doc, language) {
+        const baseUrl = this.props.config.baseUrl;
+        const docsUrl = this.props.config.docsUrl;
+        const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     return `${baseUrl}${docsPart}${langPart}${doc}`;
   }
@@ -36,18 +36,20 @@ class Footer extends React.Component {
             )}
           </a> */}
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>Links</h5>
+            <a href="/blog">
+              Blog
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href="https://darwinia.network">
+              Official Website
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href="https://apps.darwinia.network">
+              Darwinia Wallet Apps
             </a>
           </div>
-          <div>
+
+          <div></div>
+          {/* <div>
             <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
@@ -65,7 +67,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitter
             </a>
-          </div>
+          </div> */}
           
           <div>
             <a href={this.props.config.baseUrl} className="nav-home">
@@ -145,7 +147,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -156,7 +158,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
