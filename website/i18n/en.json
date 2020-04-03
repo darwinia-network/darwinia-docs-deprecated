@@ -57,10 +57,6 @@
         "title": "How to become a relayer",
         "sidebar_label": "Become a relayer"
       },
-      "crab-tut-staking": {
-        "title": "How to participate in staking",
-        "sidebar_label": "Participate in Staking"
-      },
       "crab-tut-validator": {
         "title": "How to become a validator",
         "sidebar_label": "Become a validator"
