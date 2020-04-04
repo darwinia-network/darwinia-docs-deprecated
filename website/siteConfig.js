@@ -138,7 +138,7 @@ const siteConfig = {
   algolia: {
     apiKey: '3acc2ef550d1b049b83fce041599348b',
     indexName: 'darwinia',
-    algoliaOptions: {} // Optional, if provided by Algolia
+    algoliaOptions: { facetFilters: ["language:LANGUAGE"] } // Optional, if provided by Algolia
   }
 };
 

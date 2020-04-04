@@ -282,6 +282,69 @@
   .separateOnPageNav .headerWrapper.wrapper {
     padding: 0 20px;
   }
+  /* search */
+  
+  .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
+    background-color: #fe3876 !important;
+    color: white;
+    border: 1px solid #eee;
+  }
+  
+  .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
+    background-color: #fe3876 !important;
+    color: #fff
+  }
+  
+  .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcategory-column .algolia-docsearch-suggestion--highlight,
+  .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--title .algolia-docsearch-suggestion--highlight {
+    color: #fe3876
+  }
+  
+  .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcategory-column,
+  .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion__secondary {
+    border-color: #eee;
+  }
+  
+  input#search_input_react {
+    background-color: rgba(0, 0, 0, .2);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    outline: none;
+    padding-left: 25px;
+    position: relative;
+    transition: width .5s ease;
+    width: 120px
+  }
+  
+  .navSearchWrapper:before {
+    left: 24px
+  }
+  
+  .navSearchWrapper:after {
+    left: 35px
+  }
+  
+  input#search_input_react:active,
+  input#search_input_react:focus {
+    color: #fff;
+    width: 170px;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  
+  .navigationSlider .slidingNav .navSearchWrapper .algolia-docsearch-footer a {
+    height: auto
+  }
+  /* responsive */
+  
+  @media only screen and (max-width: 735px) {
+    .navSearchWrapper {
+      width: 27%;
+    }
+  }
   
   @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
   
@@ -304,6 +367,10 @@
     .navigationSlider .slidingNav ul li.siteNavItemActive>a,
     .navigationSlider .slidingNav ul li.siteNavGroupActive>a {
       border-radius: 0px;
+    }
+    .reactNavSearchWrapper .algolia-autocomplete input#search_input_react:focus,
+    .reactNavSearchWrapper .algolia-autocomplete input#search_input_react:active {
+      background-color: rgba(0, 0, 0, .2) !important;
     }
   }
   
