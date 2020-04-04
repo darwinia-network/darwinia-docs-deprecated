@@ -44,6 +44,7 @@ const siteConfig = {
     { doc: 'dev-home', label: 'Developers' },
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },
+    { search: true },
     { languages: true },
   ],
 
@@ -134,6 +135,11 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  algolia: {
+    apiKey: '3acc2ef550d1b049b83fce041599348b',
+    indexName: 'darwinia',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  }
 };
 
 module.exports = siteConfig;
