@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["crab_runtime"] = [{"text":"impl ModuleToIndex for <a class=\"struct\" href=\"crab_runtime/struct.ModuleToIndex.html\" title=\"struct crab_runtime::ModuleToIndex\">ModuleToIndex</a>","synthetic":false,"types":["crab_runtime::ModuleToIndex"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

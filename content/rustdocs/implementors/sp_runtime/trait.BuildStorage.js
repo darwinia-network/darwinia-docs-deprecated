@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["crab_runtime"] = [{"text":"impl BuildStorage for <a class=\"struct\" href=\"crab_runtime/struct.GenesisConfig.html\" title=\"struct crab_runtime::GenesisConfig\">GenesisConfig</a>","synthetic":false,"types":["crab_runtime::GenesisConfig"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

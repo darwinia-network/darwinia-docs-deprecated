@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CurrencyToVoteHandler","Converter for currencies to votes."]]});

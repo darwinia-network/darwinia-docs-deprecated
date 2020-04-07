@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["darwinia_service"] = [{"text":"impl <a class=\"trait\" href=\"darwinia_service/trait.NativeExecutionDispatch.html\" title=\"trait darwinia_service::NativeExecutionDispatch\">NativeExecutionDispatch</a> for <a class=\"struct\" href=\"darwinia_service/struct.CrabExecutor.html\" title=\"struct darwinia_service::CrabExecutor\">CrabExecutor</a>","synthetic":false,"types":["darwinia_service::CrabExecutor"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
