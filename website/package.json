@@ -4,7 +4,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
-    "build": "docusaurus-build",
+    "build": "cp custom_generate.js ./node_modules/docusaurus/lib/server/generate.js && docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"

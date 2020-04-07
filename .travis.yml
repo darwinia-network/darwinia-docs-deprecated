@@ -21,4 +21,4 @@ script:
   # - crowdin --config crowdin.yaml upload sources --auto-update -b master
   # - crowdin --config crowdin.yaml download -b master
   # publish pages to github
-  - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
+  - cd website && yarn install && cp custom_generate.js ./node_modules/docusaurus/lib/server/generate.js && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
