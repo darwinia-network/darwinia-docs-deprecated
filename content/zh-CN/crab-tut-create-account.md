@@ -4,19 +4,34 @@ title: 创建账户
 sidebar_label: 创建账户
 ---
 
-## 生成 Darwinia 帐户
+## 创建Darwinia帐户
 
-生成 Darwinia 帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，有帐户 “助记词” 或 “私钥”，则可以通过「导入帐户」进行迁移。  
+创建Darwinia帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，则可直接通过 “助记词/私钥/json文件” 等恢复/导入账户。  
 
-> Crab 网络与 Substrate 共享相同的 “网络 ID”，如果在生成帐户时需要选择网络，请使用 “Substrate”，其作用与 “Crab网络” 相同。
+> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
 
 <!--DOCUSAURUS_CODE_TABS-->
-<!--Darwinia Web Apps-->
-### Darwinia Web Apps
+<!--Darwinia Web Wallet-->
 
-- [Crab Network](https://apps.darwinia.network)
+- [Darwinia Crab Web Wallet](https://apps.darwinia.network)
 
-TODO：完整指南
+### 新建账号
+
+请在创建账号时备份好助记词、私钥、json文件等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+
+### 导入账号
+
+如创建过账号，且有json文件，可直接选择导入账号。
+
+> 为了节约存储空间，少于1cRING的账号会被视为尘埃地址，无法进行任何操作。因此，您需要为的地址充值一定数量的cRING，进行操作时请预留一定数量的cRING作为手续费。
+
+
+
+
+
+
+
+
 
 <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
