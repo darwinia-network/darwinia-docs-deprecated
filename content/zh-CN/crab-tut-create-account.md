@@ -4,11 +4,11 @@ title: 创建账户
 sidebar_label: 创建账户
 ---
 
-## Generate a Darwinia account
+## 生成 Darwinia 帐户
 
-There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
+生成 Darwinia 帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，有帐户 “助记词” 或 “私钥”，则可以通过「导入帐户」进行迁移。  
 
-> Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
+> Crab 网络与 Substrate 共享相同的 “网络 ID”，如果在生成帐户时需要选择网络，请使用 “Substrate”，其作用与 “Crab网络” 相同。
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Darwinia Web Apps-->
@@ -16,40 +16,39 @@ There are several ways to generate a Darwinia account, you can choose either one
 
 - [Crab Network](https://apps.darwinia.network)
 
-TODO: complete guide
+TODO：完整指南
 
-<!--Polkadot.js Browser Plugin-->
-### Polkadot.js Browser Plugin
+<!--Polkadot.js 浏览器插件-->
+### Polkadot.js 浏览器插件
 
-The polkadot.js plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with Polkadot.
+polkadot.js 插件在安全性和实用性之间提供了合理的平衡。它提供了一个单独的本地机制来生成您的地址并与Polkadot互动。
 
-This method involves installing the polkadot.js plugin and using it as a “virtual vault," separate from your browser, to store your private keys. It also allows signing of transactions and similar functionality.
+此方法包括安装polkadot.js插件，并将其用作“虚拟保管库”，与您的浏览器分开，以存储私钥，还允许对交易进行签名以及其他类似功能。
 
-**Install the Browser Plugin**
+**安装浏览器插件**
 
-The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
+浏览器插件可用于 [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
 
-After installing the plugin, you should see the orange and white polkadot.js logo in the menu bar of your
-browser.
+安装插件后，您应该在您的浏览器菜单栏看到橙色和白色的 polkadot.js 图标
 
-Click the Orange P symbol in your extensions to open the account manager dialog.
+单击扩展中的 Orange P 符号以打开 “帐户管理” 对话框。
 
-Click "Create New Account" button and follow the instructions to have account created.  
+单击 “创建新帐户” 按钮，然后按照说明进行操作。  
 
-> Make sure to store your mnemonic seed somewhere securely. You will need it to maintain access to your account.
+> 确保将助记词安全保管。您将需要它来访问您的帐户。
 
-**Set Address for Darwinia Mainnet or Crab Network**
+**设置 Crab网络 的地址**
 
-Now we will ensure that the addresses are displayed as Darwinia mainnet addresses.  Your address will be different depending on network selection.
+现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。
 
-Click on "Options" at the top of the plugin window.  Select `Crab Network` or `Substrate` in "Display Address Format for" dropdown box. 
+单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
 
 <!--Subkey CLI-->
 ### Subkey
 
-Subkey is recommended for technically advanced users who are comfortable with command line and compiling Rust code. Subkey allows you to generate keys on any device that can compile the code. Subkey may also be useful for automated account generation, using an air-gapped device other than one running iOS or Android or other specific purposes. It is not recommended for general users.
+对于熟悉命令行和编译Rust代码的技术高级用户，建议使用Subkey。Subkey允许您在可以编译代码的任何设备上生成密钥。Subkey可能对使用自动运行的设备（而不是运行iOS或Android的设备或其他特定用途的设备）的自动生成帐户有用。不建议一般用户使用。
 
-To [install Subkey](https://substrate.dev/docs/en/ecosystem/subkey#more-subkey-to-explore), run:
+安装Subkey [install Subkey](https://substrate.dev/docs/en/ecosystem/subkey#more-subkey-to-explore), 运行：
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
@@ -57,13 +56,13 @@ $ cargo install --force --git https://github.com/paritytech/substrate subkey
 $ cargo build -p subkey
 ```
 
-After installing Subkey successfully, run:
+成功安装Subkey后，运行：
 
 ```shell
 subkey -n substrate generate
 ```
 
-You should see an output something like below- **save all of this information somewhere secure you will not be able to recover your account if you lose your phrase or seed.**
+您应该看到类似下面的信息弹出： **save all of this information somewhere secure you will not be able to recover your account if you lose your phrase or seed.**
 
 ```text
 Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth error pigeon` is account:
@@ -74,11 +73,11 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
   SS58 Address:       2owvscruh7PNbykGLMZPxHyjYdi1Ryanrm4PTxVKh85Ef8Dn
 ```
 
-> If you previously created an account for other networks other than `substrate` or `crab network`, you need to derive the  correct `Address` from your previous  `secret phrase` or `secret seed`.  You can use `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` to obtain the Crab network-ID inclusive Address (SS58).
+> 如果您之前为除 “Substrate” 或 “Crab网络” 之外的其他网络创建了帐户，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用`subkey -n substrate inspect "YOUR SECRET PHRASE HERE"`来获取Crab网络ID地址（SS58）。
 
 <!--Polkadot.js Web Apps-->
 ### Polkadot.js Web Apps
-TODO: complete guide when Darwinia network is supported
+TODO：支持达尔文网络的完整指南
 
 <!--Mobile Wallet-->
 ### ~~Itering ID Wallet~~
@@ -91,32 +90,20 @@ Coming soon.
 <!--END_DOCUSAURUS_CODE_TABS-->
 <hr />
 
-## Storing your key safely
+## 安全存储密钥
 
-> **DISCLAIMER: Key Security**
-Your secret seed is the _only_ way to get access to your account. You must keep
-the secret both secure and private. If you share you secret with anyone they
-will be able to have full access to your account, including all of your funds.
-The secret, for this reason, is a target from hackers and others with bad
-intentions to steal your funds. We recommend a variety of account generation
-methods that have various convienience and security tradeoffs. Please review
-this page carefully before making your address so that you understand the risks
-of the account generation method you choose and how to properly mitigate them
-in order to keep your funds safe.
+> **免责声明：密钥安全性**
+您的私钥/助记词是访问您帐户的唯一方法，你必须保证它的隐秘和安全。  
+如果您与任何人分享私钥/助记词，他将能够完全访问您的帐户，包括所有资金。因此，这个私钥/助记词是黑客和其他恶意攻击者的目标，有意窃取您的资金。  
+我们建议您使用多种帐户的生成方式，保证便利性和折衷的安全性。  
+在填写您的地址之前请仔细阅读此页面，以便您了解选择不同的帐户生成方式的风险以及如何适当缓解它们，来保证您的资金安全。
 
-The seed is your **key** to the account. Knowing the seed allows you, or anyone
-else who knows the seed, to re-generate and control this account.
+私钥/助记词是您进入帐户的“关键”。知道私钥/助记词可以让您或任何人，知道种子的其他人可以重新生成和控制此帐户。
 
-It is imperative to store the seed somewhere safe, secret, and secure. If
-you lose access to your account, you can re-create it by entering the seed. This
-also means that somebody else can have control over your account if they have
-access to your seed.
+必须将种子存储在安全，秘密和安全的地方。 如果如果您无法访问自己的帐户，则可以通过输入种子来重新创建它。 这个也意味着其他人可以控制您的帐户获取您的种子。
 
-For maximum security, the seed should be written down on paper or another non-digital device and stored in a
-safe place. You may also want to protect your seed from physical damage, as well (e.g. by storing in a sealed
-plastic bag to prevent water damage, storing it in a fireproof safe, etc.) It is recommended that you store
-multiple copies of the seed in geographically separate locations (e.g., one in your home safe and one in a
-safety deposit box at your bank).
+为了保证安全性最大化，应将种子记录在纸上或其他非数字设备上，并存储在安全的地方。 您可能还希望保护种子免受物理损坏（例如，通过密封保存）
 
-You should definitely not store your seed on any kind of computer that has or may have access to the internet
-in the future.
+防止水损坏的塑料袋，将其存放在防火保险箱中等）。建议您存放种子的多个副本位于不同的地理位置（例如，一个放在您的家庭保险箱中，另一个放在您银行的保管箱）。
+
+您绝对不应将种子存储在可以访问互联网或将来可以访问互联网的任何类型的计算机上。
