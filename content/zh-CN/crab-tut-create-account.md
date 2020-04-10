@@ -8,18 +8,26 @@ sidebar_label: 创建账户
 
 创建Darwinia帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，则可直接通过 “助记词/私钥/json文件” 等恢复/导入账户。  
 
-> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
-
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Darwinia Web Wallet-->
 
 - [Darwinia Crab Web Wallet](https://apps.darwinia.network)
 
+![create account](assets/crab-tut-create-account-1-cn.png)
+
 ### 新建账号
 
-请在创建账号时备份好助记词、私钥、json文件等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+在设置完账户基本信息之后，点击「保存」按钮。（默认只显示“助记词“，”私钥“需切换）
 
-### 导入账号
+![create account](assets/crab-tut-create-account-2-cn.png)
+
+点击「创建并且备份账户」按钮，备份该账户json文件
+
+![create account](assets/crab-tut-create-account-3-cn.png)
+
+> 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+
+### 通过json恢复账号
 
 如创建过账号，且有json文件，可直接选择导入账号。
 
@@ -35,6 +43,8 @@ sidebar_label: 创建账户
 
 <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
+
+> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
 
 polkadot.js 插件在安全性和实用性之间提供了合理的平衡。它提供了一个单独的本地机制来生成您的地址并与Polkadot互动。
 
