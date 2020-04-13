@@ -11,11 +11,12 @@ sidebar_label: 创建账户
   <!--DOCUSAURUS_CODE_TABS-->
   <!--Darwinia Web Apps-->
 
+### Darwinia Web Apps
 - [Darwinia Crab Web Wallet](https://apps.darwinia.network)
 
 ![create account](assets/crab-tut-create-account-1-cn.png)
 
-### 新建账号
+**新建账号**
 
 在设置完账户基本信息之后，点击「保存」按钮。（默认只显示“助记词“，”私钥“需切换）
 
@@ -27,11 +28,19 @@ sidebar_label: 创建账户
 
 > 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
 
-### 通过json恢复账号
+**通过json恢复账号**
 
-如创建过账号，且有json文件，可直接选择导入账号。
+如创建过账号，且备份过json文件，可直接选择「使用JSON回复」。
+
+![create account](assets/crab-tut-create-account-4-cn.png)
 
 > 为了节约存储空间，少于1cRING的账号会被视为尘埃地址，无法进行任何操作。因此，您需要为的地址充值一定数量的cRING，进行操作时请预留一定数量的cRING作为手续费。
+
+**通过「助记词」恢复账号
+
+如忘记JSON文件密码，可通过「助记词」进行恢复。点击「添加账号」，将助记词替换成原先账户的助记词即可。（名称和密码均可重新设置）
+
+![create account](assets/crab-tut-create-account-5-cn.png)
 
   <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
