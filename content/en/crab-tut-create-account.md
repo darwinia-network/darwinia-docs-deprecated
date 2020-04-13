@@ -8,41 +8,66 @@ sidebar_label: Create an Account
 
 There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
 
-> Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
-
 <!--DOCUSAURUS_CODE_TABS-->
 <!--Darwinia Web Apps-->
 ### Darwinia Web Apps
 
-- [Crab Network](https://apps.darwinia.network)
+Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
-TODO: complete guide
+![create account](assets/web-wallet-1-en.png)
+
+** New account **
+
+Click "Add Account", after setting the basic account information, click the "Save" button. (By default, only "mnemonic", "private key" need to be switched)
+
+![create account](assets/web-wallet-2-en.png)
+
+Click the "Create and Backup Account" button to back up the account "json file"
+
+![create account](assets/web-wallet-3-en.png)
+
+> Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
+
+** Restore  json **
+
+If you have created an account before and backed up a json file, you can directly select "Restore JSON".
+
+![create account](assets/web-wallet-4-en.png)
+
+** Restore account via "Mnemonic" **
+
+If you forget the password of the JSON file, you can use the "mnemonic word" to recover it. Click "Add Account" to replace the mnemonic with the original account's mnemonic. (The name and password can be reset)
+
+![create account](assets/web-wallet-5-en.png)
 
 <!--Polkadot.js Browser Plugin-->
 ### Polkadot.js Browser Plugin
-
-The polkadot.js plugin provides a reasonable balance of security and usability. It provides a separate local mechanism to generate your address and interact with Polkadot.
-
-This method involves installing the polkadot.js plugin and using it as a “virtual vault," separate from your browser, to store your private keys. It also allows signing of transactions and similar functionality.
 
 **Install the Browser Plugin**
 
 The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
 
-After installing the plugin, you should see the orange and white polkadot.js logo in the menu bar of your
-browser.
+![polkadot-js](assets/polkadot-js-1-cn.png)
 
-Click the Orange P symbol in your extensions to open the account manager dialog.
+** New Account **
 
-Click "Create New Account" button and follow the instructions to have account created.  
+Click the extension to open the "Account Management" dialog box, click the "Create New Account" button, and then follow the instructions.
 
-> Make sure to store your mnemonic seed somewhere securely. You will need it to maintain access to your account.
+![polkadot-js](assets/polkadot-js-2-cn.png)
+
+![polkadot-js](assets/polkadot-js-3-cn.png)
+
+> Make sure to keep the mnemonics safe.
 
 **Set Address for Darwinia Mainnet or Crab Network**
 
 Now we will ensure that the addresses are displayed as Darwinia mainnet addresses.  Your address will be different depending on network selection.
 
 Click on "Options" at the top of the plugin window.  Select `Crab Network` or `Substrate` in "Display Address Format for" dropdown box. 
+
+![polkadot-js](assets/polkadot-js-4-cn.png)
+
+> Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
 
 <!--Subkey CLI-->
 ### Subkey
