@@ -114,7 +114,6 @@ Coming soon.
 
 Coming soon.
   <!--END_DOCUSAURUS_CODE_TABS-->
-<hr />
 
 ## Storing your key safely
 
