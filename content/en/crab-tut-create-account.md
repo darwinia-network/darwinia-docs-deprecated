@@ -50,7 +50,7 @@ The browser plugin is available for both [Google Chrome](https://chrome.google.c
 
 ![polkadot-js](assets/polkadot-js-1-cn.png)
 
-** New Account **
+**New Account**
 
 Click the extension to open the "Account Management" dialog box, click the "Create New Account" button, and then follow the instructions.
 
@@ -114,8 +114,8 @@ Coming soon.
 ### ~~Math Wallet~~
 
 Coming soon.
+
   <!--END_DOCUSAURUS_CODE_TABS-->
-<hr />
 
 ## Storing your key safely
 
