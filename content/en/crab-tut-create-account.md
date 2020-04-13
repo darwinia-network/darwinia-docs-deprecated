@@ -17,7 +17,7 @@ Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two
 
 ![create account](assets/web-wallet-1-en.png)
 
-** New account **
+**New account**
 
 Click "Add Account", after setting the basic account information, click the "Save" button. (By default, only "mnemonic", "private key" need to be switched)
 
@@ -29,13 +29,13 @@ Click the "Create and Backup Account" button to back up the account "json file"
 
 > Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
 
-** Restore  json **
+**Restore  json**
 
 If you have created an account before and backed up a json file, you can directly select "Restore JSON".
 
 ![create account](assets/web-wallet-4-en.png)
 
-** Restore account via "Mnemonic" **
+**Restore account via "Mnemonic"**
 
 If you forget the password of the JSON file, you can use the "mnemonic word" to recover it. Click "Add Account" to replace the mnemonic with the original account's mnemonic. (The name and password can be reset)
 
