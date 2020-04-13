@@ -34,9 +34,7 @@ sidebar_label: 创建账户
 
 ![create account](assets/crab-tut-create-account-4-cn.png)
 
-> 为了节约存储空间，少于1cRING的账号会被视为尘埃地址，无法进行任何操作。因此，您需要为的地址充值一定数量的cRING，进行操作时请预留一定数量的cRING作为手续费。
-
-**通过「助记词」恢复账号
+**通过「助记词」恢复账号**
 
 如忘记JSON文件密码，可通过「助记词」进行恢复。点击「添加账号」，将助记词替换成原先账户的助记词即可。（名称和密码均可重新设置）
 
@@ -47,27 +45,26 @@ sidebar_label: 创建账户
 
 > Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
 
-polkadot.js 插件在安全性和实用性之间提供了合理的平衡。它提供了一个单独的本地机制来生成您的地址并与Polkadot互动。
-
-此方法包括安装polkadot.js插件，并将其用作“虚拟保管库”，与您的浏览器分开，以存储私钥，还允许对交易进行签名以及其他类似功能。
-
 **安装浏览器插件**
 
 浏览器插件可用于 [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
 
-安装插件后，您应该在您的浏览器菜单栏看到橙色和白色的 polkadot.js 图标
+![polkadot-js](assets/polkadot-js-1-cn.png)
 
-单击扩展中的 Orange P 符号以打开 “帐户管理” 对话框。
+**新建账户**
 
-单击 “创建新帐户” 按钮，然后按照说明进行操作。  
+单击扩展程序打开 “帐户管理” 对话框，单击「创建新帐户」按钮，然后按照说明进行操作。
+
+![polkadot-js](assets/polkadot-js-2-cn.png)
+![polkadot-js](assets/polkadot-js-3-cn.png)
 
 > 确保将助记词安全保管。您将需要它来访问您的帐户。
 
 **设置 Crab网络 的地址**
 
-现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。
+现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
 
-单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
+![polkadot-js](assets/polkadot-js-4-cn.png)
 
   <!--Subkey CLI-->
 ### Subkey
