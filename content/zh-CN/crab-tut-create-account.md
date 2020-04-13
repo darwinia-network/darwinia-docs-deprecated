@@ -12,17 +12,18 @@ sidebar_label: 创建账户
   <!--Darwinia Web Apps-->
 
 ### Darwinia Web Apps
-- [Darwinia Crab Web Wallet](https://apps.darwinia.network)
+
+进入[Darwinia Crab Web Wallet](https://apps.darwinia.network)，可在「账户」栏看到「添加账号」和「使用JSON恢复」两个按钮。
 
 ![create account](assets/crab-tut-create-account-1-cn.png)
 
 **新建账号**
 
-在设置完账户基本信息之后，点击「保存」按钮。（默认只显示“助记词“，”私钥“需切换）
+点击「添加账号」，在设置完账户基本信息后，点击「保存」按钮。（默认只显示“助记词“，”私钥“需切换）
 
 ![create account](assets/crab-tut-create-account-2-cn.png)
 
-点击「创建并且备份账户」按钮，备份该账户json文件
+点击「创建并且备份账户」按钮，备份该账户“json文件”
 
 ![create account](assets/crab-tut-create-account-3-cn.png)
 
@@ -30,7 +31,7 @@ sidebar_label: 创建账户
 
 **通过json恢复账号**
 
-如创建过账号，且备份过json文件，可直接选择「使用JSON回复」。
+如之前创建过账号，且备份有json文件，可直接选择「使用JSON回复」。
 
 ![create account](assets/crab-tut-create-account-4-cn.png)
 
@@ -43,8 +44,6 @@ sidebar_label: 创建账户
   <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
 
-> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
-
 **安装浏览器插件**
 
 浏览器插件可用于 [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
@@ -56,15 +55,18 @@ sidebar_label: 创建账户
 单击扩展程序打开 “帐户管理” 对话框，单击「创建新帐户」按钮，然后按照说明进行操作。
 
 ![polkadot-js](assets/polkadot-js-2-cn.png)
+
 ![polkadot-js](assets/polkadot-js-3-cn.png)
 
-> 确保将助记词安全保管。您将需要它来访问您的帐户。
+> 确保将助记词安全保管。
 
 **设置 Crab网络 的地址**
 
 现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
 
 ![polkadot-js](assets/polkadot-js-4-cn.png)
+
+> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
 
   <!--Subkey CLI-->
 ### Subkey
