@@ -10,6 +10,7 @@ There are several ways to generate a Darwinia account, you can choose either one
 
   <!--DOCUSAURUS_CODE_TABS-->
   <!--Darwinia Web Apps-->
+
 ### Darwinia Web Apps
 
 Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
@@ -114,6 +115,7 @@ Coming soon.
 
 Coming soon.
   <!--END_DOCUSAURUS_CODE_TABS-->
+<hr />
 
 ## Storing your key safely
 
