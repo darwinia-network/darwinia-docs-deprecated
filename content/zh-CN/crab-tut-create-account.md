@@ -8,8 +8,8 @@ sidebar_label: 创建账户
 
 创建Darwinia帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，则可直接通过 “助记词/私钥/json文件” 等恢复/导入账户。  
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Darwinia Web Wallet-->
+  <!--DOCUSAURUS_CODE_TABS-->
+  <!--Darwinia Web Apps-->
 
 - [Darwinia Crab Web Wallet](https://apps.darwinia.network)
 
@@ -33,7 +33,7 @@ sidebar_label: 创建账户
 
 > 为了节约存储空间，少于1cRING的账号会被视为尘埃地址，无法进行任何操作。因此，您需要为的地址充值一定数量的cRING，进行操作时请预留一定数量的cRING作为手续费。
 
-<!--Polkadot.js 浏览器插件-->
+  <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
 
 > Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
@@ -60,7 +60,7 @@ polkadot.js 插件在安全性和实用性之间提供了合理的平衡。它�
 
 单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
 
-<!--Subkey CLI-->
+  <!--Subkey CLI-->
 ### Subkey
 
 对于熟悉命令行和编译Rust代码的技术高级用户，建议使用Subkey。Subkey允许您在可以编译代码的任何设备上生成密钥。Subkey可能对使用自动运行的设备（而不是运行iOS或Android的设备或其他特定用途的设备）的自动生成帐户有用。不建议一般用户使用。
@@ -92,11 +92,11 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
 
 > 如果您之前为除 “Substrate” 或 “Crab网络” 之外的其他网络创建了帐户，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用`subkey -n substrate inspect "YOUR SECRET PHRASE HERE"`来获取Crab网络ID地址（SS58）。
 
-<!--Polkadot.js Web Apps-->
+  <!--Polkadot.js Web Apps-->
 ### Polkadot.js Web Apps
 TODO：支持达尔文网络的完整指南
 
-<!--Mobile Wallet-->
+  <!--Mobile Wallet-->
 ### ~~Itering ID Wallet~~
 
 Coming soon.
@@ -104,8 +104,8 @@ Coming soon.
 ### ~~Math Wallet~~
 
 Coming soon.
-<!--END_DOCUSAURUS_CODE_TABS-->
-<hr />
+
+  <!--END_DOCUSAURUS_CODE_TABS-->
 
 ## 安全存储密钥
 
