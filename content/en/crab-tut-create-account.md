@@ -8,8 +8,8 @@ sidebar_label: Create an Account
 
 There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--Darwinia Web Apps-->
+  <!--DOCUSAURUS_CODE_TABS-->
+  <!--Darwinia Web Apps-->
 ### Darwinia Web Apps
 
 Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
@@ -40,7 +40,7 @@ If you forget the password of the JSON file, you can use the "mnemonic word" to 
 
 ![create account](assets/web-wallet-5-en.png)
 
-<!--Polkadot.js Browser Plugin-->
+  <!--Polkadot.js Browser Plugin-->
 ### Polkadot.js Browser Plugin
 
 **Install the Browser Plugin**
@@ -69,7 +69,7 @@ Click on "Options" at the top of the plugin window.  Select `Crab Network` or `S
 
 > Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
 
-<!--Subkey CLI-->
+  <!--Subkey CLI-->
 ### Subkey
 
 Subkey is recommended for technically advanced users who are comfortable with command line and compiling Rust code. Subkey allows you to generate keys on any device that can compile the code. Subkey may also be useful for automated account generation, using an air-gapped device other than one running iOS or Android or other specific purposes. It is not recommended for general users.
@@ -101,11 +101,11 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
 
 > If you previously created an account for other networks other than `substrate` or `crab network`, you need to derive the  correct `Address` from your previous  `secret phrase` or `secret seed`.  You can use `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` to obtain the Crab network-ID inclusive Address (SS58).
 
-<!--Polkadot.js Web Apps-->
+  <!--Polkadot.js Web Apps-->
 ### Polkadot.js Web Apps
 TODO: complete guide when Darwinia network is supported
 
-<!--Mobile Wallet-->
+  <!--Mobile Wallet-->
 ### ~~Itering ID Wallet~~
 
 Coming soon.
@@ -113,7 +113,7 @@ Coming soon.
 ### ~~Math Wallet~~
 
 Coming soon.
-<!--END_DOCUSAURUS_CODE_TABS-->
+  <!--END_DOCUSAURUS_CODE_TABS-->
 <hr />
 
 ## Storing your key safely
