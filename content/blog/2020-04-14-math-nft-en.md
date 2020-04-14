@@ -14,7 +14,7 @@ Activity period: 2020/04/13 4:00 pm (UTC) - 2019/04/18 4:00 pm (UTC)
 
 **How to take part:**  
 
-1. Follow @DarwiniaNetwork & @MathWallet  
+1. Follow [@DarwiniaNetwork](https://twitter.com/DarwiniaNetwork) & [@MathWallet](https://twitter.com/MathWallet)  
 2. Retweet & Tag 3 friends  
 3. Join our Telegram: http://t.me/DarwiniaNetwork  
 4. Completing the gleam form: http://bit.ly/2JZVTkT  
