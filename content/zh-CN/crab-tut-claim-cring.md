@@ -1,13 +1,11 @@
 ---
 id: crab-tut-claim-cring
-title: 如何领取空投的cRing
+title: 如何领取空投的cRING
 sidebar_label: 领取空投的cRing
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-claim-cring.md
 ---
 
-## 如何查询和领取CRING空投？
-
-### 领取条件
+## 领取条件
 
 Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** 和 **TRC-20 RING** 的持有者空投了Crab 网络的Token-CRING。  
 
@@ -15,7 +13,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** 和 **TRC-20 
 
 快照时间为：**2020-03-20 13:50:00 （+0800）**  
 
-### 环境准备
+## 环境准备
 
 请根据使用场景和链的需要，选择下列签名工具并下载：
 
@@ -29,7 +27,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** 和 **TRC-20 
 
 > 以上为推荐使用的移动钱包，如遇到使用问题，请升级到最新版本。您也可以根据平时的使用习惯，使用已注入web3环境的移动钱包进行操作。使用非推荐钱包或操作失误有可能造成资产损失，请谨慎评估并承担相应的风险。
 
-### 查询空投数量
+## 查询空投数量
 
 1、确认已准备好签名环境，并处于已解锁状态。
 
@@ -47,7 +45,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** 和 **TRC-20 
 
 ![03_claim_search](assets/03_claim_search.png)
 
-### 领取CRING空投
+## 领取CRING空投
 
 1、确认已准备好签名环境，并处于已解锁状态。
 
