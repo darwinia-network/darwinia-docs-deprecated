@@ -42,7 +42,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
   &&&&&图3&&&&&
 
-#### 提名验证人
+## 提名验证人
 
 - 完成staking参数后，在本页面点击【提名】
   &&&&&图4&&&&&
@@ -58,7 +58,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 > 提名验证人的操作，会在下一个 era 的第一个 epoch 后生效，暂时延迟为正常现象。
 
-#### 其他操作
+## 其他操作
 
 staking还有一些其他操作，用于以下用途：
 
