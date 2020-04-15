@@ -5,16 +5,20 @@ sidebar_label: 成为投票人
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-nominator.md
 ---
 > - Staking是基于PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
+
 > - 在参与 staking 之前，请确保有至少拥有**1个** Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备**2个** Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
+
 > - Darwinia 地址内需准备少许 CRING ，作为交易手续费。没有CRING请参考：[如何通过水龙头获得免费的CRING](https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring)
 
 ## Start Staking
 
-进入[Darwinia Web Wallet](http://apps.darwinia.network/)，点击左侧【抵押】栏目， 点击【开始 staking 】  
+- 进入[Darwinia Web Wallet](http://apps.darwinia.network/)，点击左侧【抵押】栏目， 点击【开始 staking 】  
 ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
-填写Staking参数  
+
+- 填写Staking参数  
 ![crab-tut-nominator-2](assets/crab-tut-nominator-2.png)
+
 
 - `资金账户` 保管资金的账号，参与 staking 的代币将来自这个账户，此账户的操作多与资金变动相关。
 - `控制账户` 管理 staking 其他操作的账号，如参与投票、参与验证等。
@@ -27,29 +31,35 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
   
   > 如提前赎回有承诺期限的 CRING，需要支付CKTON奖励3倍的惩罚。
 
-填写好staking参数后，请点击【冻结】，签名并提交。  
+- 填写好staking参数后，请点击【冻结】，签名并提交。  
 ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
+
 
 ## 提名验证人
 
-完成staking参数后，在本页面点击【提名】  
+- 完成staking参数后，在本页面点击【提名】  
 ![crab-tut-nominator-4](assets/crab-tut-nominator-4.png)
 
-选择中意的验证人  
+
+- 选择中意的验证人  
 ![crab-tut-nominator-5](assets/crab-tut-nominator-5.png)
 
-签名并提交  
+
+- 签名并提交  
 ![crab-tut-nominator-6](assets/crab-tut-nominator-6.png)
 
-查看已提名验证人的相关信息  
+
+- 查看已提名验证人的相关信息  
 ![crab-tut-nominator-7](assets/crab-tut-nominator-7.png)
 
-> 提名验证人的操作，会在下一个 era 的第一个 epoch 后生效，暂时延迟为正常现象。
+    > 提名验证人的操作，会在下一个 era 的第一个 epoch 后生效，暂时延迟为正常现象。
+
 
 ## 其他操作
 
 staking还有一些其他操作，用于以下用途：  
 ![crab-tut-nominator-8](assets/crab-tut-nominator-8.png)
+
 
 - `停止提名` 取消所有投票。
 - `抵押`  增加staking冻结的代币，用来获得更多的票权（power）。
@@ -61,3 +71,5 @@ staking还有一些其他操作，用于以下用途：
 - `领取收益` 手动领取已获得的收益，收益将以era为单位发放。
 
   > 请注意：收益会保存240个era，超期将无法领取。
+                                     
+![nominate-9](assets/nominate-9.png)
