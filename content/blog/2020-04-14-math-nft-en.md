@@ -23,7 +23,5 @@ Activity period: 2020/04/13 4:00 pm (UTC) - 2019/04/18 4:00 pm (UTC)
 
 **WARNING:**  
 
-If you do not use an ERC-1155 compatible wallet, you will be unable to receive the NFT.  
-We recommend using Math Wallet to receive your NFT, DOWNLOAD MathWallet [Here](mathwallet.org)  
-
-How many of the Math x DarwiniaNetwork：MathWallet Collectibles Series 5 NFTs will be minted? (200)
+- If you do not use an ERC-1155 compatible wallet, you will be unable to receive the NFT. 
+- We recommend using Math Wallet to receive your NFT, DOWNLOAD MathWallet [Here](mathwallet.org)  
