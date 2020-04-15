@@ -86,4 +86,5 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 - 如果您在领取空投的过程中遇到其他问题，请加入我们的社群交流。
   - 微信公众号：DarwiniaNetwork
+  - 微信小助手：Darwinia_Network
   - Telegram：<https://t.me/DarwiniaNetwork>
