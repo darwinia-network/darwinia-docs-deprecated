@@ -13,7 +13,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 #### 入口
 
 - 进入[Darwinia Wallet](http://apps.darwinia.network/)
-  &&&&&图1&&&&&
+![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
 - 点击左侧【抵押】栏目
 
@@ -23,7 +23,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 - 填写参数
 
-- &&&&&图2&&&&&
+![crab-tut-nominator-2](assets/crab-tut-nominator-2.png)
 
   `资金账户` 保管资金的账号，参与 staking 的代币将来自这个账户，此账户的操作多与资金变动相关。
   `控制账户` 管理 staking 其他操作的账号，如参与投票、参与验证等。
@@ -40,21 +40,21 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 - 签名并提交
 
-  &&&&&图3&&&&&
+![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
 
 ## 提名验证人
 
 - 完成staking参数后，在本页面点击【提名】
-  &&&&&图4&&&&&
+![crab-tut-nominator-4](assets/crab-tut-nominator-4.png)
 
 - 选择中意的验证人
-  &&&&&图5&&&&&
+![crab-tut-nominator-5](assets/crab-tut-nominator-5.png)
 
 - 签名并提交
-  &&&&&图6&&&&&
+![crab-tut-nominator-6](assets/crab-tut-nominator-6.png)
 
 - 查看已提名验证人的相关信息
-  &&&&&图7&&&&&
+![crab-tut-nominator-7](assets/crab-tut-nominator-7.png)
 
 > 提名验证人的操作，会在下一个 era 的第一个 epoch 后生效，暂时延迟为正常现象。
 
@@ -62,7 +62,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 staking还有一些其他操作，用于以下用途：
 
-&&&&&图8&&&&&
+![crab-tut-nominator-8](assets/crab-tut-nominator-8.png)
 
 - `停止提名` 取消所有投票。
 
