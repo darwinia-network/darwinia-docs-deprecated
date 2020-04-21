@@ -70,6 +70,10 @@ staking还有一些其他操作，用于以下用途：
 - `收益历史` 去SUBSCAN浏览器查看历史收益记录
 - `领取收益` 手动领取已获得的收益，收益将以era为单位发放。
 
-  > 请注意：收益会保存240个era，超期将无法领取。
+  > 请注意：收益会保存336个era(约7天)，超期将无法领取。
                                      
 ![nominate-9](assets/nominate-9.png)
+- `更改控制账户` 更改用于管理 staking 其他操作的账号，如参与投票、参与验证等。
+- `更改收益账号` 更改用于接收 staking 收益的账号
+- `设置 session keys` 如果要升级成为验证人，需填写此项。[如何成为验证人](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
+- `设置链上身份` 设置您的个人信息，如昵称、邮箱、网站、twitter、riot等信息，其他用户可查看此信息并联系您。
