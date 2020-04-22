@@ -39,6 +39,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 - 完成staking参数后，在本页面点击【提名】  
 ![crab-tut-nominator-4](assets/crab-tut-nominator-4.png)
+    > 验证人和提名人的身份是互斥的，不可并存。如果您正在参选验证人，需要先取消参选验证人，再进行后续的提名操作。
 
 
 - 选择中意的验证人  
@@ -72,7 +73,6 @@ staking还有一些其他操作，用于以下用途：
 
   > 请注意：收益会保存336个era(约7天)，超期将无法领取。
                                      
-![nominate-9](assets/nominate-9.png)
 - `更改控制账户` 更改用于管理 staking 其他操作的账号，如参与投票、参与验证等。
 - `更改收益账号` 更改用于接收 staking 收益的账号
 - `设置 session keys` 如果要升级成为验证人，需填写此项。[如何成为验证人](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
