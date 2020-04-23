@@ -25,13 +25,13 @@ sidebar_label: Become a nominator
 
 - `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
 
-    > The `stash account` and` controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
+    > The `Btash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
 - `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
 
 - `Payment destination` The destination account for any payment as either a nominator or validator.
 
-- `bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
+- `Bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
 
     > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward.
 
@@ -86,7 +86,7 @@ There are other operations in staking for the following purposes:
 
 - `Stop nomination` cancels all nominees.
 
-- `bond` &`bond more` adds bonded tokens for staking to obtain more power.
+- `Bond` &`Bond more` adds bonded tokens for staking to obtain more power.
 
 - `Unbond` unbond tokens for staking, and at the same time the power will be reduced proportionally.
 
@@ -98,10 +98,10 @@ There are other operations in staking for the following purposes:
 
   > Please note: 336 era (About 7 days)  will be saved, and you will not be able to claim it if it expires.
 
-- `change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
-- `change reward destination` Change the destination account for any payment as either a nominator or validator.
-- `set nominees` Re-nominate validator
-- `change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
-- `set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
+- `Change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
+- `Change reward destination` Change the destination account for any payment as either a nominator or validator.
+- `Set nominees` Re-nominate validator
+- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
+- `Set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
 
 
