@@ -5,7 +5,7 @@ sidebar_label: Become a nominator
 ---
 > - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
-> - Before participating in staking, please make sure you have at least ** 1 Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare ** 2 ** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account>)
+> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account>)
 
 > - A small amount of CRING must be prepared in Darwinia's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](<https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring>)
 
@@ -21,19 +21,19 @@ sidebar_label: Become a nominator
 
 ![nominate-2-en](assets/nominate-2-en.png)
 
-  ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
+- ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
 
-  `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
+- `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
 
-> The `stash account` and` controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
+    > The `stash account` and` controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
-  `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
+- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
 
-  `Payment destination` The destination account for any payment as either a nominator or validator.
+- `Payment destination` The destination account for any payment as either a nominator or validator.
 
-  `bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
+- `bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
 
-> If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward.
+    > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward.
 
 - After filling in the staking parameters, please click [bond] and [submit]
 
@@ -48,7 +48,7 @@ sidebar_label: Become a nominator
 - After completing the staking parameters, click [Nominate] on this page
 
 ![nominate-4-en](assets/nominate-4-en.png)
-
+> The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
 
 
 - Choose your favorite validator
@@ -97,9 +97,6 @@ There are other operations in staking for the following purposes:
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
   > Please note: 336 era (About 7 days)  will be saved, and you will not be able to claim it if it expires.
-
-![nominate-9-en](assets/nominate-9-en.png)
-
 
 - `change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
 - `change reward destination` Change the destination account for any payment as either a nominator or validator.
