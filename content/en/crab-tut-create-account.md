@@ -41,6 +41,33 @@ If you forget the password of the JSON file, you can use the "mnemonic word" to 
 
 ![create account](assets/web-wallet-5-en.png)
 
+**Generate Vanity account**
+
+If you need to generate a Darwinia wallet account containing specific letters, you can refer to the tutorial:
+   >This type of account is mostly used to receive the airdrop proof of work from the faucet, or is in need of memory and beauty.
+
+- Click [Vanity], fill in the conditions you need to filter
+
+![faucet-1](assets/faucet-1.png)
+
+`Search for` Type here what you would like your address to contain. This tool will generate the keys and show the associated addresses that best match your search. You can use \"?\" as a wildcard for a character.": "",
+
+`Case sensitive` Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\"...": "Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\".
+
+`Keypair crypto type` Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
+
+- Click [Start generation], after waiting for the account to be generated, click [+] to select your favorite account for backup.
+
+![faucet-2](assets/faucet-2.png)
+
+- Click [Save], according to your usage habits, choose to back up the original seed or json file
+
+![faucet-3](assets/faucet-3.png)
+
+> Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
+
+
+
   <!--Polkadot.js Browser Plugin-->
 ### Polkadot.js Browser Plugin
 

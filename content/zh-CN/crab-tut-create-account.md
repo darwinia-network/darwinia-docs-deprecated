@@ -41,6 +41,30 @@ sidebar_label: 创建账户
 
 ![create account](assets/crab-tut-create-account-5-cn.png)
 
+**生成自定义账号**
+
+如您需要生成一个包含特定字母的 Darwinia 钱包账号，可参考一下教程：
+   > 此类账号多用于从水龙头领取空投的工作量证明，或者处于记忆和美观的需要。
+- 点击【美化账号】，填写您需要筛选的条件
+![faucet-1-cn](assets/faucet-1-cn.png)
+
+`搜索` 在此处输入您希望包含的地址，该工具将生成密钥并显示与您的搜索最匹配的关联地址。
+
+`大小写敏感` 搜索的内容是否区分大小写。
+
+`密钥加密类型` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
+
+- 点击【开始生成】，等待账户生成，点击【 + 】选择您心仪的账户进行备份。
+
+![faucet-2-cn](assets/faucet-2-cn.png)
+
+- 点击【保存】，根据你的使用习惯，选择备份原始种子或json文件
+
+![faucet-3-cn](assets/faucet-3-cn.png)
+
+   > 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+
+
   <!--Polkadot.js 浏览器插件-->
 ### Polkadot.js 浏览器插件
 
