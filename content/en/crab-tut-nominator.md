@@ -25,7 +25,7 @@ sidebar_label: Become a nominator
 
 - `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
 
-    > The `Stash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
+    > The `Btash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
 - `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
 
