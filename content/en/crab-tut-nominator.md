@@ -5,9 +5,9 @@ sidebar_label: Become a nominator
 ---
 > - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
-> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](https://docs.darwinia.network/docs/en/crab-tut-create-account)
+> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account>)
 
-> - A small amount of CRING must be prepared in Darwinia's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](https://docs.darwinia.network/docs/en/crab-tut-claim-cring)
+> - A small amount of CRING must be prepared in Darwinia's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](<https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring>)
 
 
 
@@ -25,7 +25,7 @@ sidebar_label: Become a nominator
 
 - `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
 
-    > The `Btash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
+    > The `Stash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
 - `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
 

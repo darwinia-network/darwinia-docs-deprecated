@@ -5,9 +5,9 @@ sidebar_label: Become a validator
 ---
 > - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
-> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](https://docs.darwinia.network/docs/en/crab-tut-create-account)
+> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account>)
 
-> - A small amount of CRING must be prepared in Darwinia's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](https://docs.darwinia.network/docs/en/crab-tut-claim-cring)
+> - A small amount of CRING must be prepared in Darwinia's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](<https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring>)
 
 
 
@@ -53,7 +53,7 @@ Click [Set session key] on this page, completing the parameters and submit. [How
 ![tut-validator-1](assets/tut-validator-1.png)
 
 
-**After confirming, click [sign and submit]** 
+**After confirming, click [sign and submit]】** 
    > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
 
 ![tut-validator-2](assets/tut-validator-2.png)
@@ -66,7 +66,7 @@ Click [Set session key] on this page, completing the parameters and submit. [How
 ![tut-validator-3](assets/tut-validator-3.png)
 
 
-**After confirming, click [sign and submit]** 
+**After confirming, click [sign and submit]】** 
 
 ![tut-validator-4](assets/tut-validator-4.png)
 
