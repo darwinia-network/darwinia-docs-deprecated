@@ -11,6 +11,6 @@ sidebar_label: Tutorials
 - Become a Relayer [View Guide](crab-tut-relayer)
 
 ## Other
-- Create an Account [View Guide](crab-tut-account)
+- Create an Account [View Guide](crab-tut-create-account)
 - Get free cRING (test coin) [View Guide](crab-tut-get-free-cring)
 - Claim your cRING (test coin) [View Guide](crab-tut-claim-cring)

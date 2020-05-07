@@ -21,10 +21,6 @@
         "title": "Crab Network Tools",
         "sidebar_label": "Tools"
       },
-      "crab-tut-account": {
-        "title": "How to create an account",
-        "sidebar_label": "Create Account"
-      },
       "crab-tut-claim-cring": {
         "title": "How to claim free cRing",
         "sidebar_label": "Claim cRing"

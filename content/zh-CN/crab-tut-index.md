@@ -12,6 +12,6 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - 成为Relayer [查看教程](crab-tut-relayer)
 
 ## 其他相关
-- 创建账户 [查看教程](crab-tut-account)
+- 创建账户 [查看教程](crab-tut-create-account)
 - 通过水龙头获得免费的cRING [查看教程](crab-tut-get-free-cring)
 - 领取空投的cRING [查看教程](crab-tut-claim-cring)
