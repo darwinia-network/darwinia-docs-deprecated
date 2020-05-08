@@ -7,7 +7,7 @@ sidebar_label: 链式反应
 链式反应Meetup旨在与开发者探讨前沿技术，分享内容干货，追踪行业热点，不定期邀请行业大咖现场教学，如：Substrate，Rust，Polkadot等。
 
 ## 链式反应Meetup 第8期 [视频回顾](https://www.bilibili.com/video/BV11g4y1z79z/)
-- 姜富耀 - Acala印象
+- 姜富耀 - Acala 印象
 - 佟林 - 跨链隐私计算的应用场景
 - 王晓寅 - 去中心化背书技术
 
