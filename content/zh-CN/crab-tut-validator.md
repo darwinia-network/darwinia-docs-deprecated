@@ -43,8 +43,24 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 参选验证人
 
+**生成 session key**
+
+点击左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址，确认无误后点击【保存】。
+
+![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
+
+点击左侧 【工具箱】，在 RPC Calls 中选择 `author`/`rotate keys`，点击【submit RPC Call】
+
+![tut-validator-session-2-cn](assets/tut-validator-session-2-cn.png)
+
+复制生成好的 session key 并妥善保管。
+
+   > 通过命令行 生成 session key 请参考: [运行节点:生成session key](https://docs.darwinia.network/docs/zh-CN/crab-tut-node#%E7%94%9F%E6%88%90session-key)
+
 **设置 session key**
-点击【session账号】，输入内容后点击【设置会话key】提交。session key 的生成方式参考: [运行节点:生成session key](https://docs.darwinia.network/docs/zh-CN/crab-tut-node#%E7%94%9F%E6%88%90session-key)
+
+点击【session 账号】，输入刚刚生成的 session key ，点击【设置session key】提交。
+
    > session key 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
                                                                                                                                                                                   >
 ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
