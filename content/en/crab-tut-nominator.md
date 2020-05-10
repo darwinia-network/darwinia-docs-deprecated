@@ -96,7 +96,7 @@ There are other operations in staking for the following purposes:
 
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
-  > Please note: 336 era (About 7 days)  will be saved, and you will not be able to claim it if it expires.
+  > Please note: 56 era (about 14 days) will be saved, and you will not be able to claim it if it expires.
 
 - `Change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
 - `Change reward destination` Change the destination account for any payment as either a nominator or validator.
