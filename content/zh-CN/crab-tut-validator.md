@@ -47,7 +47,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	curl -H 'Content-Type: application/json' --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "id":1 }' 	http://localhost:9933
 	```
 
-2. 点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址，确认无误后点击【保存】。
+2. 点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址（e.g `ws://127.0.0.1:9944`），确认无误后点击【保存】。
 
 	![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
 
@@ -61,7 +61,10 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 **Q&A：**
 - Q：9933 是什么端口
-- A：9933 为 `--rpc-port` 指定的端口号，默认为 9933
+- A：为 `--rpc-port` 指定的端口号，默认为 9933
+-
+- Q：9944 是什么端口
+- A：为 `--ws-port` 指定的端口号，默认为 9944
 -
 - Q：RPC 请求返回*方法未找到*
 - A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
