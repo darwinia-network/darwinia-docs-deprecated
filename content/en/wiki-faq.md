@@ -18,9 +18,10 @@ Even if Darwinia Network is voted off the Polkadot parachain set, it will still 
 
 ## What is RING and KTON
 
-RING is system token of Darwinia Network, the initial supply before Darwinia network mainnet release is 2 billion.  KTON is the staking and governance credential of Darwinia Network, KTON can only obtained by locking RING, the initial supply is 0.
-
-At present, some RING and KTON exist in the Ethereum network and the Tron network in the form of ERC-20 and TRC-20. These TOKENs will be transferred to the Darwinia main network by 1:1 cross-chain conversion after the Darwinia main online.
+- RING is system token of Darwinia Network, the initial supply before Darwinia network mainnet release is 2 billion. Ordinary users only need to hold RING to participate in all operations of Darwinia Network 
+- KTON is the staking and governance credential of Darwinia Network, KTON can only obtained by locking RING for a fixed period, the initial supply is 0. KTON is mainly for advanced users, as an incentive to promise to hold RING for a long time.
+- RING and KTON, similar to the relationship between spot and options (futures), through this dual-pass design, while encouraging long-term investors, it can reduce the risk of exchange manipulation of the network to a certain extent, and can effectively maintain network security Establish loyalty and create a beneficial governance system.
+- At present, some RING and KTON exist in the Ethereum network and the Tron network in the form of ERC-20 and TRC-20. These TOKENs will be transferred to the Darwinia main network by 1:1 cross-chain conversion after the Darwinia main online.
 
 <hr />
 
