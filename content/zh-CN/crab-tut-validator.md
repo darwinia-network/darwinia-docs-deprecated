@@ -14,7 +14,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ### 入口
 
-- 进入[Darwinia Web Wallet](http://apps.darwinia.network/)，点击左侧【抵押】栏目，点击【开始 Staking】
+- 进入[Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目，点击【开始 Staking】
 
 ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
