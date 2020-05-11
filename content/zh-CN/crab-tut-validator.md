@@ -61,7 +61,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 **Q&A：**
 - Q：9933 是什么端口
-- A：9933 为 `--rpc-port` 指定的端口号
+- A：9933 为 `--rpc-port` 指定的端口号，默认为 9933
 -
 - Q：RPC 请求返回*方法未找到*
 - A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
@@ -73,8 +73,8 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 #### 设置 session keys
 
-点击【session 账号】，输入刚刚生成的 session key ，点击【设置session key】提交。
-> session key 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
+点击【session 账号】，输入刚刚生成的 session keys ，点击【设置session keys】提交。
+> session keys 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
    
 ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
 
