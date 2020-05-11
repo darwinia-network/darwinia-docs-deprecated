@@ -13,7 +13,7 @@ sidebar_label: Become a nominator
 
 ## Start Staking
 
-- Enter [Darwinia Wallet](http://apps.darwinia.network/) and lick the [Staking] column on the left , Click [Start staking].
+- Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
 
 ![nominate-1-en](assets/nominate-1-en.png)
 

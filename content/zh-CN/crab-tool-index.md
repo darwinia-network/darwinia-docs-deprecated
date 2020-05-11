@@ -4,7 +4,7 @@ title: Crab 网络工具集
 sidebar_label: 工具集
 ---
 ## 钱包：
--  [Darwinia Web Wallet](http://apps.darwinia.network/)
+-  [Darwinia Web Wallet](https://apps.darwinia.network)
 -  [Polkadot.js Browser Extension](https://github.com/polkadot-js/extension)
 
 ## 浏览器：
