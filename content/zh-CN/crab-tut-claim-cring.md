@@ -32,9 +32,9 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 1、确认已准备好签名环境，并处于已解锁状态。
 
-2、通过 chrome 浏览器或手机钱包，访问 CRING [领取工具](http://claim.darwinia.network/)
+2、通过 chrome 浏览器或手机钱包，访问 CRING [领取工具](https://claim.darwinia.network/)
 
-以麦子钱包为例，分别点击底栏【应用】- 【麦子DAPP浏览器】- 输入http://claim.darwinia.network/ 即可访问。
+以麦子钱包为例，分别点击底栏【应用】- 【麦子DAPP浏览器】- 输入https://claim.darwinia.network/ 即可访问。
 
 ![01_mathwallet](assets/01_mathwallet.png)
 
@@ -50,9 +50,9 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 1、确认已准备好签名环境，并处于已解锁状态。
 
-2、通过 chrome 浏览器或手机钱包，访问 CRING [领取工具](http://claim.darwinia.network/)
+2、通过 chrome 浏览器或手机钱包，访问 CRING [领取工具](https://claim.darwinia.network/)
 
-以麦子钱包为例，分别点击底栏【应用】- 【麦子DAPP浏览器】- 输入http://claim.darwinia.network/ 即可访问。
+以麦子钱包为例，分别点击底栏【应用】- 【麦子DAPP浏览器】- 输入https://claim.darwinia.network/ 即可访问。
 
 3、选择想要查询的网络（以太坊/波场），点击【领取】。（下文以以太坊网络为例）
 
@@ -72,7 +72,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 ![07_claim_copy](assets/07_claim_copy.png)
 
-7、打开[达尔文钱包-认领模块](<http://apps.darwinia.network/#/claims>)：<http://apps.darwinia.network/#/claims>,选中刚刚填写的接收空投的地址，点击【继续】。
+7、打开[达尔文钱包-认领模块](<https://apps.darwinia.network/#/claims>)：<https://apps.darwinia.network/#/claims>,选中刚刚填写的接收空投的地址，点击【继续】。
 
 ![08_claim_chooseaccount](assets/08_claim_chooseaccount.png)
 
@@ -80,7 +80,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 ![09_claim_sign2](assets/09_claim_sign2.png)
 
-9、领取成功后，您将收到如下提示。这时就代表您的空投已成功领取，可以到 [达尔文钱包-账户](<http://apps.darwinia.network/#/accounts>) 或 [subscan](<https://crab.subscan.io/>)中查看账户余额信息。
+9、领取成功后，您将收到如下提示。这时就代表您的空投已成功领取，可以到 [达尔文钱包-账户](<https://apps.darwinia.network/#/accounts>) 或 [subscan](<https://crab.subscan.io/>)中查看账户余额信息。
 
 ![10_claim_success](assets/10_claim_success.png)
 
