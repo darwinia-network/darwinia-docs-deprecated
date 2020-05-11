@@ -25,10 +25,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 启动参数
 
-### 从文件读取配置启动
+### 从文件读取配置启动（暂不支持）
 
-暂无
-<!-- 如不在同一文件夹下最好填写绝对路径
+如不在同一文件夹下最好填写绝对路径
 
 ```
 ./darwinia --conf=example.json
@@ -47,7 +46,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	],
 	"name": "Example"
 }
-``` -->
+```
 
 ### 从命令行读取配置启动
 
