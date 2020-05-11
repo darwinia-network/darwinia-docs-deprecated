@@ -17,12 +17,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ### 下载可执行文件
 
-- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Catalina.tar.gz
-- macOS Mojave: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/macOS_Mojave.tar.gz
-- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/ArchLinux.tar.gz
-- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/Ubuntu.tar.gz
-- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.4.6/CentOS.tar.gz
-- Docker: `docker pull darwinianetwork/darwinia:release-v0.4.6.2`
+- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-catalina.tar.gz
+- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-archlinux.tar.gz
+- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-ubuntu.tar.gz
+- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-centos7.tar.gz
+- Docker: `docker pull darwinianetwork/darwinia:release-v0.5.7`
 
 ## 启动参数
 
@@ -59,28 +58,28 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	--name Example
 ```
 
-常用参数说明：
+#### 常用参数说明：
 
-```
-d 或 base-path: 保存用于链的各种数据的地址；参数【路径；字符串】
-port: p2p 端口；参数【端口号；数字】
-rpc-port：rpc 端口；参数【端口号；数字】
-ws-port：ws 端口；参数【端口号；数字】
-validator： 节点类型为验证人节点；无参数
-name： 在 telemetry 中显示的名字；参数【用户名；字符串】
-rpc-external：监听所有 rpc，验证人节点需要使用 `--unsafe-rpc-external` 但不推荐验证人节点开启，无参数
-ws-external：监听所有 ws，验证人节点需要使用 `--unsafe-ws-external` 但不推荐验证人节点开启，无参数
-rpc-cors: 请求头白名单，参数【过滤类型；枚举】
-bootnodes: 用来获取启动数据的种子节点（/ip4/0.0.0.0/tcp/0/p2p/xxx），参数【节点 URL；字符串数组】
-```
+|     参数     |                                      注释                                       |  子参数  | 子参数类型 |
+| :----------: | :-----------------------------------------------------------------------------: | :------: | :--------: |
+|  validator   |                              节点类型为验证人节点                               |    无    |     无     |
+| rpc-external | 监听所有 rpc，验证人节点需要使用 `--unsafe-rpc-external` 但不推荐验证人节点开启 |    无    |     无     |
+| ws-external  |  监听所有 ws，验证人节点需要使用 `--unsafe-ws-external` 但不推荐验证人节点开启  |    无    |     无     |
+|     port     |                                    p2p 端口                                     |  端口号  |    数字    |
+|   rpc-port   |                                    rpc 端口                                     |  端口号  |    数字    |
+|   ws-port    |                                     ws 端口                                     |  端口号  |    数字    |
+|  base-path   |                           保存用于链的各种数据的地址                            |   路径   |   字符串   |
+|     name     |                                   节点的名称                                    |  节点名  |   字符串   |
+|   rpc-cors   |                                  请求头白名单                                   | 过滤类型 |    枚举    |
+|  bootnodes   |            用来获取启动数据的种子节点（/ip4/0.0.0.0/tcp/0/p2p/xxx）             | 节点 URL | 字符串数组 |
 
-查看所有参数说明：
+#### 查看所有参数说明：
 
 ```
 ./darwinia --help
 ```
 
-官方提供以下几个 bootnodes，供大家启动同步数据:
+#### 官方提供以下几个 bootnodes，供大家启动同步数据:
 
 ```
 /ip4/175.24.95.3/tcp/30333/p2p/12D3KooWKdcGZkFe3y63dj8VWLH6xw3rB5QhhnoC8UenSscXFuqx
@@ -105,12 +104,12 @@ bootnodes: 用来获取启动数据的种子节点（/ip4/0.0.0.0/tcp/0/p2p/xxx�
 - A：
 	1. 确认系统支持该可执行文件
 	1. 部分动态链接库依赖丢失，安装依赖
-
+-
 - Q：我的节点为什么不同步块
 - A：
 	1. 检查 bootnodes 是否填错
 	1. 与目标节点网络通信差，尝试其他 bootnodes
 	1. 目标节点连接数已满，尝试其他 bootnodes
 	1. 确认版本号一致（多数情况下并不需要完全一致）
-
-***如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
+-
+- ***如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***

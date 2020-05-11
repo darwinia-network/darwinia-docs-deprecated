@@ -6,7 +6,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ---
 > - Staking是基于PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
 
-> - 在参与 Staking 之前，请确保有至少拥有 **1个** Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备 **2** 个 Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
+> - 在参与 Staking 之前，请确保有至少拥有 **1** 个 Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备 **2** 个 Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
 
 > - Darwinia 地址内需准备少许 CRING ，作为交易手续费。没有 CRING 请参考：[如何通过水龙头获得免费的CRING](https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring)
 
@@ -40,32 +40,48 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ### 参选验证人
 
-**生成 session key**
+#### 生成 session keys
 
-点击左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址，确认无误后点击【保存】。
+1. 在服务器终端下输入以下命令成功的话会返回生成好的 session keys
+	```sh
+	curl -H 'Content-Type: application/json' --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "id":1 }' 	http://localhost:9933
+	```
 
-![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
+2. 点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址，确认无误后点击【保存】。
 
-点击左侧 【工具箱】，在 RPC Calls 中选择 `author`/`rotate keys`，点击【submit RPC Call】
+	![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
 
-![tut-validator-session-2-cn](assets/tut-validator-session-2-cn.png)
+	点击左侧 【工具箱】，在 RPC Calls 中选择 `author`/`rotate keys`，点击【submit RPC Call】
 
-复制生成好的 session key 并妥善保管。
+	![tut-validator-session-2-cn](assets/tut-validator-session-2-cn.png)
 
-   > 通过命令行 生成 session key 请参考: [运行节点:生成session key](https://docs.darwinia.network/docs/zh-CN/crab-tut-node#%E7%94%9F%E6%88%90session-key)
+	复制生成好的 session keys 并妥善保管。
 
-**设置 session key**
+	> 通过命令行 生成 session key 请参考: [运行节点:生成session key](https://docs.darwinia.network/docs/zh-CN/crab-tut-node#%E7%94%9F%E6%88%90session-key)
 
-点击【session 账号】，输入刚刚生成的 session key ，点击【设置session key】提交。
+**Q&A：**
+- Q：9933 是什么端口
+- A：9933 为 `--rpc-port` 指定的端口号，默认为 9933
+-
+- Q：RPC 请求返回*方法未找到*
+- A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
+-
+- Q：RPC 请求返回*请求头不在*
+- A：请在节点启东市加入 `rpc-cors all`，建议生成完后删除本参数重启节点
+-
+- ***如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
 
-   > session key 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
+#### 设置 session keys
+
+点击【session 账号】，输入刚刚生成的 session keys ，点击【设置session keys】提交。
+> session keys 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
    
 ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
 
 **确认无误后，点击【签名并提交】** 
 
 ![tut-validator-2-cn](assets/tut-validator-2-cn.png)
-   > 验证人和提名人的身份是互斥的，不可并存。如果您正在提名其他验证人，需要取消提名操作后，再进行后续的操作。
+> 验证人和提名人的身份是互斥的，不可并存。如果您正在提名其他验证人，需要取消提名操作后，再进行后续的操作。
 
 **点击【验证】，开始设置验证人参数**
 
@@ -80,8 +96,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 **去【浏览器】查看当前验证人的相关信息**
   
 ![tut-validator-5-cn](assets/tut-validator-5-cn.png)
-
-   > 参选验证人的操作，会在下一个 era 的第一个 epoch 后生效，生效前会展示在【候选】队列。
+> 参选验证人后会进入【候选】队列，在进入下一个 era 的时刻参与选举。
 
 ## 其他操作
 
@@ -96,7 +111,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - `收益历史` 去 SUBSCAN 浏览器查看历史收益记录。
 - `领取收益` 手动领取已获得的收益，收益将以 era 为单位发放。
 
-  > 请注意：收益会保存 **56** 个 era（约 14 天），超期将无法领取。
+  > 请注意：收益会保存 **56** 个 era（约 **14** 天），超期将无法领取。
                                      
 - `更改控制账户` 更改用于管理 Staking 其他操作的账号，如参与投票、参与验证等。
 - `更改收益账号` 更改用于接收 Staking 收益的账号。
