@@ -34,7 +34,7 @@ Darwinia Crab Network（简称 Crab网络）是 Darwinia 主网上线前的最�
 - RING 是 Darwinia Network 的主通证，初始供应量为 20 亿。普通用户仅持有 RING，即可参与 Darwinia Network 的所有操作。
 - KTON 是 Darwinia Network 的治理通证，初始供应量为 0，只能通过锁定固定期限的 RING 生成。KTON 主要面向高级进阶用户，作为承诺长期持有RING的激励。
 - RING 和 KTON ，类似于现货和期权(期货)的关系，通过这样的双通证设计，在激励长期投资者的同时，可以一定程度上减少交易所操纵网络的风险，可以有效地维护网络安全、建立忠诚度、以及创建出有益的治理体系。
-- 目前已经有部分 RING 和 KTON 以 ERC-20 和 TRC-20 形式存在于 Ethereum 网络和 Tron 网络，这些 TOKEN 将可以在 Darwinia 主网上线后通过跨链转换的方式 1:1 转移至 Darwinia 主网。
+- 目前已经有部分 RING 和 KTON 以 ERC-20 和 TRC-20 形式存在于 Ethereum 网络和 Tron 网络，在 Darwinia 主网上线后，这些通证将通过跨链转换的方式 1:1 转移至 Darwinia 主网。
 
 <hr />
 
@@ -44,6 +44,7 @@ Darwinia Crab Network（简称 Crab网络）是 Darwinia 主网上线前的最�
 
 <hr />
 
-## 目前 Evolution Land 中的 RING/KTON 是什么?
-Evolution Land 游戏采用 Darwinia Network 的 RING 通证作为游戏内的支付通证，Evolution Land 中的 RING 和 KTON 就是 ERC-20/TRC-20 形式的 TOKEN。
+### 目前 Evolution Land 中的 RING/KTON 是什么?
+- Evolution Land 游戏采用 Darwinia Network 的 RING 通证作为游戏内的支付通证，Evolution Land 中的 RING 和 KTON 就是 ERC-20/TRC-20 形式的 通证；
+- 在 Darwinia 主网上线后，这些通证将通过跨链转换的方式 1:1 转移至 Darwinia 主网。
 
