@@ -24,6 +24,8 @@ At present, some RING and KTON exist in the Ethereum network and the Tron networ
 
 <hr />
 
-## What is RING and KTON in Evolution Land?
+### What is RING and KTON in Evolution Land?
 
 RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will use RING in Darwinia Network as the payment token in game.
+
+<hr />
