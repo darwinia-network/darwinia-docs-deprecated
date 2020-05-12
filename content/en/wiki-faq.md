@@ -25,7 +25,7 @@ Even if Darwinia Network is voted off the Polkadot parachain set, it will still 
 
 <hr />
 
-### What is RING and KTON in Evolution Land?
+## What is RING and KTON in Evolution Land?
 
 RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will use RING in Darwinia Network as the payment token in game.
 
