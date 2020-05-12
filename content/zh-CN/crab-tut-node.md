@@ -7,7 +7,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 环境准备
 
-### 从源码编译
+### 以下两种获取可执行文件方式任选其一
+
+#### 1.从源码编译
 
 - 编译环境配置，参考从 4.1 到 4.1.3 小节之前 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
 - 启动命令行
@@ -15,7 +17,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - cargo build --release
 - 可以在 darwinia/target/release 下面找到编译好的可执行文件 darwinia(.exe)
 
-### 下载可执行文件
+#### 2.下载可执行文件
 
 - macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-catalina.tar.gz
 - ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.5.7/darwinia-archlinux.tar.gz
@@ -25,7 +27,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 启动参数
 
-### 从文件读取配置启动（暂不支持）
+### 以下两种启动方式任选其一
+
+#### 1.从文件读取配置启动（暂不支持）
 
 如不在同一文件夹下最好填写绝对路径
 
@@ -48,7 +52,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 }
 ```
 
-### 从命令行读取配置启动
+#### 2.从命令行读取配置启动
 
 ```sh
 ./darwinia \
@@ -57,7 +61,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	--name Example
 ```
 
-#### 常用参数说明：
+### 常用参数
 
 |     参数     |                                      注释                                       |  子参数  | 子参数类型 |
 | :----------: | :-----------------------------------------------------------------------------: | :------: | :--------: |
@@ -72,21 +76,15 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 |   rpc-cors   |                                  请求头白名单                                   | 过滤类型 |    枚举    |
 |  bootnodes   |            用来获取启动数据的种子节点（/ip4/0.0.0.0/tcp/0/p2p/xxx）             | 节点 URL | 字符串数组 |
 
-#### 查看所有参数说明：
+#### 查看所有参数
 
 ```
 ./darwinia --help
 ```
 
-#### 官方提供以下几个 bootnodes，供大家启动同步数据:
-
-```
-/ip4/175.24.95.3/tcp/30333/p2p/12D3KooWKdcGZkFe3y63dj8VWLH6xw3rB5QhhnoC8UenSscXFuqx
-/ip4/35.234.33.88/tcp/30333/p2p/QmR4fARccJJA2o2Ac3fG2FcgatyGaoaZqUzymUDpvBZr7c
-/ip4/35.234.9.96/tcp/30333/p2p/QmPPGpFMgqSm9ZeeHubZk8UXpKdZMNRCk4Wkymm181bpve
-```
-
 ## 启动节点
+
+### 启动命令
 
 ```sh
 ./darwinia \
@@ -97,7 +95,15 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 建议使用 systemctl，pm2，screen 等工具来维护进程。
 
-## Q&A
+### 种子节点
+
+```
+/ip4/175.24.95.3/tcp/30333/p2p/12D3KooWKdcGZkFe3y63dj8VWLH6xw3rB5QhhnoC8UenSscXFuqx
+/ip4/35.234.33.88/tcp/30333/p2p/QmR4fARccJJA2o2Ac3fG2FcgatyGaoaZqUzymUDpvBZr7c
+/ip4/35.234.9.96/tcp/30333/p2p/QmPPGpFMgqSm9ZeeHubZk8UXpKdZMNRCk4Wkymm181bpve
+```
+
+### Q&A
 
 - Q：无法启动节点
 - A：
