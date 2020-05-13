@@ -67,23 +67,28 @@ Click [Toolbox] on the left, select `author` / `rotate keys` in RPC Calls, click
 Copy the generated session key and keep it properly.
 
 - **Q & A:**
-Q: What port is 9933?
+
+*Q: What port is 9933?*
+
 A: The port number specified for `--rpc-port`, the default is 9933
 
-Q: What port is 9944?
+*Q: What port is 9944?*
+
 A: The port number specified for `--ws-port`, the default is 9944
 
-Q: RPC request returned *Method not found*
+*Q: RPC request returned Method not found*
+
 A: Please add `--unsafe-rpc-external` when the node starts, it is recommended to delete this parameter after the generation is completed and restart the node
 
-Q: RPC request returned *Request header is not in*
+*Q: RPC request returned Request header is not in*
+
 A: Please add `rpc-cors all` when the node starts, it is recommended to delete this parameter and restart the node after generation
 
    > ***If there are still problems, welcome [Submit issue]("https://github.com/darwinia-network/darwinia/issues/new")***
 
 ### Set session key
 
-Click [Set session key] on this page, completing the generated session key and submit. [How to generate the session key](https://docs.darwinia.network/docs/en/crab-tut-node#generate-session-key)
+Click [Set session key] on this page, completing the generated session key and submit. 
    > The session key must be filled with real data, otherwise it will result in missing blocks and be slashed.
                                                                                                                        
 ![tut-validator-1](assets/tut-validator-1.png)
