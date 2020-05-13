@@ -26,7 +26,7 @@ sidebar_label: Get free cRing
 
 ## Generate a Vanity account with CRAB
 
-- Click [Vanity account], fill in the conditions you need to filter.
+- Click [Vanity account](https://apps.darwinia.network/#/vanity), fill in the conditions you need to filter.
 
   ![faucet-1](assets/faucet-1.png)
 

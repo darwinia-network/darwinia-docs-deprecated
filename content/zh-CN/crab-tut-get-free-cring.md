@@ -25,7 +25,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 如何生成包含 CRAB 字母的账号
 
-- 点击【美化账号】，填写您需要筛选的条件。
+- 点击[美化账号](https://apps.darwinia.network/#/vanity)，填写您需要筛选的条件。
 
 ![faucet-1-cn](assets/faucet-1-cn.png)
 
