@@ -7,6 +7,7 @@ sidebar_label: Tools
 ## Wallet: 
 
 -  [Polkadot.js Browser Extension](https://github.com/polkadot-js/extension)
+-  [Darwinia Crab Wallet](https://apps.darwinia.network/#/accounts)
 
 ## Explorer: 
 
