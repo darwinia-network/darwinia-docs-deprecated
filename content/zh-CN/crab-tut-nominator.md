@@ -4,15 +4,15 @@ title: 如何成为一个投票人
 sidebar_label: 成为投票人
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-nominator.md
 ---
-> - Staking是基于PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
+> - Staking是基于 PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
 
-> - 在参与 staking 之前，请确保有至少拥有**1个** Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备**2个** Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
+> - 在参与 staking 之前，请确保有至少拥有 **1** 个 Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备 **2** 个 Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
 
-> - Darwinia 地址内需准备少许 CRING ，作为交易手续费。没有CRING请参考：[如何通过水龙头获得免费的CRING](https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring)
+> - Darwinia 地址内需准备少许 CRING，作为交易手续费。没有 CRING 请参考：[如何通过水龙头获得免费的CRING](https://docs.darwinia.network/docs/zh-CN/crab-tut-claim-cring)
 
 ## Start Staking
 
-- 进入[Darwinia Web Wallet](http://apps.darwinia.network/)，点击左侧【抵押】栏目， 点击【开始 staking 】  
+- 进入[Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目， 点击【开始 staking 】  
 ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
 
@@ -25,9 +25,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
   
   > `资金账户`和`控制账户`可设置为同一账户，如果您持有较多代币或对安全性要求较高，建议此处设置为不同账号。  
 
--  `冻结数量` 参与 staking 的代币数量，这部分代币将被暂时冻结，解冻需要14天的解冻期；您可以选择冻结 CRING 或 CKTON。
+-  `冻结数量` 参与 staking 的代币数量，这部分代币将被暂时冻结，解冻需要 14 天的解冻期；您可以选择冻结 CRING 或 CKTON。
 - `收益账号` 接收 staking 收益的账号
-- `冻结期限` 可选项；将 CRING 承诺冻结3-36个月，可以获得额外的 CKTON 奖励。(承诺锁定需接受用户条款)
+- `冻结期限` 可选项；将 CRING 承诺冻结 3-36 个月，可以获得额外的 CKTON 奖励。(承诺锁定需接受用户条款)
   
   > 如提前赎回有承诺期限的 CRING，需要支付CKTON奖励3倍的惩罚。
 
@@ -37,7 +37,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 提名验证人
 
-- 完成staking参数后，在本页面点击【提名】  
+- 完成 staking 参数后，在本页面点击【提名】  
 ![crab-tut-nominator-4](assets/crab-tut-nominator-4.png)
     > 验证人和提名人的身份是互斥的，不可并存。如果您正在参选验证人，需要先取消参选验证人，再进行后续的提名操作。
 
@@ -58,22 +58,22 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 其他操作
 
-staking还有一些其他操作，用于以下用途：  
+staking 还有一些其他操作，用于以下用途：  
 ![crab-tut-nominator-8](assets/crab-tut-nominator-8.png)
 
 
 - `停止提名` 取消所有投票。
-- `抵押`  增加staking冻结的代币，用来获得更多的票权（power）。
-- `取消抵押` 解冻staking的代币，与此同时票权（power）也会按比例减少。
+- `抵押`  增加 staking 冻结的代币，用来获得更多的票权（power）。
+- `取消抵押` 解冻 staking 的代币，与此同时票权（power）也会按比例减少。
 
-  > 取消抵押需要14天的解冻期，处于解冻期内的代币不能进行任何操作，请谨慎处理。
+  > 取消抵押需要 14 天的解冻期，处于解冻期内的代币不能进行任何操作，请谨慎处理。
 
-- `收益历史` 去SUBSCAN浏览器查看历史收益记录
-- `领取收益` 手动领取已获得的收益，收益将以era为单位发放。
+- `收益历史` 去 SUBSCAN 浏览器查看历史收益记录
+- `领取收益` 手动领取已获得的收益，收益将以 era 为单位发放。
 
-  > 请注意：收益会保存336个era(约7天)，超期将无法领取。
+  > 请注意：收益会保存 56 个 era（约 14 天），超期将无法领取。
                                      
 - `更改控制账户` 更改用于管理 staking 其他操作的账号，如参与投票、参与验证等。
 - `更改收益账号` 更改用于接收 staking 收益的账号
 - `设置 session keys` 如果要升级成为验证人，需填写此项。[如何成为验证人](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
-- `设置链上身份` 设置您的个人信息，如昵称、邮箱、网站、twitter、riot等信息，其他用户可查看此信息并联系您。
+- `设置链上身份` 设置您的个人信息，如昵称、邮箱、网站、twitter、riot 等信息，其他用户可查看此信息并联系您。
