@@ -29,7 +29,7 @@ sidebar_label: Running a node
 
 ### Choose one of the following two starting methods
 
-#### 1.Read the configuration and start from the file
+#### 1.Read the configuration and start from the file (Not currently supported)
 
 If not in the same folder, it is best to fill in the absolute path.
 
@@ -63,18 +63,18 @@ Example configuration file example.json:
 
 ### Common parameters
 
-|  Parameter  |  Annotate  |  Subparameter  |  Subparameter type  |
+|     parameter     |                                      Annotate                                       |  Subparameter  | Subparameter type |
 | :----------: | :-----------------------------------------------------------------------------: | :------: | :--------: |
-|  validator   |                              节点类型为验证人节点                               |    无    |     无     |
-| rpc-external | 监听所有 rpc，验证人节点需要使用 `--unsafe-rpc-external` 但不推荐验证人节点开启 |    无    |     无     |
-| ws-external  |  监听所有 ws，验证人节点需要使用 `--unsafe-ws-external` 但不推荐验证人节点开启  |    无    |     无     |
-|     port     |                                    p2p port                                     |  The port number  |    数字    |
-|   rpc-port   |                                    rpc port                                     |  The port number  |    数字    |
-|   ws-port    |                                     ws port                                     |  The port number  |    数字    |
-|  base-path   |                           保存用于链的各种数据的地址                            |   路径   |   字符串   |
-|     name     |                                   节点的名称                                    |  节点名  |   字符串   |
-|   rpc-cors   |                                  请求头白名单                                   | 过滤类型 |    枚举    |
-|  bootnodes   |            用来获取启动数据的种子节点（/ip4/0.0.0.0/tcp/0/p2p/xxx）             | 节点 URL | 字符串数组 |
+|  validator   |                              The node type is the validator node                               |    /    |     /     |
+| rpc-external | To monitor all rpc, the verifier node needs to use `--unsafe-rpc-external` but it is not recommended to enable the verifier node |    /    |     /     |
+| ws-external  |  To monitor all ws, the verifier node needs to use `--unsafe-ws-external` but it is not recommended to enable the verifier node  |    /    |     /     |
+|     port     |                                    p2p port                                     |  port number  |    number    |
+|   rpc-port   |                                    rpc port                                     |  port number  |    number    |
+|   ws-port    |                                     ws port                                     |  port number  |    number    |
+|  base-path   |                           Address for storing various data used in the chain                            |   path   |   String   |
+|     name     |                                   Node name                                    |  Node name  |   String   |
+|   rpc-cors   |                                  Request header whitelist                                   | Filter type |    enumerate    |
+|  bootnodes   |            The seed node used to obtain startup data（/ip4/0.0.0.0/tcp/0/p2p/xxx）             | Node URL | String array |
 
 #### View all parameter descriptions:
 
@@ -82,9 +82,9 @@ Example configuration file example.json:
 ./darwinia --help
 ```
 
-## 启动节点
+## Start Node
 
-### 启动命令
+### Start Command
 
 ```sh
 ./darwinia \
@@ -93,9 +93,9 @@ Example configuration file example.json:
 	--name Example
 ```
 
-建议使用 systemctl，pm2，screen 等工具来维护进程。
+It is recommended to use systemctl, pm2, screen and other tools to maintain the process.
 
-### 种子节点
+### Bootnodes
 
 To avoid some seed nodes being fully connected, the following alternatives are provided, and you can choose to fill in bootnodes at will:
 
@@ -107,16 +107,16 @@ To avoid some seed nodes being fully connected, the following alternatives are p
 
 ### Q&A
 
-- Q：无法启动节点
-- A：
-	1. 确认系统支持该可执行文件
-	1. 部分动态链接库依赖丢失，安装依赖
+- Q: Unable to start node
+- A:
+	1. Confirm that the system supports the executable file
+	1. Some dynamic link library dependencies are missing, installation dependencies
 
-- Q：我的节点为什么不同步块
-- A：
-	1. 检查 bootnodes 是否填错
-	1. 与目标节点网络通信差，尝试其他 bootnodes
-	1. 目标节点连接数已满，尝试其他 bootnodes
-	1. 确认版本号一致（多数情况下并不需要完全一致）
+- Q: Why does my node not synchronize blocks
+- A:
+	1. Check if bootnodes are filled in incorrectly
+	1. Poor network communication with the target node, try other bootnodes
+	1. The number of target node connections is full, try other bootnodes
+	1. Confirm that the version numbers are consistent (in most cases, they do not need to be identical)
 
-- ***如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
+- If there are still problems, welcome [Submit issue](https://github.com/darwinia-network/darwinia/issues/new）
