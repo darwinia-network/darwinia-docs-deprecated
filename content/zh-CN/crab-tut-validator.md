@@ -42,12 +42,16 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 #### 生成 session keys
 
-1. 在服务器终端下输入以下命令成功的话会返回生成好的 session keys
+- **通过命令行生成**
+
+    在服务器终端下输入以下命令，成功的话会返回生成好的 session keys
 	```sh
 	curl -H 'Content-Type: application/json' --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "id":1 }' 	http://localhost:9933
 	```
 
-2. 点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址（e.g `ws://127.0.0.1:9944`），确认无误后点击【保存】。
+- **通过网页钱包生成**
+
+    点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址（e.g `ws://127.0.0.1:9944`），确认无误后点击【保存】。
 
 	![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
 
@@ -57,22 +61,20 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 	复制生成好的 session keys 并妥善保管。
 
-	> 通过命令行 生成 session key 请参考: [运行节点:生成session key](https://docs.darwinia.network/docs/zh-CN/crab-tut-node#%E7%94%9F%E6%88%90session-key)
+**Q & A：**
+Q：9933 是什么端口
+A：为 `--rpc-port` 指定的端口号，默认为 9933
 
-**Q&A：**
-- Q：9933 是什么端口
-- A：为 `--rpc-port` 指定的端口号，默认为 9933
--
-- Q：9944 是什么端口
-- A：为 `--ws-port` 指定的端口号，默认为 9944
--
-- Q：RPC 请求返回*方法未找到*
-- A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
--
-- Q：RPC 请求返回*请求头不在*
-- A：请在节点启东市加入 `rpc-cors all`，建议生成完后删除本参数重启节点
--
-- ***如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
+Q：9944 是什么端口
+A：为 `--ws-port` 指定的端口号，默认为 9944
+
+Q：RPC 请求返回*方法未找到*
+A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
+
+Q：RPC 请求返回*请求头不在*
+A：请在节点启动时加入 `rpc-cors all`，建议生成完后删除本参数重启节点
+
+   > 如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
 
 #### 设置 session keys
 
