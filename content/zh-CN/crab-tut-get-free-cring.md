@@ -4,7 +4,7 @@ title: 如何通过水龙头获得免费的cRing
 sidebar_label: 从水龙头获取免费cRing
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-get-free-cring.md
 ---
-## 领取cRING
+## cRING 领取方式
 
 - 加入 Darwinia Faucet 频道：[点击此处](https://t.me/DarwiniaFaucet)
 - 回复 /faucet 账号

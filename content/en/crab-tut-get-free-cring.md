@@ -4,7 +4,7 @@ title: How to get free cRing through faucet
 sidebar_label: Get free cRing
 ---
 
-## Receive Airdrop（cRING）
+## Get Faucet (cRING)
 
 - Join Darwinia Faucet Channel: [Click Here](https://t.me/DarwiniaFaucet)
 
@@ -26,16 +26,17 @@ sidebar_label: Get free cRing
 ## Generate a Vanity account with CRAB
 
 - Click [Vanity account], fill in the conditions you need to filter.
-![faucet-1](assets/faucet-1.png)
+  ![faucet-1](assets/faucet-1.png)
 
-`Search for` : fill in`CRAB`
->Type here what you would like your address to contain. This tool will generate the keys and show the associated addresses that best match your search. You can use \"?\" as a wildcard for a character.": "",
+   `Search for` : fill in`CRAB`
+   >Type here what you would like your address to contain. This tool will generate the keys and show the associated addresses that best match your search. You can use \"?\" as a wildcard for a character.": "",
 
-`Case sensitive`: select `Yes`
->Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\"...": "Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\".
+   `Case sensitive`: select `Yes`
+   >Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\"...": "Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\".
 
-`Keypair crypto type` : Both can be selected
->Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
+   `Keypair crypto type` : Both can be selected
+
+   >Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
 
 - Click [Start Generation] and wait for the account to be generated. Click [+] to select your favorite account for backup.
 ![faucet-2](assets/faucet-2.png)
@@ -43,4 +44,4 @@ sidebar_label: Get free cRing
 - Click [Save] and choose to back up the original seed or json file according to your usage habits.
 ![faucet-3](assets/faucet-3.png)
 
-> Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
+   > Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
