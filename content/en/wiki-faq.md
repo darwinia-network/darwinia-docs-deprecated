@@ -16,7 +16,7 @@ Even if Darwinia Network is voted off the Polkadot parachain set, it will still 
 
 <hr />
 
-## What is RING and KTON
+## What are RING and KTON
 
 - RING is system token of Darwinia Network, the initial supply before Darwinia network mainnet release is 2 billion. Ordinary users only need to hold RING to participate in all operations of Darwinia Network 
 - KTON is the staking and governance credential of Darwinia Network, KTON can only obtained by locking RING for a fixed period, the initial supply is 0. KTON is mainly for advanced users, as an incentive to promise to hold RING for a long time.
@@ -25,7 +25,14 @@ Even if Darwinia Network is voted off the Polkadot parachain set, it will still 
 
 <hr />
 
-## What is RING and KTON in Evolution Land?
+## What are cRING and cKTON?
+
+- cRING and cKTON are the tokens of the Darwinia Crab network, and their parameters are consistent with the RING and KTON in the Darwinia mainnet, and use the same Staking mechanism and inflation model.
+- After the Darwinia main network is launched, a Token Bridge between the Darwinia main network and the Crab network will be created to enable cRING and RING to be exchanged with each other, with a conversion ratio of 100 cRING = 1 RING.
+
+<hr />
+
+## What are RING and KTON in Evolution Land?
 
 RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will use RING in Darwinia Network as the payment token in game.
 
