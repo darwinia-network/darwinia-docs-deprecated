@@ -6,13 +6,13 @@ sidebar_label: Get free cRing
 
 ## Receive Airdrop（cRING）
 
-- Join Darwinia Faucet Channel: [Click Here] (https://t.me/DarwiniaFaucet)
+- Join Darwinia Faucet Channel: [Click Here](https://t.me/DarwiniaFaucet)
 
 - Reply `/faucet + Account containing CRAB`
- - Example: /faucet 5CRABWXr1AqSSqJwv9tzh8gk4mEnrRYV9VWq7VnHh1KxvTBD
- - Attention: There is a space between /faucet and account.
+  - Example: /faucet 5CRABWXr1AqSSqJwv9tzh8gk4mEnrRYV9VWq7VnHh1KxvTBD
+  - Attention: There is a space between /faucet and account.
 
-- If your account meets the requirements for issuance, 1000 cRing will be automatically distributed to your account, you can view the transfer record through the browser [crab.subscan.io] via the link below.
+- If your account meets the requirements for issuance, 1000 cRing will be automatically distributed to your account, you can view the transfer record through the browser [crab.subscan.io](https://crab.subscan.io/) via the link below.
 ![faucet-4](assets/faucet-4.png)
 
 ## Faucet distribution rules
