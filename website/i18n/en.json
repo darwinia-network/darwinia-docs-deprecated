@@ -109,6 +109,10 @@
         "title": "Chain Reactions",
         "sidebar_label": "Chain Reactions"
       },
+      "dev-workshop-show": {
+        "title": "Chain Reaction Workshop - Darwinia Show",
+        "sidebar_label": "Darwinia Show"
+      },
       "misc-sample": {
         "title": "Sample Article",
         "sidebar_label": "Sample Article"

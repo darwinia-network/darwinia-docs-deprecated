@@ -80,7 +80,7 @@ Please select the following signature tools and download according to the usage 
 6.After successfully obtaining the signature information, click [Copy Signature]. (Please pay attention to save the signature information, it is recommended not to close this page temporarily before successfully receiving the airdrop)
 ![07_claim_copy](assets/07_en.png)
 
-7.Open [Darwinia wallet - Claim](http://apps.darwinia.network/#/claims)：<http://apps.darwinia.network/#/claims>, Select the address just received to receive the airdrop and click [Continue].
+7.Open [Darwinia wallet - Claim](https://apps.darwinia.network#/claims)：<https://apps.darwinia.network#/claims>, Select the address just received to receive the airdrop and click [Continue].
 
 ![08_claim_chooseaccount](assets/08_en.png)
 
@@ -88,7 +88,7 @@ Please select the following signature tools and download according to the usage 
 
 ![09_claim_sign2](assets/09_en.png)
 
-9.After successful receipt, you will receive the following prompt. At this time, it means your airdrop has been successfully received, you can check the balance in [Darwinia Wallet-Account](http://apps.darwinia.network/#/accounts) or [subscan](https://crab.subscan.io/).
+9.After successful receipt, you will receive the following prompt. At this time, it means your airdrop has been successfully received, you can check the balance in [Darwinia Wallet-Account](https://apps.darwinia.network#/accounts) or [subscan](https://crab.subscan.io/).
 
 ![10_claim_success](assets/10_en.png)
 
