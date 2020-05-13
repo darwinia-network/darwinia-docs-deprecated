@@ -45,21 +45,9 @@ sidebar_label: Become a validator
 
 ## Set Validate Parameters
 
-**Generate session key**
-
-Click [Settings] on the left to change the interface operation mode to developer mode; open [Custom Endpoint], enter the local node address, and click [Save] after confirming that it is correct.
-
-![tut-validator-session-1](assets/tut-validator-session-1.png)
-
-Click [Toolbox] on the left, select `author` / `rotate keys` in RPC Calls, click [submit RPC Call]
-
-![tut-validator-session-2](assets/tut-validator-session-2.png)
-
-Copy the generated session key and keep it properly.
 
 **Set session key**
-
-Click [Set session key] on this page, completing the generated session key and submit. [How to generate the session key](https://docs.darwinia.network/docs/en/crab-tut-node#generate-session-key)
+Click [Set session key] on this page, completing the parameters and submit. [How to generate the session key](https://docs.darwinia.network/docs/en/crab-tut-node#generate-session-key)
    > The session key must be filled with real data, otherwise it will result in missing blocks and be slashed.
                                                                                                                        
 ![tut-validator-1](assets/tut-validator-1.png)
