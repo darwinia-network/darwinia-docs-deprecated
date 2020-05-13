@@ -8,11 +8,12 @@ sidebar_label: Get free cRing
 
 - Join Darwinia Faucet Channel: [Click Here](https://t.me/DarwiniaFaucet)
 
-- Reply `/faucet + Account containing CRAB`
+- Reply `/faucet + Account`
   - Example: /faucet 5CRABWXr1AqSSqJwv9tzh8gk4mEnrRYV9VWq7VnHh1KxvTBD
-  - Attention: There is a space between /faucet and account.
+  - Attention: There is a space between /faucet and account.  Account must containing [CRAB].
 
 - If your account meets the requirements for issuance, 1000 cRing will be automatically distributed to your account, you can view the transfer record through the browser [crab.subscan.io](https://crab.subscan.io/) via the link below.
+
 ![faucet-4](assets/faucet-4.png)
 
 ## Faucet distribution rules
@@ -26,6 +27,7 @@ sidebar_label: Get free cRing
 ## Generate a Vanity account with CRAB
 
 - Click [Vanity account], fill in the conditions you need to filter.
+
   ![faucet-1](assets/faucet-1.png)
 
    `Search for` : fill in`CRAB`
@@ -39,9 +41,11 @@ sidebar_label: Get free cRing
    >Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
 
 - Click [Start Generation] and wait for the account to be generated. Click [+] to select your favorite account for backup.
-![faucet-2](assets/faucet-2.png)
+
+  ![faucet-2](assets/faucet-2.png)
 
 - Click [Save] and choose to back up the original seed or json file according to your usage habits.
-![faucet-3](assets/faucet-3.png)
+
+  ![faucet-3](assets/faucet-3.png)
 
    > Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
