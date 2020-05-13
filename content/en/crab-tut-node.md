@@ -25,7 +25,7 @@ sidebar_label: Running a node
 - Docker: `docker pull darwinianetwork/darwinia:release-v0.5.7`
 
 
-## Execution
+## Start Parameters
 
 ### Choose one of the following two starting methods
 
@@ -61,16 +61,16 @@ Example configuration file example.json:
 	--name Example
 ```
 
-### 常用参数
+### Common parameters
 
-|     参数     |                                      注释                                       |  子参数  | 子参数类型 |
+|  Parameter  |  Annotate  |  Subparameter  |  Subparameter type  |
 | :----------: | :-----------------------------------------------------------------------------: | :------: | :--------: |
 |  validator   |                              节点类型为验证人节点                               |    无    |     无     |
 | rpc-external | 监听所有 rpc，验证人节点需要使用 `--unsafe-rpc-external` 但不推荐验证人节点开启 |    无    |     无     |
 | ws-external  |  监听所有 ws，验证人节点需要使用 `--unsafe-ws-external` 但不推荐验证人节点开启  |    无    |     无     |
-|     port     |                                    p2p 端口                                     |  端口号  |    数字    |
-|   rpc-port   |                                    rpc 端口                                     |  端口号  |    数字    |
-|   ws-port    |                                     ws 端口                                     |  端口号  |    数字    |
+|     port     |                                    p2p port                                     |  The port number  |    数字    |
+|   rpc-port   |                                    rpc port                                     |  The port number  |    数字    |
+|   ws-port    |                                     ws port                                     |  The port number  |    数字    |
 |  base-path   |                           保存用于链的各种数据的地址                            |   路径   |   字符串   |
 |     name     |                                   节点的名称                                    |  节点名  |   字符串   |
 |   rpc-cors   |                                  请求头白名单                                   | 过滤类型 |    枚举    |
@@ -97,13 +97,13 @@ Example configuration file example.json:
 
 ### 种子节点
 
+To avoid some seed nodes being fully connected, the following alternatives are provided, and you can choose to fill in bootnodes at will:
+
 ```
 /ip4/175.24.95.3/tcp/30333/p2p/12D3KooWKdcGZkFe3y63dj8VWLH6xw3rB5QhhnoC8UenSscXFuqx
 /ip4/35.234.33.88/tcp/30333/p2p/QmR4fARccJJA2o2Ac3fG2FcgatyGaoaZqUzymUDpvBZr7c
 /ip4/35.234.9.96/tcp/30333/p2p/QmPPGpFMgqSm9ZeeHubZk8UXpKdZMNRCk4Wkymm181bpve
 ```
-
-To avoid some seed nodes being fully connected, the following alternatives are provided, and you can choose to fill in bootnodes at will:
 
 ### Q&A
 
