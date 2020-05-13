@@ -62,19 +62,24 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	复制生成好的 session keys 并妥善保管。
 
 **Q & A：**
-Q：9933 是什么端口
+
+*Q：9933 是什么端口*
+
 A：为 `--rpc-port` 指定的端口号，默认为 9933
 
-Q：9944 是什么端口
+*Q：9944 是什么端口*
+
 A：为 `--ws-port` 指定的端口号，默认为 9944
 
-Q：RPC 请求返回*方法未找到*
+*Q：RPC 请求返回方法未找到*
+
 A：请在节点启动时加入 `--unsafe-rpc-external`，建议生成完后删除本参数重启节点
 
-Q：RPC 请求返回*请求头不在*
+*Q：RPC 请求返回请求头不在*
+
 A：请在节点启动时加入 `rpc-cors all`，建议生成完后删除本参数重启节点
 
-   > 如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")***
+> 如仍有问题，欢迎[提交 issue]("https://github.com/darwinia-network/darwinia/issues/new")
 
 #### 设置 session keys
 
