@@ -13,13 +13,13 @@ sidebar_label: Become a validator
 
 ## Start Staking
 
-**Entrance**
+### Entrance
 - Enter [Darwinia Wallet](https://apps.darwinia.network) and click the [Staking] column on the left , Click [Start staking].
 
 ![nominate-1-en](assets/nominate-1-en.png)
 
 
-**Fill in the staking parameters** 
+### Fill in the staking parameters
 
 ![nominate-2-en](assets/nominate-2-en.png)
 
@@ -45,9 +45,18 @@ sidebar_label: Become a validator
 
 ## Set Validate Parameters
 
-**Generate session key**
+### Generate session key
 
-Click [Settings] on the left to change the interface operation mode to developer mode; open [Custom Endpoint], enter the local node address, and click [Save] after confirming that it is correct.
+- **Generate via command**
+
+Enter the following command under the server terminal to receive the returned session keys
+
+	```sh
+	curl -H 'Content-Type: application/json' --data '{ "jsonrpc":"2.0", "method":"author_rotateKeys", "id":1 }' 	http://localhost:9933
+	```
+- **Generate via web wallet**
+
+Click [Settings] on the left to change the interface operation mode to developer mode, turn on [Custom Endpoint], enter the local node address（e.g `ws://127.0.0.1:9944`）, and click [Save] after confirming that it is correct.
 
 ![tut-validator-session-1](assets/tut-validator-session-1.png)
 
@@ -57,7 +66,22 @@ Click [Toolbox] on the left, select `author` / `rotate keys` in RPC Calls, click
 
 Copy the generated session key and keep it properly.
 
-**Set session key**
+- **Q & A:**
+Q: What port is 9933?
+A: The port number specified for `--rpc-port`, the default is 9933
+
+Q: What port is 9944?
+A: The port number specified for `--ws-port`, the default is 9944
+
+Q: RPC request returned *Method not found*
+A: Please add `--unsafe-rpc-external` when the node starts, it is recommended to delete this parameter after the generation is completed and restart the node
+
+Q: RPC request returned *Request header is not in*
+A: Please add `rpc-cors all` when the node starts, it is recommended to delete this parameter and restart the node after generation
+
+   > ***If there are still problems, welcome [Submit issue]("https://github.com/darwinia-network/darwinia/issues/new")***
+
+### Set session key
 
 Click [Set session key] on this page, completing the generated session key and submit. [How to generate the session key](https://docs.darwinia.network/docs/en/crab-tut-node#generate-session-key)
    > The session key must be filled with real data, otherwise it will result in missing blocks and be slashed.
