@@ -42,7 +42,6 @@ sidebar_label: Become a validator
 ![nominate-3-en](assets/nominate-3-en.png)
 
 
-
 ## Set Validate Parameters
 
 ### Generate session key
@@ -119,12 +118,9 @@ Click [Set session key] on this page, completing the generated session key and s
    > The operation of validate will take effect after the first epoch of the next era. Prior to this, the validator will be in the [waiting] list.
 
 
-
 ## Other operations
 
-
 There are other operations in staking for the following purposes:
-
 
 - `Stop validate` Leave the validator queue.
 
