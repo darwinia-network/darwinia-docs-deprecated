@@ -105,6 +105,8 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 # 维护者 @HackFisher
 /ip4/104.199.197.8/tcp/20222/p2p/Qmc9tW5xSVUH1EBdH8WEE5nYAuswGrRvtYZ93MAwH9fsZo
 /ip4/104.199.197.8/tcp/30333/p2p/QmURDEZxHHVguYpfaDRAYfqYJSZT5LuBtK4mD7GXhfehtp
+# 维护者 @yananto
+/ip4/220.134.22.36/tcp/30333/p2p/Qme2VxbvZFxNbF3xKxWBQczRzbcudmny9n3eSube73ZmEw
 ```
 
 ### Q&A
