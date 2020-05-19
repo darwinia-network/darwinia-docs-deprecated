@@ -19,7 +19,7 @@ sidebar_label: Get free cRing
 ## Faucet distribution rules
 
 1) Each Telegram account can successfully receive `1` airdrops within 24 hours.  
-2) Each crab network address will be invalid after successfully receiving `1` airdrops.  
+2) Each crab address can only receive airdrop for `1` time 
 3) The address to receive the airdrop needs to be satisfied: the address contains the four letters `CRAB` (case sensitive).  
 4) The maximum daily distribution of airdrops is `400`, first come first served.  
 5) The number of each airdrop is a fixed value: `1000` cRing.  

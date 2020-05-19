@@ -63,18 +63,18 @@ Example configuration file example.json:
 
 ### Common parameters
 
-|     parameter     |                                      Annotate                                       |  Subparameter  | Subparameter type |
-| :----------: | :-----------------------------------------------------------------------------: | :------: | :--------: |
-|  validator   |                              The node type is the validator node                               |    /    |     /     |
-| rpc-external | To monitor all rpc, the verifier node needs to use `--unsafe-rpc-external` but it is not recommended to enable the verifier node |    /    |     /     |
-| ws-external  |  To monitor all ws, the verifier node needs to use `--unsafe-ws-external` but it is not recommended to enable the verifier node  |    /    |     /     |
-|     port     |                                    p2p port                                     |  port number  |    number    |
-|   rpc-port   |                                    rpc port                                     |  port number  |    number    |
-|   ws-port    |                                     ws port                                     |  port number  |    number    |
-|  base-path   |                           Address for storing various data used in the chain                            |   path   |   String   |
-|     name     |                                   Node name                                    |  Node name  |   String   |
-|   rpc-cors   |                                  Request header whitelist                                   | Filter type |    enumerate    |
-|  bootnodes   |            The seed node used to obtain startup data（/ip4/0.0.0.0/tcp/0/p2p/xxx）             | Node URL | String array |
+|  parameter   |                                                             Annotate                                                             | Subparameter | Subparameter type |
+| :----------: | :------------------------------------------------------------------------------------------------------------------------------: | :----------: | :---------------: |
+|  validator   |                                               The node type is the validator node                                                |      /       |         /         |
+| rpc-external | To monitor all rpc, the verifier node needs to use `--unsafe-rpc-external` but it is not recommended to enable the verifier node |      /       |         /         |
+| ws-external  |  To monitor all ws, the verifier node needs to use `--unsafe-ws-external` but it is not recommended to enable the verifier node  |      /       |         /         |
+|     port     |                                                             p2p port                                                             | port number  |      number       |
+|   rpc-port   |                                                             rpc port                                                             | port number  |      number       |
+|   ws-port    |                                                             ws port                                                              | port number  |      number       |
+|  base-path   |                                        Address for storing various data used in the chain                                        |     path     |      String       |
+|     name     |                                                            Node name                                                             |  Node name   |      String       |
+|   rpc-cors   |                                                     Request header whitelist                                                     | Filter type  |     enumerate     |
+|  bootnodes   |                             The seed node used to obtain startup data（/ip4/0.0.0.0/tcp/0/p2p/xxx）                              |   Node URL   |   String array    |
 
 #### View all parameter descriptions:
 
@@ -99,10 +99,16 @@ It is recommended to use systemctl, pm2, screen and other tools to maintain the 
 
 To avoid some seed nodes being fully connected, the following alternatives are provided, and you can choose to fill in bootnodes at will:
 
-```
-/ip4/175.24.95.3/tcp/30333/p2p/12D3KooWKdcGZkFe3y63dj8VWLH6xw3rB5QhhnoC8UenSscXFuqx
-/ip4/35.234.33.88/tcp/30333/p2p/QmR4fARccJJA2o2Ac3fG2FcgatyGaoaZqUzymUDpvBZr7c
-/ip4/35.234.9.96/tcp/30333/p2p/QmPPGpFMgqSm9ZeeHubZk8UXpKdZMNRCk4Wkymm181bpve
+```sh
+# maintain by @AurevoirXavier
+/ip4/49.234.225.216/tcp/30333/p2p/QmdEScYKoNjAQn18r1pCNc3CTYVoHZfJFNEzf9shsMsBHc
+# maintain by @clearloop
+/ip4/122.152.213.162/tcp/30333/p2p/12D3KooWPwEXkoEYRk79QLhQDzCtfwsAGDhPJ4dYDkogpxyJZuYz
+# maintain by @HackFisher
+/ip4/104.199.197.8/tcp/20222/p2p/Qmc9tW5xSVUH1EBdH8WEE5nYAuswGrRvtYZ93MAwH9fsZo
+/ip4/104.199.197.8/tcp/30333/p2p/QmURDEZxHHVguYpfaDRAYfqYJSZT5LuBtK4mD7GXhfehtp
+# maintain by @yanganto
+/ip4/220.134.22.36/tcp/30333/p2p/Qme2VxbvZFxNbF3xKxWBQczRzbcudmny9n3eSube73ZmEw
 ```
 
 ### Q&A
