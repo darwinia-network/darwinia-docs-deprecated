@@ -35,7 +35,7 @@ sidebar_label: Become a validator
 
 - `Bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
 
-    > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward.
+    > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward (In the absence of sufficient CKTON, the CRING can not be used for payment of fines).
 
 - After filling in the staking parameters, please click [bond] and [submit]
 

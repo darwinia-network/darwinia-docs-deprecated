@@ -29,7 +29,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - `收益账号` 接收 staking 收益的账号
 - `冻结期限` 可选项；将 CRING 承诺冻结 3-36 个月，可以获得额外的 CKTON 奖励。(承诺锁定需接受用户条款)
   
-  > 如提前赎回有承诺期限的 CRING，需要支付CKTON奖励3倍的惩罚。
+  > 如提前赎回有承诺期限的 CRING，需要支付获得奖励 **3** 倍的 CKTON 惩罚 (在 CKTON 不足的情况下，不可以使用 CRING 来代缴罚金)。
 
 - 填写好staking参数后，请点击【冻结】，签名并提交。  
 ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)

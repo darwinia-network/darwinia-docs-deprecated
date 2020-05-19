@@ -38,3 +38,4 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ![faucet-3-cn](assets/faucet-3-cn.png)
 
    > 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+>
