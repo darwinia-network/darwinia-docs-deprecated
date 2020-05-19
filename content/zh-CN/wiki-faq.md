@@ -48,3 +48,43 @@ Darwinia Crab Network（简称 Crab网络）是 Darwinia 主网上线前的最�
 - Evolution Land 游戏采用 Darwinia Network 的 RING 通证作为游戏内的支付通证，Evolution Land 中的 RING 和 KTON 就是 ERC-20/TRC-20 形式的 通证；
 - 在 Darwinia 主网上线后，这些通证将通过跨链转换的方式 1:1 转移至 Darwinia 主网。
 
+<hr />
+
+
+## 关于 Staking 
+
+### 什么是 `Power` (票权) ？
+
+用户参与Staking，通过抵押 RING 或 KTON 获得的权益 称作 Power（票权）。
+
+
+### 如何获得 `Power`，怎么计算获得 `Power` 的数量？
+
+抵押 `RING` 或 `KTON` 都可以获得 `Power`，其中抵押的 `RING总量` 和 `KTON总量` 分别对应 `Power 总量`的 **1/2**。
+
+   > - Power总数 = 1 (精度为10^9)
+   > - 抵押 RING 获得的 Power = 抵押 RING 的数量 / 当前 RING 总抵押数量 * ( Power 总数 / 2 )
+   > - 抵押 KTON 获得的 Power = 抵押 KTON 的数量 / 当前 KTON 总抵押数量 * ( Power 总数 / 2 )
+
+<hr />
+
+### 什么是 `Power 占比` ？
+
+`Power 占比` 为 `持有的 Power` 占  `Power 总数` 的百分比，`Power 占比` 可以反映出对整个网络影响力，`Power 占比`越大，作出的决策对整个网络影响力就越大。
+
+   > - Power 占比 = 持有 Power / Power 总数 * 100%
+
+<hr />
+
+### 为什么我的 Power 占比 `变多/变少`了？
+
+`Power 占比`的变动取决于两个因素，分别是：
+
+- `自抵押资产`数量的变化
+
+- `当前网络总抵押资产`数量的变化
+
+因此，如果您发现在 未进行任何操作 或 自抵押资产无变动 的情况下，`Power 占比`却发生了变化，属于正常现象，可能是由于当前网络总抵押资产数量的变化导致的。
+
+<hr />
+
