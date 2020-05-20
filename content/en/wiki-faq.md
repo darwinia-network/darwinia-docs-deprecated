@@ -17,7 +17,7 @@ Even if Darwinia Network is voted off the Polkadot parachain set, it will still 
 
 <hr />
 
-##About Token
+## About Token
 
 ### What are RING and KTON
 
@@ -44,12 +44,13 @@ RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will 
 
 ## About Staking
 
-### What is the `Power` ?
+### What is the Power?
 
 Users participate in staking, and the rights and interests obtained by bond RING or KTON are called Power .
 
+<hr />
 
-### How to get `Power` and how to calculate the amount of` Power`?
+### How to get Power and how to calculate the amount of Power?
 
 Bond `RING` or` KTON` can get `Power`, where the bonded` RING total amount` and `KTON total amount` respectively correspond to **1/2** of` Power total amount`.
 
@@ -59,7 +60,7 @@ Bond `RING` or` KTON` can get `Power`, where the bonded` RING total amount` and 
 
 <hr />
 
-### What is the `power share` ？
+### What is the power share ？
 
 `Power share` is the percentage of `Power held` in `Power total`.`Power share` can reflect the influence on the entire network. The larger the `Power share`.The greater the Power share, the greater the influence of the decision made on the entire network.
 
@@ -67,7 +68,7 @@ Bond `RING` or` KTON` can get `Power`, where the bonded` RING total amount` and 
 
 <hr />
 
-### Why does my power share `increased & reduced`?
+### Why does my power share increased & reduced?
 
 The change of `Power share` depends on two factors:
 
