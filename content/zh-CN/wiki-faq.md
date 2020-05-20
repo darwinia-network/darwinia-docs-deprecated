@@ -53,14 +53,15 @@ Darwinia Crab Network（简称 Crab网络）是 Darwinia 主网上线前的最�
 
 ## 关于 Staking 
 
-### 什么是 `Power` (票权) ？
+### 什么是 Power (票权) ？
 
 用户参与Staking，通过抵押 RING 或 KTON 获得的权益 称作 Power（票权）。
 
+<hr />
 
-### 如何获得 `Power`，怎么计算获得 `Power` 的数量？
+### 如何获得 Power，怎么计算获得 Power 的数量？
 
-抵押 `RING` 或 `KTON` 都可以获得 `Power`，其中抵押的 `RING总量` 和 `KTON总量` 分别对应 `Power 总量`的 **1/2**。
+抵押 RING 或 KTON 都可以获得 `Power`，其中抵押的 `RING总量` 和 `KTON总量` 分别对应 `Power 总量`的 **1/2**。
 
    > - Power总数 = 1 (精度为10^9)
    > - 抵押 RING 获得的 Power = 抵押 RING 的数量 / 当前 RING 总抵押数量 * ( Power 总数 / 2 )
@@ -68,15 +69,15 @@ Darwinia Crab Network（简称 Crab网络）是 Darwinia 主网上线前的最�
 
 <hr />
 
-### 什么是 `Power 占比` ？
+### 什么是 Power 占比？
 
-`Power 占比` 为 `持有的 Power` 占  `Power 总数` 的百分比，`Power 占比` 可以反映出对整个网络影响力，`Power 占比`越大，作出的决策对整个网络影响力就越大。
+`Power 占比` 为 `持有的 Power` 占  `Power 总数` 的百分比，Power 占比可以反映出对整个网络影响力，Power 占比越大，作出的决策对整个网络影响力就越大。
 
    > - Power 占比 = 持有 Power / Power 总数 * 100%
 
 <hr />
 
-### 为什么我的 Power 占比 `变多/变少`了？
+### 为什么我的 Power 占比 变多/变少了？
 
 `Power 占比`的变动取决于两个因素，分别是：
 
