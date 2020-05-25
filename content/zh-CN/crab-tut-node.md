@@ -19,11 +19,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 #### 2.下载可执行文件
 
-- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.5.8/darwinia-catalina.tar.gz
-- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.5.8/darwinia-archlinux.tar.gz
-- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.5.8/darwinia-ubuntu.tar.gz
-- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.5.8/darwinia-centos7.tar.gz
-- Docker: `docker pull darwinianetwork/darwinia:release-v0.5.8`
+- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.6.0/darwinia-catalina.tar.gz
+- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.6.0/darwinia-archlinux.tar.gz
+- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.6.0/darwinia-ubuntu.tar.gz
+- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.6.0/darwinia-centos7.tar.gz
+- Docker: `docker pull darwinianetwork/darwinia:release-v0.6.0`
 
 ## 启动参数
 
