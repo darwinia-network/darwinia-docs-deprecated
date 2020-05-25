@@ -101,7 +101,9 @@ To avoid some seed nodes being fully connected, the following alternatives are p
 
 ```sh
 # maintain by @AurevoirXavier
-/ip4/49.234.225.216/tcp/30333/p2p/QmWWc1R6tifz2ej7BrTJ8o5qs4SXt7dRqfP5GNCUHAQwoK
+/ip4/49.234.225.216/tcp/30333/p2p/12D3KooWFHNgAmrphmgcgukREKRrwWn6pZ6qQ8eFVXsRdnUQKZvL
+/ip4/106.54.116.32/tcp/30333/p2p/12D3KooWKhcHAUCs2CUGA5NtRnRRarL4C5U7fVB4ycmHxDidZsrj
+/ip4/35.234.33.88/tcp/30333/p2p/12D3KooWMCTzZVwJCafwPVQGxr8CkSK1VKmg5pbhjKjqgEwhywSe
 # maintain by @clearloop
 /ip4/122.152.213.162/tcp/30333/p2p/QmWfdcdFaiCr6gfJvh7jjmQ6hUGshA4BrGSLSDMuFBf823
 # maintain by @HackFisher
