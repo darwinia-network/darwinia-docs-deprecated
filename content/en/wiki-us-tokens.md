@@ -26,7 +26,7 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 - Total Supply: Initial circulation (2 Billion)，hard cap (10 Billion) in around 40 years
   
 > The initial supply of RING is 2 billion, the maximum supply(Cap) is 10 billion. Currently, Darwinia Mainnet and its transaction haven’t launched yet. The initial supply is recorded in the Darwinia Genesis File. ERC20 RING and TRC20 RING are tokens on other public blockchain derived from Native RING. Current circulating RING (including ERC20/TRC20 derived tokens) is around 1.6 billion.
-  
+
 - Inflation Model: New RINGs are minted and distributed through the staking system and treasure as block producing rewards at a variable rate, see Inflation Model section below.
 
 ## Token Allocation
@@ -77,7 +77,7 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 1-36 variable integer months(30days) as the locking period are allowed.  See the following table of rewarded KTON amount according to locked period.
 
 | Month | KTON | Month | KTON | Month | KTON |
-| ---- | -------- | ---- | -------- | ---- | -------- |
+| :--: | :------: | :--: | :------: | :--: | :------: |
 | 1    | 0.0761   | 7    | 0.5634   | 15   | 1.2842   |
 | 2    | 0.1522   | 8    | 0.6446   | 18   | 1.5736   |
 | 3    | 0.2335   | 9    | 0.7309   | 21   | 1.8832   |
@@ -90,7 +90,7 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 2021.2020.06.22-2021.05.22 Unlocking Plan（2020-05-22data）
 
 | Date       | Cumulative unlockable quantity before this time | Date       | Cumulative unlockable quantity before this time |
-|------------|----------------------|------------|----------------------|
+|:----------:|:--------------------:|:----------:|:--------------------:|
 | 2020-06-22 | 15,963,300           | 2020-10-22 | 41,240,661           |
 | 2020-07-22 | 27,963,300           | 2020-12-22 | 41,260,661           |
 | 2020-08-22 | 29,040,661           | 2021-02-22 | 41,266,661           |
@@ -104,7 +104,7 @@ https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x64
 2021.2020.06.22-2021.05.22 Unlocking Plan(2020-05-22data）
 
 | Date       | Cumulative unlockable quantity before this time |
-|------------|----------------------|
+|:----------:|:--------------------:|
 | 2020-06-22 | 128,179              |
 | 2020-10-22 | 132,479              |
 
