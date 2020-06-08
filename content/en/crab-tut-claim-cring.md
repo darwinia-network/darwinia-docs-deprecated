@@ -42,10 +42,6 @@ Please select the following signature tools and download according to the usage 
 
 2.PC: Visit [CRING claim tool](http://claim.darwinia.network/) through chrome browser or mobile wallet
 
-   Mobile: Take the math wallet as an example, click [Dapps]-[DAPP Browser]-enter `http://claim.darwinia.network/` to access.
-
-![01_mathwallet](assets/01_en.png)
-
 3.Select the network you want to query (Ethereum / TRON) and click [Search]. (The Ethereum network is used as an example below)
 
 ![02_claim_choosechain](assets/02_en.png)
@@ -97,7 +93,7 @@ Please select the following signature tools and download according to the usage 
 If you encounter other problems in the process of receiving the airdrop, please join our community to communicate.
 
     WeChat public account: DarwiniaNetwork
-
+    
     WeChat assistant: Darwinia_Network
-
+    
     Telegram: <https://t.me/DarwiniaNetwork>

@@ -32,11 +32,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **ERC-20 RING** **ERC-20 DOT*
 
 1、确认已准备好签名环境，并处于已解锁状态。
 
-2、通过 chrome 浏览器或手机钱包，访问 CRING [领取工具](https://claim.darwinia.network/)
-
-以麦子钱包为例，分别点击底栏【应用】- 【麦子DAPP浏览器】- 输入https://claim.darwinia.network/ 即可访问。
-
-![01_mathwallet](assets/01_mathwallet.png)
+2、通过 chrome 浏览器或手机钱包，访问: https://claim.darwinia.network/
 
 3、选择想要查询的网络（以太坊/波场），点击【查询】。（下文以以太坊网络为例）
 
