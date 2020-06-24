@@ -17,11 +17,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## Darwinia Faucet 发放规则
 
-1）每个 Telegram 账号`48小时`内可以成功领取`1`次空投。  
+1）每个 Telegram 账号`7天`内可以成功领取`1`次空投。  
 2）每个crab网络地址最多领取`1`次空投。  
 3）领取空投的地址需要包含`CRAB`四个字母（全部为大写）。  
-4）空投每日最大发放量为`400`份，先到先得。  
-5）每笔空投的数量为固定值：`1000` cRING。  
+4）空投每日最大发放量为`500`份，先到先得。  
+5）每笔空投的数量为固定值：`500` cRING。  
 
 ## 如何生成包含 CRAB 字母的账号
 
