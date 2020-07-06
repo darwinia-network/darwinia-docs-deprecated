@@ -6,6 +6,8 @@ sidebar_label: Get free cRing
 
 ## Get Faucet (cRING)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ONhzQAK1X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Join Darwinia Faucet Channel: [Click Here](https://t.me/DarwiniaFaucet)
 
 - Reply `/faucet + Account`
