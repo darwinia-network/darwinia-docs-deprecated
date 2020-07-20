@@ -221,13 +221,33 @@
         "title": "Wallets",
         "sidebar_label": "Wallets"
       },
+      "wiki-tut-create-account": {
+        "title": "Create an Account",
+        "sidebar_label": "Create an Account"
+      },
+      "wiki-tut-governance": {
+        "title": "How to participate in governance",
+        "sidebar_label": "Participate in governance"
+      },
       "wiki-tut-index": {
         "title": "Tutorials List",
         "sidebar_label": "Tutorials"
       },
-      "wiki-tut-p1": {
-        "title": "Tutorials P1",
-        "sidebar_label": "P1"
+      "wiki-tut-node": {
+        "title": "How to run a node",
+        "sidebar_label": "Running a node"
+      },
+      "wiki-tut-nominator": {
+        "title": "How to become a nominator",
+        "sidebar_label": "Become a nominator"
+      },
+      "wiki-tut-relayer": {
+        "title": "How to become a relayer",
+        "sidebar_label": "Become a relayer"
+      },
+      "wiki-tut-validator": {
+        "title": "How to become a validator",
+        "sidebar_label": "Become a validator"
       },
       "wiki-us-appchain-sdk": {
         "title": "Appchain SDK",

@@ -60,7 +60,14 @@
       "wiki-glossary"
     ],
     "Tutorials": [
-      "wiki-tut-p1"
+      "wiki-tut-index",
+      "wiki-tut-create-account",
+      "wiki-tut-staking",
+      "wiki-tut-nominator",
+      "wiki-tut-node",
+      "wiki-tut-validator",
+      "wiki-tut-relayer",
+      "wiki-tut-governance"
     ],
     "RFCs": [
       "wiki-rfc-index",
