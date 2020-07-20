@@ -4,14 +4,14 @@ author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
-![](assets/2020-07-20-darwinia-mainnet-genesis)
+![](assets/2020-07-20-darwinia-mainnet-genesis.png)
 
 Darwinia 跨链转账已开启，已完成阶段一：创世跨链（Genesis 映射）
 
 <!--truncate-->
 
 此阶段的跨链转账，将在 Darwinia 主网上线后到账，通过 Genesis Block 发至指定账号
- 
+
 ## 操作指南：
 
 - 1、在 https://bapp.darwinia.network/ 选择【以太坊】->【跨链转账】
@@ -30,7 +30,7 @@ Darwinia 跨链转账已开启，已完成阶段一：创世跨链（Genesis 映
 
 - 阶段2: 单向跨链 2020 Q3
   - 此阶段的跨链转账，立即到账（可能存在一定的网络延迟），但仅支持发至Darwinia 主网的单向转账
- 
+
 - 阶段3: 多向跨链 2020 Q3 - Q4
   - 此阶段的跨链转账，立即到账（可能存在一定的网络延迟），且支持双向或多向转账
 
