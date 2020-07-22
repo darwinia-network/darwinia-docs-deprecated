@@ -31,7 +31,7 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 
 ## Token Allocation
 
-- Financing: 30%（first round 10%, evaluation $1000w, 20% remaining to be determined）
+- Financing: 30%（first round 10%, evaluation $10M, 20% remaining to be determined）
 - Foundation: 20%（2 years vesting period starts when mainnet launch）
 - Team: 15%（1 year vesting period starts after 1 year since mainnet lanuch）
 - Business Development and Marketing: 15%
