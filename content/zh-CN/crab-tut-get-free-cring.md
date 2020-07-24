@@ -11,7 +11,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
   - 例如：/faucet 5CRABWXr1AqSSqJwv9tzh8gk4mEnrRYV9VWq7VnHh1KxvTBD
   - 注意：/faucet 和 账号 之间有空格，账号必须包含「CRAB」四个大写字母
 
-- 如您的账号符合发放要求，将自动发放 1000 cRING 到您的账户，您可以到浏览器[crab.subscan.io](https://crab.subscan.io/)查看转账记录。
+- 如您的账号符合发放要求，将自动发放 500 cRING 到您的账户，您可以到浏览器[crab.subscan.io](https://crab.subscan.io/)查看转账记录。
 
 ![faucet-4](assets/faucet-4.png)
 
