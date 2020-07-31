@@ -77,7 +77,7 @@ A: The port number specified for `--ws-port`, the default is 9944
 
 *Q: RPC request returned Method not found*
 
-A: Please add `--unsafe-rpc-external` when the node starts, it is recommended to delete this parameter after the generation is completed and restart the node
+A: Please add `--unsafe-rpc-external --rpc-methods Unsafe` when the node starts, it is recommended to delete this parameter after the generation is completed and restart the node
 
 *Q: RPC request returned Request header is not in*
 
