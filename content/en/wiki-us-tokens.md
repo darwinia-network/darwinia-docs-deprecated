@@ -32,7 +32,7 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 ## Token Allocation
 
 - Financing: 30%（first round 10%, evaluation $10M, 20% remaining to be determined）
-- Foundation: 20%（2 years vesting period starts when mainnet launch）
+- Foundation: 20%（5 years vesting period starts when mainnet launch）
 - Team: 15%（1 year vesting period starts after 1 year since mainnet lanuch）
 - Business Development and Marketing: 15%
 - Community: 20%（including airdrop）
@@ -41,15 +41,41 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 
 ### Overview
 
-![wiki-us-tokens](assets/wiki-us-tokens-en.png)
+| Type                         | RING Quantity | Proportion |
+| :--------------------------: | :-----------: | :--------: |
+| Total Supply                 | 2000M         | 100%       |
+| In Circulation_Individuals   | 29.2M         | 1.83%      |
+| In Circulation_Institutions  | 263.69M       | 16.58%     |
+| In Circulation_Staking Bound | 198.77M       | 12.50%     |
+| Long Term Lock               | 1508.34M      | 69.09%     |
+
+
 
 ### By Network
 
-![wiki-us-tokens](assets/wiki-us-tokens-eth-en.png)
+| Type                         | RING Quantity | 
+| :--------------------------: | :-----------: | 
+| ETH Total Supply             | 1189.56M      | 
+| In Circulation_Individuals   | 21.5M         | 
+| In Circulation_Institutions  | 263.69M       | 
+| In Circulation_Staking Bound | 195.30M       | 
+| Long Term Lock               | 709.07M       | 
 
-![wiki-us-tokens](assets/wiki-us-tokens-tron-en.png)
 
-![wiki-us-tokens](assets/wiki-us-tokens-mainnet-en.png)
+| Type                         | RING Quantity | 
+| :--------------------------: | :-----------: |
+| TRON Total Supply            | 401M          |
+| In Circulation_Total         | 7.7M          |
+| In Circulation_Staking Bound | 3.47M         |
+| Long Term Lock               | 389.83M       |
+
+
+| Type                          | RING Quantity |
+| :---------------------------: | :-----------: |
+| Darwinia Mainnet Total Supply | 400M          |
+| In Circulation                | 0M            |
+| Long Term Lock                | 400M          |
+
 
 ## Inflation Model
 
