@@ -78,6 +78,7 @@ RING是达尔文网络的原生资产，RING可以作为交易的燃料费。燃
 RING Supply API: https://api.darwinia.network/supply/ring
 
 ### 合约地址
+
 - TotalSupply
   - ERC20: 0x9469d013805bffb7d3debe5e7839237e535ec483
   - TRC20: TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
@@ -113,7 +114,22 @@ RING的`硬顶`总量为100亿。
 
 ## 附件
 
-### 附件一：锁RING得KTON的规则。
+### 附件一：KTON 介绍
+
+KTON 本质上是 RING 的衍生通证，是为了鼓励用户进行长期锁定和承诺投入。当用户在 Staking 的过程中承诺锁定 RING 一定时限，系统会给予这些用户相应数量的 KTON 作为奖励和流动性丧失的弥补。
+
+KTON 的初始供应量为零，只能通过系统中锁定 RING 获得，没有其他的任何分发渠道，因此并不会影响 RING 在系统中主要的原生通证的作用，这是我们的设计跟其他双通证设计最大的不同和优势，也是容易被误解的地方。
+
+- KTON 详细信息
+  - 英文全称：Darwinia Commitment Token
+  - 符号：KTON
+  - 精度：18
+  - Ethereum网络：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  - TRON网络：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+
+KTON Supply API：https://api.darwinia.network/supply/kton
+
+### 附件二：锁RING得KTON的规则。
 
 锁定10,000 RING，12个月可获得1个KTON。可选择1-36整数月(30天)，其他月份见下表。（月份选取1-12月及15、18、21、36为例）
 
@@ -126,7 +142,7 @@ RING的`硬顶`总量为100亿。
 | 5    | 0.3959   | 11   | 0.9086   |      |          |
 | 6    | 0.4771   | 12   | 1        |      |          |
 
-### 附件二：锁仓中的RING（ERC-20）
+### 附件三：锁仓中的RING（ERC-20）
 
 2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22数据）
 
@@ -140,7 +156,7 @@ RING的`硬顶`总量为100亿。
 **合约**  
 https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
 
-### 附件三：锁仓中的RING（TRC-20）
+### 附件四：锁仓中的RING（TRC-20）
 
 2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22数据）
 
@@ -149,5 +165,6 @@ https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x64
 | 2020-06-22 | 128,179              |
 | 2020-10-22 | 132,479              |
 
-### 附件四：白皮书链接
+### 附件五：白皮书链接
+
 https://evolution.l2me.com/darwinia/Darwinia_Genepaper_EN_200430.pdf

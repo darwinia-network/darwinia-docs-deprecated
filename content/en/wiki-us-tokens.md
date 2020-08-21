@@ -59,14 +59,12 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 | In Circulation_Staking Bound | 195.30M       |
 | Long Term Lock               | 709.07M       |
 
-
 | Type                         | RING Quantity |
 | :--------------------------: | :-----------: |
 | TRON Total Supply            | 401M          |
 | In Circulation_Total         | 7.7M          |
 | In Circulation_Staking Bound | 3.47M         |
 | Long Term Lock               | 389.83M       |
-
 
 | Type                          | RING Quantity |
 | :---------------------------: | :-----------: |
@@ -81,6 +79,7 @@ CirculatingSupply = TotalSupply - Foundation - Gringotts - SwapBridge
 RING Supply API: https://api.darwinia.network/supply/ring
 
 ### Contract
+
 - TotalSupply
   - ERC20: 0x9469d013805bffb7d3debe5e7839237e535ec483
   - TRC20: TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
@@ -116,7 +115,22 @@ The following table shows RING’s Annual development statistics:
 
 ## Appendix:
 
-### Appendix 1: Algorithm of Binding RING for KTON
+### Appendix 1: KTON
+
+KTON is essentially a derivative token of RING，which encourages long-term lock and commitment. RING staking participants can lock RING for 3–36 months and get KTON as rewards, compensating for the liquidity loss.
+
+The initial supply of KTON is 0, and it can only be obtained by locking RING. There is no other distribution channel. KTON has no impact on the function of the Native Token RING.
+
+- KTON Specification
+  - Name：Darwinia Commitment Token
+  - Symbol：KTON
+  - Precision：18
+  - Ethereum Contract：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  - TRON Contract：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+
+KTON Supply API：https://api.darwinia.network/supply/kton
+
+### Appendix 2: Algorithm of Binding RING for KTON
 
 Users can lock a certain amount of RING for a predefined period of time in exchange for KTON in return.  Basically bind 10,000 RING for 12 months to get 1 KTON. 
 
@@ -131,7 +145,7 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 | 5    | 0.3959   | 11   | 0.9086   |      |          |
 | 6    | 0.4771   | 12   | 1        |      |          |
 
-### Appendix 2: Locked RING (ERC-20)
+### Appendix 3: Locked RING (ERC-20)
 
 2021.2020.06.22-2021.05.22 Unlocking Plan（2020-05-22data）
 
@@ -145,7 +159,7 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 **Contract**  
 https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
 
-### Appendix 3: Locked RING (TRC-20)
+### Appendix 4: Locked RING (TRC-20)
 
 2021.2020.06.22-2021.05.22 Unlocking Plan(2020-05-22data）
 
@@ -154,5 +168,6 @@ https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x64
 | 2020-06-22 | 128,179              |
 | 2020-10-22 | 132,479              |
 
-### Appendix 4: WhitePaper
+### Appendix 5: WhitePaper
+
 https://evolution.l2me.com/darwinia/Darwinia_Genepaper_EN_200430.pdf
