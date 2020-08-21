@@ -49,20 +49,18 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 | In Circulation_Staking Bound | 198.77M       | 12.50%     |
 | Long Term Lock               | 1508.34M      | 69.09%     |
 
-
-
 ### By Network
 
-| Type                         | RING Quantity | 
-| :--------------------------: | :-----------: | 
-| ETH Total Supply             | 1189.56M      | 
-| In Circulation_Individuals   | 21.5M         | 
-| In Circulation_Institutions  | 263.69M       | 
-| In Circulation_Staking Bound | 195.30M       | 
-| Long Term Lock               | 709.07M       | 
+| Type                         | RING Quantity |
+| :--------------------------: | :-----------: |
+| ETH Total Supply             | 1189.56M      |
+| In Circulation_Individuals   | 21.5M         |
+| In Circulation_Institutions  | 263.69M       |
+| In Circulation_Staking Bound | 195.30M       |
+| Long Term Lock               | 709.07M       |
 
 
-| Type                         | RING Quantity | 
+| Type                         | RING Quantity |
 | :--------------------------: | :-----------: |
 | TRON Total Supply            | 401M          |
 | In Circulation_Total         | 7.7M          |
@@ -76,6 +74,28 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 | In Circulation                | 0M            |
 | Long Term Lock                | 400M          |
 
+### Calculation:
+
+CirculatingSupply = TotalSupply - Foundation - Gringotts - SwapBridge
+
+RING Supply API: https://api.darwinia.network/supply/ring
+
+### Contract
+- TotalSupply
+  - ERC20: 0x9469d013805bffb7d3debe5e7839237e535ec483
+  - TRC20: TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+
+- Foundation
+  - ERC20: 0x4710573b853fdd3561cb4f60ec9394f0155d5105
+  - TRC20: TDWzV6W1L1uRcJzgg2uKa992nAReuDojfQ
+
+- Gringotts
+  - ERC20: 0x649fdf6ee483a96e020b889571e93700fbd82d88
+  - TRC20: TTW2Vpr9TCu6gxGZ1yjwqy7R79hEH8iscC
+
+- SwapBridge
+  - ERC20: 0x7f23e4a473db3d11d11b43d90b34f8a778753e34
+  - TRC20: TSu1fQKFkTv95U312R6E94RMdixsupBZDS
 
 ## Inflation Model
 
