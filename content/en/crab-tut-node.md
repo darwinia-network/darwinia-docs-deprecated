@@ -18,11 +18,11 @@ sidebar_label: Running a node
 
 #### 2.Download the compiled executable file
 
-- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.6.3/darwinia-catalina.tar.gz
-- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.6.3/darwinia-archlinux.tar.gz
-- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.6.3/darwinia-ubuntu.tar.gz
-- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.6.3/darwinia-centos7.tar.gz
-- Docker: `docker pull darwinianetwork/darwinia:release-v0.6.3`
+- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.6.7/darwinia-catalina.tar.gz
+- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.6.7/darwinia-archlinux.tar.gz
+- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.6.7/darwinia-ubuntu.tar.gz
+- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.6.7/darwinia-centos7.tar.gz
+- Docker: `docker pull darwinianetwork/darwinia:release-v0.6.7`
 
 
 ## Start Parameters
