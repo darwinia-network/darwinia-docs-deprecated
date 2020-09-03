@@ -14,7 +14,7 @@ sidebar_label: Get free cRing
   - Example: /faucet 5CRABWXr1AqSSqJwv9tzh8gk4mEnrRYV9VWq7VnHh1KxvTBD
   - Attention: There is a space between /faucet and account.  Account must containing [CRAB].
 
-- If your account meets the requirements for issuance, 100 cRing will be automatically distributed to your account, you can view the transfer record through the browser [crab.subscan.io](https://crab.subscan.io/) via the link below.
+- If your account meets the requirements for issuance, 10 cRing will be automatically distributed to your account, you can view the transfer record through the browser [crab.subscan.io](https://crab.subscan.io/) via the link below.
 
 ![faucet-4](assets/faucet-4.png)
 
@@ -24,7 +24,7 @@ sidebar_label: Get free cRing
 2) Each crab address can only receive airdrop for `1` time 
 3) The address to receive the airdrop needs to be satisfied: the address contains the four letters `CRAB` (case sensitive).  
 4) The maximum daily distribution of airdrops is `500`, first come first served.  
-5) The number of each airdrop is a fixed value: `100` cRING.  
+5) The number of each airdrop is a fixed value: `10` cRING.  
 
 ## Generate a Vanity account with CRAB
 
