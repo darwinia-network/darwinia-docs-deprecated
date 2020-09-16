@@ -3,7 +3,14 @@ id: wiki-tut-create-account
 title: Create an Account
 sidebar_label: Create an Account
 ---
+## Set account prefix
 
+Please confirm that the "Account Prefix" has been set to "Darwinia" in "Setting". Under this precondition, all accounts in the wallet (including the existing account list) will be displayed in the form of Darwinia mainnet accounts.
+
+![setting](assets/dev-account-setting-en.png)
+
+
+Click "Setting",
 ## Generate a Darwinia account
 
 There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
@@ -16,6 +23,7 @@ There are several ways to generate a Darwinia account, you can choose either one
 Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
 ![create account](assets/web-wallet-1-en.png)
+
 
 **New account**
 
@@ -87,15 +95,6 @@ Click the extension to open the "Account Management" dialog box, click the "Crea
 
 > Make sure to keep the mnemonics safe.
 
-**Set Address for Darwinia Mainnet or Crab Network**
-
-Now we will ensure that the addresses are displayed as Darwinia mainnet addresses.  Your address will be different depending on network selection.
-
-Click on "Options" at the top of the plugin window.  Select `Crab Network` or `Substrate` in "Display Address Format for" dropdown box. 
-
-![polkadot-js](assets/polkadot-js-4-cn.png)
-
-> Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
 
   <!--Subkey CLI-->
 ### Subkey
