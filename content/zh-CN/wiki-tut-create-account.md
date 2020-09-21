@@ -3,6 +3,11 @@ id: wiki-tut-create-account
 title: 创建账户
 sidebar_label: 创建账户
 ---
+## 设置网络
+
+请在"设置"中确认"帐户前缀"已设置为"Darwinia"。 在这种前提下，钱包中的所有帐户（包括现有帐户列表）将以达尔文主网帐户的形式显示。
+
+![setting](assets/dev-account-setting-cn.png)
 
 ## 创建Darwinia帐户
 
@@ -84,13 +89,6 @@ sidebar_label: 创建账户
 
 > 确保将助记词安全保管。
 
-**设置 Crab网络 的地址**
-
-现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
-
-![polkadot-js](assets/polkadot-js-4-cn.png)
-
-> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
 
   <!--Subkey CLI-->
 ### Subkey
