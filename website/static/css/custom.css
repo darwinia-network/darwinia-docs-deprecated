@@ -128,7 +128,7 @@
   
   .fixedHeaderContainer header img.logo {
     height: auto;
-    width: 242px;
+    width: 178px;
   }
   
   .separateOnPageNav .wrapper,
@@ -383,7 +383,7 @@
   
   @media only screen and (max-width: 735px) {
     .navSearchWrapper {
-      width: 27%;
+      width: 30%;
     }
   }
   
@@ -408,6 +408,11 @@
     .navPusher {
       padding-top: 88px;
       min-height: calc(100vh - 88px);
+    }
+    .docsNavContainer {
+      top: 88px;
+      max-height: calc(100vh - 88px);
+
     }
     .reactNavSearchWrapper  input#search_input_react {
       padding-top: 5px;
