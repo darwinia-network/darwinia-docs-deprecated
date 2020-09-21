@@ -12,7 +12,7 @@ This article will help you run a validator node from scratch and become a valida
 ## Run your validator node in rpc unsafe
 
 ```bash
-docker run -it -v <DIR>:/data -p 30333:30333 -p 9933:9933 darwinianetwork/darwinia:v0.x.x-x.x --name <NAME> --base-path /data --validator  --unsafe-rpc-external --rpc-methods=Unsafe
+docker run -it -v <DIR>:/data -p 30333:30333 -p 9933:9933 darwinianetwork/darwinia:v0.x.x-x.x --name <NAME> --base-path /data --validator --unsafe-rpc-external --rpc-methods=Unsafe
 ```
 
 ## Generate your session key
@@ -57,11 +57,11 @@ There is another way to generate session key via web wallet, [click to view](cli
 
     > The `Stash account` and ` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
-- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond RING or KTON.
+- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes **14** days to unbond; you can choose to bond RING or KTON.
 
 - `Payment destination` The destination account for any payment as either a nominator or validator.
 
-- `Bond period` Optional; bond RING promise for 1-36 months to get additional KTON rewards. (Promise to lock to accept user terms)
+- `Bond period` Optional; bond RING promise for **1-36** months to get additional KTON rewards. (Promise to lock to accept user terms)
 
     > If you unlock RING in advance within the lock limit, you will be charged a penalty of 3 times the KTON reward (In the absence of sufficient KTON, the RING can not be used for payment of fines).
 
@@ -98,7 +98,7 @@ Click [Set session key] on this page, completing the generated session key and s
 
 ![tut-validator-5](assets/tut-validator-5.png)
 
-   > The operation of validate will take effect after the first epoch of the next era (about 24 hours). Prior to this, the validator will be in the [waiting] list.
+   > The operation of validate will take effect after the first epoch of the next era (less than 24 hours). Prior to this, the validator will be in the [waiting] list.
 
 ## (Optional) Rerun your validator node
 
