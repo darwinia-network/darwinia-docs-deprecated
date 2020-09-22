@@ -2,7 +2,7 @@
 id: wiki-tut-node
 title: 如何运行一个节点
 sidebar_label: 运行节点
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-node.md
+custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-tut-node.md
 ---
 
 ## 环境准备
@@ -19,11 +19,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 #### 2.下载可执行文件
 
-- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.6.1/darwinia-catalina.tar.gz
-- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.6.1/darwinia-archlinux.tar.gz
-- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.6.1/darwinia-ubuntu.tar.gz
-- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.6.1/darwinia-centos7.tar.gz
-- Docker: `docker pull darwinianetwork/darwinia:release-v0.6.1`
+- macOS Catalina: https://github.com/darwinia-network/darwinia/releases/download/v0.x.x/darwinia-catalina.tar.gz
+- ArchLinux: https://github.com/darwinia-network/darwinia/releases/download/v0.x.x/darwinia-archlinux.tar.gz
+- Ubuntu: https://github.com/darwinia-network/darwinia/releases/download/v0.x.x/darwinia-ubuntu.tar.gz
+- CentOS: https://github.com/darwinia-network/darwinia/releases/download/v0.x.x/darwinia-centos7.tar.gz
+- Docker: `docker pull darwinianetwork/darwinia:release-v0.x.x`
 
 ## 启动参数
 
