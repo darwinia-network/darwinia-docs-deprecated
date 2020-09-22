@@ -228,6 +228,30 @@
         "title": "教程列表",
         "sidebar_label": "教程"
       },
+      "wiki-tut-create-account": {
+        "title": "如何创建账户",
+        "sidebar_label": "新建账户"
+      },
+      "wiki-tut-nominator": {
+        "title": "如何成为投票人",
+        "sidebar_label": "成为投票人"
+      },
+      "wiki-tut-node": {
+        "title": "运行节点",
+        "sidebar_label": "运行节点"
+      },
+      "wiki-tut-validator": {
+        "title": "如何成为验证人",
+        "sidebar_label": "成为验证人"
+      },
+      "wiki-tut-relayer": {
+        "title": "如何成为 Relayer",
+        "sidebar_label": "成为 Relayer"
+      },
+      "wiki-tut-governance": {
+        "title": "参与治理",
+        "sidebar_label": "参与治理"
+      },
       "wiki-tut-p1": {
         "title": "教程1",
         "sidebar_label": "教程1"
