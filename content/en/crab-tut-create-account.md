@@ -4,14 +4,16 @@ title: Create an Account
 sidebar_label: Create an Account
 ---
 
-## Generate a Darwinia account
-
-There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
+There are mainly three ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
 
   <!--DOCUSAURUS_CODE_TABS-->
   <!--Darwinia Web Apps-->
 
-### Darwinia Web Apps
+## 1. Darwinia Web Wallet
+
+### Switch to mainnet
+
+![setting](assets/tut/create-account-0.png)
 
 Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
@@ -69,7 +71,7 @@ If you need to generate a Darwinia wallet account containing specific letters, y
 
 
   <!--Polkadot.js Browser Plugin-->
-### Polkadot.js Browser Plugin
+## 2. Polkadot.js Browser Plugin
 
 **Install the Browser Plugin**
 
@@ -98,7 +100,7 @@ Click on "Options" at the top of the plugin window.  Select `Crab Network` or `S
 > Crab Network share the same `Network ID` as `Substrate`, if you need to choose a network when generating an account, use `substrate` as the same effect as `crab network`.
 
   <!--Subkey CLI-->
-### Subkey
+## 3. Subkey
 
 Subkey is recommended for technically advanced users who are comfortable with command line and compiling Rust code. Subkey allows you to generate keys on any device that can compile the code. Subkey may also be useful for automated account generation, using an air-gapped device other than one running iOS or Android or other specific purposes. It is not recommended for general users.
 
