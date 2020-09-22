@@ -5,9 +5,9 @@ sidebar_label: Become a nominator
 ---
 > - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
-> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account>)
+> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/en/wiki-tut-create-account>)
 
-> - A small amount of CRING must be prepared in  Darwinia-Crab Network's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](https://docs.darwinia.network/docs/en/crab-tut-claim-cring)
+> - A small amount of RING must be prepared in  Darwinia Mainnet Network's address as fee.
 
 
 
@@ -27,13 +27,13 @@ sidebar_label: Become a nominator
 
     > The `Stash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
-- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
+- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond RING or KTON.
 
 - `Payment destination` The destination account for any payment as either a nominator or validator.
 
-- `Bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
+- `Bond period` Optional; bond RING promise for 1-36 months to get additional KTON rewards. (Promise to lock to accept user terms)
 
-    > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward (In the absence of sufficient CKTON, the CRING can not be used for payment of fines).
+    > If you unlock RING in advance within the lock limit, you will be charged  a penalty of 3 times the KTON reward (In the absence of sufficient KTON, the RING can not be used for payment of fines).
 
 - After filling in the staking parameters, please click [bond] and [submit]
 
@@ -74,8 +74,6 @@ sidebar_label: Become a nominator
 
 ## Other operations
 
-
-
 There are other operations in staking for the following purposes:
 
 
@@ -96,12 +94,12 @@ There are other operations in staking for the following purposes:
 
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
-  > Please note: 56 era (about 14 days) will be saved, and you will not be able to claim it if it expires.
+  > Please note: 56 era (about 56 days) will be saved, and you will not be able to claim it if it expires.
 
 - `Change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
 - `Change reward destination` Change the destination account for any payment as either a nominator or validator.
 - `Set nominees` Re-nominate validator
-- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
+- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/en/wiki-tut-validator)
 - `Set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
 
 
