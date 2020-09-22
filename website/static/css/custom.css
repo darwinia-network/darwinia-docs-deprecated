@@ -55,7 +55,11 @@
   
   .fixedHeaderContainer {
     background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
-    padding: .5rem 0px;
+    display: flex;
+    align-items: center;
+  }
+  .fixedHeaderContainer .headerWrapper {
+    flex: 1 1 auto;
   }
   
   .languages-icon {
@@ -77,6 +81,38 @@
     font-family: $myFont;
     font-size: 1.2em;
   }
+
+  .docsContainer {
+    font-family: initial;
+    font-size: 16px;
+  }
+  .docsNavContainer {
+    font-family: initial;
+  }
+  .onPageNav {
+    font-family: initial;
+    font-size: 14px;
+  }
+  .onPageNav ul li {
+    font-size: 14px;
+  }
+
+  .docsContainer h1{
+    /* font-size: 50px; */
+  }
+
+  .docsContainer h2{
+    font-size: 30px;
+    margin: 1rem 0 .5rem;
+  }
+
+  .docsContainer h3{
+    font-size: 26px;
+    margin: .5rem 0;
+  }
+  .docsContainer img {
+    margin: 1rem 0;
+  }
   
   .toc .toggleNav .navGroup .navGroupSubcategoryTitle {
     font-size: 100%;
@@ -92,7 +128,7 @@
   
   .fixedHeaderContainer header img.logo {
     height: auto;
-    width: 242px;
+    width: 178px;
   }
   
   .separateOnPageNav .wrapper,
@@ -104,6 +140,7 @@
     font-weight: 500;
     padding: 0.5rem 0;
     margin: 0 1rem;
+    text-decoration: none;
   }
   
   .navigationSlider .nav-site.nav-site-internal li>a:focus,
@@ -114,12 +151,13 @@
   
   .navigationSlider .slidingNav ul li.siteNavItemActive>a,
   .navigationSlider .slidingNav ul li.siteNavGroupActive>a {
-    font-weight: 500;
+    background-color: transparent;
+    /* font-weight: 500;
     margin-bottom: 0;
     background: #fff;
     border-radius: 18px;
     color: #3d30dd;
-    padding: 3px 20px;
+    padding: 3px 20px; */
   }
   
   .toc .toggleNav ul {
@@ -321,7 +359,10 @@
   }
   
   .navSearchWrapper:before {
-    left: 24px
+    left: 24px;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
   }
   
   .navSearchWrapper:after {
@@ -342,7 +383,7 @@
   
   @media only screen and (max-width: 735px) {
     .navSearchWrapper {
-      width: 27%;
+      width: 30%;
     }
   }
   
@@ -356,6 +397,29 @@
     } */
     .blog .wrapper {
       max-width: 1400px;
+    }
+    .onPageNav {
+      top: 128px;
+      max-height: calc(100vh - 128px);
+    }
+    .fixedHeaderContainer {
+      height: 88px;
+    }
+    .navPusher {
+      padding-top: 88px;
+      min-height: calc(100vh - 88px);
+    }
+    .docsNavContainer {
+      top: 88px;
+      max-height: calc(100vh - 88px);
+
+    }
+    .reactNavSearchWrapper  input#search_input_react {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      line-height: 26px;
+      font-size: 18px;
+      font-weight: 500;
     }
   }
   
@@ -371,6 +435,13 @@
     .reactNavSearchWrapper .algolia-autocomplete input#search_input_react:focus,
     .reactNavSearchWrapper .algolia-autocomplete input#search_input_react:active {
       background-color: rgba(0, 0, 0, .2) !important;
+    }
+    .reactNavSearchWrapper  input#search_input_react {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      line-height: 26px;
+      font-size: 18px;
+      font-weight: 500;
     }
   }
   
