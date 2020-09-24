@@ -306,6 +306,7 @@
       }
     },
     "links": {
+      "Home": "首页",
       "Blog": "动态",
       "Wiki": "知识库",
       "Crab Network": "Crab 网络",
