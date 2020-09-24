@@ -224,6 +224,10 @@
         "title": "钱包",
         "sidebar_label": "钱包"
       },
+      "wiki-tut-index": {
+        "title": "教程列表",
+        "sidebar_label": "教程"
+      },
       "wiki-tut-create-account": {
         "title": "如何创建账户",
         "sidebar_label": "新建账户"
