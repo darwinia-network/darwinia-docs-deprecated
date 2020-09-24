@@ -3,29 +3,26 @@ id: wiki-tut-create-account
 title: Create an Account
 sidebar_label: Create an Account
 ---
-## Set account prefix
-
-Please confirm that the "Account Prefix" has been set to "Darwinia" in "Setting". Under this precondition, all accounts in the wallet (including the existing account list) will be displayed in the form of Darwinia mainnet accounts.
-
-![setting](assets/dev-account-setting-en.png)
-
-
-Click "Setting",
-## Generate a Darwinia account
-
 There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
+
+There are several ways to create a Darwinia account. 1. Via Darwinia Web Wallet, 2. Via the Polkadot.js browser plug-in, 3. Via the Subkey command line tool, which will be described separately below. You can choose one of them according to your preferences. If you have created an account before, you can directly restore/import the account through "Mnemonic/Raw seed/json file".
 
   <!--DOCUSAURUS_CODE_TABS-->
   <!--Darwinia Web Apps-->
 
-### Darwinia Web Apps
+### Darwinia Web Wallet
 
-Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
+**Switch to mainnet**
 
-![create account](assets/web-wallet-1-en.png)
+Enter [Darwinia Web Wallet](https://apps.darwinia.network), and click the Darwinia icon of left-up corner. Select the Darwinia Network:
 
+![setting](/Users/itering/Projects/darwinia-network/docs/content/zh-CN/assets/tut/create-account-0.png)
 
 **New account**
+
+You can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
+
+![create account](assets/web-wallet-1-en.png)
 
 Click "Add Account", after setting the basic account information, click the "Save" button. (By default, only "mnemonic", "private key" need to be switched)
 

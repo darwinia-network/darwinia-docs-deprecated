@@ -6,8 +6,6 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ---
 > - Staking是基于PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
 
-> - 在参与 Staking 之前，请确保有至少拥有 **1** 个 Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备 **2** 个 Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account)
-
 > - Darwinia 地址内需准备少许 RING ，作为交易手续费。
 
 本文将帮助您从头开始运行validator节点并成为validator。
