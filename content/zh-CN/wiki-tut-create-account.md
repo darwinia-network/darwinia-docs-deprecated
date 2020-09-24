@@ -5,19 +5,22 @@ sidebar_label: 创建账号
 ---
 创建Darwinia账号的方法有多种，主要有三种，1. 通过Darwinia Web Wallet， 2. 通过Polkadot.js 浏览器插件，3. 通过Subkey命令行工具 ，下面将分别描述。您可以根据自己的喜好选择其中一种。如果您之前创建过账号，则可直接通过 “助记词/私钥/json文件” 等恢复/导入账号。 
 
-## 1. 通过Darwinia Web Wallet
-
-### 切换到主网
-
-![setting](assets/tut/create-account-0.png)
+  <!--DOCUSAURUS_CODE_TABS-->
+  <!--Darwinia Web Apps-->
 
 ### Darwinia Web Wallet
 
-进入[Darwinia Web Wallet](https://apps.darwinia.network)，可在「账号」栏看到「添加账号」和「使用JSON恢复」两个按钮。
+**切换到主网**
 
-![create account](assets/tut/create-account-1.png)
+进入[Darwinia Web Wallet](https://apps.darwinia.network)，点击左上角的达尔文图标。在对话框里选择Darwinia Network:
+
+![setting](assets/tut/create-account-0.png)
 
 **新建账号**
+
+可在「账号」栏看到「添加账号」和「使用JSON恢复」两个按钮。
+
+![create account](assets/tut/create-account-1.png)
 
 点击「添加账号」，在设置完账号基本信息后，点击「保存」按钮。（默认只显示“助记词“，”私钥“需切换）
 
@@ -66,7 +69,7 @@ sidebar_label: 创建账号
 
 
   <!--Polkadot.js 浏览器插件-->
-### 2. 通过Polkadot.js 浏览器插件
+### 通过Polkadot.js 浏览器插件
 
 **安装浏览器插件**
 
@@ -86,7 +89,7 @@ sidebar_label: 创建账号
 
 
   <!--Subkey CLI-->
-### 3. 通过Subkey
+### Subkey
 
 对于熟悉命令行和Rust代码的高级用户，建议使用Subkey。Subkey允许您在可以编译代码的任何设备上生成密钥。Subkey可能对使用自动运行的设备（而不是运行iOS或Android的设备或其他特定用途的设备）的自动生成账号有用。不建议一般用户使用。
 
