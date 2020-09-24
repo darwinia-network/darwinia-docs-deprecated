@@ -229,6 +229,10 @@
         "title": "How to participate in governance",
         "sidebar_label": "Participate in governance"
       },
+      "wiki-tut-index": {
+        "title": "Tutorials List",
+        "sidebar_label": "Tutorials"
+      },
       "wiki-tut-node": {
         "title": "How to run a node",
         "sidebar_label": "Running a node"

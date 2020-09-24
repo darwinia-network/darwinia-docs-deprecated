@@ -60,6 +60,7 @@
       "wiki-glossary"
     ],
     "Tutorials": [
+      "wiki-tut-index",
       "wiki-tut-create-account",
       "wiki-tut-staking",
       "wiki-tut-nominator",
