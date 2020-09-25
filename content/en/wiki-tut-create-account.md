@@ -24,8 +24,6 @@ There are several ways to create a Darwinia account. 1. Via Darwinia Web Wallet,
 
 1. Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
-Enter [Darwinia Web Wallet](https://apps.darwinia.network), and click the Darwinia icon of left-up corner. Select the Darwinia Network:
-
 2. New account
 
 You can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
