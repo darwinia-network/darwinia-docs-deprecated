@@ -6,9 +6,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ---
 > - Staking是基于 PoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
 
-> - 在参与 staking 之前，请确保有至少拥有 **1** 个 Darwinia 地址，如果您持有较多代币或对安全性要求较高，建议准备 **2** 个 Darwinia 地址。没有地址请参考：[如何创建账户](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account)
-
 > - Darwinia 地址内需准备少许 RING，作为交易手续费。
+
+
 
 ## Start Staking
 
@@ -54,7 +54,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - 查看已提名验证人的相关信息  
 ![crab-tut-nominator-7](assets/crab-tut-nominator-7.png)
 
-    > 提名验证人的操作，会在下一个 era 的第一个 epoch 后生效，暂时延迟为正常现象。
+    > 提名验证人的操作，会在下一个 era开始时生效，暂时延迟为正常现象。
 
 
 ## 其他操作

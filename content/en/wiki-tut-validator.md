@@ -82,7 +82,6 @@ Click [Set session key] on this page, completing the generated session key and s
 
 ![tut-validator-2](assets/tut-validator-2.png)
 
-
 **Click [validate] and set the validator parameters**
 
 - `Reward commission percentage` Set the proportion of the node's priority distribution of income, the range is 0-100. (Example: If a 5% reward commission is set, this node will first receive 5% of the node's revenue, and the remaining 95% of the node's revenue will be distributed in proportion to the amount of mortgages validated by the validator and nominator; Validator's income = node reward commission + mortgage reward share)
@@ -90,7 +89,7 @@ Click [Set session key] on this page, completing the generated session key and s
 ![tut-validator-3](assets/tut-validator-3.png)
 
 
-**After confirming, click [sign and submit]】** 
+**After confirming, click [sign and submit]** 
 
 ![tut-validator-4](assets/tut-validator-4.png)
 

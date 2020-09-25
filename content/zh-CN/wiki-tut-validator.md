@@ -66,14 +66,15 @@ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d \
   
   > 如提前赎回有承诺期限的 RING，需要支付获得奖励 **3** 倍的 KTON 惩罚 (在 KTON 不足的情况下，不可以使用 RING 来代缴罚金)。
 
-- 填写好 Staking 参数后，请点击【冻结】，签名并提交。  
+填写好 Staking 参数后，请点击【冻结】，签名并提交。  
+
 
 ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
 
-### 设置 session keys
+### 设置 session key
 
-点击【session 账号】，输入刚刚生成的 session keys ，点击【设置session keys】提交。
-> session keys 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
+点击【session 账号】，输入刚刚生成的 session key ，点击【设置session key】提交。
+> session key 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
 
 ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
 
@@ -113,7 +114,7 @@ docker run -it -v <DIR>:/data -p 30333:30333 darwinianetwork/darwinia:v0.x.x-x.x
 - `抵押`  增加 Staking 冻结的代币，用来获得更多的票权（power）。
 - `取消抵押` 解冻 Staking 的代币，与此同时票权（power）也会按比例减少。
 
-  > 取消抵押需要 **14** 天的解冻期，处于解冻期内的代币不能进行任何操作，请谨慎处理。
+  > 请注意：取消抵押需要 **14** 天的解冻期，处于解冻期内的代币不能进行任何操作，请谨慎处理。
 
 - `收益历史` 去 SUBSCAN 浏览器查看历史收益记录。
 - `领取收益` 手动领取已获得的收益，收益将以 era 为单位发放。
@@ -122,5 +123,5 @@ docker run -it -v <DIR>:/data -p 30333:30333 darwinianetwork/darwinia:v0.x.x-x.x
   
 - `更改控制账户` 更改用于管理 Staking 其他操作的账号，如参与投票、参与验证等。
 - `更改收益账号` 更改用于接收 Staking 收益的账号。
-- `设置 session keys` 更改 session keys，请谨慎操作。
+- `设置 session key` 更改 session key，请谨慎操作。
 - `设置链上身份` 设置您的个人信息，如昵称、邮箱、网站、twitter、riot 等信息，其他用户可查看此信息并联系您。

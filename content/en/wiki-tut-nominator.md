@@ -5,8 +5,6 @@ sidebar_label: Become a nominator
 ---
 > - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
-> - Before participating in staking, please make sure you have at least **1** Darwinia address. If you hold more tokens or have higher security requirements, it is recommended to prepare **2** Darwinia addresses. If there is no address, please refer to: [How to create an account](<<https://docs.darwinia.network/docs/en/wiki-tut-create-account>)
-
 > - A small amount of RING must be prepared in  Darwinia Mainnet Network's address as fee.
 
 
@@ -31,19 +29,17 @@ sidebar_label: Become a nominator
 
 - `Payment destination` The destination account for any payment as either a nominator or validator.
 
-- `Bond period` Optional; bond RING promise for 1-36 months to get additional KTON rewards. (Promise to lock to accept user terms)
+- `Lock limit` Optional; bond RING promise for 1-36 months to get additional KTON rewards. (Promise to lock to accept user terms)
 
     > If you unlock RING in advance within the lock limit, you will be charged  a penalty of 3 times the KTON reward (In the absence of sufficient KTON, the RING can not be used for payment of fines).
 
-- After filling in the staking parameters, please click [bond] and [submit]
+- After filling in the staking parameters, please click [Sign and Submit]
 
 ![nominate-3-en](assets/nominate-3-en.png)
 
 
 
 ## Nominate a validator
-
-
 
 - After completing the staking parameters, click [Nominate] on this page
 
