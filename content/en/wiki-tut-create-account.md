@@ -3,8 +3,6 @@ id: wiki-tut-create-account
 title: Create an Account
 sidebar_label: Create an Account
 ---
-There are several ways to generate a Darwinia account, you can choose either one based on your preference.  Once your account is created and you have your account `secret phrase` or `secret seed`, you can migrate your account from various medium by importing your account.  
-
 There are several ways to create a Darwinia account. 1. Via Darwinia Web Wallet, 2. Via the Polkadot.js browser plug-in, 3. Via the Subkey command line tool, which will be described separately below. You can choose one of them according to your preferences. If you have created an account before, you can directly restore/import the account through "Mnemonic/Raw seed/json file".
 
   <!--DOCUSAURUS_CODE_TABS-->
