@@ -14,7 +14,7 @@ sidebar_label: 创建账号
 
 ## 通过 Darwinia Web Wallet
 
-1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，首先切换到主网。
+1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，在「设置」中切换到主网。
 
 ![setting](assets/tut/create-account-0.png)
 
