@@ -3,6 +3,18 @@ id: wiki-tut-create-account
 title: Create an Account
 sidebar_label: Create an Account
 ---
+
+## Set account prefix
+
+Please confirm that the "Account Prefix" has been set to "Darwinia" in "Setting". Under this precondition, all accounts in the wallet (including the existing account list) will be displayed in the form of Darwinia mainnet accounts.
+
+![setting](assets/dev-account-setting-en.png)
+
+
+Click "Setting".
+
+## Generate a Darwinia account
+
 There are several ways to create a Darwinia account. 1. Via Darwinia Web Wallet, 2. Via the Polkadot.js browser plug-in, 3. Via the Subkey command line tool, which will be described separately below. You can choose one of them according to your preferences. If you have created an account before, you can directly restore/import the account through "Mnemonic/Raw seed/json file".
 
   <!--DOCUSAURUS_CODE_TABS-->
@@ -10,13 +22,11 @@ There are several ways to create a Darwinia account. 1. Via Darwinia Web Wallet,
 
 ### Darwinia Web Wallet
 
-**Switch to mainnet**
+1. Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
 Enter [Darwinia Web Wallet](https://apps.darwinia.network), and click the Darwinia icon of left-up corner. Select the Darwinia Network:
 
-![setting](/Users/itering/Projects/darwinia-network/docs/content/zh-CN/assets/tut/create-account-0.png)
-
-**New account**
+2. New account
 
 You can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
@@ -26,38 +36,38 @@ Click "Add Account", after setting the basic account information, click the "Sav
 
 ![create account](assets/web-wallet-2-en.png)
 
-Click the "Create and Backup Account" button to back up the account "json file"
+3. Click the "Create and Backup Account" button to back up the account "json file"
 
 ![create account](assets/web-wallet-3-en.png)
 
 > Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
 
-**Restore  json**
+4. Restore from json file
 
 If you have created an account before and backed up a json file, you can directly select "Restore JSON".
 
 ![create account](assets/web-wallet-4-en.png)
 
-**Restore account via "Mnemonic"**
+5. Restore account via "Mnemonic"
 
 If you forget the password of the JSON file, you can use the "mnemonic word" to recover it. Click "Add Account" to replace the mnemonic with the original account's mnemonic. (The name and password can be reset)
 
 ![create account](assets/web-wallet-5-en.png)
 
-**Generate Vanity account**
+6. Generate Vanity account
 
 If you need to generate a Darwinia wallet account containing specific letters, you can refer to the tutorial:
    >This type of account is mostly used to receive the airdrop proof of work from the faucet, or is in need of memory and beauty.
 
 - Click [Vanity], fill in the conditions you need to filter
 
-![faucet-1](assets/faucet-1.png)
+  ![faucet-1](assets/faucet-1.png)
 
-`Search for` Type here what you would like your address to contain. This tool will generate the keys and show the associated addresses that best match your search. You can use \"?\" as a wildcard for a character.": "",
+  - `Search for` Type here what you would like your address to contain. This tool will generate the keys and show the associated addresses that best match your search. You can use \"?\" as a wildcard for a character.": "",
 
-`Case sensitive` Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\"...": "Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\".
+  - `Case sensitive` Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\"...": "Should the search be case sensitive, e.g if you select \"no\" your search for \"Some\" may return addresses containing \"somE\" or \"sOme\".
 
-`Keypair crypto type` Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
+  - `Keypair crypto type` Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use ed25519.
 
 - Click [Start generation], after waiting for the account to be generated, click [+] to select your favorite account for backup.
 
@@ -70,17 +80,14 @@ If you need to generate a Darwinia wallet account containing specific letters, y
 > Be sure to back up `mnemonics, private keys, json files`, etc. When backing up the json file, please keep the password safe. If the password is lost, the address cannot be restored through the json file, but it can be re-imported through the mnemonic word and private key.
 
 
-
   <!--Polkadot.js Browser Plugin-->
 ### Polkadot.js Browser Plugin
 
-**Install the Browser Plugin**
-
-The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
+1. Install the Browser Plugin, The browser plugin is available for both [Google Chrome](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd?hl=en) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension).
 
 ![polkadot-js](assets/polkadot-js-1-cn.png)
 
-**New Account**
+2. New Account
 
 Click the extension to open the "Account Management" dialog box, click the "Create New Account" button, and then follow the instructions.
 
@@ -108,11 +115,6 @@ After installing Subkey successfully, run:
 
 ```shell
 subkey -n substrate generate
-```
-
-You should see an output something like below- **save all of this information somewhere secure you will not be able to recover your account if you lose your phrase or seed.**
-
-```text
 Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth error pigeon` is account:
   Network ID/version: substrate
   Secret seed:        0x58e57817a2ccfa696ed6c3735d4cc4646f894bf7daf51a94f0c4702a92e40710
@@ -122,19 +124,6 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
 ```
 
 > If you previously created an account for other networks other than `substrate` or `crab network`, you need to derive the  correct `Address` from your previous  `secret phrase` or `secret seed`.  You can use `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` to obtain the Crab network-ID inclusive Address (SS58).
-
-  <!--Polkadot.js Web Apps-->
-### Polkadot.js Web Apps
-TODO: complete guide when Darwinia network is supported
-
-  <!--Mobile Wallet-->
-### ~~Itering ID Wallet~~
-
-Coming soon.
-
-### ~~Math Wallet~~
-
-Coming soon.
 
   <!--END_DOCUSAURUS_CODE_TABS-->
 

@@ -1,11 +1,7 @@
 ---
 id: wiki-us-governance
-title: 治理
+title: 治理方案
 sidebar_label: 治理
 ---
 
-## On-Chain Governance
-
-## Council
-
-## Treasury
+TBD
