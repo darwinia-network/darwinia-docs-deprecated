@@ -3,7 +3,7 @@ id: wiki-tut-nominator
 title: How to become a nominator
 sidebar_label: Become a nominator
 ---
-> - Staking is a consensus mechanism based on PoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
+> - Staking is a consensus mechanism based on NPoS (Proof of Stake / Proof of Stake). Token holders obtain rewards and benefits through pledge, voting, delegation, and locking.
 
 > - A small amount of RING must be prepared in  Darwinia Mainnet Network's address as fee.
 
@@ -11,13 +11,13 @@ sidebar_label: Become a nominator
 
 ## Start Staking
 
-- Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
+1. Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
 
-![nominate-1-en](assets/nominate-1-en.png)
+  ![nominate-1-en](assets/nominate-1-en.png)
 
-- Fill in the staking parameters 
+2. Fill in the staking parameters.
 
-![nominate-2-en](assets/nominate-2-en.png)
+  ![nominate-2-en](assets/nominate-2-en.png)
 
 - ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
 
@@ -33,38 +33,34 @@ sidebar_label: Become a nominator
 
     > If you unlock RING in advance within the lock limit, you will be charged  a penalty of 3 times the KTON reward (In the absence of sufficient KTON, the RING can not be used for payment of fines).
 
-- After filling in the staking parameters, please click [Sign and submit]
+3. After filling in the staking parameters, please click [Sign and submit].
 
 ![nominate-3-en](assets/nominate-3-en.png)
 
 
-
 ## Nominate a validator
 
-- After completing the staking parameters, click [Nominate] on this page
+1. After completing the staking parameters, click [Nominate] on this page.
 
 ![nominate-4-en](assets/nominate-4-en.png)
+
 > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
 
-
-- Choose your favorite validator
+2. Choose your favorite validator.
 
 ![nominate-5-en](assets/nominate-5-en.png)
 
 
-
-- Sign and submit
+3. Sign and submit
 
 ![nominate-6-en](assets/nominate-6-en.png)
 
-
-
-- View information about nominated validators
+4. View information about nominated validators
 
 ![nominate-7-en](assets/nominate-7-en.png)
 
 
-> The operation of nominating validators will take effect after the first epoch of the next era, and it is normal to temporarily delay.
+> The operation of nominating validators will take effect from the next era, and it is normal to temporarily delay.
 
 
 
@@ -72,10 +68,7 @@ sidebar_label: Become a nominator
 
 There are other operations in staking for the following purposes:
 
-
-
 ![nominate-8-en](assets/nominate-8-en.png)
-
 
 
 - `Stop nomination` cancels all nominees.
