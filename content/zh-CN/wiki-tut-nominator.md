@@ -8,6 +8,8 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 > - Darwinia 地址内需准备少许 RING，作为交易手续费。
 
+
+
 ## Start Staking
 
 - 进入[Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目， 点击【开始 staking 】  
