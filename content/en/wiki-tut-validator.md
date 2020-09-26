@@ -9,18 +9,39 @@ sidebar_label: Become a validator
 
 This article will help you run a validator node from scratch and become a validator.
 
-## Run your validator node in rpc unsafe
+## Run your validator node
+
+You can choose either run node with execute file download before or in docker way. No matter which way you start, please make sure 
+to include `--unsafe-rpc-external --rpc-methods=Unsafe` in command line to prepare for the generation of `session keys`.
+
+- Run validator node with existed node binary
+
+```sh
+$ ./darwinia \
+  	--base-path <YourDataDir> \
+  	--name <YourNodeName> \
+  	--validator \
+  	--unsafe-rpc-external \
+  	--rpc-methods=Unsafe
+```
+
+- Using docker
 
 ```bash
-docker run -it -v <DIR>:/data -p 30333:30333 -p 9933:9933 darwinianetwork/darwinia:v0.x.x-x.x --name <NAME> --base-path /data --validator  --unsafe-rpc-external --rpc-methods=Unsafe
+$ docker run -d -v <YourDataDir>:/data -p 30333:30333 darwinianetwork/darwinia:v0.7.0 \
+  	--base-path /data \
+  	--name <YourNodeName> \
+  	--validator \
+  	--unsafe-rpc-external \
+  	--rpc-methods=Unsafe
 ```
 
 ## Generate your session key
 
 Run the command on the shell where your validator node is running:
 
-```json
-curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d \
+```sh
+$ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d \
 '{
   "jsonrpc":"2.0",
   "id":1,
@@ -32,22 +53,21 @@ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d \
 If there is no problem, a result similar to the following will be returned:
 
 ```json
-{"jsonrpc":"2.0","result":"0xba99ecfb4a87357a44ee2765cf617a6d81adf8f43e522db52e348d2f9d45ccde12d53d562e14bb18522fbc3032b786f44b2b92240f4756386d4baec68bbfb882bbabcce1440c84d7f5b67c8ecb956345100d5dbd07adfeba3d9482f95d9dec6c68d085323e61590f850c38244dd2c2bc4055548d9edfd0471f47da7667c17fe8","id":1}
+{
+  "jsonrpc":"2.0", "result":"0xba99ecfb4a87357a44ee2765cf617a6d81adf8f43e522db52e348d2f9d45ccde12d53d562e14bb18522fbc3032b786f44b2b92240f4756386d4baec68bbfb882bbabcce1440c84d7f5b67c8ecb956345100d5dbd07adfeba3d9482f95d9dec6c68d085323e61590f850c38244dd2c2bc4055548d9edfd0471f47da7667c17fe8",
+  "id":1}
 ```
 
 The result is what you need when setting the session key.
 
-There is another way to generate session key via web wallet, [click to view](click to view).
+## Start staking
 
-## Staking
-
-### Entrance
-- Enter [Darwinia Wallet](https://apps.darwinia.network) and click the [Staking] column on the left , Click [Start staking].
+1. Enter [Darwinia Wallet](https://apps.darwinia.network) and click the [Staking] column on the left , Click [Start staking].
 
 ![tut-validator-a](assets/tut-validator-a.png)
 
 
-### Fill in the staking parameters
+2. Fill in the staking parameters
 
 ![tut-validator-b](assets/tut-validator-b.png)
 
@@ -65,46 +85,50 @@ There is another way to generate session key via web wallet, [click to view](cli
 
     > If you unlock RING in advance within the lock limit, you will be charged a penalty of 3 times the KTON reward (In the absence of sufficient KTON, the RING can not be used for payment of fines).
 
-- After filling in the staking parameters, please click [bond] and [submit]
+3. After filling in the staking parameters, please click [bond] and [submit]
 
 ![tut-validator-c](assets/tut-validator-c.png)
 
-### Set session key
+## Set session key
 
-Click [Set session key] on this page, completing the generated session key and submit. 
-   > The session key must be filled with real data, otherwise it will result in missing blocks and be slashed.
+1. Click [Set session key] on this page, completing the generated session key and submit. 
+  
+  > The session key must be filled with real data, otherwise it will result in missing blocks and be slashed.
 
 ![tut-validator-1](assets/tut-validator-1.png)
 
-**After confirming, click [sign and submit]** 
+2. After confirming, click [sign and submit] 
 
-   > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
+  > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
 
 ![tut-validator-2](assets/tut-validator-2.png)
 
-**Click [validate] and set the validator parameters**
+3. Click [validate] and set the validator parameters
 
 - `Reward commission percentage` Set the proportion of the node's priority distribution of income, the range is 0-100. (Example: If a 5% reward commission is set, this node will first receive 5% of the node's revenue, and the remaining 95% of the node's revenue will be distributed in proportion to the amount of mortgages validated by the validator and nominator; Validator's income = node reward commission + mortgage reward share)
 
 ![tut-validator-3](assets/tut-validator-3.png)
 
 
-**After confirming, click [sign and submit]**
+4. After confirming, click [sign and submit]
 
 ![tut-validator-4](assets/tut-validator-4.png)
 
-**Go to [staking scan] to view information about validators**
+5. Go to [staking scan] to view information about validators
 
 ![tut-validator-5](assets/tut-validator-5.png)
 
-   > The operation of validate will take effect after the first epoch of the next era (about 24 hours). Prior to this, the validator will be in the [waiting] list.
+  > The operation of validate will take effect after the first epoch of the next era (about 24 hours). Prior to this, the validator will be in the [waiting] list.
 
-## (Optional) Rerun your validator node
+**(Optional) Rerun your validator node**
 
 For security, you need to remove the rpc unsafe parameters and re-run your node:
 
 ```bash
-docker run -it -v <DIR>:/data -p 30333:30333 darwinianetwork/darwinia:v0.x.x-x.x --name <NAME> --base-path /data --validator
+$ docker run -d -v <YourDataDir>:/data -p 30333:30333 darwinianetwork/darwinia:v0.7.0 \
+  	--base-path /data \
+  	--name <YourNodeName> \
+  	--validator
 ```
 
 
