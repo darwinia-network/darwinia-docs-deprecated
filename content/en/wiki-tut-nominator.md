@@ -7,6 +7,14 @@ sidebar_label: Become a nominator
 
 > - A small amount of RING must be prepared in  Darwinia Mainnet Network's address as fee.
 
+You may have a account with `RING/KTON` and want to earn fresh `RING/KTON`. You could do so as validator, which requires a node running 24/7.
+If you do not have such node or do not want to bother, you can still earn `RING/KTON` by nominatoring another validator.
+
+Specially attention should be paid to:
+
+1. Pick your validators carefully - if they do not behave properly, they will get slashed and you will lose `RING/KTON` as well.
+2. While your `RING/KTON` are staked by nominating a validator, they are `locked`(bonded). You can receive new `RING` in your account but you cannot stake as validator
+or transfer `RING` away from your account. You can un-nominate at any time to stop staking your funds. There is an unbonding period of 14 days on Darwinia main network.
 
 
 ## Start Staking
