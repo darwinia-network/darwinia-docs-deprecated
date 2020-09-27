@@ -41,11 +41,11 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = props => (
-      <h2 className="projectTitle">
-        <translate desc="">home_title</translate>
+      <div className="projectTitle">
+        <h1><translate desc="">home_title</translate></h1>
         <small><translate desc="">home_tagline</translate></small>
-        <small><translate desc="">darwin-intro-text</translate></small>
-      </h2>
+        <p><translate desc="">darwin-intro-text</translate></p>
+      </div>
     );
 
     const PromoSection = props => (

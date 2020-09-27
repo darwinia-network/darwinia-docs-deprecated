@@ -80,6 +80,7 @@
   body {
     font-family: $myFont;
     font-size: 1.2em;
+    color: #333;
   }
 
   .docsContainer {
@@ -247,7 +248,36 @@
   .featuresContainer .blockImage {
     max-width: 100%;
   }
-  
+  .homeContainer .button, 
+  .postContainer .posts .button{
+    color: #080C20;
+    background-color: #fff;
+    border-color: #080C20;
+    border-radius: 0;
+  }
+  .homeContainer .button:hover,
+  .postContainer .posts .button:hover {
+    color: #fff;
+    background: #23272b;
+    border-color: #1d2124;
+  }
+  .projectTitle p,
+  .economicsSection p,
+  .featuresSection p {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .projectTitle h2 p,
+  .economicsSection h2 p,
+  .featuresSection h2 p {
+    color: #333;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .projectTitle h1,
   .featuresSection h1,
   .economicsSection h1 {
     font-family: $myFont;
@@ -267,6 +297,68 @@
   
   .blogContainer .post .post-content p {
     text-align: justify;
+  }
+  .posts .threeByGridBlock {
+    flex: 0 0 300px;
+  }
+  .gridBlock .threeByGridBlock .post{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: none;
+  }
+  .gridBlock .threeByGridBlock .post .postHeader{
+    position: absolute;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+  }
+  .gridBlock .threeByGridBlock .post .postHeader p{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-size: 12px;
+    opacity: .5;
+    order: -1;
+    color: #6330DD;
+    margin-bottom: 0;
+  }
+  .gridBlock .threeByGridBlock .post .postHeader h1 {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .gridBlock .threeByGridBlock .post .postHeader h1 a{
+    font-size: 16px;
+    display: inline-block;
+    color: #333;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: initial;
+  }
+  .gridBlock .threeByGridBlock .post .postHeader >div{
+    display: none;
+  }
+  .gridBlock .threeByGridBlock .post article{
+    order: -1;
+  }
+  .gridBlock .threeByGridBlock .post article .read-more{
+    margin-top: 80px;
+  }
+  .gridBlock .threeByGridBlock .post article div span p:first-child{
+    padding-bottom: 70%;
+    max-width: 300px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  .gridBlock .threeByGridBlock .post article div span p:first-child img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .gridBlock .threeByGridBlock .post article div span p:last-child{
+    display: none;
   }
   /* footer */
   
@@ -303,8 +395,16 @@
   #back-to-top {
     background: #fe3876;
   }
-  
+  .button {
+    /* color: #080C20;
+    background-color: #fff;
+    border-color: #080C20;
+    border-radius: 0; */
+  }
   .button:hover {
+    /* color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124; */
     background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
   }
   
@@ -384,6 +484,18 @@
   @media only screen and (max-width: 735px) {
     .navSearchWrapper {
       width: 30%;
+    }
+    .gridBlock .threeByGridBlock .post article div span p:first-child{
+      padding-bottom: 70%;
+      max-width: initial;
+      position: relative;
+      margin-bottom: 0;
+    }
+    .gridBlock .threeByGridBlock .post .postHeader{
+      position: absolute;
+      top: calc((100vw - 40px)*0.7 + 5px);
+      display: flex;
+      flex-direction: column;
     }
   }
   
