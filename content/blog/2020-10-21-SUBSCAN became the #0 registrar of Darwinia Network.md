@@ -4,8 +4,6 @@ author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
-# SUBSCAN 成为 Darwinia 网络 #0号身份注册商
-
 ![](assets/2020-10-21-SUBSCAN-became-the-#0-registrar-of-Darwinia-Network-1.jpg)
 
 ## 什么是身份注册商？
