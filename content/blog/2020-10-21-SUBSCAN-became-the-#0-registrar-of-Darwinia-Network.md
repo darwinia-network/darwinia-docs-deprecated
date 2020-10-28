@@ -10,6 +10,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 身份注册商的主要工作就是验证链上身份真实性，并根据身份信息的完整性或真实性，授予不同的身份等级。获得一个较高的身份等级，会增加信任度与社区知名度，有利于参与链上治理、竞选验证人等活动。
 
 
+
 ## 如何查找当前身份注册商？
 1. 您可以在 Chain state > Storage > Identity > registrars : Vec < Option < RegistrarInfo > > 中查看所有身份注册商信息，包括注册商账号、注册费、权限等。
    *注：注册费有可能发生变动，申请身份注册前建议查询当前费用，选择合适的注册商。*
@@ -18,6 +19,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 2. 通过 Subscan 浏览器，账户 > 身份筛选，也可以查看该网络的所有身份注册商。
 ![](assets/2020-10-21-SUBSCAN-became-the-#0-registrar-of-Darwinia-Network-3.png)
+
 
 
 ## 如何获得身份认证（加V）？
@@ -47,6 +49,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
    ![](assets/2020-10-21-SUBSCAN-became-the-#0-registrar-of-Darwinia-Network-8.png)
 
 
+
 ## #0注册商 Subscan 的验证规则
 1. 通过社交网络获取验证码
    Subscan 会通过您留下的身份信息，向您的邮箱、推特、riot（element）发送一段验证码。
@@ -64,6 +67,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
    ![](assets/2020-10-21-SUBSCAN-became-the-#0-registrar-of-Darwinia-Network-11.png)
 
 
+
 ## 身份等级
 Subscan 拥有以下等级的授予权限，其中 「一般」 和 「很好」 为 「绿V」，即身份已验证。
 * 一般：数据看似合理，但未进行深入检查，例如正式的 KYC 流程。
@@ -79,6 +83,3 @@ Subscan 拥有以下等级的授予权限，其中 「一般」 和 「很好」
 * 质量低劣：信息质量低劣或不精确，但可以通过更新进行修复。
   
 * 错误：信息错误，可能表示恶意。
-
-
-   
