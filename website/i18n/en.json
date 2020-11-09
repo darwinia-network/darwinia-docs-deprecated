@@ -222,16 +222,12 @@
         "sidebar_label": "Wallets"
       },
       "wiki-tut-create-account": {
-        "title": "Create an Account",
+        "title": "Create Account",
         "sidebar_label": "Create an Account"
       },
       "wiki-tut-governance": {
         "title": "How to participate in governance",
         "sidebar_label": "Participate in governance"
-      },
-      "wiki-tut-index": {
-        "title": "Tutorials List",
-        "sidebar_label": "Tutorials"
       },
       "wiki-tut-node": {
         "title": "How to run a node",
@@ -323,6 +319,7 @@
       }
     },
     "links": {
+      "Home": "Home",
       "Blog": "Blog",
       "Wiki": "Wiki",
       "Crab Network": "Crab Network",
