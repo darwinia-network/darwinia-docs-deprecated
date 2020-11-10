@@ -248,6 +248,9 @@
   .featuresContainer .blockImage {
     max-width: 100%;
   }
+  .postContainer .posts {
+    justify-content: space-around;
+  }
   .homeContainer .button, 
   .postContainer .posts .button{
     color: #080C20;
