@@ -252,10 +252,6 @@
         "title": "如何给 EVM 地址充值",
         "sidebar_label": "EVM 地址充值"
       },
-      "wiki-tut-dvm-use-metamask": {
-        "title": "如何使用 Metamask",
-        "sidebar_label": "使用 Metamask"
-      },
       "wiki-tut-dvm-use-web3-transaction": {
         "title": "使用 Web3 发送交易",
         "sidebar_label": "使用 Web3 发送交易"
