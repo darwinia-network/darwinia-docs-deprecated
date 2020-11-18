@@ -248,6 +248,22 @@
         "title": "参与治理",
         "sidebar_label": "参与治理"
       },
+      "wiki-tut-dvm-recharge": {
+        "title": "如何给 EVM 地址充值",
+        "sidebar_label": "EVM 地址充值"
+      },
+      "wiki-tut-dvm-use-metamask": {
+        "title": "如何使用 Metamask",
+        "sidebar_label": "使用 Metamask"
+      },
+      "wiki-tut-dvm-use-web3-transaction": {
+        "title": "使用 Web3 发送交易",
+        "sidebar_label": "使用 Web3 发送交易"
+      },
+      "wiki-tut-dvm-use-web3-contract": {
+        "title": "使用 Web3 玩转合约",
+        "sidebar_label": "使用 Web3 玩转合约"
+      },
       "wiki-tut-p1": {
         "title": "教程1",
         "sidebar_label": "教程1"
