@@ -225,6 +225,18 @@
         "title": "Create Account",
         "sidebar_label": "Create an Account"
       },
+      "wiki-tut-dvm-recharge": {
+        "title": "Recharge EVM address",
+        "sidebar_label": "Recharge EVM address"
+      },
+      "wiki-tut-dvm-use-web3-contract": {
+        "title": "Using Web3 for contract",
+        "sidebar_label": "Using Web3 for contract"
+      },
+      "wiki-tut-dvm-use-web3-transaction": {
+        "title": "Using Web3 for transaction",
+        "sidebar_label": "Using Web3 for transaction"
+      },
       "wiki-tut-governance": {
         "title": "How to participate in governance",
         "sidebar_label": "Participate in governance"
