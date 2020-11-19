@@ -8,7 +8,7 @@ sidebar_label: evm 地址充值
 
 ## Pangolin 测试网络
 
-Pangolin 测试网络是 Darwinia 团队最近开放的一个测试网络，代币名称 `Pring`。该网络集成了 DVM(Darwinia Visual Machine) 智能合约解决方案，将在目前的 darwinia 网络中支持以太坊智能合约，并且兼容多数以太坊合约基础设施 Metamask， Remix 等。不同于 Crab 测试网络，为了方便测试合约, 合约开发者可以免费申请获取一定数量的 Pring。
+Pangolin 测试网络是 Darwinia 团队最近开放的一个测试网络，代币名称 `Pring`。该网络集成了 DVM(Darwinia Virtual Machine) 智能合约解决方案，将在目前的 darwinia 网络中支持以太坊智能合约，并且兼容多数以太坊合约基础设施 Metamask， Remix 等。不同于 Crab 测试网络，为了方便测试合约, 合约开发者可以免费申请获取一定数量的 Pring。
 
 需要测试币的开发者，可以在 [Darwinia Element](https://app.element.io/?pk_vid=6961ca0f7c45f8bf16052310122d2437#/room/#darwinia:matrix.org) 中与相关工作人员联系。
 
@@ -23,8 +23,8 @@ Pangolin 测试网络是 Darwinia 团队最近开放的一个测试网络，代�
 配置项说明：
 
 - 网络名称：`Pangolin`
-- RPC URL: `t1.hkg.itering.com:9933`
-- 链 ID： `32`
+- RPC URL: `http://t1.hkg.itering.com:9933`
+- 链 ID： `43`
 - 符号： `Pring`
 
 单击保存，pangolin 网络便添加成功。之后就可以使用 matamask 来进行 evm address 之间的转账，合约部署等。
