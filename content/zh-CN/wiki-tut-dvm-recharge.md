@@ -36,7 +36,7 @@ Apps 是 Darwinia 官方提供的工具包集合，切换到 Pangolin 网络的�
 
 ![增加 apps 支持](assets/wiki-tut-dvm-recharge-03.png)
 
-> 注： 如果提示 websocket unsecurty warn. 请修改 chrome 配置，设置 - 不安全的内容 -允许
+> 注： 如果提示 websocket unsecurity warn. 请修改 chrome 配置，设置 - 不安全的内容 -允许
 
 ## EVM 地址充值
 
@@ -51,8 +51,8 @@ Apps 是 Darwinia 官方提供的工具包集合，切换到 Pangolin 网络的�
 
 在 【apps】-【工具箱】-【DVM 地址】 里输入 evm address，将会生成对应的 substrate address，该地址将代表 evm address 接收 Pring.
 
-![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
 
+![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
 `0xAa01a1bEF0557fa9625581a293F3AA7770192632` 对应的 substrate address 为 `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`
 
 
