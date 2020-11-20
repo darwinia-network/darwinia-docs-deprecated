@@ -19,6 +19,15 @@ $ npm init --yes
 $ npm install --save web3
 ```
 
+3. 项目初始化之后，文件布局如下：
+
+```sh
+$ ls transaction/
+balance.js  node_modules/  package.json  package-lock.json  transaction.js
+```
+
+> 注： 示例使用 web3 工具，默认地址为 http://localhost:9933，如果您的目标网络为 Pangolin Network，请修改为 http://t1.hkg.itering.com:9933。
+
 ## 查询余额
 
 ```js
