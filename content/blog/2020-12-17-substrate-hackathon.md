@@ -49,9 +49,9 @@ Day 2 下午 15:00，Phala、Darwinia、Acala、Bandot、Opensquare、litentry �
 
 ### 内容安排
 
-![](assets/substrate-hackathon-3.png)
+![](assets/substrate-hackathon-3.jpg)
 
-![](assets/substrate-hackathon-4.jpeg)
+![](assets/substrate-hackathon-4.jpg)
 
 
 ## 参与 Substrate Hackathon 所需技能
@@ -64,7 +64,7 @@ Day 2 下午 15:00，Phala、Darwinia、Acala、Bandot、Opensquare、litentry �
 
 * **设计师**：UI / UX 等。
 
-![DoraHacks x 币安智能链 Defi Hackathon @ 北京](assets/substrate-hackathon-5.jpeg)
+![DoraHacks x 币安智能链 Defi Hackathon @ 北京](assets/substrate-hackathon-5.jpg)
 
 
 ## Substrate Hack 你将收获？
@@ -97,12 +97,12 @@ Substrate 是首个构建区块链的框架。这些区块链可以像 Polkadot 
 
 DoraHacks 是全球最活跃的极客组织和 Hackathon 组织者之一。Hackathon 是 Hacker 一起创造新产品、开发新技术的地方。
 
-![往期 DoraHacks 活动现场](assets/substrate-hackathon-6.png)
+![往期 DoraHacks 活动现场](assets/substrate-hackathon-6.jpg)
 
-![往期 Hacker Party 回顾](assets/substrate-hackathon-7.png)
+![往期 Hacker Party 回顾](assets/substrate-hackathon-7.jpg)
 
-![往期活动现场](assets/substrate-hackathon-8.jpeg)
+![往期活动现场](assets/substrate-hackathon-8.jpg)
 
-![](assets/substrate-hackathon-9.jpeg)
+![](assets/substrate-hackathon-9.jpg)
 
 ![](assets/substrate-hackathon-10.png)
