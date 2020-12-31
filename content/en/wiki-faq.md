@@ -605,13 +605,19 @@ RING is system token of Darwinia Network, the initial supply before Darwinia net
 
 
 * **Ethereum**
+  
   Spec: ERC20
+  
   Precision: 18
+
   Smart Contract Address（Ethereum): 0x9469d013805bffb7d3debe5e7839237e535ec483
 
 * **Tron**
+  
   Spec: TRC20
+
   Precision: 18
+
   Smart Contract Address（Tron): TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
 
 <hr />
@@ -621,13 +627,19 @@ RING is system token of Darwinia Network, the initial supply before Darwinia net
 KTON is the staking and governance credential of Darwinia Network, KTON can only obtained by locking RING for a fixed period, the initial supply is 0. KTON is mainly for advanced users, as an incentive to promise to hold RING for a long time.
 
 * **Ethereum**
+ 
   Spec: ERC20
+
   Precision: 18
+
   Smart Contract Address (Ethereum): 0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
 
 * **Tron**
+  
   Spec: TRC20
+
   Precision: 18
+
   Smart Contract Address (Tron): TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
 RING and KTON, similar to the relationship between spot and options (futures), through this dual-pass design, while encouraging long-term investors, it can reduce the risk of exchange manipulation of the network to a certain extent, and can effectively maintain network security Establish loyalty and create a beneficial governance system.
@@ -644,6 +656,8 @@ After the Darwinia main network is launched, a Token Bridge between the Darwinia
 
 
 Please contact us directly if you have questions or suggestions.
+
 Email: [support@darwinia.network](support@darwinia.network)
+
 Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork )
 
