@@ -8,7 +8,7 @@ To help the community get to know the Darwinia ecosystem quickly, we have broken
 
 We cannot express enough thanks to all Darwinia ambassadors for their continued support and encouragement, especially Megan, who has made an outstanding contribution to this document.
 
-If you have any more questions, please join us [here](https://t.me/DarwiniaNetwork) or direct them to [support@darwinia.network](support@darwinia.network).
+If you have any more questions, please join us [here](https://t.me/DarwiniaNetwork) or direct them to: support@darwinia.network
 
 ## GENERAL
 
@@ -76,7 +76,7 @@ For more details about us, please check here: [Itering IO](https://www.itering.i
 
 <hr />
 
-## Does Darwinia have a roadmap?
+### Does Darwinia have a roadmap?
 
 ![roadmap](assets/wiki-faq-roadmap.png)
 
@@ -140,9 +140,9 @@ RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will 
 
 ### I’m a developer. Where can I find some tools/resources？
 
-You can check out our:
+You can check out these materials below:
 
-* [Project Genepaper](https://darwinia.network.l2me.com/static/paper/Darwinia_Genepaper_EN.pdf)
+* [Genepaper](https://darwinia.network.l2me.com/static/paper/Darwinia_Genepaper_EN.pdf)
 
 * [Darwinia Network Github](https://github.com/darwinia-network)
 
@@ -156,14 +156,14 @@ Two programs have been set up for developers, the Grant Program and Bounty progr
 
 **Grant Program**
 
-Darwinia Grant will focus on funding the development of the Darwinia ecosystem, such as development of the Darwinia Network, development and maintenance of the Darwinia Appchain, and related theoretical research. Please check out detail [here](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md). 
+Darwinia Grant will focus on funding the development of the Darwinia ecosystem, such as development of the Darwinia Network, development and maintenance of the Darwinia Appchain, and related theoretical research. Please check out the [details](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md) here. 
 
 
 **Bounty Program**
 
-We will rate the issues in Darwinia and invite community developers to help with the fix. Community developers can get rewards after fixing the problem and being reviewed. The rewards for fixing different levels of issue will be different. Please check out detail [here](https://github.com/darwinia-network/collaboration/blob/master/bounty/README.md).
+We will rate the issues in Darwinia and invite community developers to help with the fix. Community developers can get rewards after fixing the problem and being reviewed. The rewards for fixing different levels of issue will be different. Please Please click [here](https://github.com/darwinia-network/collaboration/blob/master/bounty/README.md) to check more details. 
 
-You can also join the dev group for more latest details: [t.me/DarwiniaDev](https://t.me/DarwiniaDev)
+You can also join the [dev group](https://t.me/DarwiniaDev) for more latest details.
 
 <hr />
 
@@ -271,15 +271,7 @@ When users voluntarily lock their RING for some period between 1 month and 36 mo
 
 ### What is the total supply of KTON tokens?
 
-KTON token supply was initially zero and can only be minted when users lock their RING in the process of staking. It also has some deflationary mechanisms built-in: for example users who unlock their RING from staking early must pay back 3x the amount of KTON awarded to them initially and those KTON are burned.
-
-<hr />
-
-### What are cRING and cKTON?
-
-cRING and cKTON are the tokens of the Darwinia Crab network, and their parameters are consistent with the RING and KTON in the Darwinia mainnet. They use the same Staking mechanism and inflation model.
-
-Once the Darwinia main network is launched, a Token Bridge between Darwinia and Crab networks will be created to enable cRING and RING to be exchanged with each other at a ratio of 100 cRING = 1 RING.
+KTON token supply was initially zero and can only be minted when users lock their RING in the process of staking. It also has some deflationary mechanisms built-in.
 
 <hr />
 
@@ -307,7 +299,7 @@ KTON is mainly traded via decentralized exchanges such as Uniswap.  It can be al
 
 <hr />
 
-### Is the Darwinia network only used for video games?
+### Is the Darwinia network only used for blockchain games?
 
 Darwinia Network was originally designed to be the low-level cross-chain solution for Evolution Land, but evolved into an independent decentralized cross-chain infrastructure which now benefits the whole crypto industry.  Dapps from gaming, NFT to Defi, Stablecoin can all leverage Darwinia Networks bridge chain to upgrade themselves from single chain application to a multi-chain/cross-chain version.
 
@@ -334,14 +326,14 @@ The real token address are shown below, they are also published at [Native Token
 
 There are legitimate RING and KTON trading pairs on Uniswap but there are some fake tokens as well.  Please confirm and ensure the token addresses are correct according to the information below before swapping.
 
-**RING**: [https://uniswap.info/token/0x9469d013805bffb7d3debe5e7839237e535ec483](https://uniswap.info/token/0x9469d013805bffb7d3debe5e7839237e535ec483)
+* [**RING**](https://uniswap.info/token/0x9469d013805bffb7d3debe5e7839237e535ec483)
 
-**KTON**: [https://uniswap.info/token/0x9f284e1337a815fe77d2ff4ae46544645b20c5ff](https://uniswap.info/token/0x9f284e1337a815fe77d2ff4ae46544645b20c5ff)
+* [**KTON**](https://uniswap.info/token/0x9f284e1337a815fe77d2ff4ae46544645b20c5ff)
 
 
 RING is also available at Tron’s Justswap:
 
-**RING**: [https://justswap.io/#/scan/detail/TFCBjh9pt2sTWmJJRpbqyxfi5xW81xH4UR/TL175uyihLqQD656aFx3uhHYe1tyGkmXaW](https://justswap.io/#/scan/detail/TFCBjh9pt2sTWmJJRpbqyxfi5xW81xH4UR/TL175uyihLqQD656aFx3uhHYe1tyGkmXaW)
+* [**RING**](https://justswap.io/#/scan/detail/TFCBjh9pt2sTWmJJRpbqyxfi5xW81xH4UR/TL175uyihLqQD656aFx3uhHYe1tyGkmXaW)
 
 <hr />
 
@@ -372,41 +364,6 @@ Please check out [here](https://docs.darwinia.network/docs/en/wiki-us-tokens). Y
 
 <hr />
 
-### What is the Power?
-
-For users who participate in staking, the collective rights and interests obtained by bonding RING or KTON are called Power.
-
-<hr />
-
-### How to get Power and how to calculate the amount of Power?
-
-Bonding RING or KTON tokens will give Power, whereby the bonded RING total amount and KTON total amount respectively correspond to 1/2 of the total amount of Power.
-
-* Total Power = 1 (Decimals: 10^9)
-* Power obtained by bonded RING = number of bonded RING / current total number of bonded RING * (total power / 2)
-* Power obtained by bonded KTON = number of bonded KTON / current total number of bonded KTON * (total number of Power / 2)
-
-<hr />
-
-### What is the power share？
-
-Power share is the percentage of Power held in Power total.Power share can reflect the influence on the entire network. The larger the Power share. The greater the Power share, the greater the influence of the decision made on the entire network.
-
-* Power share = Power held / Total Power * 100%
-
-<hr />
-
-### Why does my power share increase & reduce?
-
-The change of Power share depends on two factors:
-
-* Changes in the number of self bonded assets
-* Changes in the number of current network total bonded assets
-
-Therefore, if you find that the “Power share” has changed without any operation or variation of the self bonded assets, it is perfectly normal and may have occurred due to a change in the total number of bonded assets on the network.
-
-<hr />
-
 ### What's the difference between ChainX and Darwinia?
 
 We are both developing bridges, but ChainX's bridge operates under a federated custodial model where a group of nodes use multisig to manage the assets, mint, and redeem, and carries counterparty risk because it is semi-centralized. Sure is better than a fully centralized model, but there could still be collusion if assets' value is high enough.
@@ -433,16 +390,21 @@ If you have bonded any tokens while participating in council election, those tok
 
 ### How do I stake or lock RING to receive KTON?
 
-As per the Stonky guide:
+**As per the Stonky guide**:
 
-First go [here](https://darwinia.network/) and create a wallet on Darwinia. (Do not forget to switch to Darwinia mainnet. The crab is a testnet. Left upper corner of the wallet, click and switch it.)
+* First go [here](https://darwinia.network/) and create a wallet on Darwinia. (Do not forget to switch to Darwinia mainnet. The crab is a testnet. Left upper corner of the wallet, click and switch it.)
 
-Then go [here](https://wormhole.darwinia.network/) and click on Ethereum, then click on Cross-chain Transfer.
-Another screen will pop up, again select Cross-chain Transfer on this page. At that point metamask will pop up, and you can now transfer. Now paste your Darwinia address, select tokens you are transferring, select submit. Make sure to have 10 RING in metamask as well as a little ETH to pay the transfer fees.
+* Then go [here](https://wormhole.darwinia.network/) and click on Ethereum, then click on Cross-chain Transfer.
+  
+  ![](assets/wiki-faq-guide-1-en.png)
+
+* Another screen will pop up, again select Cross-chain Transfer on this page. At that point metamask will pop up, and you can now transfer. Now paste your Darwinia address, select tokens you are transferring, select submit. Make sure to have 10 RING in metamask as well as a little ETH to pay the transfer fees.
+  
+  ![](assets/wiki-faq-guide-2-en.png)
 
 (Don't be alarmed by your tokens takes a long time to show up in wallet, the ethereum network is congested. Expect 35min)
 
-In mainnnet wallet.
+**In mainnnet wallet**
 
 you need to bond them (leave a tiny bit out for fees) and nominate a validator. once you do that in the next era (about 24h) your amount is properly staked, and after one more era (24h more) you start receiving daily rewards.
 
@@ -460,7 +422,7 @@ The existing KTON in circulation were mined or generated within the game Evoluti
 
 <hr />
 
-## Mainnet Related
+## MAINNET RELATED
 
 ### What can we do in the "Genesis Generation" stage?
 
@@ -554,7 +516,7 @@ No. It can be transferred to the mainnet only after the second stage opened.
 
 ### How to get your Darwinia mainnet address?
 
-[Create Account](https://docs.darwinia.network/docs/en/wiki-tut-create-account)
+[Create account](https://docs.darwinia.network/docs/en/wiki-tut-create-account)
 
 <hr />
 
@@ -587,7 +549,7 @@ Inflation allocation: 50% to Validators, 50% to Treasury
 
 Transaction fee allocation: 20% to Validator, 80% to Treasury
 
-Note: When mainnet is finally launched, some parameters may be adjusted according to the actual
+*Note: When mainnet is finally launched, some parameters may be adjusted according to the actual*
 
 <hr />
 
@@ -601,7 +563,7 @@ When getting into the next era, that is up to 24 hours.
 
 ### RING
 
-RING is system token of Darwinia Network, the initial supply before Darwinia network mainnet release is 2 billion. Ordinary users only need to hold RING to participate in all operations of Darwinia Network
+RING is the native token of Darwinia Network.  It's used to pay for the GAS fee of the on-chain transactions and cross-chain services.  RING can be staked for staking rewards and obtaining voting power to participate in the governance.
 
 
 * **Ethereum**
@@ -624,7 +586,7 @@ RING is system token of Darwinia Network, the initial supply before Darwinia net
 
 ### KTON
 
-KTON is the staking and governance credential of Darwinia Network, KTON can only obtained by locking RING for a fixed period, the initial supply is 0. KTON is mainly for advanced users, as an incentive to promise to hold RING for a long time.
+KTON is a derivative commitment token of RING (Darwinia Network native token), which encourages long-term involvement. RING holders can voluntarily lock RING for 3–36 months and get KTON as rewards, compensating for the liquidity loss.  KTON can be staked for staking rewards and obtaining voting power to participate in the governance.
 
 * **Ethereum**
  
@@ -654,10 +616,11 @@ cRING and cKTON are the tokens of the Darwinia Crab network, and their parameter
 
 After the Darwinia main network is launched, a Token Bridge between the Darwinia main network and the Crab network will be created to enable cRING and RING to be exchanged with each other, with a conversion ratio of 100 cRING = 1 RING.
 
+<hr />
 
-Please contact us directly if you have questions or suggestions.
+**Please contact us directly if you have questions or suggestions.**
 
-Email: [support@darwinia.network](support@darwinia.network)
+Email: support@darwinia.network
 
-Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork )
+Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 
