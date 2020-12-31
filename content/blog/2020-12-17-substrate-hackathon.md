@@ -6,6 +6,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 ![](assets/substrate-hackathon-1.gif)
 
+<!--truncate-->
 
 2020 年 12 月 19 日 - 20 日，DoraHacks 在将**杭州**发起 Substrate Hackathon，这场 Hackathon 的主题是**「Substrate 与波卡生态的相关技术」**。活动将再次邀请 50 位区块链工程师、50 位前端工程师、全栈工程师和设计师，Hack Polkadot 波卡生态上的新产品。
 
