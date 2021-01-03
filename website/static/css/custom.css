@@ -57,6 +57,7 @@
     background: linear-gradient(315deg, #fe3876, #7c30dd 71%, #3a30dd);
     display: flex;
     align-items: center;
+    font-family: $myFont;
   }
   .fixedHeaderContainer .headerWrapper {
     flex: 1 1 auto;
@@ -78,49 +79,20 @@
   } */
   
   body {
-    font-family: $myFont;
     font-size: 1.2em;
     color: #333;
   }
+  
+  .homePageContainer {
+    font-family: $myFont;
+  }
 
   .docsContainer {
-    font-family: initial;
     font-size: 16px;
   }
-  .docsNavContainer {
-    font-family: initial;
-  }
-  .onPageNav {
-    font-family: initial;
-    font-size: 14px;
-  }
-  .onPageNav ul li {
-    font-size: 14px;
-  }
 
-  .docsContainer h1{
-    /* font-size: 50px; */
-  }
-
-  .docsContainer h2{
-    font-size: 30px;
-    margin: 1rem 0 .5rem;
-  }
-
-  .docsContainer h3{
-    font-size: 26px;
-    margin: .5rem 0;
-  }
   .docsContainer img {
     margin: 1rem 0;
-  }
-  
-  .toc .toggleNav .navGroup .navGroupSubcategoryTitle {
-    font-size: 100%;
-  }
-  
-  .toc .toggleNav .navGroup .navGroupCategoryTitle {
-    font-size: 100%;
   }
   
   .navItem {
@@ -160,29 +132,6 @@
     color: #3d30dd;
     padding: 3px 20px; */
   }
-  
-  .toc .toggleNav ul {
-    padding: 0px;
-    padding-right: 8px;
-  }
-  
-  .toc .toggleNav ul li a {
-    font-size: 90%;
-  }
-  
-  .toc .toggleNav .navGroup ul {
-    padding-left: 8px;
-  }
-  
-  .toc .toggleNav .navGroup .navListItem,
-  .subNavGroup {
-    padding-left: 8px;
-  }
-  
-  .navListItemActive {
-    background-color: #eee;
-  }
-  
   #languages-menu:focus {
     background: transparent;
   }
@@ -366,6 +315,7 @@
   /* footer */
   
   .nav-footer {
+    font-family: $myFont;
     background: #201550;
   }
   

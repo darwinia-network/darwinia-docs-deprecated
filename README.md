@@ -22,7 +22,7 @@ The wiki is automatically deployed to GitHub Pages via the Travis job on each ne
 
 # Internationalization
 
-Translated articles are stored in `content` folder under language folder.  If you are intereted in helping translating articles, you can submit pull request when you are done.
+Translated articles are stored in `content` folder under language folder.  If you are interested in helping translating articles, you can submit pull request when you are done.
 
 License
 The Darwinia Network is licensed under the GPL-3.0 free software license.
