@@ -126,7 +126,7 @@ The initial supply of KTON is 0, and it can only be obtained by locking RING. Th
   - Symbol：KTON
   - Precision：18
   - Ethereum Contract：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-  - TRON Contract：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+  - TRON Contract：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
 KTON Supply API：https://api.darwinia.network/supply/kton
 

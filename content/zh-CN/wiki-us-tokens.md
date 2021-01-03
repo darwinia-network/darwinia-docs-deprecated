@@ -125,7 +125,7 @@ KTON 的初始供应量为零，只能通过系统中锁定 RING 获得，没有
   - 符号：KTON
   - 精度：18
   - Ethereum网络：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-  - TRON网络：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+  - TRON网络：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
 KTON Supply API：https://api.darwinia.network/supply/kton
 
