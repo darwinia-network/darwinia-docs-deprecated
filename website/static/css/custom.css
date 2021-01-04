@@ -309,7 +309,7 @@
     width: 100%;
     height: 100%;
   }
-  .gridBlock .threeByGridBlock .post article div span p:last-child{
+  .gridBlock .threeByGridBlock .post article >div span p+p{
     display: none;
   }
   /* footer */
