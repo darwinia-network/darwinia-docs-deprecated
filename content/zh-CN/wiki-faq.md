@@ -5,11 +5,12 @@ sidebar_label: 常见问题
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-misc-faq.md
 ---
 
-此文档搜集整理了达尔文社区被经常问到的关于：通用、开发、通证持有者、社区建设和主网上线等六个方面问题。感谢大家的阅读！
+此文档搜集整理了达尔文社区被经常问到的关于：通用，开发，通证持有者，社区建设和主网上线等六个方面问题。感谢大家的阅读！
 
 再次感谢达尔文大使们一直以来的支持和鼓励，特别是 Megan，为文档英文版本的校对做出了突出贡献。
 
-如果你还有其他问题，请点击[这里](https://t.me/DarwiniaNetwork)加入我们，或发送你的问题到邮件：[support@darwinia.network](support@darwinia.network)
+如果你还有其他问题，请关注微信公众号「DARWINIA」，或发送你的问题到邮件：support@darwinia.network
+
 
 ## 通用
 
@@ -624,4 +625,4 @@ cRING 和 cKTO 是存在于 Crab 先行网上的通证，其各种参数和主�
 
 邮箱：[support@darwinia.network](support@darwinia.network)
 
-电报：[t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork )
+电报：[t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)

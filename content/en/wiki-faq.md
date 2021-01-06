@@ -31,7 +31,7 @@ First and foremost, hello and welcome to the Darwinia Network Community! Darwini
 
 **Web Forum**: [https://talk.darwinia.network/](https://talk.darwinia.network/)
 
-**Whitepaper**: [https://evolution.l2me.com/darwinia/Darwinia_Genepaper_EN_200430.pdf](https://evolution.l2me.com/darwinia/Darwinia_Genepaper_EN_200430.pdf)
+**Whitepaper**: [https://darwinia.network/Darwinia_Genepaper_EN.pdf](https://darwinia.network/Darwinia_Genepaper_EN.pdf)
 
 **Dev Channel**: [https://t.me/DarwiniaDev](https://t.me/DarwiniaDev)
 
@@ -142,11 +142,11 @@ RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will 
 
 You can check out these materials below:
 
-* [Genepaper](https://darwinia.network.l2me.com/static/paper/Darwinia_Genepaper_EN.pdf)
+* [Genepaper](https://darwinia.network/Darwinia_Genepaper_EN.pdf)
 
 * [Darwinia Network Github](https://github.com/darwinia-network)
 
-* [White (Technical) paper](https://darwinia.network.l2me.com/static/paper/ChainRelay_Technical_Paper(Preview)_EN.pd)
+* [White (Technical) paper](https://darwinia.network/ChainRelay_Technical_Paper(Preview)_EN.pdf)
 
 <hr />
 

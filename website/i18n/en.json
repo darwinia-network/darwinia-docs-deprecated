@@ -177,8 +177,32 @@
         "title": "How to contribute",
         "sidebar_label": "How to contribute"
       },
+      "wiki-faq-community-building": {
+        "title": "COMMUNITY BUILDING",
+        "sidebar_label": "Community Building"
+      },
+      "wiki-faq-developers": {
+        "title": "DEVELOPERS",
+        "sidebar_label": "Developers"
+      },
+      "wiki-faq-general": {
+        "title": "GENERAL",
+        "sidebar_label": "General"
+      },
+      "wiki-faq-lexicon": {
+        "title": "LEXICON",
+        "sidebar_label": "Lexion"
+      },
+      "wiki-faq-mainnet-related": {
+        "title": "MAINNET RELATED",
+        "sidebar_label": "Mainnet Related"
+      },
+      "wiki-faq-token-holder-faq": {
+        "title": "TOKEN HOLDER FAQ",
+        "sidebar_label": "Token Holder FAQ"
+      },
       "wiki-faq": {
-        "title": "FAQ",
+        "title": "Darwinia Community Frequently Asked Questions",
         "sidebar_label": "FAQ"
       },
       "wiki-glossary": {
