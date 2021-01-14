@@ -41,36 +41,36 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 
 ### Overview
 
-| Type                         | RING Quantity | Proportion |
+|             Type             | RING Quantity | Proportion |
 | :--------------------------: | :-----------: | :--------: |
-| Total Supply                 | 2000M         | 100%       |
-| In Circulation_Individuals   | 29.2M         | 1.83%      |
-| In Circulation_Institutions  | 263.69M       | 16.58%     |
-| In Circulation_Staking Bound | 198.77M       | 12.50%     |
-| Long Term Lock               | 1508.34M      | 69.09%     |
+|         Total Supply         |     2000M     |    100%    |
+|  In Circulation_Individuals  |     29.2M     |   1.83%    |
+| In Circulation_Institutions  |    263.69M    |   16.58%   |
+| In Circulation_Staking Bound |    198.77M    |   12.50%   |
+|        Long Term Lock        |   1508.34M    |   69.09%   |
 
 ### By Network
 
-| Type                         | RING Quantity |
+|             Type             | RING Quantity |
 | :--------------------------: | :-----------: |
-| ETH Total Supply             | 1189.56M      |
-| In Circulation_Individuals   | 21.5M         |
-| In Circulation_Institutions  | 263.69M       |
-| In Circulation_Staking Bound | 195.30M       |
-| Long Term Lock               | 709.07M       |
+|       ETH Total Supply       |   1189.56M    |
+|  In Circulation_Individuals  |     21.5M     |
+| In Circulation_Institutions  |    263.69M    |
+| In Circulation_Staking Bound |    195.30M    |
+|        Long Term Lock        |    709.07M    |
 
-| Type                         | RING Quantity |
+|             Type             | RING Quantity |
 | :--------------------------: | :-----------: |
-| TRON Total Supply            | 401M          |
-| In Circulation_Total         | 7.7M          |
-| In Circulation_Staking Bound | 3.47M         |
-| Long Term Lock               | 389.83M       |
+|      TRON Total Supply       |     401M      |
+|     In Circulation_Total     |     7.7M      |
+| In Circulation_Staking Bound |     3.47M     |
+|        Long Term Lock        |    389.83M    |
 
-| Type                          | RING Quantity |
+|             Type              | RING Quantity |
 | :---------------------------: | :-----------: |
-| Darwinia Mainnet Total Supply | 400M          |
-| In Circulation                | 0M            |
-| Long Term Lock                | 400M          |
+| Darwinia Mainnet Total Supply |     400M      |
+|        In Circulation         |      0M       |
+|        Long Term Lock         |     400M      |
 
 ### Calculation:
 
@@ -111,7 +111,7 @@ According to the annual block reward limit and the block interval (in seconds), 
 
 The following table shows RING’s Annual development statistics:
 
-![Supply Table](assets/supply-table-en.png)
+![Supply Table](assets/wiki-us-tokens-supply-table-en.png)
 
 ## Appendix:
 
@@ -136,25 +136,25 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 
 1-36 variable integer months(30days) as the locking period are allowed.  See the following table of rewarded KTON amount according to locked period.
 
-| Month | KTON | Month | KTON | Month | KTON |
-| :--: | :------: | :--: | :------: | :--: | :------: |
-| 1    | 0.0761   | 7    | 0.5634   | 15   | 1.2842   |
-| 2    | 0.1522   | 8    | 0.6446   | 18   | 1.5736   |
-| 3    | 0.2335   | 9    | 0.7309   | 21   | 1.8832   |
-| 4    | 0.3096   | 10   | 0.8223   | 36   | 3.6446   |
-| 5    | 0.3959   | 11   | 0.9086   |      |          |
-| 6    | 0.4771   | 12   | 1        |      |          |
+| Month |  KTON  | Month |  KTON  | Month |  KTON  |
+| :---: | :----: | :---: | :----: | :---: | :----: |
+|   1   | 0.0761 |   7   | 0.5634 |  15   | 1.2842 |
+|   2   | 0.1522 |   8   | 0.6446 |  18   | 1.5736 |
+|   3   | 0.2335 |   9   | 0.7309 |  21   | 1.8832 |
+|   4   | 0.3096 |  10   | 0.8223 |  36   | 3.6446 |
+|   5   | 0.3959 |  11   | 0.9086 |       |        |
+|   6   | 0.4771 |  12   |   1    |       |        |
 
 ### Appendix 3: Locked RING (ERC-20)
 
 2021.2020.06.22-2021.05.22 Unlocking Plan（2020-05-22data）
 
-| Date       | Cumulative unlockable quantity before this time | Date       | Cumulative unlockable quantity before this time |
-|:----------:|:--------------------:|:----------:|:--------------------:|
-| 2020-06-22 | 15,963,300           | 2020-10-22 | 41,240,661           |
-| 2020-07-22 | 27,963,300           | 2020-12-22 | 41,260,661           |
-| 2020-08-22 | 29,040,661           | 2021-02-22 | 41,266,661           |
-| 2020-09-22 | 30,040,661           | 2021-05-22 | 41,270,761           |
+|    Date    | Cumulative unlockable quantity before this time |    Date    | Cumulative unlockable quantity before this time |
+| :--------: | :---------------------------------------------: | :--------: | :---------------------------------------------: |
+| 2020-06-22 |                   15,963,300                    | 2020-10-22 |                   41,240,661                    |
+| 2020-07-22 |                   27,963,300                    | 2020-12-22 |                   41,260,661                    |
+| 2020-08-22 |                   29,040,661                    | 2021-02-22 |                   41,266,661                    |
+| 2020-09-22 |                   30,040,661                    | 2021-05-22 |                   41,270,761                    |
 
 **Contract**  
 https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
@@ -163,11 +163,11 @@ https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x64
 
 2021.2020.06.22-2021.05.22 Unlocking Plan(2020-05-22data）
 
-| Date       | Cumulative unlockable quantity before this time |
-|:----------:|:--------------------:|
-| 2020-06-22 | 128,179              |
-| 2020-10-22 | 132,479              |
+|    Date    | Cumulative unlockable quantity before this time |
+| :--------: | :---------------------------------------------: |
+| 2020-06-22 |                     128,179                     |
+| 2020-10-22 |                     132,479                     |
 
 ### Appendix 5: WhitePaper
 
-https://evolution.l2me.com/darwinia/Darwinia_Genepaper_EN_200430.pdf
+https://darwinia.network/Darwinia_Genepaper_EN.pdf
