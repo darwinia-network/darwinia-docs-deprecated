@@ -145,7 +145,7 @@ There are other operations in staking for the following purposes:
 
 - `Stop nomination` Cancels all nominees.
 
-- `Bond` &`Bond more` Adds bonded tokens for staking to obtain more power.
+- `Bond` & `Bond more` Adds bonded tokens for staking to obtain more power.
 
 - `Unbond` Unbond tokens for staking, and at the same time the power will be reduced proportionally.
 
@@ -163,7 +163,7 @@ There are other operations in staking for the following purposes:
 
 - `Claim Reward` Manually claim the reward, and the reward will be distributed in units of era.
   
-- `bond more funds` Adds bonded tokens for staking to obtain more power.
+- `Bond more funds` Adds bonded tokens for staking to obtain more power.
   
 - `Unbond funds` Unbond tokens for staking, and at the same time the power will be reduced proportionally. 
   

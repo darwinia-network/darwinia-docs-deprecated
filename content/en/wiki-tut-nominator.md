@@ -77,13 +77,13 @@ or transfer `RING` away from your account. You can un-nominate at any time to st
 
 The tokens' statuses are following:
 
-- `available` The amount of tokens that are able to transfer, bond and transfer.
+- `Available` The amount of tokens that are able to transfer, bond and transfer.
 
-- `bonded` The amount of tokens that cannot operated directly but does not have lock limit, which is used to gain voting power and can be taken out at any time (with a 14-day unbonding period) or add lock limit.
+- `Bonded` The amount of tokens that cannot operated directly but does not have lock limit, which is used to gain voting power and can be taken out at any time (with a 14-day unbonding period) or add lock limit.
 
-- `locked` The amount of tokens that cannot be operated and has a lock limit, which is used to gain voting power and earn additional KTON rewards.
+- `Locked` The amount of tokens that cannot be operated and has a lock limit, which is used to gain voting power and earn additional KTON rewards.
 
-- `unbonding` The amount of tokens that has been unlocked but in the unbonding period.
+- `Unbonding` The amount of tokens that has been unlocked but in the unbonding period.
   
 <hr />
 
@@ -93,11 +93,11 @@ There are other operations in staking for the following purposes:
 
 ![nominate-8-en](assets/wiki-tut-nominator-8-en.png)
 
-- `Stop nomination` cancels all nominees.
+- `Stop nomination` Cancels all nominees.
 
-- `Bond` & `Bond more` adds bonded tokens for staking to obtain more power.
+- `Bond` & `Bond more` Adds bonded tokens for staking to obtain more power.
 
-- `Unbond` unbond tokens for staking, and at the same time the power will be reduced proportionally.
+- `Unbond` Unbond tokens for staking, and at the same time the power will be reduced proportionally.
   
 - `Lock Extra` Add lock limit for bonded tokens to obtain KTON rewards.
 
@@ -113,7 +113,7 @@ There are other operations in staking for the following purposes:
 
 - `Claim Reward` Manually claim the reward, and the reward will be distributed in units of era.
 
-- `bond more funds` Adds bonded tokens for staking to obtain more power.
+- `Bond more funds` Adds bonded tokens for staking to obtain more power.
 
 - `Unbond funds` Unbond tokens for staking, and at the same time the power will be reduced proportionally. 
 
