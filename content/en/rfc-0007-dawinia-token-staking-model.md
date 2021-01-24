@@ -22,7 +22,7 @@ The supply of RING on the Darwinia Network's mainnet is 2 billion. After that, t
 
 After the Darwinia mainnet is launched, the block reward for that year is adjusted once a year, and the block reward for the Nth year is `1-(99 /100)^sqrt(N)` of the remaining issuable supply.
 
-```english
+```angular2
 Total remaining issuable = total hard cap-current supply
 
 Supply in the next year = Supply in the previous year + Sum of actual block rewards for the year
@@ -32,7 +32,7 @@ The total hard cap of RING is 10 billion.
 
 According to the annual block reward and the block interval time (unit: second), the block reward for each block in the year can be calculated.
 
-```english
+```angular2
 Block reward for each block = block reward for the year × block generation interval ÷ total number of seconds per year (that is, 365 times 24 times 3600)
 ```
 
@@ -40,7 +40,7 @@ Block reward for each block = block reward for the year × block generation inte
 
 Darwinia's total revenue includes block rewards and Darwinia's transaction fees. Darwinia network transaction fees include network fees, cross-chain service pledge fees, application chain access fees, and related applications such as the income that Evolution Planet independently chooses to allocate to Darwinia Network. ![Revenue distribution](assets/rfc-en-reward.jpeg)
 
-```english
+```angular2
 Staking = system revenue × Y
 Treasury = system revenue × (1-Y)
 ```
@@ -193,7 +193,7 @@ When the Darwinia Network switches to the Polkadot connection mode, the Darwinia
 
 When the RING has sufficient liquidity in the future and there is a locked RING in the virtual bank, any player can mortgage enough (3 times) assets (such as ETH) to borrow from the virtual bank, but needs to pay kryptonite at the time of the loan Loan interest. After the user expires, he can return to the RING loaned out in exchange for mortgage assets.
 
-```english
+```angular2
 D(N, X, S) = R(N, X, S) * (Loan Multiple) The tentative loan multiple is 2
 ```
 
