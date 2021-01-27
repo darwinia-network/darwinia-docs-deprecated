@@ -359,7 +359,11 @@
 			"wp-home": {
 				"title": "深入理解达尔文网络",
 				"sidebar_label": "概述"
-			}
+			},
+			"wiki-tut-wormhole-d2e": {
+        "title": "达尔文 => 以太坊 桥",
+        "sidebar_label": "达尔文 => 以太坊 桥"
+      }
 		},
 		"links": {
 			"Home": "首页",
@@ -386,7 +390,8 @@
 			"Workshops": "专题讨论会",
 			"Architecture": "架构",
 			"Economics": "经济系统",
-			"Staking": "质押权益 Staking"
+			"Staking": "质押权益 Staking",
+			"Wormhole": "虫洞"
 		},
 		"title": "达尔文网络 知识库"
 	},
