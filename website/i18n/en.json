@@ -281,6 +281,10 @@
         "title": "Darwinia => Ethereum Bridge",
         "sidebar_label": "Darwinia => Ethereum Bridge"
       },
+      "wiki-tut-wormhole-e2d": {
+        "title": "Ethereum => Darwinia Bridge",
+        "sidebar_label": "Ethereum => Darwinia Bridge"
+      },
       "wiki-us-appchain-sdk": {
         "title": "Appchain SDK",
         "sidebar_label": "Appchain SDK"
