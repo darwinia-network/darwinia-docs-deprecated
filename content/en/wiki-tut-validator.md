@@ -137,7 +137,7 @@ The result is what you need when setting the session key.
 
 <hr />
 
-## Other operations
+## Other Staking operations
 
 There are other operations in staking for the following purposes:
 
@@ -149,11 +149,9 @@ There are other operations in staking for the following purposes:
 
 - `Unbond` Unbond tokens for staking, and at the same time the power will be reduced proportionally.
 
-- `Lock Extra` Add lock limit for bonded tokens to obtain KTON rewards.
-
   > The 14-day bond period is required to unbond. Tokens that are in the bond period cannot be operated. Please be careful.
 
-- `Reward history` Go to SUBSCAN explorer to view historical reward records
+- `Reward history` Go to SUBSCAN explorer to view historical reward records.
 
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
@@ -167,9 +165,17 @@ There are other operations in staking for the following purposes:
   
 - `Unbond funds` Unbond tokens for staking, and at the same time the power will be reduced proportionally. 
   
+- `Lock Extra` Add lock limit for bonded tokens to obtain KTON rewards.
+  
+- `Rebond funds` Rebond the unbonding funds to earn power.
+
 - `Change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
   
 - `Change reward destination` Change the destination account for any payment as either a nominator or validator.
+  
+- `Set nominees` Re-nominate validator.
+  
+- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. 
   
 - `Set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
 
