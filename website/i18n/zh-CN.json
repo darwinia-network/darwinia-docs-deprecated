@@ -367,6 +367,10 @@
 			"wiki-tut-wormhole-e2d": {
         "title": "以太坊 => 达尔文 桥",
         "sidebar_label": "以太坊 => 达尔文 桥"
+			},
+			"wiki-tut-wormhole-general": {
+        "title": "简介",
+        "sidebar_label": "简介"
       }
 		},
 		"links": {
