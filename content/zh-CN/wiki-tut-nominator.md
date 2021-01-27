@@ -91,7 +91,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 其他 Staking 操作
 
-staking 还有一些其他操作，感兴趣的朋友，可以自行探索，列举如下：
+Staking 还有一些其他操作，感兴趣的朋友，可以自行探索，列举如下：
 
 ![wiki-tut-nominator-8](assets/wiki-tut-nominator-8-cn.png)
 
@@ -100,9 +100,7 @@ staking 还有一些其他操作，感兴趣的朋友，可以自行探索，列
   - `质押`  增加 staking 冻结的代币，用来获得更多的票权（power）。
 
   - `解除质押` 解冻 staking 的代币，与此同时票权（power）也会按比例减少。
-
-  - `增加锁定期限` 将冻结的 staking 代币锁定，并选择锁定期限，可以获得额外的氪石奖励。
-
+  
      > 取消抵押需要 14 天的解冻期，处于解冻期内的代币不能进行任何操作，请谨慎处理。
 
   - `收益历史` 去 SUBSCAN 浏览器查看历史收益记录
@@ -118,6 +116,10 @@ staking 还有一些其他操作，感兴趣的朋友，可以自行探索，列
   - `质押更多资金` 增加 staking 冻结的代币，用来获得更多的票权（power）。
 
   - `解除质押资金` 解冻 staking 的代币，与此同时票权（power）也会按比例减少。
+
+  - `冻结转锁定` 将冻结的 staking 代币锁定，并选择锁定期限，可以获得额外的氪石奖励。
+
+  - `撤销解冻` 将解冻中的资产重新冻结以恢复票权（power）。
 
   - `更改控制账户` 更改用于管理 staking 其他操作的账号，如参与投票、参与验证等。
 
