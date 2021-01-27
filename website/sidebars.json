@@ -80,7 +80,14 @@
 			"wiki-tut-governance",
 			"wiki-tut-dvm-recharge",
 			"wiki-tut-dvm-use-web3-transaction",
-			"wiki-tut-dvm-use-web3-contract"
+			"wiki-tut-dvm-use-web3-contract",
+			{
+				"type": "subcategory",
+				"label": "Wormhole",
+				"ids": [
+					"wiki-tut-wormhole-d2e"
+				]
+			}
 		],
 		"RFCs": [
 			"wiki-rfc-index",
