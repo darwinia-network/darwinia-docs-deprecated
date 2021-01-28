@@ -7,7 +7,7 @@ sidebar_label: Darwinia => Ethereum Bridge
 
 [Darwinia Wormhole](https://wormhole.darwinia.network/) is a cross-chain transfer tool developed based on the Darwinia Cross-Chain Bridge. Currently, several cross-chain bridges have been opened, and more bridges are under development. Users can choose cross-chain bridges to transact by their local wallet according to their requirement. The entire cross-chain process is completely decentralized and traceable. Wormhole is equipped with Transfer Process and History function to facilitate fund management.
 
-## About 'Darwinia Network and Ethereum' Two-Way Bridge Open
+## About Darwinia => Ethereum Bridge 
 
 Based on the previous 'Ethereum to Darwinia Network Bridge', Wormhole will open the 'Darwnia Network to Ethereum' cross-chain transfer on January 28, 2021. Darwinia users can transfer their RING and KTON to Ethereum through the bridge. At this point, the milestone of two-way transfer between Ethereum and Darwinia is officially completed.
 
@@ -17,8 +17,8 @@ Based on the previous 'Ethereum to Darwinia Network Bridge', Wormhole will open 
 
 ### Preparation:
 
-1. Download Chrome
-2. Install the following plugin
+1. Download Chrome Browser
+2. Install the following extension
    [**Polkadot.js**](https://polkadot.js.org/extension/)
 
    **MetaMask wallet**: [Download link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
@@ -93,7 +93,7 @@ The details of the two steps are following:
    >  - `Transaction sent successfully` 6-12 s
    >  - `Darwinia Network confirmation` ~ 1 min
    >  - `Block bridge connected successfully` 30s -60s
-   >  - `Ethereum confirmation` 取决于用户领取支付的Gas费高低
+   >  - `Ethereum confirmation` It depends on the gas fee paid by the user
 
 
 3. After 'Receive' button is lit, click the button and Metamask will pop-up. Then, enter the password to complete receiving process.
