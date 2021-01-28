@@ -1,7 +1,7 @@
 ---
 id: wiki-tut-wormhole-d2e
-title: Darwinia => Ethereum Bridge
-sidebar_label: Darwinia => Ethereum Bridge
+title: Darwinia -> Ethereum Bridge
+sidebar_label: Darwinia -> Ethereum Bridge
 ---
 ## About Wormhole
 
@@ -9,7 +9,7 @@ sidebar_label: Darwinia => Ethereum Bridge
 
 <hr />
 
-## About Darwinia => Ethereum Bridge 
+## About Darwinia -> Ethereum Bridge 
 
 Based on the previous 'Ethereum to Darwinia Network Bridge', Wormhole will open the 'Darwnia Network to Ethereum' cross-chain transfer on January 28, 2021. Darwinia users can transfer their RING and KTON to Ethereum through the bridge. At this point, the milestone of two-way transfer between Ethereum and Darwinia is officially completed.
 
