@@ -6,48 +6,53 @@ sidebar_label: 达尔文 => 以太坊 桥
 
 ## 关于虫洞
 
-[达尔文虫洞（Darwinia Wormhole）](https://wormhole.darwinia.network/)是基于 darwinia 跨链桥开发的跨链转账工具，支持多链多向转账。目前已开通多条跨链桥，更多跨链桥正在开发中···
+[达尔文虫洞（Darwinia Wormhole）](https://wormhole.darwinia.network/)是基于 darwinia 跨链桥开发的跨链转账工具，支持多链多向转账。目前已开通多条跨链桥，更多跨链桥正在开发中。
+
 用户可以根据自己的需要选择跨链桥，通过本地钱包授权交易完成跨链操作。跨链的整个流程完全去中心化，数据链上可查。本应用配备了转账进度、历史记录等功能，方便用户的资金管理。
 
+<hr />
 
-## 关于「达尔文网络 至 以太坊主网」 双向桥开通
+## 关于「达尔文网络至以太坊主网」双向桥开通
 
-在先前「以太坊主网 至 达尔文网络」的基础上，虫洞将于2021-01-28日开通 「达尔文网络 至 以太坊主网」的跨链转账，达尔文网络用户可以通过达尔文桥接网络将 **RING & KTON** 跨链转账到以太坊主网。至此，以太坊主网和达尔文网络之间的双向转账里程碑正式完成。
+在先前「以太坊主网至达尔文网络」的基础上，虫洞将于 2021-01-28 开通「达尔文网络至以太坊主网」的跨链转账，达尔文网络用户可以通过达尔文桥接网络将 **RING & KTON** 跨链转账到以太坊主网。至此，以太坊主网和达尔文网络之间的双向转账里程碑正式完成。
 
+<hr />
 
-## 如何 从达尔文网络 向 以太坊主网转账
-
+## 如何从达尔文网络向以太坊主网转账
 
 ### 前期准备：
 
-首先需要使用Chrome浏览器，并安装下列插件：
+首先，需要使用 Chrome 浏览器，并安装下列插件：
 
-**Polkadot.js**：[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
+* **Polkadot.js**：[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
 
-**metamask 钱包**：[下载链接](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+* **MetaMask 钱包**：[下载链接](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 
 ### 跨链操作流程
 
 **达尔文跨链到以太坊主网操作分为两个步骤：**
 
-**1. 在达尔文网络上锁定通证（RING, KTON）**
+1. **在达尔文网络上锁定通证（RING, KTON）**
 
-**2. 在以太坊网络上领取通证（RING, KTON）**
+2. **在以太坊网络上领取通证（RING, KTON）**
 
-> 当前（2021-01-28）以太坊Gas费较高，跨链转账第二步骤需要发送一笔以太坊交易，预计消耗 600000 Gas (25 gwei约0.015 ether，50 gwei约0.03 ether， 100 gwei约0.06 ether)，所以不建议进行小额RING，KTON的跨链。
+> 当前（2021-01-28）以太坊 Gas 费较高，跨链转账第二步骤需要发送一笔以太坊交易，预计消耗 600000 Gas（25 gwei约 0.015 ether，50 gwei 约 0.03 ether， 100 gwei 约 0.06 ether），所以不建议进行小额 RING，KTON 的跨链。
 
-下面分别对2个步骤进行详细介绍。
+下面分别对 2 个步骤进行详细介绍。
+
+<hr />
 
 #### 通过 Wormhole 在达尔文网络锁定通证（RING, KTON）
 
 1. 进入 [虫洞 - Wormhole](https://wormhole.darwinia.network/)，在「首页」点击「Darwinia」星球后，页面会展示目前「Darwinia」网络出发，已开通的跨链桥。
-如图所示，点击「Ethereum」 星球下方的 「跨链转账」按钮，开启 **Darwinia -> Ethereum** 的跨链转账之旅。
+   
+   如图所示，点击「Ethereum」 星球下方的 「跨链转账」按钮，开启 **Darwinia -> Ethereum** 的跨链转账之旅。
 
     ![select option](assets/wormhole/wiki-tut-wormhole-d2e-001.jpg)
 
 
-2. 在「选择网络」栏切换至「Darwinia Network -> Ethereum」后，点击「跨链转账」。
+2. 在「选择网络」栏，切换至「Darwinia Network -> Ethereum」后，点击「跨链转账」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-002.jpg)
 
