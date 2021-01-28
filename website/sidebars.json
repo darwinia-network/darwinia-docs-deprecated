@@ -65,7 +65,16 @@
 					"wiki-us-staking-slash"
 				]
 			},
-			"wiki-us-bc-how",
+			{
+				"type": "subcategory",
+				"label": "Bridge",
+				"ids": [
+          "wiki-bridge-doctrine",
+					"wiki-bridge-d2e",
+					"wiki-bridge-e2d",
+          "wiki-bridge-security-mechanism"
+				]
+			},
 			"wiki-us-cryptography",
 			"wiki-us-governance",
 			"wiki-glossary"

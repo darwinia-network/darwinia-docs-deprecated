@@ -169,6 +169,26 @@
         "title": "Account Address",
         "sidebar_label": "Account Address"
       },
+      "wiki-bridge-d2e": {
+        "title": "The Darwinia to Ethereum Bridge",
+        "sidebar_label": "The D2E Bridge"
+      },
+      "wiki-bridge-doctrine": {
+        "title": "The Darwinia Bridge Doctrine",
+        "sidebar_label": "The Darwinia Bridge Doctrine"
+      },
+      "wiki-bridge-e2d": {
+        "title": "The Ethereum to Darwinia Bridge",
+        "sidebar_label": "The E2D Bridge"
+      },
+      "wiki-bridge-mechanism": {
+        "title": "How does Darwinia Bridge Chain work",
+        "sidebar_label": "Bridge Chain Mechanism"
+      },
+      "wiki-bridge-security-mechanism": {
+        "title": "Security Mechanism",
+        "sidebar_label": "Security Mechanism"
+      },
       "wiki-community": {
         "title": "Community",
         "sidebar_label": "Community"
@@ -288,10 +308,6 @@
       "wiki-us-architecture": {
         "title": "Architecture",
         "sidebar_label": "Architecture"
-      },
-      "wiki-us-bc-how": {
-        "title": "How does Darwinia Bridge Chain work",
-        "sidebar_label": "Bridge Chain Mechanism"
       },
       "wiki-us-bridgechain": {
         "title": "Bridge Chain",

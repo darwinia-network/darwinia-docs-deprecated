@@ -296,9 +296,25 @@
 				"title": "系统架构",
 				"sidebar_label": "系统架构"
 			},
-			"wiki-us-bc-how": {
+			"wiki-bridge-mechanism": {
 				"title": "理解达尔文转接桥工作机制",
 				"sidebar_label": "转接桥工作机制"
+			},
+      "wiki-bridge-doctrine": {
+				"title": "达尔文桥的信条",
+				"sidebar_label": "达尔文桥的信条"
+			},
+      "wiki-bridge-d2e": {
+				"title": "D2E桥",
+				"sidebar_label": "D2E桥"
+			},
+      "wiki-bridge-e2d": {
+				"title": "E2D桥",
+				"sidebar_label": "E2D桥"
+			},
+      "wiki-bridge-security-mechanism": {
+				"title": "安全机制",
+				"sidebar_label": "安全机制"
 			},
 			"wiki-us-bridgechain": {
 				"title": "跨链转接桥网络",
