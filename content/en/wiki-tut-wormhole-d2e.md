@@ -1,27 +1,30 @@
 ---
 id: wiki-tut-wormhole-d2e
-title: Darwinia => Ethereum Bridge
-sidebar_label: Darwinia => Ethereum Bridge
+title: Darwinia -> Ethereum Bridge
+sidebar_label: Darwinia -> Ethereum Bridge
 ---
 ## About Wormhole
 
 [Darwinia Wormhole](https://wormhole.darwinia.network/) is a cross-chain transfer tool developed based on the Darwinia Cross-Chain Bridge. Currently, several cross-chain bridges have been opened, and more bridges are under development. Users can choose cross-chain bridges to transact by their local wallet according to their requirement. The entire cross-chain process is completely decentralized and traceable. Wormhole is equipped with Transfer Process and History function to facilitate fund management.
 
-## About Darwinia => Ethereum Bridge 
+<hr />
+
+## About Darwinia -> Ethereum Bridge 
 
 Based on the previous 'Ethereum to Darwinia Network Bridge', Wormhole will open the 'Darwnia Network to Ethereum' cross-chain transfer on January 28, 2021. Darwinia users can transfer their RING and KTON to Ethereum through the bridge. At this point, the milestone of two-way transfer between Ethereum and Darwinia is officially completed.
 
+<hr />
 
 ## How To Transfer
 
+### Preparation
 
-### Preparation:
+1. Download Chrome
+2. Install the following plugin
+   
+   * [**Polkadot.js**](https://polkadot.js.org/extension/)
 
-1. Download Chrome Browser
-2. Install the following extension
-   [**Polkadot.js**](https://polkadot.js.org/extension/)
-
-   **MetaMask wallet**: [Download link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+   * **MetaMask wallet**: [Download link](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 
 
@@ -29,13 +32,15 @@ Based on the previous 'Ethereum to Darwinia Network Bridge', Wormhole will open 
 
 **Darwinia cross-chain to Ethereum process is divided into two steps**:
 
-**1. Lock tokens (RING, KTON) on Darwinia Network**
+1. **Lock tokens (RING, KTON) on Darwinia Network**
 
-**2. Receive the tokens (RING, KTON) on the Ethereum**
+2. **Receive the tokens (RING, KTON) on the Ethereum**
    
    > Currently (January 28, 2021), Ethereum Gas Fee is relatively high. The second step of transfer requires sending an Ethereum transaction and approximately 600000 Gas (25 gwei about 0.015 ether, 50 gwei about 0.03 ether, 100 gwei about 0.06 ether). Thus, small amount transactions are not recommended.
 
 The details of the two steps are following:
+
+<hr />
 
 #### Lock tokens (RING, KTON) on Darwinia Network through Wormhole
 
@@ -71,6 +76,7 @@ The details of the two steps are following:
    
    ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-005-en.jpg)
 
+<hr />
 
 #### Receive tokens (RING, KTON) on Ethereum
 
