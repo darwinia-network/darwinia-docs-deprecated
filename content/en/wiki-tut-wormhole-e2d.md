@@ -4,58 +4,60 @@ title: Ethereum -> Darwinia Bridge
 sidebar_label: Ethereum -> Darwinia Bridge
 ---
 
-## 使用「以太坊 -> 达尔文」桥跨链转账的目的
+## Why cross-chain transfer
 
-主网上的资产可以用于参与 Staking，并且目前的收益率也比较高，但是在创世跨链后就没有办法转移更多资产到主网，不过现在开通了，持有以太坊古灵阁存单或者 Erc20 RING 和 KTON 的用户可以通过 Ethereum - Darwinia 单向桥跨链转账到主网。到达主网后就可以参与 Staking 来获得奖励了。
-
-下面我们来使用达尔文提供的工具来做一次 Ethereum - Darwinia 单向桥跨链转账。
-
-## 如何跨链转账
-
-1. 打开[虫洞（Wormhole）](https://wormhole.darwinia.network/)，点击 Ethereum，再点击「跨链转账」，进入跨链转账页面。
-
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001.jpg)
+The assets on the mainnet can be used to participate in staking, and the current ROE is relatively high. After the genesis cross-chain stage, there is no way to transfer more assets to the mainnet. But it can now be done with the Ethereum-Darwinia one-way bridge. The users who hold Gringotts deposit receipt or Ethereum erc20 ring and kton can transfer their assets to the mainnet through the Ethereum-Darwinia one-way bridge. After reaching the mainnet, you can participate in staking to get rewards.
 
 
-2. 在下拉框选择「Ethereum -> Darwinia Mainnet」，然后点击「跨链转账」。
+Let's use the tools provided by Darwinia to make an Ethereum-Darwinia one-way bridge cross-chain transfer.
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-002.jpg)
+<hr />
 
-    如果此时会弹出 Metamask 窗口提示连接 MetaMask，选择要转账的以太坊地址（确保上面有足够支付网络手续费的 ETH），点击「下一步」，然后点击「连接」。
+## How to Cross-chain Transfer
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-004.png)
+1. Open [Wormhole](https://wormhole.darwinia.network/) and click [Ethereum]
 
-3. 连接成功后，填入正确的「Darwinia 主网接收账号」（2 开头的地址），并选择要跨链转账的「资产类型」，填入转账「数量」。
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001-en.png)
+
+
+2. Then click the [Cross-chain Transfer] button under [Darwinia] to enter the cross-chain transfer page, select [Ethereum -> Darwinia Mainnet] in the drop-down box, and then click [Cross-chain Swap]. 
+
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-002-en.png)
+
+    At this time, a MetaMask window will pop up to prompt you to connect to MetaMask and select your ethereum address containing darwinia assets (make sure there is enough ETH to pay the network gas fee), click [Next], and then click [Connect]:
+
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-003-en.png)
+
+3. After successfully connecting to MetaMask,there will be a form displayed. Fill in the correct [Darwinia Network account] (address starting with 2), and select the [asset type], and fill in the transfer [Amount]. 
    
-   点击「授权」（第一次使用跨链桥时会有一次授权的步骤），在弹出的 MetaMask 窗口中点击确认。
+   ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-004-en.png)
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-003.jpg)
+   Click [Approve] ( When using the cross-chain bridge for the first time, there will be a [Approve] step), click [Confirm] in the pop-up Metamask window.
 
-4. 授权完成后，点击「提交」按钮，并在弹出的 MetaMask 窗口中点击确认，页面跳转到：
+4. After [Approve] is completed, click the “Submit” button, and click “Confirm” in the pop-up Metamask window, the page jumps to:
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-005.png)
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-005-en.png)
 
-5. 至此，跨链转账操作结束，接下来就是等待以太坊和达尔文上的交易确认。
+5. That’s all you need to do. And the next step is to wait for the transaction confirmation on Ethereum and Darwinia.
 
+<hr />
 
-## 查看跨链转账进度
+## View the transfer confirmation progress
 
-1. 点击「跨链记录」可以查看转账确认进度：
+1. Click [Cross-chain History] to view the transfer confirmation progress:
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-006.png)
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-006-en.png)
 
-2. 待 Darwinia 网络确认后，可以点击「查看交易」打开 Subscan 来查看这笔交易的详细信息
+2. After the Darwinia transaction confirmed, you can click [Txhash] to open subscan to view the details of the transaction:
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-007.png)
+    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-007-en.png)
 
-    ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-008.png)
-
-    我们可以看到，使用达尔文 Ethereum - Darwinia 单向桥跨链转账是一件非常简单轻松的事情。
+ We can see that using the Darwinia Ethereum-Darwinia one-way bridge to do cross-chain transfer is a very simple and easy thing.
     
 
 <hr />
 
-**如果碰到任何问题，欢迎联系我们！**
+**Please contact us directly if you have questions or suggestions.**
 
 Email: support@darwinia.network
 
