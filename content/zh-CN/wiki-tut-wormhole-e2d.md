@@ -10,6 +10,8 @@ sidebar_label: 「以太坊 -> 达尔文」桥
 
 下面我们来使用达尔文提供的工具来做一次 Ethereum - Darwinia 单向桥跨链转账。
 
+<hr />
+
 ## 如何跨链转账
 
 1. 打开[虫洞（Wormhole）](https://wormhole.darwinia.network/)，点击 Ethereum，再点击「跨链转账」，进入跨链转账页面。
@@ -37,6 +39,7 @@ sidebar_label: 「以太坊 -> 达尔文」桥
 
 5. 至此，跨链转账操作结束，接下来就是等待以太坊和达尔文上的交易确认。
 
+<hr />
 
 ## 查看跨链转账进度
 
