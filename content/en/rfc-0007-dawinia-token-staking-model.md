@@ -5,207 +5,208 @@ sidebar_label: 0007 Dawinia Token Staking Model
 custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/0007-dawinia-token-staking-model.md
 ---
 
-- 功能描述: 达尔文通证和Staking模型(Darwinia AppChain)
-- 开始时间: 2019-05-23
+- Function description: Darwinia Token and Staking model (Darwinia AppChain)
+- Start time: 2019-05-23
 - RFC PR: None
 - Github Issue: None
 
-# 概要
-这边设计稿介绍达尔文网络的通证和Staking模型。
+# Summary
 
+The design draft here introduces the token and staking model of Darwinia Network.
 
-# 原生资产
-RING是达尔文网络的原生资产，RING可以作为交易的燃料费。燃料费包括交易费用，合约执行费用，网络带宽费用，存储费用等等。
+# Native assets
 
-RING在达尔文网路主网上线时的供应量为20亿，之后将会通过出块奖励将新发行的RING分发Staking系统和Treasury。
+RING is the native asset of the Darwinia Network, and RING can be used as a fuel fee for transactions. Fuel costs include transaction costs, contract execution costs, network bandwidth costs, storage costs, and so on.
 
-在达尔文主网上线后，该年的出块奖励每年调整一次，第N年的块奖励为剩余可发行供应量的 `1 - (99 /100)^sqrt(N)`。
+The supply of RING on the Darwinia Network's mainnet is 2 billion. After that, the newly issued RING will be distributed to the Staking system and Treasury through block rewards.
 
-```
-剩余可发行总量 = 硬顶总量 - 当前供应量
-
-下一年的供应量 = 上一年的供应量 + 该年实际出块奖励总和
-
-```
-
-
-RING的硬顶总量为100亿。
-
-根据每年的出块奖励，和出块间隔时间(单位：秒)，可以算出这一年的每个块的出块奖励。
-
-```
-每个块的块奖励 = 该年出块奖励 × 出块间隔时间 ÷ 每年总秒数(即365乘24乘3600)
-```
-
-# 收益分配
-达尔网络总收入包括出块奖励和达尔文网络交易手续费。达尔文网络交易手续费包括网络手续费，跨链服务质押费用，应用链链的接入费用，以及相关应用比如进化星球自主选择分配给达尔文网络的收入。 ![收益分配](assets/rfc-en-reward.jpeg)
-```
-Staking = 系统收入 × Y
-Treasury = 系统收入 × (1 - Y)
-```
-
-Treasury主要用于支付系统提案预算，可能包括NFT挖矿或App挖矿等系统运营提案，Polkadot槽位竞价激励，或者用于生态开发者支持。
-
-备注: 系统Staking收益是达尔网络总收入的一个百分比Y(Y为系统参数)。 Staking 达尔文网络将会把主要收入作为激励分发给Staking的参与者。Staking的过程也可以理解为POS挖矿过程，挖矿者通过质押资产来获得Staking能量来进行POS挖矿。
-
-一般来说，用户可以通过质押基础资产RING来进行POS挖矿，如果用户开始取回Staking质押的RING，那么挖矿将停止，解除质押的RING将需要14天时间可以完全到账。
-
-Staking按照简单和复杂程度，可以分为基础版和专业版。
-
-![Staking流程](assets/rfc-en-staking_flow.jpeg)
-
-# 氪石(KTON)
-
-为了鼓励用户进行长期锁定和承诺投入，用户在Staking RING的过程中，可以承诺锁定RING 3 - 36个月，系统会给参与Staking的用户一个氪石的通证进行奖励，但在承诺锁定期间无法进行解锁RING操作(除非缴纳3倍的氪石罚金)。
-
-因此，用户在使用RING进行Staking过程中，可以选择承诺锁定RING一段时间来获得氪石。氪石的初始供应量为零，但主网上线前进化星球应用已经开始锁定RING获得氪石，因此主网上线时将会存在一定的氪石供应量。最早通过锁定RING获得氪石的设计出现在进化星球古灵阁银行，相关的介绍可以参考古灵阁氪石模型[5]。
-
-氪石可以用于质押获得Staking能量，所以同样也可以参与POS挖矿。用户通过质押氪石进行Staking，如果用户开始取回Staking质押的氪石，那么挖矿将停止，解除质押的氪石将需要14天时间可以完全到账。
-
-
-# Staking算力
-
-某账户的Staking算力代表此账户当前时间对Staking的贡献值大小，Staking算力可以类比为POW中的算力。每个账户的算力值由该账户中质押的RING和KTON资产来决定，一旦解除质押，相应的算力也将消失。
-
-账户的Staking算力比随其质押的资产多少不断变化，不能转移或者转账。Staking参与者可以通过修改投票支持的验证人，在不需要解锁质押的情况下，更改投票支持的验证人。
-
-算力值有可能还将在系统的治理和升级中扮演重要角色。(备注2)
-
-
-算力值占总算力值的比例称做算力占比。
+After the Darwinia mainnet is launched, the block reward for that year is adjusted once a year, and the block reward for the Nth year is `1-(99 /100)^sqrt(N)` of the remaining issuable supply.
 
 ```angular2
-算力 = 总算力值 × 算力占比
+Total remaining issuable = total hard cap-current supply
 
-该账户算力占比 = 算力占比(RING部分) + 算力占比(氪石部分)
+Supply in the next year = Supply in the previous year + Sum of actual block rewards for the year
 ```
 
+The total hard cap of RING is 10 billion.
 
-RING和氪石贡献的算力占比计算公式如下：
-```angular2
-算力占比(RING部分) = RING算力贡献比例 × 质押中的RING / RING质押的总数
-
-算力占比(氪石部分) = (1 - RING算力贡献比例) × 质押中的氪石 / 氪石质押总数
-```
-
-该账户的Staking收益公式如下：
-```angular2
-账户Staking收益 = (达尔网络总收入 × Y) × 账户算力占比
-```
-
-该账户的投票权重公式如下：
-```angular2
-账户投票权重 = 总投票权重 ×  账户算力占比
-```
-
-
-备注1:  RING算力贡献比例默认为0.5。
-
-备注2: 因为氪石可以转售给其他人，所以流动性的氪石可能无法完全代表长期承诺投入，只有承诺锁定和质押的”资产×天数”才能准确代表对达尔文网络的承诺投入。 Slash算法
-
-为了防止验证人进行攻击，或者出块不稳定，当攻击或者错误发生的时候，系统需要对验证人(包括投票人)质押的资产进行惩罚，惩罚的过程和机制就是Slash算法。
-
-因为达尔文网络中实际存在RING和KTON两种质押资产，因此需要对Slash的算法进行一些补充说明。
-
-Staking系统中惩罚相关的参数将以百分比为单位，当Slash发生后，验证人或用户质押的资产将按照该百分比比例进行惩罚，无论其质押的资产是RING还是KTON。
-
-另外，在达尔文网路质押系统中，RING存在四种主要状态，账户余额、Staking中、锁定Staking中、解除质押中。因此存在两种质押状态的RING资产，即Staking中和锁定Staking中，并且锁定Staking状态的RING有可能存在不同的解锁到期时间。因此在Slash发生时，需要确定不同RING质押资产被Slash的先后顺序和优先级。Staking系统将按照解锁到期的时间先后顺序，优先Slash那些较早到期的质押资产，也就是先Slash不在锁定状态的质押资产，然后Slash那些解锁时间先到期的质押资产。
-
-
-# Staking模型设计解释
-
-达尔文网络将会把全部收入作为激励分发给Staking的参与者。
-
-达尔文网络的收入来源大体分为两种：
-
-- 出块奖励(BLOCK_REWARD)，每年的块奖励上限随时间会减少，通胀率将会随着时间快速收缩和降低。
-- 达尔文网络交易手续费(NETWORK_FEE)，包括开发者使用达尔文网络的跨链服务，达尔文网络平行链的接入费用，以及相关应用比如进化星球自主选择分配给达尔文网络的收入。
-
-因为Polkadot网络采用共享池安全的模型，所以处于Polkadot 连接模式时，平行链的安全性将由由中继链的验证人来保证，达尔文网络在此情况下不需要负责验证，只需要负责Collator即可。
-
-因此，达尔文网络的 Staking 在这两种模式下的安全激励也会有很大不同，具体如下。Solo 模式收入分配
-
-验证人和 KTON 持有者将会按照一个比例来分享进化星球的收入， KTON 持有者可以同时把自己的 KTON 投票给验证人，获取验证人部分的 Staking 激励。(Y为系统参数，将会通过KTON投票的治理机制来设定)
+According to the annual block reward and the block interval time (unit: second), the block reward for each block in the year can be calculated.
 
 ```angular2
-（锁定 KTON，全部 KTON, Treasury）= 
-
-[ (块奖励上限 ×氪石锁定率 + NETWORK_FEE)×X% ,  (块奖励上限 ×RING锁定率 + NETWORK_FEE)×Y%), (块奖励上限 + NETWORK_FEE) × (100-X-Y)% ]
+Block reward for each block = block reward for the year × block generation interval ÷ total number of seconds per year (that is, 365 times 24 times 3600)
 ```
 
-Polkadot 连接模式收入分配
+# Income Distribution
 
-当达尔文网络打算连接至Polkadot网络时，根据Polkadot Parachain Auction[4]的模型，达尔文中继链将需要锁定足够多的DOTs来参与Parachain Slots竞价，是否胜出只与锁定的DOTs多少有关，取决于当时的市场情况。为了获得足够的竞争力，达尔文网络将设计一种众筹锁定竞价机制，以激励达尔文社区参与者帮助竞价。 众筹锁定竞价
-
-Polkadot的Parachain Slot拍卖竞价允许任何类型的抽象账户参与竞价，包括普通地址账户，智能合约账户，平行链账户。这种广泛的抽象账户支持为参与竞价者提供了灵活性，可以设计各种去中心化的竞价模型。达尔文网络将为Polka连接模式设计一种通过众筹锁定DOT来参与Parachain Slots竞价的方式，众筹者不需要将DOT所有权进行转移，只需要将DOT锁定并提供锁定凭证，同时开放一定的投票或者竞价权限供达尔文中继链使用。参与竞价锁定的DOTs是安全的，因为整个过程是通过智能合约(或中继链)完成的，没有任何人可以控制这部分锁定的资产。
-
-当达尔文网络切换至Polkadot连接模式时，达尔文网络不再需要自己的验证人，原来用来激励KTON锁定者Staking的部分将会被用来奖励那些帮助达尔文网络进行DOT锁定竞价的参与者，也就是说，达尔文社区的DOT持有者将可以通过提供DOT竞价锁定凭证，获得RING网络收入奖励。
+Darwinia's total revenue includes block rewards and Darwinia's transaction fees. Darwinia network transaction fees include network fees, cross-chain service pledge fees, application chain access fees, and related applications such as the income that Evolution Planet independently chooses to allocate to Darwinia Network. ![Revenue distribution](assets/rfc-en-reward.jpeg)
 
 ```angular2
-（达尔文竞价锁定DOT，全部 KTON, Treasury）= 
-[ (块奖励上限 + NETWORK_FEE) × X% ,  (块奖励上限 × RING锁定率 + NETWORK_FEE) × Y% , (块奖励上限 + NETWORK_FEE) ×(100-X-Y)%) ]
+Staking = system revenue × Y
+Treasury = system revenue × (1-Y)
 ```
 
+Treasury is mainly used to pay for system proposal budgets, which may include system operation proposals such as NFT mining or App mining, Polkadot slot bidding incentives, or for ecological developer support.
 
-## 其他架构参考
+Note: The system staking income is a percentage Y of the total income of the Darwinia network (Y is a system parameter). Staking on Darwinia Network will distribute the main income as incentives to the participants of Staking. The staking process can also be understood as the POS mining process, where miners obtain staking energy by pledged assets to conduct POS mining.
 
-- [Cosmos Staking](https://blog.cosmos.network/economics-of-proof-of-stake-bridging-the-economic-system-of-old-into-the-new-age-of-blockchains-3f17824e91db)
+Generally speaking, users can staking the basic asset RING for POS mining. If the user takes out the pledged RINGs, mining will stop, and it will take 14 days for the staked RING to be fully credited to their account
+
+
+Staking can be divided into basic version and professional version according to its simplicity and complexity.
+
+![Staking process](assets/rfc-en-staking_flow.jpeg)
+
+# Kryptonite (KTON)
+
+In order to encourage users to lock in for a long time and commit to investment, users can promise to lock the RING for 1-36 months during the staking RING process. The system will reward users who participate in staking with a kryptonite token, but the user cannot, during the lock time period, unlock the RING (unless they pay 3 times the Kryptonite reward as fine)
+
+Therefore, when using RING for staking, users can choose to promise to lock RING for a period of time to obtain kryptonite. The initial supply of kryptonite is zero, but the mainnet launch of the Evolution Land application has begun to lock RING to obtain kryptonite, so there will be a certain supply of kryptonite when the mainnet is launched. The earliest design to obtain kryptonite by locking the RING was in the Evolution Land Gringotts Bank. For more information, please refer to the Gringotts Kryptonite Model [5].
+
+Kryptonite can be used to pledge to obtain staking energy, so it can also participate in POS mining. If the user takes out the pledged kryptonite, mining will stop, and it will take 14 days for the kryptonite to be fully credited to their account
+
+# Staking computing power
+
+The staking computing power of an account represents the contribution of the account to staking process at the current time, and the staking computing power can be analogous to the computing power in POW. The computing power value of each account is determined by the RING and KTON assets pledged in the account. Once the pledge is released, the corresponding computing power will disappear.
+
+The staking calculation power ratio of the account changes continuously with the amount of pledged assets, and cannot be transferred or sold. Staking participants can modify or completely change the validators that they vote for without unlocking the pledge.
+
+The computing power value may also play an important role in the governance and upgrade of the system. (Remark 2)
+
+The ratio of computing power to the total computing power is called the percentage of computing power.
+
+<!-- Please review the Formulae -->
+```angular2
+Computing power = total computing power × percentage of computing power
+
+The percentage of computing power in this account = percentage of computing power (RING part) + percentage of computing power (kryptonite part)
+```
+
+The calculation formula for the percentage of computing power contributed by RING and kryptonite are:
+
+```angular2
+Proportion of computing power (RING part) = RING computing power contribution ratio × RING pledged / total number of RING pledges
+
+Proportion of computing power (kryptonite part) = (1-RING computing power contribution ratio) × kryptonite in pledge / total kryptonite pledge
+```
+
+The staking income formula for an account is:
+
+```angular2
+Account Staking Income = (Total Revenue of Darwina Network × Y) × Proportion of Account Computing Power
+```
+
+The voting weight formula for an account is:
+
+```angular2
+Account voting weight = total voting weight × account computing power percentage
+```
+
+Note 1: The RING computing power contribution ratio is 0.5 by default.
+
+Note 2: Because kryptonite can be resold to others, liquid kryptonite may not fully represent the long-term commitment investment. Only the “asset × days” promised to lock and pledge can accurately represent the commitment investment to the Darwinia Network. 
+
+# Slash algorithm:
+
+In order to prevent the validator from attacking or generating unstable blocks, when an attack or error occurs, the system needs to punish the assets pledged by the validator (including voters nominating the validator). The punishment process and mechanism is called the Slash algorithm.
+
+Because there are actually two pledge assets of RING and KTON in the Darwinia Network, some supplementary explanations on the algorithm of Slash are needed.
+
+The penalty-related parameters in the staking system will be based on a percentage. When a slash occurs, the assets pledged by the validator or user will be punished according to this percentage, regardless of whether the pledged asset is RING or KTON.
+
+In addition, in the Darwinia network staking system, RING has four main states: account balance, staking, locked staking, and released. Therefore, there are two staking states of RING assets, namely staking and locked staking, and RINGs locked in staking state may have different unlocking expiration times. Therefore, when Slash occurs, it is necessary to determine the sequence and priority of different RING pledge assets being Slashed. The staking system will prioritize Slash's pledged assets that expire earlier, that is, Slash's pledged assets that are not in the locked state first, and *then* Slash those pledged assets whose unlocking time expires first.
+
+# Staking model design explanation
+
+The Darwinia Network will distribute all income as incentives to staking participants.
+
+The income sources of the Darwinia Network are roughly divided into two types:
+
+-Block reward (BLOCK_REWARD), the annual block reward upper limit will decrease over time, and the inflation rate will shrink and decrease rapidly over time.
+-Darwinia network transaction fee (NETWORK_FEE), including developers' use of the Darwinia network's cross-chain services, the access fee of the Darwinia network parachain, and related applications such as Evolution Land's independent selection of the income allocated to the Darwinia Network.
+
+Because the Polkadot network uses a shared pool security model, when in the Polkadot connection mode, the security of the parachain will be guaranteed by the verifier of the relay chain. In this case, the Darwinia network does not need to be responsible for verification, only the Collator will be.
+
+Therefore, the security incentives of Darwinia Network Staking in these two modes will also be very different, and are explained below:
+
+## Solo model income distribution
+
+Validators and KTON holders will share the income of the Evolution Land according to a ratio. KTON holders can vote for their KTON to the validator at the same time to obtain part of the validator's staking incentive. (Y is a system parameter, which will be set through the governance mechanism of KTON voting)
+
+```angular2
+(Lock KTON, all KTON, Treasury) = [(Block reward upper limit × kryptonite lock rate + NETWORK_FEE)×X%, (block reward upper limit × RING lock rate + NETWORK_FEE)×Y%, (block reward upper limit + NETWORK_FEE) × (100-X-Y)%]
+```
+
+## Polkadot connection mode income distribution
+
+When the Darwinia network intends to connect to the Polkadot network, according to the model of the Polkadot Parachain Auction [4], the Darwinia relay chain will need to lock enough DOTs to participate in the Parachain Slots auction. Whether it wins is only related to the number of locked DOTs, depending on the time. Market conditions. In order to gain sufficient competitiveness, Darwinia Networks will design a crowdfunding lock-in bidding mechanism to incentivize Darwinia community participants to help bidding.
+
+### Crowdfunding to lock in bids
+
+Polkadot's Parachain Slot auction bidding allows any type of abstract account to participate in the bidding, including ordinary address accounts, smart contract accounts, and parachain accounts. This extensive abstract account support provides flexibility for participating bidders to design various decentralized bidding models. Darwinia Networks will design a Polka connection mode to lock DOT through crowdfunding to participate in Parachain Slots bidding. Crowdfunders do not need to transfer DOT ownership, but only need to lock the DOT and provide the lock certificate, and open a certain vote for the bidding authority used by the Darwinia relay chain. The DOTs locked in bidding are safe, because the entire process is completed through smart contracts (or relay chains), and no one can control this part of the locked assets.
+
+When the Darwinia Network switches to the Polkadot connection mode, the Darwinia Network no longer needs its own validators. The part that was used to incentivize the Staking of KTON lockers will be used to reward those participants who help the Darwinia Network conduct DOT lock bidding, that is, It is said that DOT holders in the Darwinia community will be able to obtain RING network income rewards by providing DOT bidding and locking credentials.
+
+```angular2
+(Darwinia bidding locked in DOT, all KTON, Treasury) = [(Block reward upper limit + NETWORK_FEE) × X%, (block reward upper limit × RING lock rate + NETWORK_FEE) × Y%, (block reward upper limit + NETWORK_FEE) × (100-X-Y)%]
+```
+
+## Other architecture references
+
+- [Cosmos Staking](<https://blog.cosmos.network/economics-of-proof-of-stake-bridging-the-economic-system-of-old-into-the-new-age-of-blockchains-3f17824e91db>)
+
 - [Polkadot Staking](https://medium.com/polkadot-network/polkadot-proof-of-concept-4-arrives-with-new-ways-to-stake-3b27037346cc)
+
 - [Polkadot Parachain Slot Auction](https://wiki.polkadot.network/en/latest/polkadot/learn/auction/)
 
+# Reference and implementation
 
+## Code library
 
-# 参考和实现
+<https://github.com/darwinia-network/darwinia/tree/develop/srml/staking>
 
-## 代码库
+## Main features and innovations [WIP]
 
-https://github.com/darwinia-network/darwinia/tree/develop/srml/staking
+- Support seamless switching between Solo mode and Polkadot connection mode
+- Second-order staking model: locked kryptonite is equivalent to second-order locked RING
+- Kryptonite is generated based on the Gringotts Kryptonite interest algorithm, which encourages long-term lock-in and long-term investment
+- Tokenization of staking rights and voting rights, the locked kryptonite after staking is the voting right
 
-## 主要特性和创新[WIP]
+# Disadvantages
 
-- 支持Solo模式和波卡连接模式的无缝切换
-- 二阶Staking模型：锁定的氪石相当于二阶的锁定RING
-- 氪石是根据古灵阁氪石利息算法生成的，鼓励长期锁定和长期投入者
-- Staking权益和投票权的通证化，Staking后的锁定氪石即为投票权
+- Design changes: The liquidity model at the application level can adopt a scheme similar to the Uniswap model
 
+# Reason [WIP]
 
-# 缺点
+# Current technology
 
-- 设计变更: 应用层面的流动性模型可以采取类似Uniswap模型的方案
+- <https://github.com/evolutionlandorg/bank>
+- <https://github.com/evolutionlandorg/darwinia-appchain/tree/master/srml/token>
 
-# 理由[WIP]
-
-
-# 现有技术
-
-- https://github.com/evolutionlandorg/bank
-- https://github.com/evolutionlandorg/darwinia-appchain/tree/master/srml/token
-
-# 问题
+# Question
 
 [WIP]
 
 
-# 未来的可能性
+# Future possibilities
 
-### KTON虚拟银行未来商业拓展计划之贷款业务
+### The loan business of KTON Virtual Bank's future business expansion plan
 
-当未来RING有足够的流动性，且虚拟银行中有锁定的RING的时候，任何玩家可以通过抵押足够(3倍)的资产(例如ETH)，向虚拟银行贷款，但是需要在贷款时支付氪石贷款利息 D。用户到期后，可以返回借出的RING，换回抵押资产。
+When the RING has sufficient liquidity in the future and there is a locked RING in the virtual bank, any player can mortgage enough (3 times) assets (such as ETH) to borrow from the virtual bank, but needs to pay kryptonite at the time of the loan Loan interest. After the user expires, he can return to the RING loaned out in exchange for mortgage assets.
 
+```angular2
+D(N, X, S) = R(N, X, S) * (Loan Multiple) The tentative loan multiple is 2
 ```
-D(N, X, S) = R(N, X, S) * (贷款倍数) 暂定贷款倍数为2
-```
 
-借贷者缴纳的氪石贷款利息将会被虚拟银行销毁。
+The kryptonite loan interest paid by the borrower will be destroyed by the virtual bank.
 
-任何时候如果虚拟银行发现抵押不充足(平仓线，低于1.3倍)时，任何人可以通过平仓动作，支付RING给虚拟银行，换回锁定的抵押物。(这个部分设计可以参考MakerDAO)
+At any time, if the virtual bank finds that the collateral is insufficient (the liquidation line is lower than 1.3 times), anyone can use the liquidation action to pay the RING to the virtual bank in exchange for the locked collateral. (This part of the design can refer to MakerDAO)
 
-氪石将作为RING长期持有者和价值投资者的奖励，在系统重要投票和系统创始道具购买上扮演重要角色，例如某些保留的地块，只能用氪石购买。
+Kryptonite will serve as a reward for long-term RING holders and value investors, and will play an important role in the important voting of the system and the purchase of system founding items. For example, some reserved plots can only be purchased with kryptonite.
 
+# Reference
 
+- [1] [Evolution Planet Virtual Bank and Kryptonite](https://forum.evolution.land/topics/55)
 
-# 参考
+- [2] [Benefits of PoW](https://mp.weixin.qq.com/s/-Va8Q8I6zTtpNdJImkslrg)
 
-- [1] [进化星球虚拟银行和氪石](https://forum.evolution.land/topics/55)
-- [2] [PoW的好处](https://mp.weixin.qq.com/s/-Va8Q8I6zTtpNdJImkslrg)
-- [3] [年化利率](https://baike.baidu.com/item/%E5%B9%B4%E5%8C%96%E5%88%A9%E7%8E%87/5834305)
+- [3] [Annualized interest rate](<https://baike.baidu.com/item/%E5%B9%B4%E5%8C%96%E5%88%A9%E7%8E%87/5834305>)
