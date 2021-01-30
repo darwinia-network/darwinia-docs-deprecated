@@ -1,35 +1,37 @@
 ---
 id: wiki-tut-wormhole-e2d
-title: 以太坊 => 达尔文 桥
-sidebar_label: 以太坊 => 达尔文 桥
+title: 「以太坊 -> 达尔文」桥
+sidebar_label: 「以太坊 -> 达尔文」桥
 ---
 
-## 使用「以太坊 => 达尔文 桥」跨链转账的目的
+## 使用「以太坊 -> 达尔文」桥跨链转账的目的
 
-主网上的资产可以用于参与Staking，并且目前的收益率也比较高，但是在创世跨链后就没有办法转移更多资产到主网，不过现在开通了，持有以太坊古灵阁存单或者erc20 ring和kton的用户可以通过Ethereum-Darwinia单向桥跨链转账到主网。到达主网后就可以参与Staking来获得奖励了。
+主网上的资产可以用于参与 Staking，并且目前的收益率也比较高，但是在创世跨链后就没有办法转移更多资产到主网，不过现在开通了，持有以太坊古灵阁存单或者 Erc20 RING 和 KTON 的用户可以通过 Ethereum - Darwinia 单向桥跨链转账到主网。到达主网后就可以参与 Staking 来获得奖励了。
 
-下面我们来使用达尔文提供的工具来做一次Ethereum-Darwinia单向桥跨链转账。
+下面我们来使用达尔文提供的工具来做一次 Ethereum - Darwinia 单向桥跨链转账。
 
 ## 如何跨链转账
 
-1. 打开 [虫洞 - Wormhole](https://wormhole.darwinia.network/)，点击Ethereum，再点击「跨链转账」进入跨链转账页面。
+1. 打开[虫洞（Wormhole）](https://wormhole.darwinia.network/)，点击 Ethereum，再点击「跨链转账」，进入跨链转账页面。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001.jpg)
 
 
-2. 在下拉框选择"Ethereum -> Darwinia Mainnet"，然后点击「跨链转账」
+2. 在下拉框选择「Ethereum -> Darwinia Mainnet」，然后点击「跨链转账」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-002.jpg)
 
-    如果此时会弹出Metamask窗口提示你连接Metamask，选择要转账的以太坊地址（确保上面有足够支付网络手续费的ether），点击「下一步」，然后点击「连接」
+    如果此时会弹出 Metamask 窗口提示连接 MetaMask，选择要转账的以太坊地址（确保上面有足够支付网络手续费的 ETH），点击「下一步」，然后点击「连接」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-004.png)
 
-3. 连接成功后，填入正确的「Darwinia 主网接收账号」（2 开头的地址），并选择要跨链转账的「资产类型」，填入转账「数量」。点击「授权」（第一次使用跨链桥时会有一次授权的步骤），在弹出的 Metamask 窗口中点击确认。
+3. 连接成功后，填入正确的「Darwinia 主网接收账号」（2 开头的地址），并选择要跨链转账的「资产类型」，填入转账「数量」。
+   
+   点击「授权」（第一次使用跨链桥时会有一次授权的步骤），在弹出的 MetaMask 窗口中点击确认。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-003.jpg)
 
-4. 授权完成后，点击「提交」按钮，并在弹出的 Metamask 窗口中点击确认，页面跳转到：
+4. 授权完成后，点击「提交」按钮，并在弹出的 MetaMask 窗口中点击确认，页面跳转到：
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-005.png)
 
@@ -50,11 +52,12 @@ sidebar_label: 以太坊 => 达尔文 桥
 
     我们可以看到，使用达尔文 Ethereum - Darwinia 单向桥跨链转账是一件非常简单轻松的事情。
     
+
 <hr />
 
-**有任何问题可以直接联系我们**
+**如果碰到任何问题，欢迎联系我们！**
 
-邮箱: support@darwinia.network
+Email: support@darwinia.network
 
 Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 

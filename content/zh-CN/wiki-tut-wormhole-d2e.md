@@ -122,7 +122,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 <hr />
 
-**有任何问题可以直接联系我们**
+**如果碰到任何问题，欢迎联系我们！**
 
 邮箱: support@darwinia.network
 
