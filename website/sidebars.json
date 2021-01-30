@@ -85,6 +85,8 @@
 				"type": "subcategory",
 				"label": "Wormhole",
 				"ids": [
+					"wiki-tut-wormhole-general",
+					"wiki-tut-wormhole-e2d",
 					"wiki-tut-wormhole-d2e"
 				]
 			}
