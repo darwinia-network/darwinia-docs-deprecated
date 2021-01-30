@@ -1,10 +1,10 @@
 ---
 id: wiki-tut-wormhole-e2d
-title: Ethereum => Darwinia Bridge
-sidebar_label: Ethereum => Darwinia Bridge
+title: Ethereum -> Darwinia Bridge
+sidebar_label: Ethereum -> Darwinia Bridge
 ---
 
-## 使用「以太坊 => 达尔文 桥」跨链转账的目的
+## 使用「以太坊 -> 达尔文 桥」跨链转账的目的
 
 主网上的资产可以用于参与Staking，并且目前的收益率也比较高，但是在创世跨链后就没有办法转移更多资产到主网，不过现在开通了，持有以太坊古灵阁存单或者erc20 ring和kton的用户可以通过Ethereum-Darwinia单向桥跨链转账到主网。到达主网后就可以参与Staking来获得奖励了。
 
