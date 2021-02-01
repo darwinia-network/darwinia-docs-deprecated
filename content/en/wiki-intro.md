@@ -6,10 +6,13 @@ sidebar_label: Introduction
 
 ![Darwinia Banner](assets/darwinia-banner.png)
 
-Darwinia Network is a blockchain network based on Substrate[1] technology. 
+Darwinia Network is a decentralized cross-chain bridge network building on Substrate, which is the "Golden Gate Bridge" of the cross-chain ecology. It provides the safest general bridge solution, connecting Polkadot, Ethereum, TRON and other heterogeneous chains by cross-chain assets transfer and general remote chain call. Also, its main application areas include Defi, cross-chain NFT trading market, games, etc.
 
-Darwinia Network is part of the Polkadot ecosystem, and at the same time differentiated from Polkadot, Darwinia Network focuses on cross-chain token. 
+Darwinia Network has won a high reputation and recognition along the way to build the decentralized cross-chain bridge protocol. In 2020, Darwinia was written in Polkadot light-paper as one of the friends of Polkadot and Substrate. And Darwinia was also selected to joined Substrate Builder Program and Web3.0 Bootcamp, and in recognition of Darwinia Network’s outstanding performance in the Substrate Builder Program, Parity officially awarded the Level 2 badge to Darwinia.Products and tools developed by Darwinia won 3 W3F Grants. Polkadot Founder Gavin also highlighted Darwinia as “Projects to watch.”
 
-Blockchain Dapps can easily perform cross-chain token transactions and transfer through the Darwinia Network. For example, Cryptokitties can transform its NFT (Kitties) on the Ethereum into NFT on EOS through the Darwinia chain; players on the Ethereum and players on the EOS can play Evolution Land game simultaneously through the Darwinia Network. 
 
-At the same time, thanks to the Polkadot ecosystem, Darwinia Network can link to a wider range of games and players.
+Darwinia has been building a permissionless non-custodial bridge protocol, featuring efficiency, low cost, decentralization of cross-chain tokens and NFTs transfer, as well as other cross-chain operations.
+
+Darwinia bridge solution integrates technologies, including super-light client, zero-knowledge, and optimistic verification mechanisms.
+
+Darwinia bridge distinguishes from other bridges in terms of quality and how decentralized the bridge is, could carry high-value cross-chain asset transmission.

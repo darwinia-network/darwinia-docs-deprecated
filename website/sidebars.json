@@ -71,9 +71,15 @@
 			"wiki-glossary"
 		],
 		"Tutorials": [
-			"wiki-tut-create-account",
+			{
+				"type": "subcategory",
+				"label": "Darwinia Wallet",
+				"ids": [
+					"wiki-tut-create-account",
+					"wiki-tut-nominator"
+				]
+			},
 			"wiki-tut-staking",
-			"wiki-tut-nominator",
 			"wiki-tut-node",
 			"wiki-tut-validator",
 			"wiki-tut-relayer",
