@@ -282,8 +282,8 @@
         "sidebar_label": "Darwinia -> Ethereum Bridge"
       },
       "wiki-tut-wormhole-e2d": {
-        "title": "Ethereum => Darwinia Bridge",
-        "sidebar_label": "Ethereum => Darwinia Bridge"
+        "title": "Ethereum -> Darwinia Bridge",
+        "sidebar_label": "Ethereum -> Darwinia Bridge"
       },
       "wiki-tut-wormhole-general": {
         "title": "General",
