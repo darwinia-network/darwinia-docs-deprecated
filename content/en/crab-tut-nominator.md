@@ -15,11 +15,11 @@ sidebar_label: Become a nominator
 
 - Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
 
-![nominate-1-en](assets/nominate-1-en.png)
+  ![nominate-1-en](assets/nominate-1-en.png)
 
 - Fill in the staking parameters 
 
-![nominate-2-en](assets/nominate-2-en.png)
+  ![nominate-2-en](assets/nominate-2-en.png)
 
 - ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
 
@@ -37,71 +37,88 @@ sidebar_label: Become a nominator
 
 - After filling in the staking parameters, please click [bond] and [submit]
 
-![nominate-3-en](assets/nominate-3-en.png)
+  ![nominate-3-en](assets/nominate-3-en.png)
 
-
+<hr /> 
 
 ## Nominate a validator
 
+1. After completing the staking parameters, click [Nominate] on this page.
+   
+   ![nominate-4-en](assets/wiki-tut-nominator-4-en.png)
+
+     > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
+
+2. Choose your favorite validator.
+   
+   ![nominate-5-en](assets/wiki-tut-nominator-5-en.png)
 
 
-- After completing the staking parameters, click [Nominate] on this page
+3. Sign and submit
+   
+   ![nominate-6-en](assets/wiki-tut-nominator-6-en.png)
 
-![nominate-4-en](assets/nominate-4-en.png)
-> The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
+4. View information about nominated validators
+   
+   ![nominate-7-en](assets/wiki-tut-nominator-7-en.png)
 
+     > The operation of nominating validators will take effect from the next era, and it is normal to temporarily delay.
 
-- Choose your favorite validator
+<hr />
 
-![nominate-5-en](assets/nominate-5-en.png)
+## Tokens' statuses
 
+The tokens' statuses are following:
 
+- `Available` The amount of tokens that are able to transfer, bond and transfer.
 
-- Sign and submit
+- `Bonded` The amount of tokens that cannot operated directly but does not have lock limit, which is used to gain voting power and can be taken out at any time (with a 14-day unbonding period) or add lock limit.
 
-![nominate-6-en](assets/nominate-6-en.png)
+- `Locked` The amount of tokens that cannot be operated and has a lock limit, which is used to gain voting power and earn additional KTON rewards.
 
+- `Unbonding` The amount of tokens that has been unlocked but in the unbonding period.
+  
+<hr />
 
-
-- View information about nominated validators
-
-![nominate-7-en](assets/nominate-7-en.png)
-
-
-> The operation of nominating validators will take effect after the first epoch of the next era, and it is normal to temporarily delay.
-
-
-
-## Other operations
-
-
+## Other Staking operations
 
 There are other operations in staking for the following purposes:
 
+![nominate-8-en](assets/wiki-tut-nominator-8-en.png)
 
+- `Stop nomination` Cancels all nominees.
 
-![nominate-8-en](assets/nominate-8-en.png)
+- `Bond` & `Bond more` Adds bonded tokens for staking to obtain more power.
 
-
-
-- `Stop nomination` cancels all nominees.
-
-- `Bond` &`Bond more` adds bonded tokens for staking to obtain more power.
-
-- `Unbond` unbond tokens for staking, and at the same time the power will be reduced proportionally.
-
-  > The 14-day bond period is required to unbond. Tokens that are in the bond period cannot be operated. Please be careful.
-
+- `Unbond` Unbond tokens for staking, and at the same time the power will be reduced proportionally.
+  
+   > The 14-day bond period is required to unbond. Tokens that are in the bond period cannot be operated. Please be careful.
+  
 - `Reward history` Go to SUBSCAN explorer to view historical reward records
 
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
-  > Please note: 56 era (about 14 days) will be saved, and you will not be able to claim it if it expires.
+  > Please note: 56 era (about 56 days) will be saved, and you will not be able to claim it if it expires.
+
+![](assets/wiki-tut-nominator-9-en.png)
+
+- `Claim Reward` Manually claim the reward, and the reward will be distributed in units of era.
+
+- `Bond more funds` Adds bonded tokens for staking to obtain more power.
+
+- `Unbond funds` Unbond tokens for staking, and at the same time the power will be reduced proportionally. 
+  
+- `Lock extra` Add lock limit for bonded tokens to obtain KTON rewards.
+
+- `Rebond funds` Rebond the unbonding funds to earn power.
 
 - `Change controller account` Change the account  that will be used to control any nominating or validating actions. Should not match another stash or controller.
-- `Change reward destination` Change the destination account for any payment as either a nominator or validator.
-- `Set nominees` Re-nominate validator
-- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/zh-CN/crab-tut-validator)
-- `Set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
 
+- `Change reward destination` Change the destination account for any payment as either a nominator or validator.
+
+- `Set nominees` Re-nominate validator
+
+- `Change session key` If you want to upgrade to become a validator, you need to fill in this item. [How to become a validator](https://docs.darwinia.network/docs/en/wiki-tut-validator)
+
+- `Set on-chain identity` Set your personal information, such as display, legal name, email, website, twitter and riot. Other users can view this information and contact you.
 
