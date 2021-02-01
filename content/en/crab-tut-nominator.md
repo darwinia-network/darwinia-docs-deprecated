@@ -10,7 +10,6 @@ sidebar_label: Become a nominator
 > - A small amount of CRING must be prepared in  Darwinia-Crab Network's address as fee. If you have no CRING, please refer to: [How to get free CRING through faucet](https://docs.darwinia.network/docs/en/crab-tut-claim-cring)
 
 
-
 ## Start Staking
 
 - Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
@@ -21,19 +20,19 @@ sidebar_label: Become a nominator
 
   ![nominate-2-en](assets/nominate-2-en.png)
 
-- ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
+   - ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
 
-- `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
+   - `Controller account`  The controller is the account that will be used to control any nominating or validating actions. Should not match another stash or controller.
 
-    > The `Stash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
+      > The `Stash account` and` Controller account` can be set to the same account. If you hold more tokens or have higher security requirements, it is recommended to set up different accounts here.
 
-- `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
+   - `Value bonded` The total amount of the stash balance that will be at stake in any forthcoming rounds (should be less than the total amount available).  This part of the tokens will be temporarily bonded. bonding takes 14 days to unbond; you can choose to bond CRING or CKTON.
 
-- `Payment destination` The destination account for any payment as either a nominator or validator.
+   - `Payment destination` The destination account for any payment as either a nominator or validator.
 
-- `Bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
+   - `Bond period` Optional; bond CRING promise for 3-36 months to get additional CKTON rewards. (Promise to lock to accept user terms)
 
-    > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward (In the absence of sufficient CKTON, the CRING can not be used for payment of fines).
+      > If you unlock CRING in advance within the lock limit, you will be charged  a penalty of 3 times the CKTON reward (In the absence of sufficient CKTON, the CRING can not be used for payment of fines).
 
 - After filling in the staking parameters, please click [bond] and [submit]
 
