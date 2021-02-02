@@ -53,9 +53,9 @@ At present, some RING and KTON exist in the Ethereum network and the Tron networ
 
 <hr />
 
-### CRING and cKTON
+### CRING and CKTON
 
-CRING and cKTON are the tokens of the Darwinia Crab network, and their parameters are consistent with the RING and KTON in the Darwinia mainnet, and use the same Staking mechanism and inflation model.
+CRING and CKTON are the tokens of the Darwinia Crab network, and their parameters are consistent with the RING and KTON in the Darwinia mainnet, and use the same Staking mechanism and inflation model.
 
 After the Darwinia main network is launched, a Token Bridge between the Darwinia main network and the Crab network will be created to enable CRING and RING to be exchanged with each other, with a conversion ratio of 100 CRING = 1 RING.
 

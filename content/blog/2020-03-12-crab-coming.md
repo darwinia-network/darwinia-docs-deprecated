@@ -17,7 +17,7 @@ Darwinia Crab Testnet（简称 Crab网络）是Darwinia主网上线前的最后�
 1、Crab网络的定位类似于Polkadot的Kusama网络，Expect Chaos是一个合理的预期。
 2、Crab网络将被设计成一个长期运行的测试网络，但是无法排除会因为意外的情况或者故障导致其停止运行。
 3、Crab网络是一个测试网络，其目的主要是为了测试和进行各种激进的实验，因此运行在其上通证和资产除了实验和测试价值之外，没有其他的价值。
-4、Crab网络的通证分别为CRING和cKTON，参数与Darwinia主网一样，并使用相同的Staking机制和通胀模型。CRING的初始供应量为 2000M，cKTON的供应量为0。
+4、Crab网络的通证分别为CRING和CKTON，参数与Darwinia主网一样，并使用相同的Staking机制和通胀模型。CRING的初始供应量为 2000M，CKTON的供应量为0。
 
 **为了让Crab网络能够一定程度的模拟真实经济环境，Darwinia将计划：**
 

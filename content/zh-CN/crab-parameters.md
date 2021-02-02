@@ -17,7 +17,7 @@ sidebar_label: Crab 网络参数
 
 | Parameter               | Value                     | Description                                                                   |
 | ----------------------- | ------------------------- | ----------------------------------------------------------------------------- |
-| **Reaping Threshold**   | 0.1 CRING and 0.001 cKTON | The minimum balance required in the account to create or maintain an account. |
+| **Reaping Threshold**   | 0.1 CRING and 0.001 CKTON | The minimum balance required in the account to create or maintain an account. |
 | **Transaction Minimum** | 0                         | The Min. amount you can send to an Darwinia Address.                          |
 
 ## Identity

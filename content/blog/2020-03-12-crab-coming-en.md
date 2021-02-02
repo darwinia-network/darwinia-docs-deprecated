@@ -20,7 +20,7 @@ Darwinia Crab Testnet (Crab for short) is the last testnet before Darwinia Mainn
 
 3. Crab is a testnet. Its purpose is mainly to test and perform various radical experiments. Therefore, the tokens and assets running on it have no other value than the experimental and test value.
 
-4. Crab’s tokens are CRING and cKTON, with the same parameters as Darwinia Mainnet, and use the same Staking mechanism and inflation model. The initial supply of CRING is 2000M, and the supply of cKTON is 0.
+4. Crab’s tokens are CRING and CKTON, with the same parameters as Darwinia Mainnet, and use the same Staking mechanism and inflation model. The initial supply of CRING is 2000M, and the supply of CKTON is 0.
 
 **For Crab to simulate the real economic environment to a certain extent, Darwinia will plan:**
 
