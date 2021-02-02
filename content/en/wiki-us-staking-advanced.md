@@ -4,7 +4,7 @@ title: Advanced Staking
 sidebar_label: Advanced Staking
 ---
 
-### Kton
+### KTON
 
 To encourage users to make long term commitments and pledge, users can choose to lock RING for 3 - 36 months in the process of Staking, and the system will offer a KTON token as reward for users participating in Staking. During the committed pledge period, users cannot unlock their RING. (Unless they utilise triple the amount of KTON as penalty). 
 
