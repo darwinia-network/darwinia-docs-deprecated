@@ -1,10 +1,10 @@
 ---
 id: crab-tut-claim-cring
-title: How to claim free cRing
-sidebar_label: Claim cRing
+title: How to claim free CRING
+sidebar_label: Claim CRING
 ---
 
-Crab Tutorials: How to claim your free cRing
+Crab Tutorials: How to claim your free CRING
 
 ## Receiving condition
 
