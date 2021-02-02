@@ -48,7 +48,7 @@ You need to add RING/KTON to Metamask as a custom token. Please visit the Websit
 
 <hr />
 
-### What's the difference between Ring and KTON?
+### What's the difference between RING and KTON?
 
 RING = normal staking and currency for blockchain fees
 
@@ -112,7 +112,7 @@ Darwinia Network was originally designed to be the low-level cross-chain solutio
 
 <hr />
 
-### How do I transfer the Ring from my wallet into my Darwinia account?
+### How do I transfer the RING from my wallet into my Darwinia account?
 
 RING resides on various blockchain networks, currently it supports Ethereum and TRON.  Mainnet is coming soon.  If you mean transfer your ERC20 RING on Ethereum wallet to your Darwinia native wallet.  You will need to do a cross-chain transfer.  When mainnet is launched, the first decentralized bridge will be set up between Ethereum and Darwinia, you can do that at [https://wormhole.darwinia.network](https://wormhole.darwinia.network).
 

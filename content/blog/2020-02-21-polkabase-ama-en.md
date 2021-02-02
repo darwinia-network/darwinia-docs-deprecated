@@ -53,7 +53,7 @@ Besides, Darwinia also considers cross-chain NFT assets as the highest priority 
 
 **6.Great, so the gaming business is a part of the Darwinia applications. Darwinia may be the first Polkadot ecosystem project using Dual Tokens. Why should you use dual tokens? What are the advantages?**
 
-Great question. Although Darwinia has two tokens, RING and KTON, they are not a reciprocal relationship, but a primary and secondary relationship. KTON is essentially a derivative of RING. It is obtained by promising to lock RING for some time during the staking process. Therefore, Ring is the native token.
+Great question. Although Darwinia has two tokens, RING and KTON, they are not a reciprocal relationship, but a primary and secondary relationship. KTON is essentially a derivative of RING. It is obtained by promising to lock RING for some time during the staking process. Therefore, RING is the native token.
 
 RING is the native asset of the Darwinia Network and is the basic token that serves as a payment token and a fuel token. Fuel costs include transaction costs, contract execution costs, network bandwidth costs, and storage costs.
 
