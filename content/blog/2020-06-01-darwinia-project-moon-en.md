@@ -1,12 +1,12 @@
 ---
-title: Darwinia Project Moon, 100 Million cRING Grand Prize
+title: Darwinia Project Moon, 100 Million CRING Grand Prize
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---
 
 ![](assets/2020-06-01-darwinia-project-moon.png)
 
-**For this Grand Prix, Darwinia will provide 100 Million cRING rewards.** All rewards can be exchanged for the mainnet RING after the Darwinia Mainnet launched at the ratio of 100:1.
+**For this Grand Prix, Darwinia will provide 100 Million CRING rewards.** All rewards can be exchanged for the mainnet RING after the Darwinia Mainnet launched at the ratio of 100:1.
 
 <!--truncate-->
 
@@ -24,7 +24,7 @@ Crab Network (Crab for short) is a Canary Network for Darwinia. The positioning 
 
 After two weeks of internal testing, the Crab has been able to run stably. In order to allow more users/developers to participate in the operation of the Crab, **Darwinia decided to launch the Crab Node Grand Prix: Darwinia Project Moon.**
 
-**For this Grand Prix, Darwinia will provide 100 Million cRING rewards.** All rewards can be exchanged for the mainnet RING after the Darwinia Mainnet launched at the ratio of 100:1.
+**For this Grand Prix, Darwinia will provide 100 Million CRING rewards.** All rewards can be exchanged for the mainnet RING after the Darwinia Mainnet launched at the ratio of 100:1.
 
 # # Event Time
 
@@ -38,7 +38,7 @@ Run the Darwinia Crab node and invite community users to nominate your nodes.
 
 ## Nominate
 
-Get cRING at the faucet and participate in the Crab Network node nominating.
+Get CRING at the faucet and participate in the Crab Network node nominating.
 
 # # Event Rewards
 
@@ -46,23 +46,23 @@ Get cRING at the faucet and participate in the Crab Network node nominating.
 
 Darwinia will comprehensively evaluate and rank according to: 1. the number blocks produced by nodes 2. Times of dropped connections 3. Online Time
 
-1–5, reward 2,000,000 cRING / node
+1–5, reward 2,000,000 CRING / node
 
-5–10, reward 1,500,000 cRING / node
+5–10, reward 1,500,000 CRING / node
 
-11–40, reward 500,000 cRING / node
+11–40, reward 500,000 CRING / node
 
 ## **Reward 2**
 
-For nodes with the top 20 number of Nominators, will be awarded 500,000 cRING / node
+For nodes with the top 20 number of Nominators, will be awarded 500,000 CRING / node
 
 ## **Reward 3**
 
-Get cRING at the faucet and Nominate, you will share the rewards of 10,000,000 cRING
+Get CRING at the faucet and Nominate, you will share the rewards of 10,000,000 CRING
 
 ## **Reward 4**
 
-Darwinia will draw 5 lucky nodes everyday, rewarding 200,000 cRING / node
+Darwinia will draw 5 lucky nodes everyday, rewarding 200,000 CRING / node
 
 # # Tutorial
 
@@ -70,7 +70,7 @@ Darwinia will draw 5 lucky nodes everyday, rewarding 200,000 cRING / node
 
 > Attention:
 > \1. The format of the node name has to be “Name | The first 10 digits of Crab address”. E.g: Darwinia | 5E2hLjZMeV
-> \2. The address needs to have a balance, cRING can be got at the faucet.
+> \2. The address needs to have a balance, CRING can be got at the faucet.
 
 Running Crab nodes through official tutorials, requiring a certain technical foundation. Tutorial: https://docs.darwinia.network/docs/en/crab-tut-node
 
@@ -90,11 +90,11 @@ If you encounter any problems during this process, you can add Darwinia Telegram
 
 # # Event Description
 
-1. The nomination/voting address for reward 2 needs to get cRING at the faucet during the event, If cRING is transferred from another address, is invalid.
+1. The nomination/voting address for reward 2 needs to get CRING at the faucet during the event, If CRING is transferred from another address, is invalid.
 2. 5 lucky nodes will be announced every day, and the event rewards will be distributed together after the event.
 3. The address for receiving rewards has to be the Crab Network address., registration link: https://apps.darwinia.network/
 4. Nominator rewards will be distributed to the user’s voting address and the Validator rewards will be distributed to the Stash Account within 7 days after the event ends
-5. The reward for this event is cRING, which can be exchanged for the mainnet token RING at a ratio of 100: 1 after the Darwinia Mainnet launches.
+5. The reward for this event is CRING, which can be exchanged for the mainnet token RING at a ratio of 100: 1 after the Darwinia Mainnet launches.
 6. The final interpretation of this event belongs to “Darwinia”.
 
 # # Follow Us

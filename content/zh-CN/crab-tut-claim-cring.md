@@ -1,12 +1,12 @@
 ---
 id: crab-tut-claim-cring
-title: 如何领取空投的cRING
+title: 如何领取空投的CRING
 sidebar_label: 领取空投的CRING
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-claim-cring.md
 ---
 ## 领取条件
 
-Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** 和 **DOT (ERC-20)** 的持有者空投了Crab 网络的Token: cRING。  
+Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** 和 **DOT (ERC-20)** 的持有者空投了Crab 网络的Token: CRING。  
 
 空投将按快照时账号持有 RING（包括**RING余额**和**正在进行中的存单**）和 DOT 的数量进行投放，投放比例为：  
 - **1RING -> 1CRING**
@@ -38,13 +38,13 @@ Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** �
 
 ## 领取CRING空投
 
-1、通过 Chrome 浏览器或手机钱包，访问 cRING [领取工具](https://claim.darwinia.network/)
+1、通过 Chrome 浏览器或手机钱包，访问 CRING [领取工具](https://claim.darwinia.network/)
 
 2、选择想要查询的网络（以太坊/波场），点击【领取】。（下文以以太坊网络为例）
 
 ![04_claim_choosechain的副本](assets/04_claim_choosechain的副本.png)
 
-3、填写接受 cRING 的 Darwinia Crab 地址，确认无误后，点击【提交】。
+3、填写接受 CRING 的 Darwinia Crab 地址，确认无误后，点击【提交】。
 
 ![claim_submitaccount](assets/05_claim_submitaccount.png)
 

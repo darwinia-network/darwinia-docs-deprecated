@@ -13,5 +13,5 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 其他相关
 - 创建账户 [查看教程](crab-tut-create-account)
-- 通过水龙头获得免费的cRING [查看教程](crab-tut-get-free-cring)
-- 领取空投的cRING [查看教程](crab-tut-claim-cring)
+- 通过水龙头获得免费的CRING [查看教程](crab-tut-get-free-cring)
+- 领取空投的CRING [查看教程](crab-tut-claim-cring)

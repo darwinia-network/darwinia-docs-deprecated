@@ -24,7 +24,7 @@ Hot Talk：Polkadot 系列对话第二期，Darwinia CMO Bree 前来报道！「
 
 从19年开始，我们已经发布了三个版本的测试网络，最近我们上线了最后一版测试网Crab，定位类似于Kusama网络之于Polkadot。这个测试网络将会长久的运营，即使是主网上线之后也会保留，供开发者测试使用。
 
-Crab 网络初始供应量中一部分 cRING 将分发给 RING & DOT 的持有者，可以免费获得 cRING 空投。Darwinia 官方已于 2020年3月20日，对 RING & DOT 的持有者进行了快照，RING & DOT的持有者可在 Crab 网络上线后自行查询/领取。DOT 的空投比例：1 DOT = 50 cRING，RING 的空投比例：1 RING = 1 cRING。快照包含 ERC-20 和 TRC-20 的 RING，包括古灵阁中存单部分，KTON 不在此次快照范围。
+Crab 网络初始供应量中一部分 CRING 将分发给 RING & DOT 的持有者，可以免费获得 CRING 空投。Darwinia 官方已于 2020年3月20日，对 RING & DOT 的持有者进行了快照，RING & DOT的持有者可在 Crab 网络上线后自行查询/领取。DOT 的空投比例：1 DOT = 50 CRING，RING 的空投比例：1 RING = 1 CRING。快照包含 ERC-20 和 TRC-20 的 RING，包括古灵阁中存单部分，KTON 不在此次快照范围。
 
 另外Darwinia主网主要的功能已经开发完成，但还需要进行更多的安全审计和测试，此外，我们也在等待Substrate稳定下来，最终主网上线的时间应该会比Polkadot主网稍微晚一点。
 

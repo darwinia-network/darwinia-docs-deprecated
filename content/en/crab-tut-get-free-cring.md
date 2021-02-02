@@ -4,7 +4,7 @@ title: How to get free CRING through faucet
 sidebar_label: Get free CRING
 ---
 
-## Get Faucet (cRING)
+## Get Faucet (CRING)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ONhzQAK1X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -24,7 +24,7 @@ sidebar_label: Get free CRING
 2) Each crab address can only receive airdrop for `1` time 
 3) The address to receive the airdrop needs to be satisfied: the address contains the four letters `CRAB` (case sensitive).  
 4) The maximum daily distribution of airdrops is `500`, first come first served.  
-5) The number of each airdrop is a fixed value: `10` cRING.  
+5) The number of each airdrop is a fixed value: `10` CRING.  
 
 ## Generate a Vanity account with CRAB
 
