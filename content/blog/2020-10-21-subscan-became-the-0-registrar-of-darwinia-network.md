@@ -1,5 +1,5 @@
 ---
-title: SUBSCAN 成为 Darwinia 网络 #0 号身份注册商
+title: Subscan 成为 Darwinia 网络 #0 号身份注册商
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---

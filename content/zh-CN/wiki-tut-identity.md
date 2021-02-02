@@ -15,7 +15,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ![dev_identity_1](assets/dev_identity_1.png)
 > 注册费有可能发生变动，申请身份注册前建议查询当前费用，选择合适的注册商。
 
-- 方式2:SUBSCAN
+- 方式2:Subscan
 通过Subscan浏览器，账户> 身份筛选，也可以查看该网络的所有身份注册商。
 ![dev_identity_2](assets/dev_identity_2.png)
 

@@ -151,7 +151,7 @@ There are other operations in staking for the following purposes:
 
   > The 14-day bond period is required to unbond. Tokens that are in the bond period cannot be operated. Please be careful.
 
-- `Reward history` Go to SUBSCAN explorer to view historical reward records.
+- `Reward history` Go to Subscan explorer to view historical reward records.
 
 - `Claim reward` Manually claim the reward, and the reward will be distributed in units of era.
 
