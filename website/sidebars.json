@@ -1,4 +1,67 @@
 {
+  "new": {
+    "Technology": [
+      "new/technology/overview",
+			{
+				"type": "subcategory",
+				"label": "Architecture",
+				"ids": [
+					"new/technology/architecture/architecture",
+					"new/technology/architecture/bridgechain",
+					"new/technology/architecture/solo",
+					"new/technology/architecture/parachain"
+				]
+			},
+      "new/technology/bridge-mechanism",
+      "new/technology/cryptography"
+    ],
+    "Tokens": [
+      "new/tokens/ring",
+      "new/tokens/kton",
+      "new/tokens/cring",
+      "new/tokens/ckton"
+    ],
+    "General Users": [
+      {
+        "type": "subcategory",
+        "label": "Staking",
+        "ids": [
+          "new/general-users/staking/validator",
+          "new/general-users/staking/nominator"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Cross chain transferring",
+        "ids": [
+          "new/general-users/cross-chain-transferring/wormhole",
+          "new/general-users/cross-chain-transferring/darwinia2ethereum",
+          "new/general-users/cross-chain-transferring/ethereum2darwinia"
+        ]
+      },
+      "new/general-users/governance",
+      "new/general-users/cross-chain-relayer",
+      "new/general-users/parachain-auction"
+    ],
+    "Developers": [
+      "new/developers/overview",
+      {
+        "type": "subcategory",
+        "label": "Application developers",
+        "ids": [
+          "new/developers/application-developers/pangolin",
+          "new/developers/application-developers/build-an-app",
+          "new/developers/application-developers/examples"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Protocol developers",
+        "ids": [
+        ]
+      }
+    ]
+  },
 	"docs": {
 		"Get Started": [
 			"wiki-intro",
