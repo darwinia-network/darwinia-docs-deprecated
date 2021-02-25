@@ -22,16 +22,16 @@
         "sidebar_label": "Tools"
       },
       "crab-tut-claim-cring": {
-        "title": "How to claim free cRing",
-        "sidebar_label": "Claim cRing"
+        "title": "How to claim free CRING",
+        "sidebar_label": "Claim CRING"
       },
       "crab-tut-create-account": {
         "title": "Create an Account",
         "sidebar_label": "Create an Account"
       },
       "crab-tut-get-free-cring": {
-        "title": "How to get free cRing through faucet",
-        "sidebar_label": "Get free cRing"
+        "title": "How to get free CRING through faucet",
+        "sidebar_label": "Get free CRING"
       },
       "crab-tut-governance": {
         "title": "How to participate in governance",
@@ -126,8 +126,8 @@
         "sidebar_label": "0007 Dawinia Token Staking Model"
       },
       "rfc-0009-dawinia-liquid-kton-reward": {
-        "title": "0009 Dawinia Liquid Kton Reward",
-        "sidebar_label": "0009 Dawinia Liquid Kton Reward"
+        "title": "0009 Dawinia Liquid KTON Reward",
+        "sidebar_label": "0009 Dawinia Liquid KTON Reward"
       },
       "rfc-0010-darwinia-cross-chain-nft-bridge-protocol": {
         "title": "0010 Darwinia Cross Chain Nft Bridge Protocol",
