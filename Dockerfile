@@ -8,4 +8,4 @@ RUN cd website && yarn install && yarn build
 FROM nginx:mainline-alpine
 
 COPY ./nginx-http.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /src/website/build /usr/share/nginx/html
+COPY --from=builder /src/website/build/docs /usr/share/nginx/html
