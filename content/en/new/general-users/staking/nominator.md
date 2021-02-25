@@ -21,12 +21,12 @@ or transfer `RING` away from your account. You can un-nominate at any time to st
 ## Start Staking
 
 1. Enter [Darwinia Wallet](https://apps.darwinia.network) and lick the [Staking] column on the left , Click [Start staking].
-   
-   ![nominate-1-en](assets/nominate-1-en.png)
+
+    ![](https://i.imgur.com/3RicFO7.png)
 
 2. Fill in the staking parameters.
 
-   ![nominate-2-en](assets/nominate-2-en.png)
+    ![](https://i.imgur.com/viJVarn.png)
   
   - ` Stash account` Account for stashing tokens. Tokens participating in staking will come from this account. The operations of this account are mostly related to changes in stash.
   
@@ -44,7 +44,8 @@ or transfer `RING` away from your account. You can un-nominate at any time to st
 
 3. After filling in the staking parameters, please click [Sign and submit].
    
-   ![nominate-3-en](assets/nominate-3-en.png)
+   ![](https://i.imgur.com/GulRirA.png)
+
 
 <hr />
 
@@ -52,22 +53,25 @@ or transfer `RING` away from your account. You can un-nominate at any time to st
 
 1. After completing the staking parameters, click [Nominate] on this page.
    
-   ![nominate-4-en](assets/wiki-tut-nominator-4-en.png)
+   ![](https://i.imgur.com/47tcyFK.png)
+
 
      > The identities of the validator and the nominator are mutually exclusive and cannot coexist. If you are running a validator, you need to cancel the validator before proceeding with the nomination.
 
 2. Choose your favorite validator.
    
-   ![nominate-5-en](assets/wiki-tut-nominator-5-en.png)
+   ![](https://i.imgur.com/xfwhZaf.png)
 
 
 3. Sign and submit
    
-   ![nominate-6-en](assets/wiki-tut-nominator-6-en.png)
+   ![](https://i.imgur.com/ggOcJiO.png)
+
 
 4. View information about nominated validators
    
-   ![nominate-7-en](assets/wiki-tut-nominator-7-en.png)
+   ![](https://i.imgur.com/XpfgAYl.png)
+
 
      > The operation of nominating validators will take effect from the next era, and it is normal to temporarily delay.
 
@@ -91,7 +95,7 @@ The tokens' statuses are following:
 
 There are other operations in staking for the following purposes:
 
-![nominate-8-en](assets/wiki-tut-nominator-8-en.png)
+![](https://i.imgur.com/O8RJvKS.png)
 
 - `Stop nomination` Cancels all nominees.
 
@@ -107,7 +111,7 @@ There are other operations in staking for the following purposes:
 
   > Please note: 56 era (about 56 days) will be saved, and you will not be able to claim it if it expires.
 
-![](assets/wiki-tut-nominator-9-en.png)
+![](https://i.imgur.com/1otsImC.png)
 
 - `Claim Reward` Manually claim the reward, and the reward will be distributed in units of era.
 
