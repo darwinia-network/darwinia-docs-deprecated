@@ -7,7 +7,7 @@ sidebar_label: Become a nominator
 
 > - A small amount of RING must be prepared in  Darwinia Mainnet Network's address as fee.
 
-You may have a account with `RING/KTON` and want to earn fresh `RING/KTON`. You could do so as validator, which requires a node running 24/7.
+You may have a account with `RING/KTON` and want to earn new `RING/KTON`. You could do so as validator, which requires a node running 24/7.
 If you do not have such node or do not want to bother, you can still earn `RING/KTON` by nominatoring another validator.
 
 Specially attention should be paid to:
