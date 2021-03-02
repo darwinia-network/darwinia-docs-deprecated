@@ -185,10 +185,6 @@
         "title": "How does Darwinia Bridge Chain work",
         "sidebar_label": "Bridge Mechanism"
       },
-      "new/technology/cryptography": {
-        "title": "Cryptography",
-        "sidebar_label": "Cryptography"
-      },
       "new/technology/overview": {
         "title": "Understading Darwinia",
         "sidebar_label": "Overview"

@@ -12,8 +12,7 @@
 					"new/technology/architecture/parachain"
 				]
 			},
-      "new/technology/bridge-mechanism",
-      "new/technology/cryptography"
+      "new/technology/bridge-mechanism"
     ],
     "Tokens": [
       "new/tokens/ring",
