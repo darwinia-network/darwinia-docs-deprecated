@@ -77,6 +77,18 @@
         "title": "Substrate",
         "sidebar_label": "Substrate"
       },
+      "dev-tut-dvm-deposit": {
+        "title": "Deposit to a DVM address",
+        "sidebar_label": "Deposit to a DVM address"
+      },
+      "dev-tut-dvm-use-web3-contract": {
+        "title": "Using Web3 for contract",
+        "sidebar_label": "Using Web3 for contract"
+      },
+      "dev-tut-dvm-use-web3-transaction": {
+        "title": "Using Web3 for transaction",
+        "sidebar_label": "Using Web3 for transaction"
+      },
       "dev-workshop-0001": {
         "title": "Chain Reaction Workshop Vol 1",
         "sidebar_label": "Vol 1"
@@ -116,94 +128,6 @@
       "misc-sample": {
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
-      },
-      "new/developers/application-developers/build-an-app": {
-        "title": "Build an app with solidity",
-        "sidebar_label": "Build an app with solidity"
-      },
-      "new/developers/application-developers/examples": {
-        "title": "Examples",
-        "sidebar_label": "Examples"
-      },
-      "new/developers/application-developers/pangolin": {
-        "title": "Pangolin testnet",
-        "sidebar_label": "Pangolin testnet"
-      },
-      "new/developers/overview": {
-        "title": "Overview",
-        "sidebar_label": "Overview"
-      },
-      "new/general-users/cross-chain-relayer": {
-        "title": "I want to be a cross-chain relayer",
-        "sidebar_label": "I want to be a cross-chain relayer"
-      },
-      "new/general-users/cross-chain-transferring/darwinia2ethereum": {
-        "title": "Darwinia > Ethereum",
-        "sidebar_label": "Darwinia > Ethereum"
-      },
-      "new/general-users/cross-chain-transferring/ethereum2darwinia": {
-        "title": "Ethereum > Darwinia",
-        "sidebar_label": "Ethereum > Darwinia"
-      },
-      "new/general-users/cross-chain-transferring/wormhole": {
-        "title": "Wormhole",
-        "sidebar_label": "Wormhole"
-      },
-      "new/general-users/governance": {
-        "title": "I want to participate in governance",
-        "sidebar_label": "I want to participate in governance"
-      },
-      "new/general-users/parachain-auction": {
-        "title": "I want to participate in the parachain auction",
-        "sidebar_label": "I want to participate in the parachain auction"
-      },
-      "new/general-users/staking/nominator": {
-        "title": "Become a nominator",
-        "sidebar_label": "Become a nominator"
-      },
-      "new/general-users/staking/validator": {
-        "title": "Become a validator",
-        "sidebar_label": "Become a validator"
-      },
-      "new/technology/architecture/architecture": {
-        "title": "Architecture",
-        "sidebar_label": "Architecture"
-      },
-      "new/technology/architecture/bridgechain": {
-        "title": "Bridge Chain",
-        "sidebar_label": "Bridge Chain"
-      },
-      "new/technology/architecture/parachain": {
-        "title": "Parachain Mode",
-        "sidebar_label": "Parachain Mode"
-      },
-      "new/technology/architecture/solo": {
-        "title": "Solo Mode",
-        "sidebar_label": "Solo Mode"
-      },
-      "new/technology/bridge-mechanism": {
-        "title": "How does Darwinia Bridge Chain work",
-        "sidebar_label": "Bridge Mechanism"
-      },
-      "new/technology/overview": {
-        "title": "Understading Darwinia",
-        "sidebar_label": "Overview"
-      },
-      "new/tokens/ckton": {
-        "title": "CKTON",
-        "sidebar_label": "CKTON"
-      },
-      "new/tokens/cring": {
-        "title": "CRING",
-        "sidebar_label": "CRING"
-      },
-      "new/tokens/kton": {
-        "title": "KTON",
-        "sidebar_label": "KTON"
-      },
-      "new/tokens/ring": {
-        "title": "RING",
-        "sidebar_label": "RING"
       },
       "rfc-0001-darwinia-developement-structure": {
         "title": "0001 Darwinia Developement Structure",
@@ -329,21 +253,13 @@
         "title": "Wallets",
         "sidebar_label": "Wallets"
       },
+      "wiki-tut-auction": {
+        "title": "Participate in the parachain auction",
+        "sidebar_label": "Participate in the parachain auction"
+      },
       "wiki-tut-create-account": {
         "title": "Create Account",
         "sidebar_label": "Create an Account"
-      },
-      "wiki-tut-dvm-recharge": {
-        "title": "Recharge EVM address",
-        "sidebar_label": "Recharge EVM address"
-      },
-      "wiki-tut-dvm-use-web3-contract": {
-        "title": "Using Web3 for contract",
-        "sidebar_label": "Using Web3 for contract"
-      },
-      "wiki-tut-dvm-use-web3-transaction": {
-        "title": "Using Web3 for transaction",
-        "sidebar_label": "Using Web3 for transaction"
       },
       "wiki-tut-governance": {
         "title": "How to participate in governance",
@@ -392,10 +308,6 @@
       "wiki-us-bridgechain": {
         "title": "Bridge Chain",
         "sidebar_label": "Bridge Chain"
-      },
-      "wiki-us-cryptography": {
-        "title": "Cryptography",
-        "sidebar_label": "Cryptography"
       },
       "wiki-us-distribution": {
         "title": "Distribution",
@@ -454,18 +366,14 @@
       "Home": "Home",
       "Blog": "Blog",
       "Docs": "Docs",
-      "Crab Network": "Crab Network",
       "Developers": "Developers"
     },
     "categories": {
-      "Technology": "Technology",
-      "Tokens": "Tokens",
-      "General Users": "General Users",
-      "Developers": "Developers",
       "Get Started": "Get Started",
       "Understand Darwinia": "Understand Darwinia",
       "Tutorials": "Tutorials",
       "RFCs": "RFCs",
+      "Developers": "Developers",
       "Crab Network": "Crab Network"
     }
   },

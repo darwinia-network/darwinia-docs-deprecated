@@ -1,17 +1,19 @@
 ---
-id: wiki-tut-dvm-use-web3-transaction
-title: 使用 web3 发送交易
-sidebar_label: 使用 web3 发送交易
+id: dev-tut-dvm-use-web3-transaction
+title: Using Web3 for transaction
+sidebar_label: Using Web3 for transaction
 ---
 
-## 准备工作
+> This tutorial is only used in Pangolin test network.
 
-1. 安装 nodejs
+## Preparation
+
+1. Install Nodejs
 
 ```sh
 $ sudo apt install -y nodejs
 ```
-2. 初始化 node 环境，并安装 web3 工具包
+2. install web3 package
 
 ```sh
 $ mkdir transaction && cd transaction/
@@ -19,16 +21,16 @@ $ npm init --yes
 $ npm install --save web3
 ```
 
-3. 项目初始化之后，文件布局如下：
+The project layout as follows:
 
 ```sh
 $ ls transaction/
 balance.js  node_modules/  package.json  package-lock.json  transaction.js
 ```
 
-> 注： 示例使用 web3 工具，默认地址为 http://localhost:9933，如果您的目标网络为 Pangolin Network，请修改为 http://t1.hkg.itering.com:9933。
+> Note: If you are working on Pangolin Network，change the default address http://localhost:9933 to http://t1.hkg.itering.com:9933。
 
-## 查询余额
+## Get Balance
 
 ```js
 // balance.js
@@ -57,7 +59,7 @@ const balances = async () => {
 balances();
 ```
 
-输出：
+The output:
 
 ```sh
 $ node balance.js
@@ -65,9 +67,9 @@ The balance of 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b is: 123.45678900000000
 The balance of 0xAa01a1bEF0557fa9625581a293F3AA7770192632 is: 0 Pring.
 ```
 
-## 转账交易
+## Transfer Balance
 
-接下来通过 web3，`0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b` 给 `0xAa01a1bEF0557fa9625581a293F3AA7770192632` 转账 50 Pring。
+Make a transaction to Transfer 50 PRING from `0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b` to `0xAa01a1bEF0557fa9625581a293F3AA7770192632`.
 
 ```js
 // transfer.js
@@ -109,7 +111,7 @@ const deploy = async () => {
 deploy();
 ```
 
-输出：
+The output:
 
 ```sh
 $ node transaction.js 
@@ -117,7 +119,7 @@ Attempting to send transaction from 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b t
 Transaction successful with hash: 0xaccfb5438c6927c6c32adc640394600f5dda183ea82683dc5a9feddc64b5d438
 ```
 
-再次查询转账结果：
+Get balances again:
 
 ```sh
 The balance of 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b is: 73.45678900000000009 Pring.

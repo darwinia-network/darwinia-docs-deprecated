@@ -1,7 +1,7 @@
 ---
-id: wiki-tut-dvm-recharge
-title: evm 地址充值
-sidebar_label: evm 地址充值
+id: dev-tut-dvm-deposit
+title: DVM 地址充值
+sidebar_label: DVM 地址充值
 ---
 
 > 本教程所示操作，目前只在 Pangolin 测试网络中使用。

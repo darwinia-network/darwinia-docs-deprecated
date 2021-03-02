@@ -1,66 +1,4 @@
 {
-  "new": {
-    "Technology": [
-      "new/technology/overview",
-			{
-				"type": "subcategory",
-				"label": "Architecture",
-				"ids": [
-					"new/technology/architecture/architecture",
-					"new/technology/architecture/bridgechain",
-					"new/technology/architecture/solo",
-					"new/technology/architecture/parachain"
-				]
-			},
-      "new/technology/bridge-mechanism"
-    ],
-    "Tokens": [
-      "new/tokens/ring",
-      "new/tokens/kton",
-      "new/tokens/cring",
-      "new/tokens/ckton"
-    ],
-    "General Users": [
-      {
-        "type": "subcategory",
-        "label": "Staking",
-        "ids": [
-          "new/general-users/staking/validator",
-          "new/general-users/staking/nominator"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Cross chain transferring",
-        "ids": [
-          "new/general-users/cross-chain-transferring/wormhole",
-          "new/general-users/cross-chain-transferring/darwinia2ethereum",
-          "new/general-users/cross-chain-transferring/ethereum2darwinia"
-        ]
-      },
-      "new/general-users/governance",
-      "new/general-users/cross-chain-relayer",
-      "new/general-users/parachain-auction"
-    ],
-    "Developers": [
-      "new/developers/overview",
-      {
-        "type": "subcategory",
-        "label": "Application developers",
-        "ids": [
-          "new/developers/application-developers/pangolin",
-          "new/developers/application-developers/build-an-app",
-          "new/developers/application-developers/examples"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Protocol developers",
-        "ids": [
-        ]
-      }
-    ]
-  },
 	"docs": {
 		"Get Started": [
 			"wiki-intro",
@@ -128,30 +66,27 @@
 				]
 			},
 			"wiki-us-bc-how",
-			"wiki-us-cryptography",
 			"wiki-us-governance",
 			"wiki-glossary"
 		],
 		"Tutorials": [
+      "wiki-tut-create-account",
 			{
 				"type": "subcategory",
-				"label": "Darwinia Wallet",
+				"label": "Staking",
 				"ids": [
-					"wiki-tut-create-account",
+          "wiki-tut-validator",
 					"wiki-tut-nominator"
 				]
 			},
 			"wiki-tut-staking",
 			"wiki-tut-node",
-			"wiki-tut-validator",
 			"wiki-tut-relayer",
 			"wiki-tut-governance",
-			"wiki-tut-dvm-recharge",
-			"wiki-tut-dvm-use-web3-transaction",
-			"wiki-tut-dvm-use-web3-contract",
+			"wiki-tut-auction",
 			{
 				"type": "subcategory",
-				"label": "Wormhole",
+				"label": "Cross-chain Transfer",
 				"ids": [
 					"wiki-tut-wormhole-general",
 					"wiki-tut-wormhole-e2d",
@@ -181,6 +116,15 @@
 				"ids": [
 					"dev-workshop-index",
 					"dev-workshop-show"
+				]
+			},
+      {
+				"type": "subcategory",
+				"label": "Tutorials",
+				"ids": [
+					"dev-tut-dvm-deposit",
+          "dev-tut-dvm-use-web3-contract",
+          "dev-tut-dvm-use-web3-transaction"
 				]
 			},
 			"dev-community",

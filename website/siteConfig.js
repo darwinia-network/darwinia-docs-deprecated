@@ -40,8 +40,7 @@ const siteConfig = {
   headerLinks: [
     { href: "https://darwinia.network/", label: "Home", external: true },
     { blog: true, label: 'Blog' },
-    { doc: 'new/technology/overview', label: 'Docs' },
-    { doc: 'crab-home', label: 'Crab Network' },
+    { doc: 'wiki-intro', label: 'Docs' },
     { doc: 'dev-home', label: 'Developers' },
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },

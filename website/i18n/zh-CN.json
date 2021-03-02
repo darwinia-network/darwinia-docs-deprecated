@@ -116,6 +116,18 @@
 				"title": "链式反应",
 				"sidebar_label": "链式反应"
 			},
+			"dev-tut-dvm-deposit": {
+				"title": "DVM 地址充值",
+				"sidebar_label": "DVM 地址充值"
+			},
+			"dev-tut-dvm-use-web3-contract": {
+				"title": "使用 web3 玩转合约",
+				"sidebar_label": "使用 web3 玩转合约"
+			},
+			"dev-tut-dvm-use-web3-transaction": {
+				"title": "使用 web3 发送交易",
+				"sidebar_label": "使用 web3 发送交易"
+			},
 			"misc-sample": {
 				"title": "示例文章",
 				"sidebar_label": "示例文章"
@@ -213,7 +225,7 @@
 				"sidebar_label": "术语表"
 			},
 			"wiki-home": {
-				"title": "知识库",
+				"title": "文档",
 				"sidebar_label": "首页"
 			},
 			"wiki-intro": {
@@ -271,6 +283,10 @@
 			"wiki-tut-governance": {
 				"title": "参与治理",
 				"sidebar_label": "参与治理"
+			},
+			"wiki-tut-auction": {
+				"title": "参与平行链竞拍",
+				"sidebar_label": "参与平行链竞拍"
 			},
 			"wiki-tut-dvm-recharge": {
 				"title": "如何给 EVM 地址充值",
@@ -376,21 +392,21 @@
 		"links": {
 			"Home": "首页",
 			"Blog": "动态",
-			"Wiki": "知识库",
+			"Wiki": "文档",
 			"Crab Network": "Crab 网络",
 			"Developers": "开发者",
-			"Docs": "知识库",
+			"Docs": "文档",
 			"API": "API",
 			"Help": "帮助"
 		},
 		"categories": {
 			"Get Started": "概述",
 			"Understand Darwinia": "深入了解",
-			"Tutorials": "教程列表",
+			"Tutorials": "教程",
 			"RFCs": "RFC",
 			"Developers": "开发者",
 			"Crab Network": "Crab 网络",
-			"Wiki": "知识库",
+			"Wiki": "文档",
 			"Miscellaneous": "其他资源",
 			"Tools": "工具集",
 			"Whitepaper": "白皮书",
@@ -400,9 +416,10 @@
 			"Economics": "经济系统",
 			"Staking": "质押权益 Staking",
 			"Wormhole": "虫洞",
-			"Darwinia Wallet": "达尔文钱包"
+			"Darwinia Wallet": "达尔文钱包",
+			"Cross-chain Transfer": "跨链转账"
 		},
-		"title": "达尔文网络 知识库"
+		"title": "达尔文网络 文档"
 	},
 	"pages-strings": {
 		"Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "了解更多 [documentation on this site.](/docs/en/wiki-home.html)",
@@ -413,7 +430,7 @@
 		"Stay up to date|no description given": "保持最新资讯",
 		"Need help?|no description given": "需要帮助?",
 		"This project is maintained by a dedicated group of people.|statement made to reader": "本项目有一组成员更新维护。",
-		"home_title|": "达尔文网络 知识库",
+		"home_title|": "达尔文网络 文档",
 		"home_tagline|": "资产互联网络，已接通！",
 		"darwin-intro-text|": "达尔文网络是基于Substrate开发的开放应用跨链协议，专注于建设未来资产互联网络，包括游戏资产和非标资产的跨链，稳定币的跨链，应用链跨链等领域",
 		"latest_update|": "最新动态",

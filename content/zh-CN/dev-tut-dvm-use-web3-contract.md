@@ -1,171 +1,17 @@
 ---
-id: build-an-app
-title: Build an app with solidity
-sidebar_label: Build an app with solidity
+id: dev-tut-dvm-use-web3-contract
+title: 使用 web3 玩转合约
+sidebar_label: 使用 web3 玩转合约
 ---
 
-> This tutorial is only available in Pangolin testnet now.
+## 准备工作
 
-# Deposit some PRING to a DVM address
-
-The materials needs to be prepared in advance:
-
-- evm address（Metamask generate one account）
-- substrate address （have some balance, apply in element）
-
-Deposit:
-
-1. Generate evm address from substrate address
-
-[apps]-[ToolBox]-[DVM address], enter the evm address, the corresponding substrate address will be generated, which represent this evm address to send or receive Pring.
-
-
-![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
-The corresponding substrate address of `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
-
-
-2. Transfer balance use Apps
-
-Transfer balance using Apps, the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
-
-![transfer pring](assets/wiki-tut-dvm-recharge-05.png)
-
-`Make Transfer` and wait until the extrinsic been finalized in block.
-
-
-3. Comfirm balance in MetaMask
-
-![confirm balance in mataMask](assets/wiki-tut-dvm-recharge-06.png)
-
-The balance of evm address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is 100, a successfully recharge completely。
-
-# Send a DVM transaction
-
-## Preparation
-
-1. Install Nodejs
+1. 安装 nodejs
 
 ```sh
 $ sudo apt install -y nodejs
 ```
-2. install web3 package
-
-```sh
-$ mkdir transaction && cd transaction/
-$ npm init --yes
-$ npm install --save web3
-```
-
-The project layout as follows:
-
-```sh
-$ ls transaction/
-balance.js  node_modules/  package.json  package-lock.json  transaction.js
-```
-
-> Note: If you are working on Pangolin Network，change the default address http://localhost:9933 to http://t1.hkg.itering.com:9933。
-
-## Get Balance
-
-```js
-// balance.js
-const Web3 = require('web3');
-
-// Variables definition
-const addressFrom = '0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b';
-const addressTo = '0xAa01a1bEF0557fa9625581a293F3AA7770192632';
-const web3 = new Web3('http://localhost:9933');
-
-// Balance call
-const balances = async () => {
-   const balanceFrom = web3.utils.fromWei(
-      await web3.eth.getBalance(addressFrom),
-      'ether'
-   );
-   const balanceTo = await web3.utils.fromWei(
-      await web3.eth.getBalance(addressTo),
-      'ether'
-   );
-
-   console.log(`The balance of ${addressFrom} is: ${balanceFrom} Pring.`);
-   console.log(`The balance of ${addressTo} is: ${balanceTo} Pring.`);
-};
-
-balances();
-```
-
-The output:
-
-```sh
-$ node balance.js
-The balance of 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b is: 123.45678900000000009 Pring.
-The balance of 0xAa01a1bEF0557fa9625581a293F3AA7770192632 is: 0 Pring.
-```
-
-## Transfer Balance
-
-Make a transaction to Transfer 50 PRING from `0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b` to `0xAa01a1bEF0557fa9625581a293F3AA7770192632`.
-
-```js
-// transfer.js
-const Web3 = require('web3');
-
-// Variables definition
-const privKey =
-   '99B3C12287537E38C90A9219D4CB074A89A16E9CDB20BF85728EBD97C343E342';
-const addressFrom = '0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b';
-const addressTo = '0xAa01a1bEF0557fa9625581a293F3AA7770192632';
-const web3 = new Web3('http://localhost:9933');
-
-// Create transaction
-const deploy = async () => {
-   console.log(
-      `Attempting to send transaction from ${addressFrom} to ${addressTo}`
-   );
-
-   const createTransaction = await web3.eth.accounts.signTransaction(
-      {
-         from: addressFrom,
-         to: addressTo,
-         value: web3.utils.toWei('50', 'ether'),
-         gas: '5000000000',
-      },
-      privKey
-   );
-
-   const createReceipt = await web3.eth.sendSignedTransaction(
-      createTransaction.rawTransaction
-   );
-
-   console.log(
-      `Transaction successful with hash: ${createReceipt.transactionHash}`
-   );
-
-}
-
-deploy();
-```
-
-The output:
-
-```sh
-$ node transaction.js 
-Attempting to send transaction from 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b to 0xAa01a1bEF0557fa9625581a293F3AA7770192632
-Transaction successful with hash: 0xaccfb5438c6927c6c32adc640394600f5dda183ea82683dc5a9feddc64b5d438
-```
-
-Get balances again:
-
-```sh
-The balance of 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b is: 73.45678900000000009 Pring.
-The balance of 0xAa01a1bEF0557fa9625581a293F3AA7770192632 is: 50 Pring.
-```
-
-# Play with DVM contract
-
-## Preparation
-
-install web3, solc package
+2. 初始化 node 环境，并安装 web3， solc 工具包
 
 ```sh
 $ mkdir incrementer && cd incrementer/
@@ -174,18 +20,18 @@ $ npm install --save web3
 $ npm install --save solc@0.6.10
 ```
 
-The project layout as follows:
+项目初始化后，文件布局如下：
 
 ```sh
 $ ls incrementer/
 compile.js  deploy.js  get.js  Incrementer.sol  increment.js  node_modules/  package.json  package-lock.json  reset.js
 ```
 
-> Note: If you are working on Pangolin Network，change the default address http://localhost:9933 to http://t1.hkg.itering.com:9933。
+> 注： 示例使用 web3 工具，默认地址为 http://localhost:9933，如果您的目标网络为 Pangolin Network，请修改为 http://t1.hkg.itering.com:9933。
 
-## Play Contracts
+## 玩转合约
 
-A simple solidity contract demo.
+合约内容
 
 ```js
 // Incrementer.sol
@@ -208,7 +54,7 @@ contract Incrementer {
 }
 ```
 
-### Deploy Contract
+### 部署合约
 
 ```js
 // compile.js
@@ -282,22 +128,22 @@ const deploy = async () => {
  deploy();
 ```
 
-Deploy contract using the command below:
+输入以下命令进行合约部署：
 
 ```sh
 $ node deploy.js
 ```
 
-The output:
+输出：
 
 ```sh
 Attempting to deploy from account: 0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b
 Contract deployed at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 ```
 
-The contract address `0x5c4242beB94dE30b922f57241f1D02f36e906915`.
+合约地址为 `0x5c4242beB94dE30b922f57241f1D02f36e906915`.
 
-### Get number
+### 获取 number 值 
 
 ```js
 // get.js
@@ -322,20 +168,20 @@ const get = async () => {
 get();
 ```
 
-Run command below:
+输入：
 
 ```sh
 $ node get.js
 ```
 
-The output:
+输出：
 
 ```sh
 aking a call to contract at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 The current number stored is: 5
 ```
 
-### Set number
+### 改变 number 值
 
 ```js
 // increment.js
@@ -377,28 +223,27 @@ const increment = async () => {
 increment();
 ```
 
-Run command below:
+输入：
 
 ```sh
 $ node increment.js 
 ```
 
-The output:
+输出：
 
 ```sh
 Calling the increment by 3 function in contract at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 Tx successfull with hash: 0x259078d1eefb40b9859748e2116c5bed04360583d5309e9d6947458bb5e1d0f9
 ```
 
-Get the number value:
+再次查询 number 值：
 
 ```sh
-$ node get.js
 Making a call to contract at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 The current number stored is: 8
 ```
 
-### Reset number
+### 重置 number 值
 
 ```js
 // reset.js
@@ -439,23 +284,22 @@ const reset = async () => {
 reset();
 ```
 
-Run command below:
+输入：
 
 ```sh
 $ node reset.js
 ```
 
-The output:
+输出：
 
 ```sh
 Calling the reset function in contract at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 Tx successfull with hash: 0x79b8b47ba82e271cd6e105b07743f2a2f470b5fa923a0c97d7f75ce3a3bcceac
 ```
 
-Get the number value:
+再次查询 number 值：
 
 ```sh
-$ node get.js
 Making a call to contract at address 0x5c4242beB94dE30b922f57241f1D02f36e906915
 The current number stored is: 0
 ```
