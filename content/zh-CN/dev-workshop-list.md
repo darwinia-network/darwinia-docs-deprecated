@@ -1,5 +1,5 @@
 ---
-id: dev-workshop-index
+id: dev-workshop-list
 title: 链式反应
 sidebar_label: 链式反应
 ---

@@ -1,5 +1,5 @@
 ---
-id: dev-workshop-index
+id: dev-workshop-list
 title: Chain Reactions
 sidebar_label: Chain Reactions
 ---

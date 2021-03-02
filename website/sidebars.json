@@ -114,7 +114,7 @@
 				"type": "subcategory",
 				"label": "Workshops",
 				"ids": [
-					"dev-workshop-index",
+					"dev-workshop-list",
 					"dev-workshop-show"
 				]
 			},
