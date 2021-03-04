@@ -50,8 +50,7 @@
 				"label": "Economics",
 				"ids": [
 					"wiki-us-tokens",
-					"wiki-us-distribution",
-					"wiki-us-txfee"
+					"wiki-us-distribution"
 				]
 			},
 			{
@@ -64,8 +63,6 @@
 					"wiki-us-staking-slash"
 				]
 			},
-			"wiki-us-bc-how",
-			"wiki-us-governance",
 			"wiki-glossary"
 		],
 		"Tutorials": [
