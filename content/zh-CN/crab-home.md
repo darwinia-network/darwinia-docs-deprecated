@@ -13,7 +13,7 @@ Crab 网络主要是为 Darwinia 的升级和应用部署提供模拟和测试�
 
 为了让 Crab 网络能够一定程度的模拟真实经济环境，Crab 网络的参数与 Darwinia 主网一样，并使用相同的 Staking 机制和通胀模型。通证分别为 CRING 和 CKTON，CRING 的初始供应量为 2000M，CKTON 的供应量为 0。
 
-CRING 和 CKTON 是有价值的。在 Darwinia 主网上线之后，将创建一个 Darwinia 主网和 Crab 网络之间的 Token Bridge，并使 CRING 和 RING 在长期内可以做到相互转换，转换比例为 1 RING = 100 CRING，Darawinia 将预留 40M RING 作为 CRING 的背书资产供 Token Bridge 的背书模块使用，Darwinia 主链为背书链，Crab 网络为发行链, CRING 为 CBA。
+CRING 和 CKTON 是有价值的。在 Darwinia 主网上线之后，将创建一个 Darwinia 主网和 Crab 网络之间的 Token Bridge，并使 CRING 和 RING 在长期内可以做到相互转换，转换比例为 1 RING = 100 CRING，Darwinia 将预留 40M RING 作为 CRING 的背书资产供 Token Bridge 的背书模块使用，Darwinia 主链为背书链，Crab 网络为发行链, CRING 为 CBA。
 
 Crab 网络初始供应量中一部分 CRING 将分发给 RING & DOT 的持有者，可以免费获得 CRING 空投。
 

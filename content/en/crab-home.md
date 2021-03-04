@@ -12,7 +12,7 @@ Crab mainly provides simulation and test environment for Darwinia's upgrade and 
 
 For Crab to simulate the real economic environment to a certain extent, Crab has the same parameters as Darwinia Mainnet, and use the same Staking mechanism and inflation model.  Crab’s tokens are CRING and CKTON, the initial supply of CRING is 2000M, and the supply of CKTON is 0.
 
-CRING and CKTON have got real value. After the Darwinia Mainnet launched, a Token Bridge will be built between Darwinia Mainnet and Crab, allowing CRING and RING to be mutually exchangeable in the long term, with a conversion ratio of 1 RING = 100 CRING. Darawinia will reserve 40M RING as the backed asset of CRING for the Cryptocurrency Backed Asset Model(CBA Model). Darwinia Mainnet is the backing chain, Crab Network is the issuing chain, CRING is CBA.
+CRING and CKTON have got real value. After the Darwinia Mainnet launched, a Token Bridge will be built between Darwinia Mainnet and Crab, allowing CRING and RING to be mutually exchangeable in the long term, with a conversion ratio of 1 RING = 100 CRING. Darwinia will reserve 40M RING as the backed asset of CRING for the Cryptocurrency Backed Asset Model(CBA Model). Darwinia Mainnet is the backing chain, Crab Network is the issuing chain, CRING is CBA.
 
 A portion of the initial supply of the Crab‘s CRING will be distributed to the holders of RING & DOT, they will get CRING (Airdrop) for free.
 

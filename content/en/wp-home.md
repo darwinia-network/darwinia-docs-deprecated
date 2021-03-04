@@ -1,6 +1,6 @@
 ---
 id: wp-home
-title: Understading Darwinia 
+title: Understanding Darwinia 
 sidebar_label: Overview
 ---
 

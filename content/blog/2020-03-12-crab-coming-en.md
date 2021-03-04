@@ -30,7 +30,7 @@ Darwinia Crab Testnet (Crab for short) is the last testnet before Darwinia Mainn
 
 3. After the Darwinia Mainnet launched, a Token Bridge will be built between Darwinia Mainnet and Crab, allowing CRING and RING to be mutually exchangeable in the long term, with a conversion ratio of 1 RING = 100 CRING.
 
-4. Darawinia will reserve 40M RING as the backed asset of CRING for the Cryptocurrency Backed Asset Model(CBA Model).
+4. Darwinia will reserve 40M RING as the backed asset of CRING for the Cryptocurrency Backed Asset Model(CBA Model).
 
 5. Other plans include building Faucet, providing free CRING to developers who need them for testing, and testing the Eth-relay Module, etc.
 
