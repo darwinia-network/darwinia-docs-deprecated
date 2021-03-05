@@ -14,7 +14,7 @@ This article will help you run a validator node from scratch and become a valida
 ## Run your validator node
 
 You can choose either run node with execute file download before or in docker way. No matter which way you start, please make sure 
-to include `--unsafe-rpc-external --rpc-methods=Unsafe` in command line to prepare for the generation of `session keys`.
+to include `--unsafe-rpc-external --rpc-methods=Unsafe --rpc-cors=all` in command line to prepare for the generation of `session keys`.
 
 - Run validator node with existed node binary
   
@@ -24,7 +24,8 @@ to include `--unsafe-rpc-external --rpc-methods=Unsafe` in command line to prepa
       --name <YourNodeName> \
       --validator \
       --unsafe-rpc-external \
-      --rpc-methods=Unsafe
+      --rpc-methods=Unsafe \
+      --rpc-cors=all
 	```  
 
 - Using docker
@@ -33,9 +34,10 @@ to include `--unsafe-rpc-external --rpc-methods=Unsafe` in command line to prepa
   docker run -d -v <YourDataDir>:/data -p 30333:30333 darwinianetwork/darwinia:v0.7.0 \
 	  --base-path /data \
   	  --name <YourNodeName> \
-      --validator \
+      	  --validator \
   	  --unsafe-rpc-external \
-  	  --rpc-methods=Unsafe
+  	  --rpc-methods=Unsafe \
+	  --rpc-cors=all
     ```
 
 <hr />
