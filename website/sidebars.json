@@ -91,7 +91,7 @@
 			}
 		],
 		"RFCs": [
-			"wiki-rfc-index",
+			"wiki-rfcs",
 			"rfc-0001-darwinia-developement-structure",
 			"rfc-0007-dawinia-token-staking-model",
 			"rfc-0009-dawinia-liquid-kton-reward",

@@ -236,7 +236,7 @@
 				"title": "相关链接",
 				"sidebar_label": "相关链接"
 			},
-			"wiki-rfc-index": {
+			"wiki-rfcs": {
 				"title": "评论征集 RFC",
 				"sidebar_label": "RFCs"
 			},

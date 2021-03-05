@@ -1,11 +1,10 @@
 ---
-id: wiki-rfc-index
-title: 评论征集 RFC
+id: wiki-rfcs
+title: Request for Comments
 sidebar_label: RFCs
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-rfc-index.md
 ---
 
-## 草案
+## Draft
 
 | Number                                                                                  | Title                                                                      | Desc                                                                    |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -14,7 +13,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 | [13](rfc-0013-darwinia-cross-chain-nft-standards.md)                                    | 0013-darwinia-cross-chain-nft-standards                                    | Darwinia Cross-chain NFT Standards                                      |
 | [14](rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol.md)               | 0014-darwinia-token-migration-by-cross-chain-redeem-protocol               | Darwinia Token Migration By Cross-chain Redeem Protocol                 |
 
-## 已放弃
+## Abandoned
 
 | Number                                                                           | Title                                                               | Desc                                                      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------- |
