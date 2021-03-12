@@ -11,27 +11,27 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 如何查找当前身份注册商？
 - 方式1: APPS网页钱包
-您可以在Chain state> Storage> Identity> registrars: Vec<Option<RegistrarInfo>> 中查看所有身份注册商信息，包括注册商账号、注册费、权限等。
+您可以在 Chain state> Storage> Identity> registrars: Vec<Option<RegistrarInfo>> 中查看所有身份注册商信息，包括注册商账号、注册费、权限等。
 ![dev_identity_1](assets/dev_identity_1.png)
 > 注册费有可能发生变动，申请身份注册前建议查询当前费用，选择合适的注册商。
 
 - 方式2:Subscan
-通过Subscan浏览器，账户> 身份筛选，也可以查看该网络的所有身份注册商。
+通过 Subscan 浏览器，账户> 身份筛选，也可以查看该网络的所有身份注册商。
 ![dev_identity_2](assets/dev_identity_2.png)
 
 
 ## 如何获得身份认证（加V）？
 
 - 1、设置链上身份
-点击切换账号> 设置>设置链上身份
+点击切换账号 > 设置 > 设置链上身份
 ![dev_identity_3](assets/dev_identity_3.png)
 填写链上信息，请确认信息的真实性与格式（格式参考下图），确认无误后点击「设置」。
 ![dev_identity_4](assets/dev_identity_4.png)
-> 请谨慎填写身份信息，身份信息通过验证（加v）后，更改身份信息需要重新验证身份。
+> 请谨慎填写身份信息，身份信息通过验证（加 v ）后，更改身份信息需要重新验证身份。
 
 - 2、申请验证
 点击左侧列表中的「交易」>  选择交易类型： identity / requestJudgement > 设置注册商参数：reg_index 和max_fee，确认无误后点击「签名并发送」。
-下图以#0注册商 subscan 为例，reg_index填写0，max_fee填写100。查找注册商参数的方法请参考上文“如何查找当前身份注册商？”
+下图以#0注册商 subscan 为例，reg_index 填写 0，max_fee 填写 100。查找注册商参数的方法请参考上文 “如何查找当前身份注册商？”
 ![dev_identity_5](assets/dev_identity_5.png)
 
 - 3、联系注册商完成验证
@@ -45,7 +45,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 身份等级
 
-- 一般：数据看似合理，但未进行深入检查，例如正式的KYC流程。
+- 一般：数据看似合理，但未进行深入检查，例如正式的 KYC 流程。
 - 很好：注册商已证明信息正确无误。
 - 未知：默认值，尚未做出验证。
 - 过时的：该信息曾经很好，但是现在已经过时了。

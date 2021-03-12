@@ -14,7 +14,7 @@ sidebar_label: 「以太坊 -> 达尔文」桥
 
 ## 如何跨链转账
 
-1. 打开[虫洞（Wormhole）](https://wormhole.darwinia.network/)，点击 Ethereum，再点击「跨链转账」，进入跨链转账页面。
+1. 打开 [虫洞（Wormhole）](https://wormhole.darwinia.network/)，点击 Ethereum，再点击「跨链转账」，进入跨链转账页面。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001.jpg)
 

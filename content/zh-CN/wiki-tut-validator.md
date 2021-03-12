@@ -4,7 +4,7 @@ title: 如何成为验证人
 sidebar_label: 成为验证人
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-validator.md
 ---
-> - Staking是基于 NPoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
+> - Staking是基于 NPoS（Proof of Stake / 权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
 
 本文将帮助您从头开始运行验证人节点并申请成为验证人。
 
@@ -63,13 +63,13 @@ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d \
 }
 ```
 
-result就是新生成的属于该节点的 session key。
+result 就是新生成的属于该节点的 session key。
 
 <hr />
 
 ## 开始质押
 
-1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目，点击【开始 Staking】。
+1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧 【抵押】 栏目，点击 【开始 Staking】。
    
    ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
@@ -101,35 +101,35 @@ result就是新生成的属于该节点的 session key。
 
 ## 设置 session key
 
-1. 返回 【质押】栏目，点击【session 账号】，输入刚刚生成的 session key ，点击【设置session key】提交。
+1. 返回 【质押】 栏目，点击 【session 账号】，输入刚刚生成的 session key ，点击 【设置 session key】 提交。
   
    > session key 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
    
    ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
 
-2. 确认无误后，点击【签名并提交】。
+2. 确认无误后，点击 【签名并提交】。
    
    > 验证人和提名人的身份是互斥的，不可并存。如果您正在提名其他验证人，需要取消提名操作后，再进行后续的操作。
    
    ![tut-validator-2-cn](assets/tut-validator-2-cn.png)
 
 
-3. 点击【验证】，开始设置验证人参数。
+3. 点击 【验证】，开始设置验证人参数。
    
    ![tut-validator-3-cn](assets/tut-validator-3-cn.png)
    
    - `奖励佣金百分比` 设置本节点优先分配收益的比重，范围为 **0-100%**。（例：如设置了 **5%** 的奖励佣金，本节点将优先获得节点收益的 **5%**，剩下 **95%** 的节点收益，将依据验证人和投票人抵押的金额，按比例分配；也就是说，`验证人的收益 = 节点奖励佣金 + 抵押奖励分成`）
 
 
-4. 确认无误后，点击【签名并提交】。
+4. 确认无误后，点击 【签名并提交】。
    
    ![tut-validator-4-cn](assets/tut-validator-4-cn.png)
 
-5. 去【浏览器】查看当前验证人的相关信息，可以看到已申请节点已经在候选人列表之列。
+5. 去 【浏览器】 查看当前验证人的相关信息，可以看到已申请节点已经在候选人列表之列。
    
    ![tut-validator-5-cn](assets/tut-validator-5-cn.png)
    
-     > 参选验证人后会进入【候选】队列，在进入下一个 era 的时刻参与选举。
+     > 参选验证人后会进入 【候选】 队列，在进入下一个 era 的时刻参与选举。
    
    **(可选步骤) 重启正在运行的 validator 节点**
    
