@@ -57,6 +57,10 @@
         "title": "How to become a validator",
         "sidebar_label": "Become a validator"
       },
+      "crab-tut-exchange": {
+        "title": "Darwinia Crab Exchange Access Guide",
+        "sidebar_label": "Exchange Access Guide"
+      },
       "dev-bounty": {
         "title": "Bounty Program",
         "sidebar_label": "Bounty Program"
@@ -276,6 +280,10 @@
       "wiki-tut-relayer": {
         "title": "How to become a relayer",
         "sidebar_label": "Become a relayer"
+      },
+      "wiki-tut-exchange": {
+        "title": "Darwinia Exchange Access Guide",
+        "sidebar_label": "Exchange Access Guide"
       },
       "wiki-tut-validator": {
         "title": "How to become a validator",

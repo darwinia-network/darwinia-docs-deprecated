@@ -56,6 +56,10 @@
 				"title": "如何成为Relayer",
 				"sidebar_label": "成为Relayer"
 			},
+			"crab-tut-exchange": {
+				"title": "交易平台接入",
+				"sidebar_label": "交易平台接入"
+			},
 			"crab-tut-staking": {
 				"title": "如何参与Staking",
 				"sidebar_label": "参与Staking"
@@ -288,6 +292,10 @@
 				"title": "参与平行链竞拍",
 				"sidebar_label": "参与平行链竞拍"
 			},
+      "wiki-tut-exchange": {
+        "title": "交易平台接入",
+        "sidebar_label": "交易平台接入"
+      },
 			"wiki-tut-dvm-recharge": {
 				"title": "如何给 EVM 地址充值",
 				"sidebar_label": "EVM 地址充值"

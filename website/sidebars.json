@@ -88,7 +88,8 @@
 					"wiki-tut-wormhole-e2d",
 					"wiki-tut-wormhole-d2e"
 				]
-			}
+			},
+			"wiki-tut-exchange"
 		],
 		"RFCs": [
 			"wiki-rfcs",
@@ -152,6 +153,7 @@
 			"crab-tut-nominator",
 			"crab-tut-node",
 			"crab-tut-validator",
+			"crab-tut-exchange",
 			"crab-tut-relayer",
 			"crab-tut-governance"
 		]
