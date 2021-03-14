@@ -16,22 +16,22 @@ Crab 网络使用与Darwinia主网相同的抵押机制和通胀模型。 Crab�
 
 ## Informations
 
-官网: https://crab.network/ (under construction)
-链浏览器: https://crab.subscan.io/
-代码: https://github.com/darwinia-network/darwinia
-出块时间: 6 秒
-公共 Websocket RPC: [wss://crab-rpc.darwinia.network](wss://crab-rpc.darwinia.network)
-公共 Http RPC: https://crab-rpc.darwinia.network
+官网: https://crab.network/ (under construction)  
+链浏览器: https://crab.subscan.io/  
+代码: https://github.com/darwinia-network/darwinia  
+出块时间: 6 秒  
+公共 Websocket RPC: [wss://crab-rpc.darwinia.network](wss://crab-rpc.darwinia.network)  
+公共 Http RPC: https://crab-rpc.darwinia.network  
 
 * CRING
-    符号: CRING
-    全称: Darwinia Crab Network Native Token
-    精度: 9
+    符号: CRING  
+    全称: Darwinia Crab Network Native Token  
+    精度: 9  
 
 * CKTON
-    符号: CKTON
-    全称: Darwinia Crab Commitment Token
-    精度: 9
+    符号: CKTON  
+    全称: Darwinia Crab Commitment Token  
+    精度: 9  
 
 ## 全节点快速安装并运行
 
@@ -39,8 +39,8 @@ Crab 网络使用与Darwinia主网相同的抵押机制和通胀模型。 Crab�
 
 ### 服务器的最低要求
 
-CPU: 1 core
-Memory: 2 GB
+CPU: 1 core  
+Memory: 2 GB  
 Disk: 30 GB SSD
 
 ### Linux
