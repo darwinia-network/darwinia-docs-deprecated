@@ -29,6 +29,10 @@
         "title": "Create an Account",
         "sidebar_label": "Create an Account"
       },
+      "crab-tut-exchange": {
+        "title": "Darwinia Crab Exchange Access Guide",
+        "sidebar_label": "Darwinia Crab Exchange Access Guide"
+      },
       "crab-tut-get-free-cring": {
         "title": "How to get free CRING through faucet",
         "sidebar_label": "Get free CRING"
@@ -56,10 +60,6 @@
       "crab-tut-validator": {
         "title": "How to become a validator",
         "sidebar_label": "Become a validator"
-      },
-      "crab-tut-exchange": {
-        "title": "Darwinia Crab Exchange Access Guide",
-        "sidebar_label": "Exchange Access Guide"
       },
       "dev-bounty": {
         "title": "Bounty Program",
@@ -265,6 +265,10 @@
         "title": "Create Account",
         "sidebar_label": "Create an Account"
       },
+      "wiki-tut-exchange": {
+        "title": "Darwinia Exchange Access Guide",
+        "sidebar_label": "Darwinia Exchange Access Guide"
+      },
       "wiki-tut-governance": {
         "title": "How to participate in governance",
         "sidebar_label": "Participate in governance"
@@ -280,10 +284,6 @@
       "wiki-tut-relayer": {
         "title": "How to become a relayer",
         "sidebar_label": "Become a relayer"
-      },
-      "wiki-tut-exchange": {
-        "title": "Darwinia Exchange Access Guide",
-        "sidebar_label": "Exchange Access Guide"
       },
       "wiki-tut-validator": {
         "title": "How to become a validator",
@@ -374,6 +374,7 @@
       "Home": "Home",
       "Blog": "Blog",
       "Docs": "Docs",
+      "Crab Network": "Crab Network",
       "Developers": "Developers"
     },
     "categories": {
