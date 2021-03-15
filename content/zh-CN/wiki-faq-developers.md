@@ -22,14 +22,14 @@ sidebar_label: 技术开发相关
 
 * **资助计划**
   
-  该计划将专注于资助达尔文网络生态系统的开发，例如达尔文应用链的开发和维护，以及相关的理论研究。[点击获取链接](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md)
+  该计划将专注于资助达尔文网络生态系统的开发，例如达尔文应用链的开发和维护，以及相关的理论研究。 [点击获取链接](https://github.com/darwinia-network/collaboration/blob/master/grant/README.md)
 
 
 * **赏金计划**
   
-  我们将对问题进行评估，并邀请社区开发者提供解决方案。方案通过审核者将获得奖励。奖励因解决问题的级别高低有所不同。[点击获取链接](https://github.com/darwinia-network/collaboration/blob/master/bounty/README.md)
+  我们将对问题进行评估，并邀请社区开发者提供解决方案。方案通过审核者将获得奖励。奖励因解决问题的级别高低有所不同。 [点击获取链接](https://github.com/darwinia-network/collaboration/blob/master/bounty/README.md)
 
-你也可以[加入开发者社群](https://t.me/DarwiniaDev)，了解最新进展。
+你也可以 [加入开发者社群](https://t.me/DarwiniaDev)，了解最新进展。
 
 <hr />
 
