@@ -18,21 +18,21 @@ Crab use the same Staking mechanism and inflation model with Darwinia mainnet. C
 
 ## Informations
 
-Official website: https://crab.network/ (under construction)
-Blockchain Explorer: https://crab.subscan.io/
-Code: https://github.com/darwinia-network/darwinia
-Block time: 6 seconds
-Public Websocket RPC: [wss://crab-rpc.darwinia.network](wss://crab-rpc.darwinia.network)
-Public Http RPC: https://crab-rpc.darwinia.network
+Official website: https://crab.network/ (under construction)  
+Blockchain Explorer: https://crab.subscan.io/  
+Code: https://github.com/darwinia-network/darwinia  
+Block time: 6 seconds  
+Public Websocket RPC: [wss://crab-rpc.darwinia.network](wss://crab-rpc.darwinia.network)  
+Public Http RPC: https://crab-rpc.darwinia.network  
 
 * CRING
-    Symbol: CRING
-    Name: Darwinia Crab Network Native Token
+    Symbol: CRING  
+    Name: Darwinia Crab Network Native Token  
     Precision: 9
 
 * CKTON
-    Symbol: CKTON
-    Name: Darwinia Crab Commitment Token
+    Symbol: CKTON  
+    Name: Darwinia Crab Commitment Token  
     Precision: 9
 
 ## Full node quick installation and running
@@ -41,8 +41,8 @@ Download releases from https://github.com/darwinia-network/darwinia/releases
 
 ### Minimum requirements of host server
 
-CPU: 1 core
-Memory: 2 GB
+CPU: 1 core  
+Memory: 2 GB  
 Disk: 30 GB SSD
 
 ### Linux

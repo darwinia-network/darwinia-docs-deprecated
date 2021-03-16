@@ -10,9 +10,9 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 如果你的账户拥有部分 `RING/KTON`，并且想据此来赚取收益，你可以选择成为 ` 验证人 ` 或者 ` 提名者 `。
 
-二者在整个达尔文网络中承担的角色不同，要求也不一样。**成为验证者**，你需要全天候 24 小时运行维护验证者节点，否则就会受到惩罚，扣除部分质押金。
+二者在整个达尔文网络中承担的角色不同，要求也不一样。 **成为验证者**，你需要全天候 24 小时运行维护验证者节点，否则就会受到惩罚，扣除部分质押金。
 
-当然，如果你觉得成为验证者的要求太高了，成为提名者也是一个不错的选择。想要**成为提名者**，只需要质押冻结一定数量的代币，并参与提名验证者即可，不需要运行节点，也可以赚取收益。
+当然，如果你觉得成为验证者的要求太高了，成为提名者也是一个不错的选择。想要 **成为提名者**，只需要质押冻结一定数量的代币，并参与提名验证者即可，不需要运行节点，也可以赚取收益。
 
 **特别需要注意的是**:
 
@@ -25,7 +25,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 开始质押
 
-1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目， 点击【开始 staking 】。
+1. 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧 【抵押】 栏目， 点击 【开始 staking 】。
    
    ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
@@ -33,7 +33,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
   - ` 资金账户 ` 保管资金的账号，参与 staking 的代币将来自这个账户，此账户的操作多与资金变动相关。
   - ` 控制账户 ` 管理 staking 其他操作的账号，如参与投票、参与验证等。
-  
+ 
      > ` 资金账户 ` 和 ` 控制账户 ` 可设置为同一账户，如果您持有较多代币或对安全性要求较高，建议此处设置为不同账号。  
 
   - ` 冻结数量 ` 参与 staking 的代币数量，这部分代币将被暂时冻结，解冻需要 14 天的解冻期；您可以选择冻结 RING 或 KTON。
@@ -46,7 +46,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 	
 	![crab-tut-nominator-2](assets/crab-tut-nominator-2.png)
 
-3. 填写完成上述 Staking 参数后，点击【冻结】，签名并提交，到此为止质押完成。稍等片刻，在【抵押】处可以看到最新的账户情况。 
+3. 填写完成上述 Staking 参数后，点击 【冻结】，签名并提交，到此为止质押完成。稍等片刻，在 【抵押】 处可以看到最新的账户情况。 
    
    ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
 
@@ -56,11 +56,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 > **注意**: 验证人和提名人的身份是互斥的，不可并存。如果您正在参选验证人，需要先取消参选验证人，再进行后续的提名操作。
 
-1. 完成 staking 参数后，在本页面点击【提名】。
+1. 完成 staking 参数后，在本页面点击 【提名】。
    
    ![wiki-tut-nominator-4](assets/wiki-tut-nominator-4-cn.png)
   
-2. 选择合适的验证人，并点击【提名】。
+2. 选择合适的验证人，并点击 【提名】。
    
    ![wiki-tut-nominator-5](assets/wiki-tut-nominator-5-cn.png)
 
@@ -68,7 +68,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
    
    ![wiki-tut-nominator-6](assets/wiki-tut-nominator-6-cn.png)
 
-4. 返回 【抵押】处，查看已提名验证人的相关信息。
+4. 返回 【抵押】 处，查看已提名验证人的相关信息。
    
    ![wiki-tut-nominator-7](assets/wiki-tut-nominator-7-cn.png)
 

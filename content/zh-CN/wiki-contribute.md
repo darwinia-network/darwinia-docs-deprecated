@@ -5,9 +5,12 @@ sidebar_label: 参与内容贡献
 ---
 
 ## 贡献
-Wiki 是由 Darwinia 团队开始并维护。这是开源项目并旨在成为有关 Darwinia 和 Darwinia 生态系统中最广泛的学习资源，**但请不要试图 pull request 任何营销资料，因为这将会被拒绝。
+Wiki 是由 Darwinia 团队开发并维护。这是一个开源项目并是 Darwinia 以及生态系统中的学习资源聚集地。
 
 鼓励社区提交 pull requests，讨论和参与贡献。对于拥有良好贡献的活跃社区成员，我们可以授予 Github 库的写权限。Darwinia 团队将对所有内容拥有管理权和最终决定权。
+
+**但请不要试图 Pull request 任何营销资料，因为这将会被拒绝。**
+
 
 ## 如何参与贡献
 
@@ -30,7 +33,7 @@ Wiki 是由 Darwinia 团队开始并维护。这是开源项目并旨在成为�
 - 应注意保持尽可能客观和有益的信息。不应故意编造 ，也不应存在外部偏见。
 
 ## 更改安排
-如果您有任何内容需要添加或更改，本文档也可能会受到贡献者的 pull requests 或更改。
+如果您有任何内容需要添加或更改，本文档也可能会受到贡献者的 Pull requests 或更改。
 
 ## 继承
 本文档基于此处的"等级贡献"准则: https://github.com/Level/community/blob/master/CONTRIBUTING.md

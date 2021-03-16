@@ -57,7 +57,7 @@ KTON 是达尔文网络原生通证 RING 的衍生通证，称为承诺通证。
 
 ### RING 的用途是什么？
 
-RING 作为达尔文网络原生资产可用作交易 Gas 费。Gas 包括链上交易费用，合约执行费用及跨链服务费等。RING 可参与 Staking 获取影响力，以此参与治理并获得收益。
+RING 作为达尔文网络原生资产可用作交易 Gas 费。 Gas 包括链上交易费用，合约执行费用及跨链服务费等。 RING 可参与 Staking 获取影响力，以此参与治理并获得收益。
 
 <hr />
 
@@ -201,7 +201,7 @@ Uniswap 上有合法的 RING 和 KTON 交易对，但也有一些假代币。进
   
   ![](assets/wiki-faq-guide-1-cn.png)
 
-* 点击“跨链转账”，这时 metamask 页面会跳出来，连接 metamask 账号。
+* 点击 “跨链转账”，这时 metamask 页面会跳出来，连接 metamask 账号。
   
   ![](assets/wiki-faq-guide-2-en.png)
 

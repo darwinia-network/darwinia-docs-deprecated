@@ -6,7 +6,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 ## 关于虫洞
 
-[达尔文虫洞（Darwinia Wormhole）](https://wormhole.darwinia.network/)是基于 Darwinia 跨链桥开发的跨链转账工具，支持多链多向转账。
+[达尔文虫洞（Darwinia Wormhole）](https://wormhole.darwinia.network/) 是基于 Darwinia 跨链桥开发的跨链转账工具，支持多链多向转账。
 
 目前已开通多条跨链桥，更多跨链桥正在开发中。
 
@@ -51,7 +51,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 #### 通过 Wormhole 在达尔文网络锁定通证（RING, KTON）
 
-1. 进入[虫洞 - Wormhole](https://wormhole.darwinia.network/)，在「首页」点击「Darwinia」星球后，页面会展示目前「Darwinia」网络出发，已开通的跨链桥。
+1. 进入 [虫洞 - Wormhole](https://wormhole.darwinia.network/)，在「首页」点击「Darwinia」星球后，页面会展示目前「Darwinia」网络出发，已开通的跨链桥。
    
    如图所示，点击「Ethereum」 星球下方的 「跨链转账」按钮，开启 **Darwinia -> Ethereum** 的跨链转账之旅。
 
@@ -62,13 +62,13 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-002.jpg)
 
-    > *该步骤操作需要安装 **Polkadot.js 浏览器插件** 可以通过[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)进行安装。*
+    > * 该步骤操作需要安装 **Polkadot.js 浏览器插件** 可以通过 [安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6) 进行安装。*
 
 
 3. 填写跨链转账信息，选择需要跨链的「Darwinia 主网账号」并填写「以太坊主网接收地址」
    
     > *跨链转账后还需要在以太坊网络进行领取操作，因此，以太坊主网接收地址务必填写一个非交易所账号*
-	   
+       
    在「跨链转账通证」栏目中勾选需要跨链的通证，并且填写数量。
       
 	> *RING 的数量填写时请注意保留 「2-3 RING 作为达尔文网络的燃料费 + 跨链手续费 50 RING（动态）」。跨链操作支持同时操作 RING 和 KTON，如果需要同时跨链转账 KTON，请勾选 ☑️ KTON 复选框，并且输入跨链的 KTON 数量。*
@@ -98,7 +98,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 2. 点击「已连接至」，选择发起跨链的达尔文账号，查询转账记录。
      
-	> *如果已经跨链，「跨链记录」中没有对应记录，请稍等 1-2 分钟后刷新页面重新查询。*
+    > *如果已经跨链，「跨链记录」中没有对应记录，请稍等 1-2 分钟后刷新页面重新查询。*
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-006.jpg)
 

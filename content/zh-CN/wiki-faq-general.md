@@ -14,7 +14,8 @@ sidebar_label: 通用类
 
 ### 我是达尔文新手，应该从哪开始了解达尔文网络呢？
 
-首先，欢迎你加入到达尔文社区！达尔文网络是基于 Substrate 开发的去中心化桥接链，是跨链生态的“金门大桥”，提供最安全的不依赖第三方多签的异构链跨链方案，连接波卡，以太坊，波场等异构链，主要应用领域包括 DeFi，跨链 NFT 交易市场，游戏等。点击下面链接了解更多：
+首先，欢迎你加入到达尔文社区！达尔文网络是基于 Substrate 开发的去中心化桥接链，是跨链生态的“金门大桥”，提供最安全的不依赖第三方多签的异构链跨链方案，
+连接波卡，以太坊，波场等异构链，主要应用领域包括 DeFi，跨链 NFT 交易市场，游戏等。点击下面链接了解更多：
 
 **官网**:[https://darwinia.network/](https://darwinia.network/)
 
@@ -38,7 +39,7 @@ sidebar_label: 通用类
 
 **官方 Telegram**:[https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 
-同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在[这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform)提交申请。
+同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在 [这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform) 提交申请。
 
 <hr />
 
@@ -49,12 +50,12 @@ sidebar_label: 通用类
 
 * 达尔文被设计为波卡的平行链，同时，也能够以其自己的共识，安全性和跨链功能在 Solo 模式下作为独立网络运行，从而应对基于波卡的技术问题。
   
-* 为了促进不同应用程序在达尔文网络上开发，团队基于 Substrate 和达尔文 Web 应用开发出 SDK。SDK 可帮助和引导非区块链用户和开发者采用辅助程序。
+* 为了促进不同应用程序在达尔文网络上开发，团队基于 Substrate 和达尔文 Web 应用开发出 SDK。 SDK 可帮助和引导非区块链用户和开发者采用辅助程序。
 
-* 我们也为波卡和 Substrate 社区开发出一款高精度浏览器：[Subscan](https://www.subscan.io/)
+* 我们也为波卡和 Substrate 社区开发出一款高精度浏览器： [Subscan](https://www.subscan.io/)
 
 
-在启动达尔文网络之前，团队还开发出了其他几种产品，包括基于区块链的游戏[进化星球](https://www.evolution.land/)，Itering ID，DKMS 等。
+在启动达尔文网络之前，团队还开发出了其他几种产品，包括基于区块链的游戏 [进化星球](https://www.evolution.land/)，Itering ID，DKMS 等。
 
 * **DKMS**:去中心化私钥管理系统
 * **进化星球**:一款支持跨链的虚拟经营类区块链游戏
