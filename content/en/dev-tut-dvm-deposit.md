@@ -1,7 +1,7 @@
 ---
 id: dev-tut-dvm-deposit
-title: Deposit to a DVM address
-sidebar_label: Deposit to a DVM address
+title: Deposit to DVM address
+sidebar_label: Deposit to DVM address
 ---
 
 > All tutorials are only used in Pangolin testnet.

@@ -1,10 +1,8 @@
 ---
 id: dev-tut-dvm-withdraw
-title: Withdraw from a DVM address
-sidebar_label: Withdraw from a DVM address
+title: Withdraw from DVM address
+sidebar_label: Withdraw from DVM address
 ---
-
-## Withdraw from DVM account
 
 > The DVM address format is identical to the Ethereum address format
 

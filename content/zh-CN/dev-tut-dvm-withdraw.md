@@ -4,8 +4,6 @@ title: DVM 地址提现
 sidebar_label: DVM 地址提现
 ---
 
-## DVM 地址提现
-
 > DVM 地址格式和以太坊地址格式一致
 
 使用 DVM 智能合约解决方案后，用户可以轻松的在达尔文网络中使用以太坊合约，以及常用工具 MetaMask, Remix 等。
