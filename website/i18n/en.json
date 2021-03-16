@@ -93,6 +93,10 @@
         "title": "Using Web3 for transaction",
         "sidebar_label": "Using Web3 for transaction"
       },
+      "dev-tut-dvm-withdraw": {
+        "title": "Withdraw from a DVM address",
+        "sidebar_label": "Withdraw from a DVM address"
+      },
       "dev-workshop-0001": {
         "title": "Chain Reaction Workshop Vol 1",
         "sidebar_label": "Vol 1"
