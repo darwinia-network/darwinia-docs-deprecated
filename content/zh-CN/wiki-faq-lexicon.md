@@ -57,7 +57,7 @@ RING 和氪石类似于现货和期货之间的关系，通过双重通证的设
 
 ### CRING 和 CKTON
 
-CRING 和 cKTO 是存在于 Crab 先行网上的通证，其各种参数和主网上的 RING 和 KTON 保持一致，并使用相同的质押机制和通胀模型。
+CRING 和 CKTON 是存在于 Crab 先行网上的通证，其各种参数和主网上的 RING 和 KTON 保持一致，并使用相同的质押机制和通胀模型。
 
 达尔文主网上线后，将开通达尔文和 Crab 先行网之间的跨链桥，使得 CRING 和 RING 能够相互交换，兑换比率为 100 CRING = 1 RING。
 
