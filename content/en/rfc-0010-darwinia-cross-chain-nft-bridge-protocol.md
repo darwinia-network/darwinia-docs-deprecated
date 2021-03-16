@@ -21,7 +21,7 @@ custom_edit_url: https://github.com/darwinia-network/rfcs/edit/master/RFC/en_US/
 
 The Xclaim-based framework provides an idea for token cross-chain, but there are still many problems with NFT, including the Vault collateral design on the Backing Blockchain. This problem can be effectively solved by introducing a chain-Relay contract on the Backing Blockchain. This paper will design a cross-chain Nft solution and standard based on this improved cross-chain bridge solution.
 
-**Keywords**：Blockchain, NFT, cross chain, multi-chain
+**Keywords**:Blockchain, NFT, cross chain, multi-chain
 
 
 
@@ -116,9 +116,9 @@ struct UNFO {
 }
 ```
 
-- **local_id**：Indicates that the UNFO corresponds to the *token_id* of *smart_contract_id* on an external blockchain *chain_id*
-- **global_id**：indicates this UNFO has Globally unique identifier within all blockchain it crossed.
-- **phase**：indicates the stage of cross-chain of the UNFO. Eg:
+- **local_id**:Indicates that the UNFO corresponds to the *token_id* of *smart_contract_id* on an external blockchain *chain_id*
+- **global_id**:indicates this UNFO has Globally unique identifier within all blockchain it crossed.
+- **phase**:indicates the stage of cross-chain of the UNFO. Eg:
   - 1: the correspond NFT on blockchain *chain_id* of the UNFO was looked, the cross-chain process is in midway state
   - 2: the correspond Nft of the Unfo on blockchain *chain_id*has been issued/to be issued；cross-chain process has been finished/to be finished.
 - **lock_script**: For more complex logic, fine-grained control scripts that maintain UNFO's scalability. Lock_script expresses the owner of this NFT. When the NFT is circulating within the Bridge Core, the lock_script may point to an ownership contract. When the NFT is locked in the backing contract, the lock_script may point to to the redeem contract of backing contract.
@@ -174,7 +174,7 @@ In order to maintain a good ID consistency, it is desirable to keep the mapping 
 
 ### C. Preliminary Implementation Plan
 
-The scenario is the same as described in Chapter II. Still need to implement three protocols：*Issue, Transfer, Redeem*. Also to simplify the model, the details about fees will not be discussed here.
+The scenario is the same as described in Chapter II. Still need to implement three protocols:*Issue, Transfer, Redeem*. Also to simplify the model, the details about fees will not be discussed here.
 
 #### Protocol: Issue
 
@@ -185,7 +185,7 @@ The scenario is the same as described in Chapter II. Still need to implement thr
 - Generate new $GID$ and $nft_{BC}^{B,n}$ , and record the relationship between $GID$ and $nft_{BC}^{B,n}$
 - And trigger $vSC_I$
 
-In $vSC_I$：
+In $vSC_I$:
 
 -  Destroy $nft_{BC}^{B,n}$, issue $nft_{BC}^{I,?}$, $issue\_{ex}(\ GID,\ address\_on\_I) \rightarrow EX_{ Issue}$
 
@@ -238,7 +238,7 @@ Explanation:
 
 - **verifyBCOp**(trigger, $EX_{issue}$, $\Delta_{trigger}$) $\rightarrow T$ : Occurs in chain $I$. *requester* submit $EX_{issue}$ to $iSC_I$ in chain $I$, return T if $iSC_I$ verifies the authenticity of $EX_{issue}$, otherwise return F. After verification, by calling the issue method, issue  $nft_I^{x',n'}$ to *requester* at the address of chain $I$.
 
-###### *validator* Related operations：
+###### *validator* Related operations:
 
 - **issueTransform**($vSC_I,\ pk_I^{requester},\ GID$ ): *validator* will automatically trigger the method in vSC_I$, and destroys $nft_{BC}^{B,n}$ while produces $nft_{BC}^{I,?}$, to represent the newly added nft image on chain $I$ (The reason why $?$ is used here is because nft on chain $I$ has not been added yet, so its token id cannot be obtained), and establish the correspondence between GID and $nft_{BC}^{I,?}$ This operation will generate $EX_{issue}$.
 

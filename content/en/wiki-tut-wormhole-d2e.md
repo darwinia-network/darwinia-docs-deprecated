@@ -98,7 +98,7 @@ The details of the two steps are following:
 
    ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-006-en.jpg)
    
-   > *Estimated time：*
+   > *Estimated time:*
    >  - *`Wormhole read to transfer record` ~ 1 min*
    >  - *`Transaction sent successfully` 6-12 s*
    >  - *`Darwinia Network confirmation` ~ 1 min*

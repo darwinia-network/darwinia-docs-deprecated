@@ -1,6 +1,6 @@
 ---
 id: crab-parameters
-title: Crab网络参数 
+title: Crab 网络参数 
 sidebar_label: Crab 网络参数
 ---
 

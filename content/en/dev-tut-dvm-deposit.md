@@ -23,10 +23,10 @@ We need to query balance of evm account, so add new network in metamask at first
 
 Setting Configuration:
 
-- Network Name：`Pangolin`
+- Network Name:`Pangolin`
 - RPC URL: `http://t1.hkg.itering.com:9933`
-- Chain ID： `43`
-- Currency Symbol： `PRING`
+- Chain ID: `43`
+- Currency Symbol: `PRING`
 
 Click Save, the pangolin network will be added in metamask successfully. Then, you could transfer token or deploy contracts in metamask.
 

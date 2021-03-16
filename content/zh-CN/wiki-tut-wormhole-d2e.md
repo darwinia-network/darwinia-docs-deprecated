@@ -30,9 +30,9 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 首先，需要使用 Chrome 浏览器，并安装下列插件：
 
-* **Polkadot.js**：[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
+* **Polkadot.js**:[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
 
-* **MetaMask 钱包**：[下载链接](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+* **MetaMask 钱包**:[下载链接](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 
 ### 跨链操作流程
@@ -43,7 +43,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 2. **在以太坊网络上领取通证（RING, KTON）**
    
-   > *当前（2021-01-28）以太坊 Gas 费较高，跨链转账第二步骤需要发送一笔以太坊交易，预计消耗 600000 Gas（25 gwei约 0.015 ether，50 gwei 约 0.03 ether， 100 gwei 约 0.06 ether），所以不建议进行小额 RING，KTON 的跨链。*
+   > *当前（2021-01-28）以太坊 Gas 费较高，跨链转账第二步骤需要发送一笔以太坊交易，预计消耗 600000 Gas（25 gwei 约 0.015 ether，50 gwei 约 0.03 ether， 100 gwei 约 0.06 ether），所以不建议进行小额 RING，KTON 的跨链。*
 
 下面分别对 2 个步骤进行详细介绍。
 
@@ -71,7 +71,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 	   
    在「跨链转账通证」栏目中勾选需要跨链的通证，并且填写数量。
       
-	> *RING的数量填写时请注意保留 「2-3 RING 作为达尔文网络的燃料费 + 跨链手续费 50 RING（动态）」。跨链操作支持同时操作 RING 和 KTON，如果需要同时跨链转账 KTON，请勾选 ☑️ KTON 复选框，并且输入跨链的 KTON 数量。*
+	> *RING 的数量填写时请注意保留 「2-3 RING 作为达尔文网络的燃料费 + 跨链手续费 50 RING（动态）」。跨链操作支持同时操作 RING 和 KTON，如果需要同时跨链转账 KTON，请勾选 ☑️ KTON 复选框，并且输入跨链的 KTON 数量。*
 	
 	![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-003.jpg)
 
@@ -103,11 +103,11 @@ sidebar_label: 「达尔文 -> 以太坊」桥
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-006.jpg)
 
     > *跨链耗时预估：*
-    > - *`虫洞读取到跨链转账记录` ~ 1 min*
-    > - *`交易发送成功` 6-12 s*
-    > - *`Darwinia网络确认` ~ 1 min*
-    > - *`块桥接成功` 30-60s*
-    > - *`Ethereum网络确认` 取决于用户领取支付的 Gas 费高低*
+    > - *` 虫洞读取到跨链转账记录 ` ~ 1 min*
+    > - *` 交易发送成功 ` 6-12 s*
+    > - *`Darwinia 网络确认 ` ~ 1 min*
+    > - *` 块桥接成功 ` 30-60s*
+    > - *`Ethereum 网络确认 ` 取决于用户领取支付的 Gas 费高低*
 
 3. 待「领取」按钮点亮时，点击「领取」，会弹出 MetaMask 插件，输入密码，完成领取操作。
 

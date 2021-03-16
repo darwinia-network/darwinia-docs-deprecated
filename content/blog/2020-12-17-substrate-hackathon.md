@@ -15,23 +15,23 @@ authorURL: http://twitter.com/DarwiniaNetwork
 波卡国库和火币波卡生态基金提供共 1 万美元的开放 Grant 奖金池；Acala 基金会、Phala Network、Darwinia、Bandot、Litentry 提供了总价值超过 5000 美金的 Bounty 供开发者解决！Darwinia Bounty 还特别提供挖矿 NFT 作为奖励！
 
 
-**时间**：2020 年 12 月 19 日 - 20 日 
+**时间**:2020 年 12 月 19 日 - 20 日 
 
-**地点**：杭州｜未来区块链创新中心
+**地点**:杭州｜未来区块链创新中心
 
 
 ## 赛制
 
-* **Defi、NFT、DAO、跨链**：围绕这三个主题基于 Substrate 开发，智能合约创新，或完善已有产品的技术和功能。
-* **1 - 5 人团队作战**：基于 Substrate 开发、合约开发、产品开发、经济模型设计、产品设计等不同技能的 Hacker，1 - 5 人为一战队，思想、技能、行业碰撞。(可提前组队也可以现场组队)
-* **24 小时极限挑战**：在规定的 24 小时内将创意落地或完善已有的产品 Demo，向现场观众展示 24 小时内完成的增量项目 Demo。
-* **招募 100 名 Hacker**：根据 Hacker 提交的报名信息，按报名顺序录取 Hacker，录满 100 名 Hacker 截止报名。
-* **报名**：可提前组队报名，也可个人报名现场组队，提前组队的 Hacker 可以把自己的想法发布在 [HackList](http://list.hackerlink.io) 上，Hackathon 现场可以开发自己产品。HackerLink 用户可以免填写报名表单。详情请咨询脑洞猫。
-* **赛前 Workshop**：Hackathon 开始之前，会安排赛前的线上指导，帮助 Hacker 们快速了解 DeFi 和 NFT 基础背景、最新进展以及亟待解决的难题。（具体安排见下）
-* **Mentor**：现场有成功创业的老 Hacker 游走，可以抓住他们一起 Hack（不要问他们的身价）。
-* **餐饮**：活动中的餐饮免费提供。
-* **奖金**：波卡国库和火币波卡生态基金提供共 1 万美元的开放 Grant 奖金池；Acala 基金会、Phala Network、Darwinia、Bandot、Litentry 提供了总价值超过 5000 美金的 Bounty 供开发者解决！
-* **关于押金**：活动报名时需要提交 100 元押金，现场返还，若在开始前三天若无法参赛可退还押金， 参赛名额即可转移给其他 Hacker。
+* **Defi、NFT、DAO、跨链**:围绕这三个主题基于 Substrate 开发，智能合约创新，或完善已有产品的技术和功能。
+* **1 - 5 人团队作战**:基于 Substrate 开发、合约开发、产品开发、经济模型设计、产品设计等不同技能的 Hacker，1 - 5 人为一战队，思想、技能、行业碰撞。(可提前组队也可以现场组队)
+* **24 小时极限挑战**:在规定的 24 小时内将创意落地或完善已有的产品 Demo，向现场观众展示 24 小时内完成的增量项目 Demo。
+* **招募 100 名 Hacker**:根据 Hacker 提交的报名信息，按报名顺序录取 Hacker，录满 100 名 Hacker 截止报名。
+* **报名**:可提前组队报名，也可个人报名现场组队，提前组队的 Hacker 可以把自己的想法发布在 [HackList](http://list.hackerlink.io) 上，Hackathon 现场可以开发自己产品。HackerLink 用户可以免填写报名表单。详情请咨询脑洞猫。
+* **赛前 Workshop**:Hackathon 开始之前，会安排赛前的线上指导，帮助 Hacker 们快速了解 DeFi 和 NFT 基础背景、最新进展以及亟待解决的难题。（具体安排见下）
+* **Mentor**:现场有成功创业的老 Hacker 游走，可以抓住他们一起 Hack（不要问他们的身价）。
+* **餐饮**:活动中的餐饮免费提供。
+* **奖金**:波卡国库和火币波卡生态基金提供共 1 万美元的开放 Grant 奖金池；Acala 基金会、Phala Network、Darwinia、Bandot、Litentry 提供了总价值超过 5000 美金的 Bounty 供开发者解决！
+* **关于押金**:活动报名时需要提交 100 元押金，现场返还，若在开始前三天若无法参赛可退还押金， 参赛名额即可转移给其他 Hacker。
 
 
 ### 日程安排
@@ -57,13 +57,13 @@ Day 2 下午 15:00，Phala、Darwinia、Acala、Bandot、Opensquare、litentry �
 
 ## 参与 Substrate Hackathon 所需技能
 
-* **Substrate 开发**：Substrate，Rust；Substrate 本身以及基于 Substrate 的应用链的开发都使用的是 Rust 语言，一定程度的 Rust 编程知识是需要的。
+* **Substrate 开发**:Substrate，Rust；Substrate 本身以及基于 Substrate 的应用链的开发都使用的是 Rust 语言，一定程度的 Rust 编程知识是需要的。
 
-* **开发者工具**：命令行工具；代码编辑器或者集成开发环境（IDE），如 vscode，intellij idea，clion 等等；Git / Github 常用操作等。
+* **开发者工具**:命令行工具；代码编辑器或者集成开发环境（IDE），如 vscode，intellij idea，clion 等等；Git / Github 常用操作等。
 
-* **Dev**：前端、后端(Runtime)、全栈、移动端等。
+* **Dev**:前端、后端(Runtime)、全栈、移动端等。
 
-* **设计师**：UI / UX 等。
+* **设计师**:UI / UX 等。
 
 ![DoraHacks x 币安智能链 Defi Hackathon @ 北京](assets/substrate-hackathon-5.jpg)
 

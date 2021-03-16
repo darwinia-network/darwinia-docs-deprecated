@@ -18,6 +18,6 @@ sidebar_label: 平行链模式
 
 在连接模式下，达尔文网络可以参与 Polkadot slot 的竞拍，我们将提供一部分奖励，用于回馈那些通过锁定 DOT 帮助达尔文网络竞拍 Polkadot 槽位的用户。
 
-> 当达尔文网络作为平行链接入 Polkadot 时，达尔文社区的 DOT 持有者将可以通过提供DOT 竞价锁定凭证，获得达尔文网络的提案奖励。
+> 当达尔文网络作为平行链接入 Polkadot 时，达尔文社区的 DOT 持有者将可以通过提供 DOT 竞价锁定凭证，获得达尔文网络的提案奖励。
 
 ![Parachain Mode](assets/para-mode-crowd-cn.png)

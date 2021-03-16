@@ -4,7 +4,7 @@ title: 网络原生代币
 sidebar_label: 网络原生代币
 ---
 
-RING是达尔文网络的原生资产，RING可以作为交易的燃料费。燃料费包括交易费用，合约执行费用，网络带宽费用，存储费用等等。
+RING 是达尔文网络的原生资产，RING 可以作为交易的燃料费。燃料费包括交易费用，合约执行费用，网络带宽费用，存储费用等等。
 
 ## 代币详细信息
 
@@ -14,27 +14,27 @@ RING是达尔文网络的原生资产，RING可以作为交易的燃料费。燃
   - Ethereum（以太坊）
     - 类型：ERC20
     - 精度：18
-    - 智能合约地址（Ethereum)：0x9469d013805bffb7d3debe5e7839237e535ec483
+    - 智能合约地址（Ethereum):0x9469d013805bffb7d3debe5e7839237e535ec483
   - Tron（波场）
     - 类型：TRC20
     - 精度：18
-    - 智能合约地址（Tron)：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+    - 智能合约地址（Tron):TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
   - Darwinia Mainnet（暂未发行）
     - 类型：Native
     - 精度：9
     - 合约地址：暂无
-- 总量：初始发行量20亿（2 Billion），硬顶100亿（10 Billion，约40年达到）。
-> Native RING（主网RING）是记在 Darwinia Genesis 里面的，还没有上线和开启转账，但是 Darwinia 之前有发行 ERC20 和 TRC20 的 RING Token，是由记录在 Genesis 里面的 RING 背书和发行的，Darwinia 主网上线后，可以兑换成 Native RING。目前流通的 RING 总量（包括 ERC20 和 TRC20，包括锁定的）大约 16 亿。
+- 总量：初始发行量 20 亿（2 Billion），硬顶 100 亿（10 Billion，约 40 年达到）。
+> Native RING（主网 RING）是记在 Darwinia Genesis 里面的，还没有上线和开启转账，但是 Darwinia 之前有发行 ERC20 和 TRC20 的 RING Token，是由记录在 Genesis 里面的 RING 背书和发行的，Darwinia 主网上线后，可以兑换成 Native RING。目前流通的 RING 总量（包括 ERC20 和 TRC20，包括锁定的）大约 16 亿。
 
-- 增发方式：RING在达尔⽂网络主⽹上线时的供应量为20亿（2 Billion)，之后将会通过出块奖励将新发⾏的RING分发Staking系统和Treasury。
+- 增发方式：RING 在达尔⽂网络主⽹上线时的供应量为 20 亿（2 Billion)，之后将会通过出块奖励将新发⾏的 RING 分发 Staking 系统和 Treasury。
 
 ## 代币分配方案
 
-- 融资 30%（第一轮10%，估值10M美金，剩余20%待定）
-- 基金会 20%（主网上线后开始线性释放，5年后释放完）
+- 融资 30%（第一轮 10%，估值 10M 美金，剩余 20%待定）
+- 基金会 20%（主网上线后开始线性释放，5 年后释放完）
 - 团队 15%（主网上线一年后开始线性释放，释放一年时间，主网上线两年后释放完）
 - 商业和市场推广 15%
-- 社区 20%（包括映射给社区ERC-20 RING的部分）
+- 社区 20%（包括映射给社区 ERC-20 RING 的部分）
 
 ## 目前流通情况
 
@@ -97,16 +97,16 @@ RING Supply API: https://api.darwinia.network/supply/ring
 
 ## 通胀模型
 
-在达尔文主网上线后，该年的出块奖励每年调整一次，第N年的块奖励为剩余可发行供应量的 `1 - (99 /100)^sqrt(N)`
+在达尔文主网上线后，该年的出块奖励每年调整一次，第 N 年的块奖励为剩余可发行供应量的 `1 - (99 /100)^sqrt(N)`
 
     剩余可发行总量 = 硬顶总量 - 当前供应量
     下一年的供应量 = 上一年的供应量 + 该年实际出块奖励总和
 
-RING的`硬顶`总量为100亿。
+RING 的 ` 硬顶 ` 总量为 100 亿。
 
 根据每年的出块奖励，和出块间隔时间(单位：秒)，可以算出这一年的每个块的出块奖励。
 
-    每个块的块奖励 = 该年出块奖励 × 出块间隔时间 ÷ 每年总秒数(即365乘24乘3600)
+    每个块的块奖励 = 该年出块奖励 × 出块间隔时间 ÷ 每年总秒数(即 365 乘 24 乘 3600)
 
 下面是预估的每年通胀率统计表：
 
@@ -124,16 +124,16 @@ KTON 的初始供应量为零，只能通过系统中锁定 RING 获得，没有
   - 英文全称：Darwinia Commitment Token
   - 符号：KTON
   - 精度：18
-  - Ethereum网络：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-  - TRON网络：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
+  - Ethereum 网络：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  - TRON 网络：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
-KTON Supply API：https://api.darwinia.network/supply/kton
+KTON Supply API:https://api.darwinia.network/supply/kton
 
-### 附件二：锁RING得KTON的规则。
+### 附件二：锁 RING 得 KTON 的规则。
 
-锁定10,000 RING，12个月可获得1个KTON。可选择1-36整数月(30天)，其他月份见下表。（月份选取1-12月及15、18、21、36为例）
+锁定 10,000 RING，12 个月可获得 1 个 KTON。可选择 1-36 整数月(30 天)，其他月份见下表。（月份选取 1-12 月及 15、18、21、36 为例）
 
-| 月数  | 获得KTON | 月数  | 获得KTON | 月数  | 获得KTON |
+| 月数  | 获得 KTON | 月数  | 获得 KTON | 月数  | 获得 KTON |
 | :---: | :------: | :---: | :------: | :---: | :------: |
 |   1   |  0.0761  |   7   |  0.5634  |  15   |  1.2842  |
 |   2   |  0.1522  |   8   |  0.6446  |  18   |  1.5736  |
@@ -142,9 +142,9 @@ KTON Supply API：https://api.darwinia.network/supply/kton
 |   5   |  0.3959  |  11   |  0.9086  |       |          |
 |   6   |  0.4771  |  12   |    1     |       |          |
 
-### 附件三：锁仓中的RING（ERC-20）
+### 附件三：锁仓中的 RING（ERC-20）
 
-2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22数据）
+2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22 数据）
 
 |    日期    | 该时间之前累计可解锁 |    日期    | 该时间之前累计可解锁 |
 | :--------: | :------------------: | :--------: | :------------------: |
@@ -156,9 +156,9 @@ KTON Supply API：https://api.darwinia.network/supply/kton
 **合约**  
 https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
 
-### 附件四：锁仓中的RING（TRC-20）
+### 附件四：锁仓中的 RING（TRC-20）
 
-2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22数据）
+2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22 数据）
 
 |    日期    | 该时间之前累计可解锁 |
 | :--------: | :------------------: |

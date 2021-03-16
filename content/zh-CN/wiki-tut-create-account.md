@@ -10,7 +10,7 @@ sidebar_label: 创建账号
 2. 通过 Polkadot.js 浏览器插件
 3. 通过 Subkey 命令行工具
 
-下面将分别描述，您可以根据自己的喜好选择其中一种。如果您之前创建过账号，直接通过 “助记词/私钥/json文件” 等恢复/导入即可。
+下面将分别描述，您可以根据自己的喜好选择其中一种。如果您之前创建过账号，直接通过 “助记词/私钥/json 文件” 等恢复/导入即可。
 
 ## 通过 Darwinia Web Wallet
 
@@ -18,7 +18,7 @@ sidebar_label: 创建账号
 
 ![setting](assets/tut/create-account-0.png)
 
-2. 在「账号」栏找到「添加账号」和「使用JSON恢复」两个按钮。
+2. 在「账号」栏找到「添加账号」和「使用 JSON 恢复」两个按钮。
 
 ![create account](assets/tut/create-account-1.png)
 
@@ -26,11 +26,11 @@ sidebar_label: 创建账号
 
 ![create account](assets/tut/create-account-2.png)
 
-4. 备份账号信息，点击「创建并且备份账号」按钮，备份该账号 “json文件”
+4. 备份账号信息，点击「创建并且备份账号」按钮，备份该账号 “json 文件”
 
 ![create account](assets/tut/create-account-3.png)
 
-> 务必备份好`助记词、私钥、json 文件`等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
+> 务必备份好 ` 助记词、私钥、json 文件 ` 等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
 
 5. 通过 json 文件恢复账号，如之前创建过账号，且备份有 json 文件，可直接选择「使用 JSON 恢复」。
 
@@ -48,19 +48,19 @@ sidebar_label: 创建账号
 
   ![faucet-1-cn](assets/tut/create-account-6.png)
 
-  - `搜索` 在此处输入您希望包含的地址，该工具将生成密钥并显示与您的搜索最匹配的关联地址。
-  - `大小写敏感` 搜索的内容是否区分大小写。
-  - `密钥加密类型` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
+  - ` 搜索 ` 在此处输入您希望包含的地址，该工具将生成密钥并显示与您的搜索最匹配的关联地址。
+  - ` 大小写敏感 ` 搜索的内容是否区分大小写。
+  - ` 密钥加密类型 ` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
 
 - 点击【开始生成】，等待账号生成，点击【 + 】选择您心仪的账号进行备份。
 
 ![faucet-2-cn](assets/tut/create-account-7.png)
 
-- 点击【保存】，根据你的使用习惯，选择备份原始种子或json文件
+- 点击【保存】，根据你的使用习惯，选择备份原始种子或 json 文件
 
 ![faucet-3-cn](assets/tut/create-account-8.png)
 
-> 务必备份好`助记词、私钥、json 文件`等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
+> 务必备份好 ` 助记词、私钥、json 文件 ` 等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
 
 
   <!--Polkadot.js 浏览器插件-->
@@ -106,7 +106,7 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
   SS58 Address:       2owvscruh7PNbykGLMZPxHyjYdi1Ryanrm4PTxVKh85Ef8Dn
 ```
 
-> 如果您之前为除 “Substrate” 或 “Crab网络” 之外的其他网络创建了账号，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用`subkey -n substrate inspect "YOUR SECRET PHRASE HERE"`来获取Crab网络ID地址（SS58）。
+> 如果您之前为除 “Substrate” 或 “Crab 网络” 之外的其他网络创建了账号，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用 `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` 来获取 Crab 网络 ID 地址（SS58）。
 
   <!--END_DOCUSAURUS_CODE_TABS-->
 

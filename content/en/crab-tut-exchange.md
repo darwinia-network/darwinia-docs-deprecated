@@ -239,7 +239,7 @@ https://github.com/darwinia-network/darwinia-polkadotjs-typegen/blob/master/src/
 
 ### Get address balance
 ```
-curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58地址]}' 
+curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58 地址]}' 
 ```
 
 ### Prevention of chain forks
