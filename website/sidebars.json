@@ -121,8 +121,8 @@
 				"ids": [
 					"dev-tut-dvm-deposit",
 					"dev-tut-dvm-withdraw",
-          			"dev-tut-dvm-use-web3-contract",
-          			"dev-tut-dvm-use-web3-transaction"
+					"dev-tut-dvm-use-web3-contract",
+					"dev-tut-dvm-use-web3-transaction"
 				]
 			},
 			"dev-community",
