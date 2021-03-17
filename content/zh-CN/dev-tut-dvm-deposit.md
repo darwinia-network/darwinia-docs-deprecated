@@ -36,16 +36,16 @@ Apps 是 Darwinia 官方提供的工具包集合，切换到 Pangolin 网络的�
 
 ![增加 apps 支持](assets/wiki-tut-dvm-recharge-03.png)
 
-> 注： 如果提示 websocket unsecurity warn. 请修改 chrome 配置，设置 - 不安全的内容 -允许
+> 注：如果提示 `websocket unsecurity warn`。 请修改 Chrome 配置，`设置` - `不安全的内容` - `允许`。
 
 ## DVM 地址充值
 
-准备工作：
+### 准备工作
 
 - EVM address（Metamask 生成即可）
 - Darwinia address （需要有一定余额，社区领取）
 
-充值：
+### 充值
 
 1. 生成 EVM address 对应的 Darwinia address
 

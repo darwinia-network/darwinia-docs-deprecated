@@ -41,12 +41,12 @@ add custom ternal configuration ws://t1.hkg.itering.com:9944/, save and reload a
 
 ## Deposit EVM address
 
-Preparations:
+### Preparations
 
 - EVM address(Metamask generate one account)
 - Darwinia address(have some balance, apply in element)
 
-Recharge:
+### Deposit
 
 1. Generate EVM address from Darwinia address
 
