@@ -41,7 +41,7 @@ add custom ternal configuration ws://t1.hkg.itering.com:9944/, save and reload a
 
 ## Recharge EVM address
 
-The materials needs to be prepared in advance:
+Preparations:
 
 - evm address（Metamask generate one account）
 - substrate address （have some balance, apply in element）

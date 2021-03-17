@@ -10,7 +10,7 @@ With the DVM smart contract solution, users can easily use ethereum contracts in
 commonly used tools MetaMask and Remix, etc. DVM account withdrawal is the act of withdrawing tokens from a DVM account
 to a Darwinia account.
 
-Materials that need to be prepared in advance:
+Preparations:
 
 - MetaMask(with dvm account imported)
 - Apps, which integrated withdraw tool
@@ -26,6 +26,6 @@ Open [apps]-[Toolbox]-[DVM Withdraw], and click `Connect`
 
 2. Withdraw
 
-Once connected to MetaMask successfully, fill in the withdrawal address and withdraw amount prepared in advance, click `Withdraw`.
+Once connected to MetaMask successfully, fill in the withdrawal address and amount prepared before, click `Withdraw`.
 
 ![withdraw](assets/wiki-tut-dvm-withdraw-02.png)

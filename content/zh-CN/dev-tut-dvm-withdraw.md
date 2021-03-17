@@ -9,7 +9,7 @@ sidebar_label: DVM 地址提现
 使用 DVM 智能合约解决方案后，用户可以轻松的在达尔文网络中使用以太坊合约，以及常用工具 MetaMask, Remix 等。
 `DVM 地址提现` 指的是将 DVM 账户中的代币提现到 Darwinia 账户地址的行为。具体操作如下：
 
-需要提前准备好的材料有：
+准备工作：
 
 - MetaMask（已关联 DVM 账户）
 - Apps（已集成提现工具）
@@ -25,6 +25,6 @@ sidebar_label: DVM 地址提现
 
 2. 执行提现操作
 
-连接 MetaMask 成功后，填写提前准备的 Darwinia 提现地址以及提现金额，点击 `Withdraw` 进行提现。
+连接 MetaMask 成功后，填写提前准备的 Darwinia 提现地址以及金额，点击 `Withdraw` 进行提现。
 
 ![提现](assets/wiki-tut-dvm-withdraw-02.png)
