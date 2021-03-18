@@ -23,7 +23,7 @@ Pangolin 测试网络是 Darwinia 团队最近开放的一个测试网络，代�
 配置项说明：
 
 - 网络名称：`Pangolin`
-- RPC URL: `http://t1.hkg.itering.com:9933`
+- RPC URL: `https://pangolin-rpc.darwinia.network`
 - 链 ID： `43`
 - 符号： `PRING`
 

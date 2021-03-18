@@ -24,7 +24,7 @@ We need to query balance of evm account, so add new network in metamask at first
 Setting Configuration:
 
 - Network Name：`Pangolin`
-- RPC URL: `http://t1.hkg.itering.com:9933`
+- RPC URL: `https://pangolin-rpc.darwinia.network`
 - Chain ID： `43`
 - Currency Symbol： `PRING`
 
