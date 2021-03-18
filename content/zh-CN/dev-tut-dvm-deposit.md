@@ -49,7 +49,7 @@ Apps 是 Darwinia 官方提供的工具包集合，切换到 Pangolin 网络的�
 
 1. 生成 EVM address 对应的 Darwinia address
 
-在 `Apps` - `工具箱` - `DVM 地址` 里输入 EVM address，将会生成对应的 Darwinia address，该地址将代表 EVM address 接收 Pring.
+在 `Apps` - `工具箱` - `DVM 地址` 里输入 EVM address，将会生成对应的 Darwinia address，该地址将代表 EVM address 接收 PRING.
 
 
 ![create substrate address](assets/wiki-tut-dvm-recharge-04.png)

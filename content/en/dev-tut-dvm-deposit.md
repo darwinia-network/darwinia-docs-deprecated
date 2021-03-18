@@ -39,27 +39,27 @@ add custom ternal configuration ws://t1.hkg.itering.com:9944/, save and reload a
 
 > Note: if it prompts websocket unsecurity warn, please change chrome safe configuration to allow access to unsafe content.
 
-## Deposit EVM address
+## Deposit a EVM address
 
 ### Preparations
 
-- EVM address(Metamask generate one account)
-- Darwinia address(have some balance, apply in element)
+- A EVM address (Metamask generate one account)
+- A Darwinia address (This should have a proper balance, apply in element)
 
 ### Deposit
 
 1. Generate EVM address from Darwinia address
 
-`apps` - `ToolBox` - `DVM address`, enter the EVM address, the corresponding Darwinia address will be generated, which represent this EVM address to send or receive Pring.
+`Apps` - `ToolBox` - `DVM address`, enter the EVM address, the corresponding Darwinia address will be generated, which represent this EVM address to send or receive PRING.
 
 
 ![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
 The corresponding Darwinia address of `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
 
 
-2. Transfer balance use Apps
+2. Transfer use Apps
 
-Transfer balance using [Apps](https://apps.darwinia.network/#/account), the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
+Transfer using [Apps](https://apps.darwinia.network/#/account), the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
 
 ![transfer pring](assets/wiki-tut-dvm-recharge-05.png)
 
