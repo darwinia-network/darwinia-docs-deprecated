@@ -1,18 +1,18 @@
 ---
 id: crab-tut-exchange
-title: 交易所接入Crab网络指南
-sidebar_label: 交易所接入Crab网络指南
+title: 交易所接入 Crab 网络指南
+sidebar_label: 交易所接入 Crab 网络指南
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-exchange.md
 
 ---
 
-# 交易所接入Crab网络指南
+# 交易所接入 Crab 网络指南
 
 Darwinia Crab Network（简称：Crab 网络）对于 Darwinia 来说是一个金丝雀网络，定位类似于 Kusama 网络之于 Polkadot。它将会是一个长期运行的网络。
 
-Crab 网络是一个具有价值的网络，其为应用部署提供了和Darwinia主网类似的环境，它的参数更为激进，非常适合各种快速演进的应用。Crab 网络不仅包含应用运行所需要的软件环境和网络环境，还包括接近Darwinia主网的经济博弈环境。
+Crab 网络是一个具有价值的网络，其为应用部署提供了和 Darwinia 主网类似的环境，它的参数更为激进，非常适合各种快速演进的应用。Crab 网络不仅包含应用运行所需要的软件环境和网络环境，还包括接近 Darwinia 主网的经济博弈环境。
 
-Crab 网络使用与Darwinia主网相同的抵押机制和通胀模型。 Crab的代币为CRING和CKTON，CRING的初始供应为2000M，CKTON的供应为0。
+Crab 网络使用与 Darwinia 主网相同的抵押机制和通胀模型。 Crab 的代币为 CRING 和 CKTON，CRING 的初始供应为 2000M，CKTON 的供应为 0。
 
 ## Informations
 
@@ -77,7 +77,7 @@ Add the --ws-external and --rpc-cors all options if you want to [remotely connec
 
 ### Docker
 
-#### 1. 拉取docker镜像
+#### 1. 拉取 docker 镜像
 
 ```
 docker pull quay.io/darwinia-network/darwinia:vx.x.x
@@ -237,7 +237,7 @@ https://github.com/darwinia-network/darwinia-polkadotjs-typegen/blob/master/src/
 
 ### Get address balance
 ```
-curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58地址]}' 
+curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58 地址]}' 
 ```
 
 ### Prevention of chain forks

@@ -103,4 +103,4 @@ If you encounter any problems during this process, you can add Darwinia Telegram
 - Telegram:[ https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 - Medium:[ https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
 - Reddit:[ https://www.reddit.com/r/DarwiniaFans/](https://www.reddit.com/r/DarwiniaFans/)
-- Riot：https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
+- Riot:https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org

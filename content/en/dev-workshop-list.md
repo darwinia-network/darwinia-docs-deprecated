@@ -21,7 +21,7 @@ Chain Reaction Meetup aims to discuss cutting-edge technologies with developers,
 - Maggie Parity - Substrate and smart contract
 - Antonio - Darwinia cross-chain token bridge
 
-- Video：
+- Video:
 
   <iframe width="640" height="480" src="https://www.youtube.com/embed/fSZspxvvIFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,13 +29,13 @@ Chain Reaction Meetup aims to discuss cutting-edge technologies with developers,
 
 ### 6th
 
-- Summary：
+- Summary:
 
   1、Aki - Substrate 中的编码：SCALE  
   2、王大锤 - Substrate 与智能合约  
   3、Antonio - Darwinia 跨链转接桥
 
-- Video：
+- Video:
 
   <iframe width="640" height="480" src="https://www.youtube.com/embed/-zgIFFWQnso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   

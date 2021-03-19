@@ -1,10 +1,10 @@
 ---
 id: dev-workshop-0005
-title: 链式反应研讨会 第5期
-sidebar_label: 第5期
+title: 链式反应研讨会 第 5 期
+sidebar_label: 第 5 期
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/dev-workshop-0005.md
 ---
-## 链式反应研讨会 第5期
+## 链式反应研讨会 第 5 期
 - 简介：
 
   1、Yaoqi - Web3.0 落地的必由之路：区块链的可扩展性和互操作性  

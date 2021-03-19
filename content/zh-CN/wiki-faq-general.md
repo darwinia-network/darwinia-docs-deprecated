@@ -14,29 +14,30 @@ sidebar_label: 通用类
 
 ### 我是达尔文新手，应该从哪开始了解达尔文网络呢？
 
-首先，欢迎你加入到达尔文社区！达尔文网络是基于 Substrate 开发的去中心化桥接链，是跨链生态的 “金门大桥”，提供最安全的不依赖第三方多签的异构链跨链方案，连接波卡，以太坊，波场等异构链，主要应用领域包括 Defi，跨链 NFT 交易市场，游戏等。点击下面链接了解更多：
+首先，欢迎你加入到达尔文社区！达尔文网络是基于 Substrate 开发的去中心化桥接链，是跨链生态的“金门大桥”，提供最安全的不依赖第三方多签的异构链跨链方案，
+连接波卡，以太坊，波场等异构链，主要应用领域包括 DeFi，跨链 NFT 交易市场，游戏等。点击下面链接了解更多：
 
-**官网**：[https://darwinia.network/](https://darwinia.network/)
+**官网**:[https://darwinia.network/](https://darwinia.network/)
 
-**白皮书**：[https://darwinia.network/Darwinia_Genepaper_CN.pdf](https://darwinia.network/Darwinia_Genepaper_CN.pdf)
+**白皮书**:[https://darwinia.network/Darwinia_Genepaper_CN.pdf](https://darwinia.network/Darwinia_Genepaper_CN.pdf)
 
-**Reddit**：[https://www.reddit.com/r/DarwiniaFans](https://www.reddit.com/r/DarwiniaFans) 
+**Reddit**:[https://www.reddit.com/r/DarwiniaFans](https://www.reddit.com/r/DarwiniaFans) 
 
-**Github**：[https://github.com/darwinia-network](https://github.com/darwinia-network)
+**Github**:[https://github.com/darwinia-network](https://github.com/darwinia-network)
 
-**Twitter**：[@DarwiniaNetwork](https://twitter.com/DarwiniaNetwork) 
+**Twitter**:[@DarwiniaNetwork](https://twitter.com/DarwiniaNetwork) 
 
-**Discord**：[https://discord.gg/KMZVeyM](https://discord.gg/KMZVeyM) 
+**Discord**:[https://discord.gg/KMZVeyM](https://discord.gg/KMZVeyM) 
 
-**Medium**：[https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
+**Medium**:[https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
 
-**Wiki 文档**：[https://docs.darwinia.network/zh-CN/](https://docs.darwinia.network/zh-CN/)
+**Wiki 文档**:[https://docs.darwinia.network/zh-CN/](https://docs.darwinia.network/zh-CN/)
 
-**达尔文论坛**：[https://talk.darwinia.network/](https://talk.darwinia.network/)
+**达尔文论坛**:[https://talk.darwinia.network/](https://talk.darwinia.network/)
 
-**Dev Channel**：[https://t.me/DarwiniaDev](https://t.me/DarwiniaDev)
+**Dev Channel**:[https://t.me/DarwiniaDev](https://t.me/DarwiniaDev)
 
-**官方 Telegram**：[https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
+**官方 Telegram**:[https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 
 同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在 [这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform) 提交申请。
 
@@ -56,11 +57,11 @@ sidebar_label: 通用类
 
 在启动达尔文网络之前，团队还开发出了其他几种产品，包括基于区块链的游戏 [进化星球](https://www.evolution.land/)，Itering ID，DKMS 等。
 
-* **DKMS**：去中心化私钥管理系统
-* **进化星球**：一款支持跨链的虚拟经营类区块链游戏
-* **Subscan**：聚合 Substrate 生态网络的高精度 Web3 浏览器
-* **Itering ID**：安全易用的数字钱包与用户入口，搭载空气隔离的扫码技术，支持多场景，多平台，多应用的信息交互技术
-* **NFT 生成器**：精简版在线非标资产生成工具，通过智能合约，快速创建专属自定义 NFT 资产，适用于游戏资产上链、权益凭证以及更多用途
+* **DKMS**:去中心化私钥管理系统
+* **进化星球**:一款支持跨链的虚拟经营类区块链游戏
+* **Subscan**:聚合 Substrate 生态网络的高精度 Web3 浏览器
+* **Itering ID**:安全易用的数字钱包与用户入口，搭载空气隔离的扫码技术，支持多场景，多平台，多应用的信息交互技术
+* **NFT 生成器**:精简版在线非标资产生成工具，通过智能合约，快速创建专属自定义 NFT 资产，适用于游戏资产上链、权益凭证以及更多用途
   
 <hr />
 
@@ -91,8 +92,8 @@ Itering 于 2018 年在新加坡成立，是一家区块链核心科技公司。
 * 2020 Q2 以太坊线性 Relay
 * 2020 Q3 达尔文 Crab 先行网
 * 2020 Q3 达尔文 Relay
-* 2020 Q3 主网阶段0：创世跨链
-* 2020 Q4 主网阶段1：质押
+* 2020 Q3 主网阶段 0:创世跨链
+* 2020 Q4 主网阶段 1:质押
 * 2020 Q4 以太坊到达尔文单向桥
 * 2020 Q4 DVM(以太坊兼容虚拟机)，测试网 Pangolin
 * 2020 Q4 达尔文-以太坊反向桥

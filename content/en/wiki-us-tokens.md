@@ -122,13 +122,13 @@ KTON is essentially a derivative token of RING，which encourages long-term lock
 The initial supply of KTON is 0, and it can only be obtained by locking RING. There is no other distribution channel. KTON has no impact on the function of the Native Token RING.
 
 - KTON Specification
-  - Name：Darwinia Commitment Token
-  - Symbol：KTON
-  - Precision：18
-  - Ethereum Contract：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-  - TRON Contract：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
+  - Name:Darwinia Commitment Token
+  - Symbol:KTON
+  - Precision:18
+  - Ethereum Contract:0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  - TRON Contract:TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
-KTON Supply API：https://api.darwinia.network/supply/kton
+KTON Supply API:https://api.darwinia.network/supply/kton
 
 ### Appendix 2: Algorithm of Binding RING for KTON
 

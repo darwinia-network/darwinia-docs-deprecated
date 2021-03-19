@@ -1,10 +1,10 @@
 ---
 id: dev-workshop-0001
-title: 链式反应研讨会 第1期
-sidebar_label: 第1期
+title: 链式反应研讨会 第 1 期
+sidebar_label: 第 1 期
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/dev-workshop-0001.md
 ---
-## 链式反应研讨会 第1期
+## 链式反应研讨会 第 1 期
 - 简介：
 
   1、Hammer Wang - Polkadot & Substrate Tech Guide  

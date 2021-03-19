@@ -13,7 +13,7 @@ custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/000
 # 概要
 [summary]: #summary
 
-达尔文网络（DARWINIA）基于Substrate开发的跨链应用枢纽和资产互联网络。
+达尔文网络（DARWINIA）基于 Substrate 开发的跨链应用枢纽和资产互联网络。
 
 达尔文网络是开放的应用跨链协议，主要专注于建设未来资产互联网络，包括游戏资产和非标资产的跨链，稳定币的跨链，应用链跨链等业务。
 
@@ -28,7 +28,7 @@ custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/000
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
 
-关于Polkdot的网络拓扑可以参考其白皮书，其网络拓扑的发展会有点像分形结构，即局部的网络拓扑和整体的网络拓扑会是同构且比较相似。下面的图片列出了达尔文网络可能在网络中的位置。
+关于 Polkdot 的网络拓扑可以参考其白皮书，其网络拓扑的发展会有点像分形结构，即局部的网络拓扑和整体的网络拓扑会是同构且比较相似。下面的图片列出了达尔文网络可能在网络中的位置。
 
 
 ![Polkadot and Darwinia networks](images/0001-darwinia.png)
@@ -37,30 +37,30 @@ custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/000
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
 
-关于Substrate框架的详细介绍，可以参考下面的一些代码库和文档。
+关于 Substrate 框架的详细介绍，可以参考下面的一些代码库和文档。
 
 - [https://github.com/paritytech/substrate](Substrate)
-- [https://polkadot.js.org/](Polkadot和Substrate工具，接口和JS库).
-- [https://docs.substrate.dev/](Substrate文档和上手资料)
+- [https://polkadot.js.org/](Polkadot 和 Substrate 工具，接口和 JS 库).
+- [https://docs.substrate.dev/](Substrate 文档和上手资料)
 
 # 缺点
 [drawbacks]: #drawbacks
 
-比较依赖Substrate的开发设计和进度。
+比较依赖 Substrate 的开发设计和进度。
 
 # 理由
 [rationale-and-alternatives]: #rationale-and-alternatives
 
-- Substrate是Polkadot底层的框架，符合达尔文网络跨链的理念
-- 最新的技术框架，比较好的底层模块解耦和支持，可以定制SRML
-- 可以很方便的接入Polkadot，站在巨人的肩膀上
+- Substrate 是 Polkadot 底层的框架，符合达尔文网络跨链的理念
+- 最新的技术框架，比较好的底层模块解耦和支持，可以定制 SRML
+- 可以很方便的接入 Polkadot，站在巨人的肩膀上
 
 # 拓展的模块
-- RING模块
-- KTON模块
-- Staking模块
-- eth-relay模块
-- eth-backing模块
+- RING 模块
+- KTON 模块
+- Staking 模块
+- eth-relay 模块
+- eth-backing 模块
 
 # 参考
 

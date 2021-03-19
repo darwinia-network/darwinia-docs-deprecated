@@ -112,9 +112,9 @@ sidebar_label: 主网相关
 
 一个块：约 6 秒
 
-一个 Epoch：2400 个块 ≈ 4 小时
+一个 Epoch:2400 个块 ≈ 4 小时
 
-一个 Era：6 个 Epoch ≈ 24 小时
+一个 Era:6 个 Epoch ≈ 24 小时
 
 Unbonding 时长（bond 解绑后需要等待的天数）: 14 天
 

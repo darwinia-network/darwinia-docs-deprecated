@@ -1,19 +1,19 @@
 ---
 id: wiki-tut-exchange
-title: 交易平台接入Darwinia主网指南
-sidebar_label: 交易平台接入Darwinia主网指南
+title: 交易平台接入 Darwinia 主网指南
+sidebar_label: 交易平台接入 Darwinia 主网指南
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-tut-exchange.md
 
 ---
 
-# 交易平台接入Darwinia主网指南
+# 交易平台接入 Darwinia 主网指南
 
-达尔文网络基于Substrate开发，是一个连通波卡平行链生态与外部异构链的跨链转接桥接网络，全面兼容EVM虚拟机，专注于建设未来资产互联网络，侧重非标资产NFT拍卖市场、稳定币跨链，资产交易兑换等领域。为跨链及多链应用提供基础设施。 
+达尔文网络基于 Substrate 开发，是一个连通波卡平行链生态与外部异构链的跨链转接桥接网络，全面兼容 EVM 虚拟机，专注于建设未来资产互联网络，侧重非标资产 NFT 拍卖市场、稳定币跨链，资产交易兑换等领域。为跨链及多链应用提供基础设施。 
 
 #波卡 #NFT #DeFI #跨链 #Staking
 
 ### RING
-RING是达尔文网络（Darwinia Network）的原生资产，可用作交易的Gas。Gas包括链上交易费用，合约执行费用及跨链服务费等。RING可参与Staking获取影响力，以此参与治理并获得收益。
+RING 是达尔文网络（Darwinia Network）的原生资产，可用作交易的 Gas。Gas 包括链上交易费用，合约执行费用及跨链服务费等。RING 可参与 Staking 获取影响力，以此参与治理并获得收益。
 
 RING 发行总量：2_035_657_675.1095
 RING 流通总量：449_346_894.5532
@@ -21,7 +21,7 @@ RING 流通总量：449_346_894.5532
 供应量实时数据: https://api.darwinia.network/supply/ring
 
 ### KTON
-KTON是达尔文网络（Darwinia Network）原生通证RING的衍生通证，称为承诺通证。是为了鼓励用户进行长期的承诺锁定。当用户在Staking的过程中承诺锁定RING一定时限，系统会给予相应数量的KTON作为流动性丧失的弥补和奖励。KTON同时也可以在主网上参与Staking获取影响力，以此参与治理并获得收益。
+KTON 是达尔文网络（Darwinia Network）原生通证 RING 的衍生通证，称为承诺通证。是为了鼓励用户进行长期的承诺锁定。当用户在 Staking 的过程中承诺锁定 RING 一定时限，系统会给予相应数量的 KTON 作为流动性丧失的弥补和奖励。KTON 同时也可以在主网上参与 Staking 获取影响力，以此参与治理并获得收益。
 
 KTON 发行总量：69_607.2280
 KTON 流通总量：49_915.3625
@@ -30,7 +30,7 @@ KTON 流通总量：49_915.3625
 
 ---
 
-达尔文是一个跨链桥项目，目前在以太坊和TRON上都有达尔文资产。 因此，交易平台可以有多种接入方式，可以根据需要选择一种或多种。
+达尔文是一个跨链桥项目，目前在以太坊和 TRON 上都有达尔文资产。 因此，交易平台可以有多种接入方式，可以根据需要选择一种或多种。
 
 ## 方法 1: 接入达尔文主网
 
@@ -83,7 +83,7 @@ chmod +x ./darwinia
     --name <YOUR_NODE_NAME>
 ```
 
-如果要[远程连接到此节点](https://wiki.polkadot.network/docs/en/maintain-wss)，请添加--ws-external和--rpc-cors选项：
+如果要[远程连接到此节点](https://wiki.polkadot.network/docs/en/maintain-wss)，请添加--ws-external 和--rpc-cors 选项：
 
 ```
 ./darwinia \
@@ -95,7 +95,7 @@ chmod +x ./darwinia
 
 #### Docker
 
-##### 1. 拉取docker镜像
+##### 1. 拉取 docker 镜像
 
 ```
 docker pull quay.io/darwinia-network/darwinia:vx.x.x
@@ -254,7 +254,7 @@ https://github.com/darwinia-network/darwinia-polkadotjs-typegen/blob/master/src/
 
 #### Get address balance
 ```
-curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58地址]}' 
+curl 'http-rpc-url' -X POST -H "Content-Type: application/json" --data '{"id":6,"jsonrpc":"2.0","method":"balances_usableBalance","params":[0, ss58 地址]}' 
 ```
 
 #### Prevention of chain forks
@@ -268,8 +268,8 @@ Contract: 0x9469d013805bffb7d3debe5e7839237e535ec483
 Precision: 18
 
 * KTON
-Contract：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-Precision：18
+Contract:0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+Precision:18
 
 ## 方法 3: 接入 Tron TRC20
 
@@ -278,5 +278,5 @@ Contract: TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
 Precision: 18
 
 * KTON
-Contract：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
+Contract:TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 Precision: 18

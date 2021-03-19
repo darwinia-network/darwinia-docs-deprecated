@@ -15,7 +15,7 @@ RING 是达尔文网络（Darwinia Network）的原生资产，可用作交易�
   
   精度：18
 
-  智能合约地址（Ethereum)：0x9469d013805bffb7d3debe5e7839237e535ec483
+  智能合约地址（Ethereum):0x9469d013805bffb7d3debe5e7839237e535ec483
 
 * **Tron（波场）**
   
@@ -23,7 +23,7 @@ RING 是达尔文网络（Darwinia Network）的原生资产，可用作交易�
 
   精度：18
 
-  智能合约地址（Tron)：TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
+  智能合约地址（Tron):TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
 
 <hr />
 
@@ -38,7 +38,7 @@ KTON 是达尔文网络（Darwinia Network）原生通证 RING 的衍生通证�
 
   精度：18
 
-  智能合约地址（Ethereum)：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  智能合约地址（Ethereum):0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
 
 * **Tron**
   
@@ -46,18 +46,18 @@ KTON 是达尔文网络（Darwinia Network）原生通证 RING 的衍生通证�
 
   精度：18
 
-  智能合约地址（Tron)：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
+  智能合约地址（Tron):TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
 
 RING 和氪石类似于现货和期货之间的关系，通过双重通证的设计，鼓励长期投资者的同时，可以降低操作交易的风险，并有效地维持网络安全，建立忠诚度，创建有益的治理体系。
 
-目前，以太坊网络和 Tron 网络都分别以 ERC-20 或 TRC-20 的形式存在一定数量的 RING 和氪石。主网上线后，这些通证都能 1：1 跨链转移到达尔文主网。
+目前，以太坊网络和 Tron 网络都分别以 ERC-20 或 TRC-20 的形式存在一定数量的 RING 和氪石。主网上线后，这些通证都能 1:1 跨链转移到达尔文主网。
 
 <hr />
 
 ### CRING 和 CKTON
 
-CRING 和 cKTO 是存在于 Crab 先行网上的通证，其各种参数和主网上的 RING 和 KTON 保持一致，并使用相同的质押机制和通胀模型。
+CRING 和 CKTON 是存在于 Crab 先行网上的通证，其各种参数和主网上的 RING 和 KTON 保持一致，并使用相同的质押机制和通胀模型。
 
 达尔文主网上线后，将开通达尔文和 Crab 先行网之间的跨链桥，使得 CRING 和 RING 能够相互交换，兑换比率为 100 CRING = 1 RING。
 

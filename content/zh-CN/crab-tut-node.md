@@ -113,13 +113,13 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ### Q&A
 
-- Q：无法启动节点
-- A：
+- Q:无法启动节点
+- A:
 	1. 确认系统支持该可执行文件
 	1. 部分动态链接库依赖丢失，安装依赖
 
-- Q：我的节点为什么不同步块
-- A：
+- Q:我的节点为什么不同步块
+- A:
 	1. 检查 bootnodes 是否填错
 	1. 与目标节点网络通信差，尝试其他 bootnodes
 	1. 目标节点连接数已满，尝试其他 bootnodes

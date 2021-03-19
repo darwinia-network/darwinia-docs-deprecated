@@ -6,7 +6,7 @@ sidebar_label: 进阶版权益质押
 
 ### 氪石 (KTON)
 
-为了鼓励用户进行长期锁定和承诺投入，用户在 Staking RING 的过程中，可以承诺锁定 RING 3-36 个月，系统会给参与 Staking 的用户一个氪石的通证进行奖励，但在承诺锁定期间无法进行解锁 RING 操作 (除非缴纳 3 倍的氪石罚金)。
+为了鼓励用户进行长期锁定和承诺投入，用户在 Staking RING 的过程中，可以承诺锁定 RING 3 - 36 个月，系统会给参与 Staking 的用户一个氪石的通证进行奖励，但在承诺锁定期间无法进行解锁 RING 操作(除非缴纳 3 倍的氪石罚金)。
 
 ![Advanced Staking](assets/staking-advanced.png)
 
