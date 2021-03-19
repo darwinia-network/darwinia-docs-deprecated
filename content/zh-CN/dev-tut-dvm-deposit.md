@@ -27,7 +27,7 @@ Pangolin 测试网络是 Darwinia 团队最近开放的一个测试网络，代�
 - 链 ID： `43`
 - 符号： `PRING`
 
-单击保存，pangolin 网络便添加成功。之后就可以使用 matamask 来进行 evm address 之间的转账，合约部署等。
+单击保存，pangolin 网络便添加成功。之后就可以使用 matamask 来进行 EVM address 之间的转账，合约部署等。
 
 ## Apps 增加 Pangolin 网络
 
@@ -36,29 +36,29 @@ Apps 是 Darwinia 官方提供的工具包集合，切换到 Pangolin 网络的�
 
 ![增加 apps 支持](assets/wiki-tut-dvm-recharge-03.png)
 
-> 注： 如果提示 websocket unsecurity warn. 请修改 chrome 配置，设置 - 不安全的内容 -允许
+> 注：如果提示 `websocket unsecurity warn`。 请修改 Chrome 配置，`设置` - `不安全的内容` - `允许`。
 
-## EVM 地址充值
+## DVM 地址充值
 
-需要提前准备好的材料：
+### 准备工作
 
-- evm address（Metamask 生成即可）
-- substrate address （需要有一定余额，社区领取）
+- EVM address（Metamask 生成即可）
+- Darwinia address （需要有一定余额，社区领取）
 
-充值：
+### 充值
 
-1. 生成 evm address 对应的 substrate address
+1. 生成 EVM address 对应的 Darwinia address
 
-在 【apps】-【工具箱】-【DVM 地址】 里输入 evm address，将会生成对应的 substrate address，该地址将代表 evm address 接收 Pring.
+在 `Apps` - `工具箱` - `DVM 地址` 里输入 EVM address，将会生成对应的 Darwinia address，该地址将代表 EVM address 接收 PRING.
 
 
 ![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
-`0xAa01a1bEF0557fa9625581a293F3AA7770192632` 对应的 substrate address 为 `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`
+`0xAa01a1bEF0557fa9625581a293F3AA7770192632` 对应的 Darwinia address 为 `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`
 
 
-2. 使用 apps 转账
+2. 使用 [Apps](https://apps.darwinia.network/#/account) 转账
 
-apps 内转账，from 地址为余额不为 0 的账户地址，target 地址填写由 evm address 生成的 substrate address, 这里是 `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`。
+Apps 内转账，from 地址为余额不为 0 的账户地址，target 地址填写由 EVM address 生成的 Darwinia address, 这里是 `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`。
 
 ![transfer pring](assets/wiki-tut-dvm-recharge-05.png) 发送转账交易并等待确认。
 
@@ -67,4 +67,4 @@ apps 内转账，from 地址为余额不为 0 的账户地址，target 地址填
 
 ![confirm balance in matamash](assets/wiki-tut-dvm-recharge-06.png)
 
-evm address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` 的余额为 100，充值完成。
+EVM address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` 的余额为 100，充值完成。
