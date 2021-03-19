@@ -124,6 +124,10 @@
 				"title": "DVM 地址充值",
 				"sidebar_label": "DVM 地址充值"
 			},
+			"dev-tut-dvm-withdraw": {
+				"title": "DVM 地址提现",
+				"sidebar_label": "DVM 地址提现"
+			},
 			"dev-tut-dvm-use-web3-contract": {
 				"title": "使用 web3 玩转合约",
 				"sidebar_label": "使用 web3 玩转合约"

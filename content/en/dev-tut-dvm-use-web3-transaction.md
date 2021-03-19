@@ -28,7 +28,7 @@ $ ls transaction/
 balance.js  node_modules/  package.json  package-lock.json  transaction.js
 ```
 
-> Note: If you are working on Pangolin Network，change the default address http://localhost:9933 to http://t1.hkg.itering.com:9933。
+> Note: If you are working on Pangolin Network，change the default address http://localhost:9933 to https://pangolin-rpc.darwinia.network。
 
 ## Get Balance
 
