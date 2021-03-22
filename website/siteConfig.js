@@ -41,7 +41,7 @@ const siteConfig = {
     { href: "https://darwinia.network/", label: "Home", external: true },
     { blog: true, label: 'Blog' },
     { doc: 'wiki-intro', label: 'Docs' },
-    { href: "https://crab.network/", label: "Crab Home", external: true },
+    { href: "https://crab.network/", label: "Crab Network", external: true },
     { doc: 'dev-home', label: 'Developers' },
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },
