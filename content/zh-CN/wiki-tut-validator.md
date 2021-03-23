@@ -139,7 +139,6 @@ result 就是新生成的属于该节点的 session key。下面会用到。
    ./darwinia \
       --base-path <YOUR_DATA_DIR> \
       --name <YOUR_NODE_NAME> \
-      --chain crab \
       --validator
    ```
 
