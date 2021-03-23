@@ -36,21 +36,21 @@ KTON 流通总量：49_915.3625
 
 ### 信息
 
-官网: https://darwinia.network/
-链浏览器: https://darwinia.subscan.io/
-代码: https://github.com/darwinia-network/darwinia
-出块时间: 6 秒
-公共 Websocket RPC: [wss://rpc.darwinia.network](wss://rpc.darwinia.network)
-公共 Http RPC: https://rpc.darwinia.network
+官网: https://darwinia.network/  
+链浏览器: https://darwinia.subscan.io/  
+代码: https://github.com/darwinia-network/darwinia  
+出块时间: 6 秒  
+公共 Websocket RPC: [wss://rpc.darwinia.network](wss://rpc.darwinia.network)  
+公共 Http RPC: https://rpc.darwinia.network  
 
 * RING
-    符号: RING
-    全称: Darwinia Network Native Token
-    精度：9
+    符号: RING  
+    全称: Darwinia Network Native Token  
+    精度：9  
 
 * KTON
-    符号: KTON
-    全称: Darwinia Commitment Token
+    符号: KTON  
+    全称: Darwinia Commitment Token  
     精度: 9
 
 ### 全节点快速安装并运行
@@ -59,9 +59,9 @@ KTON 流通总量：49_915.3625
 
 #### 服务器的最低要求
 
-CPU: 1 core
-Memory: 2 GB
-Disk: 30 GB SSD
+CPU: 1 core  
+Memory: 2 GB  
+Disk: 30 GB SSD  
 
 #### Linux
 

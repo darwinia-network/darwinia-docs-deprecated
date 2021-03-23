@@ -37,21 +37,21 @@ Because Darwinia is a cross-chain bridges project, there are currently Darwinia 
 
 ### Informations
 
-Official website: https://darwinia.network/
-Blockchain Explorer: https://darwinia.subscan.io/
-Code: https://github.com/darwinia-network/darwinia
-Block time: 6 seconds
-Public Websocket RPC: [wss://rpc.darwinia.network](wss://rpc.darwinia.network)
-Public Http RPC: https://rpc.darwinia.network
+Official website: https://darwinia.network/  
+Blockchain Explorer: https://darwinia.subscan.io/  
+Code: https://github.com/darwinia-network/darwinia  
+Block time: 6 seconds  
+Public Websocket RPC: [wss://rpc.darwinia.network](wss://rpc.darwinia.network)  
+Public Http RPC: https://rpc.darwinia.network  
 
 * RING
-    Symbol: RING
-    Name: Darwinia Network Native Token
+    Symbol: RING  
+    Name: Darwinia Network Native Token  
     Precision:9
 
 * KTON
-    Symbol: KTON
-    Name: Darwinia Commitment Token
+    Symbol: KTON  
+    Name: Darwinia Commitment Token  
     Precision: 9
 
 ### Full node quick installation and running
@@ -60,9 +60,9 @@ Download releases from https://github.com/darwinia-network/darwinia/releases
 
 #### Minimum requirements of host server
 
-CPU: 1 core
-Memory: 2 GB
-Disk: 30 GB SSD
+CPU: 1 core  
+Memory: 2 GB  
+Disk: 30 GB SSD  
 
 #### Linux
 
