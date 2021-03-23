@@ -12,7 +12,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ## 开始质押
 
-- 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目，点击【开始 staking】  
+- 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧「抵押」栏目，点击「开始 staking」  
   ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
 
@@ -30,7 +30,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
   
       > 如提前赎回有承诺期限的 CRING，需要支付获得奖励 **3** 倍的 CKTON 惩罚 (在 CKTON 不足的情况下，不可以使用 CRING 来代缴罚金)。
 
-- 填写好 Staking 参数后，请点击【冻结】，签名并提交。  
+- 填写好 Staking 参数后，请点击「冻结」，签名并提交。  
   ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
 
 <hr />
@@ -39,11 +39,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 > **注意**: 验证人和提名人的身份是互斥的，不可并存。如果您正在参选验证人，需要先取消参选验证人，再进行后续的提名操作。
 
-1. 完成 Staking 参数后，在本页面点击【提名】。
+1. 完成 Staking 参数后，在本页面点击「提名」。
    
    ![wiki-tut-nominator-4](assets/wiki-tut-nominator-4-cn.png)
   
-2. 选择合适的验证人，并点击【提名】。
+2. 选择合适的验证人，并点击「提名」。
    
    ![wiki-tut-nominator-5](assets/wiki-tut-nominator-5-cn.png)
 
@@ -51,7 +51,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
    
    ![wiki-tut-nominator-6](assets/wiki-tut-nominator-6-cn.png)
 
-4. 返回【抵押】处，查看已提名验证人的相关信息。
+4. 返回「抵押」处，查看已提名验证人的相关信息。
    
    ![wiki-tut-nominator-7](assets/wiki-tut-nominator-7-cn.png)
 

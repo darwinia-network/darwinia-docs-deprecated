@@ -29,11 +29,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ![faucet-1-cn](assets/faucet-1-cn.png)
 
-- 点击【开始生成】，等待账户生成，点击【 + 】选择您心仪的账户进行备份。
+- 点击「开始生成」，等待账户生成，点击「 + 」选择您心仪的账户进行备份。
 
 ![faucet-2-cn](assets/faucet-2-cn.png)
 
-- 点击【保存】，根据你的使用习惯，选择备份原始种子或 json 文件。   
+- 点击「保存」，根据你的使用习惯，选择备份原始种子或 json 文件。   
 
 ![faucet-3-cn](assets/faucet-3-cn.png)
 

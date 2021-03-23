@@ -1,5 +1,5 @@
 ---
-title: 【链节点 & 链读】波卡生态圆桌论坛 | 达尔文回顾
+title: 「链节点 & 链读」波卡生态圆桌论坛 | 达尔文回顾
 author: @DarwiniaNetwork
 authorURL: http://twitter.com/DarwiniaNetwork
 ---

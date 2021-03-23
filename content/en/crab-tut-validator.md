@@ -109,7 +109,7 @@ sidebar_label: Become a validator
    ![tut-validator-3](assets/tut-validator-3.png)
 
 
-4. **After confirming, click [sign and submit]】** 
+4. **After confirming, click [sign and submit]」** 
 
    ![tut-validator-4](assets/tut-validator-4.png)
 

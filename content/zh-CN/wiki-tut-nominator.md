@@ -2,7 +2,6 @@
 id: wiki-tut-nominator
 title: 如何成为一个投票人
 sidebar_label: 成为投票人
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/crab-tut-nominator.md
 ---
 
 > - Staking 是基于 NPoS（Proof of Stake/权益证明）的共识机制，代币持有人通过质押、投票、委托和锁定等行为获取收益。
@@ -20,8 +19,6 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 2. 在提名过程中质押的资产，将会进入冻结状态，流动性受到限制。质押期间无法再申请成为验证者节点或者使用这部分资产转账，当然你可以随时取消提名，质押的资产会在 14 天之后返还，流动性恢复。
 
 下面具体介绍提名者质押代币和提名候选人的流程。
-
-<hr />
 
 ## 开始质押
 

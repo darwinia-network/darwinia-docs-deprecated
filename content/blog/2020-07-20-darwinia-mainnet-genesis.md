@@ -14,8 +14,8 @@ Darwinia 跨链转账已开启，已完成阶段一：创世跨链（Genesis 映
 
 ## 操作指南：
 
-- 1、在 https://bapp.darwinia.network/ 选择【以太坊】->【跨链转账】
-- 2、连接至 ETH/Tron 钱包，填写正确的【Darwinia 主网地址】，选择跨链资产【RING/KTON】
+- 1、在 https://bapp.darwinia.network/ 选择「以太坊」->「跨链转账」
+- 2、连接至 ETH/Tron 钱包，填写正确的「Darwinia 主网地址」，选择跨链资产「RING/KTON」
 
 ## 注意：
 

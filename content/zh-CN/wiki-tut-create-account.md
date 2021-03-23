@@ -44,7 +44,7 @@ sidebar_label: 创建账号
 
   > 此类账号多出于记忆和美观的需要。
 
-- 点击 【美化账号】，填写您需要筛选的条件。
+- 点击 「美化账号」，填写您需要筛选的条件。
 
   ![faucet-1-cn](assets/tut/create-account-6.png)
 
@@ -52,11 +52,11 @@ sidebar_label: 创建账号
   - ` 大小写敏感 ` 搜索的内容是否区分大小写。
   - ` 密钥加密类型 ` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
 
-- 点击 【开始生成】，等待账号生成，点击 【 + 】 选择您心仪的账号进行备份。
+- 点击 「开始生成」，等待账号生成，点击 「 + 」 选择您心仪的账号进行备份。
 
 ![faucet-2-cn](assets/tut/create-account-7.png)
 
-- 点击【保存】，根据你的使用习惯，选择备份原始种子或 json 文件
+- 点击「保存」，根据你的使用习惯，选择备份原始种子或 json 文件
 
 ![faucet-3-cn](assets/tut/create-account-8.png)
 
