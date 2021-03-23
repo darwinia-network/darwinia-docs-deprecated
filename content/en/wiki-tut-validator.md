@@ -135,7 +135,6 @@ For security, you need to remove the rpc unsafe parameters and re-run your node:
    ./darwinia \
       --base-path <YOUR_DATA_DIR> \
       --name <YOUR_NODE_NAME> \
-      --chain crab \
       --validator
    ```
 
