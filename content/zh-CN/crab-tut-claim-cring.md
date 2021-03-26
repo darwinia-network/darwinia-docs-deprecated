@@ -28,7 +28,7 @@ Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** �
 
 1、通过 Chrome 浏览器，访问: https://claim.darwinia.network/
 
-2、选择想要查询的网络（以太坊/波场），点击【查询】。（下文以以太坊网络为例）
+2、选择想要查询的网络（以太坊/波场），点击「查询」。（下文以以太坊网络为例）
 
 ![02_claim_choosechain](assets/02_claim_choosechain.png)
 
@@ -40,11 +40,11 @@ Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** �
 
 1、通过 Chrome 浏览器或手机钱包，访问 CRING [领取工具](https://claim.darwinia.network/)
 
-2、选择想要查询的网络（以太坊/波场），点击【领取】。（下文以以太坊网络为例）
+2、选择想要查询的网络（以太坊/波场），点击「领取」。（下文以以太坊网络为例）
 
 ![04_claim_choosechain 的副本](assets/04_claim_choosechain 的副本.png)
 
-3、填写接受 CRING 的 Darwinia Crab 地址，确认无误后，点击【提交】。
+3、填写接受 CRING 的 Darwinia Crab 地址，确认无误后，点击「提交」。
 
 ![claim_submitaccount](assets/05_claim_submitaccount.png)
 
@@ -56,11 +56,11 @@ Darwinia Crab 为模拟真实的网络生态，为 **RING (ERC-20 & TRC-20)** �
 
 ![07_claim_copy](assets/07_claim_copy.png)
 
-6、打开[达尔文钱包-认领模块](<https://apps.darwinia.network/#/claims>):<https://apps.darwinia.network/#/claims>,选中刚刚填写的接收空投的地址，点击【继续】。
+6、打开[达尔文钱包-认领模块](<https://apps.darwinia.network/#/claims>):<https://apps.darwinia.network/#/claims>,选中刚刚填写的接收空投的地址，点击「继续」。
 
 ![08_claim_chooseaccount](assets/08_claim_chooseaccount.png)
 
-7、将刚刚在 CRING Claim Tool 中生成的签名信息贴入，依次点击【确定认领】-【领取】-【签名】
+7、将刚刚在 CRING Claim Tool 中生成的签名信息贴入，依次点击「确定认领」-「领取」-「签名」
 
 ![09_claim_sign2](assets/09_claim_sign2.png)
 

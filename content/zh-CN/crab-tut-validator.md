@@ -16,7 +16,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 ### 入口
 
-- 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧【抵押】栏目，点击【开始 Staking】
+- 进入 [Darwinia Web Wallet](https://apps.darwinia.network)，点击左侧「抵押」栏目，点击「开始 Staking」
 
   ![crab-tut-nominator-1](assets/crab-tut-nominator-1.png)
 
@@ -36,7 +36,7 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
   
   > 如提前赎回有承诺期限的 CRING，需要支付获得奖励 **3** 倍的 CKTON 惩罚 (在 CKTON 不足的情况下，不可以使用 CRING 来代缴罚金)。
 
-- 填写好 Staking 参数后，请点击【冻结】，签名并提交。  
+- 填写好 Staking 参数后，请点击「冻结」，签名并提交。  
 
   ![crab-tut-nominator-3](assets/crab-tut-nominator-3.png)
 
@@ -53,11 +53,11 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 - **通过网页钱包生成**
 
-    点击钱包左侧【设置】，将接口操作模式改为开发者模式；开启【自定义终端】，输入本地节点地址（e.g `ws://127.0.0.1:9944`），确认无误后点击【保存】。
+    点击钱包左侧「设置」，将接口操作模式改为开发者模式；开启「自定义终端」，输入本地节点地址（e.g `ws://127.0.0.1:9944`），确认无误后点击「保存」。
 
 	![tut-validator-session-1-cn](assets/tut-validator-session-1-cn.png)
 
-	点击左侧【工具箱】，在 RPC Calls 中选择 `author`/`rotate keys`，点击【submit RPC Call】
+	点击左侧「工具箱」，在 RPC Calls 中选择 `author`/`rotate keys`，点击「submit RPC Call」
 
 	![tut-validator-session-2-cn](assets/tut-validator-session-2-cn.png)
 
@@ -85,30 +85,30 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 
 #### 设置 session keys
 
-**点击【session 账号】，输入刚刚生成的 session keys ，点击【设置 session keys】提交。**
+**点击「session 账号」，输入刚刚生成的 session keys ，点击「设置 session keys」提交。**
 > session keys 务必填写真实数据，否则会导致漏块，从而收到经济惩罚。
    
 ![tut-validator-1-cn](assets/tut-validator-1-cn.png)
 
-**确认无误后，点击【签名并提交】** 
+**确认无误后，点击「签名并提交」** 
 
 ![tut-validator-2-cn](assets/tut-validator-2-cn.png)
 > 验证人和提名人的身份是互斥的，不可并存。如果您正在提名其他验证人，需要取消提名操作后，再进行后续的操作。
 
-**点击【验证】，开始设置验证人参数**
+**点击「验证」，开始设置验证人参数**
 
 - ` 奖励佣金百分比 ` 设置本节点优先分配收益的比重，范围为 **0-100%**。（例：如设置了 **5%** 的奖励佣金，本节点将优先获得节点收益的 **5%**，剩下 **95%** 的节点收益，将依据验证人和投票人抵押的金额，按比例分配；也就是说，` 验证人的收益 = 节点奖励佣金 + 抵押奖励分成 `）
 
 ![tut-validator-3-cn](assets/tut-validator-3-cn.png)
 
-**确认无误后，点击【签名并提交】**
+**确认无误后，点击「签名并提交」**
 
 ![tut-validator-4-cn](assets/tut-validator-4-cn.png)
 
-**去【浏览器】查看当前验证人的相关信息**
+**去「浏览器」查看当前验证人的相关信息**
   
 ![tut-validator-5-cn](assets/tut-validator-5-cn.png)
-> 参选验证人后会进入【候选】队列，在进入下一个 era 的时刻参与选举。
+> 参选验证人后会进入「候选」队列，在进入下一个 era 的时刻参与选举。
 
 <hr />
 
