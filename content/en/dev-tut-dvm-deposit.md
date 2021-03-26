@@ -70,4 +70,4 @@ Transfer using [Apps](https://apps.darwinia.network/#/account), the target addre
 
 ![confirm balance in mataMask](assets/wiki-tut-dvm-recharge-06.png)
 
-The balance of EVM address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is 100, a successfully recharge completely。
+The balance of EVM address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is 100, a successfully recharge completely.
