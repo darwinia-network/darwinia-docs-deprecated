@@ -4,16 +4,16 @@ title: 创建账户
 sidebar_label: 创建账户
 ---
 
-## 创建Darwinia帐户
+## 创建 Darwinia 帐户
 
-创建Darwinia帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，则可直接通过 “助记词/私钥/json文件” 等恢复/导入账户。  
+创建 Darwinia 帐户的方法有多种，您可以根据自己的喜好选择其中一种。如果您之前创建过帐户，则可直接通过 “助记词/私钥/json 文件” 等恢复/导入账户。  
 
   <!--DOCUSAURUS_CODE_TABS-->
   <!--Darwinia Web Apps-->
 
 ### Darwinia Web Apps
 
-进入[Darwinia Crab Web Wallet](https://apps.darwinia.network)，可在「账户」栏看到「添加账号」和「使用JSON恢复」两个按钮。
+进入[Darwinia Crab Web Wallet](https://apps.darwinia.network)，可在「账户」栏看到「添加账号」和「使用 JSON 恢复」两个按钮。
 
 ![create account](assets/crab-tut-create-account-1-cn.png)
 
@@ -23,21 +23,21 @@ sidebar_label: 创建账户
 
 ![create account](assets/crab-tut-create-account-2-cn.png)
 
-点击「创建并且备份账户」按钮，备份该账户“json文件”
+点击「创建并且备份账户」按钮，备份该账户“json 文件”
 
 ![create account](assets/crab-tut-create-account-3-cn.png)
 
-> 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+> 务必备份好 ` 助记词、私钥、json 文件 ` 等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
 
-**通过json恢复账号**
+**通过 json 恢复账号**
 
-如之前创建过账号，且备份有json文件，可直接选择「使用JSON回复」。
+如之前创建过账号，且备份有 json 文件，可直接选择「使用 JSON 回复」。
 
 ![create account](assets/crab-tut-create-account-4-cn.png)
 
 **通过「助记词」恢复账号**
 
-如忘记JSON文件密码，可通过「助记词」进行恢复。点击「添加账号」，将助记词替换成原先账户的助记词即可。（名称和密码均可重新设置）
+如忘记 JSON 文件密码，可通过「助记词」进行恢复。点击「添加账号」，将助记词替换成原先账户的助记词即可。（名称和密码均可重新设置）
 
 ![create account](assets/crab-tut-create-account-5-cn.png)
 
@@ -45,24 +45,24 @@ sidebar_label: 创建账户
 
 如您需要生成一个包含特定字母的 Darwinia 钱包账号，可参考一下教程：
    > 此类账号多用于从水龙头领取空投的工作量证明，或者处于记忆和美观的需要。
-- 点击【美化账号】，填写您需要筛选的条件
+- 点击「美化账号」，填写您需要筛选的条件
 ![faucet-1-cn](assets/faucet-1-cn.png)
 
-`搜索` 在此处输入您希望包含的地址，该工具将生成密钥并显示与您的搜索最匹配的关联地址。
+` 搜索 ` 在此处输入您希望包含的地址，该工具将生成密钥并显示与您的搜索最匹配的关联地址。
 
-`大小写敏感` 搜索的内容是否区分大小写。
+` 大小写敏感 ` 搜索的内容是否区分大小写。
 
-`密钥加密类型` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
+` 密钥加密类型 ` 选择账号的加密类型，session 账号只能使用 Edwards (ed25519) 。
 
-- 点击【开始生成】，等待账户生成，点击【 + 】选择您心仪的账户进行备份。
+- 点击「开始生成」，等待账户生成，点击「 + 」选择您心仪的账户进行备份。
 
 ![faucet-2-cn](assets/faucet-2-cn.png)
 
-- 点击【保存】，根据你的使用习惯，选择备份原始种子或json文件
+- 点击「保存」，根据你的使用习惯，选择备份原始种子或 json 文件
 
 ![faucet-3-cn](assets/faucet-3-cn.png)
 
-   > 务必备份好`助记词、私钥、json文件`等。备份json文件时，请注意保管密码，密码丢失将无法通过json文件恢复地址，但可通过助记词、私钥重新导入。
+   > 务必备份好 ` 助记词、私钥、json 文件 ` 等。备份 json 文件时，请注意保管密码，密码丢失将无法通过 json 文件恢复地址，但可通过助记词、私钥重新导入。
 
 
   <!--Polkadot.js 浏览器插件-->
@@ -84,20 +84,20 @@ sidebar_label: 创建账户
 
 > 确保将助记词安全保管。
 
-**设置 Crab网络 的地址**
+**设置 Crab 网络 的地址**
 
 现在，我们将确保这些地址显示为 Crab 网络 地址。您的地址将根据网络选择而有所不同。单击插件窗口顶部的 “选项”。在 “显示地址格式为” 下拉框中选择 “Crab” 或 “Substrate”。
 
 ![polkadot-js](assets/polkadot-js-4-cn.png)
 
-> Crab网络与Substrate共享相同的`Network ID`，如果在生成帐户时需要选择网络，请选择`Substrate`，与`Crab Network`通用。
+> Crab 网络与 Substrate 共享相同的 `Network ID`，如果在生成帐户时需要选择网络，请选择 `Substrate`，与 `Crab Network` 通用。
 
   <!--Subkey CLI-->
 ### Subkey
 
-对于熟悉命令行和编译Rust代码的技术高级用户，建议使用Subkey。Subkey允许您在可以编译代码的任何设备上生成密钥。Subkey可能对使用自动运行的设备（而不是运行iOS或Android的设备或其他特定用途的设备）的自动生成帐户有用。不建议一般用户使用。
+对于熟悉命令行和编译 Rust 代码的技术高级用户，建议使用 Subkey。Subkey 允许您在可以编译代码的任何设备上生成密钥。Subkey 可能对使用自动运行的设备（而不是运行 iOS 或 Android 的设备或其他特定用途的设备）的自动生成帐户有用。不建议一般用户使用。
 
-安装Subkey [install Subkey](https://substrate.dev/docs/en/ecosystem/subkey#more-subkey-to-explore), 运行：
+安装 Subkey [install Subkey](https://substrate.dev/docs/en/ecosystem/subkey#more-subkey-to-explore), 运行：
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
@@ -105,7 +105,7 @@ $ cargo install --force --git https://github.com/paritytech/substrate subkey
 $ cargo build -p subkey
 ```
 
-成功安装Subkey后，运行：
+成功安装 Subkey 后，运行：
 
 ```shell
 subkey -n substrate generate
@@ -122,11 +122,11 @@ Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth e
   SS58 Address:       2owvscruh7PNbykGLMZPxHyjYdi1Ryanrm4PTxVKh85Ef8Dn
 ```
 
-> 如果您之前为除 “Substrate” 或 “Crab网络” 之外的其他网络创建了帐户，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用`subkey -n substrate inspect "YOUR SECRET PHRASE HERE"`来获取Crab网络ID地址（SS58）。
+> 如果您之前为除 “Substrate” 或 “Crab 网络” 之外的其他网络创建了帐户，则需要从之前的“秘语”或“秘密种子”中得出正确的“地址”。您可以使用 `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` 来获取 Crab 网络 ID 地址（SS58）。
 
   <!--Polkadot.js Web Apps-->
 ### Polkadot.js Web Apps
-TODO：支持达尔文网络的完整指南
+TODO:支持达尔文网络的完整指南
 
   <!--Mobile Wallet-->
 ### ~~Itering ID Wallet~~

@@ -62,11 +62,11 @@ Please select the following signature tools and download according to the usage 
 
 3.Select the network you want to query (Ethereum / TRON) and click [Claim]. (The Ethereum network is used as an example below)
 
-![04_claim_choosechain的副本](assets/04_en的副本.png)
+![04_claim_choosechain 的副本](assets/04_en 的副本.png)
 
 4.Fill in the Darwinia Crab address that accepts CRING. After confirming that it is correct, click [Submit].
 
-    >️If there is no Darwinia Crab address, please refer to the generation method: [如何创建或导入Darwinia Crab 地址](crab-tut-create-account)
+    > ️ If there is no Darwinia Crab address, please refer to the generation method: [如何创建或导入 Darwinia Crab 地址](crab-tut-create-account)
 
 ![claim_submitaccount](assets/05_en.png)
 
@@ -76,7 +76,7 @@ Please select the following signature tools and download according to the usage 
 6.After successfully obtaining the signature information, click [Copy Signature]. (Please pay attention to save the signature information, it is recommended not to close this page temporarily before successfully receiving the airdrop)
 ![07_claim_copy](assets/07_en.png)
 
-7.Open [Darwinia wallet - Claim](https://apps.darwinia.network#/claims)：<https://apps.darwinia.network#/claims>, Select the address just received to receive the airdrop and click [Continue].
+7.Open [Darwinia wallet - Claim](https://apps.darwinia.network#/claims):<https://apps.darwinia.network#/claims>, Select the address just received to receive the airdrop and click [Continue].
 
 ![08_claim_chooseaccount](assets/08_en.png)
 

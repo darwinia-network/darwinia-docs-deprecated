@@ -24,7 +24,7 @@ We need to query balance of evm account, so add new network in metamask at first
 Setting Configuration:
 
 - Network Name：`Pangolin`
-- RPC URL: `http://t1.hkg.itering.com:9933`
+- RPC URL: `https://pangolin-rpc.darwinia.network`
 - Chain ID： `43`
 - Currency Symbol： `PRING`
 
@@ -39,27 +39,27 @@ add custom ternal configuration ws://t1.hkg.itering.com:9944/, save and reload a
 
 > Note: if it prompts websocket unsecurity warn, please change chrome safe configuration to allow access to unsafe content.
 
-## Recharge EVM address
+## Deposit a EVM address
 
-The materials needs to be prepared in advance:
+### Preparations
 
-- evm address（Metamask generate one account）
-- substrate address （have some balance, apply in element）
+- A EVM address (Metamask generate one account)
+- A Darwinia address (This should have a proper balance, apply in element)
 
-Recharge:
+### Deposit
 
-1. Generate evm address from substrate address
+1. Generate EVM address from Darwinia address
 
-[apps]-[ToolBox]-[DVM address], enter the evm address, the corresponding substrate address will be generated, which represent this evm address to send or receive Pring.
+`Apps` - `ToolBox` - `DVM address`, enter the EVM address, the corresponding Darwinia address will be generated, which represent this EVM address to send or receive PRING.
 
 
 ![create substrate address](assets/wiki-tut-dvm-recharge-04.png)
-The corresponding substrate address of `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
+The corresponding Darwinia address of `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
 
 
-2. Transfer balance use Apps
+2. Transfer use Apps
 
-Transfer balance using Apps, the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
+Transfer using [Apps](https://apps.darwinia.network/#/account), the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVxJjCCstXcN8yG34o4365H`.
 
 ![transfer pring](assets/wiki-tut-dvm-recharge-05.png)
 
@@ -70,4 +70,4 @@ Transfer balance using Apps, the target address is `5ELRpquT7C3mWtjerXnTxDmKnvVx
 
 ![confirm balance in mataMask](assets/wiki-tut-dvm-recharge-06.png)
 
-The balance of evm address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is 100, a successfully recharge completely。
+The balance of EVM address `0xAa01a1bEF0557fa9625581a293F3AA7770192632` is 100, a successfully recharge completely.

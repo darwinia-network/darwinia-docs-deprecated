@@ -6,7 +6,7 @@ sidebar_label: Create an Account
 
 ## Switch Network
 
-Firstly, Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network) and click "Setting" in the left-up corner to select the Darwinia MainNetwork.
+Firstly, Enter [Darwinia Web Wallet](https://apps.darwinia.network) and click "Setting" in the left-up corner to select the Darwinia MainNetwork.
 
 Please confirm that the "Account Prefix" has been set to "Darwinia" in "Setting". Under this precondition, all accounts in the wallet (including the existing account list) will be displayed in the form of Darwinia mainnet accounts.
 
@@ -14,11 +14,10 @@ Please confirm that the "Account Prefix" has been set to "Darwinia" in "Setting"
 
 ## Generate a Darwinia account
 
-There are several ways to create a Darwinia account as following:
+There are two ways to create a Darwinia account as following:
   
   1. Via Darwinia Web Wallet
   2. Via the Polkadot.js browser plug-in
-  3. Via the Subkey command line tool
     
 You can choose one of them according to your preferences. If you have created an account before, you can directly restore/import the account through "Mnemonic/Raw seed/json file".
 
@@ -27,7 +26,7 @@ You can choose one of them according to your preferences. If you have created an
 
 ### Darwinia Web Wallet
 
-1. Enter [Darwinia Crab Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
+1. Enter [Darwinia Web Wallet](https://apps.darwinia.network), you can see two buttons "Add Account" and "Restore  JSON" in the "Account" column.
 
 2. New account
 
@@ -99,34 +98,6 @@ Click the extension to open the "Account Management" dialog box, click the "Crea
 ![polkadot-js](assets/polkadot-js-3-cn.png)
 
 > Make sure to keep the mnemonics safe.
-
-
-  <!--Subkey CLI-->
-### Subkey
-
-Subkey is recommended for technically advanced users who are comfortable with command line and compiling Rust code. Subkey allows you to generate keys on any device that can compile the code. Subkey may also be useful for automated account generation, using an air-gapped device other than one running iOS or Android or other specific purposes. It is not recommended for general users.
-
-To [install Subkey](https://substrate.dev/docs/en/ecosystem/subkey#more-subkey-to-explore), run:
-
-```bash
-$ curl https://getsubstrate.io -sSf | bash -s -- --fast
-$ cargo install --force --git https://github.com/paritytech/substrate subkey
-$ cargo build -p subkey
-```
-
-After installing Subkey successfully, run:
-
-```shell
-subkey -n substrate generate
-Secret phrase `destroy vague trend estate person civil cattle lab hockey tooth error pigeon` is account:
-  Network ID/version: substrate
-  Secret seed:        0x58e57817a2ccfa696ed6c3735d4cc4646f894bf7daf51a94f0c4702a92e40710
-  Public key (hex):   0x225ce1f9c178189d2a977a195f822ebbfb538b317f23f83ab35605fb009fa438
-  Account ID:         0x225ce1f9c178189d2a977a195f822ebbfb538b317f23f83ab35605fb009fa438
-  SS58 Address:       2owvscruh7PNbykGLMZPxHyjYdi1Ryanrm4PTxVKh85Ef8Dn
-```
-
-> If you previously created an account for other networks other than `substrate` or `crab network`, you need to derive the  correct `Address` from your previous  `secret phrase` or `secret seed`.  You can use `subkey -n substrate inspect "YOUR SECRET PHRASE HERE"` to obtain the Crab network-ID inclusive Address (SS58).
 
   <!--END_DOCUSAURUS_CODE_TABS-->
 

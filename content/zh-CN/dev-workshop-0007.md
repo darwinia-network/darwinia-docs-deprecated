@@ -1,7 +1,7 @@
 ---
 id: dev-workshop-0007
-title: 链式反应研讨会 第7期
-sidebar_label: 第7期
+title: 链式反应研讨会 第 7 期
+sidebar_label: 第 7 期
 custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/dev-workshop-0007.md
 ---
 # Darwinia Show
@@ -13,12 +13,12 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 - Darwinia Anto - How to relay Ethereum headers to Darwinia Bridge
 
 ## Web3.0 Bootcamp Opening Ceremony [视频回顾](https://www.bilibili.com/video/BV1ng4y167QB/)
-- Gavin Wood博士 - Polkadot创始人/Web3基金会主席
+- Gavin Wood 博士 - Polkadot 创始人/Web3 基金会主席
 - 杜宇 - 万向区块链副总经理、万向区块链实验室/新链空间负责人
-- Jutta Steiner - Parity联合创始人/CEO
-- Christine Mohan - Web3基金会首席营销官
+- Jutta Steiner - Parity 联合创始人/CEO
+- Christine Mohan - Web3 基金会首席营销官
 - 郝玉琨 - 万向区块链高级总监
-- 贾瑶琪 - Parity亚洲区技术总监
+- 贾瑶琪 - Parity 亚洲区技术总监
 
 ## sub0 Online - Darwinia Relay & Bridge Chain [视频回顾](https://www.bilibili.com/video/BV1bQ4y1T7Hf/)
 - 阐述资产跨链问题的含义和挑战；
@@ -29,12 +29,12 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ## Darwinia Relay Demo [视频回顾](https://youtu.be/a4d_1vPhwZI)
 - 启动 Relay Worker
 - 以太坊上发起交易
-- 生成交易收据证明并提交至Darwinia测试网络
+- 生成交易收据证明并提交至 Darwinia 测试网络
 
 ## Polkadot 南京行 [视频回顾](https://www.yizhibo.com/l/x7DmqxBMxpEWXYO6.html)
 - Gavin Wood (Polkadot Founder) - Polkadot 主题分享
 - Alistair Stewart (W3F Researcher) - 共识算法 主题分享
-- Alex Chien (Darwinia Co-Founder) - NFT识别和解析系统
+- Alex Chien (Darwinia Co-Founder) - NFT 识别和解析系统
 
 ## MathCon [视频回顾](https://www.yizhibo.com/l/Ovd7gCZu4X45SO9O.html)
 - Eric Yu - 麦子钱包 MathWallet CTO

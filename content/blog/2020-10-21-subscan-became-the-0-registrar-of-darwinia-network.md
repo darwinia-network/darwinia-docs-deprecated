@@ -26,7 +26,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 ![](assets/2020-10-21-subscan-became-the-0-registrar-of-darwinia-network-3.jpg)
 
 
-## 如何获得身份认证（加V）？
+## 如何获得身份认证（加 V）？
 
 1. 设置链上身份
    
@@ -35,7 +35,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 	 
    * 填写链上信息，请确认信息的真实性与格式（格式参考下图），确认无误后点击「设置」。
      
-	 *注：请谨慎填写身份信息，身份信息通过验证（加v）后，更改身份信息需要重新验证身份*。
+	 *注：请谨慎填写身份信息，身份信息通过验证（加 v）后，更改身份信息需要重新验证身份*。
 
      ![](assets/2020-10-21-subscan-became-the-0-registrar-of-darwinia-network-5.jpg)
 
@@ -44,7 +44,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
    
    点击左侧列表中的「交易」> 选择交易类型：identity / requestJudgement > 设置注册商参数：`reg_index`，`max_fee`，确认无误后点击签名并发送。
    
-   下图以 #0注册商 Subscan 为例，`reg_index` 填写 `0`，`max_fee` 填写 `100`。
+   下图以 #0 注册商 Subscan 为例，`reg_index` 填写 `0`，`max_fee` 填写 `100`。
 
    *注：查找注册商参数的方法请参考上文 “如何查找当前身份注册商？”*
 
@@ -66,7 +66,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 
 
-## #0注册商 Subscan 的验证规则
+## #0 注册商 Subscan 的验证规则
 
 1. 通过社交网络获取验证码
    
@@ -92,7 +92,7 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 ## 身份等级
 
-Subscan 拥有以下等级的授予权限，其中 「一般」 和 「很好」 为 「绿V」，即身份已验证。
+Subscan 拥有以下等级的授予权限，其中 「一般」 和 「很好」 为 「绿 V」，即身份已验证。
 
 * 一般：数据看似合理，但未进行深入检查，例如正式的 KYC 流程。
   *（需要验证 2 个或 2 个以上社交媒体身份信息）*

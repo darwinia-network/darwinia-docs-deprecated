@@ -10,17 +10,17 @@ authorURL: http://twitter.com/DarwiniaNetwork
 
 <!--truncate-->
 
-2020-05-29：此次比赛达尔文会做到公平公正，以下是达尔文节点大赛规则的补充说明
+2020-05-29:此次比赛达尔文会做到公平公正，以下是达尔文节点大赛规则的补充说明
 
 1、在线时长和掉线次数是主要的排名依据，节点出块数仅作为参考。所以候选节点无需担心不能当选验证人陪跑的情况。验证人节点、候选节点、全节点会被公平对待。
 
-2、官方进行排名的数据只计算2020年06月04日10:00 AM-06月10日10:00 AM（UTC+8:00）这7天的数据（在线时长、掉线次数）。所以节点有将近一个周的时间调试，让节点稳定运行。
+2、官方进行排名的数据只计算 2020 年 06 月 04 日 10:00 AM-06 月 10 日 10:00 AM（UTC+8:00）这 7 天的数据（在线时长、掉线次数）。所以节点有将近一个周的时间调试，让节点稳定运行。
 
 # # 活动介绍
 
 Darwinia Project Moon，一亿 CRING 大奖
 
-2020年5月11日，Darwinia 发布了 Darwinia Crab Network。
+2020 年 5 月 11 日，Darwinia 发布了 Darwinia Crab Network。
 
 Darwinia Crab Network（简称：Crab 网络）对于 Darwinia 来说是一个金丝雀网络，定位类似于 Kusama 网络之于 Polkadot，Expect Chaos 是一个合理的预期。
 
@@ -30,7 +30,7 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 
 # # 活动时间
 
-2020年5月28日 10:00 AM - 2020年6月11日 10:00 AM （UTC +8:00）
+2020 年 5 月 28 日 10:00 AM - 2020 年 6 月 11 日 10:00 AM （UTC +8:00）
 
 # #参与方式
 
@@ -51,7 +51,7 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 
 ### 奖励二：
 
-提名人数量前20名的节点，奖励 500,000 CRING/节点
+提名人数量前 20 名的节点，奖励 500,000 CRING/节点
 
 ### 奖励三：
 
@@ -69,12 +69,12 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 通过官方教程运行 Crab 节点，需要有一定的技术基础。  
 教程：https://docs.darwinia.network/docs/zh-CN/crab-tut-node
 
-> 注意：节点名称的格式需为「名字 | Crab 地址前10位」，地址需要有余额，可在水龙头领取。
+> 注意：节点名称的格式需为「名字 | Crab 地址前 10 位」，地址需要有余额，可在水龙头领取。
 
 ## 提名/投票
 
 - 创建地址：https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account
-- 领取CRING：https://docs.darwinia.network/docs/zh-CN/crab-tut-get-free-cring
+- 领取 CRING:https://docs.darwinia.network/docs/zh-CN/crab-tut-get-free-cring
 - 提名/投票：https://docs.darwinia.network/docs/zh-CN/crab-tut-nominator
 
 在此过程中遇到任何问题，可添加官方小助手进技术群提问：Darwinia_Network（WeChat）
@@ -84,7 +84,7 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 - 奖励三中提名/投票地址需要在活动期间通过水龙头领取 CRING，其他地址转入无效。
 - 奖励四中 5 名幸运节点会每天公布，活动奖励将在活动结束后一起发放。
 - 此次活动接收奖励的地址需为 Crab 网络地址，注册链接：https://apps.darwinia.network/
-- 活动奖励将在活动结束后7天内发放至用户投票地址，节点奖励将发放至节点Stash账号。
+- 活动奖励将在活动结束后 7 天内发放至用户投票地址，节点奖励将发放至节点 Stash 账号。
 - 奖励均为 CRING，CRING 可在达尔文主网上线之后以 100:1 的比例兑换成 RING。
 - 本活动最终解释权归达尔文「Darwinia」官方所有。
 
@@ -94,4 +94,4 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 - Telegram:[ https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 - Medium:[ https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
 - Reddit:[ https://www.reddit.com/r/DarwiniaFans/](https://www.reddit.com/r/DarwiniaFans/)
-- Riot：https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
+- Riot:https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org

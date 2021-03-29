@@ -45,33 +45,33 @@ Also, we have launched the Darwinia Ambassador Program, and two pathways have be
 
 ### What is the history of Darwinia Network?
 
-The Darwinia Network project started in late 2018 when Parity released the Substrate toolkit project. Darwinia implements a decentralized network that acts as a chain relay between major blockchains and enables asset transfers in a decentralized and permissionless non-custodial way.
+The Darwinia Network project started in late 2018 when Parity released the Substrate toolkit project. Darwinia implements a decentralized network that plays as a relayer chain between major blockchains and enables asset transfers in a decentralized and permissionless non-custodial way.
 
 
-* Darwinia is designed to operate as a Parachain of Polkadot but also has the ability to function in Solo mode as an independent network with its own consensus, security, and cross-chain functionality for redundancy or mitigation of Polkadot-based technical issues.
+* Darwinia was designed to operate as a parachain of Polkadot but can also work in Solo mode as an independent network with its own consensus, security, and cross-chain functionality which adopted for backup and mitigation of Polkadot-based technical issues.
   
-* The team has developed an Application SDK based on Polkadot’s Substrate and Darwinia Web applications in order to facilitate the development of different applications on the foundation of the Darwinia Network. The SDK will help bootstrap adoption among non-blockchain users and developers.
+* Darwinia team has developed an Application SDK based on Polkadot’s Substrate and Darwinia Web applications in order to facilitate the development of different applications running on Darwinia Network.
 
-* We’ve also developed a leading explorer product for the Polkadot and Substrate Community, [Subscan](https://www.subscan.io/).
+* We’ve also developed a leading blockchain explorer [Subscan](https://www.subscan.io/) for Polkadot and Substrate Community.
 
 
-Prior to launching Darwinia, the team also developed several other products including the blockchain-based game [Evolution Land](https://www.evolution.land/), Itering ID, Itering DKMS Solution, and more.
+Before launching Darwinia, the team also developed several other products including the blockchain-based game [Evolution Land](https://www.evolution.land/), Itering ID, Itering DKMS Solution, etc.
 
 * **DKMS**: A Decentralized Key Management System
-* **Subscan**: A high precision data explorer and visualization for Substrate-based blockchains.
-* **Itering ID**: A set of air-gapped signing tools, capable of scanning QR coded transactions
+* **Subscan**: A high precision blockchain data explorer and visualization tool for Substrate-based blockchains.
+* **Itering ID**: A set of air-gapped signing tools, capable of tranferring by scanning QR code
 * **NFT Shifter**: An easy to use tool to create and deploy blockchain NFT assets.
-* **Evolution Land**: A cross-chain blockchain game to showcase blockchain capabilities and onboard new users to Darwinia Network. 
+* **Evolution Land**: A cross-chain blockchain game to demostrate blockchain capabilities and get users onbord to Darwinia Network. 
 
 <hr />
 
 ### Who is Itering?
 
-Itering is a software company established in Singapore in 2018 specializing in research and development of blockchain infrastructure, and primarily focused on cross-chain technology. At present, we are developing the Darwinia Network based on the Substrate framework, and committed to building the future Internet of tokens. 
+Itering is a software company established in Singapore in 2018 focusing on research and development of blockchain infrastructure, particularly focused on cross-chain technology. At present, we are developing the Darwinia Network based on the Substrate framework, and committed to build the future Internet of tokens. 
 
 In addition to Darwinia Network, we continue our research and development in the realm of NFTs and their integral relationship with blockchain-based games. So far, our blockchain game Evolution Land has been launched on two blockchain-based ‘continents’: Ethereum and Tron. In the future, Evolution Land will become the first important game application in the Darwinia ecosystem.
 
-For more details about us, please check here: [Itering IO](https://www.itering.io/)
+For more details about us, please check: [Itering IO](https://www.itering.io/)
 
 <hr />
 
@@ -118,19 +118,19 @@ Evolution Land is the first cross-chain game in the Darwinia Network ecosystem. 
 
 ### What is the relationship between Darwinia Network and Polkadot? 
 
-Darwinia Network is the first game chain on Polkadot. The development of Darwinia network is based on Polkadot and Substrate framework. Later Darwin network will become a parachain of the Polkadot network.
+Darwinia Network is the first game chain on Polkadot. The development of Darwinia network is based on Polkadot and Substrate framework. Darwinia network will play as a parachain of the Polkadot network in the near future.
 
 <hr />
 
-### What happens if Darwinia Network is no longer a parachain?
+### What will happen if Darwinia Network is no longer a parachain?
 
-Even if Darwinia Network is voted off the Polkadot parachain set, it will still work as a "Solo Chain", where it's responsible for its own security.
+Even if Darwinia Network will be voted off the Polkadot parachain set, it wil still work as a "Solo Chain" with it's its own consensus and security infrastructure.
 
 <hr />
 
 ### What are RING and KTON in Evolution Land?
 
-RING and KTON in Evolution Land is the ERC-20/TRC-20 token, Evolution Land will use RING in Darwinia Network as the payment token in game.
+RING and KTON in Evolution Land is the ERC-20/TRC-20 token. Evolution Land use RING in Darwinia Network as the payment token in game.
 
 <hr />
 

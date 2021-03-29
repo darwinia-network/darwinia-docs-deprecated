@@ -12,4 +12,4 @@ sidebar_label: 奖励分配
 
 </div>
 
-Treasury主要用于支付系统提案预算，可能包括NFT挖矿或App挖矿等系统运营提案，Polkadot槽位竞价激励，或者用于生态开发者支持。
+Treasury 主要用于支付系统提案预算，可能包括 NFT 挖矿或 App 挖矿等系统运营提案，Polkadot 槽位竞价激励，或者用于生态开发者支持。

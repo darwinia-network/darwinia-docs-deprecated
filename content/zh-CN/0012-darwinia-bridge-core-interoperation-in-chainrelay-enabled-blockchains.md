@@ -17,35 +17,35 @@ custom_edit_url: https://github.com/darwinia-network/rfc/edit/master/RFC/src/001
 
 ## I. Abstract
 
-XClaim[5] 针对 ACCS 的缺点，设计了通用的、高效低成本的跨链框架，并提出了Cryptocurrency-Bakced Assets (CBAs)的概念。其设计主要分成三个部分：
+XClaim[5] 针对 ACCS 的缺点，设计了通用的、高效低成本的跨链框架，并提出了 Cryptocurrency-Bakced Assets (CBAs)的概念。其设计主要分成三个部分：
 
-- 提出的CBA概念对跨链资产和原生资产的关系做了清晰的概括，是原生资产在另外一个区块链网络中存在形式的精简表达。
-- 在发行链(Issuing Blockchain)一端，通过借助Chain Relay对另外一个链上的交易证明进行存在性和共识性的直接验证，而无需信任第三方。
-- 在背书链(Backing Blockchain)一端，通过引入Vault、质押物(Collateral)和喂价等经济机制，对赎回过程的安全性实现了理性经济假设下的保证。由于存在质押物和喂价机制的约束，所以只能支持流动性较好的Fungible Token。
+- 提出的 CBA 概念对跨链资产和原生资产的关系做了清晰的概括，是原生资产在另外一个区块链网络中存在形式的精简表达。
+- 在发行链(Issuing Blockchain)一端，通过借助 Chain Relay 对另外一个链上的交易证明进行存在性和共识性的直接验证，而无需信任第三方。
+- 在背书链(Backing Blockchain)一端，通过引入 Vault、质押物(Collateral)和喂价等经济机制，对赎回过程的安全性实现了理性经济假设下的保证。由于存在质押物和喂价机制的约束，所以只能支持流动性较好的 Fungible Token。
 
-XClaim 虽然某种程度上解决了 ACCS 的缺点，但是也存在其自身的局限性：只针对Fungible Token有效，不支持NFT和其他流动性较差无法喂价和平仓的Fungible Token。此外，XClaim方案中因为Vault的质押物在跨链资产赎回之前都是锁定的，导致存在较高的质押成本，抵押物可能存在收益率不足的问题。
+XClaim 虽然某种程度上解决了 ACCS 的缺点，但是也存在其自身的局限性：只针对 Fungible Token 有效，不支持 NFT 和其他流动性较差无法喂价和平仓的 Fungible Token。此外，XClaim 方案中因为 Vault 的质押物在跨链资产赎回之前都是锁定的，导致存在较高的质押成本，抵押物可能存在收益率不足的问题。
 
-针对XClaim的以上问题，本文在保留CBA概念和大部分发行链的设计的同时，将背书链一端进行重新设计，增加对Backing Blockchain引入更多合理假设，即支持智能合约和Chain Relay(非BTC)，在背书链一端引入Chain Relay来验证发行链的交易，同时对背书锁定资产的赎回进行链上合约化的约束。通过这样的新方式，去除Vault、流动性质押、喂价等设计和模块，实现了对更广泛的Token的支持，包括NFT和流动性不好的Fungible Token。
+针对 XClaim 的以上问题，本文在保留 CBA 概念和大部分发行链的设计的同时，将背书链一端进行重新设计，增加对 Backing Blockchain 引入更多合理假设，即支持智能合约和 Chain Relay(非 BTC)，在背书链一端引入 Chain Relay 来验证发行链的交易，同时对背书锁定资产的赎回进行链上合约化的约束。通过这样的新方式，去除 Vault、流动性质押、喂价等设计和模块，实现了对更广泛的 Token 的支持，包括 NFT 和流动性不好的 Fungible Token。
 
 
 
 ## II. Introduction
 
-对于不同区块链上的token交换，目前虽然中心化交易所可以帮助执行，但是这样的服务需要高度的信任，且易发生主动作恶、单点故障等问题。随着Cosmos、Polkadot这样一批优秀的跨链项目的落地，架构在跨链基础设施之上的去中心化token流通协议/方案也成为重要的研究内容。
+对于不同区块链上的 token 交换，目前虽然中心化交易所可以帮助执行，但是这样的服务需要高度的信任，且易发生主动作恶、单点故障等问题。随着 Cosmos、Polkadot 这样一批优秀的跨链项目的落地，架构在跨链基础设施之上的去中心化 token 流通协议/方案也成为重要的研究内容。
 
-在已有的方案中，atomic cross-chain swaps (ACCS) 是最早提出的可行性方案，但由于其跨链效率低、成本高，实际使用场景并不多。随后，XClaim (Cross Claim) 针对 ACCS 的缺点，提出了通用的、高效低成本的跨链框架，使用了Cryptocurrency-Bakced Assets (CBAs). 
+在已有的方案中，atomic cross-chain swaps (ACCS) 是最早提出的可行性方案，但由于其跨链效率低、成本高，实际使用场景并不多。随后，XClaim (Cross Claim) 针对 ACCS 的缺点，提出了通用的、高效低成本的跨链框架，使用了 Cryptocurrency-Bakced Assets (CBAs). 
 
-XClaim 虽然某种程度上解决了 ACCS 的缺点，但是也存在其自身的局限性：只针对Fungible Token有效，并且。目前针对NFT的跨链流通还没有通用框架。本文以双链互跨为例，通过对Backing Blockchain引入更多假设，即假设Backing Blockchain支持智能合约，提出基于双Chain Relay的改进版通用XClaim方案（同时适用于Fungible Token和NFT）。
+XClaim 虽然某种程度上解决了 ACCS 的缺点，但是也存在其自身的局限性：只针对 Fungible Token 有效，并且。目前针对 NFT 的跨链流通还没有通用框架。本文以双链互跨为例，通过对 Backing Blockchain 引入更多假设，即假设 Backing Blockchain 支持智能合约，提出基于双 Chain Relay 的改进版通用 XClaim 方案（同时适用于 Fungible Token 和 NFT）。
 
-该方案将展示Two chainRelay Model的设计思路和过程实现。[XClaim](https://eprint.iacr.org/2018/643.pdf)跨链方案已经可以保证了在大部分场合下的NFT的跨链安全操作，但是依然无法保证通证资产价格产生剧烈波动时，整个系统的鲁棒性和可持续性。
+该方案将展示 Two chainRelay Model 的设计思路和过程实现。[XClaim](https://eprint.iacr.org/2018/643.pdf)跨链方案已经可以保证了在大部分场合下的 NFT 的跨链安全操作，但是依然无法保证通证资产价格产生剧烈波动时，整个系统的鲁棒性和可持续性。
 
-同时，本文还将着重分析chainRelay的实现成本和其改进方案，目前改进思路包括两个方案的探讨，其一，通过批量提交*block headers*，或对*block headers*构建*merkle tree*的方式压缩成本，其二，通过借助零知识证明的技术，将上传*block headers*成本降低，并提高链上验证交易的速度。							
+同时，本文还将着重分析 chainRelay 的实现成本和其改进方案，目前改进思路包括两个方案的探讨，其一，通过批量提交*block headers*，或对*block headers*构建*merkle tree*的方式压缩成本，其二，通过借助零知识证明的技术，将上传*block headers*成本降低，并提高链上验证交易的速度。							
 
 
 
 ## III. Overview
 
-在这一章节，我们首先回顾和定义一些XClaim中与本文有关的概念，以及系统的模型和参与其中的角色。
+在这一章节，我们首先回顾和定义一些 XClaim 中与本文有关的概念，以及系统的模型和参与其中的角色。
 
 ### A. Cryptocurrency-backed Assets(CBA)
 
@@ -95,10 +95,10 @@ XClaim 给出了对 *chain relay* [7]的定义：
 
 > Chain relays: Cross-Chain State Verification. It is capable of interpreting the statte of the backing blockchain B and provide functionality comparable to an SPV or light client[10].
 
-因此，*chain relay* 可以被认为是由包含root of merkle tree的区块头组成。它为 iSC 提供了两种功能： *交易存在证明* 以及 *共识证明*。
+因此，*chain relay* 可以被认为是由包含 root of merkle tree 的区块头组成。它为 iSC 提供了两种功能： *交易存在证明* 以及 *共识证明*。
 
-- ***交易存在证明***： *chain relay* 存储着区块链的每一个区块头，以及区块头里的root of merkle tree. 在提供merkle tree路径的情况下，这已经足够可以证明一笔交易是否存在于这条链的某个区块中。
-- ***共识证明***： 以比特币为例，因为每个节点通常不能即时看到全网的情况，因此经常会发生产生孤块，又在重组中被丢弃的情况。为了避免这种情况带来的攻击/漏洞，*chain relay* 必须要验证给定的区块头是否为完整区块链的一部分，例如被大部分节点认可。对于共识为Proof-of-Work的区块链，*chain relay* 必须：(i) 知道挖矿难度调整策略  (ii) 验证收到的区块头是否在具有最多累计工作量证明的链上。 对于共识为Proof-of-Stake的区块链，*chain relay* 必须：(i) 知道协议要求/staking的阶段，例如epoch  (ii) 验证区块头中验证人签名数量是否满足区块的阈值要求。 
+- ***交易存在证明***: *chain relay* 存储着区块链的每一个区块头，以及区块头里的 root of merkle tree. 在提供 merkle tree 路径的情况下，这已经足够可以证明一笔交易是否存在于这条链的某个区块中。
+- ***共识证明***: 以比特币为例，因为每个节点通常不能即时看到全网的情况，因此经常会发生产生孤块，又在重组中被丢弃的情况。为了避免这种情况带来的攻击/漏洞，*chain relay* 必须要验证给定的区块头是否为完整区块链的一部分，例如被大部分节点认可。对于共识为 Proof-of-Work 的区块链，*chain relay* 必须：(i) 知道挖矿难度调整策略  (ii) 验证收到的区块头是否在具有最多累计工作量证明的链上。 对于共识为 Proof-of-Stake 的区块链，*chain relay* 必须：(i) 知道协议要求/staking 的阶段，例如 epoch  (ii) 验证区块头中验证人签名数量是否满足区块的阈值要求。 
 
 ![Chain Relay](assets/rfc-zh-CN-chain_relay.svg)
 
@@ -106,7 +106,7 @@ XClaim 给出了对 *chain relay* [7]的定义：
 
 ### D. 区块链模型和假设
 
-在目前已经上线的区块链项目中，几乎没有NFT作为链的原生资产的，所有的NFT几乎都是在智能合约内实现的。因此，对原生资产所在的chain $B$, 可以引入全新且合理的假设：
+在目前已经上线的区块链项目中，几乎没有 NFT 作为链的原生资产的，所有的 NFT 几乎都是在智能合约内实现的。因此，对原生资产所在的 chain $B$, 可以引入全新且合理的假设：
 
 - *Backing blockchain* 和 *Issuing blockchain*:  都支持图灵完备的智能合约
 
@@ -133,17 +133,17 @@ XClaim 给出了对 *chain relay* [7]的定义：
 
 ## IV. Backing Contract Solution
 
-**Backing Contract Solution**(two chain relay model)通过在Backing Blockchain上引入一个支持chain relay的智能合约，以实现背书资产*b*的托管锁定和赎回释放功能。因为有了chain relay的支持，所以Backing Contract将可以忠实的执行发行链*I*上的赎回指令，而不需担心资产的安全问题，也不用要求Backing Contract需要质押资产，因为Backing Contract 是可审计的，并且注册在*iSC*中，因此避免了中间人信任风险和单点故障问题。
+**Backing Contract Solution**(two chain relay model)通过在 Backing Blockchain 上引入一个支持 chain relay 的智能合约，以实现背书资产*b*的托管锁定和赎回释放功能。因为有了 chain relay 的支持，所以 Backing Contract 将可以忠实的执行发行链*I*上的赎回指令，而不需担心资产的安全问题，也不用要求 Backing Contract 需要质押资产，因为 Backing Contract 是可审计的，并且注册在*iSC*中，因此避免了中间人信任风险和单点故障问题。
 
 
 
-相较于XClaim原始的方案，我们引入了完全无 $vault$ 质押的跨链方案，通过在backing blockchain上引入chain-relay来保证可赎回性和安全性。*chainRelay* 可以提供区块链的交易存在证明和共识证明，在XClaim的方案中，对chain $B$ 没有任何额外的要求，导致在 chain $B$ 上的安全只能由在 chain $I$ 上抵押 $i\_col$ 的 $vault$ 来提供。通过III-D中对 chain $B$ 引入的新的假设约束，可以在转接桥中实现***bSC + iSC***双向互相验证和互操作。例如，在赎回协议中， chain $B$ 上的资产安全可以非互操作性地实现，降低对 $vault$ 的依赖。
+相较于 XClaim 原始的方案，我们引入了完全无 $vault$ 质押的跨链方案，通过在 backing blockchain 上引入 chain-relay 来保证可赎回性和安全性。*chainRelay* 可以提供区块链的交易存在证明和共识证明，在 XClaim 的方案中，对 chain $B$ 没有任何额外的要求，导致在 chain $B$ 上的安全只能由在 chain $I$ 上抵押 $i\_col$ 的 $vault$ 来提供。通过 III-D 中对 chain $B$ 引入的新的假设约束，可以在转接桥中实现***bSC + iSC***双向互相验证和互操作。例如，在赎回协议中， chain $B$ 上的资产安全可以非互操作性地实现，降低对 $vault$ 的依赖。
 
 ### A. Protocols
 
 本方案提供五个协议：Register, Issue, Transfer, Swap and Redeem.
 
-**Protocol: Register.** *bSC*需要在*iSC*中注册，*iSC*也需要在*bSC*中注册，这个相互注册过程需要公开可审计的，并通过注册完成之后的关闭外部(中心化的key的)注册权限的方式完成注册。Alice deploy an backing contract on B, and Dave deploy and issuing contract on I, and the backing contract and issuing contract require to register with each other.
+**Protocol: Register.** *bSC*需要在*iSC*中注册，*iSC*也需要在*bSC*中注册，这个相互注册过程需要公开可审计的，并通过注册完成之后的关闭外部(中心化的 key 的)注册权限的方式完成注册。Alice deploy an backing contract on B, and Dave deploy and issuing contract on I, and the backing contract and issuing contract require to register with each other.
 
 1. Deploy. First, Alice deploy the backing contract on B, and Dave deploy the issuing contract on I.
 2. Verify. Alice and Dave verify the counterpart's smart contracts.
@@ -166,9 +166,9 @@ XClaim 给出了对 *chain relay* [7]的定义：
 
 1. *Lock.* Alice locks i(b) with the iSC. 
 
-2. *Swap.* If Dave locks the agreed upon units of i (or any other asset on I) with the iSC within delay ∆swap, the iSC updates the balance of Dave, making him the new owner of i(b), and assigns Alice ownership over i. 
+2. *Swap.* If Dave locks the agreed upon units of i (or any other asset on I) with the iSC within delay ∆ swap, the iSC updates the balance of Dave, making him the new owner of i(b), and assigns Alice ownership over i. 
 
-3. *Revoke.* If Dave does not correctly lock i with the iSC within ∆swap, the iSC releases locked i(b) to Alice. 
+3. *Revoke.* If Dave does not correctly lock i with the iSC within ∆ swap, the iSC releases locked i(b) to Alice. 
 
 4. *Witness.* If the swap is successful, the backing contract witnesses the change of ownership of i(b) and no longer allows Alice to redeem the associated amount. 
 
@@ -188,13 +188,13 @@ XClaim 给出了对 *chain relay* [7]的定义：
 
 ### B. Issue Contract 
 
-由于有了Backing Contract，并消除了只需要质押资产的部分，因为相较于原先XClaim的方案，新的Issuing Contract得到了很大的简化。
+由于有了 Backing Contract，并消除了只需要质押资产的部分，因为相较于原先 XClaim 的方案，新的 Issuing Contract 得到了很大的简化。
 
 ![Issuing Contract](assets/rfc-zh-CN-issuing_contract.png)
 
 ### C. Backing Contract
 
-Backing Contract用于替换原先XClaim中Vault的部分，并增加了智能合约和chain relay支持，通过在Backing Blockchain中引入chain relay，当发生赎回时，Backing Contract能够监听到Issuing Blockchain上的销毁动作，并进行交易验证，确认之后进行相应的背书资产释放动作。
+Backing Contract 用于替换原先 XClaim 中 Vault 的部分，并增加了智能合约和 chain relay 支持，通过在 Backing Blockchain 中引入 chain relay，当发生赎回时，Backing Contract 能够监听到 Issuing Blockchain 上的销毁动作，并进行交易验证，确认之后进行相应的背书资产释放动作。
 
 ![Backing Contract](assets/rfc-zh-CN-backing_contract.png)
 
@@ -202,13 +202,13 @@ Backing Contract用于替换原先XClaim中Vault的部分，并增加了智能�
 
 #### D.  *chain relay* 如何去信任
 
-这里以章节IV.A中的 *Protocol Issue* 为例，当 *requester* 把 $b$ 锁定在 $bSC$ 时，会产生一笔交易: $lock(backing_contract_address, lock_amount) - > T_l$ ，随后backing chain relay的 *witness* 会向 *chain relay* 提交这笔交易$T_l$ ，之后 *chain relay* 会检验 $T_l$ 确实是存在于给定区块的交易中(交易存在证明)，这个区块也存在于最长链中并有良好的终结性（共识证明），那么就证明背书资产&&b已经被安全地锁定了。如果验证通过，会原子地触发 *iSC* 中的资产发行操作。
+这里以章节 IV.A 中的 *Protocol Issue* 为例，当 *requester* 把 $b$ 锁定在 $bSC$ 时，会产生一笔交易: $lock(backing_contract_address, lock_amount) - > T_l$ ，随后 backing chain relay 的 *witness* 会向 *chain relay* 提交这笔交易 $T_l$ ，之后 *chain relay* 会检验 $T_l$ 确实是存在于给定区块的交易中(交易存在证明)，这个区块也存在于最长链中并有良好的终结性（共识证明），那么就证明背书资产&&b 已经被安全地锁定了。如果验证通过，会原子地触发 *iSC* 中的资产发行操作。
 
 
 
 ## V. Darwinia Bridge Core - Chain Relay Topology Optimization
 
-在两条公链中跨链转移token，需要在chain $I$ 维护 *chain relay* 的成本是很高的，例如以太坊上每笔交易需要gas。如果把两条公链之间的跨链行为扩展到任意 $n$ 公链的话，那么每条链上都需要单独维护 $n-1$ 个 iSC，总共将需要$C_n^2$个chain relay合约。为了降低系统的维护成本，考虑在基于substrate的平行链上实现跨链的核心功能。
+在两条公链中跨链转移 token，需要在 chain $I$ 维护 *chain relay* 的成本是很高的，例如以太坊上每笔交易需要 gas。如果把两条公链之间的跨链行为扩展到任意 $n$ 公链的话，那么每条链上都需要单独维护 $n-1$ 个 iSC，总共将需要 $C_n^2$ 个 chain relay 合约。为了降低系统的维护成本，考虑在基于 substrate 的平行链上实现跨链的核心功能。
 
 ### A. *Darwinia Bridge Core* 架构
 
@@ -216,7 +216,7 @@ Backing Contract用于替换原先XClaim中Vault的部分，并增加了智能�
 
 ![chain-relay-framework](https://tva1.sinaimg.cn/large/006y8mN6ly1g7fe8rjjzvj30kb0bfgmc.jpg)
 
-图中 **Bridge Core** 即为平行链上包含通证跨链和各chain relay的核心模块；**vSC** 为 **Bridge Core** 的对应链的资产的发行模块。和以前的跨链方案不同的是，在上图的架构中，所有链的token需要先跨入**Bridge Core**, 而后在 **Bridge Core** 内部转换到目的公链对应的iSC 中，最后再在对应公链上发行对应的资产，整个跨链操作即完成。
+图中 **Bridge Core** 即为平行链上包含通证跨链和各 chain relay 的核心模块；**vSC** 为 **Bridge Core** 的对应链的资产的发行模块。和以前的跨链方案不同的是，在上图的架构中，所有链的 token 需要先跨入**Bridge Core**, 而后在 **Bridge Core** 内部转换到目的公链对应的 iSC 中，最后再在对应公链上发行对应的资产，整个跨链操作即完成。
 
 ### B. Overview
 
@@ -224,33 +224,33 @@ Backing Contract用于替换原先XClaim中Vault的部分，并增加了智能�
 
 ## VI. Chain Relay Maintenance Cost and Improments
 
-与XClaim方案相比，最终的区别是在Backing Blockchain中引入了Chain Relay和智能合约，用于验证交易存在证明和共识证明。这个方案最大的一个挑战就是就是如何降低维护chain relay的成本，尤其是像以太坊这样的燃料费比较贵的区块链网络。
+与 XClaim 方案相比，最终的区别是在 Backing Blockchain 中引入了 Chain Relay 和智能合约，用于验证交易存在证明和共识证明。这个方案最大的一个挑战就是就是如何降低维护 chain relay 的成本，尤其是像以太坊这样的燃料费比较贵的区块链网络。
 
-为了验证交易，像Bitcoin和以太坊需要节点来验证一条链是有效的，其中牵涉到下载并并验证区块的有效性，可能会花费服务器数小时的时间和很多的带宽和存储，不用说链上的合约，即使是像普通的移动端这样仅有有限资源的客户端都无法支持。因此像Bitcoin和以太坊这样的大部分公链提供了轻客户端，也就是SPV(Simplified payment verification)客户端，可以只需要下载区块头就可以进行交易验证。但是即使如此，简单的SPV客户端仍需要下载很多的区块头数据，面对智能合约高昂的燃料费来说，实现起来仍然不切实际。
+为了验证交易，像 Bitcoin 和以太坊需要节点来验证一条链是有效的，其中牵涉到下载并并验证区块的有效性，可能会花费服务器数小时的时间和很多的带宽和存储，不用说链上的合约，即使是像普通的移动端这样仅有有限资源的客户端都无法支持。因此像 Bitcoin 和以太坊这样的大部分公链提供了轻客户端，也就是 SPV(Simplified payment verification)客户端，可以只需要下载区块头就可以进行交易验证。但是即使如此，简单的 SPV 客户端仍需要下载很多的区块头数据，面对智能合约高昂的燃料费来说，实现起来仍然不切实际。
 
-因此，本章节将注重于对不同的Chain Relay实现进行评估和分析，以求找到链上成本最低的方案。
+因此，本章节将注重于对不同的 Chain Relay 实现进行评估和分析，以求找到链上成本最低的方案。
 
 ### A. Cost Estimation
 
-根据FlyClient[6]的描述，至2019年7月，一个以太坊的SPV客户端需要下载并存储4G的数据，如果采取类似的结构和设计，一个链上Chain Relay所需要下载并存储存储的数据也基本线性相关。
+根据 FlyClient[6]的描述，至 2019 年 7 月，一个以太坊的 SPV 客户端需要下载并存储 4G 的数据，如果采取类似的结构和设计，一个链上 Chain Relay 所需要下载并存储存储的数据也基本线性相关。
 
 另一个可以评估的方案是[BTCRelay]([http://btcrelay.org](http://btcrelay.org/))的成本。[WIP]
 
 ### B. Improvements using FlyClient[6]
 
-FlyClient[6]介绍了一种新的交易验证的轻客户端方案，可以支持多种区块链网络，包括POW区块链和POS区块链。
+FlyClient[6]介绍了一种新的交易验证的轻客户端方案，可以支持多种区块链网络，包括 POW 区块链和 POS 区块链。
 
-目前阶段，主要SPV客户端和BTCRelay方案的是，因为需要存储每一个区块头，导致其算法需要的存储和带宽要求是线性增长的。Fly Client通过组合 Merkle Moutain Range(MMR)[2]，最佳概率块抽样(Optimal probabilistic block sampling)，Fiat–Shamir heuristic等技术，可以实现算法性能达到对数级，也就是在每次执行校验期间只需要下载对数个区块头。
+目前阶段，主要 SPV 客户端和 BTCRelay 方案的是，因为需要存储每一个区块头，导致其算法需要的存储和带宽要求是线性增长的。Fly Client 通过组合 Merkle Moutain Range(MMR)[2]，最佳概率块抽样(Optimal probabilistic block sampling)，Fiat–Shamir heuristic 等技术，可以实现算法性能达到对数级，也就是在每次执行校验期间只需要下载对数个区块头。
 
 详细设计可参考[FlyClient: Super-Light Clients for Cryptocurrencies](https://eprint.iacr.org/2019/226)
 
 
 
-FlyClient提供了super light client的方案，但是Chain Relay需要在区块链内置合约(模块)或者用户合约中实现super light client，因此在设计方案上需要增加一些考虑点：
+FlyClient 提供了 super light client 的方案，但是 Chain Relay 需要在区块链内置合约(模块)或者用户合约中实现 super light client，因此在设计方案上需要增加一些考虑点：
 
 - Asymptotically and on Demand Proof Summit and Challenge Time
 
-  ChainRelay提交块头的如果只是一个人，则无法确认是诚实或是作恶的，或者说即使是善意的，提交的头也可能由于自然分叉而无效。在轻钱包协议中一个重要假设是轻钱包可以和多个全节点连接获得数据，并且至少其中一个是诚实的。所以，在我们的实现中，只有一个人提交头类似与只有一条连接，不足以确保数据的有效性。因此在用户使用这个ChainRelay的最新区块头及相关默克尔证明之前，需要增加一个Challenge时间，也就是最新的区块头被提交后，处于质疑状态，需要有一个challenge时段，在此时间过后没有人提交反对块（符合块基本交易且拥有更高难度，但MMR中不包含质疑块）或者收到赞同块（难度更高，但是MMR包含质疑块），最新提交的区块才被确认。此时，用户将可以使用这个Chain Relay验证在此最新块之前发生的交易是否存在。
+  ChainRelay 提交块头的如果只是一个人，则无法确认是诚实或是作恶的，或者说即使是善意的，提交的头也可能由于自然分叉而无效。在轻钱包协议中一个重要假设是轻钱包可以和多个全节点连接获得数据，并且至少其中一个是诚实的。所以，在我们的实现中，只有一个人提交头类似与只有一条连接，不足以确保数据的有效性。因此在用户使用这个 ChainRelay 的最新区块头及相关默克尔证明之前，需要增加一个 Challenge 时间，也就是最新的区块头被提交后，处于质疑状态，需要有一个 challenge 时段，在此时间过后没有人提交反对块（符合块基本交易且拥有更高难度，但 MMR 中不包含质疑块）或者收到赞同块（难度更高，但是 MMR 包含质疑块），最新提交的区块才被确认。此时，用户将可以使用这个 Chain Relay 验证在此最新块之前发生的交易是否存在。
 
   
 
@@ -258,27 +258,27 @@ FlyClient提供了super light client的方案，但是Chain Relay需要在区块
 
   
 
-- External Blockchain HardFork和治理机制
+- External Blockchain HardFork 和治理机制
 
-  一些公链可能会出现硬分叉的情况，这些硬分叉可能会导致共识机制的改变，相应的，其轻节点也需要升级，但是Chain Relay一般以去中心化的智能合约形式存在，例如在跨链转接桥中为去中心化的背书技术提供支持。如果提供升级权限账户，就会削弱其去中心化程度并引入单点故障，如果不提供，则改Chain Relay将升级以应对外部链的硬分叉。因此需要引入治理机制来处理升级问题。
+  一些公链可能会出现硬分叉的情况，这些硬分叉可能会导致共识机制的改变，相应的，其轻节点也需要升级，但是 Chain Relay 一般以去中心化的智能合约形式存在，例如在跨链转接桥中为去中心化的背书技术提供支持。如果提供升级权限账户，就会削弱其去中心化程度并引入单点故障，如果不提供，则改 Chain Relay 将升级以应对外部链的硬分叉。因此需要引入治理机制来处理升级问题。
 
   
 
-  一般来说建议在应用状态验证合约进行治理升级的支持，例如如果出现硬分叉，则实现一个新的Chain Relay并部署，这个新的Chain Relay的Genesis则指向硬分叉块，所有依赖这个Chain Relay的应用状态验证合约，通过调整其Chain Relay指向逻辑，在硬分叉时，将旧的Chain Relay替换为新的Chain Relay，从而在保证Chain Relay去中心化的同时，提供应用层面升级的灵活性，应用层面可以选择应用不同的治理机制以及在治理和去中心化之间进行权衡。
+  一般来说建议在应用状态验证合约进行治理升级的支持，例如如果出现硬分叉，则实现一个新的 Chain Relay 并部署，这个新的 Chain Relay 的 Genesis 则指向硬分叉块，所有依赖这个 Chain Relay 的应用状态验证合约，通过调整其 Chain Relay 指向逻辑，在硬分叉时，将旧的 Chain Relay 替换为新的 Chain Relay，从而在保证 Chain Relay 去中心化的同时，提供应用层面升级的灵活性，应用层面可以选择应用不同的治理机制以及在治理和去中心化之间进行权衡。
 
   
 
 - On-chain Crypto Verification Support
 
-  Chain Relay需要对外部链上的交易证明进行验证，但是由于是在不同的链上，Chain Relay所在链可能不支持外部链交易所需的加密库，例如Ethereum 1.0目前还不支持BLS算法。因此如果需要广泛的支持不同的公链，需要考虑Chain Relay运行链是否支持相应的加密库。
+  Chain Relay 需要对外部链上的交易证明进行验证，但是由于是在不同的链上，Chain Relay 所在链可能不支持外部链交易所需的加密库，例如 Ethereum 1.0 目前还不支持 BLS 算法。因此如果需要广泛的支持不同的公链，需要考虑 Chain Relay 运行链是否支持相应的加密库。
 
   
 
 - Consensus Support
 
-  在Fly Client中，只针对类似Bitcoin和Ethereum这样的POW链提供了设计，针对其他的区块链共识(Poof of X)，例如POS，DPOS, PBFT等则没有详细描述，因此需要针对这些共识算法，设计相应的Super Light Client解决方案。[WIP]
+  在 Fly Client 中，只针对类似 Bitcoin 和 Ethereum 这样的 POW 链提供了设计，针对其他的区块链共识(Poof of X)，例如 POS，DPOS, PBFT 等则没有详细描述，因此需要针对这些共识算法，设计相应的 Super Light Client 解决方案。[WIP]
 
-  对于Darwinia 来说，为了方便的在不同的公链上开发针对Darwinia的Chain Relay，并保证较低的成本和复杂度，因此需要将Darwinia的共识算法设计成Super Light Client Friendly的共识算法。[WIP]
+  对于 Darwinia 来说，为了方便的在不同的公链上开发针对 Darwinia 的 Chain Relay，并保证较低的成本和复杂度，因此需要将 Darwinia 的共识算法设计成 Super Light Client Friendly 的共识算法。[WIP]
 
 ### C. Improvements using Zero-knowledge Proofs
 
