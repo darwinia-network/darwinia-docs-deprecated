@@ -316,10 +316,6 @@
       "wiki-us-txfee": {
         "title": "Transaction Fees",
         "sidebar_label": "Transaction Fees"
-      },
-      "wp-home": {
-        "title": "Understanding Darwinia",
-        "sidebar_label": "Overview"
       }
     },
     "links": {
