@@ -5,62 +5,6 @@
     "previous": "Previous",
     "tagline": "Cross-chain App Hub and Internet of Tokens",
     "docs": {
-      "crab-airdrop": {
-        "title": "Crab Network Airdrop",
-        "sidebar_label": "Airdrop"
-      },
-      "crab-home": {
-        "title": "Darwinia Crab Network",
-        "sidebar_label": "Crab Network"
-      },
-      "crab-parameters": {
-        "title": "Crab Network Parameters",
-        "sidebar_label": "Parameters"
-      },
-      "crab-tool-index": {
-        "title": "Crab Network Tools",
-        "sidebar_label": "Tools"
-      },
-      "crab-tut-claim-cring": {
-        "title": "How to claim free CRING",
-        "sidebar_label": "Claim CRING"
-      },
-      "crab-tut-create-account": {
-        "title": "Create an Account",
-        "sidebar_label": "Create an Account"
-      },
-      "crab-tut-exchange": {
-        "title": "Darwinia Crab Exchange Access Guide",
-        "sidebar_label": "Darwinia Crab Exchange Access Guide"
-      },
-      "crab-tut-get-free-cring": {
-        "title": "How to get free CRING through faucet",
-        "sidebar_label": "Get free CRING"
-      },
-      "crab-tut-governance": {
-        "title": "How to participate in governance",
-        "sidebar_label": "Participate in governance"
-      },
-      "crab-tut-index": {
-        "title": "Tutorials List",
-        "sidebar_label": "Tutorials"
-      },
-      "crab-tut-node": {
-        "title": "How to run a node",
-        "sidebar_label": "Running a node"
-      },
-      "crab-tut-nominator": {
-        "title": "How to become a nominator",
-        "sidebar_label": "Become a nominator"
-      },
-      "crab-tut-relayer": {
-        "title": "How to become a relayer",
-        "sidebar_label": "Become a relayer"
-      },
-      "crab-tut-validator": {
-        "title": "How to become a validator",
-        "sidebar_label": "Become a validator"
-      },
       "dev-bounty": {
         "title": "Bounty Program",
         "sidebar_label": "Bounty Program"
@@ -68,6 +12,10 @@
       "dev-community": {
         "title": "Developer Community",
         "sidebar_label": "Community"
+      },
+      "dev-dvm": {
+        "title": "DVM",
+        "sidebar_label": "DVM"
       },
       "dev-home": {
         "title": "Developer Portal",
@@ -386,8 +334,7 @@
       "Understand Darwinia": "Understand Darwinia",
       "Tutorials": "Tutorials",
       "RFCs": "RFCs",
-      "Developers": "Developers",
-      "Crab Network": "Crab Network"
+      "Developers": "Developers"
     }
   },
   "pages-strings": {
