@@ -11,6 +11,9 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 - Name: Darwinia Network Native Token
 - Symbol: RING
 - Network:
+  - Darwinia Mainnet
+    - Spec: Native
+    - Precision: 9
   - Ethereum
     - Spec: ERC20
     - Precision: 18
@@ -19,13 +22,8 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
     - Spec: TRC20
     - Precision: 18
     - Smart Contract Address（Tron): TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
-  - Darwinia Mainnet
-    - Spec: Native
-    - Precision: 9
-    - Smart Contract Address: /
+
 - Total Supply: Initial circulation (2 Billion)，hard cap (10 Billion) in around 40 years
-  
-> The initial supply of RING is 2 billion, the maximum supply(Cap) is 10 billion. Currently, Darwinia Mainnet and its transaction haven’t launched yet. The initial supply is recorded in the Darwinia Genesis File. ERC20 RING and TRC20 RING are tokens on other public blockchain derived from Native RING. Current circulating RING (including ERC20/TRC20 derived tokens) is around 1.6 billion.
 
 - Inflation Model: New RINGs are minted and distributed through the staking system and treasure as block producing rewards at a variable rate, see Inflation Model section below.
 
@@ -39,44 +37,25 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 
 ## Circulation
 
-### Overview
+2021-03-29 16:07:12
 
-|             Type             | RING Quantity | Proportion |
-| :--------------------------: | :-----------: | :--------: |
-|         Total Supply         |     2000M     |    100%    |
-|  In Circulation_Individuals  |     29.2M     |   1.83%    |
-| In Circulation_Institutions  |    263.69M    |   16.58%   |
-| In Circulation_Staking Bound |    198.77M    |   12.50%   |
-|        Long Term Lock        |   1508.34M    |   69.09%   |
+Total Supply: 2_039_176_976.0301878 RINGs
 
-### By Network
-
-|             Type             | RING Quantity |
-| :--------------------------: | :-----------: |
-|       ETH Total Supply       |   1189.56M    |
-|  In Circulation_Individuals  |     21.5M     |
-| In Circulation_Institutions  |    263.69M    |
-| In Circulation_Staking Bound |    195.30M    |
-|        Long Term Lock        |    709.07M    |
-
-|             Type             | RING Quantity |
-| :--------------------------: | :-----------: |
-|      TRON Total Supply       |     401M      |
-|     In Circulation_Total     |     7.7M      |
-| In Circulation_Staking Bound |     3.47M     |
-|        Long Term Lock        |    389.83M    |
-
-|             Type              | RING Quantity |
-| :---------------------------: | :-----------: |
-| Darwinia Mainnet Total Supply |     400M      |
-|        In Circulation         |      0M       |
-|        Long Term Lock         |     400M      |
-
-### Calculation:
-
-CirculatingSupply = TotalSupply - Foundation - Gringotts - SwapBridge
-
-RING Supply API: https://api.darwinia.network/supply/ring
+```
+ MAINNET: 894_185_272.7060
+  active: 730_019_975.9130
+  locked: 164_165_296.7930
+```
+```
+ETHEREUM: 1_018_667_368.6516
+  active: 428_756_168.4683
+  locked: 589_911_200.1833
+```
+```
+    TRON: 90_403_994.9525
+  active: 42_519_110.6111
+  locked: 47_884_884.3414
+```
 
 ### Contract
 
@@ -128,8 +107,6 @@ The initial supply of KTON is 0, and it can only be obtained by locking RING. Th
   - Ethereum Contract:0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
   - TRON Contract:TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
 
-KTON Supply API:https://api.darwinia.network/supply/kton
-
 ### Appendix 2: Algorithm of Binding RING for KTON
 
 Users can lock a certain amount of RING for a predefined period of time in exchange for KTON in return.  Basically bind 10,000 RING for 12 months to get 1 KTON. 
@@ -145,29 +122,6 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 |   5   | 0.3959 |  11   | 0.9086 |       |        |
 |   6   | 0.4771 |  12   |   1    |       |        |
 
-### Appendix 3: Locked RING (ERC-20)
-
-2021.2020.06.22-2021.05.22 Unlocking Plan（2020-05-22data）
-
-|    Date    | Cumulative unlockable quantity before this time |    Date    | Cumulative unlockable quantity before this time |
-| :--------: | :---------------------------------------------: | :--------: | :---------------------------------------------: |
-| 2020-06-22 |                   15,963,300                    | 2020-10-22 |                   41,240,661                    |
-| 2020-07-22 |                   27,963,300                    | 2020-12-22 |                   41,260,661                    |
-| 2020-08-22 |                   29,040,661                    | 2021-02-22 |                   41,266,661                    |
-| 2020-09-22 |                   30,040,661                    | 2021-05-22 |                   41,270,761                    |
-
-**Contract**  
-https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
-
-### Appendix 4: Locked RING (TRC-20)
-
-2021.2020.06.22-2021.05.22 Unlocking Plan(2020-05-22data）
-
-|    Date    | Cumulative unlockable quantity before this time |
-| :--------: | :---------------------------------------------: |
-| 2020-06-22 |                     128,179                     |
-| 2020-10-22 |                     132,479                     |
-
-### Appendix 5: WhitePaper
+### Appendix 3: WhitePaper
 
 https://darwinia.network/Darwinia_Genepaper_EN.pdf
