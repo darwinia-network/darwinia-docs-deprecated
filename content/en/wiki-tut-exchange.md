@@ -16,16 +16,16 @@ Darwinia Network is a decentralized heterogeneous cross-chain bridge protocol bu
 ### RING
 RING is the native token of Darwinia Network.  It's used to pay for the GAS fee of the on-chain transactions and cross-chain services.  RING can be staked for staking rewards and obtaining voting power to participate in the governance.  
 
-RING total supply:2_035_657_675.1095
-RING circulating supply:449_346_894.5532
+RING total supply:2_035_657_675.1095  
+RING circulating supply:449_346_894.5532  
 
 Real-time supply  data api: https://api.darwinia.network/supply/ring
 
 ### KTON
 KTON is a derivative commitment token of RING (Darwinia Network native token), which encourages long-term involvement. RING holders can voluntarily lock RING for 3–36 months and get KTON as rewards, compensating for the liquidity loss.  KTON can be staked for staking rewards and obtaining voting power to participate in the governance.  
 
-KTON total supply:69_607.2280
-KTON circulating supply:49_915.3625
+KTON total supply:69_607.2280  
+KTON circulating supply:49_915.3625  
 
 Real-time supply  data api:  https://api.darwinia.network/supply/kton
 

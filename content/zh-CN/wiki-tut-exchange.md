@@ -15,16 +15,16 @@ custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh
 ### RING
 RING 是达尔文网络（Darwinia Network）的原生资产，可用作交易的 Gas。Gas 包括链上交易费用，合约执行费用及跨链服务费等。RING 可参与 Staking 获取影响力，以此参与治理并获得收益。
 
-RING 发行总量：2_035_657_675.1095
-RING 流通总量：449_346_894.5532
+RING 发行总量：2_035_657_675.1095  
+RING 流通总量：449_346_894.5532  
 
 供应量实时数据: https://api.darwinia.network/supply/ring
 
 ### KTON
 KTON 是达尔文网络（Darwinia Network）原生通证 RING 的衍生通证，称为承诺通证。是为了鼓励用户进行长期的承诺锁定。当用户在 Staking 的过程中承诺锁定 RING 一定时限，系统会给予相应数量的 KTON 作为流动性丧失的弥补和奖励。KTON 同时也可以在主网上参与 Staking 获取影响力，以此参与治理并获得收益。
 
-KTON 发行总量：69_607.2280
-KTON 流通总量：49_915.3625
+KTON 发行总量：69_607.2280  
+KTON 流通总量：49_915.3625  
 
 供应量实时数据:  https://api.darwinia.network/supply/kton
 
