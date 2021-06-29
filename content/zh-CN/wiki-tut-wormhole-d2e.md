@@ -1,7 +1,7 @@
 ---
 id: wiki-tut-wormhole-d2e
-title: 「达尔文 -> 以太坊」桥
-sidebar_label: 「达尔文 -> 以太坊」桥
+title: 「达尔文 > 以太坊」桥
+sidebar_label: 「达尔文 > 以太坊」桥
 ---
 
 ## 关于虫洞
@@ -53,12 +53,12 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 1. 进入 [虫洞 - Wormhole](https://wormhole.darwinia.network/)，在「首页」点击「Darwinia」星球后，页面会展示目前「Darwinia」网络出发，已开通的跨链桥。
    
-   如图所示，点击「Ethereum」 星球下方的 「跨链转账」按钮，开启 **Darwinia -> Ethereum** 的跨链转账之旅。
+   如图所示，点击「Ethereum」 星球下方的 「跨链转账」按钮，开启 **Darwinia > Ethereum** 的跨链转账之旅。
 
     ![select option](assets/wormhole/wiki-tut-wormhole-d2e-001.jpg)
 
 
-2. 在「选择网络」栏，切换至「Darwinia Network -> Ethereum」后，点击「跨链转账」。
+2. 在「选择网络」栏，切换至「Darwinia Network > Ethereum」后，点击「跨链转账」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-002.jpg)
 
@@ -91,7 +91,7 @@ sidebar_label: 「达尔文 -> 以太坊」桥
 
 **通过在达尔文网络锁定 RING，KTON 后，需要在以太坊主网进行领取，完成跨链最后一步。**
 
-1. 在「选择网络」栏切换到「Darwinia Network -> Ethereum」后，点击「跨链记录」。
+1. 在「选择网络」栏切换到「Darwinia Network > Ethereum」后，点击「跨链记录」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-007.jpg)
 

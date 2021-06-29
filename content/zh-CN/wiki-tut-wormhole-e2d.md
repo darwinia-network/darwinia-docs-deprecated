@@ -1,10 +1,10 @@
 ---
 id: wiki-tut-wormhole-e2d
-title: 「以太坊 -> 达尔文」桥
-sidebar_label: 「以太坊 -> 达尔文」桥
+title: 「以太坊 > 达尔文」桥
+sidebar_label: 「以太坊 > 达尔文」桥
 ---
 
-## 使用「以太坊 -> 达尔文」桥跨链转账的目的
+## 使用「以太坊 > 达尔文」桥跨链转账的目的
 
 主网上的资产可以用于参与 Staking，并且目前的收益率也比较高，但是在创世跨链后就没有办法转移更多资产到主网，不过现在开通了，持有以太坊古灵阁存单或者 Erc20 RING 和 KTON 的用户可以通过 Ethereum - Darwinia 单向桥跨链转账到主网。到达主网后就可以参与 Staking 来获得奖励了。
 
@@ -19,7 +19,7 @@ sidebar_label: 「以太坊 -> 达尔文」桥
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001.jpg)
 
 
-2. 在下拉框选择「Ethereum -> Darwinia Mainnet」，然后点击「跨链转账」。
+2. 在下拉框选择「Ethereum > Darwinia Mainnet」，然后点击「跨链转账」。
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-002.jpg)
 
