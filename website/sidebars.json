@@ -65,7 +65,7 @@
 			"wiki-glossary"
 		],
 		"Tutorials": [
-      "wiki-tut-create-account",
+	  "quick-start-account",
 			{
 				"type": "subcategory",
 				"label": "Staking",
@@ -90,6 +90,7 @@
 			},
 			"wiki-tut-exchange"
 		],
+
 		"RFCs": [
 			"wiki-rfcs",
 			"rfc-0001-darwinia-developement-structure",

@@ -140,6 +140,10 @@
 				"title": "示例文章",
 				"sidebar_label": "示例文章"
 			},
+			"quick-start-account": {
+				"title": "创建账号",
+				"sidebar_label": "创建账号"
+			},
 			"rfc-0001-darwinia-developement-structure": {
 				"title": "0001 Darwinia Developement Structure",
 				"sidebar_label": "0001 Darwinia Developement Structure"
