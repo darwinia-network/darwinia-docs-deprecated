@@ -9,7 +9,7 @@ sidebar_label: 创建账号
 
 ## 使用达尔文应用程序门户
 
-第一次访问 "*你还没有账户 ... 添加一个账户试试.*"
+第一次访问达尔文应用程序门户时，你会看到提示 "*你还没有账户 ... 添加一个账户试试.*"
 
 ![Account](assets/quick_start_zh-CN/darwinia-create-account-01.png)
 
