@@ -85,6 +85,10 @@
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
       },
+      "quick-start-account": {
+        "title": "Create an Account",
+        "sidebar_label": "Create an Account"
+      },
       "rfc-0001-darwinia-developement-structure": {
         "title": "0001 Darwinia Developement Structure",
         "sidebar_label": "0001 Darwinia Developement Structure"
