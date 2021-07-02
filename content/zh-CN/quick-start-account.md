@@ -27,7 +27,7 @@ sidebar_label: 创建账号
 
 ![Account](assets/quick_start_zh-CN/darwinia-create-account-04.png)
 
-点击“创建并且保存账户”按钮，备份该账户对JSON文件。
+点击“创建并且备份账户”按钮，备份该账户对JSON文件。
 
 ![Account](assets/quick_start_zh-CN/darwinia-create-account-05.png)
 
