@@ -32,14 +32,14 @@ First visit [Darwinia Wormhole](https://wormhole.darwinia.network/) and choose *
 
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-01.png)
 
+Click "*Cross-chain Transfer*" after confirming the right network is selected.
+![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-02.png)
+
 If you have not installed [*Polkadot.js*](content/en/quick-start-account##), a pop-up window will appear as follows.
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-02-01-polkadot-missing.png)
 
 The first time you use *Polkadot.js* on Darwinia network, it requires your authorization to proceed.
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-02-02-polkadot-auth.png)
-
-Click "*Cross-chain Transfer*" after confirming the right network is selected.
-![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-02.png)
 
 Then input the password to the *Polkadot.js* account you want to use and click "Sign the transaction".
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-03-01-polkadot-sign.png)
