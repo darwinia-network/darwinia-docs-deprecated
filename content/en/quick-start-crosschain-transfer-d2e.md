@@ -21,7 +21,7 @@ In order to proceed with the following operation, you need to meet these prerequ
 
 ## Steps
 
-Before you start, you need to have your Ethereum account(address) prepared. This address can be found on the top right part of the window when you click the Menubar icon of MetaMask. It can be copied to the clipboard by clicking the account icon.
+Before you start, you need to have your Ethereum account(address) prepared. This address can be found on the top-right part of the window when you click the Menubar icon of MetaMask. It can be copied to the clipboard by clicking the account name.
 
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-d2e-00-address.png)
 

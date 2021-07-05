@@ -6,13 +6,11 @@ sidebar_label: Ethereum > Darwinia Transfer
 
 ## Intro
 
-After the genesis cross-chain stage, there is no way to transfer more assets to the mainnet. But now, you can accomplish it with the Ethereum-Darwinia one-way bridge. The users who hold Gringotts deposit receipt or Ethereum erc20 ring and kton can transfer their assets to the mainnet through the Ethereum-Darwinia one-way bridge. You can use your assets on the mainnet in staking and take advantage of the current high ROE.
-We will show you how to perform Ethereum-to-Darwinia transfer step by step in this article.
+You can transfer your tokens on your Ethereum account to the Darwinia mainnet and use them for staking to take advantage of the current high ROE. We will show you how to perform Ethereum-to-Darwinia transfer step by step in this article.
 
 ## Prerequisites
 
 In order to proceed with the following operation, you need to meet these prerequisites.
-
 - The browser extension [*Polkadot.js*](content/en/quick-start-account##) is installed and correctly configured. 
 - The Ethereum wallet [*MetaMask*](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) is installed and correclty configured. 
 - You have enough ETH and Rings on your account to cover the transaction fee and gas fee.
