@@ -90,7 +90,7 @@ It takes 14 days to unbond tokens from staking.
 
 ### How much RING is locked in staking pools?
 
-Please click [here](https://etherscan.io/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88) to check out the current figures on Subscan.io.
+Please click [here](https://etherscan.io/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88) to check out the current figures on Etherscan.io.
 
 <hr />
 
