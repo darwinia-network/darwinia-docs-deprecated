@@ -13,7 +13,7 @@ More advanced users are encourage to run for a validator. Once you become an off
 To run for a validator, you need to meet these prerequisites:
 
 1. You have necessary hardware and software to run a full node.
-    >  If you do not know how to run a full node, please refer to [*How to Run a Node*](./wiki-tut-node).
+    >  If you do not know how to run a full node, please refer to [*Running a Node*](./wiki-tut-node).
 2. You have some tokens to stake;
 3. You are currently not a nominator.
 
@@ -93,7 +93,7 @@ Then click "Sign and Submit" to continue.
 
 ### Set Validator Parameters
 
-Click "*Validate*" adn set the validator paramters.
+Click "*Validate*" and set the validator paramters.
 ![Screenshot of Click "Validate" Button](assets/quick_start/darwinia-staking-validator-06.png)
 
 The paramter "*reward commission percentage*" defines the proportion of the node's priority distribution of income, and the range is 0-100. (Example: For a 5% reward commission, this node will first receive 5% of the node's revenue, and the remaining 95% of the node's revenue will be distributed in proportion to the amount of one's token in staking, be it the validator or a nominator; Validator's income = node reward commission + staking reward share).
