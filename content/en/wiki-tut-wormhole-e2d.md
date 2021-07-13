@@ -1,7 +1,7 @@
 ---
 id: wiki-tut-wormhole-e2d
-title: Ethereum -> Darwinia Bridge
-sidebar_label: Ethereum -> Darwinia Bridge
+title: Ethereum > Darwinia Bridge
+sidebar_label: Ethereum > Darwinia Bridge
 ---
 
 ## Why cross-chain transfer
@@ -20,7 +20,7 @@ Let's use the tools provided by Darwinia to make an Ethereum-Darwinia one-way br
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-001-en.png)
 
 
-2. Then click the [Cross-chain Transfer] button under [Darwinia] to enter the cross-chain transfer page, select [Ethereum -> Darwinia Mainnet] in the drop-down box, and then click [Cross-chain Swap]. 
+2. Then click the [Cross-chain Transfer] button under [Darwinia] to enter the cross-chain transfer page, select [Ethereum > Darwinia Mainnet] in the drop-down box, and then click [Cross-chain Swap]. 
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-e2d-002-en.png)
 
