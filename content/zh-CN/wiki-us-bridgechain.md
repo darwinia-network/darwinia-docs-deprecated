@@ -8,7 +8,7 @@ sidebar_label: 跨链转接桥网络
 
 达尔文网络自身可以作为一个独立的跨链网络运行，达尔文链将负责共识安全和跨链互操作。同时，得益于 Polkadot 提供了一套开放的平行链接入方式，达尔文链也可以选择接入 Polkadot 作为平行链运行，Polkadot 将接管并负责达尔文链的安全，这样，达尔文网络中的所有应用链将可以通过 Polkadot 连接至外部更广泛的区块链网络。
 
-达尔文的跨链转接桥协议采用的是 CBA(Cryptocurrency-backed Assets) 的模型，底层使用 chain relay 证明交易的存在性以及区块共识。
+达尔文的跨链转接桥协议采用的是 CBA(Cryptocurrency-backed Assets) 的模型，底层使用 chain relay 证明消息的存在性以及区块共识。
 
 ## I. CBA模型
 
@@ -52,7 +52,7 @@ chain relay 保证了 Issuing 模块接收来自 Backing 的资产锁定证明�
 #### 资产跨链
 - 用户调用源链 Backing 模块接口，请求跨链转账，完成资产锁定并产生锁定消息证明。
 - 同注册流程，桥矿工将该消息证明同步到目标链的 Issuing 模块。
-- Issuing 模块验证交易并解析信息，发行映射资产到指定账户。
+- Issuing 模块验证并解析消息，发行映射资产到指定账户。
 
 #### 资产赎回
 - 用户调用目标链 Issuing 模块接口，发起赎回请求，Issuing 模块销毁映射资产并产生销毁消息证明。
