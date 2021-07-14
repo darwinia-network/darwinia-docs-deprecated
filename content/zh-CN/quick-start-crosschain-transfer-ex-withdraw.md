@@ -10,3 +10,5 @@ sidebar_label: 从中心化交易所提币
 
 以下是火币平台的提现截图。
 ![Crosschain](assets/quick_start_zh-CN/darwinia-crosschain-transfer-huobi_zh-CN.png)
+
+*免责声明：本网站提供的信息并不构成投资建议、财务建议或交易建议。在Darwinia上出现的第三方名称和链接并不构成Darwinia的背书、保证、担保或推荐。在您决定使用任何第三方服务之前，请自行做好研究调查。*

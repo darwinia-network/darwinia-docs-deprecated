@@ -11,3 +11,5 @@ There are a variety of exchanges that support rings transaction. Steps may vary 
 Following is a screenshot of withdrawal on Huobi.
 
 ![Crosschain](assets/quick_start/darwinia-crosschain-transfer-huobi.png)
+
+*DISCLAIMER: The information provided on this website does not constitute investment advice, financial advice or trading advice. The appeareance of third party titles and links on Darwinia does not constitute an endorsement, guarantee, warranty, or recommendation by Darwinia. Do conduct your own due dilligence before deciding to use any third party services.*
