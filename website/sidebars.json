@@ -21,48 +21,10 @@
 			"wiki-contribute"
 		],
 		"Understand Darwinia": [
-			{
-				"type": "subcategory",
-				"label": "Architecture",
-				"ids": [
-					"wiki-us-architecture",
-					"wiki-us-bridgechain",
-					"wiki-us-solo",
-					"wiki-us-parachain"
-				]
-			},
-			"wiki-us-appchain-sdk",
-			"wiki-us-nft",
-			{
-				"type": "subcategory",
-				"label": "Accounts",
-				"ids": [
-					"wiki-acct-keys",
-					"wiki-acct-create",
-					"wiki-acct-ss58address",
-					"wiki-acct-balance-check",
-					"wiki-acct-balancetypes"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Economics",
-				"ids": [
-					"wiki-us-tokens",
-					"wiki-us-distribution"
-				]
-			},
-			{
-				"type": "subcategory",
-				"label": "Staking",
-				"ids": [
-					"wiki-us-staking-basic",
-					"wiki-us-staking-advanced",
-					"wiki-us-staking-power",
-					"wiki-us-staking-slash"
-				]
-			},
-			"wiki-glossary"
+			"wiki-us-architecture",
+			"wiki-us-accounts",
+      "wiki-us-tokens",
+      "wiki-us-staking"
 		],
 		"Tutorials": [
       "wiki-tut-create-account",

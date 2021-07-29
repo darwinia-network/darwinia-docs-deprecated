@@ -2,8 +2,6 @@
 id: wiki-tut-exchange
 title: 交易平台接入 Darwinia 主网指南
 sidebar_label: 交易平台接入 Darwinia 主网指南
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/zh-CN/wiki-tut-exchange.md
-
 ---
 
 # 交易平台接入 Darwinia 主网指南

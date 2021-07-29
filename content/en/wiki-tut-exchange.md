@@ -2,9 +2,6 @@
 id: wiki-tut-exchange
 title: Darwinia Exchange Access Guide
 sidebar_label: Darwinia Exchange Access Guide
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/en/wiki-tut-exchange.md
-
-
 ---
 
 # Darwinia Exchange Access Guide
