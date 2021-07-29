@@ -246,12 +246,12 @@
         "sidebar_label": "Become a validator"
       },
       "wiki-tut-wormhole-d2e": {
-        "title": "Darwinia -> Ethereum Bridge",
-        "sidebar_label": "Darwinia -> Ethereum Bridge"
+        "title": "Darwinia > Ethereum Bridge",
+        "sidebar_label": "Darwinia > Ethereum Bridge"
       },
       "wiki-tut-wormhole-e2d": {
-        "title": "Ethereum -> Darwinia Bridge",
-        "sidebar_label": "Ethereum -> Darwinia Bridge"
+        "title": "Ethereum > Darwinia Bridge",
+        "sidebar_label": "Ethereum > Darwinia Bridge"
       },
       "wiki-tut-wormhole-general": {
         "title": "General",
