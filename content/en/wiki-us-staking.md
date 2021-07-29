@@ -16,7 +16,7 @@ Distribution of the rewards are pro-rata to all stakers after the validator paym
 
 用户可以通过 Stake RING 来进行 NPoS 挖矿，如果用户取回 Staking 的 RING，那么挖矿将停止，解除质押的 RING 将需要 14 天时间可以完全到账。
 
-![Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled.png](Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled.png)
+![basic](assets/wiki-us-staking-basic.png)
 
 # Advanced
 
@@ -24,7 +24,7 @@ Distribution of the rewards are pro-rata to all stakers after the validator paym
 
 KTON 同样也可以参与 PoS 挖矿。用户通过质押 KTON 进行 Staking，如果用户取回 Staking 质押的 KTON ，那么挖矿将停止，解除质押的 KTON 将需要 14 天时间可以完全到账。
 
-![Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled%201.png](Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled%201.png)
+![advanced](assets/wiki-us-staking-advanced.png)
 
 # Validators and nominators
 
@@ -48,21 +48,21 @@ Staking 算力可以类比为 PoW 中的算力，某账户的 Staking 算力代�
 
 - validator pool 的算力
 
-`validator pool 的算力占比`：这个 validator pool 中质押的资产 占 总质押的资产 的比例。
-
-`validator pool 的算力`： 总算力 * validator pool 的算力占比
+    `validator pool 的算力占比`：这个 validator pool 中质押的资产 占 总质押的资产 的比例。
+    
+    `validator pool 的算力`： 总算力 * validator pool 的算力占比
 
 - 账户投入validator pool中的算力
 
-`账户的算力占比` ：其质押的资产 占 总质押的资产 的比例。
+    `账户的算力占比` ：其质押的资产 占 总质押的资产 的比例。
 
-`账户的算力` ： 总算力 * 账户的算力占比。
+    `账户的算力` ： 总算力 * 账户的算力占比。
 
-`账户投入validator pool中的算力` ： 账户的算力 / N，假设 账户 投了 N 个 validator。
+    `账户投入validator pool中的算力` ： 账户的算力 / N，假设 账户 投了 N 个 validator。
 
 那么，通过上面两个数据，我们就能算出 `账户在validator pool中的算力占比`
 
-`账户在validator pool中的算力占比`： 账户投入validator pool中的算力 / validator pool 的算力
+  `账户在validator pool中的算力占比`： 账户投入validator pool中的算力 / validator pool 的算力
 
 # Staking Rewards Distribution
 
@@ -117,4 +117,4 @@ Block Reward Limit for Each Block = Total Reward Limit for the Year × Block Int
 
 The following table shows RING’s Annual development statistics:
 
-![Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled%202.png](Staking%20abc55a0103f944c2bd66ce95e756271c/Untitled%202.png)
+![inflation](assets/wiki-us-staking-inflation.png)

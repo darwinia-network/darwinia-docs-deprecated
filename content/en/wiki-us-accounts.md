@@ -17,9 +17,9 @@ A recommended method of keeping the accounts stored on your computer is using th
 
 # Balance Types
 
-When you view your account information, for example through Polkadot UI, you may see multiple subsections of balances.
+When you view your account information, you may see multiple subsections of balances.
 
-![Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled.png](Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled.png)
+![balance-types](assets/wiki-us-accounts-balance-types.png)
 
 # Check Account Balance
 
@@ -59,7 +59,7 @@ Multi-signature accounts **cannot be modified after being created**. multi-sig a
 
 Subscan provide an easy-to-use multi-signature tool [https://multisig.subscan.io/](https://multisig.subscan.io/), it now supports Polkadot, Kusama, Darwinia, Crab.
 
-![Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled%201.png](Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled%201.png)
+![subscan](assets/wiki-us-accounts-subscan.png)
 
 # Address Conversion Tools
 

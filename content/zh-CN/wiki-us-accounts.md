@@ -17,9 +17,9 @@ A recommended method of keeping the accounts stored on your computer is using th
 
 # Balance Types
 
-When you view your account information, for example through Polkadot UI, you may see multiple subsections of balances.
+When you view your account information, you may see multiple subsections of balances.
 
-![Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled.png](Darwinia%20Accounts%2032d9943f04344f26bf7eccd664924414/Untitled.png)
+![balance-types](assets/wiki-us-accounts-balance-types.png)
 
 # Check Account Balance
 
@@ -65,4 +65,4 @@ Subscan provide an easy-to-use multi-signature tool [https://multisig.subscan.io
 
 You can use the tool privided by Subscan to convert any SS58 address for any network for use on different networks.
 
-[https://darwinia.subscan.io/tools/ss58_transform](https://darwinia.subscan.io/tools/ss58_transform)
+![subscan](assets/wiki-us-accounts-subscan.png)

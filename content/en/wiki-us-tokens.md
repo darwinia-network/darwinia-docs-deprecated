@@ -21,7 +21,7 @@ The native token for the Darwinia Network is RING, RING can be used as gas for t
 
 # KTON
 
-KTON is essentially a derivative token of RING, which encourages long-term lock and commitment. RING staking participants can lock RING for 1~36s months and get KTON as rewards, compensating for the liquidity loss.
+KTON is essentially a derivative token of RING, which encourages long-term lock and commitment. RING staking participants can lock RING for 1-36s months and get KTON as rewards, compensating for the liquidity loss.
 
 - The initial supply of KTON is 0, and it can only be obtained by locking RING. There is no other distribution channel. KTON has no impact on the function of  RING.
 
@@ -31,4 +31,5 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 
 1-36 variable integer months(30days) as the locking period are allowed. See the following table of rewarded KTON amount according to locked period.
 
-![Tokens%20b50bfdffda7743c5ab759edd35d9211b/Untitled.png](Tokens%20b50bfdffda7743c5ab759edd35d9211b/Untitled.png)
+![kton](assets/wiki-us-tokens-kton.png)
+

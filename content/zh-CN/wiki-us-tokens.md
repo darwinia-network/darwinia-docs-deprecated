@@ -31,4 +31,4 @@ Users can lock a certain amount of RING for a predefined period of time in excha
 
 1-36 variable integer months(30days) as the locking period are allowed. See the following table of rewarded KTON amount according to locked period.
 
-![Tokens%20b50bfdffda7743c5ab759edd35d9211b/Untitled.png](Tokens%20b50bfdffda7743c5ab759edd35d9211b/Untitled.png)
+![kton](assets/wiki-us-tokens-kton.png)
