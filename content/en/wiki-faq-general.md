@@ -65,51 +65,6 @@ Before launching Darwinia, the team also developed several other products includ
 
 <hr />
 
-### Who is Itering?
-
-Itering is a software company established in Singapore in 2018 focusing on research and development of blockchain infrastructure, particularly focused on cross-chain technology. At present, we are developing the Darwinia Network based on the Substrate framework, and committed to build the future Internet of tokens. 
-
-In addition to Darwinia Network, we continue our research and development in the realm of NFTs and their integral relationship with blockchain-based games. So far, our blockchain game Evolution Land has been launched on two blockchain-based ‘continents’: Ethereum and Tron. In the future, Evolution Land will become the first important game application in the Darwinia ecosystem.
-
-For more details about us, please check: [Itering IO](https://www.itering.io/)
-
-<hr />
-
-### Does Darwinia have a roadmap?
-
-![roadmap](assets/wiki-faq-roadmap.png)
-
-* 2018 Q4 Evolution Land Launched
-* 2019 Q1 Evoution Land: Atlantis Continent
-* 2019 Q2 Evolution Land: Byzantine Continent
-* 2019 Q3 Darwinia PoC-1 Trilobita Testnet
-* 2019 Q3 Darwinia PoC-2 Crayfish Testnet
-* 2019 Q4 ETH-Relay module open source
-* 2020 Q1 Darwinia POC-3 IceFrog Testnet
-* 2020 Q2 Darwinia Web Wallet
-* 2020 Q2 Ethereum Linear Relay
-* 2020 Q3 Darwinia PoC-4 Crab Network
-* 2020 Q3 Darwinia Relay
-* 2020 Q3 Mainnet Pre-launch: Genesis Generation
-* 2020 Q4 Mainnet Stage 1: Staking
-* 2020 Q4 Ethereum-Darwinia Unidirectional Bridge
-* 2020 Q4 DVM (Darwinia Virtual Machine) Testnet: Pangolin
-* 2020 Q4 Darwinia-Ethereum Reverse Bridge
-* 2020 Q4 Darwinia Crab Network Integrate DVM
-* 2021 Q1 Evolution Land: Crab Continent
-* 2021 Q1 Transfer activated on Darwinia Network
-* 2021 Q1 Substrate-Substrate Bridge（Darwinia Network-Darwinia Crab Network, Darwinia-Substrate Based Blockchain）
-* 2021 Q1 Kusama PLO (Darwinia Crab Network)
-* 2021 Q2 Darwinia Integrate DVM
-* 2021 Q2 Evolution Land: Darwinia Continent
-* 2021 Q2 Polkadot PLO (Darwinia Network)
-* 2021 Q3 Darwinia NFT Adapter
-* 2021 Q3-Q4 More bridges
-* 2021 Q3-Q4 Other Ecological Applications
-* ============
-
-<hr />
-
 ### What is the relationship between Darwinia Network and Evolution Land?
 
 Evolution Land is the first cross-chain game in the Darwinia Network ecosystem. Please check out more details here: [EvolutionLand Docs](https://docs.evolution.land/)

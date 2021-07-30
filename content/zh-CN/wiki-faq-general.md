@@ -65,53 +65,6 @@ sidebar_label: 通用类
   
 <hr />
 
-### Itering 是什么？
-
-Itering 于 2018 年在新加坡成立，是一家区块链核心科技公司。
-
-我们侧重区块链底层技术尤其是跨链技术的研发，目前在基于 Substrate 框架开发 Darwinia 网络，致力于打造跨链应用枢纽和资产互联网络。
-
-另外，我们在 NFT、区块链游戏等领域，坚持探索与研究，开发的区块链游戏 Evolution Land，目前已经上线以太坊和 Tron 两个大陆，未来将成为 Darwinia 生态的首个重要游戏方向应用。
-
-请点击 [Itering IO](https://www.itering.io/) 了解更多！
-
-<hr />
-
-### 达尔文网络路线图
-
-![roadmap](assets/wiki-faq-roadmap.png)
-
-* 2018 Q4 进化星球上线
-* 2019 Q1 进化星球：亚特兰蒂斯大陆
-* 2019 Q2 进化星球：拜占庭大陆
-* 2019 Q3 达尔文测试网：Trilobita
-* 2019 Q3 达尔文测试网：Crayfish
-* 2019 Q4 ETH-Relay 模块开源
-* 2020 Q1 达尔文测试网：IceFrog
-* 2020 Q2 达尔文网络钱包
-* 2020 Q2 以太坊线性 Relay
-* 2020 Q3 达尔文 Crab 先行网
-* 2020 Q3 达尔文 Relay
-* 2020 Q3 主网阶段 0:创世跨链
-* 2020 Q4 主网阶段 1:质押
-* 2020 Q4 以太坊到达尔文单向桥
-* 2020 Q4 DVM(以太坊兼容虚拟机)，测试网 Pangolin
-* 2020 Q4 达尔文-以太坊反向桥
-* 2020 Q4 Crab 升级支持 DVM
-* 2021 Q1 进化星球 Crab 大陆
-* 2021 Q1 主网开通转账
-* 2021 Q1 Substrate - Substrate 桥（达尔文 - Crab 双向桥, 达尔文 - Substrate 网络双向桥）
-* 2021 Q1 Crab 参与 Kusama 平行链竞拍
-* 2021 Q2 达尔文升级支持 DVM
-* 2021 Q2 进化星球达尔文大陆
-* 2021 Q2 达尔文参与 Polkadot 平行链竞拍 
-* 2021 Q3 达尔文 NFT 适配器
-* 2021 Q3-Q4 其它转接桥
-* 2021 Q3-Q4 其它生态应用
-* ============
-
-<hr />
-
 ### 达尔文网络和进化星球是什么关系？
 
 进化星球是达尔文网络生态系统中的第一个支持跨链的虚拟经营类游戏。更多详情请参考 [EvolutionLand Docs](https://docs.evolution.land/)
