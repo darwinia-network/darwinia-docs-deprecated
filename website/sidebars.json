@@ -23,9 +23,9 @@
 		"Understand Darwinia": [
 			"wiki-us-architecture",
 			"wiki-us-accounts",
-      "wiki-us-tokens",
-      "wiki-us-staking",
-      "wiki-us-governance"
+			"wiki-us-tokens",
+			"wiki-us-staking",
+			"wiki-us-governance"
 		],
 		"Tutorials": [
       "wiki-tut-create-account",
