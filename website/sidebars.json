@@ -2,23 +2,19 @@
 	"docs": {
 		"Get Started": [
 			"wiki-intro",
+      "wiki-community",
+			"wiki-contribute",
 			{
 				"type": "subcategory",
 				"label": "FAQ",
 				"ids": [
 					"wiki-faq-general",
 					"wiki-faq-developers",
-					"wiki-faq-community-building",
 					"wiki-faq-token-holder-faq",
 					"wiki-faq-mainnet-related",
 					"wiki-faq-lexicon"
 				]
-			},
-			"wiki-community",
-			"wiki-roadmap",
-			"wiki-tool",
-			"misc-sample",
-			"wiki-contribute"
+			}
 		],
 		"Understand Darwinia": [
 			{
