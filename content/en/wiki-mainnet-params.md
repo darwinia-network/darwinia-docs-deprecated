@@ -1,5 +1,5 @@
 ---
-id: wiki-faq-mainnet-params
+id: wiki-mainnet-params
 title: MAINNET Parameters
 sidebar_label: MAINNET Parameters
 ---

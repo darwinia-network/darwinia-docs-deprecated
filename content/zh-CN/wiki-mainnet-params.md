@@ -1,5 +1,5 @@
 ---
-id: wiki-faq-mainnet-params
+id: wiki-mainnet-params
 title: 主网参数
 sidebar_label: 主网参数
 ---

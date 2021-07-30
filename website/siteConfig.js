@@ -42,7 +42,6 @@ const siteConfig = {
     { blog: true, label: 'Blog' },
     { doc: 'wiki-intro', label: 'Docs' },
     { href: "https://crab.network/", label: "Crab Network", external: true },
-    { doc: 'dev-home', label: 'Developers' },
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },
     { search: true },

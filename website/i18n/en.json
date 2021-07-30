@@ -129,29 +129,13 @@
         "title": "How to contribute",
         "sidebar_label": "How to contribute"
       },
-      "wiki-faq-community-building": {
-        "title": "COMMUNITY BUILDING",
-        "sidebar_label": "Community Building"
-      },
       "wiki-faq-developers": {
         "title": "DEVELOPERS",
         "sidebar_label": "Developers"
       },
-      "wiki-faq-general": {
-        "title": "GENERAL",
-        "sidebar_label": "General"
-      },
-      "wiki-faq-lexicon": {
-        "title": "LEXICON",
-        "sidebar_label": "Lexion"
-      },
-      "wiki-faq-mainnet-params": {
-        "title": "MAINNET Parameters",
-        "sidebar_label": "MAINNET Parameters"
-      },
-      "wiki-faq-token-holder-faq": {
-        "title": "TOKEN HOLDER FAQ",
-        "sidebar_label": "Token Holder FAQ"
+      "wiki-faq": {
+        "title": "FAQs",
+        "sidebar_label": "FAQs"
       },
       "wiki-glossary": {
         "title": "Glossary",
@@ -164,6 +148,10 @@
       "wiki-intro": {
         "title": "What is Darwinia Network",
         "sidebar_label": "Introduction"
+      },
+      "wiki-mainnet-params": {
+        "title": "MAINNET Parameters",
+        "sidebar_label": "MAINNET Parameters"
       },
       "wiki-misc-links": {
         "title": "Links",
@@ -286,8 +274,7 @@
       "Home": "Home",
       "Blog": "Blog",
       "Docs": "Docs",
-      "Crab Network": "Crab Network",
-      "Developers": "Developers"
+      "Crab Network": "Crab Network"
     },
     "categories": {
       "Get Started": "Get Started",
