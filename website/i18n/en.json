@@ -145,9 +145,9 @@
         "title": "LEXICON",
         "sidebar_label": "Lexion"
       },
-      "wiki-faq-mainnet-related": {
-        "title": "MAINNET RELATED",
-        "sidebar_label": "Mainnet Related"
+      "wiki-faq-mainnet-params": {
+        "title": "MAINNET Parameters",
+        "sidebar_label": "MAINNET Parameters"
       },
       "wiki-faq-token-holder-faq": {
         "title": "TOKEN HOLDER FAQ",
@@ -291,10 +291,10 @@
     },
     "categories": {
       "Get Started": "Get Started",
-      "Understand Darwinia": "Understand Darwinia",
       "Tutorials": "Tutorials",
-      "RFCs": "RFCs",
-      "Developers": "Developers"
+      "Understand Darwinia": "Understand Darwinia",
+      "Developers": "Developers",
+      "RFCs": "RFCs"
     }
   },
   "pages-strings": {
