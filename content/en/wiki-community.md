@@ -4,7 +4,6 @@ title: Community
 sidebar_label: Community
 ---
 
-
 ## What can I do to help build the Darwinia Community?
 
 You can help the Darwinia Community grow in any one of these five roles:
