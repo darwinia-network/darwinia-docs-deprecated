@@ -121,26 +121,6 @@
         "title": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol",
         "sidebar_label": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol"
       },
-      "wiki-acct-balance-check": {
-        "title": "Check Account Balance",
-        "sidebar_label": "Check Balance"
-      },
-      "wiki-acct-balancetypes": {
-        "title": "Balance Types",
-        "sidebar_label": "Balance Types"
-      },
-      "wiki-acct-create": {
-        "title": "Account Generation",
-        "sidebar_label": "Account Generation"
-      },
-      "wiki-acct-keys": {
-        "title": "Account Keys",
-        "sidebar_label": "Account Keys"
-      },
-      "wiki-acct-ss58address": {
-        "title": "Account Address",
-        "sidebar_label": "Account Address"
-      },
       "wiki-community": {
         "title": "Community",
         "sidebar_label": "Community"
@@ -257,6 +237,10 @@
         "title": "General",
         "sidebar_label": "General"
       },
+      "wiki-us-accounts": {
+        "title": "Accounts",
+        "sidebar_label": "Accounts"
+      },
       "wiki-us-appchain-sdk": {
         "title": "Appchain SDK",
         "sidebar_label": "Appchain SDK"
@@ -268,10 +252,6 @@
       "wiki-us-bc-how": {
         "title": "How does Darwinia Bridge Chain work",
         "sidebar_label": "Bridge Chain Mechanism"
-      },
-      "wiki-us-bridgechain": {
-        "title": "Bridge Chain",
-        "sidebar_label": "Bridge Chain"
       },
       "wiki-us-distribution": {
         "title": "Distribution",
@@ -285,33 +265,13 @@
         "title": "Non-fungible Token Identifiability",
         "sidebar_label": "NFT Identifiability"
       },
-      "wiki-us-parachain": {
-        "title": "Parachain Mode",
-        "sidebar_label": "Parachain Mode"
-      },
       "wiki-us-parameters": {
         "title": "Parameters",
         "sidebar_label": "Parameters"
       },
-      "wiki-us-solo": {
-        "title": "Solo Mode",
-        "sidebar_label": "Solo Mode"
-      },
-      "wiki-us-staking-advanced": {
-        "title": "Advanced Staking",
-        "sidebar_label": "Advanced Staking"
-      },
-      "wiki-us-staking-basic": {
-        "title": "Basic Staking",
-        "sidebar_label": "Basic Staking"
-      },
-      "wiki-us-staking-power": {
-        "title": "Staking Power",
-        "sidebar_label": "Staking Power"
-      },
-      "wiki-us-staking-slash": {
-        "title": "Slash Algorithm",
-        "sidebar_label": "Slash Algorithm"
+      "wiki-us-staking": {
+        "title": "Staking",
+        "sidebar_label": "Staking"
       },
       "wiki-us-tokens": {
         "title": "Native Tokens",
