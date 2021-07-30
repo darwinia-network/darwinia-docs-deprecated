@@ -49,36 +49,10 @@ You need to add RING/KTON to Metamask as a custom token. Please visit the Websit
 <hr />
 
 ### What's the difference between RING and KTON?
+### What is the utility of the RING token? What is the total supply of RING tokens?
+### What is the utility of the KTON token? What is the total supply of KTON tokens?
 
-RING = normal staking and currency for blockchain fees
-
-KTON = professional staking for node operators
-
-<hr />
-
-### What is the utility of the RING token?
-
-RING is the native token of the Darwinia Network. It is used to pay for fees in a similar manner to how ETH is used on the Ethereum network and can also be used for staking.
-
-<hr />
-
-### What is the total supply of RING tokens?
-
-Total supply of RING will be 2 billion upon launch of mainnet and supply grows at approximately 5% annually. 100% of newly minted RING goes to staking reward pools to incentive validators and nominators who take care of the security of the network.
-
-<hr />
-
-### What is the utility of the KTON token?
-
-KTON is the commitment token of the Darwinia Network and for the purpose of staking and/or operating a validator it is the preferred choice vs. RING alone.
-
-When users voluntarily lock their RING for some period between 1 month and 36 months they receive KTON as a reward.  When used for staking, rewards are split equally between the RING and KTON staking pools.  For example, if you lock 10K RING for a year, you will get 1 KTON immediately and 10K RING back in a year’s time. 
-
-<hr />
-
-### What is the total supply of KTON tokens?
-
-KTON token supply was initially zero and can only be minted when users lock their RING in the process of staking. It also has some deflationary mechanisms built-in.
+[Tokens](./wiki-us-tokens.md)
 
 <hr />
 
