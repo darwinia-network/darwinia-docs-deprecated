@@ -1,83 +1,85 @@
 {
-	"docs": {
-		"Get Started": [
-			"wiki-intro",
+  "docs": {
+    "Get Started": [
+      "wiki-intro",
       "wiki-community",
-			"wiki-contribute",
-			{
-				"type": "subcategory",
-				"label": "FAQ",
-				"ids": [
-					"wiki-faq-general",
-					"wiki-faq-developers",
-					"wiki-faq-token-holder-faq",
-					"wiki-faq-mainnet-params",
-					"wiki-faq-lexicon"
-				]
-			}
-		],
-		"Understand Darwinia": [
-			"wiki-us-architecture",
-			"wiki-us-accounts",
-			"wiki-us-tokens",
-			"wiki-us-staking",
-			"wiki-us-governance"
-		],
-		"Tutorials": [
-	  "quick-start-account",
-			{
-				"type": "subcategory",
-				"label": "Staking",
-				"ids": [
-          "wiki-tut-validator",
-					"wiki-tut-nominator"
-				]
-			},
-			"wiki-tut-staking",
-			"wiki-tut-node",
-			"wiki-tut-relayer",
-			"wiki-tut-governance",
-			"wiki-tut-auction",
-			{
-				"type": "subcategory",
-				"label": "Cross-chain Transfer",
-				"ids": [
-					"wiki-tut-wormhole-general",
-					"wiki-tut-wormhole-e2d",
-					"wiki-tut-wormhole-d2e"
-				]
-			},
-			"wiki-tut-exchange"
-		],
+      "wiki-contribute",
+      {
+        "type": "subcategory",
+        "label": "FAQ",
+        "ids": [
+          "wiki-faq-general",
+          "wiki-faq-developers",
+          "wiki-faq-token-holder-faq",
+          "wiki-faq-mainnet-params",
+          "wiki-faq-lexicon"
+        ]
+      }
+    ],
 
-		"RFCs": [
-			"wiki-rfcs",
-			"rfc-0001-darwinia-developement-structure",
-			"rfc-0007-dawinia-token-staking-model",
-			"rfc-0009-dawinia-liquid-kton-reward",
-			"rfc-0010-darwinia-cross-chain-nft-bridge-protocol",
-			"rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals",
-			"rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains",
-			"rfc-0013-darwinia-cross-chain-nft-standards",
-			"rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol"
-		]
-	},
-	"dev": {
-		"Developers": [
-			"dev-home",
-			"dev-bounty",
-			{
-				"type": "subcategory",
-				"label": "Workshops",
-				"ids": [
-					"dev-workshop-list",
-					"dev-workshop-show"
-				]
-			},
-			"dev-community",
-			"dev-substrate",
-			"dev-rust",
-			"dev-dvm"
-		]
-	}
+    "Tutorials": [
+      "quick-start-account",
+      {
+        "type": "subcategory",
+        "label": "Staking",
+        "ids": [
+          "wiki-tut-validator",
+          "wiki-tut-nominator"
+        ]
+      },
+      "wiki-tut-staking",
+      "wiki-tut-node",
+      "wiki-tut-relayer",
+      "wiki-tut-governance",
+      "wiki-tut-auction",
+      {
+        "type": "subcategory",
+        "label": "Cross-chain Transfer",
+        "ids": [
+          "wiki-tut-wormhole-general",
+          "wiki-tut-wormhole-e2d",
+          "wiki-tut-wormhole-d2e"
+        ]
+      },
+      "wiki-tut-exchange"
+    ],
+
+    "Understand Darwinia": [
+      "wiki-us-architecture",
+      "wiki-us-accounts",
+      "wiki-us-tokens",
+      "wiki-us-staking",
+      "wiki-us-governance"
+    ],
+
+    "RFCs": [
+      "wiki-rfcs",
+      "rfc-0001-darwinia-developement-structure",
+      "rfc-0007-dawinia-token-staking-model",
+      "rfc-0009-dawinia-liquid-kton-reward",
+      "rfc-0010-darwinia-cross-chain-nft-bridge-protocol",
+      "rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals",
+      "rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains",
+      "rfc-0013-darwinia-cross-chain-nft-standards",
+      "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol"
+    ]
+  },
+  "dev": {
+    "Developers": [
+      "dev-home",
+      "dev-bounty",
+      {
+        "type": "subcategory",
+        "label": "Workshops",
+        "ids": [
+          "dev-workshop-list",
+          "dev-workshop-show"
+        ]
+      },
+      "dev-community",
+      "dev-substrate",
+      "dev-rust",
+      "dev-dvm"
+    ]
+  }
 }
