@@ -1,7 +1,7 @@
 ---
 id: quick-start-staking-nominator
 title: How to Become a Nominator
-sidebar_label: How to Become a Nominator
+sidebar_label: Become a Nominator
 ---
 
 ## Intro

@@ -1,7 +1,7 @@
 ---
 id: quick-start-staking-validator
 title: How to Become a Validator
-sidebar_label: How to Become a Validator
+sidebar_label: Become a Validator
 ---
 
 ## Intro

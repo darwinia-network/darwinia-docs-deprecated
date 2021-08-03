@@ -1,7 +1,7 @@
 ---
 id: quick-start-staking-nominator
 title: 如何成为提名人
-sidebar_label: 如何成为提名人
+sidebar_label: 成为提名人
 ---
 
 ## 简介
