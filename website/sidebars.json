@@ -10,28 +10,12 @@
 
     "Tutorials": [
       "quick-start-account",
-      {
-        "type": "subcategory",
-        "label": "Staking",
-        "ids": [
-          "wiki-tut-validator",
-          "wiki-tut-nominator"
-        ]
-      },
-      "wiki-tut-staking",
+      "quick-start-staking-nominator",
+      "quick-start-staking-validator",
+      "quick-start-crosschain-transfer-d2e",
+      "quick-start-crosschain-transfer-e2d",
+      "quick-start-crosschain-transfer-ex-withdraw",
       "wiki-tut-node",
-      "wiki-tut-relayer",
-      "wiki-tut-governance",
-      "wiki-tut-auction",
-      {
-        "type": "subcategory",
-        "label": "Cross-chain Transfer",
-        "ids": [
-          "wiki-tut-wormhole-general",
-          "wiki-tut-wormhole-e2d",
-          "wiki-tut-wormhole-d2e"
-        ]
-      },
       "wiki-tut-exchange"
     ],
 

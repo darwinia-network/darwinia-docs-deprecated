@@ -1,5 +1,5 @@
 ---
-id: quick-start-staking-nominator
+id: quick-start-staking-validator
 title: 如何成为验证人
 sidebar_label: 如何成为验证人
 ---

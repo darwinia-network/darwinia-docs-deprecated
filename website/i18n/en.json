@@ -89,6 +89,26 @@
         "title": "Create an Account",
         "sidebar_label": "Create an Account"
       },
+      "quick-start-crosschain-transfer-d2e": {
+        "title": "Darwinia > Ethereum Transfer",
+        "sidebar_label": "Darwinia > Ethereum Transfer"
+      },
+      "quick-start-crosschain-transfer-e2d": {
+        "title": "Ethereum > Darwinia Transfer",
+        "sidebar_label": "Ethereum > Darwinia Transfer"
+      },
+      "quick-start-crosschain-transfer-ex-withdraw": {
+        "title": "Withdraw from a Centralized Exchange",
+        "sidebar_label": "Withdraw from a Centralized Exchange"
+      },
+      "quick-start-staking-nominator": {
+        "title": "How to Become a Nominator",
+        "sidebar_label": "How to Become a Nominator"
+      },
+      "quick-start-staking-validator": {
+        "title": "How to Become a Validator",
+        "sidebar_label": "How to Become a Validator"
+      },
       "rfc-0001-darwinia-developement-structure": {
         "title": "0001 Darwinia Developement Structure",
         "sidebar_label": "0001 Darwinia Developement Structure"
