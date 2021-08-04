@@ -68,6 +68,10 @@ docker run -it \
         --rpc-cors all
 ```
 
+### 其他参数
+
+- `--target-gas-price`： `darwinia` 版本高于 v0.11.1 的节点，可通过 `--target-gas-price=xxx` 设置 dvm gas price，当前推荐值为 `5000000000`。
+
 ### 查看所有参数
 
 ```
