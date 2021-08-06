@@ -30,8 +30,6 @@ You can help the Darwinia Community grow in any one of these five roles:
 
   Also, we have launched the Darwinia Ambassador Program, and two pathways have been developed for contributors: Technology and Education. Please apply for the application [here](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform). 
 
-Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
-
 ## Stay Updated with Darwinia
 - Twitter: [https://twitter.com/DarwiniaNetwork](https://twitter.com/DarwiniaNetwork)
 - Darwinia Official (TG): [https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
