@@ -28,6 +28,8 @@ sidebar_label: 社区
   
   体验达尔文网络生态应用，并根据团队需求提交详细的体验报告，截止目前，达尔文技术团队已经创造出各种极具 Web3 属性的产品。例如 Itering ID。
 
+  同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在 [这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform) 提交申请。
+
 ## 国内
 - 微信公众号：DarwiniaNetwork
 - 微信小助手：Darwinia_Network

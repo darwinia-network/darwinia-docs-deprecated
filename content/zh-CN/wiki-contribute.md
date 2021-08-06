@@ -12,7 +12,7 @@ Wiki 是由 Darwinia 团队开发并维护。这是一个开源项目并是 Darw
 
 ## 如何参与贡献
 
-![Contribute Edit](assets/contribute-edit.png)
+![Contribute Edit](assets/contribute-edit-cn.png)
 
 使用 GitHub 帐户，可以轻松地为 Wiki 作出贡献。每个页面都是 markdown 文件，是[非常容易学习的](https://guides.github.com/features/mastering-markdown/)纯文本的语法扩展，使创建链接，渲染图像和美观的格式变得简单。
 
