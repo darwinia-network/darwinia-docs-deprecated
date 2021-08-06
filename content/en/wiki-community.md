@@ -28,15 +28,20 @@ You can help the Darwinia Community grow in any one of these five roles:
   
   Explore and troubleshoot Darwinia Ecological Applications and submit detailed bug reports according to our requirements. The Darwinia development team has also pioneered a number of products prior to the launch of the Web3.0 SDK as well such as Itering ID.
 
+  Also, we have launched the Darwinia Ambassador Program, and two pathways have been developed for contributors: Technology and Education. Please apply for the application [here](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform). 
+
 Telegram: [t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
 
 ## Stay Updated with Darwinia
-- Forum: https://talk.darwinia.network/
-- Twitter: https://twitter.com/DarwiniaNetwork
-- Telegram: https://t.me/DarwiniaNetwork
-- Medium: https://medium.com/@DarwiniaNetwork
-- Reddit: https://www.reddit.com/r/DarwiniaFans/
-- Riot:https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
+- Twitter: [https://twitter.com/DarwiniaNetwork](https://twitter.com/DarwiniaNetwork)
+- Darwinia Official (TG): [https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
+- Darwinia Dev (TG): [https://t.me/DarwiniaDev](https://t.me/DarwiniaDev)
+- Medium: [https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
+- Reddit: [https://www.reddit.com/r/DarwiniaFans/](https://www.reddit.com/r/DarwiniaFans/)
+- Discord: [https://discord.com/channels/456092011347443723/795384466930663434](https://discord.com/channels/456092011347443723/795384466930663434)
+- Element: [https://app.element.io/#/room/#darwinia:matrix.org](https://app.element.io/#/room/#darwinia:matrix.org)
+- Youtube: [https://www.youtube.com/channel/UCgtFX6DJn66fM7rPp99fOGg/featured](https://www.youtube.com/channel/UCgtFX6DJn66fM7rPp99fOGg/featured)
+- Forum: [https://talk.darwinia.network/](https://talk.darwinia.network/)
 
 <hr>
 

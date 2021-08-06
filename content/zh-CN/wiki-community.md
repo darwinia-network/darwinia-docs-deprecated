@@ -33,14 +33,18 @@ sidebar_label: 社区
 - 微信小助手：Darwinia_Network
 - 币乎：https://bihu.com/people/1100617
 - 微博：https://weibo.com/DarwiniaNetwork
+- Bilibili：https://space.bilibili.com/518736354
 
 ## 国外
-- Forum: https://talk.darwinia.network/
 - Twitter: https://twitter.com/DarwiniaNetwork
-- Telegram: https://t.me/DarwiniaNetwork
+- Darwinia Official (TG): https://t.me/DarwiniaNetwork
+- Darwinia Dev (TG): https://t.me/DarwiniaDev
 - Medium: https://medium.com/@DarwiniaNetwork
-- Reddit: https://www.reddit.com/r/DarwiniaFans/
-- Riot:https://matrix.to/#/!HIyWQGUzgpkxswYMNi:matrix.org?via=matrix.org
+- Reddit （Darwinia）: https://www.reddit.com/r/DarwiniaFans/
+- Discord: https://discord.com/channels/456092011347443723/795384466930663434
+- Element: https://app.element.io/#/room/#darwinia:matrix.org
+- Youtube: https://www.youtube.com/channel/UCgtFX6DJn66fM7rPp99fOGg/featured
+- Forum: https://talk.darwinia.network/
 
 <hr />
 

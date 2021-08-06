@@ -1,7 +1,7 @@
 ---
 id: wiki-mainnet-params
-title: MAINNET Parameters
-sidebar_label: MAINNET Parameters
+title: Darwinia Network Parameters
+sidebar_label: Darwinia Network Parameters
 ---
 
 One block: about 6 seconds

@@ -103,11 +103,11 @@
       },
       "quick-start-staking-nominator": {
         "title": "How to Become a Nominator",
-        "sidebar_label": "How to Become a Nominator"
+        "sidebar_label": "Become a Nominator"
       },
       "quick-start-staking-validator": {
         "title": "How to Become a Validator",
-        "sidebar_label": "How to Become a Validator"
+        "sidebar_label": "Become a Validator"
       },
       "rfc-0001-darwinia-developement-structure": {
         "title": "0001 Darwinia Developement Structure",
@@ -170,8 +170,8 @@
         "sidebar_label": "Introduction"
       },
       "wiki-mainnet-params": {
-        "title": "MAINNET Parameters",
-        "sidebar_label": "MAINNET Parameters"
+        "title": "Darwinia Network Parameters",
+        "sidebar_label": "Darwinia Network Parameters"
       },
       "wiki-misc-links": {
         "title": "Links",

@@ -1,7 +1,7 @@
 ---
 id: wiki-mainnet-params
-title: 主网参数
-sidebar_label: 主网参数
+title: 达尔文网络参数
+sidebar_label: 达尔文网络参数
 ---
 
 一个块：约 6 秒

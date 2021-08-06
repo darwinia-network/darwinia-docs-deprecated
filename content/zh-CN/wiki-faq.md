@@ -10,35 +10,6 @@ sidebar_label: FAQs
 
 如果你还有其他问题，请关注微信公众号「DARWINIA」，或发送你的问题到邮件：support@darwinia.network
 
-### 我是达尔文新手，应该从哪开始了解达尔文网络呢？
-
-首先，欢迎你加入到达尔文社区！达尔文网络是基于 Substrate 开发的去中心化桥接链，是跨链生态的“金门大桥”，提供最安全的不依赖第三方多签的异构链跨链方案，
-连接波卡，以太坊，波场等异构链，主要应用领域包括 DeFi，跨链 NFT 交易市场，游戏等。点击下面链接了解更多：
-
-**官网**:[https://darwinia.network/](https://darwinia.network/)
-
-**白皮书**:[https://darwinia.network/Darwinia_Genepaper_CN.pdf](https://darwinia.network/Darwinia_Genepaper_CN.pdf)
-
-**Reddit**:[https://www.reddit.com/r/DarwiniaFans](https://www.reddit.com/r/DarwiniaFans) 
-
-**Github**:[https://github.com/darwinia-network](https://github.com/darwinia-network)
-
-**Twitter**:[@DarwiniaNetwork](https://twitter.com/DarwiniaNetwork) 
-
-**Discord**:[https://discord.gg/KMZVeyM](https://discord.gg/KMZVeyM) 
-
-**Medium**:[https://medium.com/@DarwiniaNetwork](https://medium.com/@DarwiniaNetwork)
-
-**Wiki 文档**:[https://docs.darwinia.network/zh-CN/](https://docs.darwinia.network/zh-CN/)
-
-**达尔文论坛**:[https://talk.darwinia.network/](https://talk.darwinia.network/)
-
-**Dev Channel**:[https://t.me/DarwiniaDev](https://t.me/DarwiniaDev)
-
-**官方 Telegram**:[https://t.me/DarwiniaNetwork](https://t.me/DarwiniaNetwork)
-
-同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在 [这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform) 提交申请。
-
 ### 达尔文网络有哪些历程？
 
 2018 年底，Parity 发布 Substrate 工具包项目，届时达尔文网络项目也正式开启。达尔文充当主要公链之间的链中继，实现网络的去中心化；并以去中心化和无许可的非托管方式实现了资产跨链转移。
@@ -75,30 +46,6 @@ sidebar_label: FAQs
 
 RING 和 KTON 是存在于进化星球上的 ERC-20 / TRC-20 通证。RING 在进化星球上能被用作 Gas 费。
 
-### 如何能参与到达尔文社区建设？
-
-大家可以根据自己的专长和兴趣通过以下 5 种角色来助力达尔文社区成长：
-
-* **文案创作者**
-  
-  通过创作输出高质量的与达尔文网络相关的教育素材（视频，博客，设计图稿，音频等任何具有艺术创作型的产物）来教育社区，并吸引更多的人了解达尔文网络。
-
-* **活动组织者**
-  
-  举办线上线下的技术研讨会/黑客马拉松，和当地的区块链爱好者们保持联络，在交流沟通当中发掘达尔文的潜在用户和合作伙伴。
-
-* **翻译者**
-  
-  协助将达尔文网络及其生态应用相关的文案翻译成各种语言，并传播和共享到对应的语言社区。
-
-* **协调者**
-  
-  帮助管理达尔文各个官方社交媒体社区，为社区成员营造一个友善的，持久的和富有活力的社区氛围。
-
-* **体验官**
-  
-  体验达尔文网络生态应用，并根据团队需求提交详细的体验报告，截止目前，达尔文技术团队已经创造出各种极具 Web3 属性的产品。例如 Itering ID。
-
 ### 什么是 Power（票权）？
 
 用户参与 Staking，通过抵押 RING 或 KTON 获得的权益称作 Power（票权）。
@@ -132,12 +79,6 @@ Power 占比的变动取决于两个因素，分别是：
 
 ![](assets/wiki-faq-darwinia-token-cn.png)
 
-### RING 和 KTON 的区别？
-### RING 的用途是什么？RING 的总供应量是？
-### KTON（氪石）的用途是什么？KTON（氪石）的总供应量是多少？
-
-[Tokens](./wiki-us-tokens.md)
-
 ### 解除质押的 RING 需要等待多长时间到账？
 
 解除质押的 RING 将需要 14 天时间可以完全到账。
@@ -160,7 +101,7 @@ Power 占比的变动取决于两个因素，分别是：
 
 ### 我如何将 RING 从钱包转移到达尔文账户？
 
-RING 存在于不同的区块链网络中，目前支持以太坊和波场。如果你是想将 RING (ERC20) 从以太坊钱包转移到达尔文网络本地钱包，你需要进行跨链转账。目前以太坊到达尔文单向桥已开通，请移步到[这里](https://wormhole.darwinia.network)进行跨链转账。
+RING 存在于不同的区块链网络中，目前支持以太坊和波场。如果你是想将 RING (ERC20) 从以太坊钱包转移到达尔文网络本地钱包，你需要进行跨链转账。请移步到[这里](https://wormhole.darwinia.network)进行跨链转账。
 
 ### 在 Metamask 添加通证，复制粘贴合约地址发现并不管用是怎么回事？
 
@@ -215,33 +156,6 @@ Uniswap 上有合法的 RING 和 KTON 交易对，但也有一些假代币。进
 如果你质押通证参与议会投票，这些通证将会被锁定，取消投票后质押通证才能被解锁。
 
 ![](assets/wiki-faq-extrinsic-submission.png)
-
-### 如何质押 RING 获得氪石？
-
-**教程如下**:
-
-* 首先，[点击这里](https://darwinia.network/)创建一个达尔文钱包（不要忘记切换到达尔文主网，Crab 网络是测试网。点击钱包最上角并进行切换。
-
-* 然后，[打开网页](https://wormhole.darwinia.network/)，点击以太坊，接着点击跨链转账。
-  
-  ![](assets/wiki-faq-guide-1-cn.png)
-
-* 点击 “跨链转账”，这时 metamask 页面会跳出来，连接 metamask 账号。
-  
-  ![](assets/wiki-faq-guide-2-en.png)
-
-* 填写你的达尔文钱包地址，选择要跨链转账的通证，选择提交便可以进行转账。
-  
-  *注意：确保钱包里有 10 RING 和一些 eth 来付 gas 费。（目前以太坊网络较拥堵，大概 35 分钟左右会转账成功）*
-
-
-**在主网钱包上**
-
-你需要锁定通证并提名一个验证人，正常情况下，质押时间超过一个 era 后你将会开始获得每日奖励。
-
-完成之后，你将会进入到另一个页面，上面会显示所有提名者。你可以提名一人或多人，我只提名了一人，也能正常工作。不同提名者佣金会有所不同。
-
-大家可以根据自己情况选择不同提名者。关于票权（power）变动就比较灵活，取决于你所在质押池的占比等因素。可参考问题：「通知持有者常见问题」 -> 什么是 Power（票权）？/ 如何获得 Power，怎么计算获得 Power 的数量？/ 什么是 Power 占比？/ 为什么我的 Power 占比 变多/变少了？
 
 ###  如果只开通以太坊到达尔文网络单向桥，氪石只有在质押锁定 RING 过程中获得，并且也不能从 Crab 先行网中转移，那么目前氪石的流通量从哪里来？
 
