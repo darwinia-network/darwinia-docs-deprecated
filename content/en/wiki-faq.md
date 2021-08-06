@@ -160,7 +160,3 @@ If you have bonded any tokens while participating in council election, those tok
 
 ![](assets/wiki-faq-extrinsic-submission.png)
 
-### If the Ethereum to Darwinia Network bridge is only open one way for now, and KTON are only minted when users stake their RING and not transferable from Crab testnet, where did the existing supply of KTON in circulation come from?
-
-The existing KTON in circulation were mined or generated within the game Evolution Land.
-
