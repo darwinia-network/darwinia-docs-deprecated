@@ -77,7 +77,7 @@ Therefore, if you find that the “Power share” has changed without any operat
 
 You need to add RING/KTON to Metamask as a custom token. Please visit the Website homepage to see how to do it.
 
-![](assets/wiki-faq-metamask-ring-kton.png)
+![](assets/wiki-faq-metamask-ring-kton-en.png)
 
 ### How long do I need to wait for unstaking/withdrawing my tokens?
 

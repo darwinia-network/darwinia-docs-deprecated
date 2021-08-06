@@ -77,7 +77,7 @@ Power 占比的变动取决于两个因素，分别是：
 
 你需要手动将 RING / KTON 加入到 Metamsk 通证列表。请进入达尔文官网首页，下滑到经济模型区域，点击如下图标进行添加：
 
-![](assets/wiki-faq-darwinia-token-cn.png)
+![](assets/wiki-faq-metamask-ring-kton-cn.png)
 
 ### 解除质押的 RING 需要等待多长时间到账？
 
