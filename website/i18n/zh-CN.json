@@ -328,6 +328,10 @@
 				"title": "系统架构",
 				"sidebar_label": "系统架构"
 			},
+			"wiki-us-accounts": {
+				"title": "账户",
+				"sidebar_label": "账户"
+			},
 			"wiki-us-bc-how": {
 				"title": "理解达尔文转接桥工作机制",
 				"sidebar_label": "转接桥工作机制"
@@ -356,9 +360,9 @@
 				"title": "平行链模式",
 				"sidebar_label": "平行链模式"
 			},
-			"wiki-us-parameters": {
-				"title": "网络参数",
-				"sidebar_label": "网络参数"
+			"wiki-mainnet-params": {
+				"title": "达尔文网络参数",
+				"sidebar_label": "达尔文网络参数"
 			},
 			"wiki-us-solo": {
 				"title": "独立模式 ",
@@ -403,7 +407,25 @@
 			"wiki-tut-wormhole-general": {
 				"title": "简介",
 				"sidebar_label": "简介"
-			}
+			},
+      "quick-start-staking-nominator": {
+				"title": "如何成为投票人",
+				"sidebar_label": "成为投票人"
+      },
+      "quick-start-staking-validator": {
+				"title": "如何成为验证人",
+				"sidebar_label": "成为验证人"
+      },
+      "quick-start-crosschain-transfer-d2e": {
+				"title": "「达尔文网络 至 以太坊」转账",
+				"sidebar_label": "「达尔文网络 至 以太坊」转账"
+      },
+      "quick-start-crosschain-transfer-e2d": {
+				"title": "「以太坊 > 达尔文网络」 转账",
+				"sidebar_label": "「以太坊 > 达尔文网络」 转账"
+      }
+
+
 		},
 		"links": {
 			"Home": "首页",
