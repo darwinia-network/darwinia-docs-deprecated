@@ -116,12 +116,6 @@ electorate（总投票数） - 代币发行总量
 
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D" style="width:200px !important" />
 
-**简单多数制（Simple-Majority）**
-
-多数票通过，票数的简单比较；如果赞成票多于反对票，那么该提案将获得通过，无论提案中有多少票。
-
-![https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D](https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D)
-
 *要了解有关上述公式来源的更多信息，请阅读 [democracy pallet](https://github.com/paritytech/substrate/blob/master/frame/democracy/src/vote_threshold.rs).*
 
 [Subscan](https://darwinia.subscan.io/) 提供了很方便的视图来查看投票计数的详细信息，如下面的**绝对多数赞成制**例子：
