@@ -99,5 +99,4 @@ Click "*Validate*" and set the validator paramters.
 The paramter "*reward commission percentage*" defines the proportion of the node's priority distribution of income, and the range is 0-100. (Example: For a 5% reward commission, this node will first receive 5% of the node's revenue, and the remaining 95% of the node's revenue will be distributed in proportion to the amount of one's token in staking, be it the validator or a nominator; Validator's income = node reward commission + staking reward share).
  ![Screenshot of Click "Sign and Submit" Button](assets/quick_start/darwinia-staking-validator-07.png)
 
-Now you are finished, but it will not take effect until the next era. As for now, the node is on the waiting list.
- ![Screenshot of Validator on the Waiting List](assets/quick_start/darwinia-staking-validator-08.png)
+Now you are finished, but it will not take effect until the next era.

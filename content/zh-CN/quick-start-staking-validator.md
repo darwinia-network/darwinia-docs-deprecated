@@ -13,6 +13,7 @@ sidebar_label: 成为验证人
 只有满足以下条件，才可以竞选验证人：
 
 1. 配置了合适的软硬件资源可以运行一个全节点；
+    
     >  如果你不知道如何运行一个节点，可以参照[*运行节点*](./wiki-tut-node)一文。
 2. 你有一定的通证可以质押;
 3. 你现在不是提名人。
@@ -99,7 +100,6 @@ $ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d
 ![Screenshot of Click "Validate" Button](assets/quick_start_zh-CN/darwinia-staking-validator-06_zh-CN.png)
 
 参数"*奖励佣金百分比*" 是指节点产生收益时验证人优先分得的比例，取值范围是 0-100. (例如: 如果奖励佣金百分比为5%，该节点产生的收入，验证人将首先分得其中的5%，剩余的95%将在验证人和所有提名该节点的提名人之间按照质押比例分配。所以验证人的收益 = 节点奖励佣金 + 质押奖励分成).
- ![Screenshot of Click "Sign and Submit" Button](assets_zh-CN/quick_start/darwinia-staking-validator-07_zh-CN.png)
+ ![Screenshot of Click "Sign and Submit" Button](assets/quick_start_zh-CN/darwinia-staking-validator-07_zh-CN.png)
 
-至此你的操作已经完成，验证人申请需要等到下一个时代（Era）才能生效。目前，该节点仍在等待列表中。
- ![Screenshot of Validator on the Waiting List](assets/quick_start_zh-CN/darwinia-staking-validator-08_zh-CN.png)
+至此你的操作已经完成，验证人申请需要等到下一个时代（Era）才能生效。
