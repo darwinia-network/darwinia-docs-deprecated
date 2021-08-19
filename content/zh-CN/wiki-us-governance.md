@@ -6,7 +6,7 @@ sidebar_label: Governance
 
 ## 简介
 
-Darwinia 网络的治理机制和手段都源于 [波卡](https://wiki.polkadot.network/docs/learn-governance/)。
+Darwinia 网络的治理机制和手段源于 [波卡](https://wiki.polkadot.network/docs/learn-governance/)。
 
 治理的目标是，确保 “大多数 stake” 始终可以控制网络。
 
@@ -39,7 +39,7 @@ Darwinia 网络的治理机制和手段都源于 [波卡](https://wiki.polkadot.
 
 #### 公众提议举行公投（公众提案 / Democracy proposal）
 
-任何人都可以通过在一定时期内（区块数量）存入最低数量的代币来提议举行公投。 如果有人同意该提案，他们可能会存入**相同数量**的代币来支持它——这个动作被称为附议。 支持率（存入的代笔数量）最高的提案将被选为下一个投票周期的公投。
+任何人都可以通过在一定时期内（区块数量）存入最低数量的代币来提议举行公投。 如果有人同意该提案，他们可能会存入**相同数量**的代币来支持它——这个动作被称为附议。 支持率（存入的代币数量）最高的提案将被选为下一个投票周期的公投。
 
 请注意，计算附议不是计算账户数； 例如，三个账户每个绑定 20 RING 将“超过”十个账户每个绑定一个 RING。 一旦提案被提交（即进入投票阶段），这些附议的代币将被释放。
 
@@ -57,11 +57,11 @@ Darwinia 网络的治理机制和手段都源于 [波卡](https://wiki.polkadot.
 
 **只有议会的提议才能被加速。**
 
-#### 公投投票时间线s
+#### 公投投票时间线
 
-在 Darwinia 上每 28 天或在 Crab 上每 7 天，就会进行一次新的公投进行投票，前提是其中一个队列中至少有一个提案。 有一个议会提案队列和一个公众提案队列。 在两个队列中的最高提案之间交替进行。
+在 Darwinia 上每 28 天或在 Crab 上每 7 天，就会对一个新的提案进行投票，前提是其中一个队列中至少有一个提案。 有一个议会提案队列和一个公众提案队列。 在两个队列中的最高提案之间交替进行。
 
-要投票，选民的代币至少在公投结束后的颁布延迟期（enactment delay）内会被锁定锁定。 这是为了确保投票结果需要一些最低限度的经济投入，并避免卖票行为。
+选民的代币至少在公投结束后的颁布延迟期（enactment delay）内会被锁定锁定。 这是为了确保投票结果需要一些最低限度的经济投入，并避免卖票行为。
 
 ![timeline](assets/wiki-us-governance-timeline.png)
 
@@ -87,7 +87,7 @@ Kevin: 用 15 个 RING 投票了赞成票，锁定 8   周，那么他的实际�
 
 例如，让我们以公众提案为例，应用绝对多数赞成（Super-Majority Approve）公式。没有严格的法定投票人数，但随着投票率的降低，所需的绝对多数席位会增加。
 
-下面，我们使用下面列出的公式之一来计算投票结果。
+我们使用下面列出的公式之一来计算投票结果。
 
 我们先准备以下信息：
 
@@ -100,29 +100,35 @@ electorate（总投票数） - 代币发行总量
 
 **绝对多数赞成制（Super-Majority Approve）**
 
-正投票率偏差，需要在投票率低的情况下获得**绝对多数赞成票**，但当投票率增加至100％时,它其实就变成了最后一种简单多数的情况。
+正投票率偏差，需要在投票率低的情况下获得**绝对多数赞成票**，但当投票率增加至100％时，它其实就变成了最后一种简单多数的情况。
 
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bagainst&space;%5Cover&space;%5Csqrt%7Bturnout%7D%7D&space;%3C&space;%7Bapprove&space;%5Cover&space;%5Csqrt%7Belectorate%7D%7D" style="width:200px !important" />
+</p> 
 
 **绝对多数反对制（Super-Majority Against）**
 
 负投票率偏差，需要在投票率低的情况下获得**绝对多数反对票**，但是当投票率增加到100％时，它就变成了最后一种简单多数的情况。
 
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bagainst&space;%5Cover&space;%5Csqrt%7Belectorate%7D%7D&space;%3C&space;%7Bapprove&space;%5Cover&space;%5Csqrt%7Bturnout%7D%7D" style="width:200px !important" />
+</p>
+
 
 **简单多数制（Simple-Majority）**
 
 多数票通过，票数的简单比较；如果赞成票多于反对票，那么该提案将获得通过，无论提案中有多少票。
 
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D" style="width:200px !important" />
+</p>
+
 
 *要了解有关上述公式来源的更多信息，请阅读 [democracy pallet](https://github.com/paritytech/substrate/blob/master/frame/democracy/src/vote_threshold.rs).*
 
 [Subscan](https://darwinia.subscan.io/) 提供了很方便的视图来查看投票计数的详细信息，如下面的**绝对多数赞成制**例子：
 
 ![timeline](assets/wiki-us-governance-subscan.png)
-
-Subscan 中查看公投详情
 
 #### 自愿锁定（Voluntary Locking）
 
@@ -182,7 +188,7 @@ Subscan 中查看公投详情
 
 所有利益相关者（stakeholders）都可以自由地表示他们对任何注册候选人的认可。
 
-议会选举方式和选举验证者的方式相同（Phragmén 选举算法）。但是要，代币持有人对议员的投票，与他们对验证人的任何提名是分开的。议员任期在 Crab 上持续一天，在 Darwinia 上持续一周。
+议会选举方式和选举验证者的方式相同（Phragmén 选举算法）。但是，代币持有人对议员的投票，与他们对验证人的任何提名是分开的。议员任期在 Crab 上持续一天，在 Darwinia 上持续一周。
 
 在每个任期结束时，Phragmén 选举算法运行，结果将根据所有选民的投票选择新的议员。 选举还选择了一定数量的 runners up（目前在 Crab 上为 7 位，在 Polkadot 上为 5 位），他们将留在队列中（并保持投票数不变）。
 
