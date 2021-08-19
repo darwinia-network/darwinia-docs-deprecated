@@ -56,7 +56,10 @@ We use different tallying approaches for different types referenda. Following ar
 **Public Proposal**:
 For a Public proposal, if the following inequality holds, it is approved. It is called `positive turnout bias`.
 
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bagainst&space;%5Cover&space;%5Csqrt%7Bturnout%7D%7D&space;%3C&space;%7Bapprove&space;%5Cover&space;%5Csqrt%7Belectorate%7D%7D" style="width:200px !important" />
+</p>
+
 ```
 approve - the number of aye votes
 against - the number of nay votes
@@ -66,14 +69,25 @@ electorate - the total number of DOT tokens issued in the network
 
 **Council (Complete agreement)**
 For a Unanimous Council proposal, if the following inequality holds, it is appoved. It is called `negative turnout bias`.
+
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bagainst&space;%5Cover&space;%5Csqrt%7Belectorate%7D%7D&space;%3C&space;%7Bapprove&space;%5Cover&space;%5Csqrt%7Bturnout%7D%7D" style="width:200px !important" />
+</p>
+
 The meanings of the terms are the same with those in the previous inequality.
 
 **Council (Majority agreement)**
 For a Majority Council proposal, it is approved as long as the most common `majority-carries` holds.
+
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D" style="width:200px !important" />
+</p>
 
 We can easily check the details of tallying easily in [Subscan](https://darwinia.subscan.io/).
+
+<p align="center">
+![timeline](assets/wiki-us-governance-subscan.png)
+</p>
 
 #### Voluntary Locking
 
@@ -84,6 +98,7 @@ votes = tokens * conviction_multiplier
 ```
 The conviction multiplier increases the vote multiplier by one every time the number of lock periods double and can be looked up in the following table.
 
+<center>
 | Lock Periods | Conviction Multiplier |
 | ------------ | --------------- |
 | 0            | 0.1             |
@@ -93,6 +108,7 @@ The conviction multiplier increases the vote multiplier by one every time the nu
 | 8            | 4               |
 | 16           | 5               |
 | 32           | 6               |
+</center>
 
 The maximum number of "doublings" of the lock period is set to 6 (and thus 32 lock periods in total), and one lock period equals 28 days on Darwinia and 8 days on Crab.
 

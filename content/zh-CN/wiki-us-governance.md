@@ -114,7 +114,6 @@ electorate（总投票数） - 代币发行总量
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bagainst&space;%5Cover&space;%5Csqrt%7Belectorate%7D%7D&space;%3C&space;%7Bapprove&space;%5Cover&space;%5Csqrt%7Bturnout%7D%7D" style="width:200px !important" />
 </p>
 
-
 **简单多数制（Simple-Majority）**
 
 多数票通过，票数的简单比较；如果赞成票多于反对票，那么该提案将获得通过，无论提案中有多少票。
@@ -123,12 +122,13 @@ electorate（总投票数） - 代币发行总量
 <img src="https://latex.codecogs.com/svg.latex?%5Clarge&space;%7Bapprove%7D&space;%3E&space;%7Bagainst%7D" style="width:200px !important" />
 </p>
 
-
 *要了解有关上述公式来源的更多信息，请阅读 [democracy pallet](https://github.com/paritytech/substrate/blob/master/frame/democracy/src/vote_threshold.rs).*
 
 [Subscan](https://darwinia.subscan.io/) 提供了很方便的视图来查看投票计数的详细信息，如下面的**绝对多数赞成制**例子：
 
-![timeline](assets/wiki-us-governance-subscan.png)
+<p align="center">
+![timeline](assets/wiki-us-governance-subscan-cn.png)
+</p>
 
 #### 自愿锁定（Voluntary Locking）
 
@@ -140,6 +140,8 @@ electorate（总投票数） - 代币发行总量
 
 锁定期每翻倍一次，信仰乘数会增加1。
 
+<center>
+
 | Lock Periods | Vote Multiplier |
 | ------------ | --------------- |
 | 0            | 0.1             |
@@ -149,6 +151,8 @@ electorate（总投票数） - 代币发行总量
 | 8            | 4               |
 | 16           | 5               |
 | 32           | 6               |
+
+</center>
 
 锁定期的最大信仰乘数为 6（因此总共有 32 个锁定期），一个锁定期在 Darwinia 上等于 28 天，在 Crab 上等于 8 天（这个时间长度是和颁布延迟期保持一致）。 只允许加倍； 例如，您不能锁定 24 个周期并将您的信念增加 5.5。
 
