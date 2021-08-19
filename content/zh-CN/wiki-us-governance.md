@@ -127,6 +127,7 @@ electorate（总投票数） - 代币发行总量
 [Subscan](https://darwinia.subscan.io/) 提供了很方便的视图来查看投票计数的详细信息，如下面的**绝对多数赞成制**例子：
 
 <p align="center">
+
 ![timeline](assets/wiki-us-governance-subscan-cn.png)
 </p>
 
