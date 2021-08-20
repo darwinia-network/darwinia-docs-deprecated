@@ -86,6 +86,7 @@ For a Majority Council proposal, it is approved as long as the most common `majo
 We can easily check the details of tallying easily in [Subscan](https://darwinia.subscan.io/).
 
 <p align="center">
+
 ![timeline](assets/wiki-us-governance-subscan.png)
 </p>
 
