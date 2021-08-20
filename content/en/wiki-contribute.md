@@ -30,7 +30,7 @@ Go to content and edit your files.  While you are editing, you can start a local
 
 ```
 # go to local server folder
-cd docusaorus/website
+cd website
 
 # install dependency to start local server
 yarn

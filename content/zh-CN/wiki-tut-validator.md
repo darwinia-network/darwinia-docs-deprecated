@@ -10,6 +10,12 @@ sidebar_label: 成为验证人
 
 本文将帮助您从头开始运行验证人节点并申请成为验证人。
 
+## 验证人节点配置最低要求
+
+CPU: 2 core  
+Memory: 4 GB  
+Disk: 100 GB SSD  
+
 ## 运行验证人节点
 
 你可以选择下载好的可执行文件或者 Docker 的方式运行自己的验证人节点，无论哪种方式启动，请确保带有 `--unsafe-rpc-external --rpc-methods=Unsafe`

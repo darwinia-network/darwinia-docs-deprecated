@@ -10,6 +10,12 @@ sidebar_label: Become a validator
 
 This article will help you run a validator node from scratch and become a validator.
 
+## Minimum requirements of validator node
+
+CPU: 2 core  
+Memory: 4 GB  
+Disk: 100 GB SSD  
+
 ## Run your validator node
 
 You can choose either run node with execute file download before or in docker way. No matter which way you start, please make sure 

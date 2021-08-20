@@ -1,7 +1,7 @@
 ---
 id: wiki-tut-wormhole-d2e
-title: Darwinia -> Ethereum Bridge
-sidebar_label: Darwinia -> Ethereum Bridge
+title: Darwinia > Ethereum Bridge
+sidebar_label: Darwinia > Ethereum Bridge
 ---
 ## About Wormhole
 
@@ -11,7 +11,7 @@ Users can choose cross-chain bridges to transact by their local wallet according
 
 <hr />
 
-## About Darwinia -> Ethereum Bridge 
+## About Darwinia > Ethereum Bridge 
 
 Based on the previous [Ethereum to Darwinia Network] Bridge, Wormhole will open the [Darwnia Network to Ethereum] cross-chain transfer on January 28, 2021. 
 
@@ -53,7 +53,7 @@ The details of the two steps are following:
    ![select option](assets/wormhole/wiki-tut-wormhole-d2e-001-en.jpg)
 
 
-2. Select [Darwinia Network -> Ethereum] in [Network Select] column, then click [Cross-Chain Transfer].
+2. Select [Darwinia Network > Ethereum] in [Network Select] column, then click [Cross-Chain Transfer].
    
    ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-002-en.jpg)
 
@@ -87,7 +87,7 @@ The details of the two steps are following:
 **After locking RING, KTON on Darwinia Network, you need to receive it on Ethereum to complete.**
 
 
-1. Switch to 'Darwinia Network -> Ethereum' in select network column. Click [Cross-Chain History].
+1. Switch to 'Darwinia Network > Ethereum' in select network column. Click [Cross-Chain History].
    
    ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-007-en.jpg)
 

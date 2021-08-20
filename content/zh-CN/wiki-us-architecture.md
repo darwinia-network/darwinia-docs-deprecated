@@ -4,6 +4,8 @@ title: 系统架构
 sidebar_label: 系统架构
 ---
 
+## 概述
+
 区块链网络正在分层化和专用化，基础的公链网络负责共识安全性和数据, 资产的跨链，第二层网络和侧链则正在往特定应用领域发展。
 
 类似波卡网络和 Substrate 这样的新技术发展，符合了这样的业态发展趋势，在这种背景下，达尔文网络(Darwinia Network)，一个专注于资产互联的跨链网络，选择加入这个生态和技术趋势，将分层网络、跨链交互、面向应用设计、用户体验等作为我们的关键设计特性和原则。
@@ -31,3 +33,33 @@ sidebar_label: 系统架构
 通过达尔文网络，区块链应用可以通过达尔文网络方便的进行资产的跨链交互和交易，比如，以太坊上的谜恋猫 (Cryptokitties) 游戏可以通过达尔文链把以太坊上的 NFT : 谜恋猫转变成 EOS 上的谜恋猫；以太坊上的玩家和 EOS 上的玩家可以通过达尔文网络同时玩进化星球游戏。同时得益于 Polkadot 生态，达尔文网络可以链接更广泛的游戏和玩家。达尔文网络生态关系如下图所示
 
 ![Architecture](assets/architecture-cn.png)
+
+## 独立模式
+
+达尔文网络可以选择作为一个独立的公链网络运行，并负责自己的共识安全，其核心业务和应用业务，包括各个应用链的跨链功能不受影响。
+
+<div style="max-width:300px;">
+
+![Solo Mode](assets/solo-mode-cn.png)
+
+</div>
+
+## 平行链模式
+
+在 Polkadot 模式下，达尔文桥接链将作为 Polkadot 的平行链。
+
+因为 Polkadot 网络采用共享安全的模型，所以处于 Polkadot 连接模式时，平行链的跨链安全性将由 Polkadot 中继链的验证人来保证，达尔文网络在切换至连接模式后，原先的验证人和 Staking 机制将用于保证达尔文网络内部的局部共识，这样有助于帮助实现更快的块确认和更高的 TPS。这套局部共识机制也将帮助 Collator 来确定提交给 Polkadot 验证人的区块不会违反 Polkadot 全局共识。
+
+<div style="max-width:300px;">
+
+![Parachain Mode](assets/para-mode-cn.png)
+
+</div>
+
+### Polkadot 槽位竞价激励提案
+
+在连接模式下，达尔文网络可以参与 Polkadot slot 的竞拍，我们将提供一部分奖励，用于回馈那些通过锁定 DOT 帮助达尔文网络竞拍 Polkadot 槽位的用户。
+
+> 当达尔文网络作为平行链接入 Polkadot 时，达尔文社区的 DOT 持有者将可以通过提供 DOT 竞价锁定凭证，获得达尔文网络的提案奖励。
+
+![Parachain Mode](assets/para-mode-crowd-cn.png)

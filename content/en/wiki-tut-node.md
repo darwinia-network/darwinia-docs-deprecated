@@ -68,7 +68,13 @@ docker run -it \
         --ws-external \
         --rpc-cors all
 ```
-#### View all parameter descriptions:
+
+### Other parameters
+
+- `--target-gas-price`: Node with `darwinia` version higher than v0.11.1 can set the dvm gas price
+    with `--target-gas-price=xxx`, the current recommended value is `5000000000`.
+
+#### View all parameters
 
 ```
 ./darwinia --help

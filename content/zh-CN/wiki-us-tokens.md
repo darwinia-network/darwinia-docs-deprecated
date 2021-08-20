@@ -4,167 +4,32 @@ title: 网络原生代币
 sidebar_label: 网络原生代币
 ---
 
-RING 是达尔文网络的原生资产，RING 可以作为交易的燃料费。燃料费包括交易费用，合约执行费用，网络带宽费用，存储费用等等。
+## RING
 
-## 代币详细信息
+The native token for the Darwinia Network is RING, RING can be used as gas for transactions. Gas include transaction fees, contract execution fees, network bandwidth charges, storage fees, and more.
 
-- 英文全称：Darwinia Network Native Token
-- 符号：RING
-- 网络：
-  - Ethereum（以太坊）
-    - 类型：ERC20
-    - 精度：18
-    - 智能合约地址（Ethereum):0x9469d013805bffb7d3debe5e7839237e535ec483
-  - Tron（波场）
-    - 类型：TRC20
-    - 精度：18
-    - 智能合约地址（Tron):TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
-  - Darwinia Mainnet（暂未发行）
-    - 类型：Native
-    - 精度：9
-    - 合约地址：暂无
-- 总量：初始发行量 20 亿（2 Billion），硬顶 100 亿（10 Billion，约 40 年达到）。
-> Native RING（主网 RING）是记在 Darwinia Genesis 里面的，还没有上线和开启转账，但是 Darwinia 之前有发行 ERC20 和 TRC20 的 RING Token，是由记录在 Genesis 里面的 RING 背书和发行的，Darwinia 主网上线后，可以兑换成 Native RING。目前流通的 RING 总量（包括 ERC20 和 TRC20，包括锁定的）大约 16 亿。
+- Total Supply: Initial circulation (2 Billion), hard cap (10 Billion) in around 40 years
+- Inflation Model: New RINGs are minted and distributed through the staking system and treasure as block producing rewards at a variable rate, see Staking#Inflation.
 
-- 增发方式：RING 在达尔⽂网络主⽹上线时的供应量为 20 亿（2 Billion)，之后将会通过出块奖励将新发⾏的 RING 分发 Staking 系统和 Treasury。
+### Ring Allocation
 
-## 代币分配方案
+- Financing: 30%, first round 10%, evaluation $10M, 20% remaining to be determined?
+- Foundation: 20%, 5 years vesting period starts when mainnet launch?
+- Team: 15%, 1 year vesting period starts after 1 year since mainnet lanuch?
+- Business Development and Marketing: 15%
+- Community: 20%, including airdrop
 
-- 融资 30%（第一轮 10%，估值 10M 美金，剩余 20%待定）
-- 基金会 20%（主网上线后开始线性释放，5 年后释放完）
-- 团队 15%（主网上线一年后开始线性释放，释放一年时间，主网上线两年后释放完）
-- 商业和市场推广 15%
-- 社区 20%（包括映射给社区 ERC-20 RING 的部分）
+## KTON
 
-## 目前流通情况
+KTON is essentially a derivative token of RING, which encourages long-term lock and commitment. RING staking participants can lock RING for 1-36s months and get KTON as rewards, compensating for the liquidity loss.
 
-### 总览
+- The initial supply of KTON is 0, and it can only be obtained by locking RING. There is no other distribution channel. KTON has no impact on the function of  RING.
 
-|          类型          | RING 数量 |  占比  |
-| :--------------------: | :-------: | :----: |
-|         总供给         |   2000M   |  100%  |
-|   流通中 (普通用户)    |   29.2M   | 1.83%  |
-|     流通中（机构）     |  263.69M  | 16.58% |
-| 流通中（Staking 锁定） |  198.77M  | 12.50% |
-|        长期锁定        | 1508.34M  | 69.09% |
+### Algorithm of binding RING for KTON
 
-### 按网络分布细分
+Users can lock a certain amount of RING for a predefined period of time in exchange for KTON in return. Basically bind 10,000 RING for 12 months to get 1 KTON.
 
-|          类型          | RING 数量 |
-| :--------------------: | :-------: |
-|     ETH 网络总供给     | 1189.56M  |
-|   流通中 (普通用户)    |   21.5M   |
-|     流通中（机构）     |  263.69M  |
-| 流通中（Staking 锁定） |  195.30M  |
-|        长期锁定        |  709.07M  |
+1-36 variable integer months(30days) as the locking period are allowed. See the following table of rewarded KTON amount according to locked period.
 
-|          类型          | RING 数量 |
-| :--------------------: | :-------: |
-|    TRON 网络总供给     |   401M    |
-|   流通中 (完全流通)    |   7.7M    |
-| 流通中（Staking 锁定） |   3.47M   |
-|        长期锁定        |  389.83M  |
+![kton](assets/wiki-us-tokens-kton.png)
 
-|        类型         | RING 数量 |
-| :-----------------: | :-------: |
-| Darwinia 主网总供给 |   400M    |
-|       流通中        |    0M     |
-|      长期锁定       |   400M    |
-
-### 流通量计算方法:
-
-流通量 = TotalSupply - Foundation - Gringotts - SwapBridge
-
-RING Supply API: https://api.darwinia.network/supply/ring
-
-### 合约地址
-
-- TotalSupply
-  - ERC20: 0x9469d013805bffb7d3debe5e7839237e535ec483
-  - TRC20: TL175uyihLqQD656aFx3uhHYe1tyGkmXaW
-
-- Foundation
-  - ERC20: 0x4710573b853fdd3561cb4f60ec9394f0155d5105
-  - TRC20: TDWzV6W1L1uRcJzgg2uKa992nAReuDojfQ
-
-- Gringotts
-  - ERC20: 0x649fdf6ee483a96e020b889571e93700fbd82d88
-  - TRC20: TTW2Vpr9TCu6gxGZ1yjwqy7R79hEH8iscC
-
-- SwapBridge
-  - ERC20: 0x7f23e4a473db3d11d11b43d90b34f8a778753e34
-  - TRC20: TSu1fQKFkTv95U312R6E94RMdixsupBZDS
-
-## 通胀模型
-
-在达尔文主网上线后，该年的出块奖励每年调整一次，第 N 年的块奖励为剩余可发行供应量的 `1 - (99 /100)^sqrt(N)`
-
-    剩余可发行总量 = 硬顶总量 - 当前供应量
-    下一年的供应量 = 上一年的供应量 + 该年实际出块奖励总和
-
-RING 的 ` 硬顶 ` 总量为 100 亿。
-
-根据每年的出块奖励，和出块间隔时间 (单位：秒)，可以算出这一年的每个块的出块奖励。
-
-    每个块的块奖励 = 该年出块奖励 × 出块间隔时间 ÷ 每年总秒数(即 365 乘 24 乘 3600)
-
-下面是预估的每年通胀率统计表：
-
-![Supply Table](assets/supply-table-cn.png)
-
-## 附件
-
-### 附件一：KTON 介绍
-
-KTON 本质上是 RING 的衍生通证，是为了鼓励用户进行长期锁定和承诺投入。当用户在 Staking 的过程中承诺锁定 RING 一定时限，系统会给予这些用户相应数量的 KTON 作为奖励和流动性丧失的弥补。
-
-KTON 的初始供应量为零，只能通过系统中锁定 RING 获得，没有其他的任何分发渠道，因此并不会影响 RING 在系统中主要的原生通证的作用，这是我们的设计跟其他双通证设计最大的不同和优势，也是容易被误解的地方。
-
-- KTON 详细信息
-  - 英文全称：Darwinia Commitment Token
-  - 符号：KTON
-  - 精度：18
-  - Ethereum 网络：0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
-  - TRON 网络：TW3kTpVtYYQ5Ka1awZvLb9Yy6ZTDEC93dC
-
-KTON Supply API:https://api.darwinia.network/supply/kton
-
-### 附件二：锁 RING 得 KTON 的规则。
-
-锁定 10,000 RING，12 个月可获得 1 个 KTON。可选择 1-36 整数月(30 天)，其他月份见下表。（月份选取 1-12 月及 15、18、21、36 为例）
-
-| 月数  | 获得 KTON | 月数  | 获得 KTON | 月数  | 获得 KTON |
-| :---: | :------: | :---: | :------: | :---: | :------: |
-|   1   |  0.0761  |   7   |  0.5634  |  15   |  1.2842  |
-|   2   |  0.1522  |   8   |  0.6446  |  18   |  1.5736  |
-|   3   |  0.2335  |   9   |  0.7309  |  21   |  1.8832  |
-|   4   |  0.3096  |  10   |  0.8223  |  36   |  3.6446  |
-|   5   |  0.3959  |  11   |  0.9086  |       |          |
-|   6   |  0.4771  |  12   |    1     |       |          |
-
-### 附件三：锁仓中的 RING（ERC-20）
-
-2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22 数据）
-
-|    日期    | 该时间之前累计可解锁 |    日期    | 该时间之前累计可解锁 |
-| :--------: | :------------------: | :--------: | :------------------: |
-| 2020-06-22 |      15,963,300      | 2020-10-22 |      41,240,661      |
-| 2020-07-22 |      27,963,300      | 2020-12-22 |      41,260,661      |
-| 2020-08-22 |      29,040,661      | 2021-02-22 |      41,266,661      |
-| 2020-09-22 |      30,040,661      | 2021-05-22 |      41,270,761      |
-
-**合约**  
-https://cn.etherscan.com/token/0x9469d013805bffb7d3debe5e7839237e535ec483?a=0x649fdf6ee483a96e020b889571e93700fbd82d88
-
-### 附件四：锁仓中的 RING（TRC-20）
-
-2021.2020.06.22-2021.05.22 释放计划介绍。（2020-05-22 数据）
-
-|    日期    | 该时间之前累计可解锁 |
-| :--------: | :------------------: |
-| 2020-06-22 |       128,179        |
-| 2020-10-22 |       132,479        |
-
-### 附件五：白皮书链接
-
-https://darwinia.network/Darwinia_Genepaper_CN.pdf

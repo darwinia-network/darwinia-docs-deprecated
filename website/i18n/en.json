@@ -5,62 +5,6 @@
     "previous": "Previous",
     "tagline": "Cross-chain App Hub and Internet of Tokens",
     "docs": {
-      "crab-airdrop": {
-        "title": "Crab Network Airdrop",
-        "sidebar_label": "Airdrop"
-      },
-      "crab-home": {
-        "title": "Darwinia Crab Network",
-        "sidebar_label": "Crab Network"
-      },
-      "crab-parameters": {
-        "title": "Crab Network Parameters",
-        "sidebar_label": "Parameters"
-      },
-      "crab-tool-index": {
-        "title": "Crab Network Tools",
-        "sidebar_label": "Tools"
-      },
-      "crab-tut-claim-cring": {
-        "title": "How to claim free CRING",
-        "sidebar_label": "Claim CRING"
-      },
-      "crab-tut-create-account": {
-        "title": "Create an Account",
-        "sidebar_label": "Create an Account"
-      },
-      "crab-tut-exchange": {
-        "title": "Darwinia Crab Exchange Access Guide",
-        "sidebar_label": "Darwinia Crab Exchange Access Guide"
-      },
-      "crab-tut-get-free-cring": {
-        "title": "How to get free CRING through faucet",
-        "sidebar_label": "Get free CRING"
-      },
-      "crab-tut-governance": {
-        "title": "How to participate in governance",
-        "sidebar_label": "Participate in governance"
-      },
-      "crab-tut-index": {
-        "title": "Tutorials List",
-        "sidebar_label": "Tutorials"
-      },
-      "crab-tut-node": {
-        "title": "How to run a node",
-        "sidebar_label": "Running a node"
-      },
-      "crab-tut-nominator": {
-        "title": "How to become a nominator",
-        "sidebar_label": "Become a nominator"
-      },
-      "crab-tut-relayer": {
-        "title": "How to become a relayer",
-        "sidebar_label": "Become a relayer"
-      },
-      "crab-tut-validator": {
-        "title": "How to become a validator",
-        "sidebar_label": "Become a validator"
-      },
       "dev-bounty": {
         "title": "Bounty Program",
         "sidebar_label": "Bounty Program"
@@ -68,6 +12,10 @@
       "dev-community": {
         "title": "Developer Community",
         "sidebar_label": "Community"
+      },
+      "dev-dvm": {
+        "title": "DVM",
+        "sidebar_label": "DVM"
       },
       "dev-home": {
         "title": "Developer Portal",
@@ -137,6 +85,30 @@
         "title": "Sample Article",
         "sidebar_label": "Sample Article"
       },
+      "quick-start-account": {
+        "title": "Create an Account",
+        "sidebar_label": "Create an Account"
+      },
+      "quick-start-crosschain-transfer-d2e": {
+        "title": "Darwinia > Ethereum Transfer",
+        "sidebar_label": "Darwinia > Ethereum Transfer"
+      },
+      "quick-start-crosschain-transfer-e2d": {
+        "title": "Ethereum > Darwinia Transfer",
+        "sidebar_label": "Ethereum > Darwinia Transfer"
+      },
+      "quick-start-crosschain-transfer-ex-withdraw": {
+        "title": "Withdraw from a Centralized Exchange",
+        "sidebar_label": "Withdraw from a Centralized Exchange"
+      },
+      "quick-start-staking-nominator": {
+        "title": "How to Become a Nominator",
+        "sidebar_label": "Become a Nominator"
+      },
+      "quick-start-staking-validator": {
+        "title": "How to Become a Validator",
+        "sidebar_label": "Become a Validator"
+      },
       "rfc-0001-darwinia-developement-structure": {
         "title": "0001 Darwinia Developement Structure",
         "sidebar_label": "0001 Darwinia Developement Structure"
@@ -169,26 +141,6 @@
         "title": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol",
         "sidebar_label": "0014 Darwinia Token Migration By Cross Chain Redeem Protocol"
       },
-      "wiki-acct-balance-check": {
-        "title": "Check Account Balance",
-        "sidebar_label": "Check Balance"
-      },
-      "wiki-acct-balancetypes": {
-        "title": "Balance Types",
-        "sidebar_label": "Balance Types"
-      },
-      "wiki-acct-create": {
-        "title": "Account Generation",
-        "sidebar_label": "Account Generation"
-      },
-      "wiki-acct-keys": {
-        "title": "Account Keys",
-        "sidebar_label": "Account Keys"
-      },
-      "wiki-acct-ss58address": {
-        "title": "Account Address",
-        "sidebar_label": "Account Address"
-      },
       "wiki-community": {
         "title": "Community",
         "sidebar_label": "Community"
@@ -197,29 +149,13 @@
         "title": "How to contribute",
         "sidebar_label": "How to contribute"
       },
-      "wiki-faq-community-building": {
-        "title": "COMMUNITY BUILDING",
-        "sidebar_label": "Community Building"
-      },
       "wiki-faq-developers": {
         "title": "DEVELOPERS",
         "sidebar_label": "Developers"
       },
-      "wiki-faq-general": {
-        "title": "GENERAL",
-        "sidebar_label": "General"
-      },
-      "wiki-faq-lexicon": {
-        "title": "LEXICON",
-        "sidebar_label": "Lexion"
-      },
-      "wiki-faq-mainnet-related": {
-        "title": "MAINNET RELATED",
-        "sidebar_label": "Mainnet Related"
-      },
-      "wiki-faq-token-holder-faq": {
-        "title": "TOKEN HOLDER FAQ",
-        "sidebar_label": "Token Holder FAQ"
+      "wiki-faq": {
+        "title": "FAQs",
+        "sidebar_label": "FAQs"
       },
       "wiki-glossary": {
         "title": "Glossary",
@@ -232,6 +168,10 @@
       "wiki-intro": {
         "title": "What is Darwinia Network",
         "sidebar_label": "Introduction"
+      },
+      "wiki-mainnet-params": {
+        "title": "Darwinia Network Parameters",
+        "sidebar_label": "Darwinia Network Parameters"
       },
       "wiki-misc-links": {
         "title": "Links",
@@ -294,16 +234,20 @@
         "sidebar_label": "Become a validator"
       },
       "wiki-tut-wormhole-d2e": {
-        "title": "Darwinia -> Ethereum Bridge",
-        "sidebar_label": "Darwinia -> Ethereum Bridge"
+        "title": "Darwinia > Ethereum Bridge",
+        "sidebar_label": "Darwinia > Ethereum Bridge"
       },
       "wiki-tut-wormhole-e2d": {
-        "title": "Ethereum -> Darwinia Bridge",
-        "sidebar_label": "Ethereum -> Darwinia Bridge"
+        "title": "Ethereum > Darwinia Bridge",
+        "sidebar_label": "Ethereum > Darwinia Bridge"
       },
       "wiki-tut-wormhole-general": {
         "title": "General",
         "sidebar_label": "General"
+      },
+      "wiki-us-accounts": {
+        "title": "Accounts",
+        "sidebar_label": "Accounts"
       },
       "wiki-us-appchain-sdk": {
         "title": "Appchain SDK",
@@ -317,10 +261,6 @@
         "title": "How does Darwinia Bridge Chain work",
         "sidebar_label": "Bridge Chain Mechanism"
       },
-      "wiki-us-bridgechain": {
-        "title": "Bridge Chain",
-        "sidebar_label": "Bridge Chain"
-      },
       "wiki-us-distribution": {
         "title": "Distribution",
         "sidebar_label": "Distribution"
@@ -333,33 +273,13 @@
         "title": "Non-fungible Token Identifiability",
         "sidebar_label": "NFT Identifiability"
       },
-      "wiki-us-parachain": {
-        "title": "Parachain Mode",
-        "sidebar_label": "Parachain Mode"
-      },
       "wiki-us-parameters": {
         "title": "Parameters",
         "sidebar_label": "Parameters"
       },
-      "wiki-us-solo": {
-        "title": "Solo Mode",
-        "sidebar_label": "Solo Mode"
-      },
-      "wiki-us-staking-advanced": {
-        "title": "Advanced Staking",
-        "sidebar_label": "Advanced Staking"
-      },
-      "wiki-us-staking-basic": {
-        "title": "Basic Staking",
-        "sidebar_label": "Basic Staking"
-      },
-      "wiki-us-staking-power": {
-        "title": "Staking Power",
-        "sidebar_label": "Staking Power"
-      },
-      "wiki-us-staking-slash": {
-        "title": "Slash Algorithm",
-        "sidebar_label": "Slash Algorithm"
+      "wiki-us-staking": {
+        "title": "Staking",
+        "sidebar_label": "Staking"
       },
       "wiki-us-tokens": {
         "title": "Native Tokens",
@@ -368,26 +288,20 @@
       "wiki-us-txfee": {
         "title": "Transaction Fees",
         "sidebar_label": "Transaction Fees"
-      },
-      "wp-home": {
-        "title": "Understanding Darwinia",
-        "sidebar_label": "Overview"
       }
     },
     "links": {
       "Home": "Home",
       "Blog": "Blog",
       "Docs": "Docs",
-      "Crab Network": "Crab Network",
-      "Developers": "Developers"
+      "Crab Network": "Crab Network"
     },
     "categories": {
       "Get Started": "Get Started",
-      "Understand Darwinia": "Understand Darwinia",
       "Tutorials": "Tutorials",
-      "RFCs": "RFCs",
+      "Understand Darwinia": "Understand Darwinia",
       "Developers": "Developers",
-      "Crab Network": "Crab Network"
+      "RFCs": "RFCs"
     }
   },
   "pages-strings": {
