@@ -4,4 +4,4 @@ title: DVM
 sidebar_label: DVM
 ---
 
-See: [https://crab.network/docs/pangolin-home](https://crab.network/docs/pangolin-home/)
+See: [https://docs.crab.network/dvm-intro](https://docs.crab.network/dvm-intro)
