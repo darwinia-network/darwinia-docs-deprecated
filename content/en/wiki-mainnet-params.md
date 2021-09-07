@@ -50,8 +50,6 @@ The *own stake (power)* is the amount of power that the validator has locked for
 ### Other stake(power)
 The *other stake (power)* is the amount of power that nominators have trusted the validator with. This partly indicates the level of confidence that nominators have on the validator.
 
-
-
-
-
+### Points
+The *point* is a measure of the validator's achievement in the current era. The validator normally gets 20 points for each block produced by them. If a validator has 1200 *points*, it means that this validator has produced 60(=1200/20) blocks successfully so far in current era.
 
