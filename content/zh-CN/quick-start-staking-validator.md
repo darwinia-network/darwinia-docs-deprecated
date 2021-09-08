@@ -22,7 +22,7 @@ sidebar_label: 成为验证人
 
 ### 启动验证人节点
 
-你可以已经知道如何配置不同的参数启动节点。为了在后续的操作中能得到“*会话Key*”，你需要在启动验证人节点时设置这三个选项：`--unsafe-rpc-external`， `--rpc-methods=Unsafe` 和 `--rpc-cors=all`。
+你已经知道了如何配置不同的参数启动节点。为了在后续的操作中能得到“*会话 Key*”，你需要在启动验证人节点时设置这三个选项：`--unsafe-rpc-external`， `--rpc-methods=Unsafe` 和 `--rpc-cors=all`。
 
 如果你是从一个可执行文件启动节点，使用如下命令。将其中的*<YOUR_DATA_DIR>* 和 *<YOUR_NODE_NAME>* 替换成自己的参数。
 ```
