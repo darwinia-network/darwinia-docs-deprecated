@@ -4,8 +4,6 @@ title: Wormhole User Guide
 sidebar_label: Wormhole User Guide
 ---
 
-# Wormhole User Guide
-
 ## Definitions
 
 Source network: The network of the account from which the assets come.
