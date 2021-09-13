@@ -110,7 +110,7 @@ We have detected and received several reports regarding fake RING and KTON token
 Unfortunately the [address](https://etherscan.io/token/0x5d144af283c6aa7bab4abf99369032cbdc56ccc9) you mentioned is a fake address.
 
 
-The real token address are shown below, they are also published at [Native Tokens](https://docs.darwinia.network/docs/en/wiki-us-tokens).
+The real token address are shown below, they are also published at [Native Tokens](https://docs.darwinia.network/en/wiki-us-tokens).
 
 ### Are RING and KTON ERC-20 tokens on Uniswap legit? 
 
@@ -134,7 +134,7 @@ Yes, Darwinia Network is a cross-chain infrastructure project, it supports Ether
 
 ### Where can I read about Darwinia’s tokenomics?
 
-Please check out [here](https://docs.darwinia.network/docs/en/wiki-us-tokens). You can also move to the Economical model page on the Darwinia new Website.
+Please check out [here](https://docs.darwinia.network/en/wiki-us-tokens). You can also move to the Economical model page on the Darwinia new Website.
 
 ### What's the circulating supply of RING and KTON?
 

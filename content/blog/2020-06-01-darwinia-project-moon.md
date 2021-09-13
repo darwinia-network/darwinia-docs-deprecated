@@ -67,15 +67,15 @@ Darwinia 官方将为此次节点大奖赛提供 一亿 CRING 的奖励。所有
 ## 运行节点
 
 通过官方教程运行 Crab 节点，需要有一定的技术基础。  
-教程：https://docs.darwinia.network/docs/zh-CN/crab-tut-node
+教程：https://docs.darwinia.network/zh-CN/crab-tut-node
 
 > 注意：节点名称的格式需为「名字 | Crab 地址前 10 位」，地址需要有余额，可在水龙头领取。
 
 ## 提名/投票
 
-- 创建地址：https://docs.darwinia.network/docs/zh-CN/crab-tut-create-account
-- 领取 CRING:https://docs.darwinia.network/docs/zh-CN/crab-tut-get-free-cring
-- 提名/投票：https://docs.darwinia.network/docs/zh-CN/crab-tut-nominator
+- 创建地址：https://docs.darwinia.network/zh-CN/crab-tut-create-account
+- 领取 CRING:https://docs.darwinia.network/zh-CN/crab-tut-get-free-cring
+- 提名/投票：https://docs.darwinia.network/zh-CN/crab-tut-nominator
 
 在此过程中遇到任何问题，可添加官方小助手进技术群提问：Darwinia_Network（WeChat）
 

@@ -30,7 +30,7 @@ sidebar_label: 「达尔文 > 以太坊」桥
 
 首先，需要使用 Chrome 浏览器，并安装下列插件：
 
-* **Polkadot.js**:[安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
+* **Polkadot.js**:[安装插件教程](https://docs.darwinia.network/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6)
 
 * **MetaMask 钱包**:[下载链接](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
@@ -62,7 +62,7 @@ sidebar_label: 「达尔文 > 以太坊」桥
 
     ![wormhole](assets/wormhole/wiki-tut-wormhole-d2e-002.jpg)
 
-    > * 该步骤操作需要安装 **Polkadot.js 浏览器插件** 可以通过 [安装插件教程](https://docs.darwinia.network/docs/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6) 进行安装。*
+    > * 该步骤操作需要安装 **Polkadot.js 浏览器插件** 可以通过 [安装插件教程](https://docs.darwinia.network/zh-CN/wiki-tut-create-account#%E9%80%9A%E8%BF%87-polkadotjs-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6) 进行安装。*
 
 
 3. 填写跨链转账信息，选择需要跨链的「Darwinia 主网账号」并填写「以太坊主网接收地址」

@@ -72,13 +72,13 @@ Darwinia will draw 5 lucky nodes everyday, rewarding 200,000 CRING / node
 > \1. The format of the node name has to be “Name | The first 10 digits of Crab address”. E.g: Darwinia | 5E2hLjZMeV
 > \2. The address needs to have a balance, CRING can be got at the faucet.
 
-Running Crab nodes through official tutorials, requiring a certain technical foundation. Tutorial: https://docs.darwinia.network/docs/en/crab-tut-node
+Running Crab nodes through official tutorials, requiring a certain technical foundation. Tutorial: https://docs.darwinia.network/en/crab-tut-node
 
 ## **Nominate**
 
-- Create Address: https://docs.darwinia.network/docs/en/crab-tut-create-account
-- Darwinia Faucet:[ https://docs.darwinia.network/docs/en/crab-tut-get-free-cring](https://docs.darwinia.network/docs/en/crab-tut-get-free-cring)
-- Nominating:[ https://docs.darwinia.network/docs/en/crab-tut-nominator](https://docs.darwinia.network/docs/en/crab-tut-nominator)
+- Create Address: https://docs.darwinia.network/en/crab-tut-create-account
+- Darwinia Faucet:[ https://docs.darwinia.network/en/crab-tut-get-free-cring](https://docs.darwinia.network/en/crab-tut-get-free-cring)
+- Nominating:[ https://docs.darwinia.network/en/crab-tut-nominator](https://docs.darwinia.network/en/crab-tut-nominator)
 
 If you encounter any problems during this process, you can add Darwinia Telegram Group and ask questions in our tech group chat.
 

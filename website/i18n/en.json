@@ -245,6 +245,10 @@
         "title": "General",
         "sidebar_label": "General"
       },
+      "wiki-tut-wormhole": {
+        "title": "Wormhole User Guide",
+        "sidebar_label": "Wormhole User Guide"
+      },
       "wiki-us-accounts": {
         "title": "Accounts",
         "sidebar_label": "Accounts"
