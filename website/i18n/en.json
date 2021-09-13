@@ -261,6 +261,10 @@
         "title": "How does Darwinia Bridge Chain work",
         "sidebar_label": "Bridge Chain Mechanism"
       },
+      "wiki-us-bridgechain": {
+        "title": "Bridge Chain",
+        "sidebar_label": "Bridge Chain"
+      },
       "wiki-us-distribution": {
         "title": "Distribution",
         "sidebar_label": "Distribution"
@@ -291,10 +295,8 @@
       }
     },
     "links": {
-      "Home": "Home",
       "Blog": "Blog",
-      "Docs": "Docs",
-      "Crab Network": "Crab Network"
+      "Docs": "Docs"
     },
     "categories": {
       "Get Started": "Get Started",
@@ -313,6 +315,10 @@
     "Stay up to date|no description given": "Stay up to date",
     "Need help?|no description given": "Need help?",
     "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
+    "Partners|no description given": "Partners",
+    "Help Translate|recruit community translators for your project": "Help Translate",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
+    "Translate this Doc|recruitment message asking to translate the docs": "Translate",
     "home_title|": "Darwinia Documentation",
     "home_tagline|": "INTERNET OF TOKENS, CONNECTED!",
     "darwin-intro-text|": "As an open application cross-chain protocol based on Substrate, Darwinia focuses on the construction of future Internet of Tokens, including the cross-chain of game tokens, NFT, Stablecoins, and Appchain",
@@ -338,10 +344,6 @@
     "eco2|": "KTON",
     "eco3_desc|": "The Darwinia Network will distribute RING as an incentive to the participants of Staking. The process of Staking can also be understood as the POS mining process, where the miner obtains Staking energy by pledging tokens for POS mining.",
     "eco3|": "Staking",
-    "Partners|no description given": "Partners",
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate",
     "partner_title|": "Partners"
   }
 }

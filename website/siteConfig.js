@@ -38,15 +38,15 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: "https://darwinia.network/", label: "Home", external: true },
     { blog: true, label: 'Blog' },
     { doc: 'wiki-intro', label: 'Docs' },
-    { href: "https://crab.network/", label: "Crab Network", external: true },
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },
     { search: true },
     { languages: true },
   ],
+
+  docsUrl: '',
 
   disableHeaderTitle: true,
   disableTitleTagline: false,
