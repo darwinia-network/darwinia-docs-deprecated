@@ -67,7 +67,7 @@ We also invite other Polkadot ecological projects Partners, such as Acala, Phala
 
 - Yaoqi - Web3.0 blockchain application: the scalability and interoperability of blockchain
 - Maggie Parity - Substrate and Alliance Chain
-- [Video Review](https://docs.darwinia.network/docs/en/dev-workshop-list#docsNav) 
+- [Video Review](https://docs.darwinia.network/en/dev-workshop-list#docsNav) 
 
 ## Darwinia RING Tokenomics on Medium
 

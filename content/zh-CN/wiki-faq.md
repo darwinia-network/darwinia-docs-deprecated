@@ -105,7 +105,7 @@ RING 存在于不同的区块链网络中，目前支持以太坊和波场。如
 
 ### 在 Metamask 添加通证，复制粘贴合约地址发现并不管用是怎么回事？
 
-我们已经收到很多次关于假的 RING 和氪石的合约地址反馈。请参考以下[文档](https://docs.darwinia.network/docs/en/wiki-us-tokens)查询真正的合约地址。
+我们已经收到很多次关于假的 RING 和氪石的合约地址反馈。请参考以下[文档](https://docs.darwinia.network/en/wiki-us-tokens)查询真正的合约地址。
 
 注意，[这里提到的地址](https://etherscan.io/token/0x5d144af283c6aa7bab4abf99369032cbdc56ccc9)为假的合约地址。
 
@@ -131,7 +131,7 @@ Uniswap 上有合法的 RING 和 KTON 交易对，但也有一些假代币。进
 
 ### 我能在哪找到达尔文通证模型？
 
-点击[这里](https://docs.darwinia.network/docs/en/wiki-us-tokens)查看更多。同时你也可以在达尔文官网经济模型页面找到相关信息。
+点击[这里](https://docs.darwinia.network/en/wiki-us-tokens)查看更多。同时你也可以在达尔文官网经济模型页面找到相关信息。
 
 ### RING 和氪石的流通量是多少？
 
