@@ -119,11 +119,11 @@ sidebar_label: FAQs
 
 关于提名验证人的教程，请点击这里查看[here](https://docs.darwinia.network/docs/en/wiki-tut-nominator)!
 
-5. 领取奖励
+5. 领取奖励。
 
 ## 什么是Power?
 
-用户参与质押，通过绑定RING或者KTON获得的权益被称为Power.
+用户参与质押，通过绑定RING或者KTON获得的权益被称为Power。
 
 ## 如何获取Power？怎样计算Power的数量？
 
