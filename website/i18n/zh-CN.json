@@ -368,6 +368,10 @@
 				"title": "达尔文网络参数",
 				"sidebar_label": "达尔文网络参数"
 			},
+			"wiki-pangolin-testnet": {
+				"title": "Pangolin 测试网",
+				"sidebar_label": "Pangolin 测试网"
+			},
 			"wiki-us-solo": {
 				"title": "独立模式 ",
 				"sidebar_label": "独立模式"
