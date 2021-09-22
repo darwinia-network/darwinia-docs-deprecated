@@ -173,6 +173,10 @@
         "title": "Darwinia Network Parameters",
         "sidebar_label": "Darwinia Network Parameters"
       },
+      "wiki-pangolin-testnet": {
+        "title": "Pangolin Testnet",
+        "sidebar_label": "Pangolin Testnet"
+      },
       "wiki-misc-links": {
         "title": "Links",
         "sidebar_label": "Links"
