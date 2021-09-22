@@ -29,7 +29,7 @@ sidebar_label: Pangolin 测试网
 ![02](assets/wiki-pangolin-testnet-02-cn.png)
 
 - 点击加入"[Darwinia Faucet Official](https://t.me/darwiniafaucet_official)" Telegram 社群。
-- 发送`/fauce`+ Pangolin 账户地址。
+- 发送`/faucet`+ Pangolin 账户地址。
 
 ![03](assets/wiki-pangolin-testnet-03-cn.png)
 

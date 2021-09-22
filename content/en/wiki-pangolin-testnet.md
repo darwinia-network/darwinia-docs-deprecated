@@ -28,7 +28,7 @@ Developers can join the Telegram community named "[Darwinia Faucet Official](htt
 ![02](assets/wiki-pangolin-testnet-02.png)
 
 - Join the Telegram group named "[Darwinia Faucet Official](https://t.me/darwiniafaucet_official)".
-- Send `/fauce`+ Pangolin address.
+- Send `/faucet`+ Pangolin address.
 
 ![03](assets/wiki-pangolin-testnet-03.png)
 
