@@ -1,5 +1,7 @@
 ---
 id: wiki-pangolin-testnet
+title: Pangolin Testnet
+sidebar_label: Pangolin Testnet
 ---
 
 >Pangolin is the test network of Darwinia and Crab network. PRINGs are test tokens and have no intrinsic value.
