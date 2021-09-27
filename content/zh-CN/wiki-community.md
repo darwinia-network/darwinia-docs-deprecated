@@ -30,13 +30,6 @@ sidebar_label: 社区
 
   同时，我们已经上线达尔文大使计划，设置技术和教育两条成长路径。如果你想加入大使计划，请在 [这里](https://docs.google.com/forms/d/e/1FAIpQLSdh5k7yOikRsZBzIHz0VtMQ0Xg_Ps3skOiBGh3elGkZIJUFSw/viewform) 提交申请。
 
-## 国内
-- 微信公众号：DarwiniaNetwork
-- 微信小助手：Darwinia_Network
-- 币乎：https://bihu.com/people/1100617
-- 微博：https://weibo.com/DarwiniaNetwork
-- Bilibili：https://space.bilibili.com/518736354
-
 ## 国外
 - Twitter: https://twitter.com/DarwiniaNetwork
 - Darwinia Official (TG): https://t.me/DarwiniaNetwork
