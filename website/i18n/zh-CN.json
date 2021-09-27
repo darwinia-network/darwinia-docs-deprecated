@@ -81,8 +81,8 @@
 				"sidebar_label": "开发者资源"
 			},
 			"dev-rust": {
-				"title": "Rust",
-				"sidebar_label": "Rust"
+				"title": "参考资料",
+				"sidebar_label": "参考资料"
 			},
 			"dev-substrate": {
 				"title": "Substrate",

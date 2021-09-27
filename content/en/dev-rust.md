@@ -1,7 +1,20 @@
 ---
 id: dev-rust
-title: Rust
-sidebar_label: Rust
+title: Reference
+sidebar_label: Reference
 ---
 
-Developer Rust Resources
+## Rust
+
+* [rust-lang](https://www.rust-lang.org/)
+* [rust-cc](https://rust.cc/)
+* [This Week In Rust](https://this-week-in-rust.org/)
+* [Rust Library API](https://doc.rust-lang.org/std/index.html)
+* [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/)
+* [Rust Cheat Sheet](https://cheats.rs/)
+* [Rust Programming Language](https://kaisery.github.io/trpl-zh-cn/foreword.html)
+
+## Darwinia
+* [darwinia](https://rust-docs.darwinia.network/darwinia/darwinia/)
+* [darwinia-common](https://rust-docs.darwinia.network/darwinia-common/drml/)
+* [bridger](https://rust-docs.darwinia.network/bridger/bridge_traits/)

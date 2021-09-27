@@ -22,8 +22,8 @@
         "sidebar_label": "Developers"
       },
       "dev-rust": {
-        "title": "Rust",
-        "sidebar_label": "Rust"
+        "title": "Reference",
+        "sidebar_label": "Reference"
       },
       "dev-substrate": {
         "title": "Substrate",
