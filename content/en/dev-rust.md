@@ -12,7 +12,6 @@ sidebar_label: Reference
 * [Rust Library API](https://doc.rust-lang.org/std/index.html)
 * [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/)
 * [Rust Cheat Sheet](https://cheats.rs/)
-* [Rust Programming Language](https://kaisery.github.io/trpl-zh-cn/foreword.html)
 
 ## Darwinia
 * [darwinia](https://rust-docs.darwinia.network/darwinia/darwinia/)
