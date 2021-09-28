@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["support_kton_in_the_future",""]],"struct":[["AccountData",""],["TargetedFeeAdjustment","Update the given multiplier based on the following formula"],["ToAuthor","Logic for the author to get a portion of fees."]]});
