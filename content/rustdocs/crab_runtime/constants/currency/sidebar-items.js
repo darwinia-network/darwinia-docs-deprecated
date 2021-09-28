@@ -1,1 +1,0 @@
-initSidebarItems({"constant":[["CAP",""],["COIN",""],["MICRO",""],["MILLI",""],["NANO",""],["TOTAL_POWER",""]]});

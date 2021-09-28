@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["create_full","Instantiate all RPC extensions."],["create_light","Instantiate all RPC extensions for light node."]],"type":[["RpcExtension","A type representing all RPC extensions."]]});

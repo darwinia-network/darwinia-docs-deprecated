@@ -99,15 +99,6 @@ async function execute() {
     writeFileAndCreateFolder(redirectFile, redirectMarkup);
   });
 
-  // copy rustdocs if they exist
-  // console.log(buildDir, 'CMD');
-  if (fs.existsSync(join(CWD, '..', 'content', 'rustdocs'))) {
-    fs.copySync(
-      join(CWD, '..', 'content', 'rustdocs'),
-      join(buildDir, 'rustdocs'),
-    );
-  }
-
   // copy docs assets if they exist
   if (fs.existsSync(join(CWD, '..', readMetadata.getDocsPath(), 'assets'))) {
     fs.copySync(

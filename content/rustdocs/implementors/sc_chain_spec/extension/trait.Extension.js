@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["darwinia_service"] = [{"text":"impl Extension for <a class=\"struct\" href=\"darwinia_service/chain_spec/struct.Extensions.html\" title=\"struct darwinia_service::chain_spec::Extensions\">Extensions</a>","synthetic":false,"types":["darwinia_service::chain_spec::Extensions"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
