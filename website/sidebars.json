@@ -30,6 +30,7 @@
 
     "Developers": [
       "dev-home",
+      "dev-dvm",
       "dev-bounty",
       {
         "type": "subcategory",
@@ -42,7 +43,7 @@
       "dev-community",
       "dev-substrate",
       "dev-rust",
-      "dev-dvm"
+      "dev-rfcs"
     ]
   }
 }
