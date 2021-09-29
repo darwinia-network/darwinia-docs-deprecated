@@ -1,3 +1,0 @@
-[submodule "content/.remote_rfc"]
-	path = content/.remote_rfc
-	url = https://github.com/darwinia-network/rfcs.git
