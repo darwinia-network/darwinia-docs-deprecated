@@ -43,18 +43,6 @@
       "dev-substrate",
       "dev-rust",
       "dev-dvm"
-    ],
-
-    "RFCs": [
-      "wiki-rfcs",
-      "rfc-0001-darwinia-developement-structure",
-      "rfc-0007-dawinia-token-staking-model",
-      "rfc-0009-dawinia-liquid-kton-reward",
-      "rfc-0010-darwinia-cross-chain-nft-bridge-protocol",
-      "rfc-0011-using-harberger-tax-to-find-price-for-xclaim-vault-collaterals",
-      "rfc-0012-darwinia-bridge-core-interoperation-in-chainrelay-enabled-blockchains",
-      "rfc-0013-darwinia-cross-chain-nft-standards",
-      "rfc-0014-darwinia-token-migration-by-cross-chain-redeem-protocol"
     ]
   }
 }
