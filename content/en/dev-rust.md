@@ -1,7 +1,7 @@
 ---
 id: dev-rust
-title: Reference
-sidebar_label: Reference
+title: Rust Docs
+sidebar_label: Rust Docs
 ---
 
 ## Rust

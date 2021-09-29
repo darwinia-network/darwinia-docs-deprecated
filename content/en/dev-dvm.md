@@ -1,7 +1,9 @@
 ---
 id: dev-dvm
-title: DVM
-sidebar_label: DVM
+title: EVM and Smart Contract
+sidebar_label: Smart Contract
 ---
 
-See: [https://docs.crab.network/dvm-intro](https://docs.crab.network/dvm-intro)
+Ethereum pallet is not included in Darwinia's Runtime for now, but you can try develop smart contract on Darwinia's Canary Network: Crab Network.
+
+For detail document about how to build dApps on Crab, go to [https://docs.crab.network/dvm-intro](https://docs.crab.network/dvm-intro)
