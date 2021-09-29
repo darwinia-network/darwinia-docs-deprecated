@@ -43,7 +43,7 @@ const siteConfig = {
     // { doc: 'doc4', label: 'API' },
     // { page: 'help', label: 'Help' },
     { search: true },
-    { languages: true },
+    // { languages: true },
   ],
 
   docsUrl: '',
