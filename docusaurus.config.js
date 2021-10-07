@@ -98,5 +98,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         indexName: 'darwinia',
         searchParameters: { facetFilters: ["language:LANGUAGE"] } // Optional, if provided by Algolia
       },
+      googleAnalytics: {
+        trackingID: 'UA-159909608-2',
+        anonymizeIP: true,
+      },
     }),
 });
