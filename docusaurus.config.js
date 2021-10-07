@@ -53,28 +53,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Medium',
+                href: 'https://darwinianetwork.medium.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/darwinia-network',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/DarwiniaNetwork',
               },
             ],
           },
@@ -82,16 +73,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Official Website',
+                href: 'https://darwinia.network/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Darwinia Wallet Apps',
+                href: 'https://apps.darwinia.network/',
+              }
             ],
           },
         ],
+        logo: {
+          alt: 'Darwinia Logo',
+          src: 'img/logo.png',
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Darwinia Network. Built with Docusaurus.`,
       },
       prism: {
