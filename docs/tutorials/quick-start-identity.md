@@ -41,7 +41,7 @@ The job of an identity registrar is to provide judgments on users' requests and 
 
 Registrars can set a fee for their services and limit their attestation to certain fields. For example, a registrar could charge 10 RINGs to verify one's legal name, email, and GPG key. When a user requests judgment, they will pay this fee to the registrar who provides the judgment on those claims. Users set a maximum fee they are willing to pay and only registrars below this amount would provide judgment.
 
-### Judgements
+### Judgments
 
 After a user injects their information on the chain, they can request judgment from a registrar. Users declare a maximum fee that they are willing to pay for judgment, and registrars whose fee is below that amount can provide a judgment.
 
