@@ -11,11 +11,11 @@ Darwinia provides a naming system that allows participants to add personal infor
 
 1. The easiest way to add the built-in fields is to click the gear icon next to your account and select `Set on-chain identity`.
 
-![identity](../assets/tutorials-identity/tutorials-identity-0.png)
+![identity](../assets/tutorials-identity/tutorials-identity-0.jpg)
 
 2. Fill in the informations, and click `Set Identity`.
 
-![identity](../assets/tutorials-identity/tutorials-identity-1.png)
+![identity](../assets/tutorials-identity/tutorials-identity-1.jpg)
 
 > Each field can store up to 32 bytes of information, so the data must be less than that. A [UTF8 to bytes converter](https://onlineutf8tools.com/convert-utf8-to-bytes) can help. To add custom fields beyond the default ones, please refer to [polkadot's learn-identity](https://wiki.polkadot.network/docs/learn-identity).
 
@@ -31,7 +31,7 @@ Darwinia provides a naming system that allows participants to add personal infor
 
 3. After confirming that the transaction is sent successfully, please contact the registrar through the identity information left by the registrar to complete the verification. Each registrar may have different verification rules. Please contact the verifier for specific rules. To find out how to contact the registrar after the application for judgment or to learn who they are, we can click the account to see its detail.
 
-![identity](../assets/tutorials-identity/tutorials-identity-4.png)
+![identity](../assets/tutorials-identity/tutorials-identity-4.jpg)
 
 ## Contact the Registrar to Complete Verification
 
@@ -54,7 +54,7 @@ When a registrar provides judgment, they can select up to six levels of confiden
 - Low Quality: The information is low quality or imprecise, but can be fixed with an update.
 - Erroneous: The information is erroneous and may indicate malicious intent.
 
-### Validation rules for #0 registrar "Subscan"
+### Validation Rules for #0 Registrar "Subscan"
 
 1. Contact the registrar to obtain specific rules for identity authentication.
 
