@@ -58,28 +58,28 @@ When a registrar provides judgment, they can select up to six levels of confiden
 
 1. Contact the registrar to obtain specific rules for identity authentication.
 
-![identity](../asset/tutorials-identity/tutorials-identity-5.png)
+![identity](../assets/tutorials-identity/tutorials-identity-5.png)
 
 2. Get verification code through social networks. Subscan will send a verification code to your email, Twitter, and riot (element) using the identity information you leave.
 
-![identity](../asset/tutorials-identity/tutorials-identity-6.png)
+![identity](../assets/tutorials-identity/tutorials-identity-6.png)
 
 3. Paste the verification code and sign in the sign message. Go to [Sign message](https://apps.darwinia.network/?rpc%3Dwss%253A%252F%252Frpc.darwinia.network#/toolbox/sign), sign your received verification code. 
 
-![identity](../asset/tutorials-identity/tutorials-identity-7.png)
+![identity](../assets/tutorials-identity/tutorials-identity-7.png)
 
 4. You will get the signature like this:
 
-![identity](../asset/tutorials-identity/tutorials-identity-8.png)
+![identity](../assets/tutorials-identity/tutorials-identity-8.png)
 
 5. Reply the signature to the social media where you received the verification code. Wait for the Registrar to verify and grant the identity level.
 
-![identity](../asset/tutorials-identity/tutorials-identity-9.png)
+![identity](../assets/tutorials-identity/tutorials-identity-9.png)
 
 ### Completed Verification
 
 Once the registrar has confirmed the identity, a green checkmark should appear next to your account name with the appropriate confidence level:
 
-![identity](../asset/tutorials-identity/tutorials-identity-10.png)
+![identity](../assets/tutorials-identity/tutorials-identity-10.png)
 
 > Note that changing even a single field's value after you've been verified will un-verify your account and you will need to start the judgment process anew. However, you can still change fields while the judgment is going on - it's up to the registrar to keep an eye on the changes.
