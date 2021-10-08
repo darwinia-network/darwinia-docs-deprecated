@@ -2,7 +2,7 @@
 id: wiki-tut-node
 title: How to run a node
 sidebar_label: Running a node
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## Initial Setup
