@@ -1,33 +1,28 @@
-# Website
+# Darwinia Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![CI](https://github.com/darwinia-network/docs/workflows/Production/badge.svg)](https://github.com/darwinia-network/docs/actions)
 
-### Installation
+The Darwinia Documentation is a wiki style central source of documents for Darwinia Network. It is a community-focused initiative to keep an up-to-date resource on the best information of Darwinia Network.
 
-```
-$ yarn
-```
+## Contributing to Documentation
 
-### Local Development
+The Wiki is a community-focused initiative and we will review all pull-requests and issues created in this repository. If you notice typos or grammatical errors, please feel free to directly create pull requests with these corrections. Larger contributions may start as issues to test the waters on the subject with the maintainers. It is generally preferable to create a pull request over an issue to propose a change to the wiki content.
 
-```
-$ yarn start
-```
+To get detailed guide on how to contribute, please see detailed guide at [content/README.md](content/README.md) in content folder. 
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Style Guide
 
-### Build
+- Break lines at 120 characters.
+- Newlines between headers and text.
+- No double line breaks.
 
-```
-$ yarn build
-```
+## Automated Deployments
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+The wiki is automatically deployed to GitHub Pages via the Travis job on each new commit to the master branch.
 
-### Deployment
+## Internationalization
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+Translated articles are stored in `content` folder under language folder.  If you are interested in helping translating articles, you can submit pull request when you are done.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+License
+The Darwinia Network is licensed under the GPL-3.0 free software license.
