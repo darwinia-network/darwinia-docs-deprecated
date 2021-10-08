@@ -3,7 +3,6 @@ id: dev-substrate
 title: Substrate
 sidebar_label: Substrate
 sidebar_position: 6
-custom_edit_url: https://github.com/darwinia-network/docs/edit/master/content/en/dev-substrate.md
 ---
 
 ## Substrate minimalist chain tutorial by cannon

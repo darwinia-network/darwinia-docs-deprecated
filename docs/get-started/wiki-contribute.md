@@ -1,103 +1,58 @@
 ---
 id: wiki-contribute
-title: How to contribute
+title: Contributing
 sidebar_label: How to contribute
 sidebar_position: 3
 ---
 
-Wiki content are written in GitHub Flavored Markdown (GFM), you can visit here to view [syntax reference](https://guides.github.com/features/mastering-markdown/).  You need some basic `git` skills to submit your contribution.
+The wiki was started and is maintained by the Darwinia Foundation. It is an open source project and aims to be the most extensive resource of knowledge on Darwinia and the Darwinia ecosystem. A large part of the material currently focuses on Darwinia directly but it is not opposed to covering informational material for community projects.
 
-For light weight editing, you can use github's interface to edit existing article or create new article.  If you need more control over assets or write multiple articles and submit changes in bulk, you probably need to fork this repo and submit your contribution as PR (Pull Request).
+**Please do not try to pull request any marketing material as this will be rejected.**
 
-To fork this repo and submit pull requests, please follow this [detailed guide](https://guides.github.com/activities/forking/).
+Nonetheless, pull requests, discussions, and contributions from the community are encouraged. Active community members who demonstrate a record of good contributions may be given write access to the repository.
 
-Once you have forked this wiki and created a forked repo of your own, you can pull content from here
+Otherwise, Darwinia Foundation holds the administrative position and final say on the content that is included. Specifically, the Technical Education team at the foundation are most directly involved.
 
-`git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME_YOU_CHOOSE`
+## How to Contribute
 
-This will create a folder `[REPO_NAME_YOU_CHOOSE]/` in your local directory.
+You can contribute to the wiki on the
+[darwinia-network/docs GitHub repository](https://github.com/darwinia-network/docs). Every page is a
+[MarkDown](https://guides.github.com/features/mastering-markdown/) file, which is an easy to learn
+syntax extension to plain text that makes creating links, rendering images, and nice-looking
+formatting simple.
 
-Aricles and blogs are stored in `content/` folder.  Blog does not provide multi-lingual feature yet.  Articles supplort multi language and they are stored in each language folder.  
+Each page has an "Edit" button on the top right corner. By clicking it you are taken to
+the GitHub sign-in page, where you can either log in or create an account.
 
-```
-content # content root directory
-├── blog  # blog articles goes herre
-│   └── assets # blog artcile related static assets, eg images
-├── en # wiki artciles, English version
-└── zh-CN # wiki artciles, Simplified Chinese version
-```
+Once logged in, you'll be taken to the GitHub built-in text editor where you can make your edits
+directly. When you've completed your changes, you can add any specific details on what was changed
+and commit to a **new branch** to create a new Pull Request to the repository. From there one of the
+maintainers will review your changes, and either merge them or request changes.
 
-Go to content and edit your files.  While you are editing, you can start a local server to live preview your files
+![](../assets/wiki-contribute-contributing.png) ![](../assets/wiki-contribute-creating-pull-request-1.png)
 
-```
-# go to local server folder
-cd website
+Remember that after you click "Propose Changes", you must also click on "Create Pull Request" on the
+next page.
 
-# install dependency to start local server
-yarn
+![](../assets/wiki-contribute-creating-pull-request-2.png)
 
-# start local server
-yarn start
 
-# a browser page will open, it will auto reflect your modification of articles/blogs in real time
-# note: some modification might require restart the local server, to restart local server, press key
-CTRL+C
+## Guideline and Rules for Contributing
 
-# start again
-yarn start
-```
+There are a few basic ground-rules for contributors:
 
-When you are done with your modification, add your changes and submit the commit as pull request.
-
-```
-# add changes within content/ folder to staging area
-git add content/
-
-# createa a commit message
-git commit -m 'My arbitrary commit message'
-
-# submit
-git push origin master
-```
-
-# How to write article
-
-## Blog
-
-Blog articles should follow naming rules as `[YYYY-mm-dd-FILENAME].md`.  The `YYYY-mm-dd` is the publish datetime of this article, front end will use this info to order blog articles.
-
-At the beginning of each blog article, you need to provide meta info of this article.  It looks like this:
-
-```
----
-title: This is a blog title
-author: @author-twitter-handle
-authorURL: http://twitter.com/author-twitter-handle
----
-```
-
-`---` is the seprator of meta header.  Don't ignore that.
-
-By default, all blog content will be displayed in blog list view.  It might be desired or not.  If you only need to display a summary of blog article in the list view, you can use `truncate` syntax sugar to achieve that.
-
-```
-Blog sample texts goes here, all content above "<!--truncate-->" will be displayed in list view, and the content below it will be shown in detail view.
-
-<!--truncate-->
-
-Main content continues
-```
-
-Static assets should be placed in `content/blog/assets`, when referencing assets in your articles, use syntax and path like this:
-
-```
-![image alt text](../assets/asset.png)
-```
-
-## Article
-
-TODO
-
-# How to translate
-
-TODO
+1. **No `--force` pushes** or modifying the Git history in any way.
+2. Pull requests are preferred to issues, especially for small changes such as typos. Issues should
+   be used for generic or broad-based changes or missing content. Suggestions and requests are encouraged.
+3. Only use **non-master branches**.
+4. **Significant modifications**, even by contributors, ought to be subject to a **pull request** to
+   solicit feedback from other contributors.
+5. Pull requests to solicit feedback are _encouraged_ for any other non-trivial contribution but
+   left to the discretion of the contributor.
+6. Contributors should attempt to adhere to the prevailing `MarkDown` style, language, and layout.
+7. Correct grammar should be used at all times. Pull requests with typos will not be merged until
+   fixed.
+8. Care should be taken to remain as objective and informative as possible. There should be no
+   editorializing, and external bias should not be present.
+9. We use Docusaurus to build this website. You can generate a preview on your local copy by referring to 
+    [this guide](https://github.com/darwinia-network/crab-docs#readme), but for simplicity we also have a bot which runs this for us in your PRs.
