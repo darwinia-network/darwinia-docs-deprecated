@@ -2,7 +2,7 @@
 id: quick-start-crosschain-transfer-e2d
 title: Ethereum > Darwinia Transfer
 sidebar_label: Ethereum > Darwinia Transfer
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Intro
