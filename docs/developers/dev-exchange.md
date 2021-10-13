@@ -1,8 +1,8 @@
 ---
-id: wiki-tut-exchange
-title: Darwinia Exchange Access Guide
-sidebar_label: Darwinia Exchange Access Guide
-sidebar_position: 8
+id: dev-guide-for-exchange
+title: Guide for Exchange Developers
+sidebar_label: Exchange Integration
+sidebar_position: 6
 ---
 
 # Darwinia Exchange Access Guide

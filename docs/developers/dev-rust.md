@@ -2,7 +2,7 @@
 id: dev-rust
 title: Rust Docs
 sidebar_label: Rust Docs
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 ## Rust

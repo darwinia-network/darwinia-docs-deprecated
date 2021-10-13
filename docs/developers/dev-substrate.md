@@ -2,7 +2,7 @@
 id: dev-substrate
 title: Substrate
 sidebar_label: Substrate
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ## Substrate minimalist chain tutorial by cannon
