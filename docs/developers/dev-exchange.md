@@ -1,11 +1,11 @@
 ---
 id: dev-guide-for-exchange
-title: Guide for Exchange Developers
+title: Guide for Exchange Integration
 sidebar_label: Exchange Integration
 sidebar_position: 6
 ---
 
-# Darwinia Exchange Access Guide
+# Guide for Exchange Integration
 
 Darwinia Network is a decentralized heterogeneous cross-chain bridge protocol built on Substrate, serves as critical infrastructure for interoperability across the blockchain networks.  Darwinia Network focuses on decentralized cross-chain token swap, exchange, and market and enables single-chain application upgrade to cross-chain version, including Defi, Game, DEX, NFT market, and more.  Its vision is to build the future Internet of Tokens.  
 
