@@ -1,6 +1,6 @@
 ---
 id: bridge-assets-reg
-title: Assets Registration and Upgrade Protocols of Darwin Cross-chain Bridges  
+title: Assets Registration and Upgrade Protocols of Darwinia Cross-chain Bridges  
 sidebar_label: Asset Protocols
 sidebar_position: 2
 ---
@@ -88,7 +88,6 @@ During a cross-chain redemption, asset holders call the *remote_unlock*() interf
     
     Legitimate messages can be verified between the Backing and Issuing modules, while illegitimate ones can be identified and blocked.
     
-
 ### Cross-chain Fees
 
 - **Who Pays**
@@ -99,11 +98,6 @@ During a cross-chain redemption, asset holders call the *remote_unlock*() interf
     
     Cross-chain fees are paid in the on-chain assets of the originating blockchain of the cross-chain operation. 
     
-- **Usage of Fees**
-    
-    Cross-chain fees are awarded to bridge miners (relayers) for their work.
-    
-
 ## Mapping Token Factory
 
 Every bridge has a sub-module called ***Mapping Token Factory*** in the ***Issuing*** module. Its responsibilities include *creating*, *issuing* and *burning* mapping assets. Bridges to different target blockchains can share a singleton of ***Mapping Token Factory*** to manage different types of mapping tokens.
