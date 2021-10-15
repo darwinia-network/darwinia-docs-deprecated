@@ -83,4 +83,52 @@ docker run -it \
 
 > It is recommended to use systemctl, pm2, tmux, screen and other tools to maintain the process.
 
+## Appendix--Darwinia and Crab Network Database Snapshot
+
+Darwinia provides the node database snapshots for node maintainers. It enables maintainers to download the latest snapshot, unarchive, and start a node instantly without syncing from block zero.
+
+Available Snapshots
+Darwinia Network: https://snapshots.darwinia.network
+Crab Network: https://snapshots.crab.network
+The number in the file names indicates the block height of the snapshot. For example, the block number of snapshot darwinia-3468533.tar.zst is 3468533.
+
+Usage
+For Kubernetes users, please use [snapshot-init-container](https://github.com/darwinia-network/snapshot-init-container).
+
+1. Install zstd:
+
+```
+# Debian, Ubuntu
+apt install zstd
+# CentOS, Rad Hat
+dnf install zstd
+# Arch Linux
+pacman -S zstd
+```
+
+2. Download the snapshot archive and extract:
+
+Copy the snapshot archive URL from https://snapshots.darwinia.network (Darwinia Network) or https://snapshots.crab.network (Crab Network). Always choosing the latest snapshot with the highest block number is strongly recommended.
+
+```
+wget -c https://snapshots.darwinia.network/darwinia-xxxx.tar.zst # the snapshot URL
+tar xv --zstd -f darwinia-xxxx.tar.zst -C /path/to/chain-dir # Or tar xv -I zstd -f darwinia-xxxx.tar.zst -C /path/to/chain-dir
+```
+
+It's worth noting that `/path/to/chain-dir` depends on two factors: 1) the node CLI option --base; 2) the chain name. For example, assume with --base /data, the chain dirs for networks are:
+
+    * Darwinia Network: /data/chains/darwinia
+    * Crab Network: /data/chains/crab
+
+3. Run the validator (optional):
+
+If you want to use the snapshot to initialize a validator node, please notice that the node CLI options --unsafe-pruning and --pruning=xxx are required since the database format of the snapshots are not "archived". For example, to run a darwinia validator:
+
+```
+darwinia --validator --unsafe-pruning --pruning=15000
+```
+
+**Thanks To**
+https://polkashots.io/
+
 
