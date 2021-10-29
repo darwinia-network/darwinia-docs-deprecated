@@ -22,33 +22,15 @@ To run for a validator, you need to meet these prerequisites:
 
 ### Run Your Server as a Validator Node
 
-You may have known how to start a node with different options and parameters. To get your session key in the subsequent step, you need to set three options accordingly to run a validator node: `--unsafe-rpc-external`, `--rpc-methods=Unsafe`, and `--rpc-cors=all`.
-If you start your node from an executable file, use the following command. Replace *<YOUR_DATA_DIR>* and *<YOUR_NODE_NAME>* with your parameters.
+
 ```
-./darwinia \
-  --base-path <YOUR_DATA_DIR> \
-  --name <YOUR_NODE_NAME> \
-  --validator \
-  --unsafe-rpc-external \
-  --rpc-methods=Unsafe \
-  --ws-external \
-  --rpc-cors all
+$ ./darwinia --name my-darwinia-node --validator --rpc-methods=Unsafe --unsafe-rpc-external --ws-external --rpc-cors all
 ```
 
-If you use Docker, it should be like this. Again, use your own parameters to replace *<YOUR_DATA_DIR>*, *<YOUR_DATA_DIR>*, *<YOUR_NODE_WSS_PORT>* and *<YOUR_NODE_NAME>*.
+If you are using Docker, it should be like this:
+
 ```
-docker run -it \
-  -v <YOUR_DATA_DIR>:/data \
-  -p <YOUR_NODE_HTTP_PORT>:9933 \
-  -p <YOUR_NODE_WSS_PORT>:9944 \
-  darwinianetwork/darwinia:vx.x.x \
-      --base-path /data \
-      --name <YOUR_NODE_NAME> \
-      --validator \
-      --unsafe-rpc-external \
-      --rpc-methods=Unsafe
-      --ws-external \
-      --rpc-cors all
+$ docker run -it -v node-data:/darwinia/data -p 9933:9933 -p 9944:9944 quay.io/darwinia-network/darwinia:v0.11.4 --base-path /darwinia/data --name my-darwinia-node --validator --rpc-methods=Unsafe --rpc-external --rpc-cors all
 ```
 
 ### Get the Session Key of Your Running Node

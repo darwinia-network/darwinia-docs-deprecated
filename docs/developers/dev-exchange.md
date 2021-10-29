@@ -54,65 +54,7 @@ Public Http RPC: https://rpc.darwinia.network
 
 ### Full node quick installation and running
 
-Download releases from https://github.com/darwinia-network/darwinia/releases
-
-#### Minimum requirements of host server
-
-CPU: 1 core  
-Memory: 2 GB  
-Disk: 30 GB SSD  
-
-#### Linux
-
-##### 1. Prepare binary
-
-```
-curl -sL https://github.com/darwinia-network/darwinia/releases/download/vx.x.x/darwinia-x.x.x-x86_64-linux-gnu-glibc-x.xx-llvm-x.x.tar.bz2
-
-tar xvf darwinia-x.x.x-x86_64-linux-gnu-glibc-x.xx-llvm-x.x.tar.bz2
-
-chmod +x ./darwinia
-```
-
-##### 2. Run
-
-```
-./darwinia \
-    --base-path <YOUR_DATA_DIR> \
-    --name <YOUR_NODE_NAME>
-```
-
-Add the --ws-external and --rpc-cors all options if you want to [remotely connect to this node](https://wiki.polkadot.network/docs/en/maintain-wss):
-
-```
-./darwinia \
-    --base-path <YOUR_DATA_DIR> \
-    --name <YOUR_NODE_NAME> \
-    --ws-external \
-    --rpc-cors all
-```
-
-#### Docker
-
-##### 1. Pull docker image
-
-```
-docker pull quay.io/darwinia-network/darwinia:vx.x.x
-```
-
-##### 2. Run
-
-```
-docker run -it \
-    -v <YOUR_DATA_DIR>:/data \
-    -p <YOUR_NODE_HTTP_PORT>:9933 \
-    -p <YOUR_NODE_WSS_PORT>:9944 \
-    darwinianetwork/darwinia:vx.x.x \
-        --base-path /data \
-        --name <YOUR_NODE_NAME> \
-        --ws-external \
-        --rpc-cors all
-```
+If you do not know how to run a full node, please refer to [*Running a Node*](../tutorials/wiki-tut-node).
 
 ### Usages
 
