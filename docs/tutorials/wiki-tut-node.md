@@ -5,24 +5,19 @@ sidebar_label: Running a node
 sidebar_position: 7
 ---
 
-## Initial Setup
+## Clone and Build
 
-### Choose one of the following 3 ways to obtain an executable file
+The [darwinia-network/darwinia](https://github.com/darwinia-network/darwinia) repo's master branch contains the latest Darwinia code.
 
-#### 1. Compile from source
+```sh
+$ git clone https://github.com/darwinia-network/darwinia.git
+$ cd darwinia && cargo build --release
+```
+Alternatively, if you wish to use a specific release, you can download the binary from release page.(`v0.11.4` in the example below):
 
-- Compiler environment configuration. Refer to sections 4.1 to 4.1.3 https://github.com/darwinia-network/darwinia#41-hacking-on-darwinia
-- Enter the darwinia root directory
-- cargo build --release
-- The compiled executable file darwinia (.exe) can be found under darwinia/target/release
-
-#### 2. Download the compiled executable file
-
-- https://github.com/darwinia-network/darwinia/releases
-
-#### 3. Docker
-
-- `docker pull quay.io/darwinia-network/darwinia:vx.x.x`
+```sh
+$ wget https://github.com/darwinia-network/darwinia/releases/download/v0.11.4/darwinia-x86_64-linux-gnu.tar.bz2
+```
 
 ## Run
 
@@ -30,55 +25,26 @@ sidebar_position: 7
 ### Linux / MacOS
 
 ```sh
-./darwinia \
-    --base-path <YOUR_DATA_DIR> \
-    --name <YOUR_NODE_NAME>
+$ ./darwinia --name my-darwinia-node
 ```
 
 Add the `--ws-external` and `--rpc-cors all` options if you want to [remotely connect to this node](https://wiki.polkadot.network/docs/en/maintain-wss):
 
 ```
-./darwinia \
-    --base-path <YOUR_DATA_DIR> \
-    --name <YOUR_NODE_NAME> \
-    --ws-external \
-    --rpc-cors all
+$ ./darwinia --name my-darwinia-node --chain crab --ws-external --rpc-cors all
 ```
 
 ### Docker
 
 ```
-docker run -it \
-    -v <YOUR_DATA_DIR>:/data \
-    darwinianetwork/darwinia:vx.x.x \
-        --base-path /data \
-        --name <YOUR_NODE_NAME>
+$ docker run -it -v node-data:/darwinia/data quay.io/darwinia-network/darwinia:v0.11.4 --base-path /darwinia/data --name my-darwinia-node
 ```
 
 Add the `--ws-external` and `--rpc-cors all` options and map out the rpc ports if you want to [remotely connect to this node](https://wiki.polkadot.network/docs/en/maintain-wss):
 
 
 ```
-docker run -it \
-    -v <YOUR_DATA_DIR>:/data \
-    -p <YOUR_NODE_HTTP_PORT>:9933 \
-    -p <YOUR_NODE_WSS_PORT>:9944 \
-    darwinianetwork/darwinia:vx.x.x \
-        --base-path /data \
-        --name <YOUR_NODE_NAME> \
-        --ws-external \
-        --rpc-cors all
-```
-
-### Other parameters
-
-- `--target-gas-price`: Node with `darwinia` version higher than v0.11.1 can set the dvm gas price
-    with `--target-gas-price=xxx`, the current recommended value is `5000000000`.
-
-#### View all parameters
-
-```
-./darwinia --help
+$ docker run -it -v node-data:/darwinia/data quay.io/darwinia-network/darwinia:v0.11.4 --base-path /darwinia/data --name my-darwinia-node --ws-external --rpc-cors all
 ```
 
 > It is recommended to use systemctl, pm2, tmux, screen and other tools to maintain the process.
