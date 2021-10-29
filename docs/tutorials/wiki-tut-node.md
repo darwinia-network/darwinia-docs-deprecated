@@ -31,7 +31,7 @@ $ ./darwinia --name my-darwinia-node
 Add the `--ws-external` and `--rpc-cors all` options if you want to [remotely connect to this node](https://wiki.polkadot.network/docs/en/maintain-wss):
 
 ```
-$ ./darwinia --name my-darwinia-node --chain crab --ws-external --rpc-cors all
+$ ./darwinia --name my-darwinia-node --ws-external --rpc-cors all
 ```
 
 ### Docker
