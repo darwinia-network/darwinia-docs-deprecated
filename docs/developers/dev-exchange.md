@@ -54,7 +54,7 @@ Public Http RPC: https://rpc.darwinia.network
 
 ### Full node quick installation and running
 
-If you do not know how to run a full node, please refer to [*Running a Node*](./wiki-tut-node).
+If you do not know how to run a full node, please refer to [*Running a Node*](../tutorials/wiki-tut-node).
 
 ### Usages
 
