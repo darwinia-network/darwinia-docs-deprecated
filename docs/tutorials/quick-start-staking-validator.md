@@ -30,7 +30,7 @@ $ ./darwinia --name my-darwinia-node --validator --rpc-methods=Unsafe --unsafe-r
 If you are using Docker, it should be like this:
 
 ```
-$ docker run -it -v node-data:/darwinia/data -p 9933:9933 -p 9944:9944 quay.io/darwinia-network/darwinia:v0.11.4   --base-path /darwinia/data --name my-darwinia-node --validator --rpc-methods=Unsafe --rpc-external --rpc-cors all
+$ docker run -it -v node-data:/darwinia/data -p 9933:9933 -p 9944:9944 quay.io/darwinia-network/darwinia:v0.11.4 --base-path /darwinia/data --name my-darwinia-node --validator --rpc-methods=Unsafe --rpc-external --rpc-cors all
 ```
 
 ### Get the Session Key of Your Running Node
