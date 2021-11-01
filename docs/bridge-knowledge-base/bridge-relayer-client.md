@@ -15,6 +15,7 @@ Currently, About Darwinia we have the following related bridges.
 
 ## Bridger
 All bridges are implemented in the bridger project. The bridger project has been designed as a common bridge solution. The bridger also supports multiple bridges running at the same time and have convenient event scheduling system.
+
 For more information about bridger, you can see
 
 - Code: [darwinia-network/bridger](https://github.com/darwinia-network/bridger/)
