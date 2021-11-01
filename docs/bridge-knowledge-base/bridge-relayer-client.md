@@ -28,10 +28,10 @@ The Darwinia has implemented Ethereum bridge and is already in work. This is a t
 
 ### Bridge Darwinia &lt;&gt; Crab
 
-This is the bridge we are planning. The test bridge [pangolin-pangoro](https://github.com/darwinia-network/bridger/blob/master/task/task-pangolin-pangoro) has been completed.
-After the test bridge is stable, it will be implemented between darwinia-crab.
+This is the bridge we are planning. The test bridge [Pangolin &lt;&gt; Pangoro](https://github.com/darwinia-network/bridger/blob/master/task/task-pangolin-pangoro) has been completed.
+After the test bridge is stable, it will be implemented between Darwinia and Crab.
 In the test bridge, we implemented an on-demand relay and implemented an incentive strategy.
 
 ### Bridge Darwinia &lt;&gt; Bsc
 
-Bridge under planning and development
+Bridge under planning and development.
