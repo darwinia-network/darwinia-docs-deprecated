@@ -14,7 +14,7 @@ Currently, About Darwinia we have the following related bridges.
 | Darwinia &lt;&gt; Bsc      | Planning                                |
 
 ## Bridger
-All bridges are implemented in the bridger project. The bridger project has been designed as a common bridge solution. The bridger also supports multiple bridges running at the same time and have convenient event scheduling system.
+All bridges are implemented in the bridger project. The bridger project has been designed as a generic bridge solution. The bridger also supports multiple bridges running at the same time and has convenient event scheduling system.
 
 For more information about bridger, you can see
 
@@ -23,15 +23,15 @@ For more information about bridger, you can see
 
 ### Bridge Darwinia &lt;&gt; Ethereum
 
-The Darwinia has implemented Ethereum bridge and is already in work. This is a two-way bridge that can freely relay transactions between the two parties to the other chain.
+Darwinia has implemented Ethereum bridge, and it is already in operation. It is a two-way bridge that can relay transactions between the two networks back and forth.
 
 - Code: [darwinia-network/bridger/task/task-darwinia-ethereum](https://github.com/darwinia-network/bridger/tree/master/task/task-darwinia-ethereum)
 
 ### Bridge Darwinia &lt;&gt; Crab
 
 This is the bridge we are planning. The test bridge [Pangolin &lt;&gt; Pangoro](https://github.com/darwinia-network/bridger/blob/master/task/task-pangolin-pangoro) has been completed.
-After the test bridge is stable, it will be implemented between Darwinia and Crab.
-In the test bridge, we implemented an on-demand relay and implemented an incentive strategy.
+When the test bridge becomes stable, it will be implemented between Darwinia and Crab.
+In the test bridge, we have implemented the on-demand relay mechanism and an incentivisation strategy.
 
 ### Bridge Darwinia &lt;&gt; Bsc
 
