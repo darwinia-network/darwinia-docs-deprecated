@@ -19,40 +19,34 @@ First, we assume that less than 1/3 members in the authority set are dishonest. 
 
 ### Steps of Verification
 
-1. The light client has an confirmed Merkle root of validator public keys `𝑟𝑣𝑎𝑙`;
-2. Then the light client receives a message containing  `𝑆`, `b`, `sig`, `p`;
+1. The light client has an confirmed Merkle root of validator public keys ***rval***;
+2. Then the light client receives a message containing  ***S***, ***b***, ***sig***, ***p***; 
+    - ***S***: State
+    - ***b***: A bit field flagging the signing authority member
+    - ***sig***: A signature for 𝑆 from any member in the authority set
+    - ***p***: The Merkle proof of the public key of the above member
     
-    ```markdown
-    𝑆: State
     
-    *b*: A bit field flagging the signing authority member
-    
-    *sig*: A signature for 𝑆 from any member in the authority set
-    
-    *p*: The Merkle proof of the public key of the above member
-    ```
-    
-3. The light client uses the received information to verify that the State  `𝑆`  is endorsed by this authority member;
-4. The light client requests the following information from the relayer: the Merkle proof *P* of every public key of the randomly selected members from the authority set who signed;
+3. The light client uses the received information to verify that the State  ***S***  is endorsed by this authority member;
+4. The light client requests the following information from the relayer: the Merkle proof ***P*** of every public key of the randomly selected members from the authority set who signed;
 5. The light client then verifies the requested information to ensure having collected enough signatures.
 
 ### Security Analysis
 
 1. Random Number Generation
     
-    In Step 4, there is a random choice involved. We need to hide randomness unpredictable to the attackers. We can use a number *txhash* as a seed for random number generation. This  *txhash* denotes the transaction hash when the potential attack happens which can not be predicted by the attacker.
+    In Step 4, there is a random choice involved. We need to hide randomness unpredictable to the attackers. We can use a number ***txhash*** as a seed for random number generation. This ***txhash*** denotes the transaction hash when the potential attack happens which can not be predicted by the attacker.
     
 2. Cost Analysis of Attacks
     
     Suppose an evil-intentioned authority member wants to submit a problematic state, what is the probability of the state being accepted?
     
-    ![Darwinia_Architecture-Page-2_(2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e82f4895-12cf-4932-88b1-17fae5da4b42/Darwinia_Architecture-Page-2_(2).png)
+    ![Authority set, Signers, and Attackers](../../../assets/bridge_knowledge_base_grandpa_01.png)
     
+As the figure shows, ***N*** is the set of the whole authority set, ***b*** (>2/3) denotes those who sign, and the bad authorities is a subset of ***b***. **Bad authorities** account for less that 1/2 of ***b***. So in the worst case, all the randomly selected members of authority set are ***bad***, whose probability is less than ***(1/2)<sup>k</sup> ***. Only when this happens, the attack can be successful. Every authority member is required to stake some assets ***minsupport***. Then we have the expected tries of a successful attack *** E<sub>tries</sub> ***
 
-As the figure shows, ***N*** is the set of the whole authority set, ***b*** (>2/3) denotes those who sign, and the bad authorities is a subset of ***b**. **Bad authorities*** account for less that 1/2 of ***b**.* So in the worst case, all the randomly selected members of authority set are ***bad***, whose probability is less than $(1/2)^k$. Only when this happens, the attack can be successful. Every authority member is required to stake some assets $minsupport$. Then we have the expected tries of a successful attack $E_{tries}$
+*** E<sub>tries</sub> > 2<sup>k</sup> ***
 
-$$E_{tries} > 2^k$$
+and the expected cost *** E<sub>cost</sub> ***
 
-and the expected cost $E_{cost}$
-
-$$E_{cost} > minsupport*2^k$$
+*** E<sub>cost</sub> > minsupport x 2 <sup>k</sup> ***
