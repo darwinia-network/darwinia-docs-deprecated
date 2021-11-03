@@ -2,7 +2,7 @@
 id: bridge-assets-reg
 title: Assets Registration and Upgrade Protocols of Darwinia Cross-chain Bridges  
 sidebar_label: Asset Protocols
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 *The Darwinia cross-chain bridge is a generic bridge that allows third-party assets to use its cross-chain capabilities to be transferred between two blockchains. Before cross-chain transfers, third-party assets need to register with the Darwinia cross-chain bridge. This article describes how third-party can register assets and transfer funds using the Darwin cross-chain bridge and defines the interfaces involved in this process. In addition, it introduces how third-party assets are synchronized in the Darwin cross-chain bridges after upgrading.*
@@ -23,7 +23,7 @@ A standalone application that provides the message relay service.
 
 # CBA Model
 
-![CBA Model](../assets/bridge_cba_model.png)
+![CBA Model](../../assets/bridge_cba_model.png)
 
 CBA stands for Cryptocurrency Backed Asset. To build the CBA model, we need to build a ***Backing*** module on the source chain and an ***Issuing*** module on the target chain. Detailed explanations can be found in the relevant sections and [the technical paper](https://darwinia.network/Optimistic_Bridge_Technical_Paper(Preview)_EN.pdf).
 
@@ -64,7 +64,7 @@ Parameter(s):
 ## Cross-chain Protocols
 
 Following are the sequence diagrams of cross-chain protocols:
-![Sequence Diagram](../assets/bridge_cross_chain_protocols.png)
+![Sequence Diagram](../../assets/bridge_cross_chain_protocols.png)
 
 ### Cross-chain Transfer of Assets
 

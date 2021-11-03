@@ -2,7 +2,7 @@
 id: bridge-governance
 title: Governance  
 sidebar_label: Governance
-sidebar_position: 11
+sidebar_position: 4
 ---
 
-[Script](https://www.notion.so/itering/Governance-27e896a038af4d489595a4979c65aaa0)
+## COMING SOON
