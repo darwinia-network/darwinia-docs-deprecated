@@ -2,7 +2,7 @@
 id: bridge-relayer-clients
 title: Relayer Clients
 sidebar_label: Relayer Clients
-sidebar_position: 9
+sidebar_position: 3
 ---
 
 Currently, About Darwinia we have the following related bridges.

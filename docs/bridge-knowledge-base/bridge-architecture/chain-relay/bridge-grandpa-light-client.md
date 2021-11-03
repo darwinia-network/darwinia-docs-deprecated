@@ -2,7 +2,7 @@
 id: bridge-grandpa
 title: GRANDPA Light Client
 sidebar_label: GRANDPA Light Client
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 ## Original Process of Proof

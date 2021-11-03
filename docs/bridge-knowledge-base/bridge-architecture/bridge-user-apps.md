@@ -2,7 +2,7 @@
 id: bridge-user-apps
 title: User Apps
 sidebar_label: User Apps
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 ## Wormhole

@@ -2,7 +2,7 @@
 id: bridge-economics
 title: A MVP Design of a Relayer Fee Market 
 sidebar_label: Economics
-sidebar_position: 10
+sidebar_position: 3
 ---
 
 ## Requirements
