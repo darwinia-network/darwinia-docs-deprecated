@@ -9,7 +9,7 @@ sidebar_position: 6
 Short for Darwinia Network, a decentralized cross-chain bridge network building on Substrate.
 
 ### Crab
-Short for (Darwinia) Crab Network, a canary network of Darwinia.
+Short for Crab Network, a canary network of Darwinia.
 
 ### Pangolin
 Short for Pangolin Test Network, the testnet set aside for testing related technology.
