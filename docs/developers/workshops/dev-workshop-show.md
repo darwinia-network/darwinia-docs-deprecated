@@ -7,9 +7,6 @@ sidebar_position: 2
 ## Polkadot Webinar [Review](https://www.crowdcast.io/e/web3-builders-darwinia)
 - Tech highlights: Darwinia decentralized heterogeneous cross-chain solution. 
 
-## Ready Layer One [Review](https://app.hopin.to/events/readylayerone/sessions/175ab7a7-ca6e-4b06-84ee-c69496c24f56)
-- Darwinia Anto - How to relay Ethereum headers to Darwinia Bridge
-
 ## Web3.0 Bootcamp Opening Ceremony [Video Review](https://www.bilibili.com/video/BV1ng4y167QB/)
 - Gavin Wood, Founder of Polkadot/President of Web3 Foundation
 - Yu Du, Vice President of Wanxiang Blockchain
@@ -23,12 +20,6 @@ sidebar_position: 2
 - Recap on current cross-chain solutions
 - Tech highlights of Darwinia Relay
 - Darwinia bridge chain built on Darwinia Relay
-
-## Darwinia Relay Demo [Video Review](https://youtu.be/a4d_1vPhwZI)
-- Run Relay Worker
-- Start Relay Worker
-- Initiate a transaction on Ethereum
-- Generate proof of transaction receipt and submit to Darwinia test network
 
 ## Polkadot Nanjing Meetup [Video Review](https://www.yizhibo.com/l/x7DmqxBMxpEWXYO6.html)
 - Gavin Wood (Polkadot Founder) - Polkadot Topic sharing

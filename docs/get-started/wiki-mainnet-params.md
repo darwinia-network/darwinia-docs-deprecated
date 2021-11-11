@@ -18,14 +18,14 @@ Following are the definitions of the three mostly widely used time periods in Da
 | Era      | 24 hours  |14,400 |
 
 
-## Current Seats in Organizations (as of August 2021)
+## Current Seats in Organizations (as of Nov 2021)
 Following are the numbers of members in difference organizations(sets) in Darwinia. These numbers are not fixed. They may be changed over time by on-chain governance.
 
 | Organization | Seats  |
 | -------- | --------- |
 | Validators   | 105 |
 | Council    | 7    |
-| Technical committee | 7  |
+| Technical committee | 5  |
 
 ## Staking, Validating, and Nominating
 Following are the configuration of the lengths of time periods in Darwinia.
