@@ -36,7 +36,7 @@ When you view your account information, you may see multiple subsections of bala
 
 ## Existential Deposit and Reaping
 
-When you generate an account (address), you only generate a *key* that lets you access it. The account does not exist yet on-chain. For that, it needs the existential deposit: 0.0000333333 CRING (on Crab) or 1 RING (on Darwinia).
+When you generate an account (address), you only generate a *key* that lets you access it. The account does not exist yet on-chain. For that, it needs the existential deposit: 0.0000333333 CRAB (on Crab Network) or 1 RING (on Darwinia Network).
 
 Having an account go below the existential deposit causes that account to be *reaped*.
 
