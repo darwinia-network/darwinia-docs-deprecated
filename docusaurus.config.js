@@ -28,6 +28,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
+        },
       }),
     ],
   ],
@@ -96,7 +101,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       algolia: {
         apiKey: '3acc2ef550d1b049b83fce041599348b',
         indexName: 'darwinia',
-        searchParameters: { facetFilters: ["language:LANGUAGE"] } // Optional, if provided by Algolia
+        // searchParameters: { facetFilters: ["language:LANGUAGE"] } // Optional, if provided by Algolia
       },
       googleAnalytics: {
         trackingID: 'UA-159909608-2',
