@@ -83,7 +83,7 @@ A virtual simulation blockchain game that supports cross-chain interactions.
 ### RING
 The native token for Darwinia.
 
-### crab(token)
+### CRAB(token)
 The native token on the Crab Network.
 
 ### KTON
