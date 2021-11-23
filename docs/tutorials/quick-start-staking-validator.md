@@ -7,7 +7,7 @@ sidebar_position: 3
 
 ## Intro
 
-More advanced users are encourage to run for a validator. Once you become an offical validator, you can have a substantial passive source of income. To be eligible for running for a validator, you need to run a full node and stake some tokens. In this article, we will show you how to run for a validator step by step. 
+More advanced users are encouraged to run for a validator. Once you become an offical validator, you can have a substantial passive source of income. To be eligible for running for a validator, you need to run a full node and stake some tokens. In this article, we will show you how to run for a validator step by step. 
 
 ## Prerequisites
 

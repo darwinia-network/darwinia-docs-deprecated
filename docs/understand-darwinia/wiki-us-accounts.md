@@ -46,7 +46,7 @@ A Darwinia or Crab address can have an index. An index is like a short and easy 
 
 ## Identities
 
-The [Identities pallet](https://github.com/paritytech/substrate/tree/master/frame/identity) allows users to attach on-chain metadata to their accounts. This metadata can be verified by independent registrars to provide trustworthiness. To learn more about how to set or release an identity, how to define sub-accounts, or how to become a registrar, please read [this guide](https://wiki.polkadot.network/docs/learn-identity).
+The [Identities pallet](https://github.com/paritytech/substrate/tree/master/frame/identity) allows users to attach on-chain metadata to their accounts. This metadata can be verified by independent registrars to provide trustworthiness. To learn more about how to set or release an identity, how to define sub-accounts, or how to become a registrar, please refer to [this guide](https://wiki.polkadot.network/docs/learn-identity).
 
 ## Proxy Accounts
 
