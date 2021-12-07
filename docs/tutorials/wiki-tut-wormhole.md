@@ -5,120 +5,111 @@ sidebar_label: Wormhole User Guide
 sidebar_position: 8
 ---
 
-## Definitions
 
-Source network: The network of the account from which the assets come.
 
-Target network: The network of the account to which the assets go.
+## Introduction
 
-## Network
+You can transfer your assets between networks through [Wormhole](https://wormhole.darwinia.network/). At present, the bridge between Darwinia and Ethereum has already been deployed and running smoothly for some time. We have also launched the test bridge between Pangolin(our test network) and Pangoro(Pangolin's twin network). For how to use substrate-to-substrate bridge, you can refer to [this article](https://darwinianetwork.medium.com/wormhole-update-the-substrate-to-substrate-bridge-between-pangoro-and-pangolin-testnets-deployed-d77685dadcfd?source=user_profile---------15-------------------------------). When the test bridge becomes stable, we will launch the bridge between Darwinia and Crab. Meanwhile, we are planning and developing the bridge between Darwinia and BSC(Binance Smart Chain).
 
-You must set up the correct source and target networks before performing cross-chain transfer. If the source network is not selected, you will not see any of the options associated with the transfer. If the target network is not selected, some options will not be available and the transfer will not start.
+## Step-by-Step Instructions for Wormhole
 
-### Network selection
+### Select Network
 
-![Network Selection](../assets/tut/wiki-tut-wormhole-user-guide-01.png)
+You must set up the ***source network*** and ***target network*** before performing the cross-chain transfer through the [wormhole](http://wormhole.darwinia.network). Note that if you select the source network first, only those supported target networks will appear in the drop list of Target Network. Similarly, if you select the target network first, only those supported source networks will appear.
 
-Source network: Click on the network on the top(**From**) to select the source network;
+![01](../assets/tut/wiki-tut-wormhole-user-guide-01.png)
 
-Target network: Click on the network on the bottom(**To**) to select the target network.
+> 1. `Source network`: Click to select the source network.
+1. `Target network`: Click to select the target network.
+2. `Network connection status display`: The red icon means the network is currently disconnected, the green icon means the network is connected to the selected source network, and the yellow icon means the network is connected but doesn't match the selected source network.
+3. `Network clear button`: You can clear the selected source and target network by clicking the *network clear button*.
+> 
 
-- Whether you select the source network or the target network first is optional. Note that if you  select the source network first, only those target networks that are supported will appear in the drop list of Target Network. Similarly, if you select the target network first, only those source networks that are supported will appear.
-- If you want to see all available source (target) networks, you need to clear the target (source) network.
+### Connect Network
 
-### Connect
+Once you have selected the source network and the target network, you can connect to the source network by clicking the corresponding button below.
 
-Once you have selected the source network, you can connect to it by clicking on the corresponding button below.
+![02](../assets/tut/wiki-tut-wormhole-user-guide-02.png)
 
-![Connect](../assets/tut/wiki-tut-wormhole-user-guide-02.png)
+> 1. `Test network switch`: By default, only the official networks are displayed in the network selection panel. If you wish to use the test networks, you can turn it on/off by clicking the *Test network switch* on the top right of the page.
+2. `Network quick switch button`: You can switch the source and target network by clicking the *Network quick switch button*.
+3. `Network connection button`: Click to connect the source network.
+> 
 
-Clicking on this will connect you to the source network of your choice.
+### Fill in the Transfer Form
 
-If  you change the source network after a successful connection, you will need to re-initiate the connection by clicking on the switch button.
+Fill in the transfer form and make sure that the options are correct.
 
-![Switch](../assets/tut/wiki-tut-wormhole-user-guide-03.png)
+> NOTE: The required form information for each cross-chain transfer may vary because of the different source network and target network you chose, so please refer to the actual form for details.
+> 
 
-### Disconnect
+![03](../assets/tut/wiki-tut-wormhole-user-guide-03.png)
 
-Once you have an established connection, you can click the ***Disconnect*** button on the bottom right to disconnect from it at any time.
+> 1. `Sender Account`: Click and select which account to transfer assets from in the drop list. The account in the drop list is read by Wormhole from the plugin.
+2. `Recipient`: Fill in the account address to receive the assets from the sender account, and this address depends on the target network. eg. If you choose Ethereum as the target network, the recipient address must be an Ethereum address starting with "0x". ⚠️ Please do **NOT** fill in the exchange account address.
+3. `Refresh button`: Click to refresh the balance of the asset.
+4. `Asset chosen button`: There will be a tick icon behind the asset if you click it, it means that the asset has been selected and the corresponding transfer balance can be filled in this state.
+5. `Asset balance`: Here displays the balance that can be used in the sender account.
+6. `Submit button`: Click the button to enter the transfer assets process.
+7. `Disconnect button`: Click to cancel the network connection.
+> 
 
-![Disconnect](../assets/tut/wiki-tut-wormhole-user-guide-04.png)
+### Submit and Confirm Transfer Details
 
-### Network Status
+The assets you want to transfer must be greater than the cross-chain fee. As shown in the picture below.
 
-You can see the network connection status on the top right of the source network panel.
+![04](../assets/tut/wiki-tut-wormhole-user-guide-04.png)
 
-![Network Status](../assets/tut/wiki-tut-wormhole-user-guide-05.png)
+> 1. `Asset balance`: The assets you want to transfer must be greater than the cross-chain fee.
+2. `Recipient will receive`: This amount is equal to the assets you want to transfer minus the cross-chain fee. The amount of the cross-chain fee will be queried in real-time during cross-chain operations, please refer to the actual result.
+3. NOTE: Don't forget to claim your assets if you transfer assets from Darwinia Network to Ethereum, and each claim transaction of Ethereum is estimated to use 600,000 Gas.
+> 
 
-    Meaning of Different Icons:
+![05](../assets/tut/wiki-tut-wormhole-user-guide-05.png)
 
-      - Red: the network is currently disconnected.
-      - Green: the network is connected to the selected source network.
-      - Yellow: the network is connected, but the connected network does not match the selected source network.
+Confirm the cross-chain direction, sender account address, recipient address, and amount that the recipient address will receive. If there is no problem, click ***Confirm*** and sign the transaction. If there is any problem, you can click ***Cancel***.
 
-### Quick Switch & Reset
+### Sign the Transaction
 
-You can switch the source and target networks by clicking on the switch icon on the right between the source and target networks.
+Fill in the password for the sender account and sign the transaction.
 
-![Switch](../assets/tut/wiki-tut-wormhole-user-guide-06.png)
+![06](../assets/tut/wiki-tut-wormhole-user-guide-06.png)
 
-You can clear the selected source and target networks by clicking on the clear icon on the top right of the network selection panel.
+### Receive a Receipt
 
-![Reset](../assets/tut/wiki-tut-wormhole-user-guide-07.png)
+You will receive a receipt after the transaction is completed. You can check the transaction by viewing it in the corresponding explorer or tracking the process by clicking *Cross-chain history*.
 
-### Show/Hide test network
+![07](../assets/tut/wiki-tut-wormhole-user-guide-07.png)
 
-By default, only the official network is displayed in the network selection panel. If you wish to use a test network, you can turn it on or off by clicking on the switch on the top right of the page.
+### Track the Transfer Records/Cross-chain History
 
-![Show](../assets/tut/wiki-tut-wormhole-user-guide-08.png)
+You can click the *Cross-chain history* in your receipt or click *Transfer Records* on the homepage to track the transaction history. When you click *Transfer Records,* please select the source network and the target network first, and fill in the sender account address of the source network.
 
-Once you have allowed the test network to be displayed, you can see the test network options when selecting a network.
+> NOTE: You will find different address formats(account formats) in the blockchain domain, which can sometimes be confusing for non-experts. Those who want a quick answer on which format to use in different scenarios can refer to [this article](https://darwinianetwork.medium.com/build-on-darwinia-2-1-address-formats-in-darwinia-e964cc91fccc).
+> 
 
-![Test](../assets/tut/wiki-tut-wormhole-user-guide-09.png)
+![08](../assets/tut/wiki-tut-wormhole-user-guide-08.png)
 
-## Cross-chain
+You can view completed transactions in *Confirmed Extrinsic*.
 
-Once you have selected the networks, you can see the form entries that need to be filled in to complete the current cross-chain transfer.
+![09](../assets/tut/wiki-tut-wormhole-user-guide-09.png)
 
-### Transfer Flow
+### Claim Assets
 
-When the form is filled in and the page is error-free, you can click on the ***Submit*** on the bottom left of the panel to perform the transfer.
+Claim your assets **only when you transfer assets from Darwinia Network to Ethereum**, ******and each claim transaction of Ethereum is estimated to use 600,000 Gas.
+![10](../assets/tut/wiki-tut-wormhole-user-guide-10.png)
 
-![Transfer](../assets/tut/wiki-tut-wormhole-user-guide-10.png)
+## FAQs
 
-The complete transfer process usually consists of the following (taking Pangolin to Ropsten as an example).
+### Why is there no response after clicking the network connection button?
 
-1. Fill in the transfer form and make sure that the options are correct.
+If there is no response after clicking the *network connection button*, please check whether the [polka{.js}](https://polkadot.js.org/extension/) extension is installed on your browser. If not, you can download [polkadot{.js}](https://polkadot.js.org/extension/) first for Chrome or Firefox and add it to your browser, then try to click the *network connection button* again.
 
-    ![Fill](../assets/tut/wiki-tut-wormhole-user-guide-11.png)
+![11](../assets/tut/wiki-tut-wormhole-user-guide-11.png)
 
-2. Click on the ***Submit*** button to enter the transfer process.
-3. ***Confirm*** the assets and the amount to be transferred.
+### Why can't I find the assets in the Ethereum address even if I've received the transfer receipt?
 
-    ![Confirm](../assets/tut/wiki-tut-wormhole-user-guide-12.png)
+You need to claim your assets **after you transfer assets from Darwinia Network to Ethereum**. Click the ***Transfer Records*** on the homepage and select the source network and the target network first, fill in the sender account address of the source network, and claim assets.
 
-4. Source network authorization.
+![12](../assets/tut/wiki-tut-wormhole-user-guide-12.png)
 
-    ![Authorization](../assets/tut/wiki-tut-wormhole-user-guide-13.png)
-
-5. Receive an alert that the transfer is complete.
-
-    ![Alert](../assets/tut/wiki-tut-wormhole-user-guide-14.png)
-
-After clicking on the cross-chain button, you will see an indication of the progress of the transfer on the top right of the page.
-
-### Fee
-
-The required form information  for each cross-chain transfer may vary, so please refer to the actual form for details.
-
-Please ensure that the balance in your transfer account is sufficient to cover the fee. The amount of the fee will be queried in real time at the time of the cross-chain operation, please refer to the actual result.
-
-### Special Items
-
-Some cross-chain transfers require special conditions, e.g.
-
-### Ethereum To Darwinia
-
-When filling in the transfer amount, the following error message may appear if the authorization amount is  insufficient. This is usually the case when transferring funds for the first time using an account.
-
-![E2D](../assets/tut/wiki-tut-wormhole-user-guide-15.png)
