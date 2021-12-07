@@ -109,7 +109,7 @@ If there is no response after clicking the *network connection button*, please c
 
 ### Why can't I find the assets in the Ethereum address even if I've received the transfer receipt?
 
-You need to claim your assets **after you transfer assets from Darwinia Network to Ethereum**. **Click the ***Transfer Records*** on the homepage and select the source network and the target network first, fill in the sender account address of the source network, and claim assets.
+You need to claim your assets **after you transfer assets from Darwinia Network to Ethereum**. Click the ***Transfer Records*** on the homepage and select the source network and the target network first, fill in the sender account address of the source network, and claim assets.
 
 ![12](../assets/tut/wiki-tut-wormhole-user-guide-12.png)
 
