@@ -2,14 +2,14 @@
 id: wiki-tut-wormhole
 title: Wormhole User Guide
 sidebar_label: Wormhole User Guide
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 
 
 ## Introduction
 
-You can transfer your assets between networks through [Wormhole](https://wormhole.darwinia.network/). At present, the bridge between Darwinia and Ethereum has already been deployed and running smoothly for some time. We have also launched the test bridge between Pangolin(our test network) and Pangoro(Pangolin's twin network). For how to use substrate-to-substrate bridge, you can refer to [this article](https://darwinianetwork.medium.com/wormhole-update-the-substrate-to-substrate-bridge-between-pangoro-and-pangolin-testnets-deployed-d77685dadcfd?source=user_profile---------15-------------------------------). When the test bridge becomes stable, we will launch the bridge between Darwinia and Crab. Meanwhile, we are planning and developing the bridge between Darwinia and BSC(Binance Smart Chain).
+You can transfer your assets between networks through [Wormhole](https://wormhole.darwinia.network/). At present, the bridge between Darwinia and Ethereum has already been deployed and running smoothly for some time. We have also launched the test bridge between Pangolin(our test network) and Pangoro(Pangolin's twin network). For how to use substrate-to-substrate bridge, you can refer to [this article](https://darwinianetwork.medium.com/wormhole-update-the-substrate-to-substrate-bridge-between-pangoro-and-pangolin-testnets-deployed-d77685dadcfd). When the test bridge becomes stable, we will launch the bridge between Darwinia and Crab. Meanwhile, we are planning and developing the bridge between Darwinia and BSC(Binance Smart Chain).
 
 ## Step-by-Step Instructions for Wormhole
 
