@@ -82,7 +82,9 @@ Smart Contract-based blockchains adopt the address format of Ethereum format add
 ![Untitled](../assets/tut/wiki-tut-smart-app-user-guide-10.png)
 
 > `Select network`: Select network to transfer assets on a certain blockchain. 
+> 
 `Quick switch button`: "Substrate" and "Smart" below the icon refer to "Substrate address" and "Smart address", and the current picture shows that the assets on the Crab chain are transferred from the substrate address to the smart address. You can click the ***Quick switch button*** to switch the source address and the target address.
+>
 `Connect Wallet`: After selecting the network, you can select which account to transfer assets from the drop list. The account in the drop list is read by Smart App from the plugin.
 > 
 
@@ -91,8 +93,11 @@ Smart Contract-based blockchains adopt the address format of Ethereum format add
 ![Untitled](../assets/tut/wiki-tut-smart-app-user-guide-11.png)
 
 > `Destination address`: Fill in the account address to receive the assets from the sender account. E.g. If you choose to transfer assets from a substrate address to a smart address, the destination address must be a smart address starting with "0x".⚠️ Please do **NOT** fill in the address of your exchange account.
+> 
 `Asset chosen button`: Select the asset that you want to transfer.
+>
 `Asset amount`: Fill in the asset amount you want to transfer.
+>
 `Confirm button`: Confirm the transfer form, click ***Confirm***, and sign the transaction if there is no problem.
 > 
 
