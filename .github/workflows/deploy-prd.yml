@@ -42,6 +42,7 @@ jobs:
         id: deploy
         run: |
           REPO_NAME=${GITHUB_REPOSITORY#*/}
+          rm -rf $REPO_NAME
           mv build $REPO_NAME
           cd $REPO_NAME
           vercel --token ${{ secrets.VERCEL_TOKEN }} --scope itering link --confirm
