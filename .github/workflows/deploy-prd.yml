@@ -6,53 +6,25 @@ on:
       - 'v*'
 
 jobs:
-  deploy-develop:
+  deploy:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v2
         with:
-          node-version: '14'
+          repository: fewensa/actions
+          path: .github/actions
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v2
-        id: yarn-cache
+      - uses: ./.github/actions/smart-vercel
+        name: Deploy to Vercel
+        id: smart-vercel
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Build
-        run: yarn build
-
-      - name: Prepare Project Config
-        run: |
-          mv vercel.json build/
-
-      - name: Deploy
-        id: deploy
-        run: |
-          REPO_NAME=${GITHUB_REPOSITORY#*/}
-          rm -rf $REPO_NAME
-          mv build $REPO_NAME
-          cd $REPO_NAME
-          vercel --token ${{ secrets.VERCEL_TOKEN }} --scope itering link --confirm
-          vercel --token ${{ secrets.VERCEL_TOKEN }} --scope itering deploy --prod | tee deploy.log
-          content=$(cat deploy.log)
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          echo ''
-          echo "::set-output name=VERCEL_OUTPUT::$content"
+          vercel_token: ${{ secrets.VERCEL_TOKEN }}
+          vercel_group: itering
+          preview_output: true
+          prod_mode: true
 
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
@@ -60,8 +32,7 @@ jobs:
           SLACK_CHANNEL: darwinia-docs-edu
           SLACK_COLOR: ${{ job.status }}
           SLACK_ICON: https://avatars.githubusercontent.com/u/14985020?s=48&v=4
-          SLACK_MESSAGE: '${{ steps.deploy.outputs.VERCEL_OUTPUT }}'
+          SLACK_MESSAGE: '${{ steps.smart-vercel.outputs.PREVIEW_LINK }}'
           SLACK_TITLE: Preview
           SLACK_USERNAME: Vercel
           SLACK_WEBHOOK: ${{ secrets.SLACK_INCOMING_WEBHOOK_URL }}
-
