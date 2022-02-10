@@ -14,8 +14,10 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
-          repository: fewensa/actions
+          repository: itering/actions
           path: .github/actions
+          persist-credentials: false
+          ssh-key: "${{ secrets.ITERING_ACTIONS_DEPLOY_KEY }}"
 
       - uses: ./.github/actions/smart-vercel
         name: Deploy to Vercel
