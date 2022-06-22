@@ -4,16 +4,38 @@
  * work well for content-centric websites.
  */
 
+/* https://theochu.com/docusaurus/styling/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ec3783;
-  --ifm-color-primary-dark: #e91c73;
-  --ifm-color-primary-darker: #e2156b;
-  --ifm-color-primary-darkest: #ba1258;
-  --ifm-color-primary-light: #ef5293;
-  --ifm-color-primary-lighter: #f05f9c;
-  --ifm-color-primary-lightest: #f487b4;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
+
+  --ifm-code-font-size: 90%;
+  --ifm-font-family-base: 'Open Sans';
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #1e2125;
+  --ifm-background-surface-color: #121212;
+}
+
+.menu__link--sublist-caret:after {
+    content: '';
+    min-width: 1.25rem;
+    background: var(--ifm-menu-link-sublist-icon) 50% / 1.25rem 1.25rem;
+    filter: var(--ifm-menu-link-sublist-icon-filter);
+    height: 1.25rem;
+    transform: rotate(180deg);
+    width: 1.25rem;
+    transition: transform var(--ifm-transition-fast) linear;
 }
 
 .docusaurus-highlight-code-line {
@@ -23,6 +45,59 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+article {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar .navbar__items {
+  flex: auto;
+}
+
+/* Announcement Bar */
+div[class^='announcementBarContent'] {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+div[class^='announcementBarContent'] a {
+  color: var(--ifm-link-color);
+  text-decoration: inherit;
+}
+
+div[class^='announcementBarContent'] a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+}
+
+/* Header Dropdown Menu */
+.dropdown__link {
+  font-size: inherit;
+}
+
+/* Remove shadow on the left */
+:root {
+  --ifm-global-shadow-md: 0px;
+}
+
+/* Adjust footer link colors */
+#__docusaurus > footer > div > div.text--center > div > a {
+  color: unset;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 997px) {
+  /* Show inline table of contents on mobile only */
+  div[class^='tableOfContentsInline'] {
+    display: none;
+  }
 }
