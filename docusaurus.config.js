@@ -1,37 +1,35 @@
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-(module.exports = {
-  title: 'Darwinia Documentation',
-  tagline: 'Cross-chain App Hub and Internet of Tokens',
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Darwinia docs',
+  tagline: 'Dinosaurs are cool',
   url: 'https://docs.darwinia.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'darwinia-network', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'darwinia-docs', // Usually your repo name.
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          breadcrumbs: true,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/darwinia-network/docs/edit/master/',
+          editUrl: 'https://github.com/darwinia-network/darwinia-docs/blob/main',
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          trailingSlash: false,
         },
       }),
     ],
@@ -40,19 +38,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: false,
       navbar: {
-        title: 'Darwinia Network',
+        hideOnScroll: false,
+        title: 'DARWINIA',
         logo: {
-          alt: 'Darwinia Logo',
-          src: 'img/favicon.ico',
-        },
-        items: [
-          {
-            href: 'https://github.com/darwinia-network/docs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+          alt: 'Darwinia',
+          src: 'img/favicon.svg',
+        }
       },
       footer: {
         style: 'dark',
@@ -62,50 +55,35 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Medium',
-                href: 'https://darwinianetwork.medium.com/',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/darwinia-network',
+                href: 'https://medium.com/@DarwiniaNetwork',
               },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/DarwiniaNetwork',
-              },
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Official Website',
-                href: 'https://darwinia.network/',
+                label: 'Crab network',
+                href: 'https://crab.network/',
               },
               {
-                label: 'Darwinia Wallet Apps',
-                href: 'https://apps.darwinia.network/',
-              }
+                label: 'GitHub',
+                href: 'https://github.com/darwinia-network',
+              },
             ],
           },
         ],
-        logo: {
-          alt: 'Darwinia Logo',
-          src: 'img/logo.png',
-        },
-        copyright: `Copyright © ${new Date().getFullYear()} Darwinia Network. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Darwinia. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        apiKey: '3acc2ef550d1b049b83fce041599348b',
-        indexName: 'darwinia',
-        // searchParameters: { facetFilters: ["language:LANGUAGE"] } // Optional, if provided by Algolia
-      },
-      googleAnalytics: {
-        trackingID: 'UA-159909608-2',
-        anonymizeIP: true,
-      },
     }),
-});
+};
+
+module.exports = config;
