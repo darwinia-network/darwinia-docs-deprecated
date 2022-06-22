@@ -1,0 +1,33 @@
+name: Deploy production
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/checkout@v2
+        with:
+          repository: itering/actions
+          path: .github/actions
+          persist-credentials: false
+          ssh-key: "${{ secrets.ITERING_ACTIONS_DEPLOY_KEY }}"
+
+      - uses: ./.github/actions/smart-vercel
+        name: Deploy to Vercel
+        with:
+          vercel_token: ${{ secrets.VERCEL_TOKEN }}
+          vercel_group: itering
+          preview_output: true
+          project_name: docs
+          prod_mode: true
+          enable_cache: true
+          enable_notify_slack: true
+          slack_channel: darwinia-docs-edu
+          slack_webhook: ${{ secrets.SLACK_INCOMING_WEBHOOK_URL }}
