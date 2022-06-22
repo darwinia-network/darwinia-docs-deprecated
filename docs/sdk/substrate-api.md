@@ -297,5 +297,67 @@ Any transaction will emit events, as a bare minimum this will always be either a
 
 
 
+#### API-derive
+
+
+Common function derived from RPC calls and storage queries. Note that darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
+
+Install it in your project directory with the following command:
+
+``` json
+
+	yarn add @darwinia/api-derive
+
+```
+
+
+Inject our **darwiniaDerive** when creating  API instance
+
+``` typescript
+
+// Import
+import { ApiPromise, WsProvider } from '@polkadot/api';
+import { darwiniaDerive } from '@darwinia/api-derive/bundle';
+import { typesBundle } from "@darwinia/types/mix";
+
+
+...
+// Construct
+const wsProvider = new WsProvider('wss://rpc.darwinia.network');
+const api = await ApiPromise.create({ provider: wsProvider, typesBundle: typesBundle.spec.darwinia, derives: darwiniaDerive });
+ 
+
+``` 
+
+Since you are already familiar with the api.query interface, the api.derive interface follows the same format, for instance **usableBalance** derived function to query account's Ring Balance. 
+
+
+``` typescript 
+
+// Import darwinia token type (ring, kton) 
+import { TokenType } from '@darwinia/api-derive/accounts/types';
+
+// Initialize the API as in previous sections injecting darwiniaDerive 
+...
+
+// The actual address that we will use
+const ADDR = '<address>';
+
+await api.derive.usableBalance.balance(TokenType.Ring, ADDR).then((balance) => {
+        console.log(` ring usable  balance ${balance.usableBalance} `) 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
