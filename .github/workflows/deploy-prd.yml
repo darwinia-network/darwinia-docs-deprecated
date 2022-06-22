@@ -24,6 +24,7 @@ jobs:
         with:
           vercel_token: ${{ secrets.VERCEL_TOKEN }}
           vercel_group: itering
+          node_version: 16
           preview_output: true
           project_name: docs
           prod_mode: true
