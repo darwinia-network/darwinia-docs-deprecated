@@ -160,6 +160,7 @@ it returns a subscription unsub() function that can be used to stop the subscrip
 It is useful to monitor a number of like-queries at the same time. For instance, we may want to track the balances for a list of accounts we have. The api.query interfaces allows this via the .multi subscription call.
 
 ```typescript
+
 // Subscribe to balance changes for 2 accounts, ADDR1 & ADDR2 (already defined)
 const unsub = await api.query.system.account.multi(
       [ADDR1, ADDR2],
@@ -173,4 +174,29 @@ const unsub = await api.query.system.account.multi(
 );
 ```
 
-For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once -
+For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once 
+
+
+RPC Queries
+
+The RPC calls provide the backbone for the transmission of data to and from the node. This means that all API endpoints such as api.query, api.tx or api.derive just wrap RPC calls, providing information in the encoded format as expected by the node.
+
+
+The api.rpc interface follows the same format api.query.
+
+``` typescript 
+ // Initialize the API provider as in the previous section
+...
+
+ // Retrieve the chain & node information information via rpc calls
+  const [chain, nodeName, nodeVersion, metadata] = await Promise.all([
+    api.rpc.system.chain(),
+    api.rpc.system.name(),
+    api.rpc.system.version(),
+    api.rpc.state.getMetadata()
+  ]);
+
+  console.log(`You are connected to chain ${chain} using ${nodeName} v${nodeVersion}  metadata ${metadata}`);
+
+
+```
