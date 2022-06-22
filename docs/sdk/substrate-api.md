@@ -348,6 +348,71 @@ await api.derive.usableBalance.balance(TokenType.Ring, ADDR).then((balance) => {
 
 ```
 
+#### Customer api-derive
+
+
+Darwinia.js allow application developer to extend their derived section. first you should  put  function  declaration  in ExactDerive interface. for example  there is  'custome.something' augmentation.
+
+``` typescript 
+ 
+ // augmentDerives.ts
+import type { Observable } from 'rxjs';
+
+declare module '@polkadot/api-derive/derive' {
+  // extend, add our custom section
+  export interface ExactDerive {
+    custom: {
+      something: ReturnType<() => () => Observable<number[]>>
+    }
+  }
+}
+
+```
+
+and then, ensure 'custom.somethinig'  augmentation  is applied. 
+
+``` typescript
+  // customeDerive.ts
+  custom: {
+    something: () => (): Observable<number> => from([1, 2, 3])
+  }
+
+```
+
+create api instance to use this derived api.
+
+``` typescript 
+	
+import { custom } from 'customeDerive.ts'
+import { darwiniaDerive } from '@darwinia/api-derive/bundle';
+import { DeriveCustom } from '@polkadot/api/types';
+
+
+const cutomeDerives = {
+  ...darwiniaDerive,  // it's optinal
+  // assignment your augmentation
+  custom: {
+       something: custome.something
+      }
+  } as DeriveCustom;
+
+
+
+ const api = await ApiPromise.create({ provider: wsProvider, typesBundle: typesBundle.spec.darwinia, derives: cutomeDerives });
+ 
+ // use it 
+ await api.derive.custom.something().then((res) => {
+        console.log(`somthing is ${res}`); // return [1,2,3]
+  });
+      
+``` 
+
+
+
+
+
+
+  
 
 
 
