@@ -24,7 +24,7 @@ jobs:
           vercel_group: itering
           node_version: 16
           preview_output: true
-          project_name: docs
+          project_name: darwinia-docs
           enable_cache: true
           enable_notify_comment: true
           enable_notify_slack: true
