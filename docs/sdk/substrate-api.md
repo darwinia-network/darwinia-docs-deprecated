@@ -209,7 +209,10 @@ You can subscribe system event and extract information from them.
 
 ``` typescript
 
-	  // Subscribe to system events via storage
+  // Initialize the API provider as in the previous section
+  ...
+  
+  // Subscribe to system events via storage
   api.query.system.events((events) => {
     console.log(`\nReceived ${events.length} events:`);
 
@@ -231,5 +234,68 @@ You can subscribe system event and extract information from them.
 
 
 ```
+
+
+#### Keyring
+
+Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations and  the signing of any data.
+
+you can create an instance by just creating an instance of the **Keyring** class
+
+``` typescript 
+
+// Import the keyring as required
+import { Keyring } from '@polkadot/api';
+
+// Initialize the API as we would normally do
+...
+
+// Create a keyring instance
+const keyring = new Keyring({ type: 'sr25519' });
+
+```
+
+#### Transactions
+
+Transaction endpoints are exposed, as determined by the metadata, on the api.tx endpoint. These allow you to submit transactions for inclusion in blocks, be it transfers, setting information or anything else your chain supports.
+
+This is an example of sending a basic transaction
+
+
+``` javascript 
+
+    // Initialize the API provider as in the previous section
+    ...
+
+    const BOB = '<wallet address>';
+    const transferAmount = '123456789';
+    // Create a extrinsic, transferring amount units to Bob.
+    const transfer = api.tx.balances.transfer(BOB, transferAmount);
+    const keyring = new Keyring({ type: 'sr25519' });
+    
+    // Add Alice to our keyring with a private key
+    const alice = keyring.addFromUri('*** mnemonic  ***');
+
+    await transfer.signAndSend(alice, ({ events = [], status }) => {
+      if (status.isInBlock) {
+        console.log('Successful transfer of ' + transferAmount + ' with hash ' + status.asInBlock.toHex());
+      } else {
+        console.log('Status of transfer: ' + status.type);
+      }
+
+      events.forEach(({ phase, event: { data, method, section } }) => {
+        console.log(phase.toString() + ' : ' + section + '.' + method + ' ' + data.toString());
+        if (status.type === 'Finalized' && section + '.' + method === 'system.ExtrinsicSuccess') {
+          console.log('transfer success');
+          api.disconnect();
+        }
+      });
+
+```
+
+Any transaction will emit events, as a bare minimum this will always be either a system.ExtrinsicSuccess or system.ExtrinsicFailed event for the specific transaction. These provide the overall execution result for the transaction, i.e. execution has succeeded or failed.
+
+
+
 
 
