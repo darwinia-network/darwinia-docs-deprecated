@@ -177,7 +177,7 @@ const unsub = await api.query.system.account.multi(
 For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once 
 
 
-RPC Queries
+#### RPC Queries
 
 The RPC calls provide the backbone for the transmission of data to and from the node. This means that all API endpoints such as api.query, api.tx or api.derive just wrap RPC calls, providing information in the encoded format as expected by the node.
 
@@ -200,3 +200,36 @@ The api.rpc interface follows the same format api.query.
 
 
 ```
+
+
+#### System events  
+
+You can subscribe system event and extract information from them.
+
+
+``` typescript
+
+	  // Subscribe to system events via storage
+  api.query.system.events((events) => {
+    console.log(`\nReceived ${events.length} events:`);
+
+    // Loop through the Vec<EventRecord>
+    events.forEach((record) => {
+      // Extract the phase, event and the event types
+      const { event, phase } = record;
+      const types = event.typeDef;
+
+      // Show what we are busy with
+      console.log(`\t${event.section}:${event.method}:: (phase=${phase.toString()})`);
+      console.log(`\t\t${event.meta.documentation.toString()}`);
+
+      // Loop through each of the parameters, displaying the type and data
+      event.data.forEach((data, index) => {
+        console.log(`\t\t\t${types[index].type}: ${data.toString()}`);
+      });
+    });
+
+
+```
+
+
