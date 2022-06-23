@@ -4,7 +4,7 @@ sidebar_position: 3
 
 ### Introduction
 
-[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, crab, pangolin, pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with darwinia node using darwinia.js API library.
+[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, crab, pangolin, pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
 
 #### Dependencies
 
@@ -30,7 +30,7 @@ yarn add @polkadot/api \
 
 ```
 
-darwinia.js has those darwinia, pangolin, pangoro, crab and parachain substrate interfaces, if you want to query and interact darwinia node. Here you should config **tsconfig.json** compilerOptions to use darwinia types
+Darwinia.js has those Darwinia, Pangolin, Pangoro, Crab and Parachain substrate interfaces, if you want to query and interact Darwinia node. Here you should config **tsconfig.json** compilerOptions to use darwinia types
 applying type augmentation explicitly.
 
 applying darwinia API augmentations in tsconfig.json
@@ -59,7 +59,7 @@ applying darwinia API augmentations in tsconfig.json
 
 #### Create API Instance
 
-You ust first instantiate an API instance of Darwinia.js api. Create the wsProvider using the websocket endpoint of the darwinia node.
+You must first instantiate an API instance of Darwinia.js api. Create the wsProvider using the websocket endpoint of the Darwinia node.
 
 ```typescript
 
@@ -290,7 +290,7 @@ Any transaction will emit events, as a bare minimum this will always be either a
 
 #### API-derive
 
-Common function derived from RPC calls and storage queries. Note that darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
+Common function derived from RPC calls and storage queries. Note that Darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
 
 Install it in your project directory with the following command:
 
@@ -394,4 +394,4 @@ await api.derive.custom.something().then((res) => {
 
 DVM(Darwinia Virtual Machine) is fully compatible with EVM (Ethereum Virtual Machine) in Darwinia Network. We have Crab and Pangolin chain for dapp developer to apply dapp. Darwinia.js also provide common api to interact with smart contract.
 
-Darwinia.js
+
