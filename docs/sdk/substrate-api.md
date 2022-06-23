@@ -6,7 +6,7 @@ sidebar_position: 3
 
 [Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, crab, pangolin, pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
 
-#### Dependencies
+### Dependencies
 
 The library sample mainly depends on the following libraries:
 
@@ -14,7 +14,7 @@ The library sample mainly depends on the following libraries:
 
 - ethers.js The ethers aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.
 
-#### Usage
+### Usage
 
 Install libarries
 
@@ -30,32 +30,79 @@ yarn add @polkadot/api \
 
 ```
 
-Darwinia.js has those Darwinia, Pangolin, Pangoro, Crab and Parachain substrate interfaces, if you want to query and interact Darwinia node. Here you should config **tsconfig.json** compilerOptions to use darwinia types
-applying type augmentation explicitly.
+Darwinia.js include Darwinia, Pangolin, Pangoro, Crab and Parachain  chain interfaces for developer to interact one of them. In this  you want to query and interact Darwinia node. Here is a config sample for using those node interfaces. we must configure **tsconfig.json** at compilerOptions section to apply type augmentation explicitly.
 
-applying darwinia API augmentations in tsconfig.json
+1 applying Darwinia Chain type augmentation in tsconfig.json
 
 ```json
 {
-      "compilerOptions": {
-            "baseUrl": ".",
-            "paths": {
-                  "@polkadot/api-augment": [
-                        "./node_modules/@darwinia/api-augment/index.d.ts"
-                  ],
-                  "@polkadot/types-augment": [
-                        "./node_modules/@darwinia/types/interfaces/augment-types.d.ts"
-                  ],
-                  "@polkadot/rpc-augment": [
-                        "./node_modules/@darwinia/rpc-augment/index.d.ts"
-                  ],
-                  "@poladot/types/lookup": [
-                        "./node_modules/@darwinia/types-augment/index.d.ts"
-                  ]
-            }
-      }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/index.d.ts"],
+      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
+      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/index.d.ts"],
+      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/index.d.ts"]
+    }
+  }
 }
 ```
+
+2 applying Crab Chain type augmentation in tsconfig.json
+
+``` json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/crab/index.d.ts"],
+      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
+      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/crab/index.d.ts"],
+      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/crab/index.d.ts"]
+    }
+  }
+}
+
+```  
+
+3  applying Pangolin Chain type augmentation in tsconfig.json
+
+``` json
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/pangolin/index.d.ts"],
+      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
+      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/pangolin/index.d.ts"],
+      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/pangolin/index.d.ts"]
+    }
+  }
+}
+
+```
+
+4  applying Pangoro Chain type augmentation in tsconfig.json
+
+
+``` json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/pangoro/index.d.ts"],
+      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
+      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/pangoro/index.d.ts"],
+      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/pangoro/index.d.ts"]
+    }
+  }
+}
+
+```
+
+
+
 
 #### Create API Instance
 
