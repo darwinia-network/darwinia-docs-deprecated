@@ -20,12 +20,12 @@ Install libarries
 
 ```nodejs
 
-yarn add @polkadot/api
- @darwinia/types
- @darwinia/api-augment
- @darwinia/types-augment
- @darwinia/rpc-augment
- @darwinia/types-known
+yarn add @polkadot/api \
+ @darwinia/types \
+ @darwinia/api-augment \
+ @darwinia/types-augment \
+ @darwinia/rpc-augment \
+ @darwinia/types-known \
  ethers
 
 ```
@@ -160,7 +160,6 @@ it returns a subscription unsub() function that can be used to stop the subscrip
 It is useful to monitor a number of like-queries at the same time. For instance, we may want to track the balances for a list of accounts we have. The api.query interfaces allows this via the .multi subscription call.
 
 ```typescript
-
 // Subscribe to balance changes for 2 accounts, ADDR1 & ADDR2 (already defined)
 const unsub = await api.query.system.account.multi(
       [ADDR1, ADDR2],
@@ -174,17 +173,15 @@ const unsub = await api.query.system.account.multi(
 );
 ```
 
-For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once 
-
+For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once
 
 #### RPC Queries
 
 The RPC calls provide the backbone for the transmission of data to and from the node. This means that all API endpoints such as api.query, api.tx or api.derive just wrap RPC calls, providing information in the encoded format as expected by the node.
 
-
 The api.rpc interface follows the same format api.query.
 
-``` typescript 
+```typescript
  // Initialize the API provider as in the previous section
 ...
 
@@ -201,17 +198,15 @@ The api.rpc interface follows the same format api.query.
 
 ```
 
-
-#### System events  
+#### System events
 
 You can subscribe system event and extract information from them.
 
-
-``` typescript
+```typescript
 
   // Initialize the API provider as in the previous section
   ...
-  
+
   // Subscribe to system events via storage
   api.query.system.events((events) => {
     console.log(`\nReceived ${events.length} events:`);
@@ -235,14 +230,13 @@ You can subscribe system event and extract information from them.
 
 ```
 
-
 #### Keyring
 
-Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations and  the signing of any data.
+Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations and the signing of any data.
 
 you can create an instance by just creating an instance of the **Keyring** class
 
-``` typescript 
+```typescript
 
 // Import the keyring as required
 import { Keyring } from '@polkadot/api';
@@ -261,8 +255,7 @@ Transaction endpoints are exposed, as determined by the metadata, on the api.tx 
 
 This is an example of sending a basic transaction
 
-
-``` javascript 
+```javascript
 
     // Initialize the API provider as in the previous section
     ...
@@ -272,7 +265,7 @@ This is an example of sending a basic transaction
     // Create a extrinsic, transferring amount units to Bob.
     const transfer = api.tx.balances.transfer(BOB, transferAmount);
     const keyring = new Keyring({ type: 'sr25519' });
-    
+
     // Add Alice to our keyring with a private key
     const alice = keyring.addFromUri('*** mnemonic  ***');
 
@@ -295,25 +288,21 @@ This is an example of sending a basic transaction
 
 Any transaction will emit events, as a bare minimum this will always be either a system.ExtrinsicSuccess or system.ExtrinsicFailed event for the specific transaction. These provide the overall execution result for the transaction, i.e. execution has succeeded or failed.
 
-
-
 #### API-derive
-
 
 Common function derived from RPC calls and storage queries. Note that darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
 
 Install it in your project directory with the following command:
 
-``` json
+```json
 
 	yarn add @darwinia/api-derive
 
 ```
 
+Inject our **darwiniaDerive** when creating API instance
 
-Inject our **darwiniaDerive** when creating  API instance
-
-``` typescript
+```typescript
 
 // Import
 import { ApiPromise, WsProvider } from '@polkadot/api';
@@ -325,112 +314,84 @@ import { typesBundle } from "@darwinia/types/mix";
 // Construct
 const wsProvider = new WsProvider('wss://rpc.darwinia.network');
 const api = await ApiPromise.create({ provider: wsProvider, typesBundle: typesBundle.spec.darwinia, derives: darwiniaDerive });
- 
-
-``` 
-
-Since you are already familiar with the api.query interface, the api.derive interface follows the same format, for instance **usableBalance** derived function to query account's Ring Balance. 
 
 
-``` typescript 
+```
 
-// Import darwinia token type (ring, kton) 
+Since you are already familiar with the api.query interface, the api.derive interface follows the same format, for instance **usableBalance** derived function to query account's Ring Balance.
+
+```typescript
+
+// Import darwinia token type (ring, kton)
 import { TokenType } from '@darwinia/api-derive/accounts/types';
 
-// Initialize the API as in previous sections injecting darwiniaDerive 
+// Initialize the API as in previous sections injecting darwiniaDerive
 ...
 
 // The actual address that we will use
 const ADDR = '<address>';
 
 await api.derive.usableBalance.balance(TokenType.Ring, ADDR).then((balance) => {
-        console.log(` ring usable  balance ${balance.usableBalance} `) 
+        console.log(` ring usable  balance ${balance.usableBalance} `)
 
 ```
 
 #### Customer api-derive
 
+Darwinia.js allow application developer to extend their derived section. first you should put function declaration in ExactDerive interface. for example there is 'custome.something' augmentation.
 
-Darwinia.js allow application developer to extend their derived section. first you should  put  function  declaration  in ExactDerive interface. for example  there is  'custome.something' augmentation.
+```typescript
+// augmentDerives.ts
+import type { Observable } from "rxjs";
 
-``` typescript 
- 
- // augmentDerives.ts
-import type { Observable } from 'rxjs';
-
-declare module '@polkadot/api-derive/derive' {
-  // extend, add our custom section
-  export interface ExactDerive {
-    custom: {
-      something: ReturnType<() => () => Observable<number[]>>
-    }
-  }
+declare module "@polkadot/api-derive/derive" {
+      // extend, add our custom section
+      export interface ExactDerive {
+            custom: {
+                  something: ReturnType<() => () => Observable<number[]>>;
+            };
+      }
 }
-
 ```
 
-and then, ensure 'custom.somethinig'  augmentation  is applied. 
+and then, ensure 'custom.somethinig' augmentation is applied.
 
-``` typescript
-  // customeDerive.ts
-  custom: {
-    something: () => (): Observable<number> => from([1, 2, 3])
-  }
-
+```typescript
+// customeDerive.ts
+custom: {
+      something: () => (): Observable<number> => from([1, 2, 3]);
+}
 ```
 
 create api instance to use this derived api.
 
-``` typescript 
-	
-import { custom } from 'customeDerive.ts'
-import { darwiniaDerive } from '@darwinia/api-derive/bundle';
-import { DeriveCustom } from '@polkadot/api/types';
-
+```typescript
+import { custom } from "customeDerive.ts";
+import { darwiniaDerive } from "@darwinia/api-derive/bundle";
+import { DeriveCustom } from "@polkadot/api/types";
 
 const cutomeDerives = {
-  ...darwiniaDerive,  // it's optinal
-  // assignment your augmentation
-  custom: {
-       something: custome.something
-      }
-  } as DeriveCustom;
+      ...darwiniaDerive, // it's optinal
+      // assignment your augmentation
+      custom: {
+            something: custome.something,
+      },
+} as DeriveCustom;
 
+const api = await ApiPromise.create({
+      provider: wsProvider,
+      typesBundle: typesBundle.spec.darwinia,
+      derives: cutomeDerives,
+});
 
-
- const api = await ApiPromise.create({ provider: wsProvider, typesBundle: typesBundle.spec.darwinia, derives: cutomeDerives });
- 
- // use it 
- await api.derive.custom.something().then((res) => {
-        console.log(`somthing is ${res}`); // return [1,2,3]
-  });
-      
-``` 
-
-
-
-
+// use it
+await api.derive.custom.something().then((res) => {
+      console.log(`somthing is ${res}`); // return [1,2,3]
+});
+```
 
 ### DVM-Api
 
 DVM(Darwinia Virtual Machine) is fully compatible with EVM (Ethereum Virtual Machine) in Darwinia Network. We have Crab and Pangolin chain for dapp developer to apply dapp. Darwinia.js also provide common api to interact with smart contract.
 
-
-
-Darwinia.js 
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+Darwinia.js
