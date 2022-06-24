@@ -4,7 +4,7 @@ sidebar_position: 3
 
 ### Introduction
 
-[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, crab, pangolin, pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
+[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
 
 ### Dependencies
 
@@ -25,14 +25,15 @@ yarn add @polkadot/api \
  @darwinia/api-augment \
  @darwinia/types-augment \
  @darwinia/rpc-augment \
- @darwinia/types-known \
- ethers
+ @darwinia/types-known 
 
 ```
 
-Darwinia.js include Darwinia, Pangolin, Pangoro, Crab and Parachain  chain interfaces for developer to interact one of them. In this  you want to query and interact Darwinia node. Here is a config sample for using those node interfaces. we must configure **tsconfig.json** at compilerOptions section to apply type augmentation explicitly.
+Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact one of them. In this  you want to query and interact Darwinia node. Here is a config sample for using those node interfaces. we must configure **tsconfig.json** at compilerOptions section to apply type augmentation explicitly.
 
-1 applying Darwinia Chain type augmentation in tsconfig.json
+
+
+1. applying Darwinia Chain type augmentation in tsconfig.json
 
 ```json
 {
@@ -48,42 +49,9 @@ Darwinia.js include Darwinia, Pangolin, Pangoro, Crab and Parachain  chain inter
 }
 ```
 
-2 applying Crab Chain type augmentation in tsconfig.json
 
-``` json
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/crab/index.d.ts"],
-      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
-      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/crab/index.d.ts"],
-      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/crab/index.d.ts"]
-    }
-  }
-}
+2. applying Pangoro Chain type augmentation in tsconfig.json
 
-```  
-
-3  applying Pangolin Chain type augmentation in tsconfig.json
-
-``` json
-
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/pangolin/index.d.ts"],
-      "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
-      "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/pangolin/index.d.ts"],
-      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/pangolin/index.d.ts"]
-    }
-  }
-}
-
-```
-
-4  applying Pangoro Chain type augmentation in tsconfig.json
 
 
 ``` json
@@ -102,9 +70,7 @@ Darwinia.js include Darwinia, Pangolin, Pangoro, Crab and Parachain  chain inter
 ```
 
 
-
-
-#### 1 Create API Instance
+####  Create API Instance
 
 You must first instantiate an API instance of Darwinia.js api. Create the wsProvider using the websocket endpoint of the Darwinia node.
 
@@ -137,17 +103,8 @@ console.log(api.genesisHash.toHex());
 
 ```
 
-The typesBundle also contain crab, pangolin, pangoro and parachain types, each chain node has it's own special types.
 
-``` json
- 
-typesBundle.spec.crab
-typesBundle.spec.pangolin
-typesBundle.spec.pangoro
-
-```
-
-#### 2 Metadata and API Decoration
+####  Metadata and API Decoration
 
 It's useful to understand some basic workings of the library.
 When the API connects to a node, one of the first things it does is to retrieve the metadata and decorate the API based on the metadata information. The metadata effectively provides data in the form of api.`<type>`.`<module>`.`<section>` that fits into one of the following `<type>` categories: consts, query and tx.
@@ -175,7 +132,7 @@ console.log(`${now}: balance of Ring ${balance.free},  balance of Kton ${balance
 
 ```
 
-#### 1 Query Subscription
+####  Query Subscription
 
 In this example we will expand on that knowledge to introduce subscriptions to stream results from the state, as it changes between blocks.
 
@@ -196,7 +153,7 @@ const unsub = await api.query.system.account(addr, ({ nonce, data: balance }) =>
 
 it returns a subscription unsub() function that can be used to stop the subscription and clear up any underlying RPC connections. The supplied callback will contain the value as it changes, streamed from the node.
 
-#### 2  Multi queryies
+####   Multi Queryies
 
 It is useful to monitor a number of like-queries at the same time. For instance, we may want to track the balances for a list of accounts we have. The api.query interfaces allows this via the .multi subscription call.
 
@@ -238,7 +195,7 @@ console.log(`You are connected to chain ${chain} using ${nodeName} v${nodeVersio
 
 ```
 
-### System events
+### System Events
 
 You can subscribe system event and extract information from them.
 
@@ -323,7 +280,7 @@ await transfer.signAndSend(alice, ({ events = [], status }) => {
 
 Any transaction will emit events, as a bare minimum this will always be either a system.ExtrinsicSuccess or system.ExtrinsicFailed event for the specific transaction. These provide the overall execution result for the transaction, i.e. execution has succeeded or failed.
 
-### API-derive
+### API-Derive
 
 Common function derived from RPC calls and storage queries. Note that Darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
 
@@ -363,7 +320,7 @@ await api.derive.usableBalance.balance(TokenType.Ring, ADDR).then((balance) => {
 
 ```
 
-#### 1 Customer api-derive
+####  Customer Api-Derive
 
 Darwinia.js allow application developer to extend their derived method. first you should put function declaration in ExactDerive interface. for example there is 'custome.something' augmentation.
 
@@ -432,7 +389,7 @@ yarn add @darwinia/api-evm
 ```
 
 
-#### 1 Balance Tranfer
+####  Balance Tranfer
 
 In this example we will introduce Crab Smart chain(EVM comatible) to Crab Chain balance tranfer.
 
