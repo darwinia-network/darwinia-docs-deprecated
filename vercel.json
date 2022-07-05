@@ -21,5 +21,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/tutorials/quick-start-staking-validator",
+      "destination": "https://medium.com/darwinianetwork/using-darwinia-tools-3-11-darwinia-apps-guide-part-iv-how-to-become-a-validator-5f1503f8dd77",
+      "permanent": false
+    }
   ]
 }
