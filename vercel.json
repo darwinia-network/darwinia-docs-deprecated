@@ -27,6 +27,31 @@
       "source": "/tutorials/quick-start-staking-validator",
       "destination": "https://medium.com/darwinianetwork/using-darwinia-tools-3-11-darwinia-apps-guide-part-iv-how-to-become-a-validator-5f1503f8dd77",
       "permanent": false
+    },
+    {
+      "source": "/get-started/wiki-faq",
+      "destination": "https://medium.com/darwinianetwork/using-darwinia-tools-3-10-darwinia-apps-guide-part-iii-frequently-asked-questions-faqs-4dddf1b46ed2",
+      "permanent": false
+    },
+    {
+      "source": "/tutorials/wiki-tut-node",
+      "destination": "https://medium.com/darwinianetwork/understanding-darwinia-bridge-1-7-a-hands-on-guide-on-how-to-run-a-bridger-node-ii-2e602fc40e5",
+      "permanent": false
+    },
+    {
+      "source": "/tech",
+      "destination": "https://medium.com/darwinianetwork/understanding-darwinia-1-9-darwinia-lcmp-a-light-client-based-cross-chain-messaging-protocol-10f8740ac2ba",
+      "permanent": false
+    },
+    {
+      "source": "/tutorials/wiki-tut-wormhole",
+      "destination": "https://medium.com/darwinianetwork/using-darwinia-tools-3-1-wormhole-user-guide-35de43cff9e9",
+      "permanent": false
+    },
+    {
+      "source": "/tutorials/wiki-tut-smart-app",
+      "destination": "https://medium.com/darwinianetwork/using-darwinia-tools-3-3-smart-app-user-guide-c029db71102e",
+      "permanent": false
     }
   ]
 }
