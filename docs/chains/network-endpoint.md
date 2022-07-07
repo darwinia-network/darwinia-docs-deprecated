@@ -2,6 +2,8 @@
 sidebar_position: 5
 ---
 
+# Network Endpoint
+
 ### Public Endpoint
 
 Users can connect Darwinia networks through HTTPS and WSS

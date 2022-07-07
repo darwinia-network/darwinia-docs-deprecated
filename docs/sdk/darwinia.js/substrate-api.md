@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+# Substrate API
+
 ### Introduction
 
 [Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.

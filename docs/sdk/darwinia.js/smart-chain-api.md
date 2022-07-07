@@ -2,7 +2,9 @@
 sidebar_position: 4
 ---
 
-### DVM-Api
+# Smart Chain API
+
+### Introduction
 
 DVM(Darwinia Virtual Machine) is fully compatible with EVM (Ethereum Virtual Machine) in Darwinia Network. We have Crab and Pangolin chain for dapp developer to apply dapp. Darwinia.js also provide common api to interact with Darwinia DVM  same as web3.js interact with ethereum.
 
