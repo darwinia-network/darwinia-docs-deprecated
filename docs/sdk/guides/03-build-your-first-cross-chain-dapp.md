@@ -42,39 +42,37 @@ Darwinia SDK will provide the most common types for you. If you want to learn mo
 
 ## Create your Dapp
 
-Darwinia SDK provides a abstract base Dapp contract named `PangoroXApp`. You should extends it to create your Dapp contract. In your contracts folder, create a file `RemarkDemo.sol`.
+Darwinia SDK provides a abstract base Dapp contract named `PangoroApp`. You should extends it to create your Dapp contract. In your contracts folder, create a file `RemarkDemo.sol`.
 
 ```javascript
 // SPDX-License-Identifier: MIT
 
 pragma solidity >=0.6.0;
 
-import "@darwinia/contracts-periphery/contracts/s2s/SmartChainXApp.sol";
-import "./System.sol";
+import "@darwinia/contracts-periphery/contracts/s2s/baseapps/pangoro/PangoroApp.sol";
 
-contract RemarkDemo is PangoroXApp {
-    constructor() public {
-        init();
+contract RemarkDemo is PangoroApp {
+    constructor() {
+        _init();
     }
 
-    function remark() public payable {
-        // 1. prepare the call that will be executed on the target chain
-        System.RemarkCall memory call = System.RemarkCall(
-            hex"0009", // the call index of remark_with_event
-            hex"12345678"
-        );
-        bytes memory callEncoded = System.encodeRemarkCall(call);
+    function remoteRemark() public payable {
+        // 1. Prepare the call with its weight that will be executed on the target chain
+        (bytes memory call, uint64 weight) = PangolinCalls.system_remarkWithEvent(hex"12345678");
 
         // 2. Prepare the message payload
         MessagePayload memory payload = MessagePayload(
-            1210, // spec version of target chain
-            2654000000, // call weight
-            callEncoded // call encoded bytes
+            28140, // spec version of target chain
+            weight,
+            call
         );
 
-        // 3. Send the message payload to the pangolin through the lane id
-        bytes4 laneId = 0;
-        uint64 _messageNonce = sendMessage(toPangolin, laneId, payload);
+        // 3. Send the message payload to Pangolin through a lane
+        uint64 messageNonce = _sendMessage(
+            _PANGOLIN_CHAIN_ID,
+            _PANGORO_PANGOLIN_LANE_ID,
+            payload
+        );
     }
 }
 ```
@@ -82,9 +80,6 @@ contract RemarkDemo is PangoroXApp {
 Note: 
 
 1. The spec version of the `MessagePayload` must be correct, you can get the latest spec version from https://pangolin.subscan.io/runtime.
-
-3. The call weight of the `MessagePayload` must be equal to or greater than the expected weight. you can get it from the target chain's benchmarks.
-
 
 ## Run in Remix
 
@@ -94,11 +89,11 @@ The easiest way to run the code is [Remix](https://remix.ethereum.org/).
 2. Export you Dapp to a single flattened solidity file.
     
     ```bash
-    npx hardhat flatten ./contracts/RemarkDemo.sol > ~/Desktop/RemarkDemo.sol
+    npx hardhat flat ./contracts/RemarkDemo.sol > ~/Desktop/RemarkDemo.sol
     ```
     
 3. Copy it to Remix and deploy the `RemarkDemo` contract.
-4. Run `systemRemark` with value 200 ethers(here means ORINGs), the value must ≥ the [market fee](../../fee.md). important!
+4. Run `remoteRemark` with value 200 ethers(here means ORINGs), the value must ≥ the [market fee](../../fee.md). important!
 
 ## Or, Run in your project with hardhat command
 
@@ -130,7 +125,7 @@ The easiest way to run the code is [Remix](https://remix.ethereum.org/).
 
         // Send transaction
         const tx = await demo.remark({
-          value: BigInt(200000000000000000000), // 200 CRAB, The fee to use the cross-chain service, determined by the Fee Market
+          value: BigInt(200000000000000000000), // 200 ORINGs, The fee to use the cross-chain service, determined by the Fee Market
         });
         await tx.wait();
         console.log("txhash:", tx["hash"]);
@@ -158,10 +153,10 @@ The easiest way to run the code is [Remix](https://remix.ethereum.org/).
 
 ### MessageAccepted events of Pangoro
 
-[https://pangoro.subscan.io/event?address=&module=bridgedarwiniamessages&event=all](https://crab.subscan.io/event?address=&module=bridgedarwiniamessages&event=all)
+https://pangoro.subscan.io/event?module=bridgepangoromessages&event=messageaccepted
 
-### MessageDelivered events of Pangolin
+### MessageDispatched events of Pangolin
 
-[https://pangolin.subscan.io/event?address=&module=bridgecrabmessages&event=all](https://darwinia.subscan.io/event?address=&module=bridgecrabmessages&event=all)
+https://pangolin.subscan.io/event?module=bridgepangolindispatch
 
 [More](./02-know-your-cross-chain-status.md)
