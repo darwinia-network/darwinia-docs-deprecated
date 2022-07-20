@@ -8,6 +8,10 @@ sidebar_position: 4
 
 Decentralized application.
 
+## Endpoint
+
+The cross-chain operation entry. An endpoint is a deployed smart contract which is used by Dapps to do cross-chain operations. 
+
 ## Dapp developer
 
 Dapp developers include those who develop applications based on the Darwinia Smart Contracts module, as well as those who develop Dapps on public chains, such as blockchain games or Defi applications on platforms such as Ethereum, TRON or EOS.

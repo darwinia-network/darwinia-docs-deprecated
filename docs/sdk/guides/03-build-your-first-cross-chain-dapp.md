@@ -2,157 +2,121 @@
 sidebar_position: 3
 ---
 
-# Build your first cross-chain Dapp
+# Build Your First Cross-chain Dapp
 
-We will use [hardhat](https://hardhat.org/) to build our first cross-chain Dapp. The Dapp will be deployed to the Pangoro Smart Chain, then call the `remark_with_event` on the [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) remotely.
+This Dapp allows you to call Pangolin's `remark_with_event` cross-chain from Pangoro.
 
-## Preparation
+## Install deps
 
-1. Go to an empty folder, running `npm init`
-2. `npm install --save-dev hardhat`
-3. `npm install --save @darwinia/contracts-periphery`
+`npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils`
 
-Now, we have a hardhat project with Darwinia SDK.
+## Prepare your cross-chain endpoint
 
-## Create Scale Types (Optional)
-
-If there is no existing Scale Types for the target chain, you need to define the types yourself. You can find the existing types in `@darwinia/contracts-utils`. Here, Darwinia is our target chain. We need to define the remark dispatch call type.
-
-Create a new file named `PalletSystem.sol` in your contracts folder and copy and paste the code below into it.
-
-```solidity
-library PalletSystem {
-    struct RemarkCall {
-        bytes2 callIndex;
-        bytes remark;
-    }
-
-    function encodeRemarkCall(RemarkCall memory call) internal pure returns (bytes memory) {
-        return abi.encodePacked(
-            call.callIndex, 
-            ScaleCodec.encodeBytes(call.remark)
-        );
-    }
-}
-```
-
-`remark_with_event` is the function(dispatch call) on the Pangolin that will be cross-chain called. The `System.RemarkCall` type is used to encode it.
-
-Darwinia SDK will provide the most common types for you. If you want to learn more about the Scale Codec, please visit https://docs.substrate.io/v3/advanced/scale-codec/.
-
-## Create your Dapp
-
-Darwinia SDK provides a abstract base Dapp contract named `PangoroXApp`. You should extends it to create your Dapp contract. In your contracts folder, create a file `RemarkDemo.sol`.
+Extends the `MessageEndpoint` contract to create your own endpoint. In your contracts folder, create a file `ToPangolinEndpoint.sol`.
 
 ```javascript
 // SPDX-License-Identifier: MIT
 
-pragma solidity >=0.6.0;
+pragma solidity ^0.8.9;
 
-import "@darwinia/contracts-periphery/contracts/s2s/SmartChainXApp.sol";
-import "./System.sol";
+import "@darwinia/contracts-periphery/contracts/s2s/MessageEndpoint.sol";
 
-contract RemarkDemo is PangoroXApp {
-    constructor() public {
-        init();
+contract ToPangolinEndpoint is MessageEndpoint {
+    constructor() {
+        outboundLaneId = 0x726f6c69;
+        inboundLaneId = 0x726f6c69;
+        storageAddress = address(1024);
+        dispatchAddress = address(1025);
+        storageKeyForMarketFee = 0x30d35416864cf657db51d3bc8505602f2edb70953213f33a6ef6b8a5e3ffcab2;
+        storageKeyForLatestNonce = 0xd86d7f611f4d004e041fda08f633f10196c246acb9b55077390e3ca723a0ca1f;
+        storageKeyForLastDeliveredNonce = 0xd86d7f611f4d004e041fda08f633f101e5f83cf83f2127eb47afdc35d6e43fab;
+        sendMessageCallIndex = 0x1103;
+        remoteMessageTransactCallIndex = 0x2901;
+        remoteSmartChainId = 43;
     }
 
-    function remark() public payable {
-        // 1. prepare the call that will be executed on the target chain
-        System.RemarkCall memory call = System.RemarkCall(
-            hex"0009", // the call index of remark_with_event
-            hex"12345678"
-        );
-        bytes memory callEncoded = System.encodeRemarkCall(call);
+    function _canBeExecuted(address, bytes calldata)
+        internal
+        pure
+        override
+        returns (bool)
+    {
+        return true;
+    }
 
-        // 2. Prepare the message payload
-        MessagePayload memory payload = MessagePayload(
-            1210, // spec version of target chain
-            2654000000, // call weight
-            callEncoded // call encoded bytes
-        );
-
-        // 3. Send the message payload to the pangolin through the lane id
-        bytes4 laneId = 0;
-        uint64 _messageNonce = sendMessage(toPangolin, laneId, payload);
+    function remoteDispatch(
+        uint32 pangolinSpecVersion,
+        bytes memory pangolinCallEncoded,
+        uint64 pangolinCallWeight
+    ) external payable returns (uint256) {
+        return
+            _remoteDispatch(
+                pangolinSpecVersion,
+                pangolinCallEncoded,
+                pangolinCallWeight
+            );
     }
 }
 ```
 
-Note: 
+Deploy it on the Pangoro Smart Chain. The `remoteDispatch` will be used in the next step.
 
-1. The spec version of the `MessagePayload` must be correct, you can get the latest spec version from https://pangolin.subscan.io/runtime.
+You can download the completed [ToPangolinEndpoint.sol](https://raw.githubusercontent.com/darwinia-network/darwinia-messages-sol/master/contracts/periphery/contracts/s2s/examples/ToPangolinEndpoint.sol), and add your own access controls to it if your want to use it in a production environment.
 
-3. The call weight of the `MessagePayload` must be equal to or greater than the expected weight. you can get it from the target chain's benchmarks.
+## Create your Dapp contract
 
+In your contracts folder, create a file `RemarkDemo.sol`.
 
-## Run in Remix
+```javascript
+// SPDX-License-Identifier: MIT
 
-The easiest way to run the code is [Remix](https://remix.ethereum.org/).
+pragma solidity ^0.8.9;
 
-1. [Connect your MetaMask to Pangoro](./01-using-smart-chain-with-metamask.md).
-2. Export you Dapp to a single flattened solidity file.
-    
-    ```bash
-    npx hardhat flatten ./contracts/RemarkDemo.sol > ~/Desktop/RemarkDemo.sol
-    ```
-    
-3. Copy it to Remix and deploy the `RemarkDemo` contract.
-4. Run `systemRemark` with value 200 ethers(here means ORINGs), the value must ≥ the [market fee](../../fee.md). important!
+import "./ToPangolinEndpoint.sol";
+import "@darwinia/contracts-periphery/contracts/s2s/types/PalletSystem.sol";
 
-## Or, Run in your project with hardhat command
+contract RemarkDemo {
+    address public endpoint;
 
-1. Open your `hardhat.config.js` in your project folder, add Crab Network into `networks`.
-
-    ```js
-    crab: {
-      url: 'https://pangoro-rpc.darwinia.network',
-      network_id: "45",
-      accounts: [PRIVATE_KEY],
-      gas: 3_000_000,
-      gasPrice: 53100000000
-    }
-    ```
-    PRIVATE_KEY is your private key of Crab Network account with enough(≥ market fee + transaction fee) ORINGs tokens.
-
-2. Add a script to deploy and run your contract. Inside `scripts/`, create a new file `remarkdemo-script.js` with the following code:
-
-    ```js
-    const hre = require("hardhat");
-
-    async function main() {
-        // We get the contract to deploy
-        const RemarkDemo = await hre.ethers.getContractFactory("RemarkDemo");
-        const demo = await RemarkDemo.deploy();
-        await demo.deployed();
-        await demo.deployTransaction.wait();
-        console.log("Deployed to:", demo.address);
-
-        // Send transaction
-        const tx = await demo.remark({
-          value: BigInt(200000000000000000000), // 200 CRAB, The fee to use the cross-chain service, determined by the Fee Market
-        });
-        await tx.wait();
-        console.log("txhash:", tx["hash"]);
+    constructor(address _endpoint) {
+        endpoint = _endpoint;
     }
 
-    main()
-      .then(() => process.exit(0))
-      .catch((error) => {
-        console.error(error);
-        process.exit(1);
-      });
-    ```
+    function remoteRemark(bytes memory _remark)
+        external
+        payable
+        returns (uint256)
+    {
+        // 1. Prepare the call and its weight which will be executed on the target chain
+        PalletSystem.RemarkCall memory call = PalletSystem.RemarkCall(
+            hex"0009",
+            _remark
+        );
+        bytes memory encodedCall = PalletSystem.encodeRemarkCall(call);
+        uint64 weight = uint64(_remark.length * 2_000);
 
-3. Run
+        // 2. Dispatch the call
+        uint256 messageId = ToPangolinEndpoint(endpoint).remoteDispatch{
+            value: msg.value
+        }(
+            28140, // latest spec version of pangolin
+            encodedCall,
+            weight
+        );
 
-    In your project's folder, run:
+        return messageId;
+    }
+}
+```
 
-    ```bash
-    npx hardhat run --network crab scripts/remarkdemo-script.js
-    ```
+Make sure that the latest spec version of pangolin is correct. You can get it from https://pangolin.subscan.io/runtime.
 
-    It will output the txhash of the transaction. You can copy it to [subscan](https://pangoro.subscan.io/) to see the detail of the transaction. 
+Deploy the Dapp contract on the Pangoro Smart Chain. Inject the endpoint address from previous step into the Dapp contract during its initialization.
+
+## Run
+
+1. You can get a estimated fee by calling the `fee` function of the endpoint contract.
+2. Call the `remoteRemark` with a value. The value should greater than or equal to the estimated fee.
 
 ## Track cross-chain events with subscan
 
@@ -160,7 +124,7 @@ The easiest way to run the code is [Remix](https://remix.ethereum.org/).
 
 [https://pangoro.subscan.io/event?address=&module=bridgedarwiniamessages&event=all](https://crab.subscan.io/event?address=&module=bridgedarwiniamessages&event=all)
 
-### MessageDelivered events of Pangolin
+### MessageDispatched events of Pangolin
 
 [https://pangolin.subscan.io/event?address=&module=bridgecrabmessages&event=all](https://darwinia.subscan.io/event?address=&module=bridgecrabmessages&event=all)
 
