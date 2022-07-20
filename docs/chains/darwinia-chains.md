@@ -13,10 +13,6 @@ Darwinia Chain (DC) is designed to be the primary chain for tokens and governanc
 DC is a public chain that can operate independently with its own consensus and security model, with its core business and application services, including cross-chain functionality of each application chain, controlled by 
 DC itself.
 
-#### Pangoro
-
-Pangoro is the test network of DC. The test tokens have no intrinsic value. You can get test tokens for Pangoro from [Pangoro faucet](./pangoro-faucet.md).
-
 ## Darwinia Parachain
 Darwinia Parachain (DP) is designed to be protected by the shared security of the Polkadot Relay Chain. It will integrate Polkadot’s XCMP, open channels with other parachains, and connect to DC via LCMP.
 

@@ -40,4 +40,4 @@ sidebar_position: 1
 
 ### Apply ORINGs
 
-[Pangoro faucet](../../chains/pangoro-faucet.md)
+Go to [Pangoro Test Token Faucet](https://apps.darwinia.network/account), then switch to `Pangoro` to obtain test tokens.
