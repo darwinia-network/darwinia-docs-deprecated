@@ -25,12 +25,6 @@ DP does not have its own economy.
 
 Pangoro Parachain is the test network of DP.
 
-## Darwinia Smart Chain
+## [Darwinia Smart Chain](darwinia-smart-chain.md)
 
-Darwinia Smart Chain (DSC) is an EVM-compatible smart contract platform hosted on DC, and is designed to provide greater programmability for Dapps and cross-chain users.
-
-DSC does not have its own economy.
-
-#### Pangolin Smart Chain
-
-Pangolin Smart Chain is the EVM-compatible smart contract platform hosted on Pangoro.
+Darwinia Smart Chain(DSC) adds an Ethereum-Compatible layer to the Darwinia Chain(DC) and provides users with the ability to create and interact with solidity smart contracts. The node of Darwinia Smart Chain(DSC) provides Ethereum RPCs endpoint for reading chain states and sending transactions which can be included in Ethereum blocks, and these blocks are chained together as an Ethereum blockchain in the Darwinia Chain(DC). Therefore, it is easy for projects in the Ethereum ecosystem to migrate to the Darwinia Chain(DC).
