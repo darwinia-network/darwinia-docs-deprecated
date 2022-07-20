@@ -8,8 +8,6 @@ The Darwinia Documentation is a wiki style central source of documents for Darwi
 
 The Wiki is a community-focused initiative and we will review all pull-requests and issues created in this repository. If you notice typos or grammatical errors, please feel free to directly create pull requests with these corrections. Larger contributions may start as issues to test the waters on the subject with the maintainers. It is generally preferable to create a pull request over an issue to propose a change to the wiki content.
 
-To get detailed guide on how to contribute, please see detailed guide [here](./docs/get-started/wiki-contribute.md).
-
 ## Style Guide
 
 - Break lines at 120 characters.
