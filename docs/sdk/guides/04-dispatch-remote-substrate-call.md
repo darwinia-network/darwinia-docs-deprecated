@@ -1,10 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Build Your First Cross-chain Dapp
+# Dispatch Remote Substrate Call
 
-This Dapp allows you to call Pangolin's `remark_with_event` cross-chain from Pangoro.
+This guide helps you to build a small Dapp that will dispatch Pangolin's `remark_with_event` remotely from Pangoro.
+
+`remark_with_event` is a dispatchable call of the target Substrate based blockchain. A dispatchable call is a public function that can be executed at runtime via a JSON RPC call. More info about [Substrate](https://substrate.io/) and the [dispatchable calls](https://docs.substrate.io/reference/glossary/#dispatch).
+
+Pangoro is the canary network of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the canary network of Crab Network. 
 
 ## Install deps
 
@@ -115,17 +119,5 @@ Deploy the Dapp contract on the Pangoro Smart Chain. Inject the endpoint address
 
 ## Run
 
-1. You can get a estimated fee by calling the `fee` function of the endpoint contract.
+1. You can get a estimated fee by calling [the `fee` function](../api-reference) of the endpoint contract.
 2. Call the `remoteRemark` with a value. The value should greater than or equal to the estimated fee.
-
-## Track cross-chain events with subscan
-
-### MessageAccepted events of Pangoro
-
-[https://pangoro.subscan.io/event?address=&module=bridgedarwiniamessages&event=all](https://crab.subscan.io/event?address=&module=bridgedarwiniamessages&event=all)
-
-### MessageDispatched events of Pangolin
-
-[https://pangolin.subscan.io/event?address=&module=bridgecrabmessages&event=all](https://darwinia.subscan.io/event?address=&module=bridgecrabmessages&event=all)
-
-[More](./02-know-your-cross-chain-status.md)

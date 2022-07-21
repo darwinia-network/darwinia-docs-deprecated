@@ -1,10 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Call Smart Contract Remotely
+# Execute Remote Smart Contract Call
 
 This Dapp allows you to call Pangolin Smart Chain's `add(2)` function from Pangoro.
+
+Pangoro is the canary network of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the canary network of Crab Network. 
 
 ## Install deps
 
@@ -78,11 +80,11 @@ contract ExecuteDemo {
 
 Deploy it on the Pangoro Smart Chain. 
 
-Make sure that the endpoint are correct, it must be the ToPangolinEndpoint's address.
+Make sure that the endpoint is correct, it must be the ToPangolinEndpoint's address.
 
 Make sure that the latest spec version of pangolin is correct. You can get it from https://pangolin.subscan.io/runtime.
 
 ## Run
 
-1. You can get a estimated fee by calling the `fee` function of the ToPangolinEndpoint contract.
+1. You can get a estimated fee by calling [the `fee` function](../api-reference) of the ToPangolinEndpoint contract.
 2. Call the `remoteAdd(callee)` with a value. The value should greater than or equal to the estimated fee.

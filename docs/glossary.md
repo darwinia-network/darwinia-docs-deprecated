@@ -1,24 +1,32 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 # Glossary
 
-## Dapp
-
-Decentralized application.
-
 ## Endpoint
 
-The cross-chain operation entry. An endpoint is a deployed smart contract which is used by Dapps to do cross-chain operations. 
+The cross-chain operation entry. An endpoint is a smart contract which is used by Dapps to do cross-chain operations. 
 
-## Dapp developer
+The endpoint contract is created and deployed by the Dapp developer. After that Dapp can call the endpoint to do cross-chain operations.
 
-Dapp developers include those who develop applications based on the Darwinia Smart Contracts module, as well as those who develop Dapps on public chains, such as blockchain games or Defi applications on platforms such as Ethereum, TRON or EOS.
+```js
+contract YourEndpoint is MessageEndpoint {...}
+```
 
-## Dapp user
+```js
+contract YourDapp {
+    YourEndpoint endpoint;
 
-End users of Dapps.
+    constructor(YourEndpoint _endpoint) {
+        endpoint = _endpoint;
+    }
+   
+    function foo() {
+        YourEndpoint(endpoint).remoteExecute(...);
+    }
+}
+```
 
 ## Source Chain
 
@@ -53,11 +61,11 @@ The message is sent by the source chain application layer and finally delivered 
 
 The intermediary of cross-chain data is responsible for fetching data from one blockchain and then sending the data to the other side.
 
-## Channel
+## Channel & Lane
 
-Channels facilitate the transfer of data in one direction. A channel consists of a sender `outbound` of the source chain and a receiver `inbound` of the destination chain. Any user or system that wants to send a message on the bridge must submit it to the channel. The message layer supports multiple channels and provides different deliverability guarantees for messages, such as message replay protection, message order or out-of-order guarantee, etc.
+Channels facilitate the transfer of data in one direction. A channel consists of a sender `outboundLane` of the source chain and a receiver `inboundLane` of the target chain. Any user or system that wants to send a message on the bridge must submit it to the `outboundLane`. The message layer supports multiple channels and provides different deliverability guarantees for messages, such as message replay protection, message order or out-of-order guarantee, etc.
 
-Messages sent over the channel are assigned a unique (for this channel) strictly increasing integer value of the nonce. Messages sent over the same channel are guaranteed to be sent to the destination chain in the same order they were sent from the source chain. In other words, messages with nonce `N` will be delivered before nonce `N+1`.
+Messages sent over the channel are assigned a unique (for this channel) strictly increasing integer value of the nonce. Messages sent over the same channel are guaranteed to be sent to the target chain in the same order they were sent from the source chain. In other words, messages with nonce `N` will be delivered before nonce `N+1`.
 
 A single message channel can be thought of as a transport channel for a single application (on-chain, off-chain, or hybrid).
 

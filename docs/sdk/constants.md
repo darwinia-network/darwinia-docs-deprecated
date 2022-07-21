@@ -4,8 +4,9 @@ sidebar_position: 6
 
 # Constants
 
-
 ## Chain Identifiers
+
+The chain identifier is used to uniquely identify the chain and is entered as a parameter when [setting the remote endpoint](./api-reference.md#_setRemoteEndpoint).
 
     bytes4 constant _DARWINIA_CHAIN_ID = 0x64617277; // darw
     bytes4 constant _CRAB_CHAIN_ID = 0x63726162; // crab
@@ -15,6 +16,8 @@ sidebar_position: 6
     bytes4 constant _CRAB_PARACHAIN_CHAIN_ID = 0x63726170; // crap
 
 ## Lane Identifiers
+
+The lane identifier identify the channel used to send and receive messages. Go to [Glossary](../glossary#channel--lane) to see more info. 
 
     bytes4 constant _DARWINIA_CRAB_LANE_ID = 0x00000000;
     bytes4 constant _PANGORO_PANGOLIN_LANE_ID = 0x726f6c69; // roli

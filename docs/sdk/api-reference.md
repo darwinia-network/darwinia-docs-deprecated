@@ -4,6 +4,23 @@ sidebar_position: 1
 
 # API Reference
 
+## _setRemoteEndpoint
+
+Set the remote endpoint.
+
+This is an internal function to be called by the concrete endpoint functions.
+
+```javascript
+function _setRemoteEndpoint(bytes4 _remoteChainId, address _remoteEndpoint)
+    internal
+```
+
+### Params:    
+
+* _remoteChainId: The remote chain id. [The full chain id list](../constants)
+
+* _remoteEndpoint: The remote endpoint contract address.
+
 ## _remoteDispatch
 
 Dispatch a substrate call of the target chain. 
