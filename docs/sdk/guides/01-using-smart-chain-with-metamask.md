@@ -40,4 +40,4 @@ sidebar_position: 1
 
 ### Apply ORINGs
 
-Go to [Pangoro Test Token Faucet](https://apps.darwinia.network/account), then switch to `Pangoro` to obtain test tokens.
+Go to [Pangoro Test Token Faucet](https://apps.darwinia.network/?network=pangoro).
