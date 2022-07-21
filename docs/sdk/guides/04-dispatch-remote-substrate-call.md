@@ -119,5 +119,5 @@ Deploy the Dapp contract on the Pangoro Smart Chain. Inject the endpoint address
 
 ## Run
 
-1. You can get a estimated fee by calling [the `fee` function](../api-reference/fee) of the endpoint contract.
+1. You can get a estimated fee by calling [the `fee` function](../api-reference#fee) of the endpoint contract.
 2. Call the `remoteRemark(_remark)` with a value as the market fee. The value should greater than or equal to the estimated fee.
