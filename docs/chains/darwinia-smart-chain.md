@@ -79,8 +79,16 @@ Ethereum compatible:
 Darwinia dedicated:
 
 - `0x0000000000000000000000000000000000000400`: StateStorage
+    - This contract is used to get the storage values from substrate modules by storage key.
+    - Function signature: `state_storage(bytes)`
+    - Params: the substrate storage key
 - `0x0000000000000000000000000000000000000401`: Dispatch
+    - This contract is used to dispatch the substrate dispatch calls.
+    - Function signature: `(bytes)`
+    - Params: scale encoded substrate dispatch call
 - `0x0000000000000000000000000000000000000800`: BLS12381
+    - function signature: `fast_aggregate_verify(bytes[],bytes,bytes)`
+    <!-- TODO: Add more descriptions about BLS1281 -->
 
 ### Things Dapp developers must know
 
