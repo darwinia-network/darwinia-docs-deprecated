@@ -87,4 +87,4 @@ Make sure that the latest spec version of pangolin is correct. You can get it fr
 ## Run
 
 1. You can get a estimated fee by calling [the `fee` function](../api-reference) of the ToPangolinEndpoint contract.
-2. Call the `remoteAdd(callee)` with a value. The value should greater than or equal to the estimated fee.
+2. Call the `remoteAdd(callee)` with a value as the market fee. The value should greater than or equal to the estimated fee.
