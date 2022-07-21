@@ -13,10 +13,6 @@ Darwinia Chain (DC) is designed to be the primary chain for tokens and governanc
 DC is a public chain that can operate independently with its own consensus and security model, with its core business and application services, including cross-chain functionality of each application chain, controlled by 
 DC itself.
 
-#### Pangoro
-
-Pangoro is the test network of DC. The test tokens have no intrinsic value. You can get test tokens for Pangoro from [Pangoro faucet](./pangoro-faucet.md).
-
 ## Darwinia Parachain
 Darwinia Parachain (DP) is designed to be protected by the shared security of the Polkadot Relay Chain. It will integrate Polkadot’s XCMP, open channels with other parachains, and connect to DC via LCMP.
 
@@ -25,12 +21,6 @@ DP does not have its own economy.
 
 Pangoro Parachain is the test network of DP.
 
-## Darwinia Smart Chain
+## [Darwinia Smart Chain](darwinia-smart-chain.md)
 
-Darwinia Smart Chain (DSC) is an EVM-compatible smart contract platform hosted on DC, and is designed to provide greater programmability for Dapps and cross-chain users.
-
-DSC does not have its own economy.
-
-#### Pangolin Smart Chain
-
-Pangolin Smart Chain is the EVM-compatible smart contract platform hosted on Pangoro.
+Darwinia Smart Chain(DSC) adds an Ethereum-Compatible layer to the Darwinia Chain(DC) and provides users with the ability to create and interact with solidity smart contracts. The node of Darwinia Smart Chain(DSC) provides Ethereum RPCs endpoint for reading chain states and sending transactions which can be included in Ethereum blocks, and these blocks are chained together as an Ethereum blockchain in the Darwinia Chain(DC). Therefore, it is easy for projects in the Ethereum ecosystem to migrate to the Darwinia Chain(DC).
