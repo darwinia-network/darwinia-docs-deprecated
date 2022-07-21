@@ -8,7 +8,7 @@ This guide helps you to build a small Dapp that will dispatch Pangolin's `remark
 
 `remark_with_event` is a dispatchable call of the target Substrate based blockchain. A dispatchable call is a public function that can be executed at runtime via a JSON RPC call. More info about [Substrate](https://substrate.io/) and the [dispatchable calls](https://docs.substrate.io/reference/glossary/#dispatch).
 
-Pangoro is the canary network of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the canary network of Crab Network. 
+Pangoro is the testnet of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Network. 
 
 ## Install deps
 
