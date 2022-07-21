@@ -37,7 +37,7 @@ smart contracts from the Ethereum chain to run their business. In this article w
     - `wss://pangoro-rpc.darwinia.network`
 
 
-### Pre-compiles
+### Precompiled Contracts
 
 #### For Darwinia Smart Chain
 
