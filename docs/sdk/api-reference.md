@@ -17,7 +17,7 @@ function _setRemoteEndpoint(bytes4 _remoteChainId, address _remoteEndpoint)
 
 ### Params:    
 
-* _remoteChainId: The remote chain id. [The full chain id list](../constants)
+* _remoteChainId: The remote chain id. [The full chain id list](./constants)
 
 * _remoteEndpoint: The remote endpoint contract address.
 
