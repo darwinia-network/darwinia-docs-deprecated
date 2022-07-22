@@ -6,7 +6,7 @@ sidebar_position: 3
 
 This Dapp allows you to call Pangolin Smart Chain's `add(2)` function from Pangoro.
 
-Pangoro is the testnet of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Network. 
+Pangoro is the testnet of Darwinia Network. [Pangolin Smart Chain](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Smart Chain. 
 
 ## Install deps
 
