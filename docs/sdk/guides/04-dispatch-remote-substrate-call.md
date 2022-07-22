@@ -4,15 +4,17 @@ sidebar_position: 4
 
 # Dispatch Remote Substrate Call
 
-This guide helps you to build a small Dapp that will dispatch Pangolin's `remark_with_event` remotely from Pangoro.
+This guide helps you to build a small Dapp that will dispatch Pangolin's `remark_with_event` remotely from Pangoro Smart Chain.
 
 `remark_with_event` is a dispatchable call of the target Substrate based blockchain. A dispatchable call is a public function that can be executed at runtime via a JSON RPC call. More info about [Substrate](https://substrate.io/) and the [dispatchable calls](https://docs.substrate.io/reference/glossary/#dispatch).
 
-Pangoro is the testnet of Darwinia Network. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Network. 
+Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Network. 
 
 ## Install deps
 
-`npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils`
+```bash
+npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
+```
 
 ## Prepare your cross-chain endpoint
 

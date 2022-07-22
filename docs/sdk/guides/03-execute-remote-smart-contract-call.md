@@ -4,17 +4,19 @@ sidebar_position: 3
 
 # Execute Remote Smart Contract Call
 
-This Dapp allows you to call Pangolin Smart Chain's `add(2)` function from Pangoro.
+This Dapp allows you to call Pangolin Smart Chain's `add(2)` function from Pangoro Smart Chain.
 
-Pangoro is the testnet of Darwinia Network. [Pangolin Smart Chain](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Smart Chain. 
+Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin Smart Chain](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Smart Chain. 
 
 ## Install deps
 
-`npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils`
+```bash
+npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
+```
 
 ## Prepare your cross-chain endpoints
 
-We need two endpoints here. One is for Pangoro, and the another one is for Pangolin. We can download them here.
+We need two endpoints here. One is for Pangoro Smart Chain, and the another one is for Pangolin Smart Chain. We can download them here.
 
 1. Download [ToPangolinEndpoint.sol](https://raw.githubusercontent.com/darwinia-network/darwinia-messages-sol/master/contracts/periphery/contracts/s2s/examples/ToPangolinEndpoint.sol) for Pangoro. Then deploy it to Pangoro Smart Chain.
 
