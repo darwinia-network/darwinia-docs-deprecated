@@ -10,20 +10,9 @@ sidebar_position: 1
    
    ![Untitled](/img/metamask-00.png)
 
-### Supported Smart Chains
+### Smart Chain Parameters
 
-- Darwinia Smart Chain  
-
-   Not online yet.
-    
-- Pangoro Smart Chain (Testnet)
-    
-    ```yaml
-    RPC URL: https://pangoro-rpc.darwinia.network
-    Chain ID: 45
-    Currency: ORING
-    Explorer: https://pangoro.subscan.io/
-    ```
+See [Darwinia Smart Chain](../../chains/darwinia-smart-chain)
 
 ## Deposit tokens
 

@@ -12,13 +12,13 @@ smart contracts from the Ethereum chain to run their business. In this article w
 
 #### For Darwinia Smart Chain
 
-- Network Name: `Darwinia`
+- Network Name: `Darwinia Smart Chain`
 - Token Name: `RING`
 - Token Decimal: `18`
 - ChainId: `46`
 - Block Explorer URL: `https://darwinia.subscan.io/`
 - HTTP Endpoints:
-    - `https://crab-rpc.darwinia.network`
+    - `https://rpc.darwinia.network`
     - `https://darwinia-rpc.dwellir.com`
 - WSS Endpoints:
     - `wss://rpc.darwinia.network`
@@ -26,7 +26,7 @@ smart contracts from the Ethereum chain to run their business. In this article w
 
 #### For Pangoro Smart Chain
 
-- Network Name: `Pangoro`
+- Network Name: `Pangoro Smart Chain`
 - Token Name: `ORING`
 - Token Decimal: `18`
 - ChainId: `45`

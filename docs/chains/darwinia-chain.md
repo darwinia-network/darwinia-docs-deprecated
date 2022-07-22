@@ -16,7 +16,7 @@ The Darwinia Chain is a public chain based on substrate with cross-chain compone
 - Token Decimal: `9`
 - Block Explorer URL: `https://darwinia.subscan.io/`
 - HTTP Endpoints:
-    - `https://crab-rpc.darwinia.network`
+    - `https://rpc.darwinia.network`
     - `https://darwinia-rpc.dwellir.com`
 - WSS Endpoints:
     - `wss://rpc.darwinia.network`
