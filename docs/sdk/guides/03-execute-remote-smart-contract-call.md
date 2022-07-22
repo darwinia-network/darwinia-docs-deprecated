@@ -24,7 +24,7 @@ We need two endpoints here. One is for Pangoro Smart Chain, and the another one 
 
 3. Call the `setRemoteEndpoint(_remoteChainId, _remoteEndpoint)` of the two endpoints to point to each other. 
 
-The chain id of Pangoro is `0x70616772`. The chain id of `Pangolin` is 0x7061676c.  
+The chain id of Pangoro Smart Chain is `0x70616772`. The chain id of Pangolin Smart Chain is `0x7061676c`.  
 
 You can get the full chain id list from [constants](../constants).
 
