@@ -18,56 +18,9 @@ npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 
 ## Prepare your cross-chain endpoint
 
-Extends the `MessageEndpoint` contract to create your own endpoint. In your contracts folder, create a file `ToPangolinEndpoint.sol`.
+We need one endpoint here. We can download it here.
 
-```javascript
-// SPDX-License-Identifier: MIT
-
-pragma solidity ^0.8.9;
-
-import "@darwinia/contracts-periphery/contracts/s2s/MessageEndpoint.sol";
-
-contract ToPangolinEndpoint is MessageEndpoint {
-    constructor() {
-        outboundLaneId = 0x726f6c69;
-        inboundLaneId = 0x726f6c69;
-        storageAddress = address(1024);
-        dispatchAddress = address(1025);
-        storageKeyForMarketFee = 0x30d35416864cf657db51d3bc8505602f2edb70953213f33a6ef6b8a5e3ffcab2;
-        storageKeyForLatestNonce = 0xd86d7f611f4d004e041fda08f633f10196c246acb9b55077390e3ca723a0ca1f;
-        storageKeyForLastDeliveredNonce = 0xd86d7f611f4d004e041fda08f633f101e5f83cf83f2127eb47afdc35d6e43fab;
-        sendMessageCallIndex = 0x1103;
-        remoteMessageTransactCallIndex = 0x2901;
-        remoteSmartChainId = 43;
-    }
-
-    function _canBeExecuted(address, bytes calldata)
-        internal
-        pure
-        override
-        returns (bool)
-    {
-        return true;
-    }
-
-    function remoteDispatch(
-        uint32 pangolinSpecVersion,
-        bytes memory pangolinCallEncoded,
-        uint64 pangolinCallWeight
-    ) external payable returns (uint256) {
-        return
-            _remoteDispatch(
-                pangolinSpecVersion,
-                pangolinCallEncoded,
-                pangolinCallWeight
-            );
-    }
-}
-```
-
-Deploy it on the Pangoro Smart Chain. The `remoteDispatch` will be used in the next step.
-
-You can download the completed [ToPangolinEndpoint.sol](https://raw.githubusercontent.com/darwinia-network/darwinia-messages-sol/master/contracts/periphery/contracts/s2s/examples/ToPangolinEndpoint.sol), and add your own access controls to it if your want to use it in a production environment.
+Download [PangoroToPangolinEndpoint.sol](https://github.com/darwinia-network/darwinia-s2s-template/blob/main/contracts/PangoroToPangolinEndpoint.sol) for Pangoro.  Deploy it on the Pangoro Smart Chain. The `remoteDispatch` will be used in the next step.
 
 ## Create your Dapp contract
 
@@ -78,7 +31,7 @@ In your contracts folder, create a file `RemarkDemo.sol`.
 
 pragma solidity ^0.8.9;
 
-import "./ToPangolinEndpoint.sol";
+import "./PangoroToPangolinEndpoint.sol";
 import "@darwinia/contracts-periphery/contracts/s2s/types/PalletSystem.sol";
 
 contract RemarkDemo {
@@ -102,7 +55,7 @@ contract RemarkDemo {
         uint64 weight = uint64(_remark.length * 2_000);
 
         // 2. Dispatch the call
-        uint256 messageId = ToPangolinEndpoint(endpoint).remoteDispatch{
+        uint256 messageId = PangoroToPangolinEndpoint(endpoint).remoteDispatch{
             value: msg.value
         }(
             28140, // latest spec version of pangolin
@@ -121,5 +74,8 @@ Deploy the Dapp contract on the Pangoro Smart Chain. Inject the endpoint address
 
 ## Run
 
-1. You can get a estimated fee by calling [the `fee` function](../api-reference#fee) of the endpoint contract.
-2. Call the `remoteRemark(_remark)` with a value as the market fee. The value should greater than or equal to the estimated fee.
+1. You can get a estimated market fee by calling [the `fee` function](../api-reference#fee) of the endpoint contract.
+2. Call the `remoteRemark(_remark)`.
+
+   * The param `_remark` is the content you want to remark.  
+   * The value input should be set to a market fee >= the estimated market fee. 
