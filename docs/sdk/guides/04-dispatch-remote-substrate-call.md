@@ -10,6 +10,12 @@ This guide helps you to build a small Dapp that will dispatch Pangolin's `remark
 
 Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin](https://docs.crab.network/evm-compatible-crab-smart-chain/get-started/darwinia-pangolin) is the testnet of Crab Chain. 
 
+## Create a hardhat empty project
+
+Follow the [intructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
+
+Here we name the project `demo`.
+
 ## Install deps
 
 ```bash
@@ -18,9 +24,14 @@ npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 
 ## Prepare your cross-chain endpoint
 
-We need one endpoint here. We can download it here.
+We need one endpoint here. We can download it here to your contracts folder.
 
-Download [PangoroToPangolinEndpoint.sol](https://github.com/darwinia-network/darwinia-s2s-template/blob/main/contracts/PangoroToPangolinEndpoint.sol) for Pangoro.  Deploy it on the Pangoro Smart Chain. The `remoteDispatch` will be used in the next step.
+```bash
+cd contracts
+wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/main/contracts/PangoroToPangolinEndpoint.sol
+```
+
+Deploy it on the Pangoro Smart Chain. The `remoteDispatch` function will be used in the next step.
 
 ## Create your Dapp contract
 
@@ -74,7 +85,7 @@ Deploy the Dapp contract on the Pangoro Smart Chain. Inject the endpoint address
 
 ## Run
 
-1. You can get a estimated market fee by calling [the `fee` function](../api-reference#fee) of the endpoint contract.
+1. You can get a estimated market fee by calling the [`fee`](../api-reference#fee) function of the endpoint contract.
 2. Call the `remoteRemark(_remark)`.
 
    * The param `_remark` is the content you want to remark.  

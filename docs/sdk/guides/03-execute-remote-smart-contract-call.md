@@ -27,7 +27,7 @@ We need two endpoints here. One is for Pangoro Smart Chain, and the another one 
 1. For convenience we download them directly. 
 
     ```bash
-    cd demo/contracts
+    cd contracts
     wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/main/contracts/PangoroToPangolinEndpoint.sol
     wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/main/contracts/PangolinToPangoroEndpoint.sol
     ```
