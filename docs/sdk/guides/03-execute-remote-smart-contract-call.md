@@ -115,7 +115,7 @@ Make sure that the latest spec version of pangolin is correct. You can get it fr
 ```bash
 npx hardhat flatten ./Caller.sol > ~/Caller.sol
 ```
-Copy the flattened Caller.sol to Remix and deploy it to Pangoro Smart Chain. Make sure that the endpoint is correct when deploying , it must be the PangoroToPangolinEndpoint's address.
+Copy the flattened Caller.sol to Remix and deploy it to Pangoro Smart Chain. Make sure that the constructor param `_endpoint` is correct when deploying, it must be the PangoroToPangolinEndpoint's address.
 
 ## Run
 
