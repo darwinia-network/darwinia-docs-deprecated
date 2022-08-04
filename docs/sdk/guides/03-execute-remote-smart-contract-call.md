@@ -122,6 +122,6 @@ Copy the flattened Caller.sol to Remix and deploy it to Pangoro Smart Chain. Mak
 1. You can get a estimated market fee by calling the [`fee`](../api-reference#fee) function of the PangoroToPangolinEndpoint contract.
 2. Call the `remoteAdd(callee)`. 
 
-   * The param `callee` is the PangolinToPangoroEndpoint contract address.   
+   * The param `callee` is the `Callee` contract address.   
    * The value input should be set to a market fee >= the estimated market fee.  
    ![Untitled](/img/guide-03-0.png)
