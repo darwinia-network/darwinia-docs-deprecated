@@ -78,7 +78,7 @@ contract Callee {
 
 Copy it to Remix and deploy it to Pangolin Smart Chain.
 
-## Create the caller contract on Pangoro
+## Deploy the caller contract on the Pangoro Smart Chain
 
 In the `demo/contracts` folder, create a file `Caller.sol`.
 
