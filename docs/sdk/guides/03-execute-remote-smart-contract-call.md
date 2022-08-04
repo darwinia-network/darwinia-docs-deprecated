@@ -58,7 +58,7 @@ We need two endpoints here. One is for Pangoro Smart Chain, and the another one 
 
    > You can get the full chain id list from [constants](../constants).
 
-## Create the callee contract on Pangolin
+## Deploy the callee contract on the Pangolin Smart Chain
 
 In the `demo/contracts` folder, create a file `Callee.sol`.
 
