@@ -55,7 +55,7 @@ const config = {
             items: [
               {
                 label: 'Medium',
-                href: 'https://medium.com/@DarwiniaNetwork',
+                href: 'https://medium.com/darwinianetwork',
               },
               {
                 label: 'Twitter',
