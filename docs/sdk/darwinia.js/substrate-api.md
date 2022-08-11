@@ -227,21 +227,79 @@ Those interfaces are unique in Darwinia comparing with other substrate node.
 
 #### Consts 
 
-The following sections contain the module constants, also known as parameter types. These can only be changed as part of a runtime upgrade. On the api, these are exposed via api.consts.<module>.<method>.
+The following sections contain the module constants, also known as parameter types. These can only be changed as part of a runtime upgrade. On the api, these are exposed via api.consts.`<module>`.`<method>`.
 
 (NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
 
 
+- [<font color="blue" size="5">bridgeCrabGrandpa</font>](#bridgeCrabGrandpa)
+- [<font color="blue" size="5">bridgeCrabMessages</font>](#bridgeCrabMessages)
+- [<font color="blue" size="5">ethereumBacking</font>](#ethereumBacking)
+- [<font color="blue" size="5">ethereumRelay</font>](#ethereumRelay)
+- [<font color="blue" size="5">ethereumRelayAuthorities</font>](#ethereumRelayAuthorities)
+- [<font color="blue" size="5">ethereumRelayerGame</font>](#ethereumRelayerGame)
+- [<font color="blue" size="5">feeMarket</font>](#feeMarket)
+- [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
+- [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
+
+- [<font color="blue" size="5">proxy</font>](#proxy)
+- [<font color="blue" size="5">toCrabBacking</font>](#toCrabBacking)
+- [<font color="blue" size="5">tronBacking</font>](#tronBacking)
+
+ 
+
+
+***
+
+<span id="bridgeCrabGrandpa"><font size="6">bridgeCrabGrandpa</font></span>
+ <br></br>
+ <br></br>
+
+ <font size="5">headersToKeep: u32 </font>
+ <br></br>
+
+ - **interface**:  `api.consts.bridgeCrabGrandpa.headersToKeep`<br></br>
+
+
+ - **summary**: Maximal number of finalized headers to keep in the storage.<br></br>
+ 
+    The setting is there to prevent growing the on-chain state indefinitely. Notethe setting does not relate to block numbers - we will simply keep as much items in the storage, so it doesn't guarantee any fixed timeframe for finality headers.
+
+
+ <font size="5">maxRequests: u32</font>
+
+  - **interface**: `api.consts.bridgeCrabGrandpa.maxRequests`<br></br>
+
+  - **summary**: The upper bound on the number of requests allowed by the pallet.<br></br>
+
+    Once this bound is reached the pallet will not allow any dispatchables to be called until the request count has decreased.
+
+<span id="bridgeCrabMessages"><font size="6">bridgeCrabMessages</font></span>
+<br></br>
+<br></br>
+<font size="5">bridgedChainId: u8aFixed </font>
+
+
+
+
+ - **interface**:  `api.consts.bridgeCrabMessages.bridgedChainId`<br></br>
+
+
+ - **summary**: Gets the chain id value from the instance.<br></br>
+
+
+
+
 #### Storage 
 
-The following sections contain Storage methods are part of the default Substrate runtime. On the api, these are exposed via api.query.<module>.<method>.
+The following sections contain Storage methods are part of the default Substrate runtime. On the api, these are exposed via api.query.`<module>`.`<method>`.
 
 (NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
 
 
 #### Extrinsic
 
-The following sections contain Extrinsics methods are part of the default Substrate runtime. On the api, these are exposed via api.tx.<module>.<method>.
+The following sections contain Extrinsics methods are part of the default Substrate runtime. On the api, these are exposed via api.tx.`<module>`.`<method>`.
 
 (NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
 
