@@ -6,6 +6,6 @@ sidebar_position: 6
 
 
 
-The following sections contain Storage methods are part of the default Substrate runtime. On the api, these are exposed via api.query.`<module>`.`<method>`.
+The following sections contain Storage methods are part of the default Darwinia runtime. On the api, these are exposed via api.query.`<module>`.`<method>`.
 
-(NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
+(NOTE: These were generated from a static/snapshot view of a recent Darwinia master node. Some items may not be available in older nodes, or in any customized implementations.)

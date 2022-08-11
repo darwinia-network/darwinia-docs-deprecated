@@ -6,4 +6,4 @@ sidebar_position: 5
 
  
 
-The following sections contain known RPC methods that may be available on specific nodes (depending on configuration and available pallets) and allow you to interact with the actual node, query, and submit.
+The following sections contain known RPC methods that may be available on Darwinia nodes  and allow you to interact with the Darwinia node, query, and submit.
