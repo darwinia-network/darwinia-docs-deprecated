@@ -218,3 +218,40 @@ await api.derive.custom.something().then((res) => {
 
   
 
+### Darwinia  typical API 
+
+#### Overview
+
+These sections provide a static list of available interfaces as generated from a running Darwinia node. 
+Those interfaces are unique in Darwinia comparing with other substrate node. 
+
+#### Consts 
+
+The following sections contain the module constants, also known as parameter types. These can only be changed as part of a runtime upgrade. On the api, these are exposed via api.consts.<module>.<method>.
+
+(NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
+
+
+#### Storage 
+
+The following sections contain Storage methods are part of the default Substrate runtime. On the api, these are exposed via api.query.<module>.<method>.
+
+(NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
+
+
+#### Extrinsic
+
+The following sections contain Extrinsics methods are part of the default Substrate runtime. On the api, these are exposed via api.tx.<module>.<method>.
+
+(NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
+
+#### JSON-RPC
+
+The following sections contain known RPC methods that may be available on specific nodes (depending on configuration and available pallets) and allow you to interact with the actual node, query, and submit.
+
+
+
+
+
+
+
