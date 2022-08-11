@@ -106,6 +106,8 @@ console.log(api.genesisHash.toHex());
 ```
 
 
+
+
 ####  Metadata and API Decoration
 
 It's useful to understand some basic workings of the library.
@@ -113,174 +115,12 @@ When the API connects to a node, one of the first things it does is to retrieve 
 
 None of the information contained within the api.{consts, query, tx}.`<module>`.`<method>` endpoints are hard coded in the API. Rather everything is fully decorated by what the metadata exposes and is therefore completely dynamic. This means that when you connect to different chains, the metadata and API decoration will change and the API interfaces will reflect what is available on the chain you are connected to.
 
-###  Storage Queries
+#### API Example
 
-This section will walk through the concepts behind making queries to the chain to retrieve current state. The api.query.`<module>`.`<method>` interfaces,The API uses the metadata information provided to construct queries based on the location and parameters provided to generate state keys, and then queries these via RPC.
+We take some common examples on ApiPromise version of API, They are same with Polkadot.js API  allow application developers to interact with node's interface 
+including "runtime constants", "state queries", "RPC queries" and so on. You can check the [Polkadot Docs](https://polkadot.js.org/docs/api/start) for more detail usage description.
 
-Here is a code sample for retrieving basic account information given its address:
 
-```typescript
-// Initialize the API as in previous sections using darwinia node
-...
-// The actual address that we will use
-const ADDR = '<address>';
-// Retrieve the last timestamp
-const now = await api.query.timestamp.now();
-
-// Retrieve the account balance & nonce via the system module
-const { nonce, data: balance } = await api.query.system.account(ADDR);
-
-console.log(`${now}: balance of Ring ${balance.free},  balance of Kton ${balance.freeKton} and a nonce of ${nonce}`);
-
-```
-
-####  Query Subscription
-
-In this example we will expand on that knowledge to introduce subscriptions to stream results from the state, as it changes between blocks.
-
-Here is an example to subscribe to balance changes in an account:
-
-```typescript
-// Initialize the API provider as in the previous section
-...
-// Define wallet address
-const addr = '<address>';
-
-// Subscribe to balance changes for a specified account
-const unsub = await api.query.system.account(addr, ({ nonce, data: balance }) => {
-  console.log(`${now}: balance of Ring ${balance.free},  balance of Kton ${balance.freeKton} and a nonce of ${nonce}`);
-});
-
-```
-
-it returns a subscription unsub() function that can be used to stop the subscription and clear up any underlying RPC connections. The supplied callback will contain the value as it changes, streamed from the node.
-
-####   Multi Queryies
-
-It is useful to monitor a number of like-queries at the same time. For instance, we may want to track the balances for a list of accounts we have. The api.query interfaces allows this via the .multi subscription call.
-
-```typescript
-// Subscribe to balance changes for 2 accounts, ADDR1 & ADDR2 (already defined)
-const unsub = await api.query.system.account.multi(
-      [ADDR1, ADDR2],
-      (balances) => {
-            const [{ data: balance1 }, { data: balance2 }] = balances;
-
-            console.log(
-                  `The balances are ${balance1.free} and ${balance2.free}`
-            );
-      }
-);
-```
-
-For queries of the same type we can use .multi, for example to retrieve the balances of a number of accounts at once
-
-### RPC Queries
-
-The RPC calls provide the backbone for the transmission of data to and from the node. This means that all API endpoints such as api.query, api.tx or api.derive just wrap RPC calls, providing information in the encoded format as expected by the node.
-
-The api.rpc interface follows the same format api.query.
-
-```typescript
-// Initialize the API provider as in the previous section
-...
-
-// Retrieve the chain & node information information via rpc calls
-const [chain, nodeName, nodeVersion, metadata] = await Promise.all([
-    api.rpc.system.chain(),
-    api.rpc.system.name(),
-    api.rpc.system.version(),
-    api.rpc.state.getMetadata()
-  ]);
-
-console.log(`You are connected to chain ${chain} using ${nodeName} v${nodeVersion}  metadata ${metadata}`);
-
-```
-
-### System Events
-
-You can subscribe system event and extract information from them.
-
-```typescript
-
-// Initialize the API provider as in the previous section
-...
-
-// Subscribe to system events via storage
-api.query.system.events((events) => {
-    console.log(`\nReceived ${events.length} events:`);
-
-    // Loop through the Vec<EventRecord>
-    events.forEach((record) => {
-      // Extract the phase, event and the event types
-      const { event, phase } = record;
-      const types = event.typeDef;
-
-      // Show what we are busy with
-      console.log(`\t${event.section}:${event.method}:: (phase=${phase.toString()})`);
-      console.log(`\t\t${event.meta.documentation.toString()}`);
-
-      // Loop through each of the parameters, displaying the type and data
-      event.data.forEach((data, index) => {
-        console.log(`\t\t\t${types[index].type}: ${data.toString()}`);
-      });
- });
-
-```
-
-### Keyring
-
-Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations and the signing of any data.
-
-you can create an instance by just creating an instance of the **Keyring** class
-
-```typescript
-// Import the keyring as required
-import { Keyring } from '@polkadot/api';
-// Initialize the API as we would normally do
-...
-// Create a keyring instance
-const keyring = new Keyring({ type: 'sr25519' });
-
-```
-
-### Transactions
-
-Transaction endpoints are exposed, as determined by the metadata, on the api.tx endpoint. These allow you to submit transactions for inclusion in blocks, be it transfers, setting information or anything else your chain supports.
-
-This is an example of sending a basic transaction
-
-```javascript
-// Initialize the API provider as in the previous section
-...
-
-const BOB = '<wallet address>';
-const transferAmount = '123456789';
-// Create a extrinsic, transferring amount units to Bob.
-const transfer = api.tx.balances.transfer(BOB, transferAmount);
-const keyring = new Keyring({ type: 'sr25519' });
-
-// Add Alice to our keyring with a private key
-const alice = keyring.addFromUri('*** mnemonic  ***');
-
-await transfer.signAndSend(alice, ({ events = [], status }) => {
-  if (status.isInBlock) {
-    console.log('Successful transfer of ' + transferAmount + ' with hash ' + status.asInBlock.toHex());
-  } else {
-    console.log('Status of transfer: ' + status.type);
-  }
-
-  events.forEach(({ phase, event: { data, method, section } }) => {
-    console.log(phase.toString() + ' : ' + section + '.' + method + ' ' + data.toString());
-    if (status.type === 'Finalized' && section + '.' + method === 'system.ExtrinsicSuccess') {
-      console.log('transfer success');
-      api.disconnect();
-    }
-  });
-
-```
-
-Any transaction will emit events, as a bare minimum this will always be either a system.ExtrinsicSuccess or system.ExtrinsicFailed event for the specific transaction. These provide the overall execution result for the transaction, i.e. execution has succeeded or failed.
 
 ### API-Derive
 
