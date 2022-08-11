@@ -21,12 +21,7 @@ Install libarries
 
 ```nodejs
 
-yarn add @polkadot/api \
- @darwinia/types \
- @darwinia/api-augment \
- @darwinia/types-augment \
- @darwinia/rpc-augment \
- @darwinia/types-known 
+yarn add @darwinia/api-options
 
 ```
 
