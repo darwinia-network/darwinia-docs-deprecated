@@ -234,15 +234,9 @@ The following sections contain the module constants, also known as parameter typ
 
 - [<font color="blue" size="5">bridgeCrabGrandpa</font>](#bridgeCrabGrandpa)
 - [<font color="blue" size="5">bridgeCrabMessages</font>](#bridgeCrabMessages)
-- [<font color="blue" size="5">ethereumBacking</font>](#ethereumBacking)
-- [<font color="blue" size="5">ethereumRelay</font>](#ethereumRelay)
-- [<font color="blue" size="5">ethereumRelayAuthorities</font>](#ethereumRelayAuthorities)
-- [<font color="blue" size="5">ethereumRelayerGame</font>](#ethereumRelayerGame)
 - [<font color="blue" size="5">feeMarket</font>](#feeMarket)
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
-
-- [<font color="blue" size="5">proxy</font>](#proxy)
 - [<font color="blue" size="5">toCrabBacking</font>](#toCrabBacking)
 - [<font color="blue" size="5">tronBacking</font>](#tronBacking)
 
@@ -286,6 +280,246 @@ The following sections contain the module constants, also known as parameter typ
 
 
  - **summary**: Gets the chain id value from the instance.<br></br>
+
+
+<span id="feeMarket"><font size="6">feeMarket</font></span>
+<br></br>
+<br></br>
+
+<font size="5">assignedRelayersRewardRatio: Permill </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.assignedRelayersRewardRatio`<br></br>
+
+
+ - **summary**: Reward parameters.<br></br>
+
+
+
+<font size="5">collateralPerOrder: u128 </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.collateralPerOrder`<br></br>
+
+
+ - **summary**: The collateral relayer need to lock for each order.<br></br>
+
+
+<font size="5">minimumRelayFee: u128 </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.minimumRelayFee`<br></br>
+
+
+ - **summary**: The minimum fee for relaying.<br></br>
+
+
+
+<font size="5">slot: u32 </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.slot`<br></br>
+
+
+ - **summary**: The slot times set.<br></br>
+
+
+
+<font size="5">treasuryPalletId: FrameSupportPalletId </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.treasuryPalletId`<br></br>
+
+
+ - **summary**: Some reward goes to Treasury.<br></br>
+
+
+
+<font size="5">messageRelayersRewardRatio: Permill </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.messageRelayersRewardRatio`<br></br>
+
+ - **summary**: <br></br>
+
+<font size="5">lockId: U8aFixed </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.lockId`<br></br>
+
+ - **summary**: <br></br>
+
+
+
+
+
+<span id="ktonTreasury"><font size="6">ktonTreasury</font></span>
+<br></br>
+<br></br>
+
+<font size="5">burn: Permill </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.burn`<br></br>
+
+- **summary**:  Percentage of spare funds (if any) that are burnt per spend period. <br></br>
+
+
+
+<font size="5">maxApprovals: u32 </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.maxApprovals`<br></br>
+
+- **summary**:  The maximum number of approvals that can wait in the spending queue. <br></br>
+
+
+
+<font size="5">palletId: FrameSupportPalletId </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.palletId`<br></br>
+
+- **summary**:  The treasury's pallet id, used for deriving its sovereign account ID. <br></br>
+
+
+<font size="5">proposalBond: Permill </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.proposalBond`<br></br>
+
+- **summary**: Fraction of a proposal's value that should be bonded in order to place the proposal. An accepted proposal gets these back. A rejected proposal does not. <br></br>
+
+
+
+<font size="5">proposalBondMinimum: u128 </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.proposalBondMinimum`<br></br>
+
+- **summary**: Minimum amount of funds that should be placed in a deposit for making a proposal. <br></br>
+
+
+<font size="5">spendPeriod: u32 </font>
+<br></br>
+
+- **interface**:  `api.consts.ktonTreasury.spendPeriod`<br></br>
+
+- **summary**: Period between successive spends. <br></br>
+
+
+
+
+ 
+
+<span id="phragmenElection"><font size="6">phragmenElection</font></span>
+<br></br>
+<br></br>
+
+
+<font size="5">candidacyBond: u128 </font>
+<br></br>
+
+- **interface**:  `api.consts.phragmenElection.candidacyBond`<br></br>
+
+- **summary**: How much should be locked up in order to submit one's candidacy. <br></br>
+
+<font size="5">desiredMembers: u32 </font>
+<br></br>
+
+- **interface**:  `api.consts.phragmenElection.desiredMembers`<br></br>
+
+- **summary**: Number of members to elect. <br></br>
+
+
+
+
+<font size="5">desiredRunnersUp: u32 </font>
+<br></br>
+
+- **interface**:  `api.consts.phragmenElection.desiredRunnersUp`<br></br>
+
+- **summary**: Number of runners_up to keep. <br></br>
+
+
+
+<font size="5">votingBondBase: u128 </font>
+<br></br>
+
+- **interface**:  `api.consts.phragmenElection.votingBondBase`<br></br>
+
+- **summary**: Base deposit associated with voting. <br></br>
+
+  This should be sensibly high to economically ensure the pallet cannot be attacked by creating a gigantic number of votes.
+
+
+<font size="5">votingBondFactor: u128 </font>
+<br></br>
+
+- **interface**:  `api.consts.phragmenElection.votingBondFactor`<br></br>
+
+- **summary**: The amount of bond that need to be locked for each vote (32 bytes). <br></br>
+
+
+
+
+<span id="toCrabBacking"><font size="6">toCrabBacking</font></span>
+<br></br>
+<br></br>
+
+
+
+<font size="5">maxLockRingAmountPerTx: u128 </font>
+<br></br>
+
+- **interface**:  `api.consts.toCrabBacking.maxLockRingAmountPerTx`<br></br>
+
+- **summary**: The max lock amount per transaction for security. <br></br>
+
+
+
+<font size="5">ringMetadata: DpAssetTokenMetadata </font>
+<br></br>
+
+- **interface**:  `api.consts.toCrabBacking.ringMetadata`<br></br>
+
+- **summary**: The local ring metadata. <br></br>
+
+
+<font size="5">palletId: FrameSupportPalletId </font>
+<br></br>
+
+- **interface**:  `api.consts.toCrabBacking.palletId`<br></br>
+
+- **summary**: The pallet id of this pallet. <br></br>
+
+
+
+
+
+<span id="tronBacking"><font size="6">tronBacking</font></span>
+<br></br>
+<br></br>
+
+
+<font size="5">palletId: FrameSupportPalletId </font>
+<br></br>
+
+- **interface**:  `api.consts.tronBacking.palletId`<br></br>
+
+- **summary**: The pallet id of this pallet. <br></br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
