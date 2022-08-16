@@ -233,7 +233,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.assignedRelayers`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: The assigned relayers at this moment, empty if the registered assigned relayers not enough. <br></br>
 
 
  <font size="5">assignedRelayersNumber():u32 </font>
@@ -242,7 +242,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.assignedRelayersNumber`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: The assigned relayers number. <br></br>
 
 
 
@@ -252,7 +252,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.collateralSlashProtect`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: The maximum slash value for assigned relayer. <br></br>
 
 
 
@@ -262,7 +262,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.orders`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: Order storage, please note that the order storage will be deleted after confirmed.<br></br>
 
 
 
@@ -272,7 +272,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.relayers`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: List of all relayers. <br></br>
 
 
 
@@ -282,7 +282,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **interface**:  `api.query.feeMarket.relayersMap`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: The relayer's detail info. <br></br>
 
 
 

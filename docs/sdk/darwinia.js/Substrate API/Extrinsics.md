@@ -157,17 +157,6 @@ The following sections contain Extrinsics methods are part of the default Darwin
  <br></br>
  <br></br>
 
-
-
-
-  <font size="5">cancelEnrollment() </font>
- <br></br>
-
- - **interface**:  `api.tx.feeMarket.cancelEnrollment`<br></br>
-
-
- - **summary**: Cancel enrolled relayer(Update market needed).<br></br>
-
   <font size="5">enrollAndLockCollateral(lockCollateral:u128, relayFee:u128) </font>
  <br></br>
 
@@ -176,7 +165,13 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
  - **summary**:Any accounts can enroll to be a relayer by lock collateral. The relay fee is optional.<br></br>
 
+  <font size="5">cancelEnrollment() </font>
+ <br></br>
 
+ - **interface**:  `api.tx.feeMarket.cancelEnrollment`<br></br>
+
+
+ - **summary**: Cancel enrolled relayer.<br></br>
 
 
   <font size="5">setAssignedRelayersNumber(number:u32) </font>
@@ -185,7 +180,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **interface**:  `api.tx.feeMarket.setAssignedRelayersNumber`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary**: Set the account of assigned relayers(Only for sudo).<br></br>
 
 
 
@@ -195,7 +190,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **interface**:  `api.tx.feeMarket.setSlashProtect`<br></br>
 
 
- - **summary**:<br></br>
+ - **summary** Set the maximum allowed slash value for the assigned relayer(Only for sudo).<br></br>
 
 
   <font size="5">updateLockedCollateral(newCollateral:u128) </font>

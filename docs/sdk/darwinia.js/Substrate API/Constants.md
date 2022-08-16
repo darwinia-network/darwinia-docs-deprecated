@@ -66,14 +66,35 @@ The following sections contain the module constants, also known as parameter typ
 <br></br>
 <br></br>
 
-<font size="5">assignedRelayersRewardRatio: Permill </font>
+<font size="5">guardRelayersRewardRatio: Permill </font>
  <br></br>
 
- - **interface**:  `api.consts.feeMarket.assignedRelayersRewardRatio`<br></br>
+ - **interface**:  `api.consts.feeMarket.guardRelayersRewardRatio`<br></br>
 
 
- - **summary**: Reward parameters.<br></br>
+ - **summary**: Percentage of reward for assigned relayers on duty after a message is successfully delivered.<br></br>
 
+<font size="5">assignedRelayerSlashRatio: Permill </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.assignedRelayerSlashRatio`<br></br>
+
+
+ - **summary**: Assigned relayers collateral slash percentage after message delivery failure.<br></br>
+
+<font size="5">messageRelayersRewardRatio: Permill </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.messageRelayersRewardRatio`<br></br>
+
+ - **summary**: The percentage of relayer that gets rewarded for delivering the message. <br></br>
+
+<font size="5">confirmRelayersRewardRatio: Permill </font>
+ <br></br>
+
+ - **interface**:  `api.consts.feeMarket.confirmRelayersRewardRatio`<br></br>
+
+ - **summary**: The percentage of relayer that gets rewarded for confirming the message. <br></br>
 
 
 <font size="5">collateralPerOrder: u128 </font>
@@ -91,8 +112,7 @@ The following sections contain the module constants, also known as parameter typ
  - **interface**:  `api.consts.feeMarket.minimumRelayFee`<br></br>
 
 
- - **summary**: The minimum fee for relaying.<br></br>
-
+ - **summary**: Minimum relay fee requirement for bridgers when they enroll the fee market. <br></br>
 
 
 <font size="5">slot: u32 </font>
@@ -111,23 +131,14 @@ The following sections contain the module constants, also known as parameter typ
  - **interface**:  `api.consts.feeMarket.treasuryPalletId`<br></br>
 
 
- - **summary**: Some reward goes to Treasury.<br></br>
-
-
-
-<font size="5">messageRelayersRewardRatio: Permill </font>
- <br></br>
-
- - **interface**:  `api.consts.feeMarket.messageRelayersRewardRatio`<br></br>
-
- - **summary**: <br></br>
+ - **summary**: The treasury id.<br></br>
 
 <font size="5">lockId: U8aFixed </font>
  <br></br>
 
  - **interface**:  `api.consts.feeMarket.lockId`<br></br>
 
- - **summary**: <br></br>
+ - **summary**: The lock id for relayer's collateral. <br></br>
 
 
 
