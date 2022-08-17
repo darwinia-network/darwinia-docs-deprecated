@@ -17,7 +17,7 @@ The following sections contain the module constants, also known as parameter typ
 - [<font color="blue" size="5">feeMarket</font>](#feeMarket)
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
-- [<font color="blue" size="5">toCrabBacking</font>](#toCrabBacking)
+
 - [<font color="blue" size="5">tronBacking</font>](#tronBacking)
 
  
@@ -250,40 +250,6 @@ The following sections contain the module constants, also known as parameter typ
 - **interface**:  `api.consts.phragmenElection.votingBondFactor`<br></br>
 
 - **summary**: The amount of bond that need to be locked for each vote (32 bytes). <br></br>
-
-
-
-
-<span id="toCrabBacking"><font size="6">toCrabBacking</font></span>
-<br></br>
-<br></br>
-
-
-
-<font size="5">maxLockRingAmountPerTx: u128 </font>
-<br></br>
-
-- **interface**:  `api.consts.toCrabBacking.maxLockRingAmountPerTx`<br></br>
-
-- **summary**: The max lock amount per transaction for security. <br></br>
-
-
-
-<font size="5">ringMetadata: DpAssetTokenMetadata </font>
-<br></br>
-
-- **interface**:  `api.consts.toCrabBacking.ringMetadata`<br></br>
-
-- **summary**: The local ring metadata. <br></br>
-
-
-<font size="5">palletId: FrameSupportPalletId </font>
-<br></br>
-
-- **interface**:  `api.consts.toCrabBacking.palletId`<br></br>
-
-- **summary**: The pallet id of this pallet. <br></br>
-
 
 
 

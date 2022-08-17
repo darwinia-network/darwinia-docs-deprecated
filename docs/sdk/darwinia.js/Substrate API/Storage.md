@@ -18,7 +18,6 @@ The following sections contain Storage methods are part of the default Darwinia 
 - [<font color="blue" size="5">feeMarket</font>](#feeMarket)
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
-- [<font color="blue" size="5">toCrabBacking</font>](#toCrabBacking)
 - [<font color="blue" size="5">kton</font>](#kton)
 
 
@@ -374,54 +373,6 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
  - **summary**:Votes and locked stake of a particular voter.<br></br>
-
-
-
-
-<span id="toCrabBacking"><font size="6">toCrabBacking</font></span>
- <br></br>
- <br></br>
-
-
-<font size="5">remoteMappingTokenFactoryAccount(arg:AccountId32):AccountId32</font>
- <br></br>
-
- - **interface**:  `api.query.toCrabBacking.remoteMappingTokenFactoryAccount`<br></br>
-
-
- - **summary**:The remote mapping token factory account, here use to ensure the remote caller.<br></br>
-
-
-
- <font size="5">secureLimitedPeriod():u32</font>
- <br></br>
-
- - **interface**:  `api.query.toCrabBacking.secureLimitedPeriod`<br></br>
-
-
- - **summary**:Period between security limitation. Zero means there is no period limitation.<br></br>
-
-
-
- <font size="5">secureLimitedRingAmount():ITuple&lt;[u128, u128]&gt;</font>
- <br></br>
-
- - **interface**:  `api.query.toCrabBacking.secureLimitedRingAmount`<br></br>
-
-
- - **summary**:`(Spent, Maximum)` amount of *RING* security limitation each [`LimitedPeriod`].<br></br>
-
-
-
-  <font size="5">transactionInfos(arg:ITuple&lt;[U8aFixed, u64]&gt;):Option&lt;ITuple&lt;[AccountId32, u128]&gt;&gt;</font>
- <br></br>
-
- - **interface**:  `api.query.toCrabBacking.transactionInfos`<br></br>
-
-
- - **summary**:`(sender, amount)` the user *sender* lock and remote issuing amount of asset.<br></br>
-
-
 
 
 

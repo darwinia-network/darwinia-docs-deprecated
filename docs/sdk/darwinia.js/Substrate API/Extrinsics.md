@@ -18,7 +18,6 @@ The following sections contain Extrinsics methods are part of the default Darwin
 - [<font color="blue" size="5">feeMarket</font>](#feeMarket)
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
-- [<font color="blue" size="5">toCrabBacking</font>](#toCrabBacking)
 - [<font color="blue" size="5">kton</font>](#kton)
 
 ***
@@ -309,70 +308,6 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  - **summary**:Vote for a set of candidates for the upcoming round of election. This can be called to set the initial votes, or update already existing votes.<br></br>
-
-
-
-
-<span id="toCrabBacking"><font size="6">toCrabBacking</font></span>
- <br></br>
- <br></br>
-
-
-
-  <font size="5">lockAndRemoteIssue(specVersion:u32,weight:u64, value:u128, fee:u128,recipient:H160) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.lockAndRemoteIssue`<br></br>
-
-
- - **summary**:Lock token in this chain and cross transfer to the target chain.<br></br>
-
-
-<font size="5">registerAndRemoteCreate(specVersion:u32,weight:u64, value:u128, fee:u128,recipient:H160) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.registerAndRemoteCreate`<br></br>
-
-
- - **summary**:<br></br>
-
-
- <font size="5">setRemoteMappingTokenFactoryAccount(account:AccountId32) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.setRemoteMappingTokenFactoryAccount`<br></br>
-
-
- - **summary**:<br></br>
-
-  <font size="5">setSecureLimitedPeriod(period:u32) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.setSecureLimitedPeriod`<br></br>
-
-
- - **summary**:<br></br>
-
-
-  <font size="5">setSecurityLimitationRingAmount(limitation:u128) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.setSecurityLimitationRingAmount`<br></br>
-
-
- - **summary**:<br></br>
-
-
-
-  <font size="5">unlockFromRemote(tokenAddress:H160,amount:U256, recipient:Bytes ) </font>
- <br></br>
-
- - **interface**:  `api.tx.toCrabBacking.unlockFromRemote`<br></br>
-
-
- - **summary**:Receive target chain locked message and unlock token in this chain.<br></br>
-
-
 
 
 
