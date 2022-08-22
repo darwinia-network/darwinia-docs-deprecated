@@ -2,23 +2,23 @@
 sidebar_position: 2
 ---
 
-# Know Your Cross-chain Status
+# Determining Cross-chain Status
 
 ## Events
 
-The cross-chain status is known by listening to events on the chain, and there are two events related to the cross-chain:
+The cross-chain status is determined by listening to events on the chain. There are two events related to cross-chain status:
 
 - `MessageAccepted` event of source chain
 
-  When the cross-chain transaction is sent successfully on the source chain, the "MessageAccepted" event will be emitted.
+  When a cross-chain transaction is sent successfully on the source chain, the "MessageAccepted" event will be emitted.
 
 - `MessageDispatched` event of target chain
 
-  When the task carried by the cross-chain message is executed on the target chain, the "MessageDispatched" event will be emitted.
+  When the tasks carried within a cross-chain message have been executed on the target chain, the "MessageDispatched" event will be emitted.
 
 - `MessageDelivered` event of source chain
 
-  When the cross-chain message is confirmed on the source chain, the "MessageDelivered" event will be emitted.
+  When the cross-chain message has been confirmed on the source chain, the "MessageDelivered" event will be emitted.
 
 ## View events in Subscan
 
@@ -33,7 +33,7 @@ The cross-chain status can be viewed in [subscan.io](https://subscan.io/).
   `MessageDelivered`  
   https://CHAIN_NAME.subscan.io/event?module=bridgedarwiniamessages&event=messagesdelivered  
 
-Replace "CHAIN_NAME" with the real chain name.
+Replace "CHAIN_NAME" with the actual chain name.
 
 ## Track events with Darwinia.js
 
