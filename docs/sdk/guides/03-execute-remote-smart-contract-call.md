@@ -10,9 +10,9 @@ Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin Smart Chai
 
 ## Create a hardhat empty project
 
-Follow the [intructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
+Follow the [instructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
 
-Here we name the project `demo`.
+In this example, we have named the project `demo`.
 
 ## Install deps
 
@@ -21,17 +21,17 @@ cd demo
 npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 ```
 
-## Prepare your cross-chain endpoints
+## Prepare cross-chain endpoints
 
-We need two endpoints here. One is for Pangoro Smart Chain, and the another one is for Pangolin Smart Chain. 
-1. For convenience we download them directly. 
+In this example we need two endpoints. One is for Pangoro Smart Chain, and the another one is for Pangolin Smart Chain. 
+1. For convenience, the endpoints can be downloaded directly. 
 
     ```bash
     cd contracts
     wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/main/contracts/PangoroToPangolinEndpoint.sol
     wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/main/contracts/PangolinToPangoroEndpoint.sol
     ```
-    If you want to use them in a production environment, you need to add access control to them.
+    Please Note: If you want to use endpoints in a production environment, you need to add access control.
 
 2. Deploy `PangoroToPangolinEndpoint` to Pangoro Smart Chain.
    ```bash
@@ -48,11 +48,11 @@ We need two endpoints here. One is for Pangoro Smart Chain, and the another one 
    ```bash
    npx hardhat flatten ./PangolinToPangoroEndpoint.sol > ~/PangolinToPangoroEndpoint.sol
    ```
-   Copy the flattened PangolinToPangoroEndpoint.sol to Remix and deploy it to Pangolin Smart Chain
+   Copy the flattened PangolinToPangoroEndpoint.sol to Remix and deploy it to Pangolin Smart Chain.
 
    > [Pangolin Smart Chain Info](https://docs.crab.network/evm-compatible-crab-smart-chain/crab-faqs-network-rpc#pangolin-test-network-configuration-parameters)
 
-4. Call the `setRemoteEndpoint(_remoteChainId, _remoteEndpoint)` of the two endpoints to point to each other. 
+4. Call the `setRemoteEndpoint(_remoteChainId, _remoteEndpoint)` on the two endpoints so they point to each other. 
 
    The chain id of Pangoro Smart Chain is `0x70616772`. The chain id of Pangolin Smart Chain is `0x7061676c`.  
 
@@ -110,7 +110,7 @@ contract Caller {
 }
 ```
 
-Make sure that the latest spec version of pangolin is correct. You can get it from https://pangolin.subscan.io/runtime.
+Make sure that the latest spec version of Pangolin is correct. You can get it from https://pangolin.subscan.io/runtime.
 
 ```bash
 npx hardhat flatten ./Caller.sol > ~/Caller.sol
