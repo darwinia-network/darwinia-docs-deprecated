@@ -24,7 +24,7 @@ npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 
 ## Prepare cross-chain endpoint
 
-In this example we need one endpoint. Download it to your contracts folder.
+In this example, we need one endpoint. Download it to your contracts folder.
 
 ```bash
 cd contracts
