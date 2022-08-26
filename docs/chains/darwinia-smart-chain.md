@@ -52,13 +52,19 @@ Ethereum compatible:
 - `0x0000000000000000000000000000000000000007`: Bn128Mul
 - `0x0000000000000000000000000000000000000008`: Bn128Pairing
 - `0x0000000000000000000000000000000000000009`: Blake2F
-- `0x0000000000000000000000000000000000000400`: StateStorage
-- `0x0000000000000000000000000000000000000401`: Dispatch
 
 Darwinia dedicated:
 
 - `0x0000000000000000000000000000000000000400`: StateStorage
+    - This contract is used to get the storage values from substrate modules by storage key.
+    - Function signature: `state_storage(bytes)`
+    - Params: the substrate storage key
 - `0x0000000000000000000000000000000000000401`: Dispatch
+    - This contract is used to dispatch the substrate dispatch calls.
+    - Function signature: `(bytes)`
+    - Params: scale encoded substrate dispatch call
+- `0x0000000000000000000000000000000000000402`: KTON
+    - KTON contract which compatible with the Ethereum ERC20 protocol.
 
 #### For Pangoro Smart Chain
 
@@ -73,8 +79,6 @@ Ethereum compatible:
 - `0x0000000000000000000000000000000000000007`: Bn128Mul
 - `0x0000000000000000000000000000000000000008`: Bn128Pairing
 - `0x0000000000000000000000000000000000000009`: Blake2F
-- `0x0000000000000000000000000000000000000400`: StateStorage
-- `0x0000000000000000000000000000000000000401`: Dispatch
 
 Darwinia dedicated:
 
@@ -86,6 +90,8 @@ Darwinia dedicated:
     - This contract is used to dispatch the substrate dispatch calls.
     - Function signature: `(bytes)`
     - Params: scale encoded substrate dispatch call
+- `0x0000000000000000000000000000000000000402`: KTON
+    - KTON contract which compatible with the Ethereum ERC20 protocol.
 - `0x0000000000000000000000000000000000000800`: BLS12381
     - function signature: `fast_aggregate_verify(bytes[],bytes,bytes)`
     <!-- TODO: Add more descriptions about BLS1281 -->
