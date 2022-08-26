@@ -12,7 +12,7 @@ Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin](https://d
 
 ## Create a hardhat empty project
 
-Follow the [intructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
+Follow the [instructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
 
 In this example, we have named the project `demo`.
 
