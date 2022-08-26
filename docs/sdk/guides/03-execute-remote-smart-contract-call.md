@@ -23,7 +23,7 @@ npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 
 ## Prepare cross-chain endpoints
 
-In this example we need two endpoints. One is for Pangoro Smart Chain, and the another one is for Pangolin Smart Chain. 
+In this example, we need two endpoints. One is for Pangoro Smart Chain, and the other one is for Pangolin Smart Chain. 
 1. For convenience, the endpoints can be downloaded directly. 
 
     ```bash
