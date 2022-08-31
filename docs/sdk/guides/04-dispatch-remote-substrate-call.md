@@ -12,9 +12,9 @@ Pangoro Smart Chain is the testnet of Darwinia Smart Chain. [Pangolin](https://d
 
 ## Create a hardhat empty project
 
-Follow the [intructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
+Follow the [instructions](https://hardhat.org/hardhat-runner/docs/getting-started) to create an empty hardhat project.
 
-Here we name the project `demo`.
+In this example, we have named the project `demo`.
 
 ## Install deps
 
@@ -22,9 +22,9 @@ Here we name the project `demo`.
 npm install --save-dev @darwinia/contracts-periphery @darwinia/contracts-utils
 ```
 
-## Prepare your cross-chain endpoint
+## Prepare cross-chain endpoint
 
-We need one endpoint here. We can download it here to your contracts folder.
+In this example, we need one endpoint. Download it to your contracts folder.
 
 ```bash
 cd contracts
@@ -33,7 +33,7 @@ wget https://raw.githubusercontent.com/darwinia-network/darwinia-s2s-template/ma
 
 Deploy it on the Pangoro Smart Chain. The `remoteDispatch` function will be used in the next step.
 
-## Create your Dapp contract
+## Create the Dapp contract
 
 In your contracts folder, create a file `RemarkDemo.sol`.
 
