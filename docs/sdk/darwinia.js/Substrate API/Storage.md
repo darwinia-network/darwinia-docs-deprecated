@@ -27,12 +27,10 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="bridgeCrabGrandpa"><font size="6">bridgeCrabGrandpa</font></span>
  <br></br>
- <br></br>
-
-
+ 
 
   <font size="5">bestFinalized():H256 </font>
- <br></br>
+ 
 
  - **interface**:  `api.query.bridgeCrabGrandpa.bestFinalized`<br></br>
 
@@ -40,8 +38,9 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**: Hash of the best finalized header.<br></br>
 
 
-   <font size="5">currentAuthoritySet():BpHeaderChainAuthoritySet </font>
- <br></br>
+ <font size="5">currentAuthoritySet():BpHeaderChainAuthoritySet </font>
+
+
 
  - **interface**:  `api.query.bridgeCrabGrandpa.currentAuthoritySet`<br></br>
 
@@ -53,8 +52,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-   <font size="5">importedHashes(arg:u32):Option &lt;H256&gt; </font>
- <br></br>
+ <font size="5">importedHashes(arg:u32):Option &lt;H256&gt; </font>
+ 
 
  - **interface**:  `api.query.bridgeCrabGrandpa.importedHashes`<br></br>
 
@@ -64,8 +63,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-   <font size="5">importedHashesPointer():u32 </font>
- <br></br>
+<font size="5">importedHashesPointer():u32 </font>
+
 
  - **interface**:  `api.query.bridgeCrabGrandpa.importedHashesPointer`<br></br>
 
@@ -73,8 +72,8 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**: Current ring buffer position.<br></br>
 
 
-  <font size="5">importedHeaders(arg:H256):Option&lt;SpRuntimeHeader&gt; </font>
- <br></br>
+<font size="5">importedHeaders(arg:H256):Option&lt;SpRuntimeHeader&gt; </font>
+
 
  - **interface**:  `api.query.bridgeCrabGrandpa.importedHeaders`<br></br>
 
@@ -83,8 +82,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
- <font size="5">initialHash():H256 </font>
- <br></br>
+<font size="5">initialHash():H256 </font>
+
 
  - **interface**:  `api.query.bridgeCrabGrandpa.initialHash`<br></br>
 
@@ -93,8 +92,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
- <font size="5">isHalted():bool </font>
- <br></br>
+<font size="5">isHalted():bool </font>
+ 
 
  - **interface**:  `api.query.bridgeCrabGrandpa.isHalted`<br></br>
 
@@ -102,8 +101,8 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**: If true, all pallet transactions are failed immediately.<br></br>
 
 
-  <font size="5">palletOwner():Option&lt;AccountId32&gt; </font>
- <br></br>
+<font size="5">palletOwner():Option&lt;AccountId32&gt; </font>
+ 
 
  - **interface**:  `api.query.bridgeCrabGrandpa.palletOwner`<br></br>
 
@@ -111,8 +110,8 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**: Optional pallet owner.<br></br>
 
 
-  <font size="5">requestCount():u32 </font>
- <br></br>
+<font size="5">requestCount():u32 </font>
+
 
  - **interface**:  `api.query.bridgeCrabGrandpa.requestCount`<br></br>
 
@@ -127,13 +126,11 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="bridgeCrabMessages"><font size="6">bridgeCrabMessages</font></span>
  <br></br>
- <br></br>
 
 
 
+<font size="5">inboundLanes(arg:U8aFixed):BpMessagesInboundLaneData </font>
 
- <font size="5">inboundLanes(arg:U8aFixed):BpMessagesInboundLaneData </font>
- <br></br>
 
  - **interface**:  `api.query.bridgeCrabMessages.inboundLanes`<br></br>
 
@@ -141,18 +138,16 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**:Map of lane id => inbound lane data.<br></br>
 
 
+<font size="5">outboundLanes(arg:U8aFixed):BpMessagesInboundLaneData </font>
 
- <font size="5">outboundLanes(arg:U8aFixed):BpMessagesInboundLaneData </font>
- <br></br>
 
  - **interface**:  `api.query.bridgeCrabMessages.outboundLanes`<br></br>
 
 
  - **summary**:Map of lane id => outbound lane data.<br></br>
 
-
 <font size="5">outboundMessages(arg:BpMessagesMessageKey):Option&lt;BpMessagesMessageData&gt; </font>
- <br></br>
+
 
  - **interface**:  `api.query.bridgeCrabMessages.outboundMessages`<br></br>
 
@@ -162,8 +157,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
- <font size="5">palletOperatingMode():BpMessagesOperatingMode </font>
- <br></br>
+<font size="5">palletOperatingMode():BpMessagesOperatingMode </font>
+ 
 
  - **interface**:  `api.query.bridgeCrabMessages.palletOperatingMode`<br></br>
 
@@ -171,8 +166,7 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**:The current operating mode of the pallet.<br></br>
 
 
- <font size="5">palletOwner():Option&lr;AccountId32&gt; </font>
- <br></br>
+<font size="5">palletOwner():Option&lr;AccountId32&gt; </font>
 
  - **interface**:  `api.query.bridgeCrabMessages.palletOwner`<br></br>
 
@@ -185,11 +179,11 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="darwiniaHeaderMMR"><font size="6">darwiniaHeaderMMR</font></span>
  <br></br>
- <br></br>
+
 
 
 <font size="5">migrationStep():u32 </font>
- <br></br>
+
 
  - **interface**:  `api.query.darwiniaHeaderMMR.migrationStep`<br></br>
 
@@ -199,7 +193,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 <font size="5">mmrSize():u64 </font>
- <br></br>
+ 
 
  - **interface**:  `api.query.darwiniaHeaderMMR.mmrSize`<br></br>
 
@@ -210,7 +204,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 <font size="5">peaks(arg:u64):Option&lt;H256&gt; </font>
- <br></br>
+ 
 
  - **interface**:  `api.query.darwiniaHeaderMMR.peaks`<br></br>
 
@@ -222,12 +216,12 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="feeMarket"><font size="6">feeMarket</font></span>
  <br></br>
- <br></br>
+
 
 
 
 <font size="5">assignedRelayers():Option&lt;Vec&lt;PalletFeeMarketRelayer&gt;&gt; </font>
- <br></br>
+ 
 
  - **interface**:  `api.query.feeMarket.assignedRelayers`<br></br>
 
@@ -236,7 +230,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
  <font size="5">assignedRelayersNumber():u32 </font>
- <br></br>
+
 
  - **interface**:  `api.query.feeMarket.assignedRelayersNumber`<br></br>
 
@@ -246,7 +240,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
  <font size="5">collateralSlashProtect():Option&lt;u128&gt; </font>
- <br></br>
+
 
  - **interface**:  `api.query.feeMarket.collateralSlashProtect`<br></br>
 
@@ -256,7 +250,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
  <font size="5">orders(arg:ITuple&lt;[U8aFixed, u64]&gt;):Option&lt;PalletFeeMarketOrder&gt; </font>
- <br></br>
+ 
 
  - **interface**:  `api.query.feeMarket.orders`<br></br>
 
@@ -266,7 +260,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
   <font size="5">relayers():Vec&lt;AccountId32&gt; </font>
- <br></br>
+
 
  - **interface**:  `api.query.feeMarket.relayers`<br></br>
 
@@ -275,8 +269,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-  <font size="5">relayersMap(arg:AccountId32):PalletFeeMarketRelayer</font>
- <br></br>
+ <font size="5">relayersMap(arg:AccountId32):PalletFeeMarketRelayer</font>
+ 
 
  - **interface**:  `api.query.feeMarket.relayersMap`<br></br>
 
@@ -288,12 +282,12 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="ktonTreasury"><font size="6">ktonTreasury</font></span>
  <br></br>
- <br></br>
+
 
 
 
  <font size="5">approvals():Vec&lt;u32&gt;</font>
- <br></br>
+ 
 
  - **interface**:  `api.query.ktonTreasury.approvals`<br></br>
 
@@ -302,8 +296,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-  <font size="5">proposalCount():u32</font>
- <br></br>
+ <font size="5">proposalCount():u32</font>
+
 
  - **interface**:  `api.query.ktonTreasury.proposalCount`<br></br>
 
@@ -313,7 +307,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 <font size="5">proposals(arg:u32):Option&lt;PalletTreasuryProposal&gt;</font>
- <br></br>
+
 
  - **interface**:  `api.query.ktonTreasury.proposals`<br></br>
 
@@ -324,11 +318,11 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="phragmenElection"><font size="6">phragmenElection</font></span>
  <br></br>
- <br></br>
 
 
- <font size="5">candidates(arg:u32):Vec&lt;ITuple&lt;[AccountId32, u128]&gt;&gt;</font>
- <br></br>
+
+<font size="5">candidates(arg:u32):Vec&lt;ITuple&lt;[AccountId32, u128]&gt;&gt;</font>
+ 
 
  - **interface**:  `api.query.phragmenElection.candidates`<br></br>
 
@@ -337,8 +331,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
- <font size="5">electionRounds():u32</font>
- <br></br>
+<font size="5">electionRounds():u32</font>
+
 
  - **interface**:  `api.query.phragmenElection.electionRounds`<br></br>
 
@@ -347,8 +341,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-  <font size="5">members():Vec&lt;PalletElectionsPhragmenSeatHolder&gt;</font>
- <br></br>
+ <font size="5">members():Vec&lt;PalletElectionsPhragmenSeatHolder&gt;</font>
+
 
  - **interface**:  `api.query.phragmenElection.members`<br></br>
 
@@ -357,8 +351,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-   <font size="5">runnersUp():Vec&lt;PalletElectionsPhragmenSeatHolder&gt;</font>
- <br></br>
+ <font size="5">runnersUp():Vec&lt;PalletElectionsPhragmenSeatHolder&gt;</font>
+ 
 
  - **interface**:  `api.query.phragmenElection.runnersUp`<br></br>
 
@@ -366,8 +360,8 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**:The current reserved runners-up.<br></br>
 
 
-  <font size="5">voting(arg:AccountId32):PalletElectionsPhragmenVoter</font>
- <br></br>
+ <font size="5">voting(arg:AccountId32):PalletElectionsPhragmenVoter</font>
+ 
 
  - **interface**:  `api.query.phragmenElection.voting`<br></br>
 
@@ -378,11 +372,11 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 <span id="kton"><font size="6">kton</font></span>
  <br></br>
- <br></br>
 
 
-   <font size="5">account(arg:AccountId32):DarwiniaCommonRuntimeImplsAccountData</font>
- <br></br>
+
+ <font size="5">account(arg:AccountId32):DarwiniaCommonRuntimeImplsAccountData</font>
+
 
  - **interface**:  `api.query.kton.account`<br></br>
 
@@ -392,8 +386,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-   <font size="5">locks(arg:AccountId32):Vec&lt;PalletBalancesBalanceLock&gt;</font>
- <br></br>
+ <font size="5">locks(arg:AccountId32):Vec&lt;PalletBalancesBalanceLock&gt;</font>
+ 
 
  - **interface**:  `api.query.kton.locks`<br></br>
 
@@ -401,8 +395,8 @@ The following sections contain Storage methods are part of the default Darwinia 
  - **summary**:Any liquidity locks on some account balances.<br></br>
 
 
- <font size="5">reserves(arg:AccountId32):Vec&lt;DarwiniaBalancesReserveData&gt;</font>
- <br></br>
+<font size="5">reserves(arg:AccountId32):Vec&lt;DarwiniaBalancesReserveData&gt;</font>
+ 
 
  - **interface**:  `api.query.kton.reserves`<br></br>
 
@@ -411,8 +405,8 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
-  <font size="5">storageVersion():DarwiniaBalancesReleases</font>
- <br></br>
+ <font size="5">storageVersion():DarwiniaBalancesReleases</font>
+ 
 
  - **interface**:  `api.query.kton.storageVersion`<br></br>
 
@@ -423,7 +417,7 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
  <font size="5">totalIssuance():u128</font>
- <br></br>
+
 
  - **interface**:  `api.query.kton.totalIssuance`<br></br>
 

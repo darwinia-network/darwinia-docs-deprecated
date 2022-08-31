@@ -26,11 +26,9 @@ The following sections contain the module constants, also known as parameter typ
 ***
 
 <span id="bridgeCrabGrandpa"><font size="6">bridgeCrabGrandpa</font></span>
- <br></br>
- <br></br>
+<br></br>
 
  <font size="5">headersToKeep: u32 </font>
- <br></br>
 
  - **interface**:  `api.consts.bridgeCrabGrandpa.headersToKeep`<br></br>
 
@@ -50,7 +48,6 @@ The following sections contain the module constants, also known as parameter typ
 
 <span id="bridgeCrabMessages"><font size="6">bridgeCrabMessages</font></span>
 <br></br>
-<br></br>
 <font size="5">bridgedChainId: u8aFixed </font>
 
 
@@ -64,10 +61,10 @@ The following sections contain the module constants, also known as parameter typ
 
 <span id="feeMarket"><font size="6">feeMarket</font></span>
 <br></br>
-<br></br>
+
 
 <font size="5">guardRelayersRewardRatio: Permill </font>
- <br></br>
+
 
  - **interface**:  `api.consts.feeMarket.guardRelayersRewardRatio`<br></br>
 
@@ -75,7 +72,7 @@ The following sections contain the module constants, also known as parameter typ
  - **summary**: Percentage of reward for assigned relayers on duty after a message is successfully delivered.<br></br>
 
 <font size="5">assignedRelayerSlashRatio: Permill </font>
- <br></br>
+
 
  - **interface**:  `api.consts.feeMarket.assignedRelayerSlashRatio`<br></br>
 
@@ -83,14 +80,14 @@ The following sections contain the module constants, also known as parameter typ
  - **summary**: Assigned relayers collateral slash percentage after message delivery failure.<br></br>
 
 <font size="5">messageRelayersRewardRatio: Permill </font>
- <br></br>
+
 
  - **interface**:  `api.consts.feeMarket.messageRelayersRewardRatio`<br></br>
 
  - **summary**: The percentage of relayer that gets rewarded for delivering the message. <br></br>
 
 <font size="5">confirmRelayersRewardRatio: Permill </font>
- <br></br>
+ 
 
  - **interface**:  `api.consts.feeMarket.confirmRelayersRewardRatio`<br></br>
 
@@ -98,7 +95,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">collateralPerOrder: u128 </font>
- <br></br>
+ 
 
  - **interface**:  `api.consts.feeMarket.collateralPerOrder`<br></br>
 
@@ -107,7 +104,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">minimumRelayFee: u128 </font>
- <br></br>
+  
 
  - **interface**:  `api.consts.feeMarket.minimumRelayFee`<br></br>
 
@@ -116,7 +113,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">slot: u32 </font>
- <br></br>
+ 
 
  - **interface**:  `api.consts.feeMarket.slot`<br></br>
 
@@ -126,7 +123,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">treasuryPalletId: FrameSupportPalletId </font>
- <br></br>
+ 
 
  - **interface**:  `api.consts.feeMarket.treasuryPalletId`<br></br>
 
@@ -134,7 +131,7 @@ The following sections contain the module constants, also known as parameter typ
  - **summary**: The treasury id.<br></br>
 
 <font size="5">lockId: U8aFixed </font>
- <br></br>
+ 
 
  - **interface**:  `api.consts.feeMarket.lockId`<br></br>
 
@@ -146,10 +143,9 @@ The following sections contain the module constants, also known as parameter typ
 
 <span id="ktonTreasury"><font size="6">ktonTreasury</font></span>
 <br></br>
-<br></br>
 
 <font size="5">burn: Permill </font>
-<br></br>
+
 
 - **interface**:  `api.consts.ktonTreasury.burn`<br></br>
 
@@ -158,7 +154,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">maxApprovals: u32 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.ktonTreasury.maxApprovals`<br></br>
 
@@ -167,7 +163,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">palletId: FrameSupportPalletId </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.ktonTreasury.palletId`<br></br>
 
@@ -175,7 +171,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">proposalBond: Permill </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.ktonTreasury.proposalBond`<br></br>
 
@@ -184,7 +180,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">proposalBondMinimum: u128 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.ktonTreasury.proposalBondMinimum`<br></br>
 
@@ -192,7 +188,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">spendPeriod: u32 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.ktonTreasury.spendPeriod`<br></br>
 
@@ -201,22 +197,21 @@ The following sections contain the module constants, also known as parameter typ
 
 
 
- 
 
 <span id="phragmenElection"><font size="6">phragmenElection</font></span>
 <br></br>
-<br></br>
+ 
 
 
 <font size="5">candidacyBond: u128 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.phragmenElection.candidacyBond`<br></br>
 
 - **summary**: How much should be locked up in order to submit one's candidacy. <br></br>
 
 <font size="5">desiredMembers: u32 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.phragmenElection.desiredMembers`<br></br>
 
@@ -226,7 +221,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">desiredRunnersUp: u32 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.phragmenElection.desiredRunnersUp`<br></br>
 
@@ -235,7 +230,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">votingBondBase: u128 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.phragmenElection.votingBondBase`<br></br>
 
@@ -245,7 +240,7 @@ The following sections contain the module constants, also known as parameter typ
 
 
 <font size="5">votingBondFactor: u128 </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.phragmenElection.votingBondFactor`<br></br>
 
@@ -256,11 +251,10 @@ The following sections contain the module constants, also known as parameter typ
 
 <span id="tronBacking"><font size="6">tronBacking</font></span>
 <br></br>
-<br></br>
 
 
 <font size="5">palletId: FrameSupportPalletId </font>
-<br></br>
+ 
 
 - **interface**:  `api.consts.tronBacking.palletId`<br></br>
 

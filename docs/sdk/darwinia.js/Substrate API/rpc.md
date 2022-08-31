@@ -17,14 +17,10 @@ The following sections contain known RPC methods that may be available on Darwin
 
 <span id="net"><font size="6">net</font></span>
  <br></br>
- <br></br>
-
-
-
-
+ 
 
  <font size="5">listening():bool </font>
- <br></br>
+
 
  - **interface**:  `api.rpc.net.listening`<br></br>
 
@@ -33,7 +29,7 @@ The following sections contain known RPC methods that may be available on Darwin
 
 
  <font size="5">peerCount():Text </font>
- <br></br>
+
 
  - **interface**:  `api.rpc.net.peerCount`<br></br>
 
@@ -43,7 +39,7 @@ The following sections contain known RPC methods that may be available on Darwin
 
 
  <font size="5">version():Text </font>
- <br></br>
+
 
  - **interface**:  `api.rpc.net.version`<br></br>
 
@@ -54,11 +50,11 @@ The following sections contain known RPC methods that may be available on Darwin
 
 <span id="web3"><font size="6">web3</font></span>
  <br></br>
- <br></br>
+
 
 
  <font size="5">clientVersion():Text </font>
- <br></br>
+
 
  - **interface**:  `api.rpc.web3.clientVersion`<br></br>
 
@@ -67,7 +63,7 @@ The following sections contain known RPC methods that may be available on Darwin
 
 
   <font size="5">sha3(data:Bytes):H256 </font>
- <br></br>
+
 
  - **interface**:  `api.rpc.web3.sha3`<br></br>
 

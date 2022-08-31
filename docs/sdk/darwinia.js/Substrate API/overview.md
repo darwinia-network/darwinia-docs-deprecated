@@ -5,7 +5,7 @@ sidebar_position: 1
 # Overview
 
 
-[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia, Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
+[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
 
 ### Dependencies
 
@@ -17,7 +17,7 @@ The library sample mainly depends on the following libraries:
 
 ### Usage
 
-Install libarries
+Install library
 
 ```nodejs
 

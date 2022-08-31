@@ -25,10 +25,10 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="bridgeCrabGrandpa"><font size="6">bridgeCrabGrandpa</font></span>
  <br></br>
- <br></br>
+  
 
  <font size="5">initialize(initData:BpHeaderChainInitializationData) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabGrandpa.initialize`<br></br>
 
@@ -41,7 +41,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">setOperational(operational:boolean) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabGrandpa.setOperational`<br></br>
 
@@ -51,7 +51,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">setOwner(newOwner:AccountId32) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabGrandpa.setOwner`<br></br>
 
@@ -74,10 +74,10 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="bridgeCrabMessages"><font size="6">bridgeCrabMessages</font></span>
  <br></br>
- <br></br>
+ 
 
 <font size="5">increaseMessageFee(laneId:U8aFixed,nonce: u64, additionalFee:u128) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabMessages.increaseMessageFee`<br></br>
 
@@ -88,7 +88,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">receiveMessagesDeliveryProof(proof:BridgeRuntimeCommonMessagesSourceFromBridgedChainMessagesDeliveryProof,relayersState: BpMessagesUnrewardedRelayersState) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabMessages.receiveMessagesDeliveryProof`<br></br>
 
@@ -98,7 +98,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 <font size="5">receiveMessagesProof(relayerIdAtBridgedChain:AccountId32,proof: BridgeRuntimeCommonMessagesTargetFromBridgedChainMessagesProof, messagesCount:u32, dispatchWeight:u64) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabMessages.receiveMessagesProof`<br></br>
 
@@ -110,7 +110,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 <font size="5">sendMessage(laneId:U8aFixed,payload: BpMessageDispatchMessagePayload, messagesCount:u32, deliveryAndDispatchFee:u128) </font>
- <br></br>
+  
 
  - **interface**:  `api.tx.bridgeCrabMessages.sendMessage`<br></br>
 
@@ -120,7 +120,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 <font size="5">setOperatingMode(operatingMode:BpMessagesOperatingMode) </font>
- <br></br>
+  
 
  - **interface**:  `api.tx.bridgeCrabMessages.setOperatingMode`<br></br>
 
@@ -129,7 +129,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">setOwner(newOwner:AccountId32) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabMessages.setOwner`<br></br>
 
@@ -140,7 +140,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">updatePalletParameter(parameter:DarwiniaRuntimeBridgesMessageCrabDarwiniaToCrabMessagesParameter) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.bridgeCrabMessages.updatePalletParameter`<br></br>
 
@@ -154,10 +154,10 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="feeMarket"><font size="6">feeMarket</font></span>
  <br></br>
- <br></br>
+ 
 
   <font size="5">enrollAndLockCollateral(lockCollateral:u128, relayFee:u128) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.feeMarket.enrollAndLockCollateral`<br></br>
 
@@ -165,7 +165,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **summary**:Any accounts can enroll to be a relayer by lock collateral. The relay fee is optional.<br></br>
 
   <font size="5">cancelEnrollment() </font>
- <br></br>
+  
 
  - **interface**:  `api.tx.feeMarket.cancelEnrollment`<br></br>
 
@@ -174,7 +174,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
   <font size="5">setAssignedRelayersNumber(number:u32) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.feeMarket.setAssignedRelayersNumber`<br></br>
 
@@ -184,7 +184,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">setSlashProtect(slashProtect:u128) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.feeMarket.setSlashProtect`<br></br>
 
@@ -193,7 +193,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
   <font size="5">updateLockedCollateral(newCollateral:u128) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.feeMarket.updateLockedCollateral`<br></br>
 
@@ -202,7 +202,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">updateRelayFee(newFee:u128) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.feeMarket.updateRelayFee`<br></br>
 
@@ -212,12 +212,12 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="ktonTreasury"><font size="6">ktonTreasury</font></span>
  <br></br>
- <br></br>
+ 
 
 
 
  <font size="5">approveProposal(proposalId:u32) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.ktonTreasury.approveProposal`<br></br>
 
@@ -227,7 +227,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
   <font size="5">proposeSpend(value:u128, beneficiary:MultiAddress) </font>
- <br></br>
+ 
 
  - **interface**:  `api.tx.ktonTreasury.proposeSpend`<br></br>
 
@@ -235,8 +235,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **summary**:Put forward a suggestion for spending. A deposit proportional to the value is reserved and slashed if the proposal is rejected. It is returned once the proposal is awarded.<br></br>
 
 
-   <font size="5">rejectProposal(proposalId:u32) </font>
- <br></br>
+<font size="5">rejectProposal(proposalId:u32) </font>
+ 
 
  - **interface**:  `api.tx.ktonTreasury.rejectProposal`<br></br>
 
@@ -246,11 +246,11 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="phragmenElection"><font size="6">phragmenElection</font></span>
  <br></br>
- <br></br>
+ 
 
 
    <font size="5">cleanDefunctVoters(numVoters:u32, numDefunct:u32) </font>
- <br></br>
+
 
  - **interface**:  `api.tx.phragmenElection.cleanDefunctVoters`<br></br>
 
@@ -260,8 +260,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
-   <font size="5">removeMember(who:MultiAddress, hasReplacement:boolean) </font>
- <br></br>
+ <font size="5">removeMember(who:MultiAddress, hasReplacement:boolean) </font>
+
 
  - **interface**:  `api.tx.phragmenElection.removeMember`<br></br>
 
@@ -270,9 +270,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
+<font size="5">removeVoter() </font>
 
-   <font size="5">removeVoter() </font>
- <br></br>
 
  - **interface**:  `api.tx.phragmenElection.removeVoter`<br></br>
 
@@ -280,18 +279,15 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **summary**:Remove `origin` as a voter.<br></br>
 
 
+<font size="5">renounceCandidacy(renouncing:PalletElectionsPhragmenRenouncing) </font>
 
-   <font size="5">renounceCandidacy(renouncing:PalletElectionsPhragmenRenouncing) </font>
- <br></br>
 
  - **interface**:  `api.tx.phragmenElection.renounceCandidacy`<br></br>
 
 
  - **summary**:Renounce one's intention to be a candidate for the next election round.<br></br>
 
-
-
-  <font size="5">submitCandidacy(candidateCount:u32) </font>
+<font size="5">submitCandidacy(candidateCount:u32) </font>
  <br></br>
 
  - **interface**:  `api.tx.phragmenElection.submitCandidacy`<br></br>
@@ -301,8 +297,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
-  <font size="5">vote(votes:AccountId32,value:u128) </font>
- <br></br>
+<font size="5">vote(votes:AccountId32,value:u128) </font>
 
  - **interface**:  `api.tx.phragmenElection.vote`<br></br>
 
@@ -313,12 +308,10 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 <span id="kton"><font size="6">kton</font></span>
  <br></br>
- <br></br>
 
 
+<font size="5">forceTransfer(source:MultiAddress,dest:MultiAddress, value:u128 ) </font>
 
-  <font size="5">forceTransfer(source:MultiAddress,dest:MultiAddress, value:u128 ) </font>
- <br></br>
 
  - **interface**:  `api.tx.kton.forceTransfer`<br></br>
 
@@ -328,8 +321,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
-  <font size="5">forceUnreserve(who:MultiAddress, amount:u128 ) </font>
- <br></br>
+ <font size="5">forceUnreserve(who:MultiAddress, amount:u128 ) </font>
+
 
  - **interface**:  `api.tx.kton.forceUnreserve`<br></br>
 
@@ -337,8 +330,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
  - **summary**:Unreserve some balance from a user by force.<br></br>
 
 
-   <font size="5">setBalance(who:MultiAddress, newFree:u128, newReserved:u128 ) </font>
- <br></br>
+<font size="5">setBalance(who:MultiAddress, newFree:u128, newReserved:u128 ) </font>
+ 
 
  - **interface**:  `api.tx.kton.setBalance`<br></br>
 
@@ -347,8 +340,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
-  <font size="5">transfer(dest:MultiAddress, value:u128 ) </font>
- <br></br>
+<font size="5">transfer(dest:MultiAddress, value:u128 ) </font>
+ 
 
  - **interface**:  `api.tx.kton.transfer`<br></br>
 
@@ -358,8 +351,8 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
 
-  <font size="5">transferAll(dest:MultiAddress, keepAlive:boolean ) </font>
- <br></br>
+<font size="5">transferAll(dest:MultiAddress, keepAlive:boolean ) </font>
+
 
  - **interface**:  `api.tx.kton.transferAll`<br></br>
 
@@ -369,7 +362,7 @@ The following sections contain Extrinsics methods are part of the default Darwin
 
 
  <font size="5">transferKeepAlive(dest:MultiAddress, value:u128 ) </font>
- <br></br>
+
 
  - **interface**:  `api.tx.kton.transferKeepAlive`<br></br>
 
