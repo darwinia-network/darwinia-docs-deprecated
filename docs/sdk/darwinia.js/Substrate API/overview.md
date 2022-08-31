@@ -5,7 +5,7 @@ sidebar_position: 1
 # Overview
 
 
-[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
+[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia and Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
 
 ### Dependencies
 
@@ -29,7 +29,7 @@ Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact
 
 
 
-1. applying Darwinia Chain type augmentation in tsconfig.json
+1. Applying Darwinia Chain type augmentation in tsconfig.json
 
 ```json
 {
@@ -46,7 +46,7 @@ Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact
 ```
 
 
-2. applying Pangoro Chain type augmentation in tsconfig.json
+2. Applying Pangoro Chain type augmentation in tsconfig.json
 
 
 
@@ -68,7 +68,7 @@ Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact
 
 ####  Create API Instance
 
-You must first instantiate an API instance of Darwinia.js api. Create the wsProvider using the websocket endpoint of the Darwinia node.
+You must first instantiate an API instance of the darwinia.js api. Create the wsProvider using the websocket endpoint of the Darwinia node.
 
 ```typescript
 // Import

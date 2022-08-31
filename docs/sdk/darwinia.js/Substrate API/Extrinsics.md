@@ -6,7 +6,7 @@ sidebar_position: 4
 
  
 
-The following sections contain Extrinsics methods are part of the default Darwinia runtime. On the api, these are exposed via api.tx.`<module>`.`<method>`.
+The following sections contain Extrinsics methods which are part of the default Darwinia runtime. On the api, these are exposed via api.tx.`<module>`.`<method>`.
 
 (NOTE: These were generated from a static/snapshot view of a recent Darwinia master node. Some items may not be available in older nodes, or in any customized implementations.)
 

@@ -7,7 +7,7 @@ sidebar_position: 2
 
 
 
-Common function derived from RPC calls and storage queries. Note that Darwinia.js libary version must be greate than v2.8.0 including api-derive feature.
+Common function derived from RPC calls and storage queries. Note that darwinia.js libary version must be greater than v2.8.0 to include the api-derive feature.
 
 Install it in your project directory with the following command:
 
@@ -30,7 +30,7 @@ const api = await ApiPromise.create({ provider: wsProvider, typesBundle: typesBu
 
 ```
 
-Since you are already familiar with the api.query interface, the api.derive interface follows the same format, for instance **usableBalance** derived function to query account's Ring Balance.
+Since you are already familiar with the api.query interface, the api.derive interface follows the same format, for instance **usableBalance** derived function to query account's RING Balance.
 
 ```typescript
 // Import darwinia token type (ring, kton)
