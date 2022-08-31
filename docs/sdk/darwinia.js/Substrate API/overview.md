@@ -39,7 +39,7 @@ Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact
       "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/index.d.ts"],
       "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
       "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/index.d.ts"],
-      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/index.d.ts"]
+      "@polkadot/types/lookup": ["./node_modules/@darwinia/types-augment/index.d.ts"]
     }
   }
 }
@@ -58,7 +58,7 @@ Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact
       "@polkadot/api-augment": ["./node_modules/@darwinia/api-augment/pangoro/index.d.ts"],
       "@polkadot/types-augment": ["./node_modules/@darwinia/types/interfaces/augment-types.d.ts"],
       "@polkadot/rpc-augment": ["./node_modules/@darwinia/rpc-augment/pangoro/index.d.ts"],
-      "@poladot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/pangoro/index.d.ts"]
+      "@polkadot/types/lookup": ["./node_modules/@darwinia/types-augment/lookup/pangoro/index.d.ts"]
     }
   }
 }
