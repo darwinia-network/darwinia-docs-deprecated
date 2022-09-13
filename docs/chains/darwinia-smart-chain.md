@@ -37,6 +37,15 @@ smart contracts from the Ethereum chain to run their business. In this article w
     - `wss://pangoro-rpc.darwinia.network`
 
 
+### Tokens
+
+| Token Symbol | Spec | Decimals | Smart Contract Address |
+| --- | --- | --- | --- |
+| RING | Native | 18 |  |
+| KTON | ERC20 | 18 | 0x0000000000000000000000000000000000000402 |
+| WRING | ERC20 | 18 | 0xE7578598Aac020abFB918f33A20faD5B71d670b4 |
+
+
 ### Precompiled Contracts
 
 #### For Darwinia Smart Chain
