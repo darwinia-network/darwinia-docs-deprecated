@@ -1,0 +1,51 @@
+.connectWalletBtn {
+  outline: none;
+  border: 2px solid rgb(216,0,115);
+  border-radius: 20px;
+  padding: 4px 8px;
+  background: transparent;
+  color: rgb(216,0,115);
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: medium;
+}
+.connectWalletBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.chainSelectModalTitle {
+  font-weight: bold;
+  font-size: larger;
+  margin: 0;
+}
+.networkItem {
+  margin: 6px 0;
+}
+.networkOption {
+  padding: 4px 20px;
+  display: inline-block;
+  border: 2px solid rgb(216,0,115);
+  border-radius: 20px;
+  min-width: 110px;
+  text-align: center;
+  background: transparent;
+  font-weight: bold;
+}
+.networkOption:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.networksModal :global(.ant-modal-content),
+.networksModal :global(.ant-modal-header) {
+  border-radius: 8px;
+}
+.networksModal :global(.ant-modal-body) {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 996px) {
+  .connectWalletBtn {
+    margin-right: 0;
+  }
+}
