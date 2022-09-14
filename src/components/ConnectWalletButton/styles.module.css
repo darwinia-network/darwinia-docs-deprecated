@@ -1,0 +1,45 @@
+.connectWalletBtn {
+  outline: none;
+  border: 1px solid rgb(216,0,115);
+  border-radius: 0.25rem;
+  padding: 6px 15px;
+  background: transparent;
+  color: rgb(216,0,115);
+  margin-right: 10px;
+  font-size: medium;
+}
+.connectWalletBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.chainSelectModalTitle {
+  font-weight: 400;
+  font-size: 19px;
+}
+.networkItem {
+  margin: 10px 0;
+}
+.networkOption {
+  padding: 8px 20px;
+  display: inline-block;
+  border: 1px solid rgb(216,0,115);
+  border-radius: 0.25rem;
+  min-width: 110px;
+  text-align: center;
+  background: transparent;
+  font-size: 16px;
+}
+.networkOption:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.connectedTo {
+  padding: 4.55px 0;
+  display: inline-block;
+}
+
+@media (max-width: 996px) {
+  .connectWalletBtn {
+    margin-right: 0;
+  }
+}

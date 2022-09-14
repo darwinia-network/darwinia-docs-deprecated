@@ -45,7 +45,24 @@ const config = {
         logo: {
           alt: 'Darwinia',
           src: 'img/favicon.svg',
-        }
+        },
+        items: [
+          /*{to: 'blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/darwinia-network/darwinia/tree/master/runtime/crab',
+            label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://darwinia.network/Darwinia_Genepaper_EN.pdf',
+            label: 'WhitePaper',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },*/
+        ],
       },
       footer: {
         style: 'dark',
