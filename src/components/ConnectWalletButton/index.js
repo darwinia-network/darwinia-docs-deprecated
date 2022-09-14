@@ -136,7 +136,7 @@ const ConnectWalletButton = () => {
                             <li key={index} className={styles.networkItem}>
                                 {
                                     connected && connected.index === index ? (
-                                        <span style={{padding: '4.55px 0', display: 'inline-block', fontWeight: 'bold'}}>
+                                        <span className={styles.connectedTo}>
                                                 Connected to {connected.chainName}: {ellipsisAddress(connected.account)}
                                             </span>
                                     ): (
@@ -157,7 +157,7 @@ const ConnectWalletButton = () => {
         <div>
             <Notification ref={notificationRef}/>
             <Dialog ref={dialogRef}
-                title={<h3 className={styles.chainSelectModalTitle}>Please select a network to connect</h3>}
+                title={<div className={styles.chainSelectModalTitle}>Please select a network to connect</div>}
                 body={dialogBody()}/>
             <button className={styles.connectWalletBtn} onClick={() => {
                 handleConnectToWallet()

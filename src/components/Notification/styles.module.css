@@ -38,17 +38,17 @@ html[data-theme='dark'] .wrapper {
 }
 .enterActive {
     transition: transform 200ms ease-in-out;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(1px, 0, 0);
 }
 .enterDone {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0px, 0, 0);
 }
 .exit {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(1px, 0, 0);
 }
 .exitActive {
     transition: transform 200ms ease-in-out;
-    transform: translate3d(110%, 0, 0);
+    transform: translate3d(109%, 0, 0);
 }
 .exitDone {
     transform: translate3d(110%, 0, 0);
