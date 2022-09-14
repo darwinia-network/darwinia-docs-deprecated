@@ -1,0 +1,55 @@
+.wrapper {
+    box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    width: 80%;
+    max-width: 320px;
+    z-index: 9999;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 90px;
+}
+html[data-theme='dark'] .wrapper {
+    background: #444444;
+    color: white;
+}
+.title {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+.danger {
+    color: red;
+}
+.closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+.closeBtn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.enter {
+    transform: translate3d(110%, 0, 0);
+}
+.enterActive {
+    transition: transform 200ms ease-in-out;
+    transform: translate3d(0, 0, 0);
+}
+.enterDone {
+    transform: translate3d(0, 0, 0);
+}
+.exit {
+    transform: translate3d(0, 0, 0);
+}
+.exitActive {
+    transition: transform 200ms ease-in-out;
+    transform: translate3d(110%, 0, 0);
+}
+.exitDone {
+    transform: translate3d(110%, 0, 0);
+}

@@ -1,0 +1,93 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+html[data-theme='dark'] .content {
+    background: #444444;
+    color: white;
+}
+.content {
+    position: absolute;
+    width: 85%;
+    max-width: 520px;
+    background: white;
+    border-radius: 8px;
+}
+.title {
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 45px;
+    position: relative;
+}
+html[data-theme='dark'] .title {
+    border-bottom-color: #606770;
+}
+.closeBtn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.closeBtn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.body {
+    padding: 10px;
+}
+
+.enter {
+    opacity: 0;
+}
+.enterActive {
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+}
+.enterDone {
+    opacity: 1;
+}
+.exit {
+    opacity: 1;
+}
+.exitActive {
+    transition: opacity 200ms ease-in-out;
+    opacity: 0;
+}
+.exitDone {
+    opacity: 0;
+}
+.enter .content {
+    transform: scale(0.5);
+}
+.enterActive .content {
+    transform: scale(1.15);
+    transition: transform 150ms ease-in-out;
+    transition-delay: 50ms;
+}
+.enterDone .content {
+    transform: scale(1);
+    transition: transform 150ms ease-in-out;
+}
+.exit .content {
+    transform: scale(1);
+}
+.exitActive .content {
+    transform: scale(0.5);
+    transition: transform 150ms ease-in-out;
+}
+.exitDone .content {
+    transform: scale(0.5);
+    transition: transform 150ms ease-in-out;
+}

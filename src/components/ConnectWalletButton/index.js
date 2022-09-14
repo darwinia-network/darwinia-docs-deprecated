@@ -1,7 +1,8 @@
 import React, {useRef, useState} from 'react';
 import styles from './styles.module.css';
-import 'antd/dist/antd.css';
-import {Modal, notification} from 'antd';
+import Notification from "../Notification";
+import Dialog from "../Dialog";
+
 
 
 const networksList = [
@@ -36,9 +37,13 @@ const ellipsisAddress = (address) => {
 const ConnectWalletButton = () => {
     const [connected, setConnected] = useState(null);
     const provider = useRef();
-    const [isDialogVisible, setDialogVisible] = useState(false);
+    const notificationRef = useRef(null);
+    const dialogRef = useRef(null);
     const handleConnectToWallet = () => {
-        setDialogVisible(true);
+        if(!dialogRef.current) {
+            return;
+        }
+        dialogRef.current.show();
     }
 
     const getMetamaskAccounts = async (networkIndex, chainName) => {
@@ -90,23 +95,25 @@ const ConnectWalletButton = () => {
                             await getMetamaskAccounts(index, networkParams.chainName);
                         }
                     } catch (addNetworkError) {
-                        notification.error({
-                            message: "Oops, something wrong",
-                            description: (addNetworkError).message,
+                        notificationRef.current.show({
+                            title: "Oops, something wrong",
+                            message: (addNetworkError).message,
+                            type: 'danger'
                         });
                     }
                 } else {
-                    notification.error({
-                        message: "Oops, something wrong",
-                        description: (switchNetworkError).message,
+                    notificationRef.current.show({
+                        title: "Oops, something wrong",
+                        message: (switchNetworkError).message,
+                        type: 'danger'
                     });
                 }
             }
         } else {
             // Metamask is not installed
-            notification.info({
-                message: "Oops, something is not quite right.",
-                description: (
+            notificationRef.current.show({
+                title: "Oops, something is not quite right.",
+                message: (
                     <p>
                         It looks like MetaMask hasn't been installed. Please{" "}
                         <a target="_blank" rel="noopener noreferrer" href="https://metamask.io/download.html">
@@ -119,37 +126,39 @@ const ConnectWalletButton = () => {
         }
     }
 
-    return (
-        <div>
-            <Modal
-                open={isDialogVisible}
-                title={<h3 className={styles.chainSelectModalTitle}>Please select a network to connect</h3>}
-                footer={null}
-                onCancel={() => setDialogVisible(false)}
-                className={styles.networksModal}
-            >
-                <ul>
-                    {
-                        networksList.map((item, index) => {
-                            return (
-                                <li key={index} className={styles.networkItem}>
-                                    {
-                                        connected && connected.index === index ? (
-                                            <span style={{padding: '6px 0', display: 'inline-block', fontWeight: 'bold'}}>
+
+    const dialogBody = () => {
+        return (
+            <ul>
+                {
+                    networksList.map((item, index) => {
+                        return (
+                            <li key={index} className={styles.networkItem}>
+                                {
+                                    connected && connected.index === index ? (
+                                        <span style={{padding: '4.55px 0', display: 'inline-block', fontWeight: 'bold'}}>
                                                 Connected to {connected.chainName}: {ellipsisAddress(connected.account)}
                                             </span>
-                                        ): (
-                                            <button className={styles.networkOption} onClick={() => {
-                                                onSelectNetwork(index)
-                                            }}>{item.chainName}</button>
-                                        )
-                                    }
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </Modal>
+                                    ): (
+                                        <button className={styles.networkOption} onClick={() => {
+                                            onSelectNetwork(index)
+                                        }}>{item.chainName}</button>
+                                    )
+                                }
+                            </li>
+                        )
+                    })
+                }
+            </ul>
+        )
+    }
+
+    return (
+        <div>
+            <Notification ref={notificationRef}/>
+            <Dialog ref={dialogRef}
+                title={<h3 className={styles.chainSelectModalTitle}>Please select a network to connect</h3>}
+                body={dialogBody()}/>
             <button className={styles.connectWalletBtn} onClick={() => {
                 handleConnectToWallet()
             }}>Connect Wallet
