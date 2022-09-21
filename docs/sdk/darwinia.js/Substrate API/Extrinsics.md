@@ -19,6 +19,14 @@ The following sections contain Extrinsics methods which are part of the default 
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
 - [<font color="blue" size="5">kton</font>](#kton)
+- [<font color="blue" size="5">baseFee</font>](#baseFee)
+- [<font color="blue" size="5">ecdsaAuthority</font>](#ecdsaAuthority)
+- [<font color="blue" size="5">ecdsaRelayAuthority</font>](#ecdsaRelayAuthority)
+- [<font color="blue" size="5">ethereum</font>](#ethereum)
+- [<font color="blue" size="5">ethereumBacking</font>](#ethereumBacking)
+- [<font color="blue" size="5">ethereumRelay</font>](#ethereumRelay)
+- [<font color="blue" size="5">evm</font>](#evm)
+
 
 ***
 
@@ -370,26 +378,454 @@ The following sections contain Extrinsics methods which are part of the default 
  - **summary**:Same as the [`transfer`] call, but with a check that the transfer will not kill the origin account.<br></br>
 
 
+<span id="baseFee"><font size="6">baseFee</font></span>
+ <br></br>
+
+ <font size="5">setBaseFeePerGas(fee:U256) </font>
+
+
+ - **interface**:  `api.tx.baseFee.setBaseFeePerGas`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+ <font size="5">setElasticity(elasticity: Permill | AnyNumber | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.baseFee.setElasticity`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+
+ <font size="5">setIsActive(isActive: bool | boolean | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.baseFee.setIsActive`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+
+
+<span id="ecdsaAuthority"><font size="6">ecdsaAuthority</font></span>
+ <br></br>
+
+ <font size="5">addAuthority(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaAuthority.addAuthority`<br></br>
+
+
+ - **summary**  Add a authority and trigger `on_authorities_change`.<br></br>
+
+
+ <font size="5">removeAuthority(old: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaAuthority.removeAuthority`<br></br>
+
+
+ - **summary**  Remove a authority and trigger `on_authorities_change`.<br></br>
+
+
+ <font size="5">submitAuthoritiesChangeSignature(address: H160 | string | Uint8Array, signature: SpCoreEcdsaSignature | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaAuthority.submitAuthoritiesChangeSignature`<br></br>
+
+
+ - **summary**  Submit the authorities change signature.<br></br>
+
+
+
+ <font size="5">submitNewMessageRootSignature(address: H160 | string | Uint8Array, signature: SpCoreEcdsaSignature | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaAuthority.submitNewMessageRootSignature`<br></br>
+
+
+ - **summary** Submit the new message root signature.<br></br>
+
+
+
+ <font size="5">swapAuthority(old: H160 | string | Uint8Array, updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaAuthority.swapAuthority`<br></br>
+
+
+ - **summary** Swap the old authority with the new authority and trigger `on_authorities_change`.<br></br>
+
+
+
+
+<span id="ecdsaRelayAuthority"><font size="6">ecdsaRelayAuthority</font></span>
+ <br></br>
+
+
+ 
+<font size="5">addAuthorities(accountIds: Vec&lt;AccountId32&gt;
+) </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.addAuthorities`<br></br>
+
+
+ - **summary**  Add an authority from the candidates.<br></br>
+
+
+
+<font size="5">cancelRequest() </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.cancelRequest`<br></br>
+
+
+ - **summary**  Cancel the request to be an authority.<br></br>
+
+
+<font size="5">forceNewTerm() </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.forceNewTerm`<br></br>
+
+
+ - **summary** <br></br>
+
+
+ <font size="5">killAuthorities() </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.killAuthorities`<br></br>
+
+
+ - **summary** Remove all the authority.<br></br>
+
+
+
+ <font size="5">killCandidates() </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.killCandidates`<br></br>
+
+
+ - **summary** Remove all the candidates.<br></br>
+
+
+
+
+ <font size="5">removeAuthorities(accountIds: Vec&lt;AccountId32&gt;
+) </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.removeAuthorities`<br></br>
+
+
+ - **summary** Remove the given authorities.<br></br>
+
+
+
+<font size="5">renounceAuthority() </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.renounceAuthority`<br></br>
+
+
+ - **summary** Renounce the authority of the account.<br></br>
+
+
+<font size="5">requestAuthority(stake: u128 | AnyNumber | Uint8Array, signer: U8aFixed | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.requestAuthority`<br></br>
+
+
+ - **summary** Request to be an authority.<br></br>
+
+
+
+<font size="5">submitSignedAuthorities(signature: U8aFixed | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.submitSignedAuthorities`<br></br>
+
+
+ - **summary** Require authority origin.<br></br>
+
+
+
+
+<font size="5">submitSignedMmrRoot(blockNumber: u32 | AnyNumber | Uint8Array, signature: U8aFixed | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ecdsaRelayAuthority.submitSignedMmrRoot`<br></br>
+
+
+ - **summary** <br></br>
+
+
+ 
+ <span id="ethereum"><font size="6">ethereum</font></span>
+ <br></br>
+
+
+<font size="5">messageTransact(transaction: EthereumTransactionTransactionV2  | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereum.messageTransact`<br></br>
+
+
+ - **summary** This is message transact only for substrate to substrate LCMP to call.<br></br>
+
+
+
+<font size="5">rootTransact(target: H160 | string | Uint8Array, input: Bytes | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereum.rootTransact`<br></br>
+
+
+ - **summary** Internal transaction only for root.<br></br>
+
+
+
+<font size="5">transact(transaction: EthereumTransactionTransactionV2  | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereum.transact`<br></br>
+
+
+ - **summary** This the endpoint of RPC Ethereum transaction, consistent with frontier.<br></br>
 
 
 
 
 
+ <span id="ethereumBacking"><font size="6">ethereumBacking</font></span>
+ <br></br>
+
+
+<font size="5">lock(ringToLock: Compact&lt;u128&gt; | AnyNumber | Uint8Array, ktonToLock: Compact&lt;u128&gt; | AnyNumber | Uint8Array, ethereumAccount: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.lock`<br></br>
+
+
+ - **summary** Lock some balances into the module account.<br></br>
+
+
+
+<font size="5">redeem(act: ToEthereumBackingRedeemFor) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.redeem`<br></br>
+
+
+ - **summary** Redeem balances.<br></br>
+
+
+
+<font size="5">setDepositRedeemAddress(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setDepositRedeemAddress`<br></br>
+
+
+ - **summary** Set a new deposit redeem address.<br></br>
+
+<font size="5">setKtonTokenAddress(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setKtonTokenAddress`<br></br>
+
+
+ - **summary** Set a new deposit Kton Token address.<br></br>
+
+
+<font size="5">setRedeemStatus(status: bool | boolean | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setRedeemStatus`<br></br>
+
+
+ - **summary** Set  redeem  status.<br></br>
+
+
+
+<font size="5">setRingTokenAddress(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setRingTokenAddress`<br></br>
+
+
+ - **summary** Set a new deposit Ring Token address.<br></br>
+
+
+
+<font size="5">setSetAuthoritiesAddress(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setSetAuthoritiesAddress`<br></br>
+
+
+ - **summary** Set a new authorities address.<br></br>
 
 
 
 
+<font size="5">setTokenRedeemAddress(updated: H160 | string | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.setTokenRedeemAddress`<br></br>
+
+
+ - **summary** Set a new token redeem address.<br></br>
+
+
+
+<font size="5">syncAuthoritiesChange(proof: ITuple&lt;[EthereumPrimitivesHeader, EthereumPrimitivesReceiptReceiptProof, DarwiniaBridgeEthereumMmrProof]&gt;) </font>
+
+
+ - **interface**:  `api.tx.ethereumBacking.syncAuthoritiesChange`<br></br>
+
+
+ - **summary** Set a new token redeem address.<br></br>
+
+
+
+<span id="ethereumRelay"><font size="6">ethereumRelay</font></span>
+ <br></br>
+
+
+<font size="5">affirm(ethereumRelayHeaderParcel: DarwiniaBridgeEthereumEthereumRelayHeaderParcel) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.affirm`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+ <font size="5">checkReceipt(ethereumProofRecord: EthereumPrimitivesReceiptReceiptProof) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.checkReceipt`<br></br>
+
+
+ - **summary**  Check and verify the receipt<br></br>
+
+
+ <font size="5">cleanConfirmedParcels() </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.cleanConfirmedParcels`<br></br>
+
+
+ - **summary**   <br></br>
+
+
+ <font size="5">completeRelayProofs(affirmationId: DpRelayerGameRelayAffirmationId) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.completeRelayProofs`<br></br>
+
+
+ - **summary**   <br></br>
+
+
+ <font size="5">disputeAndAffirm(ethereumRelayHeaderParcel: DarwiniaBridgeEthereumEthereumRelayHeaderParcel) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.disputeAndAffirm`<br></br>
+
+
+ - **summary**   <br></br>
+
+
+
+ <font size="5">extendAffirmation(extendedEthereumRelayAffirmationId: DpRelayerGameRelayAffirmationId) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.extendAffirmation`<br></br>
+
+
+ - **summary**   <br></br>
+
+
+ <font size="5">removeConfirmedParcelOf(confirmedBlockNumber: u64 | AnyNumber | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.removeConfirmedParcelOf`<br></br>
+
+
+ - **summary**   Remove the specific malicous confirmed parcel<br></br>
+
+
+
+<font size="5">setConfirmedParcel(ethereumRelayHeaderParcel: DarwiniaBridgeEthereumEthereumRelayHeaderParcel) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.setConfirmedParcel`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+
+<font size="5">setReceiptVerifyFee(updated: Compact&lt;u128&gt; | AnyNumber | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.setReceiptVerifyFee`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+ <font size="5">votePendingRelayHeaderParcel(ethereumBlockNumber: u64 | AnyNumber | Uint8Array, aye: bool | boolean | Uint8Array) </font>
+
+
+ - **interface**:  `api.tx.ethereumRelay.votePendingRelayHeaderParcel`<br></br>
+
+
+ - **summary**  <br></br>
+
+
+
+<span id="evm"><font size="6">evm</font></span>
+ <br></br>
+
+ <font size="5">call(source: H160 | string | Uint8Array, target: H160 | string | Uint8Array, input: Bytes | string | Uint8Array, value: U256 | AnyNumber | Uint8Array, gasLimit: u64 | AnyNumber | Uint8Array, maxFeePerGas: U256 | AnyNumber | Uint8Array, maxPriorityFeePerGas: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, nonce: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, accessList: Vec&lt;ITuple&lt;[H160, Vec&lt;H256&gt;]&gt;&gt; | ([H160 | string | Uint8Array, Vec&lt;H256&gt; | (H256 | string | Uint8Array)[]])[]) </font>
+
+
+ - **interface**:  `api.tx.evm.call`<br></br>
+
+
+ - **summary**  Issue an EVM call operation. This is similar to a message call transaction in Ethereum.<br></br> 
 
 
 
 
+ <font size="5">create(source: H160 | string | Uint8Array, init: Bytes | string | Uint8Array, value: U256 | AnyNumber | Uint8Array, gasLimit: u64 | AnyNumber | Uint8Array, maxFeePerGas: U256 | AnyNumber | Uint8Array, maxPriorityFeePerGas: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, nonce: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, accessList: Vec&lt;ITuple&lt;[H160, Vec&lt;H256&gt;]&gt;&gt; | ([H160 | string | Uint8Array, Vec&lt;H256&gt; | (H256 | string | Uint8Array)[]])[]) </font>
+
+
+ - **interface**:  `api.tx.evm.create`<br></br>
+
+
+ - **summary**    Issue an EVM create operation. This is similar to a contract creation transaction in Ethereum.<br></br> 
 
 
 
+ <font size="5">create2(source: H160 | string | Uint8Array, init: Bytes | string | Uint8Array, salt: H256 | string | Uint8Array, value: U256 | AnyNumber | Uint8Array, gasLimit: u64 | AnyNumber | Uint8Array, maxFeePerGas: U256 | AnyNumber | Uint8Array, maxPriorityFeePerGas: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, nonce: Option&lt;U256&gt; | null | Uint8Array | U256 | AnyNumber, accessList: Vec&lt;ITuple&lt;[H160, Vec&lt;H256&gt;]&gt;&gt; | ([H160 | string | Uint8Array, Vec&lt;H256&gt; | (H256 | string | Uint8Array)[]])[]) </font>
 
 
+ - **interface**:  `api.tx.evm.create2`<br></br>
 
 
+ - **summary**    Issue an EVM create2 operation.<br></br> 
 
 
 
