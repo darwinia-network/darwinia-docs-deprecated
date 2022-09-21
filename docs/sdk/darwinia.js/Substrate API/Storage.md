@@ -19,7 +19,16 @@ The following sections contain Storage methods are part of the default Darwinia 
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
 - [<font color="blue" size="5">kton</font>](#kton)
-
+- [<font color="blue" size="5">balances</font>](#balances)
+- [<font color="blue" size="5">baseFee</font>](#baseFee)
+- [<font color="blue" size="5">ecdsaAuthority</font>](#ecdsaAuthority)
+- [<font color="blue" size="5">ecdsaRelayAuthority</font>](#ecdsaRelayAuthority)
+- [<font color="blue" size="5">ethereum</font>](#ethereum)
+- [<font color="blue" size="5">ethereumBacking</font>](#ethereumBacking)
+- [<font color="blue" size="5">ethereumRelay</font>](#ethereumRelay)
+- [<font color="blue" size="5">ethereumRelayerGame</font>](#ethereumRelayerGame)
+- [<font color="blue" size="5">evm</font>](#evm)
+- [<font color="blue" size="5">messageGadget</font>](#messageGadget)
 
 
 ***
@@ -428,6 +437,415 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
+<span id="balances"><font size="6">balances</font></span>
+ <br></br>
+
+
+<font size="5">account(arg: AccountId32 | string | Uint8Array):DarwiniaCommonRuntimeImplsAccountData</font>
+
+
+ - **interface**:  `api.query.balances.account`<br></br>
+
+
+ - **summary**:The balance of an account.<br></br>
+
+
+
+<font size="5">locks(arg: AccountId32 | string | Uint8Array):Vec&lt;DarwiniaBalancesBalanceLock&gt;</font>
+
+
+ - **interface**:  `api.query.balances.locks`<br></br>
+
+
+ - **summary**:Any liquidity locks on some account balances.<br></br>
+
+
+
+<font size="5">reserves(arg: AccountId32 | string | Uint8Array):Vec&lt;DarwiniaBalancesReserveData&gt;</font>
+
+
+ - **interface**:  `api.query.balances.reserves`<br></br>
+
+
+ - **summary**:Named reserves on some account balances.<br></br>
+
+
+
+<font size="5">storageVersion(): DarwiniaBalancesReleases</font>
+
+
+ - **interface**:  `api.query.balances.storageVersion`<br></br>
+
+
+ - **summary**:Storage version of the pallet.<br></br>
+
+
+
+
+<font size="5">totalIssuance():u128</font>
+
+
+ - **interface**:  `api.query.balances.totalIssuance`<br></br>
+
+
+ - **summary**:The total units issued in the system.<br></br>
+
+
+<span id="baseFee"><font size="6">baseFee</font></span>
+ <br></br>
+
+
+
+<font size="5">baseFeePerGas():U256</font>
+
+
+ - **interface**:  `api.query.baseFee.baseFeePerGas`<br></br>
+
+
+ - **summary**: <br></br>
+
+
+ <font size="5">elasticity():Permill</font>
+
+
+ - **interface**:  `api.query.baseFee.elasticity`<br></br>
+
+
+ - **summary**: <br></br>
+
+
+
+ <font size="5">isActive():bool</font>
+
+
+ - **interface**:  `api.query.baseFee.isActive`<br></br>
+
+
+ - **summary**: <br></br>
+
+
+
+
+<span id="ecdsaAuthority"><font size="6">ecdsaAuthority</font></span>
+ <br></br>
+
+ <font size="5">authorities():Vec&lt;H160&gt;</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.authorities`<br></br>
+
+
+ - **summary**: The current active authorities.<br></br>
+
+
+
+
+
+
+ <font size="5">authoritiesChangeToSign():Option&lt;ITuple&lt;[DarwiniaEcdsaAuthorityPrimitivesOperation, Option&lt;u32&lt;, U8aFixed, Vec&lt;ITuple&lt;[H160, SpCoreEcdsaSignature]&lt;&lt;]&lt;&lt;</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.authoritiesChangeToSign`<br></br>
+
+
+ - **summary**: The authorities change waiting for signing.<br></br>
+
+
+
+ <font size="5">newMessageRootToSign():Option&lt;ITuple&lt;[DarwiniaEcdsaAuthorityPrimitivesCommitment, U8aFixed, Vec&lt;ITuple&lt;[H160, SpCoreEcdsaSignature]&gt;&gt;]&gt;&gt;</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.newMessageRootToSign`<br></br>
+
+
+ - **summary**: The new message root waiting for signing.<br></br>
+
+
+
+
+ <font size="5">nextAuthorities():Vec&lt;H160&gt;</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.nextAuthorities`<br></br>
+
+
+ - **summary**: The incoming authorities.<br></br>
+
+
+
+
+ <font size="5">nonce():u32</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.nonce`<br></br>
+
+
+ - **summary**: The nonce of the current active authorities. AKA term/session/era.<br></br>
+
+
+
+<font size="5">previousMessageRoot():Option&lt;ITuple&lt;[u32, H256]&gt;
+&gt;
+</font>
+
+
+ - **interface**:  `api.query.ecdsaAuthority.previousMessageRoot`<br></br>
+
+
+ - **summary**: Record the previous message root.<br></br>
+
+
+
+<span id="ecdsaRelayAuthority"><font size="6">ecdsaRelayAuthority</font></span>
+ <br></br>
+
+
+ <font size="5">authorities():Vec&lt;DarwiniaRelayAuthorityPrimitivesAuthority&gt;
+</font>
+
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.authorities`<br></br>
+
+
+ - **summary**: Authority must elect from candidates.<br></br>
+
+
+
+
+ <font size="5">authoritiesToSign():Option&lt;ITuple&lt;[U8aFixed, Vec&lt;ITuple&lt;[AccountId32, U8aFixed]&gt;&gt;]&gt;&gt;
+</font>
+
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.authoritiesToSign`<br></br>
+
+
+ - **summary**: The authorities change requirements.<br></br>
+
+
+
+
+ <font size="5">candidates(): Vec&lt;DarwiniaRelayAuthorityPrimitivesAuthority&gt;
+
+</font>
+
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.candidates`<br></br>
+
+
+ - **summary**: Anyone can request to be an authority with some stake.<br></br>
+
+
+
+ <font size="5">mmrRootsToSign(arg: u32 | AnyNumber | Uint8Array):  Option&lt;DarwiniaRelayAuthorityPrimitivesMmrRootToSign&gt;
+
+</font>
+
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.mmrRootsToSign`<br></br>
+
+
+ - **summary**: All the relay requirements from the backing module here.<br></br>
+
+
+
+
+ <font size="5">mmrRootsToSignKeys(): Vec&lt;u32&gt;</font>
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.mmrRootsToSignKeys`<br></br>
+
+
+ - **summary**: The `MmrRootsToSign` keys cache.<br></br>
+
+
+
+
+ <font size="5">nextAuthorities(): Option&lt;DarwiniaRelayAuthorityPrimitivesScheduledAuthoritiesChange&gt;</font>
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.nextAuthorities`<br></br>
+
+
+ - **summary**: The incoming authorities for the next term.<br></br>
+
+
+
+
+ <font size="5">nextTerm():u32</font>
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.nextTerm`<br></br>
+
+
+ - **summary**: Term index counter, play the same role as nonce in extrinsic.<br></br>
+
+
+
+ <font size="5">submitDuration():u32</font>
+
+ - **interface**:  `api.query.ecdsaRelayAuthority.submitDuration`<br></br>
+
+
+ - **summary**: The mmr root signature submit duration, will be delayed if on authorities change.<br></br>
+
+
+
+
+
+<span id="ethereum"><font size="6">ethereum</font></span>
+ <br></br>
+
+
+
+ <font size="5">blockHash(arg: U256 | AnyNumber | Uint8Array):H256</font>
+
+ - **interface**:  `api.query.ethereum.blockHash`<br></br>
+
+
+ - **summary**:  Mapping for block number and hashes.<br></br>
+
+
+
+ <font size="5">currentBlock():Option&lt;EthereumBlock&gt;
+</font>
+
+ - **interface**:  `api.query.ethereum.currentBlock`<br></br>
+
+
+ - **summary**:  The current Ethereum block.<br></br>
+
+
+
+
+<font size="5">currentReceipts():Option&lt;Vec&lt;EthereumReceiptReceiptV3&gt;&gt;
+</font>
+
+ - **interface**:  `api.query.ethereum.currentReceipts`<br></br>
+
+
+ - **summary**:  The current Ethereum receipts.<br></br>
+
+
+
+
+<font size="5">currentTransactionStatuses():Option&lt;Vec&lt;FpRpcTransactionStatus&gt;&gt;
+</font>
+
+ - **interface**:  `api.query.ethereum.currentTransactionStatuses`<br></br>
+
+
+ - **summary**:  The current transaction statuses.<br></br>
+
+
+<font size="5">pending():Vec&lt;ITuple&lt;[EthereumTransactionTransactionV2, FpRpcTransactionStatus, EthereumReceiptReceiptV3]&gt;&gt;
+</font>
+
+ - **interface**:  `api.query.ethereum.pending`<br></br>
+
+
+ - **summary**:  Current building block's transactions and receipts.<br></br>
+
+
+
+<font size="5">remainingKtonBalance(arg: AccountId32 | string | Uint8Array):u128
+</font>
+
+ - **interface**:  `api.query.ethereum.remainingKtonBalance`<br></br>
+
+
+ - **summary**:  Remaining kton balance for dvm account.<br></br>
+
+
+
+
+<font size="5">remainingRingBalance(arg: AccountId32 | string | Uint8Array):u128
+</font>
+
+ - **interface**:  `api.query.ethereum.remainingRingBalance`<br></br>
+
+
+ - **summary**:  Remaining ring balance for dvm account.<br></br>
+
+
+
+
+
+<span id="ethereumBacking"><font size="6">ethereumBacking</font></span>
+ <br></br>
+
+
+
+<font size="5">depositRedeemAddress():H160
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.depositRedeemAddress`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+
+<font size="5">ktonTokenAddress():H160
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.ktonTokenAddress`<br></br>
+
+
+ - **summary**:  <br></br>
+
+<font size="5">lockAssetEvents():Event
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.lockAssetEvents`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+<font size="5">redeemStatus():bool
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.redeemStatus`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+
+<font size="5">ringTokenAddress():H160
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.ringTokenAddress`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+
+ <font size="5">setAuthoritiesAddress():H160
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.setAuthoritiesAddress`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+ <font size="5">tokenRedeemAddress():H160
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.tokenRedeemAddress`<br></br>
+
+
+ - **summary**:  <br></br>
+
+
+
+ <font size="5">verifiedProof(arg: ITuple&lt;[H256, u64]&gt;
+ | [H256 | string | Uint8Array, u64 | AnyNumber | Uint8Array]):bool
+</font>
+
+ - **interface**:  `api.query.ethereumBacking.verifiedProof`<br></br>
+
+
+ - **summary**:  <br></br>
 
 
 
@@ -435,19 +853,208 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
+<span id="ethereumRelay"><font size="6">ethereumRelay</font></span>
+ <br></br>
 
 
 
 
 
+<font size="5">bestConfirmedBlockNumber():u64
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.bestConfirmedBlockNumber`<br></br>
+
+
+ - **summary**:  The highest ethereum block number that record in darwinia.<br></br>
+
+
+
+<font size="5">confirmedBlockNumbers():Vec&lt;u64&gt;
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.confirmedBlockNumbers`<br></br>
+
+
+ - **summary**: Confirmed Ethereum block numbers. <br></br>
+
+
+
+
+<font size="5">confirmedDepth():u32
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.confirmedDepth`<br></br>
+
+
+ - **summary**: Confirmed Ethereum block Depth. <br></br>
+
+
+
+
+<font size="5">confirmedHeaderParcels(arg: u64 | AnyNumber | Uint8Array):Option&lt;DarwiniaBridgeEthereumEthereumRelayHeaderParcel&gt;
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.confirmedHeaderParcels`<br></br>
+
+
+ - **summary**: Confirmed ethereum header parcel. <br></br>
 
 
 
 
 
+<font size="5">dagsMerkleRoots(arg: u64 | AnyNumber | Uint8Array):U8aFixed
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.dagsMerkleRoots`<br></br>
+
+
+ - **summary**: Dags merkle roots of ethereum epoch (each epoch is 30000). <br></br>
 
 
 
+
+
+<font size="5">pendingRelayHeaderParcels():Vec&lt;ITuple&lt;[u32, DarwiniaBridgeEthereumEthereumRelayHeaderParcel, DpRelayerGameRelayVotingState]&gt;&gt;
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.pendingRelayHeaderParcels`<br></br>
+
+
+ - **summary**:   <br></br>
+
+
+
+<font size="5">receiptVerifyFee():u128
+</font>
+
+ - **interface**:  `api.query.ethereumRelay.receiptVerifyFee`<br></br>
+
+
+ - **summary**:   <br></br>
+
+
+
+
+<span id="ethereumRelayerGame"><font size="6">ethereumRelayerGame</font></span>
+ <br></br>
+
+
+
+
+
+<font size="5">affirmations(arg1: u64 | AnyNumber | Uint8Array, arg2: u32 | AnyNumber | Uint8Array):Vec&lt;DpRelayerGameRelayAffirmation&gt;
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.affirmations`<br></br>
+
+
+ - **summary**:   All the active games' affirmations here.<br></br>
+
+
+
+<font size="5">affirmTime(arg: u64 | AnyNumber | Uint8Array):Option&lt;ITuple&lt;[u32, u32]&gt;&gt;
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.affirmTime`<br></br>
+
+
+ - **summary**:   All the closed games here.<br></br>
+
+
+
+
+<font size="5">bestConfirmedHeaderId(arg: u64 | AnyNumber | Uint8Array):u64
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.bestConfirmedHeaderId`<br></br>
+
+
+ - **summary**:   The best confirmed header id record of a game when it start.<br></br>
+
+
+
+
+
+<font size="5">gameSamplePoints(arg: u64 | AnyNumber | Uint8Array):Vec&lt;Vec&lt;u64&gt;&gt;
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.gameSamplePoints`<br></br>
+
+
+ - **summary**:    <br></br>
+
+
+
+<font size="5">gamesToUpdate(arg: u32 | AnyNumber | Uint8Array):Vec&lt;u64&gt;
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.gamesToUpdate`<br></br>
+
+
+ - **summary**:  All the closed rounds here. <br></br>
+
+
+<font size="5">relayHeaderParcelToResolve():Vec&lt;u64&gt;
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.relayHeaderParcelToResolve`<br></br>
+
+
+ - **summary**:  Active games' relay header parcel's ids. <br></br>
+
+
+
+<font size="5">roundCounts(arg: u64 | AnyNumber | Uint8Array):u32
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.roundCounts`<br></br>
+
+
+ - **summary**:  The total rounds of a game. <br></br>
+
+
+
+<font size="5">stakes(arg: AccountId32 | string | Uint8Array):u128
+
+</font>
+
+ - **interface**:  `api.query.ethereumRelayerGame.stakes`<br></br>
+
+
+ - **summary**:  All the stakes here. <br></br>
+
+
+<span id="evm"><font size="6">evm</font></span>
+ <br></br>
+
+<font size="5">accountCodes(arg: H160 | string | Uint8Array):Bytes
+
+</font>
+
+ - **interface**:  `api.query.evm.accountCodes`<br></br>
+
+
+ - **summary**:   <br></br>
+
+
+
+<font size="5">accountStorages(arg1: H160 | string | Uint8Array, arg2: H256 | string | Uint8Array):H256
+
+</font>
+
+ - **interface**:  `api.query.evm.accountStorages`<br></br>
+
+
+ - **summary**:   <br></br>
 
 
 
@@ -459,6 +1066,18 @@ The following sections contain Storage methods are part of the default Darwinia 
 
 
 
+<span id="messageGadget"><font size="6">messageGadget</font></span>
+ <br></br>
+
+
+<font size="5">commitmentContract():H160
+
+</font>
+
+ - **interface**:  `api.query.messageGadget.commitmentContract`<br></br>
+
+
+ - **summary**:   <br></br>
 
 
 

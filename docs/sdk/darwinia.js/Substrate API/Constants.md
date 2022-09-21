@@ -17,10 +17,12 @@ The following sections contain the module constants, also known as parameter typ
 - [<font color="blue" size="5">feeMarket</font>](#feeMarket)
 - [<font color="blue" size="5">ktonTreasury</font>](#ktonTreasury)
 - [<font color="blue" size="5">phragmenElection</font>](#phragmenElection)
-
 - [<font color="blue" size="5">tronBacking</font>](#tronBacking)
+- [<font color="blue" size="5">ecdsaAuthority</font>](#ecdsaAuthority)
+- [<font color="blue" size="5">ethereumBacking</font>](#ethereumBacking)
+- [<font color="blue" size="5">ethereumRelay</font>](#ethereumRelay)
+- [<font color="blue" size="5">ethereumRelayerGame</font>](#ethereumRelayerGame)
 
- 
 
 
 ***
@@ -262,14 +264,172 @@ The following sections contain the module constants, also known as parameter typ
 
 
 
+<span id="ecdsaAuthority"><font size="6">ecdsaAuthority</font></span>
+<br></br>
+
+
+<font size="5">chainId: Bytes </font>
+ 
+
+- **interface**:  `api.consts.ecdsaAuthority.chainId`<br></br>
+
+- **summary**: Chain's ID, which is using for constructing the message. (follow EIP-712 SPEC). <br></br>
+
+
+<font size="5">maxAuthorities: u32 </font>
+ 
+
+- **interface**:  `api.consts.ecdsaAuthority.maxAuthorities`<br></br>
+
+- **summary**: The maximum number of authorities. <br></br>
+
+
+
+<font size="5">maxPendingPeriod: u32 </font>
+ 
+
+- **interface**:  `api.consts.ecdsaAuthority.maxPendingPeriod`<br></br>
+
+- **summary**: How long should we wait for the message root to be signed. <br></br>
+
+
+
+<font size="5">signThreshold: Perbill </font>
+ 
+
+- **interface**:  `api.consts.ecdsaAuthority.signThreshold`<br></br>
+
+- **summary**: The signing threshold. <br></br>
+
+
+
+<font size="5">syncInterval: u32 </font>
+ 
+
+- **interface**:  `api.consts.ecdsaAuthority.syncInterval`<br></br>
+
+- **summary**: The interval of checking the message root. <br></br>
+
+
+
+
+
+ 
+
+
+
+<span id="ethereumBacking"><font size="6">ethereumBacking</font></span>
+<br></br>
+
+<font size="5">advancedFee: u128 </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.advancedFee`<br></br>
+
+- **summary**:  <br></br>
+
+<font size="5">feePalletId: FrameSupportPalletId </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.feePalletId`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">ktonLockLimit: u128 </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.ktonLockLimit`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">palletId: FrameSupportPalletId </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.palletId`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">ringLockLimit: u128 </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.ringLockLimit`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">syncReward: u128 </font>
+ 
+
+- **interface**:  `api.consts.ethereumBacking.syncReward`<br></br>
+
+- **summary**:  <br></br>
 
 
 
 
 
 
+<span id="ethereumRelay"><font size="6">ethereumRelay</font></span>
+<br></br>
 
 
+
+<font size="5">approveThreshold: Perbill </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelay.approveThreshold`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">confirmPeriod: u32 </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelay.confirmPeriod`<br></br>
+
+- **summary**:  <br></br>
+
+
+
+<font size="5">palletId: FrameSupportPalletId </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelay.palletId`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">rejectThreshold: Perbill </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelay.rejectThreshold`<br></br>
+
+- **summary**:  <br></br>
+
+
+
+<span id="ethereumRelayerGame"><font size="6">ethereumRelayerGame</font></span>
+<br></br>
+
+
+
+<font size="5">lockId: U8aFixed </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelayerGame.lockId`<br></br>
+
+- **summary**:  <br></br>
+
+
+<font size="5">maxActiveGames: u8 </font>
+ 
+
+- **interface**:  `api.consts.ethereumRelayerGame.maxActiveGames`<br></br>
+
+- **summary**:  <br></br>
 
 
 
