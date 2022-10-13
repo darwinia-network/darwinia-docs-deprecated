@@ -10,15 +10,17 @@ We first deploy a example Dapp. And then mock a user to use the Dapp to call a f
 
 ### Accounts
 
-1. **Dapp Account 1**: a `Pangolin Smart Chain` account to deploy contracts including `PangolinEndpoint` and `Caller`.
-2. **Dapp Account 2**: a `Moonbase Alpha` account to deploy contracts including `MoonbaseEndpoint` and `Callee`.
-3. **Dapp Account 3**: a `Pangolin Parachain` account which will be used to recharge user's derived account(**B**).
-4. **User Account**: a user account to send transaction on `Pangolin Smart Chain`. Below is the deriving path of the user account.
-   ![Address deriving](/img/address-deriving.png) 
-   **A1**: **User Account**.  
-   **A2**: **User Account** in substrate address format.  
-   **B**: derived substrate address of the **User Account** on Pangolin Parachain.  
-   **C**: derived evm address of the **User Account** on Moonbase Alpha.  
+1. **PSC Account 1**: a `Pangolin Smart Chain` account to deploy contracts including `PangolinEndpoint` and `Caller`.
+2. **MA Account 1**: a `Moonbase Alpha` account to deploy contracts including `MoonbaseEndpoint` and `Callee`.
+3. **PP Account 1**: a `Pangolin Parachain` account which will be used to recharge Dapp's derived account(**B**).
+4. **Dapp Accounts**: accounts belongs to the Dapp. `PangolinEndpoint`, `Caller`, `MoonbaseEndpoint` and `Callee` 's addresses are Dapp accounts.  
+   **Sender Account**: `PangolinEndpoint`'s address is the sender of the cross-chain message. Below is the deriving path of the **Sender Account**.
+    ![Address deriving](/img/address-deriving.png) 
+   **A1**: **Sender Account**, `PangolinEndpoint`'s address.  
+   **A2**: **Sender Account** in substrate address format.  
+   **B**: derived substrate address of the **Sender Account** on Pangolin Parachain.  
+   **C**: derived evm address of the **Sender Account** on Moonbase Alpha.  
+5. **User Account**: a user account to send transaction on `Pangolin Smart Chain`. This account will pay for the cross-chain fee. 
 
 ### Prepare Contracts(Dapp)
 
