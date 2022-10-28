@@ -49,15 +49,9 @@ html[data-theme='dark'] {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-article {
-  max-width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navbar .navbar__items {
+/* .navbar .navbar__items {
   flex: auto;
-}
+} */
 
 /* Announcement Bar */
 div[class^='announcementBarContent'] {
@@ -95,9 +89,4 @@ div[class^='announcementBarContent'] a:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 997px) {
-  /* Show inline table of contents on mobile only */
-  div[class^='tableOfContentsInline'] {
-    display: none;
-  }
-}
+

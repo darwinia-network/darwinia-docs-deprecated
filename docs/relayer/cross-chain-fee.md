@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Fee
+# Cross-chain Fee
 
 ## Fee Structure
 
@@ -31,5 +31,4 @@ Dapp developers can estimate fees through the App SDK.
    console.log(`the current market fee is ${fee}`);
  });
  ```
-
 

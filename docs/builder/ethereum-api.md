@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 105
 ---
 
-# Smart Chain API
+# Ethereum API
 
 ### Introduction
 

@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ### Smart Chain Parameters
 
-See [Darwinia Smart Chain](../../chains/darwinia-smart-chain)
+See [Darwinia Smart Chain](../../networks/darwinia)
 
 ## Deposit tokens
 

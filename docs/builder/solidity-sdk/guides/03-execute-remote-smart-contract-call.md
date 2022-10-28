@@ -40,8 +40,8 @@ In this example, we need two endpoints. One is for Pangoro Smart Chain, and the 
    Copy the flattened PangoroToPangolinEndpoint.sol to [Remix](https://remix.ethereum.org/) and deploy it to Pangoro Smart Chain.  
    > How to use Remix to deploy a contract? here are some useful articles.  
    [Creating and Deploying a Contract in Remix](https://remix-ide.readthedocs.io/en/latest/create_deploy.html)  
-   [Using Smart Chain with MetaMask](/sdk/guides/using-smart-chain-with-metamask)  
-   [Pangoro Smart Chain Info](/chains/darwinia-smart-chain#for-pangoro-smart-chain)
+   [Using Smart Chain with MetaMask](./using-smart-chain-with-metamask)  
+   [Pangoro Smart Chain Info](../../networks/darwinia)
 
 
 3. Deploy `PangolinToPangoroEndpoint` to Pangolin Smart Chain. 
