@@ -20,7 +20,7 @@ The fees is payed with the source chain assets. The transaction fee of the targe
 
 Fees paid to the Treasury and relayers are not set in stone. Anyone can become a relayer of `Darwinia Cross-Chain Messaging Service`, and they quote through their respective quotation strategies, and the quotations of all relayers form a fee market.
 
-Each time the cross-chain starts, the user's cross-chain fees will be prepaid, and after the cross-chain is successful, these fees will be allocated to the Treasury and relayers according to some rules. If you want to know more details of the rules, please check [this article](https://github.com/darwinia-network/darwinia-common/blob/main/frame/fee-market/README.md).
+Each time the cross-chain starts, the user's cross-chain fees will be prepaid, and after the cross-chain is successful, these fees will be allocated to the Treasury and relayers according to some rules. If you want to know more details of the rules, please check [this article](https://medium.com/darwinianetwork/what-can-a-cross-chain-message-relayer-get-ffb683b689cb).
 
 ## Fee Estimation
 
