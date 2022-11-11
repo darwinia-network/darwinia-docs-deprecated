@@ -5,7 +5,7 @@ title: Darwinia
 
 Darwinia is a chain based on substrate with cross-chain components, including substrate to ethereum and substrate to substrate. 
 
-Darwinia is now a parachain of [Polkadot](https://polkadot.subscan.io/parachain/2046).
+Darwinia is now a [parachain of Polkadot](https://polkadot.subscan.io/parachain/2046).
 
 ## Network Info
 
