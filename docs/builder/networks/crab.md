@@ -5,7 +5,7 @@ title: Crab
 
 Crab Network is a canary network with real economic value for Darwinia, and its positioning is similar to Polkadot's Kusama Network. To expect chaos is a reasonable assumption!
 
-Crab is now a parachain of [Kusama](https://kusama.subscan.io/parachain/2229).
+Crab is now a [parachain of Kusama](https://kusama.subscan.io/parachain/2229).
 
 ## Network Info
 
