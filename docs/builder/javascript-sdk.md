@@ -29,5 +29,5 @@ const receipt = await pangolin.calls.session.setKeys(
 console.log(`tx hash: ${receipt.transactionHash}`);
 ```
   
-[code](https://github.com/darwinia-network/darwinia-js-sdk) | [doc](http://xxx)
+[github](https://github.com/darwinia-network/darwinia-js-sdk) | [doc](http://xxx)
 
