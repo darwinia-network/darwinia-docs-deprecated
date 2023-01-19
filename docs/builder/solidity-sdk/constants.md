@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ## Chain Identifiers
 
-The chain identifier is used to uniquely identify the chain and is entered as a parameter when [setting the remote endpoint](./api-reference.md#_setRemoteEndpoint).
+The chain identifier is used to uniquely identify the chain.
 
     bytes4 constant _DARWINIA_CHAIN_ID = 0x64617277; // darw
     bytes4 constant _CRAB_CHAIN_ID = 0x63726162; // crab

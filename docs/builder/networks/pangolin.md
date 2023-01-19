@@ -3,22 +3,11 @@ sidebar_position: 3
 title: Pangolin
 ---
 
-Pangolin is the testnet of Crab.
+Pangolin is a testnet.
 
 ## Network Info
 
 - Network Name: Pangolin
-- Token Name: PRING
-- Token Decimal: 9
-- Block Explorer: 
-    - https://pangolin.subscan.io/
-- HTTP Endpoints:
-    - https://pangolin-rpc.darwinia.network
-- WSS Endpoints:
-    - wss://pangolin-rpc.darwinia.network
-
-#### EVM Info
-- Network Name: Pangolin Smart Chain
 - Token Name: PRING
 - Token Decimal: 18
 - ChainId: 43
@@ -38,4 +27,3 @@ Pangolin is the testnet of Crab.
 | Block    | 6 seconds | 1     |
 | Epoch    | 0.5 hour  | 300   |
 | Era      | 1.5 hours | 900   |
-

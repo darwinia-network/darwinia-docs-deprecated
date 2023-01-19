@@ -1,5 +1,5 @@
 ---
-sidebar_position: 109
+sidebar_position: 103
 ---
 
 # Testnet Faucets

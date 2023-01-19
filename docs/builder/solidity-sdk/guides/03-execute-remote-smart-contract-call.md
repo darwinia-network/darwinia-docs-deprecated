@@ -40,7 +40,6 @@ In this example, we need two endpoints. One is for Pangoro Smart Chain, and the 
    Copy the flattened PangoroToPangolinEndpoint.sol to [Remix](https://remix.ethereum.org/) and deploy it to Pangoro Smart Chain.  
    > How to use Remix to deploy a contract? here are some useful articles.  
    [Creating and Deploying a Contract in Remix](https://remix-ide.readthedocs.io/en/latest/create_deploy.html)  
-   [Using Smart Chain with MetaMask](./using-smart-chain-with-metamask)  
    [Pangoro Smart Chain Info](../../networks/darwinia)
 
 
@@ -119,7 +118,7 @@ Copy the flattened Caller.sol to Remix and deploy it to Pangoro Smart Chain. Mak
 
 ## Run
 
-1. You can get a estimated market fee by calling the [`fee`](../api-reference#fee) function of the PangoroToPangolinEndpoint contract.
+1. You can get a estimated market fee by calling the `fee` function of the PangoroToPangolinEndpoint contract.
 2. Call the `remoteAdd(callee)`. 
 
    * The param `callee` is the `Callee` contract address.   
