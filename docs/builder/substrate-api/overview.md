@@ -5,15 +5,15 @@ sidebar_position: 1
 # Overview
 
 
-[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia and Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some commonly code example to interact with Darwinia node using Darwinia.js API library.
+[Darwinia.js](https://github.com/darwinia-network/darwinia.js) API library allows application developers to query Darwinia and Pangoro chain and interact with the chain's substrate interfaces using JavaScript. In this docs, we will look into how we can use some common code examples to interact with Darwinia node using Darwinia.js API library.
 
 ### Dependencies
 
 The library sample mainly depends on the following libraries:
 
-- @polkadot/api The polkadot api library provides a Promise-style interface for performing related operations on the Darwinia chain
+- **@polkadot/api** The _polkadot api_ library provides a Promise-style interface for performing related operations on the Darwinia chain.
 
-- ethers.js The ethers aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.
+- **ethers.js** The _ethers.js_ library aims to be a complete and compact library for interacting with the Ethereum blockchain and its ecosystem.
 
 ### Usage
 
@@ -25,7 +25,7 @@ yarn add @darwinia/api-options
 
 ```
 
-Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact one of them. In this  you want to query and interact Darwinia node. Here is a config sample for using those node interfaces. we must configure **tsconfig.json** at compilerOptions section to apply type augmentation explicitly.
+Darwinia.js include Darwinia, Pangoro chain interfaces for developer to interact with one of them. With this, you can query and interact Darwinia node. Here is a config sample for using those node interfaces. we must configure **tsconfig.json** at compilerOptions section to apply type augmentation explicitly.
 
 
 
@@ -83,7 +83,7 @@ console.log(api.genesisHash.toHex());
 
 ```
 
-Due to darwinia has own substrate module and types, this mean developers are adding sepcific types for implementation as well. to close the gap, we have define types for different node spec versions. you could inject types by our **typesBundle** . let's change instantiate api instance to let Api know our types.
+Due to darwinia has own substrate module and types, this mean developers are adding sepcific types for implementation as well. To close the gap, we have defined types for different node spec versions. You could inject types by our **typesBundle** . Let's change instantiate api instance to let Api know our types.
 
 ```typescript
 // Import
@@ -111,5 +111,5 @@ None of the information contained within the api.{consts, query, tx}.`<module>`.
 
 #### API Example
 
-We take some common examples on ApiPromise version of API, They are same with Polkadot.js API  allow application developers to interact with node's interface 
-including "runtime constants", "state queries", "RPC queries" and so on. You can check the [Polkadot Docs](https://polkadot.js.org/docs/api/start) for more detail usage description.
+We take some common examples on ApiPromise version of API. They are same with Polkadot.js API  allow application developers to interact with node's interface 
+including "runtime constants", "state queries", "RPC queries" and so on. You can check the [Polkadot Docs](https://polkadot.js.org/docs/api/start) for more detailed usage description.
